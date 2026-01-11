@@ -1,0 +1,43 @@
+name: Merge source branch into master
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    outputs:
+      changed:
+        value: ${{ jobs.merge.outputs.changed }}
+      deleted:
+        value: ${{ jobs.merge.outputs.deleted }}
+
+jobs:
+  merge:
+    runs-on: ubuntu-24.04
+    outputs:
+      changed: ${{ steps.detect.outputs.changed }}
+      deleted: ${{ steps.detect.outputs.deleted }}
+
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: source
+
+      - name: Merge into master branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout master
+          git merge source --no-ff -m "Merge source branch"
+          git push origin master
+
+      - name: Detect changes
+        id: detect
+        run: |
+          before=${{ github.event.before }}
+          after=${{ github.event.after }}
+          changed=$(git diff --name-only --diff-filter=AM $before $after | grep '\.dsc$' || true)
+          deleted=$(git diff --name-only --diff-filter=D  $before $after | grep '\.dsc$' || true)
+
+          [ -z "$changed" ] || echo "changed=$(echo "$changed" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
+          [ -z "$deleted" ] || echo "deleted=$(echo "$deleted" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
