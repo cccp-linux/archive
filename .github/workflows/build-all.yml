@@ -1,9 +1,5 @@
 name: Build and publish binary and source packages
 
-env:
-  suites: 'sid resolute noble trixie'
-  arches: 'amd64 arm64 armhf'
-
 on:
   push:
     branches:
@@ -11,60 +7,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  detect:
-    runs-on: ubuntu-24.04
-    outputs:
-      changed: ${{ steps.detect.outputs.changed }}
-      deleted: ${{ steps.detect.outputs.deleted }}
-
-    steps:
-      - name: Checkout source branch
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: source
-
-      - name: Merge into master branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout master
-          git merge source --no-ff -m "Merge source branch"
-          git push origin master
-
-      - name: Detect changes
-        id: detect
-        run: |
-          before=${{ github.event.before }}
-          after=${{ github.event.after }}
-          changed=$(git diff --name-only --diff-filter=AM $before $after | grep '\.dsc$' || true)
-          deleted=$(git diff --name-only --diff-filter=D  $before $after | grep '\.dsc$' || true)
-
-          [ -z "$changed" ] || echo "changed=$(echo "$changed" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
-          [ -z "$deleted" ] || echo "deleted=$(echo "$deleted" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
+  merge:
+    uses: ./.github/workflows/merge.yml
 
   build:
-    needs: detect
-    if: ${{ needs.detect.outputs.changed }}
-
+    needs: merge
+    if: ${{ needs.merge.outputs.changed }}
     strategy:
       matrix:
-        path: ${{ fromJson(needs.detect.outputs.changed) }}
+        path: ${{ fromJson(needs.merge.outputs.changed) }}
       max-parallel: 1
-
     uses: ./.github/workflows/build-package.yml
     with:
       path: ${{ matrix.path }}
 
   delete:
-    needs: detect
-    if: ${{ needs.detect.outputs.deleted }}
-
+    needs: merge
+    if: ${{ needs.merge.outputs.deleted }}
     strategy:
       matrix:
-        path: ${{ fromJson(needs.detect.outputs.deleted) }}
+        path: ${{ fromJson(needs.merge.outputs.deleted) }}
       max-parallel: 1
-
     uses: ./.github/workflows/delete-package.yml
     with:
       path: ${{ matrix.path }}
@@ -72,57 +35,4 @@ jobs:
   publish:
     needs: [build, delete]
     if: always() && (needs.build.result == 'success' || needs.delete.result == 'success')
-
-    runs-on: ubuntu-24.04
-
-    steps:
-      - name: Checkout master branch
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-          ref: master
-
-      - name: Install apt utils
-        run: |
-          sudo apt-get update
-          sudo apt-get -y install --no-install-recommends apt-utils
-
-      - name: Update source indices
-        id: update
-        run: |
-          for suite in ${{ env.suites }}; do
-            sources=dists/$suite/main/source/Sources
-
-            apt-ftparchive sources pool/main > $sources
-            gzip -9c $sources > ${sources}.gz
-          done
-
-      - name: Update package indices
-        run: |
-          for suite in ${{ env.suites }}; do
-            paths=$(find pool/main/ -type d -name $suite)
-
-            for arch in ${{ env.arches }}; do
-              packages=dists/$suite/main/binary-$arch/Packages
-
-              echo "$paths" | while IFS= read -r path; do
-                apt-ftparchive packages --arch $arch $path
-              done > $packages
-              gzip -9c $packages > ${packages}.gz
-
-            done
-          done
-
-      - name: Create release file
-        run: |
-          for suite in ${{ env.suites }}; do
-            apt-ftparchive release dists/$suite > dists/$suite/Release
-          done
-
-      - name: Publish packages
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dists/
-          git commit -m "Update package metadata"
-          git push origin master
+    uses: ./.github/workflows/publish.yml

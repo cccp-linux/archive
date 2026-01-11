@@ -1,0 +1,65 @@
+name: Publish binary and source packages
+
+env:
+  suites: 'sid resolute noble trixie'
+  arches: 'amd64 arm64 armhf'
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: master
+
+      - name: Install apt utils
+        run: |
+          sudo apt-get update
+          sudo apt-get -y install --no-install-recommends apt-utils
+
+      - name: Update source indices
+        id: update
+        run: |
+          for suite in ${{ env.suites }}; do
+            sources=dists/$suite/main/source/Sources
+
+            apt-ftparchive sources pool/main > $sources
+            gzip -9c $sources > ${sources}.gz
+          done
+
+      - name: Update package indices
+        run: |
+          for suite in ${{ env.suites }}; do
+            paths=$(find pool/main/ -type d -name $suite)
+
+            for arch in ${{ env.arches }}; do
+              packages=dists/$suite/main/binary-$arch/Packages
+
+              echo "$paths" | while IFS= read -r path; do
+                apt-ftparchive packages --arch $arch $path
+              done > $packages
+              gzip -9c $packages > ${packages}.gz
+
+            done
+          done
+
+      - name: Create release file
+        run: |
+          for suite in ${{ env.suites }}; do
+            apt-ftparchive release dists/$suite > dists/$suite/Release
+          done
+
+      - name: Publish packages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dists/
+          git commit -m "Update package metadata"
+          git push origin master
