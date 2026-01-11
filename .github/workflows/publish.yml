@@ -1,9 +1,5 @@
 name: Publish binary and source packages
 
-env:
-  suites: 'sid resolute noble trixie'
-  arches: 'amd64 arm64 armhf'
-
 on:
   workflow_call:
     secrets:
@@ -33,8 +29,8 @@ jobs:
       - name: Update source indices
         id: update
         run: |
-          for suite in ${{ env.suites }}; do
-            sources=dists/$suite/main/source/Sources
+          for d in dists/*; do
+            [ -L $d ] && continue || sources=$d/main/source/Sources
 
             apt-ftparchive sources pool/main > $sources
             gzip -9c $sources > ${sources}.gz
@@ -42,13 +38,15 @@ jobs:
 
       - name: Update package indices
         run: |
-          for suite in ${{ env.suites }}; do
-            paths=$(find pool/main/ -type d -name $suite)
+          for d in dists/*; do
+            [ -L $d ] && continue || suite=$(echo $d | cut -d/ -f2)
 
-            for arch in ${{ env.arches }}; do
-              packages=dists/$suite/main/binary-$arch/Packages
+            for packages in dists/$suite/main/binary-*/Packages; do
+              arch=$(echo $packages | cut -d/ -f4 | cut -d- -f2)
 
-              echo "$paths" | while IFS= read -r path; do
+              for path in pool/main/*/$suite; do
+                [ -e $path ] || continue
+
                 apt-ftparchive packages --arch $arch $path
               done > $packages
               gzip -9c $packages > ${packages}.gz
@@ -58,8 +56,7 @@ jobs:
 
       - name: Create release file
         run: |
-          for suite in ${{ env.suites }}; do
-            path=dists/$suite
+          for path in dists/*; do
             apt-ftparchive release $path > $path/Release
 
             gpg --batch --yes --detach-sign --armor -o $path/Release.gpg $path/Release
