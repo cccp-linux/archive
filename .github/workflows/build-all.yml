@@ -36,3 +36,4 @@ jobs:
     needs: [build, delete]
     if: always() && (needs.build.result == 'success' || needs.delete.result == 'success')
     uses: ./.github/workflows/publish.yml
+    secrets: inherit
