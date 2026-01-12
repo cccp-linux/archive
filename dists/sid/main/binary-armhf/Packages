@@ -54,3 +54,20 @@ Description: Courier 10 Pitch font patched with Nerd Fonts
  Specifically to add a high number of extra glyphs from popular "iconic fonts"
  such as Font Awesome, Devicons, Octicons, and others.
 
+Package: term-meta
+Architecture: all
+Version: 0.9
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 28
+Depends: cage, foot
+Recommends: fonts-courier-nerd, gpm, tmux, wlr-randr
+Filename: pool/main/term-meta/sid/term-meta_0.9_all.deb
+Size: 4116
+MD5sum: 064831bc3a6436ef8ce4f66ad455a946
+SHA1: 54b08b0fb23c3e0734375dd8017b1cc4428e414f
+SHA256: 312b2a0603f0a01bb0aa3beabdd06ee7ccb51944a0cedc336c63a01e4d42e380
+SHA512: d947bb2cbf4a5d8cdf8e9a8562014a123ec24e7f52632b38c6a0cc8bc77ce620eef708d69f24168a322d9472248b724d85f9b65d0fccb42672762127fae1461b
+Description: Terminal meta-package
+

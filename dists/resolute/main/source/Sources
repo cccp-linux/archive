@@ -53,3 +53,53 @@ Checksums-Sha512:
  443a0b206a6198ad16d20c57a3c49039d0f15c8dc683844b8fc27e93e5529e75c6fc6d4506746bfc4bf33144fed2e968d0fada18b28cd6781f24c2b6885d6b97 5623800 fonts-courier-nerd_2.2.orig.tar.gz
  42f34cba5fb55f767d05c32db4e947e9afe410810e1df41245d643b2cd9203b2b2d2dbfd744a7712f8d2ab5acd3b4f51937954b3a4bc4586ece619c615b36d4a 1888 fonts-courier-nerd_2.2-1.debian.tar.xz
 
+Package: neovim-meta
+Format: 3.0 (native)
+Binary: neovim-meta
+Architecture: all
+Version: 0.4
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/neovim-meta
+Vcs-Git: https://github.com/cccp-linux/neovim-meta.git
+Directory: pool/main/neovim-meta
+Package-List:
+ neovim-meta deb metapackages optional arch=all
+Files:
+ d1e7bfc76275d9eb325b644a523ea29b 929 neovim-meta_0.4.dsc
+ ae0e025c5084fd327cbcabee29ac18f0 3516 neovim-meta_0.4.tar.xz
+Checksums-Sha1:
+ 56685863493d89c12817b3530ed3e19dd38e5cd6 929 neovim-meta_0.4.dsc
+ b310b53a264dee1cad948188a24f5063268cdb41 3516 neovim-meta_0.4.tar.xz
+Checksums-Sha256:
+ cfecc6191c842934ea5f7ed28b655ba583f5541ffc503f46a90ee5f962449c05 929 neovim-meta_0.4.dsc
+ 181e6d580cd3d60763d7c029308a00d8305e1e4635ebc5780ab3d5b556336986 3516 neovim-meta_0.4.tar.xz
+Checksums-Sha512:
+ 58274a4db530c90ec322f31a47ce99aa1fb0cd7c360f1e3b15c5e8a720470c71e1ac67e14ca52a5d44210ed461e501c04699ced707b1e9a0bd1c7d942c6c2202 929 neovim-meta_0.4.dsc
+ b8ab9dd8cf9dd252374492a95aa6d8b18c282ab2d3dedadc993f9df2d9606729213684c22ddca13a77a28ea757c6c8ef92538d50719de444bf7788a82773999c 3516 neovim-meta_0.4.tar.xz
+
+Package: term-meta
+Format: 3.0 (native)
+Binary: term-meta
+Architecture: all
+Version: 0.9
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Directory: pool/main/term-meta
+Package-List:
+ term-meta deb metapackages optional arch=all
+Files:
+ a6315b55ef6724fd5e3aa8eca5057e0a 807 term-meta_0.9.dsc
+ d835be8447a578a832cbd7986ff73fd7 3332 term-meta_0.9.tar.xz
+Checksums-Sha1:
+ c9e5a1c0d71c50111e4e69e04360d9526149754e 807 term-meta_0.9.dsc
+ 3cee4068f047232794e980811aaca3b87cd6a625 3332 term-meta_0.9.tar.xz
+Checksums-Sha256:
+ 9866f89568ed8e5df4b6adae37205dc100330e9eb01ef4202f304c8c9a901c90 807 term-meta_0.9.dsc
+ 3354f2b7ab1a4e8839ee679e9ba06e9217a31402a50233e377abb0024f1b59e2 3332 term-meta_0.9.tar.xz
+Checksums-Sha512:
+ f33b9610667a8569360389e7c5e2ff826785d775d865d1a68e8f759b1686e80540fd40844800db01393cbfb6371bd2ef0a5d85f9c0016fbe7d78d9b3b280e3c4 807 term-meta_0.9.dsc
+ 144ab2f177fecc945c27f5a8324a8b3a623e258d50f02dee3288d00e1aba74ddce824c29caeffcba30c44803fd4ef41c6d5542d3e0fe235fe1db1c0edf1a500c 3332 term-meta_0.9.tar.xz
+
