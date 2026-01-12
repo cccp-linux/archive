@@ -151,6 +151,26 @@ Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
 
+Package: neovim-statuscol
+Architecture: all
+Version: 1:0.0.1-40-gc461-3
+Priority: optional
+Section: editors
+Source: statuscol.nvim
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 67
+Depends: neovim (>= 0.10)
+Filename: pool/main/statuscol.nvim/resolute/neovim-statuscol_0.0.1-40-gc461-3_all.deb
+Size: 18186
+MD5sum: a4a9ba90732d0edb2d378885072a14f4
+SHA1: b4a64115f828c26addc7098be59fd9bb8c736b4f
+SHA256: 63ed2a19980d48b0ddee76860f29a200fd6ec7e5104d29827361050a9694b6df
+SHA512: 95805b8b59ed147effd8be8d990dcfa410a61d6beb5afed973ae82e24977b33a6fcf8f0a4f3d0accb2d01743130ae9f21f44c6fb512090fb4890cdc3538b794c
+Homepage: https://github.com/luukvbaal/statuscol.nvim
+Description: Status column plugin
+ Status column plugin that provides a configurable 'statuscolumn' and click
+ handlers.
+
 Package: term-meta
 Architecture: all
 Version: 0.9

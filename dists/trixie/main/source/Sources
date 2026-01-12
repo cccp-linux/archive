@@ -204,6 +204,37 @@ Checksums-Sha512:
  1e4db7d9fe8f8b748c802ecd1e3f0721105a85a48e284dc968646496ccc71b32753dcb11d634566f67f3c379fdb6ca2d4b9e346a06b4f084f3c8876d36c08171 128116 oil.nvim_2.15.0.orig.tar.gz
  0411dd2789adc770a0f28b148fdfb6ed98c69e477f3ccc12914390fc42db96b36d761c0e19fdb39e2c05c6ccc34e7fab579470086ec3bd1455d19eab3ddebee8 3824 oil.nvim_2.15.0-4.debian.tar.xz
 
+Package: statuscol.nvim
+Format: 3.0 (quilt)
+Binary: neovim-statuscol
+Architecture: all
+Version: 1:0.0.1-40-gc461-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://github.com/luukvbaal/statuscol.nvim
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/neovim-statuscol
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/neovim-statuscol.git
+Directory: pool/main/statuscol.nvim
+Package-List:
+ neovim-statuscol deb editors optional arch=all
+Files:
+ f868c756cb58ba074cb809da4160ea23 1408 statuscol.nvim_0.0.1-40-gc461-3.dsc
+ 51336a0724b37f417bc672e6c2264f21 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 8413a3f10f110e7eb5f9a65a21623c65 3904 statuscol.nvim_0.0.1-40-gc461-3.debian.tar.xz
+Checksums-Sha1:
+ 605a23ea881ab1f7a3dea77063c14c7632af592f 1408 statuscol.nvim_0.0.1-40-gc461-3.dsc
+ ea9151144855434ead4c90190cab01eebb1aadef 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 207b19442e53e75a3e425ac51a5cb203c438188e 3904 statuscol.nvim_0.0.1-40-gc461-3.debian.tar.xz
+Checksums-Sha256:
+ 4f70c195836c447c9586230b0234ac745aa55f592bfbc3a11eee8de543fa0c80 1408 statuscol.nvim_0.0.1-40-gc461-3.dsc
+ e71a13de01057f7a34b6d4f9bc118254684f3a704e894b22d84737fe64b3e798 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ c68cd1ea36a47e116a82a32a276bc8f418488a68e457584308721ba4d5397548 3904 statuscol.nvim_0.0.1-40-gc461-3.debian.tar.xz
+Checksums-Sha512:
+ 728b24a70b16e8e79562eccc34aaf851ac87ff29751cab1f645109b75b1b924e6a7322cfeb045cadedaaedcef59b3ffc384d6d35c987ef57c6b18c81a769bf82 1408 statuscol.nvim_0.0.1-40-gc461-3.dsc
+ 63fa60b5a986a25c156e2030e0415225c29da8bb838ca1335b77228a386cfb536a82cb5f9fea4325380b9564c678a99336b55392d529c7140997633c094b98bf 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 03399f784a9b2fadaf0b1d621828687114dfd530cfe62aad976506af2a6dd26150b1bfe7a802ed1d91ea178e8dbdde3c0e4bbb553ec287ff0adc5a9223d74857 3904 statuscol.nvim_0.0.1-40-gc461-3.debian.tar.xz
+
 Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
