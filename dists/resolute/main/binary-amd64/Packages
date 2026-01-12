@@ -54,6 +54,29 @@ Description: Courier 10 Pitch font patched with Nerd Fonts
  Specifically to add a high number of extra glyphs from popular "iconic fonts"
  such as Font Awesome, Devicons, Octicons, and others.
 
+Package: neovim-lualine
+Architecture: all
+Version: 1:0.0.6+git20251123-1.2
+Priority: optional
+Section: editors
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Installed-Size: 414
+Depends: neovim (>= 0.2.2-1~)
+Filename: pool/main/neovim-lualine/resolute/neovim-lualine_0.0.6+git20251123-1.2_all.deb
+Size: 83044
+MD5sum: f7b62da381349e4e17939a1c75d5aaee
+SHA1: 0192db3bf13e984f5e90c2f159fb8e36e59947e6
+SHA256: 2cadb83fdf0b3f7d851ee1e574c37bb9799ec6625e2686862f1990feef18c9dc
+SHA512: 2fc50e4e3662d7c11078cc800fd46613bae56e497bd1dcec749c8a04e902ffe3527d2be922426165ffc0ed79275d63f2a5939c13fbbdfecbe00a1fc88a4dc4ba
+Homepage: https://github.com/nvim-lualine/lualine.nvim
+Description: fast and light statusbar for neovim
+ lualine is a statusbar written for neovim, similar to airline. It's fast and
+ highly configureable. A variety of themes are provided; see
+ /usr/share/doc/neovim-lualine/THEMES.md. For configuration please refer to
+ /usr/share/doc/neovim-lualine/README.md and :help lualine.
+ .
+ This is a neovim-only plugin.
+
 Package: neovim-meta
 Architecture: all
 Version: 0.4
