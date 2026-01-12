@@ -33,3 +33,24 @@ SHA256: c50da5b635717b3ca1c7aef89856f2b50f6800be5d495b8efaca9dad1333636d
 SHA512: 40735595b368553e2750f105c45c292e9dc89eef2f6becbe467d7084163b41fd562c0f4ac874aae4c688b75cf771dd469560d9657131047be2ba324d0b1c74ea
 Description: Standard set of CCCP Linux packages
 
+Package: fonts-courier-nerd
+Architecture: all
+Version: 2.2-1
+Priority: optional
+Section: fonts
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9306
+Filename: pool/main/fonts-courier-nerd/trixie/fonts-courier-nerd_2.2-1_all.deb
+Size: 1406040
+MD5sum: 453fd7341d3ba914811dafca8baabb49
+SHA1: d31f955dd6d9128c1d4e26397387e734ddf8adfb
+SHA256: 6cea1c31bda15006215c036c4362181842aef21a68d4ed70d493954ecc71189c
+SHA512: 54b2394208d5ff4c28224622ec5aff2d4275f82a26c114c741af6113e2052c39fba1d932fc38863b99b745fda20210c80040f5d85de8c81f0f8011b3162f46dd
+Description: Courier 10 Pitch font patched with Nerd Fonts
+ This version of the Courier 10 Pitch font has been patched with the Nerd Fonts
+ patcher.
+ .
+ Nerd Fonts patches developer targeted fonts with a high number of glyphs.
+ Specifically to add a high number of extra glyphs from popular "iconic fonts"
+ such as Font Awesome, Devicons, Octicons, and others.
+
