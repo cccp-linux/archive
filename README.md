@@ -1,11 +1,18 @@
 # CCCP Linux
 
 ```
-Types: deb [deb-src]
+wget -O- https://cccp-linux.github.io/packages/cccp-linux-keyring.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cccp-linux-keyring.gpg
+
+suite=pika # sid resolute noble trixie
+arch=amd64 # arm64 armhf
+
+sudo tee /etc/apt/sources.list.d/cccp-linux.sources <<EOF
+Types: deb
 URIs: https://cccp-linux.github.io/packages
-Suites: sid | resolute | trixie | noble
+Suites: $suite
 Components: main
-Architectures: amd64 | arm64 | armhf
+Architectures: $arch
+EOF
 ```
 
 ## Authors

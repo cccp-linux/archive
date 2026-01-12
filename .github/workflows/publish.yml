@@ -1,12 +1,14 @@
 name: Publish binary and source packages
 
-env:
-  suites: 'sid resolute noble trixie'
-  arches: 'amd64 arm64 armhf'
-
 on:
   workflow_call:
+    secrets:
+      PGP_PRIVATE_KEY:
+        required: true
   workflow_dispatch:
+    secrets:
+      PGP_PRIVATE_KEY:
+        required: true
 
 jobs:
   publish:
@@ -19,16 +21,16 @@ jobs:
           fetch-depth: 1
           ref: master
 
-      - name: Install apt utils
+      - name: Install tools
         run: |
-          sudo apt-get update
-          sudo apt-get -y install --no-install-recommends apt-utils
+          sudo apt-get -y install --no-install-recommends apt-utils gpg
+          echo "${{ secrets.PGP_PRIVATE_KEY }}" | gpg --batch --import
 
       - name: Update source indices
         id: update
         run: |
-          for suite in ${{ env.suites }}; do
-            sources=dists/$suite/main/source/Sources
+          for d in dists/*; do
+            [ -L $d ] && continue || sources=$d/main/source/Sources
 
             apt-ftparchive sources pool/main > $sources
             gzip -9c $sources > ${sources}.gz
@@ -36,13 +38,15 @@ jobs:
 
       - name: Update package indices
         run: |
-          for suite in ${{ env.suites }}; do
-            paths=$(find pool/main/ -type d -name $suite)
+          for d in dists/*; do
+            [ -L $d ] && continue || suite=$(echo $d | cut -d/ -f2)
 
-            for arch in ${{ env.arches }}; do
-              packages=dists/$suite/main/binary-$arch/Packages
+            for packages in dists/$suite/main/binary-*/Packages; do
+              arch=$(echo $packages | cut -d/ -f4 | cut -d- -f2)
 
-              echo "$paths" | while IFS= read -r path; do
+              for path in pool/main/*/$suite; do
+                [ -e $path ] || continue
+
                 apt-ftparchive packages --arch $arch $path
               done > $packages
               gzip -9c $packages > ${packages}.gz
@@ -52,8 +56,11 @@ jobs:
 
       - name: Create release file
         run: |
-          for suite in ${{ env.suites }}; do
-            apt-ftparchive release dists/$suite > dists/$suite/Release
+          for path in dists/*; do
+            apt-ftparchive release $path > $path/Release
+
+            gpg --batch --yes --detach-sign --armor -o $path/Release.gpg $path/Release
+            gpg --batch --yes --clearsign -o $path/InRelease $path/Release
           done
 
       - name: Publish packages
