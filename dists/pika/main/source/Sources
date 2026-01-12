@@ -1,0 +1,25 @@
+Package: hello-world
+Format: 3.0 (native)
+Binary: hello-world, hello-world-out
+Architecture: any all
+Version: 1.0
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Directory: pool/main/hello-world
+Package-List:
+ hello-world deb misc optional arch=any
+ hello-world-out deb misc optional arch=all
+Files:
+ 1bacba6bb07751b276e10968bce0823e 598 hello-world_1.0.dsc
+ 8d186795da7aa84d5375617d5b189840 1188 hello-world_1.0.tar.xz
+Checksums-Sha1:
+ 8547d1702eb54f104a1b7ec1f9ad34167ac782e1 598 hello-world_1.0.dsc
+ 445916cf98933783a0be5f633553b68043f7a668 1188 hello-world_1.0.tar.xz
+Checksums-Sha256:
+ c0ee9488ff228e6e39c426936b94426671273c6f56c2bf1c37e414cbd4a66db1 598 hello-world_1.0.dsc
+ f40846d3399c6bf457e5fd4408a2fd22837ed720a0d5e6a3c0860b403a9353b7 1188 hello-world_1.0.tar.xz
+Checksums-Sha512:
+ eabb9db656dbbdf5c42dbd0f091f3e678ab5fef8699fcd0878464736589ad6cd18227653ac8b301a1202758a6ab34b4ee30abc49c660eb7c904d3701e9b98743 598 hello-world_1.0.dsc
+ fd2191939ca4faf7d03b3786263c823080787c10620269961c71d14478d01d1c889f6f01302c4b70ed63573e863bccb1fdfd3a999b230b0388b79f2ecd10ce08 1188 hello-world_1.0.tar.xz
+

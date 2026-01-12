@@ -6,16 +6,16 @@ Priority: optional
 Section: debug
 Source: hello-world
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 16
+Installed-Size: 17
 Depends: hello-world (= 1.0)
 Filename: pool/main/hello-world/sid/hello-world-dbgsym_1.0_armhf.deb
-Size: 2376
-MD5sum: 9d2fcddf34936f6f6b9491c3e7fdab80
-SHA1: df3520fe1775e95558124e0ae3fe240aff75aca1
-SHA256: 9cc6336a825b7ad9154691dd5438dbf939aba96314c2dd7649e27d80352828f6
-SHA512: b711877af5968da93dfd7e5ecec691d98c63db9a9d0ef6460308ab70018454a6acd6a4b1eb2518f88e32929071f771c8456942795b461dc797cd144d50905dd5
+Size: 2960
+MD5sum: 5d53fe1d33afae3c6ef45fb4463e8522
+SHA1: 7cedd093f96b28742c3ff091d28afcd7fa7359da
+SHA256: e85f04a58212d67974c4c9bcb29608372a4646f9061706f700902b3f477a64b1
+SHA512: b9b7add11643cbae058ba678cb429f7e5e995daf26d03877a3ccffc0799ac0ba8ae694355a4adca05a27128ebdc953636fa1fa212888a1faff3b6a153c521860
 Description: debug symbols for hello-world
-Build-Ids: c8ac4e8e0199ea55955163308c804c24504860d2
+Build-Ids: 57a0fd9e5fbda3233a87e9731bad9dfbb88d4cc9
 
 Package: hello-world-out
 Architecture: all
@@ -43,10 +43,10 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 75
 Depends: libc6 (>= 2.34)
 Filename: pool/main/hello-world/sid/hello-world_1.0_armhf.deb
-Size: 2796
-MD5sum: 8938df629c4a216142a1f96b68e2331b
-SHA1: 17b856d3e1328c8b763bc55f733245ef47f34b9f
-SHA256: 2f228fa839edbf120a0254fdeda2d33a4622be5160a7907f4eec6497d11d9757
-SHA512: ef0c4b2db4a64b66016d8c1c00cccfc07c5e514aa5ee00b3cafaf283153b6c44e332b1884fc656c637cb569c8fbe10f5c88dc50f00cbd362dc6fe173df85b4b0
+Size: 2812
+MD5sum: 61b5f7c031373b2d5214a914ce1337bb
+SHA1: fd56419b55fd37ca64132d3d6d8e3ea2a31cd1a7
+SHA256: a5b6d454f0a3a4ccfacabaa489819f73fa47f4a48526d34bf66470f472430f90
+SHA512: c1066195469284ffcfc9e476f820f497c96655935b82400642d05230b09c157ff6e8e77cbec44126511027c3612967d51b42a6d041c70abe1c8710fe15bec187
 Description: hello-world
 
