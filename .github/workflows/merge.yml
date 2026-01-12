@@ -6,15 +6,15 @@ on:
     outputs:
       changed:
         value: ${{ jobs.merge.outputs.changed }}
-      deleted:
-        value: ${{ jobs.merge.outputs.deleted }}
+      removed:
+        value: ${{ jobs.merge.outputs.removed }}
 
 jobs:
   merge:
     runs-on: ubuntu-24.04
     outputs:
       changed: ${{ steps.detect.outputs.changed }}
-      deleted: ${{ steps.detect.outputs.deleted }}
+      removed: ${{ steps.detect.outputs.removed }}
 
     steps:
       - name: Checkout source branch
@@ -37,7 +37,7 @@ jobs:
           before=${{ github.event.before }}
           after=${{ github.event.after }}
           changed=$(git diff --name-only --diff-filter=AM $before $after | grep '\.dsc$' || true)
-          deleted=$(git diff --name-only --diff-filter=D  $before $after | grep '\.dsc$' || true)
+          removed=$(git diff --name-only --diff-filter=D  $before $after | grep '\.dsc$' || true)
 
           [ -z "$changed" ] || echo "changed=$(echo "$changed" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
-          [ -z "$deleted" ] || echo "deleted=$(echo "$deleted" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
+          [ -z "$removed" ] || echo "removed=$(echo "$removed" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
