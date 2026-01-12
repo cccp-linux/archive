@@ -94,6 +94,63 @@ SHA256: df8d9cc0093e7c884586f6c11091904a9f6ae07bdb9fec5c63e3b53a03ad416e
 SHA512: 2f6e766dbfa04518595f12e6c9dcec6427ba7f86d9133c5c367bd060d7ae83083208fc7756a709562ec697a3deae4e1493ad1e9a31bc4111dcd13e9278ef59f0
 Description: Neovim meta-package
 
+Package: neovim-nightfox
+Architecture: all
+Version: 3.10.0-3
+Priority: optional
+Section: editors
+Source: nightfox.nvim
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 314
+Depends: neovim (>= 0.8)
+Filename: pool/main/nightfox.nvim/noble/neovim-nightfox_3.10.0-3_all.deb
+Size: 57414
+MD5sum: eb184125b4ba2e172b0dd5af768ebafc
+SHA1: ae9876ccff1c3e627ef30234941ad170b50bb647
+SHA256: c4186e1ff08402e9ffc8dd62ffacf860004375f8846ac942a46e9e4f1513412e
+SHA512: 23d4dfc801d15ad6dd0d9a4b2c285f2a0a26904a0fc27608f2cbc242de15af98b8b3125eca8d4101c21e8f5d1f3c60e51a8c65568ba2dc231304a64e07d17f6c
+Homepage: https://github.com/EdenEast/nightfox.nvim
+Description: NightFox theme for neovim
+ A highly customizable theme for vim and neovim with support for LSP,
+ tree-sitter and a variety of plugins.
+
+Package: neovim-web-devicons
+Architecture: all
+Version: 1:0.100-91-gb82-2
+Priority: optional
+Section: editors
+Source: nvim-web-devicons
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 239
+Depends: neovim (>= 0.7)
+Filename: pool/main/nvim-web-devicons/noble/neovim-web-devicons_0.100-91-gb82-2_all.deb
+Size: 29172
+MD5sum: e6f8e2556771c08934fae7856b9fd9b0
+SHA1: 7742508f4c7d5e746bff2fd8af1bc4e4d0c0cb2e
+SHA256: 9319a1ea4b0877758974517a026c4b351be0768445d29d2d6cd782fbed619661
+SHA512: 7d3e9be626605e29a18095f21b79579f5a7d55266b863b0a51ace40979ae04e435a7423159785f344be7f54b8942d6e37a240132075074dc162bf7538ef174fb
+Homepage: https://github.com/nvim-tree/nvim-web-devicons
+Description: Nerd Fonts icons for use by neovim plugins
+
+Package: neovim-oil
+Architecture: all
+Version: 2.15.0-4
+Priority: optional
+Section: editors
+Source: oil.nvim
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 454
+Depends: neovim (>= 0.8)
+Filename: pool/main/oil.nvim/noble/neovim-oil_2.15.0-4_all.deb
+Size: 81808
+MD5sum: 4c0601ec88645fe53ebdb48da78b1cd5
+SHA1: 2b6bcd3d07634939f59a01c4e18813c688dfbf07
+SHA256: d611b2fe6bfd3833dd40e97faa77004a9051bc6fc42be0ae31fffa7ab23700fc
+SHA512: 4c0909d48e48faef26f2cf2a1f932535a25c2d3a9ffcfb10459d422b3e66406d90575db26720a21c6f6244fc4b797857119891c3e9230df727be679a3bb83c65
+Homepage: https://github.com/stevearc/oil.nvim
+Description: Neovim file explorer
+ Edit your filesystem like a buffer.
+
 Package: term-meta
 Architecture: all
 Version: 0.9
