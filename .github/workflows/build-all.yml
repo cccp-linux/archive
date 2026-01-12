@@ -21,19 +21,19 @@ jobs:
     with:
       path: ${{ matrix.path }}
 
-  delete:
+  remove:
     needs: merge
-    if: ${{ needs.merge.outputs.deleted }}
+    if: ${{ needs.merge.outputs.removed }}
     strategy:
       matrix:
-        path: ${{ fromJson(needs.merge.outputs.deleted) }}
+        path: ${{ fromJson(needs.merge.outputs.removed) }}
       max-parallel: 1
-    uses: ./.github/workflows/delete-package.yml
+    uses: ./.github/workflows/remove-package.yml
     with:
       path: ${{ matrix.path }}
 
   publish:
-    needs: [build, delete]
-    if: always() && (needs.build.result == 'success' || needs.delete.result == 'success')
+    needs: [build, remove]
+    if: always() && (needs.build.result == 'success' || needs.remove.result == 'success')
     uses: ./.github/workflows/publish.yml
     secrets: inherit
