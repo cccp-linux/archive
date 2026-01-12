@@ -54,6 +54,23 @@ Description: Courier 10 Pitch font patched with Nerd Fonts
  Specifically to add a high number of extra glyphs from popular "iconic fonts"
  such as Font Awesome, Devicons, Octicons, and others.
 
+Package: neovim-meta
+Architecture: all
+Version: 0.4
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24
+Depends: neovim
+Recommends: neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
+Filename: pool/main/neovim-meta/resolute/neovim-meta_0.4_all.deb
+Size: 3978
+MD5sum: 11a6438e736106e4959103f9902aeb31
+SHA1: 432616260863c7e235f0bee508aff4c1e1e94b3a
+SHA256: df8d9cc0093e7c884586f6c11091904a9f6ae07bdb9fec5c63e3b53a03ad416e
+SHA512: 2f6e766dbfa04518595f12e6c9dcec6427ba7f86d9133c5c367bd060d7ae83083208fc7756a709562ec697a3deae4e1493ad1e9a31bc4111dcd13e9278ef59f0
+Description: Neovim meta-package
+
 Package: term-meta
 Architecture: all
 Version: 0.9
