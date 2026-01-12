@@ -1,7 +1,8 @@
 # CCCP Linux
 
 ```
-wget -O- https://cccp-linux.github.io/packages/cccp-linux-keyring.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cccp-linux-keyring.gpg
+url=https://cccp-linux.github.io/packages/cccp-linux-keyring.asc
+wget -qO- $url | gpg --dearmor | sudo tee /etc/apt/keyrings/cccp-linux-keyring.gpg
 ```
 
 ```
