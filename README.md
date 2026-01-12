@@ -2,16 +2,21 @@
 
 ```
 wget -O- https://cccp-linux.github.io/packages/cccp-linux-keyring.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/cccp-linux-keyring.gpg
+```
 
+```
 suite=pika # sid resolute noble trixie
 arch=amd64 # arm64 armhf
+```
 
+```
 sudo tee /etc/apt/sources.list.d/cccp-linux.sources <<EOF
 Types: deb
 URIs: https://cccp-linux.github.io/packages
 Suites: $suite
 Components: main
 Architectures: $arch
+Signed-By: /etc/apt/keyrings/cccp-linux-keyring.gpg
 EOF
 ```
 
