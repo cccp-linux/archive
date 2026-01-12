@@ -56,11 +56,20 @@ jobs:
 
       - name: Create release file
         run: |
-          for path in dists/*; do
-            apt-ftparchive release $path > $path/Release
+          for d in dists/*; do
+            [ -L $d ] && continue || suite=$(echo $d | cut -d/ -f2)
+            
+            cat >/tmp/arch.conf <<EOF
+          APT::FTPArchive::Release {
+            Origin "CCCP Linux";
+            Suite "$suite";
+            Codename "$suite";
+          };
+          EOF
+            apt-ftparchive -c /tmp/arch.conf release $d > $d/Release
 
-            gpg --batch --yes --detach-sign --armor -o $path/Release.gpg $path/Release
-            gpg --batch --yes --clearsign -o $path/InRelease $path/Release
+            gpg --batch --yes --detach-sign --armor -o $d/Release.gpg $d/Release
+            gpg --batch --yes --clearsign -o $d/InRelease $d/Release
           done
 
       - name: Publish packages
