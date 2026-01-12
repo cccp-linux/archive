@@ -1,0 +1,35 @@
+Package: cccp-boot-meta
+Architecture: all
+Version: 0.13
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 13
+Depends: initramfs-tools, linux-headers-generic | kernel-pika, linux-image-generic | kernel-pika, systemd-boot, zstd
+Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_0.13_all.deb
+Size: 2428
+MD5sum: e5bd41ab70f2a22c122e2e89bf91e896
+SHA1: 7de5235a4a6f7926973a76bc4d52ae93659d1c97
+SHA256: 78f3f79176b9ca104309e1bb77727d183c970dc91e665226aa57a1d815f94cec
+SHA512: 6dddc93f8a7fe1a1fc72f0adb1e813c99a02ba7bfee6d2fdd187cfc8535e38be8480f4cba127e548a8b080e9fa4632ed087d73a8d2dc8e8e7c1ff7deab414eeb
+Description: Kernel and boot packages
+
+Package: cccp-standard-meta
+Architecture: all
+Version: 0.13
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18
+Depends: adduser, apt, awk, console-setup, debconf, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, hdparm, info, iproute2, iputils-ping, kbd, kmod, less, libpam-systemd, locales, login, logrotate, lshw, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, strace, sudo, sysstat, systemd, systemd-sysv, time, trace-cmd, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny, whiptail
+Recommends: bash-completion, bind9-dnsutils, busybox-static, bzip2, command-not-found, cpio, debian-archive-keyring, exfatprogs, fzf, htop, iputils-tracepath, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, systemd-homed, systemd-resolved, systemd-timesyncd, telnet, ufw, uuid-runtime, wget, xz-utils, zip
+Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_0.13_all.deb
+Size: 3984
+MD5sum: 2b603f1ea20febdfb4d23bdc5e31c3f3
+SHA1: 1db0cc8d5770ba7eaf26d716d84f119a7806d24b
+SHA256: c50da5b635717b3ca1c7aef89856f2b50f6800be5d495b8efaca9dad1333636d
+SHA512: 40735595b368553e2750f105c45c292e9dc89eef2f6becbe467d7084163b41fd562c0f4ac874aae4c688b75cf771dd469560d9657131047be2ba324d0b1c74ea
+Description: Standard set of CCCP Linux packages
+

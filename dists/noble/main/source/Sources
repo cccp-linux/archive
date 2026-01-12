@@ -1,0 +1,25 @@
+Package: cccp-meta
+Format: 3.0 (native)
+Binary: cccp-standard-meta, cccp-boot-meta
+Architecture: all
+Version: 0.13
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Directory: pool/main/cccp-meta
+Package-List:
+ cccp-boot-meta deb metapackages optional arch=all
+ cccp-standard-meta deb metapackages optional arch=all
+Files:
+ d105a5e066d3b26ca4af82698458b04e 899 cccp-meta_0.13.dsc
+ 98085444f2a4a05eb22a21582e520a1a 14444 cccp-meta_0.13.tar.xz
+Checksums-Sha1:
+ a5c9129d5cb3647a86ba0cbff4c1e030aea1bba8 899 cccp-meta_0.13.dsc
+ af89081c16254dae9c5a512fc6bf394660bed3ab 14444 cccp-meta_0.13.tar.xz
+Checksums-Sha256:
+ 5364fdab01de25228c05beef4e33ff9a3d107c9f25eb9ddd7fc4732a94fe0a8f 899 cccp-meta_0.13.dsc
+ a6e4d469c6516e07b50bd420e9ea878ef4117755883ac2179e1cf1637a673823 14444 cccp-meta_0.13.tar.xz
+Checksums-Sha512:
+ 3dc86798d57ce72e81478196adc46de8b790f59bc1a5887d88e48264e3a0d1e3bdb164bec7e276fa3f5773b60ec068a68be8723821e41f40ebe3b37211af174c 899 cccp-meta_0.13.dsc
+ b67b5dc2d412d37709f24a2a6704334d84855794c666115ce8c84da158b33feda9560d85d96ae526d549672a58daa62acc890514116b81baffd489123dce41d4 14444 cccp-meta_0.13.tar.xz
+

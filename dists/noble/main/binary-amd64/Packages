@@ -1,0 +1,35 @@
+Package: cccp-boot-meta
+Architecture: all
+Version: 0.13
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 13
+Depends: initramfs-tools, linux-headers-generic | kernel-pika, linux-image-generic | kernel-pika, systemd-boot, zstd
+Filename: pool/main/cccp-meta/noble/cccp-boot-meta_0.13_all.deb
+Size: 2326
+MD5sum: e6d214ce2af87d1f996d6a9ec1e551eb
+SHA1: b27ad9d4a90251e8805eb940854e51916264e61c
+SHA256: 27990945f875e20ebd08468afed1f19a0ccbcf10159f0fb52fe971fc0bd27a18
+SHA512: 4b3d1f9c70017d531a41112720fcd2bdda95ed69ede78590d52784b211d23287bd1264838b2a376d69de1fd0c3b35f4fb9b2fde6c2aa3e2cf7fbe16202286afa
+Description: Kernel and boot packages
+
+Package: cccp-standard-meta
+Architecture: all
+Version: 0.13
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18
+Depends: adduser, apt, awk, console-setup, debconf, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, hdparm, info, iproute2, iputils-ping, kbd, kmod, less, libpam-systemd, locales, login, logrotate, lshw, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, strace, sudo, sysstat, systemd, systemd-sysv, time, trace-cmd, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny, whiptail
+Recommends: bash-completion, bind9-dnsutils, busybox-static, bzip2, command-not-found, cpio, debian-archive-keyring, exfatprogs, fzf, htop, iputils-tracepath, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, systemd-homed, systemd-resolved, systemd-timesyncd, telnet, ufw, uuid-runtime, wget, xz-utils, zip
+Filename: pool/main/cccp-meta/noble/cccp-standard-meta_0.13_all.deb
+Size: 3890
+MD5sum: d4a221d02b48ad6331e1b4b572f5e493
+SHA1: 5387bbeba6c351fc6d9655ac0507e25e949158d8
+SHA256: fedcbf6228804a9999af07b7218caa9c1bcfefb41a19e9dbd61afff4976dae0d
+SHA512: 25966bc34632c425cae2695d7755d3cf802c543eaf92c6a28e388e08295f7f0f7e0257542ccfd7bd3763167e99f0a34ab85e1a83f3bc0e6427ce1decc154f1aa
+Description: Standard set of CCCP Linux packages
+
