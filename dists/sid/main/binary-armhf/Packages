@@ -94,6 +94,30 @@ SHA256: c35ca1d1388e10439be6af99f7e8eb3a870597d3a112d0716b60cd5299e39e2f
 SHA512: 68fd7ae6b0aa3abe7a585d8467b0f8f3ab6df3c12271aea995311de366d3b1bb08caa1f9c00308032cb05fb46d679c0c1f467a84d3f5ff2a0621b75610be499d
 Description: Neovim meta-package
 
+Package: neovim-which-key
+Architecture: all
+Version: 3.17.0-2
+Priority: optional
+Section: editors
+Maintainer: Debian Vim Team <team+vim@tracker.debian.org>
+Installed-Size: 192
+Depends: neovim (>= 0.2.2-1~)
+Filename: pool/main/neovim-which-key/sid/neovim-which-key_3.17.0-2_all.deb
+Size: 59712
+MD5sum: 5116d222f039fd8f9b376d01efbb67fd
+SHA1: 75698d4a3bb57be3d73f68d514b8ea229c03268d
+SHA256: 265d265500571bdbcec7941c1921c4bd260fd826db025603d6e0de706e178fa8
+SHA512: 7049f2e8f79384fd8d475064ec26b5e26b87400de6dbff9f17423b0a0121e7f8d52ef01e5f04338868c2f36457b38f8efecbe95dcdf4920e249fa544ea452742
+Homepage: https://github.com/folke/which-key.nvim
+Description: Which-key helps you remember your keymaps in neovim
+ Which-key is one of the most used neovim plugins. It helps you remember
+ your keymaps by showing available keybinds as a pop-up while you type.
+ It is a highly configurable plugin that works in all modes of neovim,
+ and can be turned on/off for each mode independently.
+ Which-Key also provides support for icons by using nerdfonts, or the plugins:
+ nvim-web-devicons or mini.icons (these plugins must be installed
+ separately if used).
+
 Package: neovim-nightfox
 Architecture: all
 Version: 3.10.0-3
