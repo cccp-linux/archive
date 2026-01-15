@@ -72,6 +72,7 @@ jobs:
 
   collect:
     needs: build
+    if: always()
     runs-on: ubuntu-24.04
     steps:
       - name: Check out master
@@ -94,7 +95,7 @@ jobs:
           suites=$(ls /tmp/build/ | cut -d- -f2 | sort | uniq)
           for suite in $suites; do
             mkdir -p $pool/$suite
-            cp -u /tmp/build/build-$suite-*/* $pool/$suite/
+            cp -u /tmp/build/build-$suite-*/* $pool/$suite/ || true
           done
 
           git config user.name "github-actions[bot]"
