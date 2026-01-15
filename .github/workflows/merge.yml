@@ -36,8 +36,8 @@ jobs:
         run: |
           before=${{ github.event.before }}
           after=${{ github.event.after }}
-          changed=$(git diff --name-only --diff-filter=AM $before $after | grep '\.dsc$' || true)
-          removed=$(git diff --name-only --diff-filter=D  $before $after | grep '\.dsc$' || true)
+          changed=$(git diff --name-only --no-renames --diff-filter=AM $before $after | grep '\.dsc$' || true)
+          removed=$(git diff --name-only --no-renames --diff-filter=D  $before $after | grep '\.dsc$' || true)
 
           [ -z "$changed" ] || echo "changed=$(echo "$changed" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
           [ -z "$removed" ] || echo "removed=$(echo "$removed" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
