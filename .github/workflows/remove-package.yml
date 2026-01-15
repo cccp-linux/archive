@@ -24,11 +24,12 @@ jobs:
 
       - name: Remove artifacts
         run: |
-          name=$(basename ${{ inputs.path }})
+          name=$(basename ${{ inputs.path }} .dsc)
+          vers=${name#*_}
           pool=$(dirname ${{ inputs.path }})
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git rm -rf $pool
+          git rm -rf $pool/*/*_${vers}_*
           git commit -m "Remove $name build artifacts"
           git push origin master
