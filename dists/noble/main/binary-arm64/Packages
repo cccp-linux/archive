@@ -197,18 +197,18 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.9
+Version: 0.10
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 28
-Depends: cage, foot
+Installed-Size: 26
+Depends: alacritty | foot, cage
 Recommends: fonts-courier-nerd, gpm, tmux, wlr-randr
-Filename: pool/main/term-meta/noble/term-meta_0.9_all.deb
-Size: 4034
-MD5sum: e276edc439c712b299084779b51ea8cc
-SHA1: 105abd820902d069c697ab4b6dcd5f58b18e43d6
-SHA256: 89fc22b7154486c1bed7bc960be87dc762296dffaad5bfde4664f867f5c9abaa
-SHA512: 848372475b482bf11b150dc25da3172a6a421c569949e39b57493173a792514d8d2f6797edb35fdcc6aba6859bfc3666d3aa2e70ea516267496ec214a97e9e37
+Filename: pool/main/term-meta/noble/term-meta_0.10_all.deb
+Size: 3824
+MD5sum: 337502308059bb58946b9930ef066831
+SHA1: 4a7033b72509bcebd10e413a2a37e51809c4fcbd
+SHA256: b5f7db5146f812ea9cbadb7a881aab9997874dedc6615d25a052a05771018ce3
+SHA512: 258f7ed073b581bb9f12d245d890ccfbf06817217b0a0f8dbfb7f19304f0499d62a790693528d1e6d682e80397ecf8bc07f275db29607a6a48c3ddd5dbaabfbc
 Description: Terminal meta-package
 
