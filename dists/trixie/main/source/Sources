@@ -2,7 +2,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: all
-Version: 0.13
+Version: 0.14
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -11,17 +11,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=all
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- d105a5e066d3b26ca4af82698458b04e 899 cccp-meta_0.13.dsc
- 98085444f2a4a05eb22a21582e520a1a 14444 cccp-meta_0.13.tar.xz
+ d69a04d69551138a30dbd40196fb9151 899 cccp-meta_0.14.dsc
+ 70d94d5c37ba266b2456d8e291b30804 14732 cccp-meta_0.14.tar.xz
 Checksums-Sha1:
- a5c9129d5cb3647a86ba0cbff4c1e030aea1bba8 899 cccp-meta_0.13.dsc
- af89081c16254dae9c5a512fc6bf394660bed3ab 14444 cccp-meta_0.13.tar.xz
+ 55a29c3216332472507362430cfc2125ee83c383 899 cccp-meta_0.14.dsc
+ a632841ab0b20ed665d86d5d1253f0d0eefc5079 14732 cccp-meta_0.14.tar.xz
 Checksums-Sha256:
- 5364fdab01de25228c05beef4e33ff9a3d107c9f25eb9ddd7fc4732a94fe0a8f 899 cccp-meta_0.13.dsc
- a6e4d469c6516e07b50bd420e9ea878ef4117755883ac2179e1cf1637a673823 14444 cccp-meta_0.13.tar.xz
+ f21481bd76015ebcebec8bce7def4fda69145db5cd1d3d494ea788ff8c47f2de 899 cccp-meta_0.14.dsc
+ 159db1b085c3215d72edd5ff2ff6ef7fe4e28851f6e38b167bfbc156821bf686 14732 cccp-meta_0.14.tar.xz
 Checksums-Sha512:
- 3dc86798d57ce72e81478196adc46de8b790f59bc1a5887d88e48264e3a0d1e3bdb164bec7e276fa3f5773b60ec068a68be8723821e41f40ebe3b37211af174c 899 cccp-meta_0.13.dsc
- b67b5dc2d412d37709f24a2a6704334d84855794c666115ce8c84da158b33feda9560d85d96ae526d549672a58daa62acc890514116b81baffd489123dce41d4 14444 cccp-meta_0.13.tar.xz
+ be64425492f9b677c18e08a8afabee76588d935bc8b8df9da4cb044687239a53ed8823582f7a561530e3a9187d0bef9e813025c005c51893df6e6a9ccccb0fac 899 cccp-meta_0.14.dsc
+ ce2781229f8a2eec756887855bf2a51fc3d25ae9d3774ffd2478fc99ddf2b7314f7ac9cbbcad57751f61d0f2b9c2f2b4ed5c49689407d60d3835c058a917799e 14732 cccp-meta_0.14.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
@@ -89,7 +89,7 @@ Package: neovim-meta
 Format: 3.0 (native)
 Binary: neovim-meta
 Architecture: all
-Version: 0.4
+Version: 0.5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -99,17 +99,17 @@ Directory: pool/main/neovim-meta
 Package-List:
  neovim-meta deb metapackages optional arch=all
 Files:
- d1e7bfc76275d9eb325b644a523ea29b 929 neovim-meta_0.4.dsc
- ae0e025c5084fd327cbcabee29ac18f0 3516 neovim-meta_0.4.tar.xz
+ b8e5dbe8aad1c33282d8cb78ce518318 929 neovim-meta_0.5.dsc
+ 2351f93f7d086537ec44aeeb7aba89da 3552 neovim-meta_0.5.tar.xz
 Checksums-Sha1:
- 56685863493d89c12817b3530ed3e19dd38e5cd6 929 neovim-meta_0.4.dsc
- b310b53a264dee1cad948188a24f5063268cdb41 3516 neovim-meta_0.4.tar.xz
+ 92adf5e2c4a67b07a3217f7a09052e345b875686 929 neovim-meta_0.5.dsc
+ 0b655eca54ad49ca164f22ab76a2dbd2be42616a 3552 neovim-meta_0.5.tar.xz
 Checksums-Sha256:
- cfecc6191c842934ea5f7ed28b655ba583f5541ffc503f46a90ee5f962449c05 929 neovim-meta_0.4.dsc
- 181e6d580cd3d60763d7c029308a00d8305e1e4635ebc5780ab3d5b556336986 3516 neovim-meta_0.4.tar.xz
+ 70537abe4dd333da4d2895afa9187a9acccfc62b08f4ddb2c3a4de71715ef2e8 929 neovim-meta_0.5.dsc
+ 2a70a52b04041c8b7e988883ce42201c427f1f7f112614c798d2a35c5b074355 3552 neovim-meta_0.5.tar.xz
 Checksums-Sha512:
- 58274a4db530c90ec322f31a47ce99aa1fb0cd7c360f1e3b15c5e8a720470c71e1ac67e14ca52a5d44210ed461e501c04699ced707b1e9a0bd1c7d942c6c2202 929 neovim-meta_0.4.dsc
- b8ab9dd8cf9dd252374492a95aa6d8b18c282ab2d3dedadc993f9df2d9606729213684c22ddca13a77a28ea757c6c8ef92538d50719de444bf7788a82773999c 3516 neovim-meta_0.4.tar.xz
+ b148732fbb493ed12a67a215e1681df2f23ad81fe83962486673e49a92d716899df585c8bbef3e8b1057a4a834bbfb4d2ea9662d3e9c88adcc34659fe4f70086 929 neovim-meta_0.5.dsc
+ d1a7b4d198c2230904595e2ebdbda088c15edcbb86bdf950cc411a932b40633a57372e091eacea8d44459157802ca07d423f61adabdc9f4328cfe784ccf4d702 3552 neovim-meta_0.5.tar.xz
 
 Package: neovim-which-key
 Format: 3.0 (quilt)

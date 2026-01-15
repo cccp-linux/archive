@@ -1,36 +1,36 @@
 Package: cccp-boot-meta
 Architecture: all
-Version: 0.13
+Version: 0.14
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 13
-Depends: initramfs-tools, linux-headers-generic | kernel-pika, linux-image-generic | kernel-pika, systemd-boot, zstd
-Filename: pool/main/cccp-meta/resolute/cccp-boot-meta_0.13_all.deb
-Size: 2326
-MD5sum: e6d214ce2af87d1f996d6a9ec1e551eb
-SHA1: b27ad9d4a90251e8805eb940854e51916264e61c
-SHA256: 27990945f875e20ebd08468afed1f19a0ccbcf10159f0fb52fe971fc0bd27a18
-SHA512: 4b3d1f9c70017d531a41112720fcd2bdda95ed69ede78590d52784b211d23287bd1264838b2a376d69de1fd0c3b35f4fb9b2fde6c2aa3e2cf7fbe16202286afa
+Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
+Filename: pool/main/cccp-meta/resolute/cccp-boot-meta_0.14_all.deb
+Size: 2356
+MD5sum: bf7354c0ba48a0907b3f8c41cec7fa02
+SHA1: 4b627ef7bfdb344bab8017b21159c01f8a4df33c
+SHA256: e086bae5e136fb65c3c209630297b9b45649afba83f8e1a963fe1a9ce0983e21
+SHA512: 546a2818d3e35566e9e83bbc63d70e010a9c1aaa0add7fc619297ec9a3837b81ac484404587bac53783f7d78af239cd36f43ec4006ae3c6fe7de7ce3577435d0
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.13
+Version: 0.14
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 18
+Installed-Size: 23
 Depends: adduser, apt, awk, console-setup, debconf, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, hdparm, info, iproute2, iputils-ping, kbd, kmod, less, libpam-systemd, locales, login, logrotate, lshw, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, strace, sudo, sysstat, systemd, systemd-sysv, time, trace-cmd, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny, whiptail
-Recommends: bash-completion, bind9-dnsutils, busybox-static, bzip2, command-not-found, cpio, debian-archive-keyring, exfatprogs, fzf, htop, iputils-tracepath, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, systemd-homed, systemd-resolved, systemd-timesyncd, telnet, ufw, uuid-runtime, wget, xz-utils, zip
-Filename: pool/main/cccp-meta/resolute/cccp-standard-meta_0.13_all.deb
-Size: 3890
-MD5sum: d4a221d02b48ad6331e1b4b572f5e493
-SHA1: 5387bbeba6c351fc6d9655ac0507e25e949158d8
-SHA256: fedcbf6228804a9999af07b7218caa9c1bcfefb41a19e9dbd61afff4976dae0d
-SHA512: 25966bc34632c425cae2695d7755d3cf802c543eaf92c6a28e388e08295f7f0f7e0257542ccfd7bd3763167e99f0a34ab85e1a83f3bc0e6427ce1decc154f1aa
+Recommends: bash-completion, bind9-dnsutils, busybox-static, bzip2, command-not-found, cpio, debian-archive-keyring, exfatprogs, fscrypt, fzf, htop, iputils-tracepath, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, systemd-homed, systemd-resolved, systemd-timesyncd, telnet, ufw, uuid-runtime, wget, xz-utils, zip
+Filename: pool/main/cccp-meta/resolute/cccp-standard-meta_0.14_all.deb
+Size: 4190
+MD5sum: 42fd08701e3399671717419369bdc829
+SHA1: 802b869816b6484c6f131afaddea1d15392c6952
+SHA256: 100f10b38c3d60487dab1b251639f50eab53d73bc6471fbfabc133b216bb351e
+SHA512: 990881bb7ef7ca2110570d425e191ae25702bb59838bb8865acbc7eb2142873520a2a3307ec7c308a13305c7b449139e881436391fa4c50469d10a25fba000d5
 Description: Standard set of CCCP Linux packages
 
 Package: fonts-courier-nerd
@@ -79,19 +79,19 @@ Description: fast and light statusbar for neovim
 
 Package: neovim-meta
 Architecture: all
-Version: 0.4
+Version: 0.5
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: neovim
 Recommends: neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/resolute/neovim-meta_0.4_all.deb
-Size: 3978
-MD5sum: 11a6438e736106e4959103f9902aeb31
-SHA1: 432616260863c7e235f0bee508aff4c1e1e94b3a
-SHA256: df8d9cc0093e7c884586f6c11091904a9f6ae07bdb9fec5c63e3b53a03ad416e
-SHA512: 2f6e766dbfa04518595f12e6c9dcec6427ba7f86d9133c5c367bd060d7ae83083208fc7756a709562ec697a3deae4e1493ad1e9a31bc4111dcd13e9278ef59f0
+Filename: pool/main/neovim-meta/resolute/neovim-meta_0.5_all.deb
+Size: 4016
+MD5sum: 73b61ce7ad72d77512861fe36c0234a5
+SHA1: aee99cc905bee1afa041447cb38b449b63f57b5f
+SHA256: c07286cb80668fe9d4fd1a3709d15cb4452c58e7abf68842488b1128c70160cc
+SHA512: 49ff6861d4b7aaae1eb7903aca108cc753dd6106e4152c7fdad8ac00cf85c1f88968fbf2c61a653ff8005c4828629ce6f3f4bf8262639567ae002d7df29e92ee
 Description: Neovim meta-package
 
 Package: neovim-which-key
