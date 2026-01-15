@@ -89,7 +89,7 @@ jobs:
 
       - name: Collect artifacts
         run: |
-          name=$(basename ${{ inputs.path }})
+          name=$(basename ${{ inputs.path }} .dsc)
           pool=$(dirname ${{ inputs.path }})
 
           suites=$(ls /tmp/build/ | cut -d- -f2 | sort | uniq)
