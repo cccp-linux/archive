@@ -6,7 +6,7 @@ wget -qO- $url | gpg --dearmor | sudo tee /etc/apt/keyrings/cccp-linux-keyring.g
 ```
 
 ```shell
-suite=pika # sid resolute noble trixie
+suite=sid  # resolute noble trixie
 arch=amd64 # arm64 armhf
 ```
 
