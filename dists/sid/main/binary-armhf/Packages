@@ -138,6 +138,56 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
+Package: niri-dbgsym
+Architecture: armhf
+Version: 25.11-2
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: niri
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 57555
+Depends: niri (= 25.11-2)
+Filename: pool/main/niri/sid/niri-dbgsym_25.11-2_armhf.deb
+Size: 23128956
+MD5sum: 0a408c533267516dc5eca9cc8b390e64
+SHA1: 82fc704a80b18d466a4e67f43e528dafff989c57
+SHA256: 57121b3c878c91c45156173988bab94236ae2fe4a41cf0ed084dad3d443be3ef
+SHA512: 65ec8714abf93d3f3954962a06598e4a223f6767d6b316b284495d5a4fea7cd444f1bee5dfde5b29acb8f2c12a6b0f115790d60c4c47f63275b2accfc9834ddf
+Description: debug symbols for niri
+Build-Ids: d7c26fe50d99a78a8b6ddb3190490edac64b6a2e
+
+Package: niri
+Architecture: armhf
+Version: 25.11-2
+Priority: optional
+Section: x11
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 22819
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
+Filename: pool/main/niri/sid/niri_25.11-2_armhf.deb
+Size: 5664248
+MD5sum: f6a3f634782c4534eea44e33cd195215
+SHA1: c17e89fa58df7383f5f20366ef2f7059302d6dc1
+SHA256: 4d2a687bfe1d89f5dc3c6b48c93550494ce51237da89aecbd1e2ad2c3c69df1d
+SHA512: 1c4c05db66db3fe2f25cdfde37d0c3b111761b2da25569b1d486a625d26f281d172ad3613e3bc3b5d62904d0af3745bc7497b2aa0936d6b234eeb6779708c246
+Homepage: https://yalter.github.io/niri
+Description: A scrollable-tiling Wayland compositor
+ Windows are arranged in columns on an infinite strip going to the right.
+ Opening a new window never causes existing windows to resize.
+ .
+ Every monitor has its own separate window strip. Windows can never "overflow"
+ onto an adjacent monitor.
+ .
+ Workspaces are dynamic and arranged vertically. Every monitor has an
+ independent set of workspaces, and there's always one empty workspace present
+ all the way down.
+ .
+ The workspace arrangement is preserved across disconnecting and connecting
+ monitors where it makes sense. When a monitor disconnects, its workspaces will
+ move to another monitor, but upon reconnection they will move back to the
+ original monitor.
+
 Package: neovim-web-devicons
 Architecture: all
 Version: 1:0.100-91-gb82-2
