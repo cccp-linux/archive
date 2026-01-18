@@ -58,7 +58,7 @@ jobs:
         run: |
           for d in dists/*; do
             [ -L $d ] && continue || suite=$(echo $d | cut -d/ -f2)
-            
+
             cat >/tmp/arch.conf <<EOF
           APT::FTPArchive::Release {
             Origin "CCCP Linux";
