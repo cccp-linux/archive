@@ -18,7 +18,6 @@ jobs:
       matrix:
         suite: ["sid", "resolute", "noble", "trixie"]
         arch: ["amd64", "arm64", "armhf"]
-      max-parallel: 4
     continue-on-error: true
     runs-on: ${{ startsWith(matrix.arch, 'arm') && 'ubuntu-24.04-arm' || 'ubuntu-24.04' }}
 
