@@ -1,6 +1,6 @@
 Package: cccp-boot-meta
 Architecture: all
-Version: 0.17
+Version: 0.18
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -8,30 +8,30 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 13
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode
-Filename: pool/main/cccp-meta/resolute/cccp-boot-meta_0.17_all.deb
-Size: 2516
-MD5sum: 5f2c54c8d27e4053c1fb921fa96d4500
-SHA1: ea3c419c9dcbcb8801accb337750c3f8541ab6b7
-SHA256: 9a58b00a41a103db58e36244850ceab344aed336542864f680fe0223a0a07c33
-SHA512: 2c568a1184f4d602cef1814e612dbc824f8777a3e49d3c4edc012b386a7751e8049a7de24930b475df80411b7531cedf84cd369a79704fb647e063989c770313
+Filename: pool/main/cccp-meta/resolute/cccp-boot-meta_0.18_all.deb
+Size: 2536
+MD5sum: 06c49f902e580fe10f9b2da7b1a2dfc1
+SHA1: e62872925dc96e2d577242835523e88d3c91302a
+SHA256: 435e8d34fa8c94850293824e1149dcf886e525cd9fcdffe04d16b936e36988b1
+SHA512: 9510cf598b139ad7b21fe4ce5c1b40b84acde7fd03568c36c5e513c34ddfecc25012b057f894f5448bcfc091f793ac9106552cce20215ad2db5b0b0646055395
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.17
+Version: 0.18
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 23
-Depends: adduser, apt, awk, console-setup, debconf, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, hdparm, info, iproute2, iputils-ping, kbd, kmod, less, libpam-systemd, locales, login, logrotate, lshw, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, strace, sudo, sysstat, systemd, systemd-sysv, time, trace-cmd, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny, whiptail
+Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, hdparm, info, iproute2, iputils-ping, kbd, kmod, less, libpam-systemd, locales, login, logrotate, lshw, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, strace, sudo, sysstat, systemd, systemd-sysv, time, trace-cmd, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny, whiptail
 Recommends: bash-completion, bind9-dnsutils, busybox-static, bzip2, command-not-found, cpio, debian-archive-keyring, exfatprogs, fscrypt, fzf, htop, iputils-tracepath, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, systemd-homed, systemd-resolved, systemd-timesyncd, telnet, ufw, uuid-runtime, wget, xz-utils, zip
-Filename: pool/main/cccp-meta/resolute/cccp-standard-meta_0.17_all.deb
-Size: 4290
-MD5sum: c775804a597ce9b32bcd89adfa19b4ec
-SHA1: 5db2d9da25bfa28d41d7b67f890c71d096d4fd98
-SHA256: bc624ac7c12991e6bb5718561bafeb3c109dc0866a74216bce921531276abf9d
-SHA512: 815480069dc9764175968c0b9e805311b5a57d9492e61cf6d80b2f50f0440ef62106cf87644f0ff09394a73004f3e11c092563856036eff3415a50c26998d112
+Filename: pool/main/cccp-meta/resolute/cccp-standard-meta_0.18_all.deb
+Size: 4314
+MD5sum: abf2a3875b74369aa5d70ad8efbdf4ee
+SHA1: 02cbd95fbcd0d7414b8d5c42845613016f069518
+SHA256: 330f4774418c50340e20a7879bb6d963af4fb55a6761cd95113dcf762044a9ff
+SHA512: 25b2348222b42e3fc5ac65b0be96d89d069aadbee74603075679ba1b9c0f4c19b7558c21bb032e03dab503fec36dec04afda835e4870b33dc73787d789481165
 Description: Standard set of CCCP Linux packages
 
 Package: fonts-courier-nerd
