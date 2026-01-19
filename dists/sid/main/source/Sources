@@ -2,7 +2,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: all
-Version: 0.14
+Version: 0.15
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -11,17 +11,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=all
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- d69a04d69551138a30dbd40196fb9151 899 cccp-meta_0.14.dsc
- 70d94d5c37ba266b2456d8e291b30804 14732 cccp-meta_0.14.tar.xz
+ e112a94e58199fe3f0ad972a8a6ebf7b 899 cccp-meta_0.15.dsc
+ 5c79c887f9a7d6969f7e3c5ff27779ce 14772 cccp-meta_0.15.tar.xz
 Checksums-Sha1:
- 55a29c3216332472507362430cfc2125ee83c383 899 cccp-meta_0.14.dsc
- a632841ab0b20ed665d86d5d1253f0d0eefc5079 14732 cccp-meta_0.14.tar.xz
+ a66ceeab64f83ac0f36d370e287794563dde8836 899 cccp-meta_0.15.dsc
+ 3d344350b323282ef8685fecb4c47b2c8d9e973e 14772 cccp-meta_0.15.tar.xz
 Checksums-Sha256:
- f21481bd76015ebcebec8bce7def4fda69145db5cd1d3d494ea788ff8c47f2de 899 cccp-meta_0.14.dsc
- 159db1b085c3215d72edd5ff2ff6ef7fe4e28851f6e38b167bfbc156821bf686 14732 cccp-meta_0.14.tar.xz
+ f711fb6db764a39a99f3842981c5f6ca34d977ee0e6a06ce958e54e995f5cbb3 899 cccp-meta_0.15.dsc
+ 330f5ea4c7f9a30df403242552779bf89ccfc34fe5725735eb03047e7dba1fb1 14772 cccp-meta_0.15.tar.xz
 Checksums-Sha512:
- be64425492f9b677c18e08a8afabee76588d935bc8b8df9da4cb044687239a53ed8823582f7a561530e3a9187d0bef9e813025c005c51893df6e6a9ccccb0fac 899 cccp-meta_0.14.dsc
- ce2781229f8a2eec756887855bf2a51fc3d25ae9d3774ffd2478fc99ddf2b7314f7ac9cbbcad57751f61d0f2b9c2f2b4ed5c49689407d60d3835c058a917799e 14732 cccp-meta_0.14.tar.xz
+ d78eae6f06f4385fd0d9d8de8edef72dab940376a40c24f0d3e5b75aef36ca6e331418bbc8253c278c456576a7e50b50a45661c1fbe5fddbd0af96fba20fbba4 899 cccp-meta_0.15.dsc
+ aa37c6f7aad921154ec24a0cc994b17b308c15f8839ab5360cc43d9b9ebef3c83800581e16d0abd5399a958c861c689cb34fd20012bf472038979a858ff40013 14772 cccp-meta_0.15.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
