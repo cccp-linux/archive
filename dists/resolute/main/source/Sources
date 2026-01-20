@@ -307,7 +307,7 @@ Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
 Architecture: all
-Version: 0.10
+Version: 0.11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -315,15 +315,15 @@ Directory: pool/main/term-meta
 Package-List:
  term-meta deb metapackages optional arch=all
 Files:
- dc2d68ee28ea11cb62b60841a14bb9ed 811 term-meta_0.10.dsc
- 0292b6d02c514a5f563092bc2982da1b 3184 term-meta_0.10.tar.xz
+ 68ffe7b8645de28b1428b05fa76fb345 811 term-meta_0.11.dsc
+ e88bde02d2845475da91d857c44b5831 3228 term-meta_0.11.tar.xz
 Checksums-Sha1:
- 9c89f604dcec1d336f4ccd239707eb03e76852cd 811 term-meta_0.10.dsc
- 66148abd01aebe84801a661a7364d1cbfdf53b27 3184 term-meta_0.10.tar.xz
+ 06556e409be9db13c367aed2d21545baa9f0dd84 811 term-meta_0.11.dsc
+ 38da8ba450414727eb6f682ef28d843033fb1377 3228 term-meta_0.11.tar.xz
 Checksums-Sha256:
- f3e264b41aa780955e88c1b971da967b2cb852ec6955210c7ca2a9c45ff0bc8e 811 term-meta_0.10.dsc
- 41480409a5c5b1975f83d1f1194938eb71b9574aa159b4d2519372ccfd4e3ae5 3184 term-meta_0.10.tar.xz
+ f733295eaa8b65ab90049d2944fe46b6704ddd0c12efbdb3b201962e081af161 811 term-meta_0.11.dsc
+ 096e95cee2013cc58fe36d1d9407063608f28640017eecc0fd14a18a4ec9c32c 3228 term-meta_0.11.tar.xz
 Checksums-Sha512:
- e369ee383f7807a9cf079bb4a7a96a98f19fe205dca48f6bc3f820a2d60e323673949cf2933a647f7a8ad0c153bde4d4a5c95dac6a43dfe7ba034fec96af339c 811 term-meta_0.10.dsc
- 4a6c1b36a0bdd6e798289ff1030144356188e8e6456336f602726d9a8e1dc2c0d4c641150153aa5ea986ba29dc2683c1097aae07f27e3405117c3e909694a00f 3184 term-meta_0.10.tar.xz
+ 5f64ad31b1808a56c671a3350785635d0c41673d8e210f207d70f4d3c5b187638627b3b174c71306d2f5968a69f745b6577c495218d9a3484fe918a5c8958fbb 811 term-meta_0.11.dsc
+ ef833422e19c89c9af9d40cbeed3abba81f041754f14ee2fcebf843380a4423b43d8afed329dd5b8e89a49dc2fd86c5d78ad7290754b41fcaa9b485e442b3ce1 3228 term-meta_0.11.tar.xz
 
