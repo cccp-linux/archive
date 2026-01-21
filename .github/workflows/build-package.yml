@@ -40,7 +40,7 @@ jobs:
         with:
           path: |
             ~/.cache/sbuild/${{ matrix.suite }}-${{ matrix.arch }}.tar
-          key: ${{ matrix.suite }}-${{ matrix.arch }}-sbuild
+          key: chroot-${{ matrix.suite }}-${{ matrix.arch }}
 
       - name: Create chroot
         if: steps.cache-chroot.outputs.cache-hit != 'true'
@@ -52,7 +52,8 @@ jobs:
           chroot=~/.cache/sbuild/${suite}-${arch}.tar
 
           ubuntu-distro-info --all | grep -qx $suite && comp=main,universe || comp=main
-          mmdebstrap -v --variant=buildd --architectures=$arch --components=$comp $suite $chroot
+          incl=aptitude,ca-certificates
+          mmdebstrap -v --variant=buildd --include=$incl --architectures=$arch --components=$comp $suite $chroot
 
       - name: Build package
         run: |
@@ -61,7 +62,7 @@ jobs:
           path=${{ inputs.path }}
 
           mkdir /tmp/build
-          sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dir /tmp/build $path
+          sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dep-resolver=aptitude --build-dir=/tmp/build $path
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
