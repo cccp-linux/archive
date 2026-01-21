@@ -179,10 +179,10 @@ Package: niri
 Format: 3.0 (quilt)
 Binary: niri
 Architecture: any
-Version: 25.11-2
+Version: 25.11-3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13), cargo (>= 1.77.2), libclang-dev, libdbus-1-dev, libdisplay-info-dev, libegl1-mesa-dev, libgbm-dev, libinput-dev, libpango1.0-dev, libpipewire-0.3-dev, libseat-dev, libsystemd-dev, libudev-dev, libwayland-dev, libxkbcommon-dev, rustfmt
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.77.2) | cargo-1.78:native, libclang-dev, libdbus-1-dev, libdisplay-info-dev, libegl1-mesa-dev, libgbm-dev, libinput-dev, libpango1.0-dev, libpipewire-0.3-dev, libseat-dev, libsystemd-dev, libudev-dev, libwayland-dev, libxkbcommon-dev, rustc:native (>= 1.77.2) | rustc-1.78:native, rustfmt:native (>= 1.77.2) | rustfmt-1.78:native
 Homepage: https://yalter.github.io/niri
 Vcs-Browser: https://github.com/YaLTeR/niri
 Vcs-Git: https://github.com/YaLTeR/niri.git
@@ -190,25 +190,25 @@ Directory: pool/main/niri
 Package-List:
  niri deb x11 optional arch=any
 Files:
- e2cb145e444358e4ec647d73d035660b 1659 niri_25.11-2.dsc
+ 763d275e23b8af6b83e1e466666725ed 1773 niri_25.11-3.dsc
  fd69b85a9ba98bd18971714913c0f9a8 56722340 niri_25.11.orig-vendor.tar.xz
  d4e0a04d8893a322bbc5e8d9057a3523 915604 niri_25.11.orig.tar.gz
- 7dd23bb3d8c5f5eed1d8b67e280acd7e 2064 niri_25.11-2.debian.tar.xz
+ 1e34d5c9e6e08a739f43c110aabf371d 2288 niri_25.11-3.debian.tar.xz
 Checksums-Sha1:
- e0978a0ffe1e244de52ca168c8e3c360f789c238 1659 niri_25.11-2.dsc
+ 24ece0fa6bfd83a6c2cd9af4e09a455c2e9109ce 1773 niri_25.11-3.dsc
  bec44f89f3aada7fade31ad101a0b6baf67efc2d 56722340 niri_25.11.orig-vendor.tar.xz
  568d76c86d3d44fcba8f86c1647f50b3c5ed8229 915604 niri_25.11.orig.tar.gz
- 3ce6d419970b7b07654121d59e2f39807869a375 2064 niri_25.11-2.debian.tar.xz
+ 8ab547b72fdf0178ad953a34f3a43f54437e3072 2288 niri_25.11-3.debian.tar.xz
 Checksums-Sha256:
- 870ad785c6abed51d95f70243710956947400bd2df031fbc2bd0ce1fdd085f0c 1659 niri_25.11-2.dsc
+ 07ac02e4dcd57d7b6e2512ab6feb5ceaa7d6cdecd20556aa900e96226469e5c8 1773 niri_25.11-3.dsc
  c0af02de767654a8bc5cd72f9721e60e4a7b1e2abf0e52119fd7f947373026cc 56722340 niri_25.11.orig-vendor.tar.xz
  9a9a58dbe12e065776cc80424f22c89489f2662e881152ceae46e68bb8677d8c 915604 niri_25.11.orig.tar.gz
- 9a667b2cd8f0fc780d72f9deaf7d7b1f3fb5c9fd7a696fb37db0e225900c4c79 2064 niri_25.11-2.debian.tar.xz
+ 1c3228aa9dacc6550b3456fca77b2024c5bbc8a39e9702e4d1e7a0f5d516e465 2288 niri_25.11-3.debian.tar.xz
 Checksums-Sha512:
- 916b7e1cce8a7fe29cb4dbe5069d580ed9839802f3769133ab5512d8f5e20ce29a51f907063e0fda319f9f74d0dcb4369769124c298373058c509634464267ae 1659 niri_25.11-2.dsc
+ 484dcb75fc147914cf0451ce7e9650245c6888097d4e937d311376ab46598cf3183fcb180083b4be56911e684c62f4fc8aeda87c370118a3a6f977064f7ee593 1773 niri_25.11-3.dsc
  6dda3f5e303e3488feffe9d406a2cd9f2d1175697b5d44702906603cc9f9fe412fd3639da50e42a238222b8ef2910d61032fb04fb9c12b2cad7aa325a1a63479 56722340 niri_25.11.orig-vendor.tar.xz
  88adbfc1b993d692e981d811dbfcb0898fefbc184c5659a14b4f61cf9e1dcf5c9eb100e68807710ed9ed89799277fafbecf9fc3057c41d93c19dbaf96350a697 915604 niri_25.11.orig.tar.gz
- c5f05ae62b1e8a1b9f5a968c7e6568f9b3e2e97add6ab9374b387f49717f57c34a5d68d86b1a10992f26b14612b0ce59464c4cb2c591aa7197d822b5c87118f8 2064 niri_25.11-2.debian.tar.xz
+ 299f67fa845379f934570bdc2f375f266d5311d50fc2bee88a8c36ad82d5537ef62d9a862a05582c625c6523021f750d9b698d54e6d5ac9fc8b6cc09593caff2 2288 niri_25.11-3.debian.tar.xz
 
 Package: nvim-web-devicons
 Format: 3.0 (quilt)

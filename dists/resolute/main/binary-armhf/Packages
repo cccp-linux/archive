@@ -141,18 +141,19 @@ Description: NightFox theme for neovim
 
 Package: niri
 Architecture: armhf
-Version: 25.11-2
+Version: 25.11-3
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 23010
 Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
-Filename: pool/main/niri/resolute/niri_25.11-2_armhf.deb
-Size: 6677826
-MD5sum: 078dda6f0ef0cd9920e3a468d7826884
-SHA1: e357528005a48e6b91c58da17b5e158202c31b1d
-SHA256: dddb4d3d48fdd9af1abcb3ae6df554743fdba51d9d244c3b2e4b90b9cbba022e
-SHA512: ea9ff20e8af40551f2aef5b706072a15c8f37fe03b32f99c876581a82f103a014617097457e66a3c07fe7a2df4b2575c9c795b6b61e511dc7db5980a91f50e02
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Filename: pool/main/niri/resolute/niri_25.11-3_armhf.deb
+Size: 6677808
+MD5sum: b18585babb7cdcc9ec9ed4265a4f193a
+SHA1: 9c9babec12ea392cd1dbcbc6008819f7fb5763a5
+SHA256: 89a6463d25e069d7d3099fc14f97dd726b40a567d6b6c0969ad9df63cbabbddf
+SHA512: 5196c7dc8d35337e1f940747ec6f4971a260bcfe9b64ead10a4bb6afddfaa8c16e7819459b9a152a656692c8170024ea5dea1cc746795b9ffa77fd776f20b12e
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.

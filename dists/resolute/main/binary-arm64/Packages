@@ -141,18 +141,19 @@ Description: NightFox theme for neovim
 
 Package: niri
 Architecture: arm64
-Version: 25.11-2
+Version: 25.11-3
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24881
 Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
-Filename: pool/main/niri/resolute/niri_25.11-2_arm64.deb
-Size: 6725612
-MD5sum: 6461605f0011d26435e53c6ab1289b88
-SHA1: 2776f37b691423841adebda0f9e4f5e00f546689
-SHA256: 45f4834c0881d608d5317a4e2c71da27beba216169d92bcb87cd8e12a9cd4d98
-SHA512: b7b3646dda37c247de7dc3b8bfb695ba6c7002be961c4ad0cddb76f1687b68de73128efe6100aec8f8fc64b3ea3b7237bcc073a85510291005865ab4cc3d32cc
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Filename: pool/main/niri/resolute/niri_25.11-3_arm64.deb
+Size: 6725772
+MD5sum: 2877fc9d0859b3cec682f2e085df6044
+SHA1: 1c2b77a49d2f1546673135aff91465c97e213dfe
+SHA256: 5b9d6fe5b132b2990ebe797ff6e5aca5f5633d125cc4244eaf17895321c6ce92
+SHA512: 360a809aa0cd8ce0e6044c24e1e823a296a782788b1fcaf3cc9f4a98c293b59a7ce8917b08a06486ac336159809ce833bf6b36127b9fe8665aef22ded37916c5
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.
