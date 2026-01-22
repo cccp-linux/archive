@@ -228,6 +228,64 @@ Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
 
+Package: quickshell-dbgsym
+Architecture: armhf
+Version: 0.2.1-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: quickshell
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 40833
+Depends: quickshell (= 0.2.1-1)
+Filename: pool/main/quickshell/sid/quickshell-dbgsym_0.2.1-1_armhf.deb
+Size: 36472364
+MD5sum: 4fa6a0f43cf4760f19c3276b0997fb03
+SHA1: 58832c9729ea1da7fe30c754570545d78360c482
+SHA256: 31bde25eddb3278bbad153f489339e5b2e2bd9854438bbb96366de5d47ecb953
+SHA512: 4e8f72fa8f8d20f4199cb0d560c4b2c1f926af3d93e50549bbe6399f84a73265b55c9ec8372943b7c89dce8800f33fe7ac7d4ac5d2c792fc33e2c23559771a5c
+Description: debug symbols for quickshell
+Build-Ids: 94e017ce2eef54bdfff7e399876ce04e15e5f7e3
+
+Package: quickshell
+Architecture: armhf
+Version: 0.2.1-1
+Priority: optional
+Section: x11
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3135
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2)
+Filename: pool/main/quickshell/sid/quickshell_0.2.1-1_armhf.deb
+Size: 977580
+MD5sum: 18c3dac765754197bb5972a8ff447503
+SHA1: c4040773e49a220565086cd5a8534121923f82c4
+SHA256: a46225d27d50c1ffde3b14738d70d9b5b4a5c5b3afb1e9047189c31a97c9a30b
+SHA512: bc4adbae3be22d635f6cb633fa2592de150fa179c18cfc86df2b499dd613d6c0eaf27b0d18816020c28233ea378fc6a8b655264b052a3a00f8ee8cb298ce09d8
+Homepage: https://quickshell.org
+Description: Flexible toolkit for making desktop shells with QtQuick
+ Quickshell is a toolkit for building a desktop shell, which is to say
+ components of your desktop like bars, widgets, lock screens, display managers,
+ and the like.
+ .
+ Quickshell is based on QtQuick and configured with QML, the QtQuick interface
+ description language. It provides integrations for common shell functionality,
+ as well as support for hot reloading and tools to work with processes,
+ sockets, files, and more.
+ .
+ Built-in integrations are currently provided for:
+ .
+  * Wayland and X11 for windowing
+  * Wayland for window management and screen recording
+  * Workspace management in Hyprland, I3, and Sway
+  * Pipewire for audio controls
+  * BlueZ for bluetooth
+  * Pam for authentication and building lockscreens
+  * Greetd for building a display manager
+  * UPower for monitoring battery statistics
+  * Power Profiles Daemon
+  * MPRIS compatible media players
+  * StatusNotifierItem compatible system tray clients
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-3
