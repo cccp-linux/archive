@@ -141,19 +141,20 @@ Description: NightFox theme for neovim
 
 Package: niri
 Architecture: armhf
-Version: 25.11-4
+Version: 25.11-5
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 23001
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.4.10), libdisplay-info1 (>= 0.1.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
-Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
-Filename: pool/main/niri/noble/niri_25.11-4_armhf.deb
-Size: 6663702
-MD5sum: 34a33b0b0dd35263c3e77da336c28a94
-SHA1: 498f02e3ce9945ff27701a55120fd396b39584cc
-SHA256: 24bde4f1c4dc9bf1184d8f848051a4d19961625d672e6024ee5b9cdf88197bae
-SHA512: 1b68fc44d93d14980bbd11fe6944f23b500712255d603ec200d3b94a322c92abaf25d37de371bc6ed864944b82b4a9d1a8783ac342be9d56e9e4b45c982486e7
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.4.10), libdisplay-info1 (>= 0.1.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, fuzzel, mako-notifier, waybar
+Filename: pool/main/niri/noble/niri_25.11-5_armhf.deb
+Size: 6656946
+MD5sum: 432fb95554fbdec604282257de154cdd
+SHA1: 3d43c46a04c7902c65852a0fc2d189b2ddc0a4d2
+SHA256: efc626b57c65f7c5a7b5e9255b0a451a7030e693cf0d7a71865579abb678f1bc
+SHA512: 7404a9d5fc8f1e80789491b6a161ee457dfe0e715ab0fe4a6b43f2b95d88864c882145feb06af5548e228f23b351b1be35a025ecfb245605cf48bcff5d259d61
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.

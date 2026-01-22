@@ -141,19 +141,20 @@ Description: NightFox theme for neovim
 
 Package: niri
 Architecture: amd64
-Version: 25.11-4
+Version: 25.11-5
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 26463
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.4.10), libdisplay-info1 (>= 0.1.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
-Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
-Filename: pool/main/niri/noble/niri_25.11-4_amd64.deb
-Size: 6947334
-MD5sum: 0b40a62646b09cdaaeaa2081a79f0b7a
-SHA1: 7e0fb67633f68c81fa4b33242d025b2204e0bd15
-SHA256: 7f54911ab5596bf9c611758f3c561c3698429dbda0de3c72044a5d262fa39034
-SHA512: fcdf96025c39bfd70a616d3f3e8380acda65d46e532614d58c743ad1be6282d97692b4e25e0c0a48b4b3365b795a9dd1f68c46d2b725fd8159dcb2d65c91b76c
+Installed-Size: 26455
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.4.10), libdisplay-info1 (>= 0.1.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, fuzzel, mako-notifier, waybar
+Filename: pool/main/niri/noble/niri_25.11-5_amd64.deb
+Size: 6966022
+MD5sum: 37cab859c5e4dd658007031408899e4c
+SHA1: b39208f1fec42215572e4e223bf76a1bec7d39bc
+SHA256: b94904cbbddb85a7a5c64c204c6e86ef13795492c1b397ba255e439b4f2623ea
+SHA512: bcc3244768e0928acc07be5258a9505ef8c41ab9bcf877449e314d094c450731a55652c0010668ba3759d4f86fa4d597d2284e91070a5a38927be3024cdf1d47
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.

@@ -141,19 +141,20 @@ Description: NightFox theme for neovim
 
 Package: niri
 Architecture: amd64
-Version: 25.11-4
+Version: 25.11-5
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 26394
-Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
-Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
-Filename: pool/main/niri/resolute/niri_25.11-4_amd64.deb
-Size: 7005012
-MD5sum: b804a079e819a867ffc4569c76afbda8
-SHA1: 9011e273a913f6729477b34c05d741d1b5100433
-SHA256: a333a0cf020e1a35ba344bcd42648afd84b1e94b08067cebf3ef6b91d17d2443
-SHA512: 310242e26dc6832b57e88bd45dda038f89691d96f7a526b6f5a77a586586e5ecf553a2d8b06b6528d8c2f5e649217519c8bb7036e1e7ff30da45f8e2f796b2f3
+Installed-Size: 26462
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, fuzzel, mako-notifier, waybar
+Filename: pool/main/niri/resolute/niri_25.11-5_amd64.deb
+Size: 7010598
+MD5sum: aae4d70232ae6a9afc17faedc33d83f3
+SHA1: 1a4a401cab19d7c60fbb4b4d11f9384fc6fff98a
+SHA256: 7a84f7533cd47ee95fee6b838cb9b68e8da825d77062fd2179bfceccde24dc48
+SHA512: 5022b8a19a2e1014eafb3d927967bc6585032d4120a2bf30db3018d148c1378f7e0870c1d039769b3bfb469d396e41569e8e8a0741ffcef6310c43f8aa19600e
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.

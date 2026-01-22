@@ -141,38 +141,39 @@ Description: NightFox theme for neovim
 
 Package: niri-dbgsym
 Architecture: amd64
-Version: 25.11-4
+Version: 25.11-5
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: niri
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 38438
-Depends: niri (= 25.11-4)
-Filename: pool/main/niri/sid/niri-dbgsym_25.11-4_amd64.deb
-Size: 22470444
-MD5sum: 297d566b21c6fdfeb2f62c3f6f15dd09
-SHA1: bd899fac62803b8298d18dc66bf1e28b87354505
-SHA256: 4fa4952ddf20eb3e5ae282be05bc703ce40592b0edd376d1e7aba15cd107d613
-SHA512: 92a4a0aa93c81a14f66d385b51ba05b93b947218aa5e166c40aee6cd8418212e29d4f4797f9fb404d745308e93694ab2bfa1e9c9a944ea5df07e9c84936daaf9
+Installed-Size: 38473
+Depends: niri (= 25.11-5)
+Filename: pool/main/niri/sid/niri-dbgsym_25.11-5_amd64.deb
+Size: 22533408
+MD5sum: 8fac3055e2a90e69dc2b77bff22e8155
+SHA1: ee13fa4644ada154b3e67b3be6a0dbd0358f35f2
+SHA256: 74be45e89ce031424df70305b33f63376a06b8080daf543419e70006ede046c8
+SHA512: 05f81c3ec9ce82229ce938c27a5e7379c0aa9e774f05f225077cd029cc370cc14e33edbc26be3bb49b3fad159851a560de6e75e920b54b5e4accb294cce0bb8f
 Description: debug symbols for niri
-Build-Ids: 852bbaca569da6d407876cb0cfd978d2ef69eb86
+Build-Ids: b8c501ea978245f6d6febfe3d1e8f21349938268
 
 Package: niri
 Architecture: amd64
-Version: 25.11-4
+Version: 25.11-5
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 26803
-Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0)
-Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
-Filename: pool/main/niri/sid/niri_25.11-4_amd64.deb
-Size: 6428996
-MD5sum: b1ed18c45eb9930acb04b2d417aad0c2
-SHA1: 60e4b7984c8c59ab443e29dfc149cf8e21efbb16
-SHA256: e2c4656be9f21eb4362914c99ebbbce671ac62d9a16a6ac49b4159d3358364dc
-SHA512: b90d83100ff43ab4588716a3ebc6900edd5b71bf2324e27aa3548f7a43c4ecbeb5e94b11858ef19c4cb748b5774def362416956e63b15501c15361a35fd13d98
+Installed-Size: 26859
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, fuzzel, mako-notifier, waybar
+Filename: pool/main/niri/sid/niri_25.11-5_amd64.deb
+Size: 6461296
+MD5sum: 730b8142ef3d62bc46a1565b66d3ec02
+SHA1: 5edba0613497f24c888ee7bcd0c6dd0815c10e40
+SHA256: 7973f1fdc4de9f49ff1905821b2c8fde5c489a4dca9bacf9b4415e81839b1ce4
+SHA512: ef3344d181f7050d8f72890bbdf52100b6e15cca5d66af0ef6b84dd601a5d15abce2bfdbf2c41ffea4d648ad591a1f36009d1c9b6fb1aafbb4f5a6cc41b0b616
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.
