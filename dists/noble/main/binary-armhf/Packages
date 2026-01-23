@@ -231,19 +231,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.11
+Version: 0.12
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 26
+Installed-Size: 25
 Depends: alacritty | foot, cage
 Recommends: fonts-courier-nerd, gpm, tmux, wlr-randr
-Filename: pool/main/term-meta/noble/term-meta_0.11_all.deb
-Size: 3854
-MD5sum: 17be4847fba42e50f0bef22e188aacc5
-SHA1: 451bfd91eb49d8005745038a725fa5b54ed23e26
-SHA256: 86a01a9afd74f6de9b9c08a888e7771cd0a3446f28b36b6f5e2c12668457ea41
-SHA512: 6362c657a3f0519b84d726e37bdff4e57514165c342ca08bed801417b5cf2b51db839466e7c1b99d8aa53e0d4560a1dbe3a06ced6dcb38fd698ecdc7d81b3b74
+Filename: pool/main/term-meta/noble/term-meta_0.12_all.deb
+Size: 3878
+MD5sum: 706f7542f49e8c0f82adaee4bcd7506b
+SHA1: 8f63162512439fc767625b3ace4da744fedb3bed
+SHA256: 6b8dca9ee181d9017664cdcf0777624a525af7a3233aff1ca31067ac0ec46800
+SHA512: 6c5664643c193cae255984c9752292753410ca028dc5acfe92d7170c26025be842517cd2cb805978de5dfdef74d6ccf147e38aaaa340c85cec623b9c4c8609b7
 Description: Terminal meta-package
 
 Package: xwayland-satellite

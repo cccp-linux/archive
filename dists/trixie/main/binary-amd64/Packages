@@ -308,19 +308,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.11
+Version: 0.12
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 26
+Installed-Size: 25
 Depends: alacritty | foot, cage
 Recommends: fonts-courier-nerd, gpm, tmux, wlr-randr
-Filename: pool/main/term-meta/trixie/term-meta_0.11_all.deb
-Size: 3904
-MD5sum: 3a0195acc99a09933ea1de4de0de6ff9
-SHA1: 81c4494b2d38d575510d49ecfd784513c0c4739f
-SHA256: a15c121b745510f70205f5eb6f1d4d9305ad99f0469eca2ebadfd7974b6d32f7
-SHA512: b277c9707827925911355918d1905fa5f3165ba998a7aeb0ebab4360fae6eccca1a9a32f8569ee34fc6e0464743cfc0ac0bb22a980b487ad3e4e672b2b2376c8
+Filename: pool/main/term-meta/trixie/term-meta_0.12_all.deb
+Size: 3932
+MD5sum: def12cdf9c29612010ad4b7d56bd1fea
+SHA1: 52e630f78b440398ab22fffce99cef007c0bda60
+SHA256: ad0d7c80764a38b0d41afa8092852cca935588715fbd2a0ecc94c44328262b55
+SHA512: 68a563d63a5cdbb43af2d6460ca331c373ab2fac2d1c2016da26b81a908eb4857b89313ad49519b7361aeb9b4577fc2fee0d30be4f6fafafcdf0be94f4662553
 Description: Terminal meta-package
 
 Package: xwayland-satellite-dbgsym
