@@ -286,6 +286,23 @@ Description: Flexible toolkit for making desktop shells with QtQuick
   * MPRIS compatible media players
   * StatusNotifierItem compatible system tray clients
 
+Package: shell-meta
+Architecture: arm64
+Version: 0.4
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24
+Depends: niri, quickshell
+Recommends: bluez, brightnessctl, curl, jq, network-manager, playerctl, procps, udisks2, wireplumber, wlsunset, wpasupplicant
+Filename: pool/main/shell-meta/trixie/shell-meta_0.4_arm64.deb
+Size: 3584
+MD5sum: 09bb0f483b25bb817c2d517cc5153753
+SHA1: b061111cc327ce9b2c7999f37b1053df16a8a75a
+SHA256: 012ce0e4e60365b339608a8f8759b42853f049cce3accaec0ba34613d4f1d03a
+SHA512: e54da3c9f9b0da619a6ed5c1aba24c5ddf361c704074bed61850d48184a7218e87476e95612f6a2e3f5b8299cf19f75e4a79f0e30005b381c2c363fee20b1de0
+Description: Shell meta-package
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-3

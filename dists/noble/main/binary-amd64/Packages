@@ -209,6 +209,23 @@ Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
 
+Package: shell-meta
+Architecture: amd64
+Version: 0.4
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24
+Depends: niri, quickshell
+Recommends: bluez, brightnessctl, curl, jq, network-manager, playerctl, procps, udisks2, wireplumber, wlsunset, wpasupplicant
+Filename: pool/main/shell-meta/noble/shell-meta_0.4_amd64.deb
+Size: 3510
+MD5sum: 5cbeff9bbd0af4eb5f24d17554ea3784
+SHA1: ec57ee314547a345970a87dbd36b2ed591dea00c
+SHA256: bd6e3f03e3a6a369e11d8b465b303b5005e5d4c565c005e4a8c84717bcb7696f
+SHA512: 8223b929c5959a2d4fc5de6b0579fcf4051dca6274e01d1f43af6d555edfbf1fab5512eaf910ab2152866e309297eff08aec38eb1c02dee7fa7b532403ff8433
+Description: Shell meta-package
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-3

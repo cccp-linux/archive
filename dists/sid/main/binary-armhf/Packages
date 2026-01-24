@@ -286,6 +286,23 @@ Description: Flexible toolkit for making desktop shells with QtQuick
   * MPRIS compatible media players
   * StatusNotifierItem compatible system tray clients
 
+Package: shell-meta
+Architecture: armhf
+Version: 0.4
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24
+Depends: niri, quickshell
+Recommends: bluez, brightnessctl, curl, jq, network-manager, playerctl, procps, udisks2, wireplumber, wlsunset, wpasupplicant
+Filename: pool/main/shell-meta/sid/shell-meta_0.4_armhf.deb
+Size: 3584
+MD5sum: 755a26023a9e04729b777531715b0eb4
+SHA1: b9e4e32b7c83ecb089d9b352999d37790cc2c6ef
+SHA256: 9d41fd6a3dfb34900ed7e6e608b4cc7352ca6849b76f3fe2b689d728885fed35
+SHA512: 0f1423251e7f557478cdcb48ced0d0aff4b5b27c40ab305b5db7488a0436e0f452415bedc438ce393e85b8658d04421714c7ec157145f70d4030e69b0076b606
+Description: Shell meta-package
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-3
