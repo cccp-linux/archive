@@ -89,7 +89,7 @@ Package: neovim-meta
 Format: 3.0 (native)
 Binary: neovim-meta
 Architecture: all
-Version: 0.5
+Version: 0.6
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -99,17 +99,17 @@ Directory: pool/main/neovim-meta
 Package-List:
  neovim-meta deb metapackages optional arch=all
 Files:
- b8e5dbe8aad1c33282d8cb78ce518318 929 neovim-meta_0.5.dsc
- 2351f93f7d086537ec44aeeb7aba89da 3552 neovim-meta_0.5.tar.xz
+ c16a5361cef9fb92b52851e4cde69851 929 neovim-meta_0.6.dsc
+ 3192fc5ce2dc663455a0b62ee1a0ef67 3600 neovim-meta_0.6.tar.xz
 Checksums-Sha1:
- 92adf5e2c4a67b07a3217f7a09052e345b875686 929 neovim-meta_0.5.dsc
- 0b655eca54ad49ca164f22ab76a2dbd2be42616a 3552 neovim-meta_0.5.tar.xz
+ 0bb955e86ad0e6f236655252797155b7a51a2c87 929 neovim-meta_0.6.dsc
+ f668732e4460b25359eb057431870b345b5baf57 3600 neovim-meta_0.6.tar.xz
 Checksums-Sha256:
- 70537abe4dd333da4d2895afa9187a9acccfc62b08f4ddb2c3a4de71715ef2e8 929 neovim-meta_0.5.dsc
- 2a70a52b04041c8b7e988883ce42201c427f1f7f112614c798d2a35c5b074355 3552 neovim-meta_0.5.tar.xz
+ 5b9b88faff5c6f078a557132cb3fba5d2cd4d16e15b2d0539b15015929fad36b 929 neovim-meta_0.6.dsc
+ 9c91aa1b7fc13a9f0ae75f771a1c5b4770a6c2eae5aae98a747444001d545df9 3600 neovim-meta_0.6.tar.xz
 Checksums-Sha512:
- b148732fbb493ed12a67a215e1681df2f23ad81fe83962486673e49a92d716899df585c8bbef3e8b1057a4a834bbfb4d2ea9662d3e9c88adcc34659fe4f70086 929 neovim-meta_0.5.dsc
- d1a7b4d198c2230904595e2ebdbda088c15edcbb86bdf950cc411a932b40633a57372e091eacea8d44459157802ca07d423f61adabdc9f4328cfe784ccf4d702 3552 neovim-meta_0.5.tar.xz
+ 99b36daaa2ea4a54d71a9cbd0f8696389a81c44c419bd409635f6fe37caac7689513fb5d8a0fc96fc46e5785a57b78cd0ec3253644e7d9d3503b1b9239ede7be 929 neovim-meta_0.6.dsc
+ d8e95d8fddead5218f5bfe8655bfc9b1ef11b36c1d0bbcb52448e03a9d004a87d7c7644f4739abc439f1b30e0a5d2a6b26a6b7e2781b95421e7aaca4d793e14b 3600 neovim-meta_0.6.tar.xz
 
 Package: neovim-which-key
 Format: 3.0 (quilt)
@@ -364,7 +364,7 @@ Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
 Architecture: all
-Version: 0.12
+Version: 0.13
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -372,17 +372,17 @@ Directory: pool/main/term-meta
 Package-List:
  term-meta deb metapackages optional arch=all
 Files:
- d1a9c1d35dcb6ba89c9ba812a9dd9a1f 811 term-meta_0.12.dsc
- 23eef313623fb8ea260cb8e32c6e771f 3244 term-meta_0.12.tar.xz
+ ad6c9d4048115682248d7c54706695c1 811 term-meta_0.13.dsc
+ df43e742298f623d6dd8fcc8cae5e470 3292 term-meta_0.13.tar.xz
 Checksums-Sha1:
- 31094e7c62e6f6eefec4fe7633f28f90279e7b1e 811 term-meta_0.12.dsc
- cfbec8b74326469b40b9ba2b3c64314ca80311a5 3244 term-meta_0.12.tar.xz
+ 9e3fb4ad69d2766a49d5ef42f46a5e2a25f3820e 811 term-meta_0.13.dsc
+ bcea3df7d2c495be9a7bafc5fbb4ed62b675402c 3292 term-meta_0.13.tar.xz
 Checksums-Sha256:
- 3ba68f3c18a5433c4ef68e4f55a52ca1d9ce1938328bbbc616a6fb5cf6e5aa8b 811 term-meta_0.12.dsc
- 937f4ca29a9c94378e6e4210bb76b11d79b2acd06fa12934107a804435d19932 3244 term-meta_0.12.tar.xz
+ d92f4ee239e0dfc601448d8824edecc601539dad278b5ea950fa78f40c97e86c 811 term-meta_0.13.dsc
+ bab6a3fedd80c61acc4b578721588cbecd0e7fe9e8fd5022b59e416593115968 3292 term-meta_0.13.tar.xz
 Checksums-Sha512:
- f6b2d3c699a5d4ea555dcc9c6508c3657979ce1a33d75eba4935686d5b38d8545ffa2bdae9d1af9fbdf60a4b5ca990e544e4f8f2e2a8e0fa662ae96636a0ebcd 811 term-meta_0.12.dsc
- 123ca25ebfd8fcd7a236974976b3654b1b1376fb9d48e68cfc1221a3ed03794da4353b2c08d932f54836f589e7f72289b7878309311af23b3fd8927e76017165 3244 term-meta_0.12.tar.xz
+ 5dd59077306c13c1b524a079a8235922e3be1abe6a911445f13670397b92c07227fd888e0512b38d06c8f952b6d4fdcd81eafc9a275ac4053aa6ca04a1f8650c 811 term-meta_0.13.dsc
+ e93d231e8d4b193178a4888c0185d11d0e44f3f505a81697738eba5dfa12bec38560cf876e77cc90e87a4fc354a212c387370bf0df3171841383166ccff075fe 3292 term-meta_0.13.tar.xz
 
 Package: xwayland-satellite
 Format: 3.0 (quilt)

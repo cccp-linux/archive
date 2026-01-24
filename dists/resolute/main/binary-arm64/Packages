@@ -78,23 +78,6 @@ Description: fast and light statusbar for neovim
  .
  This is a neovim-only plugin.
 
-Package: neovim-meta
-Architecture: all
-Version: 0.5
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: neovim
-Recommends: neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/resolute/neovim-meta_0.5_all.deb
-Size: 4016
-MD5sum: 73b61ce7ad72d77512861fe36c0234a5
-SHA1: aee99cc905bee1afa041447cb38b449b63f57b5f
-SHA256: c07286cb80668fe9d4fd1a3709d15cb4452c58e7abf68842488b1128c70160cc
-SHA512: 49ff6861d4b7aaae1eb7903aca108cc753dd6106e4152c7fdad8ac00cf85c1f88968fbf2c61a653ff8005c4828629ce6f3f4bf8262639567ae002d7df29e92ee
-Description: Neovim meta-package
-
 Package: neovim-which-key
 Architecture: all
 Version: 3.17.0-2
@@ -287,19 +270,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.12
+Version: 0.13
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 25
 Depends: alacritty | foot, cage
-Recommends: fonts-courier-nerd, gpm, tmux, wlr-randr
-Filename: pool/main/term-meta/resolute/term-meta_0.12_all.deb
-Size: 3878
-MD5sum: 706f7542f49e8c0f82adaee4bcd7506b
-SHA1: 8f63162512439fc767625b3ace4da744fedb3bed
-SHA256: 6b8dca9ee181d9017664cdcf0777624a525af7a3233aff1ca31067ac0ec46800
-SHA512: 6c5664643c193cae255984c9752292753410ca028dc5acfe92d7170c26025be842517cd2cb805978de5dfdef74d6ccf147e38aaaa340c85cec623b9c4c8609b7
+Recommends: fonts-courier-nerd, gpm, tmux, wl-clipboard, wlr-randr
+Filename: pool/main/term-meta/resolute/term-meta_0.13_all.deb
+Size: 3930
+MD5sum: 9b73824ce6a09aaa7cbea5262660c766
+SHA1: 803146d7b846f6f055e82ae8fe9b0e84ca71d60d
+SHA256: 733012708999e48aa3376b09275aeb1ebd895748e2c84d287549220a3e408369
+SHA512: 5e95f635b813d58b5a6abfbbb4a32c441571d31d8e1471c0a37629d4dd3b667167e95a5fee1082abb2bd07ee9ad4965bb6ebd0f657729ce167ed732c3bfd2ecb
 Description: Terminal meta-package
 
 Package: xwayland-satellite

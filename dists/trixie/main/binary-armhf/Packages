@@ -78,23 +78,6 @@ Description: fast and light statusbar for neovim
  .
  This is a neovim-only plugin.
 
-Package: neovim-meta
-Architecture: all
-Version: 0.5
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: neovim
-Recommends: neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/trixie/neovim-meta_0.5_all.deb
-Size: 4076
-MD5sum: c3ae48a0cec3efab548fc4f712d94eaf
-SHA1: 118aeba8ecf99ff4a47e8768226e7bf8442302e7
-SHA256: d62bb4fdae2b1399197355a8f04b2ae3e607e01d6fe8ab3e259052658390aa21
-SHA512: 49cd285800ac51358f1c25630393fdd45348232d54bb1f539534292b5de064b442d5f745478f67b5a94b57fcd7fc2653ce9bc981d87377d7249de79d498616d8
-Description: Neovim meta-package
-
 Package: neovim-which-key
 Architecture: all
 Version: 3.17.0-2
@@ -325,19 +308,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.12
+Version: 0.13
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 25
 Depends: alacritty | foot, cage
-Recommends: fonts-courier-nerd, gpm, tmux, wlr-randr
-Filename: pool/main/term-meta/trixie/term-meta_0.12_all.deb
-Size: 3932
-MD5sum: def12cdf9c29612010ad4b7d56bd1fea
-SHA1: 52e630f78b440398ab22fffce99cef007c0bda60
-SHA256: ad0d7c80764a38b0d41afa8092852cca935588715fbd2a0ecc94c44328262b55
-SHA512: 68a563d63a5cdbb43af2d6460ca331c373ab2fac2d1c2016da26b81a908eb4857b89313ad49519b7361aeb9b4577fc2fee0d30be4f6fafafcdf0be94f4662553
+Recommends: fonts-courier-nerd, gpm, tmux, wl-clipboard, wlr-randr
+Filename: pool/main/term-meta/trixie/term-meta_0.13_all.deb
+Size: 3980
+MD5sum: ce52e7dcda7129247939cdf8705172e3
+SHA1: 62d18566973272289038a8f88076195e4978ed57
+SHA256: 3b2dbdc1e82bb0d800cff884f548aabc70794054205411d215213569864fb459
+SHA512: 1d457852b2852ab655faa79a01144fea15f7d174702edd6449297e330bc3dc1bf646206b541f205cb8194b1ad8aa84a184ebaa6ee082a5b1ccc4462b3e598b30
 Description: Terminal meta-package
 
 Package: xwayland-satellite-dbgsym
