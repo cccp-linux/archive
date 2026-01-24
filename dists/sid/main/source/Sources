@@ -303,6 +303,32 @@ Checksums-Sha512:
  f7f67820f46eed5c0a98ddd823887aab4226cfb953f3529858793658b1c16a4b0190713cee3f9cb07d1cd5ce8e20807529d72a6f7ffb637e9cef6a29cb124092 403070 quickshell_0.2.1.orig.tar.gz
  08b6ce38743b2bb6225cb7d405e2a0fdbd1291e564af0220aad4eea3dd298eca37f8e871bd576b42bbd6b0994bf4284ec8cc3e6bf270d0a516feb18c13f7d335 1716 quickshell_0.2.1-1.debian.tar.xz
 
+Package: shell-meta
+Format: 3.0 (native)
+Binary: shell-meta
+Architecture: any
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/niri-meta
+Vcs-Git: https://github.com/cccp-linux/niri-meta.git
+Directory: pool/main/shell-meta
+Package-List:
+ shell-meta deb metapackages optional arch=any
+Files:
+ 83d8176b966bc339deafeb906a3d08a1 919 shell-meta_0.1.dsc
+ 6209805453bba9012644695b729b1fcb 2956 shell-meta_0.1.tar.xz
+Checksums-Sha1:
+ 302ebdfa3676a6b49ea0b043623e54f334e8f776 919 shell-meta_0.1.dsc
+ 6647807ced16202098ccb88eff51bbdf9891e47d 2956 shell-meta_0.1.tar.xz
+Checksums-Sha256:
+ 38c325a6edea31bdffd2c29a8cb928a1960afa9d75d3efb4fba3cfdb4d98dfb7 919 shell-meta_0.1.dsc
+ ac9eaeafd1829b1f1c9c32342d5eef0c4b46f3d9f2111601c9742b8d59f85398 2956 shell-meta_0.1.tar.xz
+Checksums-Sha512:
+ 4abf494938445af95599502bb30ae961e126ac2e109aacdbff87776d3206c63a2065cdcc0eb04a038f978a05d06ec8c817c14e96a7c036545eeb9e0e30b6ef45 919 shell-meta_0.1.dsc
+ c1ac46f10f68f6cfa3f7c923b9efcf71508094609a215b3d20191faa3a384deb63d7c4eccb18590cfb64a1d07f087449b71276bbd36584ae5b1da90cee5e9def 2956 shell-meta_0.1.tar.xz
+
 Package: statuscol.nvim
 Format: 3.0 (quilt)
 Binary: neovim-statuscol
