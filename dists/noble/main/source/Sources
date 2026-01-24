@@ -307,27 +307,27 @@ Package: shell-meta
 Format: 3.0 (native)
 Binary: shell-meta
 Architecture: any
-Version: 0.1
+Version: 0.2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
-Vcs-Browser: https://github.com/cccp-linux/niri-meta
-Vcs-Git: https://github.com/cccp-linux/niri-meta.git
+Vcs-Browser: https://github.com/cccp-linux/shell-meta
+Vcs-Git: https://github.com/cccp-linux/shell-meta.git
 Directory: pool/main/shell-meta
 Package-List:
  shell-meta deb metapackages optional arch=any
 Files:
- 83d8176b966bc339deafeb906a3d08a1 919 shell-meta_0.1.dsc
- 6209805453bba9012644695b729b1fcb 2956 shell-meta_0.1.tar.xz
+ 0a778ac0f78972547c0cd01b95390eb2 921 shell-meta_0.2.dsc
+ 11f7e8671d6b5c74880c0632583769c1 3036 shell-meta_0.2.tar.xz
 Checksums-Sha1:
- 302ebdfa3676a6b49ea0b043623e54f334e8f776 919 shell-meta_0.1.dsc
- 6647807ced16202098ccb88eff51bbdf9891e47d 2956 shell-meta_0.1.tar.xz
+ 604948574a5d7665a55d77e940d41d1bfd430431 921 shell-meta_0.2.dsc
+ d277304c6225fea9c93c77322c1098ad931093de 3036 shell-meta_0.2.tar.xz
 Checksums-Sha256:
- 38c325a6edea31bdffd2c29a8cb928a1960afa9d75d3efb4fba3cfdb4d98dfb7 919 shell-meta_0.1.dsc
- ac9eaeafd1829b1f1c9c32342d5eef0c4b46f3d9f2111601c9742b8d59f85398 2956 shell-meta_0.1.tar.xz
+ c685c3bd53e0ec53dd8a0bd5be7c1432465f5c81678baab0ca2b22cd40c33b4d 921 shell-meta_0.2.dsc
+ 794b739133ff312b4a28d44b7ad33bcc865c1614cbfeb8b84bfd77c35c5d59e7 3036 shell-meta_0.2.tar.xz
 Checksums-Sha512:
- 4abf494938445af95599502bb30ae961e126ac2e109aacdbff87776d3206c63a2065cdcc0eb04a038f978a05d06ec8c817c14e96a7c036545eeb9e0e30b6ef45 919 shell-meta_0.1.dsc
- c1ac46f10f68f6cfa3f7c923b9efcf71508094609a215b3d20191faa3a384deb63d7c4eccb18590cfb64a1d07f087449b71276bbd36584ae5b1da90cee5e9def 2956 shell-meta_0.1.tar.xz
+ 1d57d71cbf6e033c54fe542be0949add0fb63ed2c1a6e80e4c8be7a22d9adc0bd097f625168941ff99147fecd50a55513544e8cbf0cfe9f6948c62398db17507 921 shell-meta_0.2.dsc
+ 2339ab6adf92a0635905831d5799a202d2f5d16f0c3d70fe85a1883a9aed53cf2182a8cddff658f671c24cfc1114556d78441b179fe483ffb34bf43449c288fa 3036 shell-meta_0.2.tar.xz
 
 Package: statuscol.nvim
 Format: 3.0 (quilt)
