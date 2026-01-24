@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: shell-meta
 Binary: shell-meta
 Architecture: any
-Version: 0.2
+Version: 0.3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/cccp-linux/shell-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  shell-meta deb metapackages optional arch=any
 Checksums-Sha1:
- d277304c6225fea9c93c77322c1098ad931093de 3036 shell-meta_0.2.tar.xz
+ f32279d6d5938ac25c82c921780195c36f6f94b9 3048 shell-meta_0.3.tar.xz
 Checksums-Sha256:
- 794b739133ff312b4a28d44b7ad33bcc865c1614cbfeb8b84bfd77c35c5d59e7 3036 shell-meta_0.2.tar.xz
+ 1ecc28c01cf4fb2ed84aef40412d8c9e22d6f0856aace89a1b8a420c2bddaca7 3048 shell-meta_0.3.tar.xz
 Files:
- 11f7e8671d6b5c74880c0632583769c1 3036 shell-meta_0.2.tar.xz
+ eb43d3887ad1e3f7cd0389ca4aec20d3 3048 shell-meta_0.3.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaXQndwAKCRA6Vr9YT1rr
-J2bKAP9L6V7xJH2dUXlGAxEJghPXpeN6EFGsSaYEzmZ6YFrbSwEAyBByJSUAR1xI
-Iw+h49Gqn8qh3e2sXJcK3Ea54TZ9FgE=
-=QH+8
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaXQqTAAKCRA6Vr9YT1rr
+JxrqAQDmdfFtthvz4WYZsyCaoyaSV+rUjWocSMalyn7epDlrhgEA91nYbycAJLBn
+epaf5DZbAnhPvY7aKMwm57v9Y77tpAY=
+=Uzsd
 -----END PGP SIGNATURE-----
