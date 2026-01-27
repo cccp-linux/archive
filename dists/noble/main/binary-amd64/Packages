@@ -34,6 +34,26 @@ SHA256: 330f4774418c50340e20a7879bb6d963af4fb55a6761cd95113dcf762044a9ff
 SHA512: 25b2348222b42e3fc5ac65b0be96d89d069aadbee74603075679ba1b9c0f4c19b7558c21bb032e03dab503fec36dec04afda835e4870b33dc73787d789481165
 Description: Standard set of CCCP Linux packages
 
+Package: debchange
+Architecture: all
+Version: 2.26.5
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Installed-Size: 118
+Depends: perl:any, dpkg-dev (>= 1.18.19)
+Recommends: libdistro-info-perl
+Breaks: devscripts
+Replaces: devscripts
+Filename: pool/main/debchange/noble/debchange_2.26.5_all.deb
+Size: 31088
+MD5sum: 6261dfe694b429cc52115f04eb56b7f5
+SHA1: 9e9d3fb919713c1a3b19728ce300814f35e1ca39
+SHA256: a7dc6d8608d59d4237a1b2e73933968b8b919b6c2c56a6f43fa02e76f565e73d
+SHA512: 3c93d7dcff0c690c288e7c79196caa1c5a4354c6a4619fd032c606a7a3a58927890a99120ac86f369f0c6f81144be726f1f5d2837edd63d274872fc89543dc02
+Description: debchange (aka dch) script extracted from devscripts
+
 Package: fonts-courier-nerd
 Architecture: all
 Version: 2.2-1
