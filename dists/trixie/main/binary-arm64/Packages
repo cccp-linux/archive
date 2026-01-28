@@ -159,6 +159,23 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
+Package: niri-meta
+Architecture: arm64
+Version: 0.5
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24
+Depends: niri, quickshell
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils
+Filename: pool/main/niri-meta/trixie/niri-meta_0.5_arm64.deb
+Size: 3696
+MD5sum: 497c8cd421dd47260475c847b83d9a63
+SHA1: 2637d92436a5efbd3e2187608ddca2ce77ac6422
+SHA256: 953e7e1900b5d3432276b80462fc97c664c0e09c5275aa030956248af1a56da0
+SHA512: 4ccf1a2f70b559a3a9dfd4f06348f9949c3205a5f31b00a2f645a745e48a7bb0193142080acf89dbb376393582042056c3c9c2493e63c474f42df183fde35dff
+Description: Shell meta-package
+
 Package: niri-dbgsym
 Architecture: arm64
 Version: 25.11-5
@@ -305,23 +322,6 @@ Description: Flexible toolkit for making desktop shells with QtQuick
   * Power Profiles Daemon
   * MPRIS compatible media players
   * StatusNotifierItem compatible system tray clients
-
-Package: shell-meta
-Architecture: arm64
-Version: 0.4
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: niri, quickshell
-Recommends: bluez, brightnessctl, curl, jq, network-manager, playerctl, procps, udisks2, wireplumber, wlsunset, wpasupplicant
-Filename: pool/main/shell-meta/trixie/shell-meta_0.4_arm64.deb
-Size: 3584
-MD5sum: 09bb0f483b25bb817c2d517cc5153753
-SHA1: b061111cc327ce9b2c7999f37b1053df16a8a75a
-SHA256: 012ce0e4e60365b339608a8f8759b42853f049cce3accaec0ba34613d4f1d03a
-SHA512: e54da3c9f9b0da619a6ed5c1aba24c5ddf361c704074bed61850d48184a7218e87476e95612f6a2e3f5b8299cf19f75e4a79f0e30005b381c2c363fee20b1de0
-Description: Shell meta-package
 
 Package: neovim-statuscol
 Architecture: all
