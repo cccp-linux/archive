@@ -1,4 +1,4 @@
-# CCCP Linux
+# CCCP Linux Package Archive
 
 ```shell
 url=https://cccp-linux.github.io/packages/cccp-linux-keyring.asc
