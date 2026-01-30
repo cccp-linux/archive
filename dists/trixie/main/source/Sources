@@ -51,6 +51,32 @@ Checksums-Sha512:
  927df57928acb619e2e3a0bfa00b07b88760775119811378e9046a16238a4cb51ff119ed4fc109edd9c04e992187d63f5c3e68f22e8dcb35f6197a0e095ac7e8 975 debchange_2.26.5.dsc
  fba4d23baeaa77e6c2b4264667062349f5bc07eb3342e853fda08d16fccc3359a7c1d30c3014f0b1604a1ec79c84d8db86f8499ff79c5a3ccad5a031e10d1a0b 28484 debchange_2.26.5.tar.xz
 
+Package: dev-meta
+Format: 3.0 (native)
+Binary: dev-meta
+Architecture: all
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/dev-meta
+Vcs-Git: https://github.com/cccp-linux/dev-meta.git
+Directory: pool/main/dev-meta
+Package-List:
+ dev-meta deb metapackages optional arch=all
+Files:
+ cdf5f8afd02d62f9217535ef551c2e27 908 dev-meta_0.1.dsc
+ 3ed947e8c400aaa01bfff04b6a63a916 14572 dev-meta_0.1.tar.xz
+Checksums-Sha1:
+ a04a55717f088e27fdf8d420b463d10d94d2b3b7 908 dev-meta_0.1.dsc
+ 26c68db09d64a9bae8b1b49b44e8d76a983f4d74 14572 dev-meta_0.1.tar.xz
+Checksums-Sha256:
+ c83fc194f67b8940e7ec39fa3b885f16b9722e1c4352b473abc7191e365a0a90 908 dev-meta_0.1.dsc
+ aa06ba5f282c7c20cca578d56fd4a45c688441e078930a9c138ad941899bee77 14572 dev-meta_0.1.tar.xz
+Checksums-Sha512:
+ ae3d32ebc40f3f1a877388bf6057de42fe8d3af1ed19e1f1b8aab6acf6b8f234a9eb8da0aea402cd7e63d13fdff11ce93d7391f74b91b87dfcfd34e1ba6a7425 908 dev-meta_0.1.dsc
+ 4a74f1de364d2a5066de46ee4ecf5513bce10c0291be24f404be8a9a55690084a1f6101ae198fa3a1a7e1c31043c37921afb0ec846c8d7db8b59568e447af788 14572 dev-meta_0.1.tar.xz
+
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
 Binary: fonts-courier-nerd

@@ -54,6 +54,23 @@ SHA256: 218b923efe3ea79ee7194ceee9125c892c928593216fb80c5e118ed7b72ad419
 SHA512: 815d91f831d6f0a0a9d23b9249686275dd94ca338455fb2697b796279d680845f8ec6aae09e7f1b4512933d6c0472dcfefbcbfe97b6912f9ca1f0213afbe7ff6
 Description: debchange (aka dch) script extracted from devscripts
 
+Package: dev-meta
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 8
+Depends: build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuilder
+Recommends: bison, clang, clangd, eatmydata, flex, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, vim-fugitive
+Filename: pool/main/dev-meta/sid/dev-meta_0.1_all.deb
+Size: 1492
+MD5sum: 66c8334a836df7016a06725bddf6dfbe
+SHA1: 902e319a9688b72afe0460f724192d0b3c138fe8
+SHA256: c784323218092170c22c2623101741b8e2dd93deaed053aaad1693dad4fecca4
+SHA512: 54bb57f5a36e9f67871810bb1b048d4f420a608c8a59f5f76c603a4d725591a067b6ed856d65a05abe4914d59a32b245ce9db58df7b911c37e0a1d4b4b0f4f41
+Description: Development meta-package
+
 Package: fonts-courier-nerd
 Architecture: all
 Version: 2.2-1
