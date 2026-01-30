@@ -56,19 +56,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.2
+Version: 0.3
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 8
+Installed-Size: 28
 Depends: build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
 Recommends: bison, clang, clangd, eatmydata, flex, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, vim-fugitive
-Filename: pool/main/dev-meta/resolute/dev-meta_0.2_all.deb
-Size: 1376
-MD5sum: 14d202db65f6c81538a72dc47bf31a06
-SHA1: bcddfe613ce685d16412bff627bb0d32e548a5ca
-SHA256: 43e8520760e6d28401fb19c42ddb69382b0b0ba7dbd1173c4d09d15de6e5b361
-SHA512: e40e81732c58c111ff6231999471209568b1669c11b84cfded4cbc3d4e1ce8a49e713bb99f301d152d0ba083534d147ea098bfa43ad48779971645d810d2d08f
+Filename: pool/main/dev-meta/resolute/dev-meta_0.3_all.deb
+Size: 4572
+MD5sum: 8a0a8a5c6512803b672b176917d81533
+SHA1: fedfa6069c4b7be43f18cdc6caa84654b4392d66
+SHA256: bf4f716306c32e6b7cb4c8d2dc500d69ba905ebbbb4857470a62dc8b9db0b7fb
+SHA512: c84f5d4e76b96064fd80a3786105582f02f35ad2bf891da1d626f6ee533e6e2e1a2afd69e0740d4d852875a90934e583d404a65b28b2d7ec506988b97bca33c5
 Description: Development meta-package
 
 Package: fonts-courier-nerd
