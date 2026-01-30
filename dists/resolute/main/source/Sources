@@ -117,7 +117,7 @@ Package: neovim-meta
 Format: 3.0 (native)
 Binary: neovim-meta
 Architecture: all
-Version: 0.6
+Version: 0.7
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -127,17 +127,17 @@ Directory: pool/main/neovim-meta
 Package-List:
  neovim-meta deb metapackages optional arch=all
 Files:
- c16a5361cef9fb92b52851e4cde69851 929 neovim-meta_0.6.dsc
- 3192fc5ce2dc663455a0b62ee1a0ef67 3600 neovim-meta_0.6.tar.xz
+ 0e448807baa1f6f33a742cb62df388ba 932 neovim-meta_0.7.dsc
+ 3b550b92c5e58604327fc9298676775c 14652 neovim-meta_0.7.tar.xz
 Checksums-Sha1:
- 0bb955e86ad0e6f236655252797155b7a51a2c87 929 neovim-meta_0.6.dsc
- f668732e4460b25359eb057431870b345b5baf57 3600 neovim-meta_0.6.tar.xz
+ fc0adea5aadb8fbb7bae1722747914b62eef1b7f 932 neovim-meta_0.7.dsc
+ b98101e281b77f3d32285f5cf19c757106707a04 14652 neovim-meta_0.7.tar.xz
 Checksums-Sha256:
- 5b9b88faff5c6f078a557132cb3fba5d2cd4d16e15b2d0539b15015929fad36b 929 neovim-meta_0.6.dsc
- 9c91aa1b7fc13a9f0ae75f771a1c5b4770a6c2eae5aae98a747444001d545df9 3600 neovim-meta_0.6.tar.xz
+ 89f3b0504f20444dc28f8d49dc09435e9d092e12ee9d4fc5b3dd9b62a14619e7 932 neovim-meta_0.7.dsc
+ dd9351d5f973c49a2ec1ddc9bcb5aecc3ac1ed40d2413f1817122a82f5c2bd73 14652 neovim-meta_0.7.tar.xz
 Checksums-Sha512:
- 99b36daaa2ea4a54d71a9cbd0f8696389a81c44c419bd409635f6fe37caac7689513fb5d8a0fc96fc46e5785a57b78cd0ec3253644e7d9d3503b1b9239ede7be 929 neovim-meta_0.6.dsc
- d8e95d8fddead5218f5bfe8655bfc9b1ef11b36c1d0bbcb52448e03a9d004a87d7c7644f4739abc439f1b30e0a5d2a6b26a6b7e2781b95421e7aaca4d793e14b 3600 neovim-meta_0.6.tar.xz
+ 5f7f5c1f6cb1d43ca1f1e4e22d15020974a320dd6e6b0369d295190fb62f7e39a0923b24847c9894f6b07d1fa7e85c83cb2ad9af042052e09fa67e2dc1be0960 932 neovim-meta_0.7.dsc
+ e609931dd2f11f5e5f9c8497210d497ad9a99b694699ffa011fb75e70da82440dcb0a1427a19d24dce58cfd82f86029c3e569ccb5a5a9ced0c56a47aec283634 14652 neovim-meta_0.7.tar.xz
 
 Package: neovim-which-key
 Format: 3.0 (quilt)
@@ -207,7 +207,7 @@ Package: niri-meta
 Format: 3.0 (native)
 Binary: niri-meta
 Architecture: any
-Version: 0.5
+Version: 0.6
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -217,17 +217,17 @@ Directory: pool/main/niri-meta
 Package-List:
  niri-meta deb metapackages optional arch=any
 Files:
- 02ec66f83b894f876b96a8a2325bea00 916 niri-meta_0.5.dsc
- 3377d9d44d4de7bc2a25b5d39da46e3d 14384 niri-meta_0.5.tar.xz
+ 9dbf22dd7f0f2fe7cf9b82c955235b02 916 niri-meta_0.6.dsc
+ fd44ad12480545f93f7e9d1b7a78d431 14524 niri-meta_0.6.tar.xz
 Checksums-Sha1:
- 84fd4a86705e2214b0aa3f7d7c4bd63b724c92da 916 niri-meta_0.5.dsc
- 074b7a63e9391918e98c18ef768948559494c58f 14384 niri-meta_0.5.tar.xz
+ 74bfd8e3a60fef8a9dd9a5071592f34df3458187 916 niri-meta_0.6.dsc
+ e6a6106cce27f67762869f6e1eb71e241096d7fb 14524 niri-meta_0.6.tar.xz
 Checksums-Sha256:
- fe4972c716a05bd6e099ce15068f44922b158b2b693f85fe39e3fcf1b322ccd3 916 niri-meta_0.5.dsc
- 346b5810b0e4fbb5ea90e1816e726bf5c5fd990416ce0717f91346282aba27e3 14384 niri-meta_0.5.tar.xz
+ 9b1349049e356f1e19c4ef9d822d28aa0c41dfd6a5e3d493a5605760eb9b3a3e 916 niri-meta_0.6.dsc
+ 54ddb472f29868ea177490e9bb8460a207e436fc1d16683f0661f160e1b6d52c 14524 niri-meta_0.6.tar.xz
 Checksums-Sha512:
- 8d6ebc94add989b5f7834697aabd993e76de9c8af3e3e5802841ee523a5b911ebbea962b7bfdd64f401fc75d2784885a651cc5f742aa32dee7c33933b35696fb 916 niri-meta_0.5.dsc
- 12025f8a6b89f3f283753a9aa65366bd13f6331f10d711de6fc7523d4707393a8b5e87cdeb41cb7830f6fb2c03d9bae4efc144f907a177c487d514f26af8d724 14384 niri-meta_0.5.tar.xz
+ 61e34fa714eb9d983954902bcf11013a545e3008260a341ed37d143b4499377a049dd5a9aec1701f8d3bc9d2857ec3ea324a6876fbf5afedb1ab1d7b0664aa9d 916 niri-meta_0.6.dsc
+ 7b6480fcce17300fcce85f9b8519b150eca1c67f2a60170b052a28326d36a1c074ed5bead2b6f33f8668cb42313d1a8b50194bdd73dc1d8e36747855732e72fd 14524 niri-meta_0.6.tar.xz
 
 Package: niri
 Format: 3.0 (quilt)

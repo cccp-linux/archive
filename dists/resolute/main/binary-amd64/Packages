@@ -100,19 +100,19 @@ Description: fast and light statusbar for neovim
 
 Package: neovim-meta
 Architecture: all
-Version: 0.6
+Version: 0.7
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: neovim
 Recommends: neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/resolute/neovim-meta_0.6_all.deb
-Size: 4076
-MD5sum: 6792171398bfee95a2e886d1ec653e66
-SHA1: 8e5370642f1f86cacb8633bb7d109b105678c01a
-SHA256: 7a85cc14498d4855144af347b0aefc094910dc7be5a22f0c8fe2658f3746904a
-SHA512: b68f1323041891eb5b600a2493b5bbb0234a614cc515901e64aab83d232d01f60f4bf8085a7322f1cfc31083f69012b15d13e5436b94bb50f0a92a2a47b99ac4
+Filename: pool/main/neovim-meta/resolute/neovim-meta_0.7_all.deb
+Size: 4110
+MD5sum: 9c1b25cb0e96e5916c0bffd85101bf6e
+SHA1: 1cd9b8cd2b7fb717176b6d32d49816d68bb1e062
+SHA256: cba45b8735fb2b6988a62262f1748808e0ace8aabac5fc7f9ab4c6b5b8ae7466
+SHA512: 2eb0b444a7efd4ccfef81f40542bfabf854cb75597d48b7e801a31cf4e822d2757425d35872c9891d8c64d98487ac3bf745d6f8a9c034b2649734b1457063a89
 Description: Neovim meta-package
 
 Package: neovim-which-key
@@ -158,23 +158,6 @@ Homepage: https://github.com/EdenEast/nightfox.nvim
 Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
-
-Package: niri-meta
-Architecture: amd64
-Version: 0.5
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: niri, quickshell
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils
-Filename: pool/main/niri-meta/resolute/niri-meta_0.5_amd64.deb
-Size: 3620
-MD5sum: 0d933f3cac36ee045cdadbe97a0b2554
-SHA1: b188c68818ee21fdf50b8efbec31287f04951f71
-SHA256: 026e6b5e564e6ab7799e53e12439a49d13ee186a76b2c9ae4680b37f64d26a2f
-SHA512: efe4f270eac7df2cb3ba3d706e546faae8494c89489d78787b7af57533a16a987b111ad80726aca13c427c5d98f7c455e9a0680eb16b9ed4eb124c0afb8b5cfa
-Description: Shell meta-package
 
 Package: niri
 Architecture: amd64
