@@ -343,6 +343,23 @@ Description: Status column plugin
  Status column plugin that provides a configurable 'statuscolumn' and click
  handlers.
 
+Package: term-meta
+Architecture: all
+Version: 0.14
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 25
+Depends: alacritty | foot, cage
+Recommends: fonts-courier-nerd, gpm, tmux, wl-clipboard, wlr-randr
+Filename: pool/main/term-meta/sid/term-meta_0.14_all.deb
+Size: 4012
+MD5sum: 0553132daddbb65f0e9d888c05cf9518
+SHA1: 01dba93ae064f4fed428b110eb9c010365590be6
+SHA256: 614e1cc5c432801608e990725aa0295877016f592fe93e5d28a34e40a2246c27
+SHA512: f8f617754b154f9f9f222cc5583ff831c3dc0993adab961820c5061121f867ff486e61092a0dce02493f80e45e4e80dac83460fb9820eb7e81a0e048c9467a95
+Description: Terminal meta-package
+
 Package: xwayland-satellite-dbgsym
 Architecture: amd64
 Version: 0.8-1
