@@ -392,7 +392,7 @@ Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
 Architecture: all
-Version: 0.13
+Version: 0.14
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -400,17 +400,17 @@ Directory: pool/main/term-meta
 Package-List:
  term-meta deb metapackages optional arch=all
 Files:
- ad6c9d4048115682248d7c54706695c1 811 term-meta_0.13.dsc
- df43e742298f623d6dd8fcc8cae5e470 3292 term-meta_0.13.tar.xz
+ d2c6543ad285f50142f835cf17c942e5 814 term-meta_0.14.dsc
+ 79d2e75522525f70c61b0e755e85bec4 14324 term-meta_0.14.tar.xz
 Checksums-Sha1:
- 9e3fb4ad69d2766a49d5ef42f46a5e2a25f3820e 811 term-meta_0.13.dsc
- bcea3df7d2c495be9a7bafc5fbb4ed62b675402c 3292 term-meta_0.13.tar.xz
+ dfe7343b9bf1d2082107d5a7904fefb6b0b04411 814 term-meta_0.14.dsc
+ c9ab7d16c532956e0ea444eb0c070dbf677e2eef 14324 term-meta_0.14.tar.xz
 Checksums-Sha256:
- d92f4ee239e0dfc601448d8824edecc601539dad278b5ea950fa78f40c97e86c 811 term-meta_0.13.dsc
- bab6a3fedd80c61acc4b578721588cbecd0e7fe9e8fd5022b59e416593115968 3292 term-meta_0.13.tar.xz
+ e1a8a46b9af3f567e181d7104998d1757919947a506558262250500c84912031 814 term-meta_0.14.dsc
+ a13a01d1cbf52fced0bd45fb39dc083c04eb9abe5e8b379a6cf793e86a98b0f3 14324 term-meta_0.14.tar.xz
 Checksums-Sha512:
- 5dd59077306c13c1b524a079a8235922e3be1abe6a911445f13670397b92c07227fd888e0512b38d06c8f952b6d4fdcd81eafc9a275ac4053aa6ca04a1f8650c 811 term-meta_0.13.dsc
- e93d231e8d4b193178a4888c0185d11d0e44f3f505a81697738eba5dfa12bec38560cf876e77cc90e87a4fc354a212c387370bf0df3171841383166ccff075fe 3292 term-meta_0.13.tar.xz
+ f06f8466bbc546b86f7ce7e0fa76254bc0ddbe12832ecc330f391e68f711557db32ac449a48568f2ba4044612cf3a0e79e6bbd5d16116dee3a8b65714009ea22 814 term-meta_0.14.dsc
+ 1c976cd82ddfb30722da4de3d86bb261876d9463f323e442ba812edf7e3ded05dcd34926d14bf9d0ff02e274c008d7ce970d4228ca793272a226d7f9a5024fa6 14324 term-meta_0.14.tar.xz
 
 Package: xwayland-satellite
 Format: 3.0 (quilt)

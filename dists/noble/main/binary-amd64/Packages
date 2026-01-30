@@ -159,6 +159,23 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
+Package: niri-meta
+Architecture: amd64
+Version: 0.6
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24
+Depends: niri, quickshell
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
+Filename: pool/main/niri-meta/noble/niri-meta_0.6_amd64.deb
+Size: 3676
+MD5sum: a2f03b7b34640221844aa8c91da5885b
+SHA1: 7dd28d2d0b7c3e8567fc7fbceb02f97b6038754f
+SHA256: f001cb62571543d83678a67fab4ce2bad4fbbc8b63775a6d1c4e8bd6ceec7051
+SHA512: 12a982fee040bcc78783b06b783991b5ed208bb5025586ef1b282ee61a8358f8e9029794f0ecc53a21ce1c98c789a836159b425540d7c26b4d0d1799f1507e42
+Description: Shell meta-package
+
 Package: niri
 Architecture: amd64
 Version: 25.11-5
@@ -248,23 +265,6 @@ Homepage: https://github.com/luukvbaal/statuscol.nvim
 Description: Status column plugin
  Status column plugin that provides a configurable 'statuscolumn' and click
  handlers.
-
-Package: term-meta
-Architecture: all
-Version: 0.13
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 25
-Depends: alacritty | foot, cage
-Recommends: fonts-courier-nerd, gpm, tmux, wl-clipboard, wlr-randr
-Filename: pool/main/term-meta/noble/term-meta_0.13_all.deb
-Size: 3930
-MD5sum: 9b73824ce6a09aaa7cbea5262660c766
-SHA1: 803146d7b846f6f055e82ae8fe9b0e84ca71d60d
-SHA256: 733012708999e48aa3376b09275aeb1ebd895748e2c84d287549220a3e408369
-SHA512: 5e95f635b813d58b5a6abfbbb4a32c441571d31d8e1471c0a37629d4dd3b667167e95a5fee1082abb2bd07ee9ad4965bb6ebd0f657729ce167ed732c3bfd2ecb
-Description: Terminal meta-package
 
 Package: xwayland-satellite
 Architecture: amd64
