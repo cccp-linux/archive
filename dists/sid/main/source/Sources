@@ -2,26 +2,28 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: all
-Version: 0.19
+Version: 0.20
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/cccp-meta
+Vcs-Git: https://github.com/cccp-linux/cccp-meta.git
 Directory: pool/main/cccp-meta
 Package-List:
  cccp-boot-meta deb metapackages optional arch=all
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- f23b419102571293f1fb2b9ad8e1ef07 899 cccp-meta_0.19.dsc
- 88d8181da6ec144f5f167d136f6688c7 14912 cccp-meta_0.19.tar.xz
+ 18892314bbdc789d962316ccfbb836be 1005 cccp-meta_0.20.dsc
+ 32f32358b1d37ac24926424e370c9db7 15392 cccp-meta_0.20.tar.xz
 Checksums-Sha1:
- c51e48d5f6a2745c8de24eac3de98dfabd095975 899 cccp-meta_0.19.dsc
- 869d3d618a6dc2c4d7d8ac0e9b4eb5db4caae330 14912 cccp-meta_0.19.tar.xz
+ 05808707867ea0825f53ed6f50e3679e4d5da74f 1005 cccp-meta_0.20.dsc
+ 92b9d6e2348ebe3b7e28c2ae77110010d9909a50 15392 cccp-meta_0.20.tar.xz
 Checksums-Sha256:
- 14707b2d011f767c6a15a8e16ea11a8768951202741e4e4a2ed334db4bc57c03 899 cccp-meta_0.19.dsc
- 858c09b5626acd965a72acfc101f1d9b121b6cbe1af35c24acdebf33cd3f9e29 14912 cccp-meta_0.19.tar.xz
+ fc02209e694771ba872eccb556b5bb886fe14cb8280bafae88c3ede81f0f6d6a 1005 cccp-meta_0.20.dsc
+ 88703378829d904023d0d8a13bc09befcfd3926fb51403831cfd29ba1cab4dbe 15392 cccp-meta_0.20.tar.xz
 Checksums-Sha512:
- 18643cb2f4140035ada21de1bb2fd2d119941656e578400e43dfb8ac54cc4e12d3e813085c50891ab7a2efbbe0cf2fbed91416b7e812fc5b07689b9116e363d6 899 cccp-meta_0.19.dsc
- 8ab6695b4a4e8a7d012ed338baa873a97a23de46613ae1b8a8c6b2dc87398b39f6792cf52be69eeac27944d58b3ecf70124133d35417f66b7f3ef4df65bf2795 14912 cccp-meta_0.19.tar.xz
+ b61a9a1b6840c47c632c038b41fbd6eca53bc47292f6b11e9f2f51622770f432d8ff055e5aa0d1b1b5f911bfd1c891d5403f859153d056e2a495fd699b87efb7 1005 cccp-meta_0.20.dsc
+ 91c58511ecf2064cdc67273288dec6716f708b96c2e8a030d3e4c8c14ac476bce298b6187b04092589c601bb75cf87b4577dc6e8827fdd72dd547d1798e0c5dc 15392 cccp-meta_0.20.tar.xz
 
 Package: debchange
 Format: 3.0 (native)
