@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: quickshell
 Binary: quickshell
 Architecture: any
-Version: 0.2.1-1
+Version: 0.2.1-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://quickshell.org
 Standards-Version: 4.6.2
@@ -16,18 +16,18 @@ Package-List:
  quickshell deb x11 optional arch=any
 Checksums-Sha1:
  ebc3df112730445c6818137a53203a3ff622ddcd 403070 quickshell_0.2.1.orig.tar.gz
- 1b6ba3283d874dfa6e651f4e1f5dfd5f8cafcd08 1716 quickshell_0.2.1-1.debian.tar.xz
+ a4369d97ea004e0c436024e679d34bcc2cacb5e4 1756 quickshell_0.2.1-2.debian.tar.xz
 Checksums-Sha256:
  d815c5f99f4a0a28545ffaa90464420c773b7c0ab62f713d9d8735a8e7282ca7 403070 quickshell_0.2.1.orig.tar.gz
- 13db602a5b199efe8830df46e0ac95702bdff575c61effe3e6903a6a85e3da07 1716 quickshell_0.2.1-1.debian.tar.xz
+ a2f0c1929c7c87915920517c9846c7f8a8bb9ee28f442df955eb706fc24ed822 1756 quickshell_0.2.1-2.debian.tar.xz
 Files:
  4b001a14ae184fa478abc9f48e4e9d90 403070 quickshell_0.2.1.orig.tar.gz
- ccfefef0fd8ca975107411c40fae36a8 1716 quickshell_0.2.1-1.debian.tar.xz
+ d5397f7ecb752f17dda5e1a74ab748be 1756 quickshell_0.2.1-2.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaXJNrwAKCRA6Vr9YT1rr
-J6rhAP41wdnIYQHp+Vq9o3CNFtZKyDj/rfhBqWZW5q0pORyV8AD9FnoV4zsFUqne
-Qxh1/uWhtx/qwrA1LnbuS6IXH/bWZgs=
-=jkfi
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaX2E7wAKCRA6Vr9YT1rr
+J5nMAP45bqqJ2Z+Gzqq4YsBKepF82zgrKB8FxaBusHboZVg+MwD7BLOvJFio3Xgb
+8DwwU7UgDjyqAAbKEaRIirtVMJUVqgQ=
+=74CR
 -----END PGP SIGNATURE-----
