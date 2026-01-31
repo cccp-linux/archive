@@ -79,11 +79,11 @@ Section: fonts
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 9306
 Filename: pool/main/fonts-courier-nerd/sid/fonts-courier-nerd_2.2-2_all.deb
-Size: 1406968
-MD5sum: d9eb390a3efd53ae661a5fc4176a22cf
-SHA1: 97597b6f087e6133a78aaf271e0e166acd298c7f
-SHA256: f5914c6fc5759b937cf56891c287817aad55e20fd51c3636efc0bf7edf427d6a
-SHA512: 76caa6520e164c114f5f32f1c60450ab8a09d7b079e4afc65295a955144b6af59f3c40fb408504f111c5a81cf8ee93669e6f8d0415180ec0404c338099b9a6cc
+Size: 1406028
+MD5sum: c573db57de9ee70d8f593592638fea45
+SHA1: ddbf32130db15b57e3f3c620d9f08af68d6dad5e
+SHA256: bf2ef35b6cf720578ed20fe5108e390340a9081666832645fdf989adea7b8d7d
+SHA512: 80eaedcdb3d979bd84c2f643cee160ebfaced7b168c32ace2f6cddfa100d8ccd7e63d24e3d2a0f17b1953fe50ee9968772f32c1a242ffbd3e015b2eb3f9548a8
 Description: Courier 10 Pitch font patched with Nerd Fonts
  This version of the Courier 10 Pitch font has been patched with the Nerd Fonts
  patcher.
@@ -91,6 +91,64 @@ Description: Courier 10 Pitch font patched with Nerd Fonts
  Nerd Fonts patches developer targeted fonts with a high number of glyphs.
  Specifically to add a high number of extra glyphs from popular "iconic fonts"
  such as Font Awesome, Devicons, Octicons, and others.
+
+Package: fonts-jetbrains-mono-nerd
+Architecture: all
+Version: 3.4.0-3
+Priority: optional
+Section: fonts
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 115906
+Depends: fontconfig
+Filename: pool/main/fonts-jetbrains-mono-nerd/sid/fonts-jetbrains-mono-nerd_3.4.0-3_all.deb
+Size: 14540060
+MD5sum: 4f3b1bbf430c9b4afc4220815d2f0f71
+SHA1: b07a3504b3ee6c812ddc5cbb52a01f4e45500839
+SHA256: 93300c8cd873062f6847af7b42fde44195bca9575e1ce8578108182d3f33e79d
+SHA512: 29c77f77b95202ca8d66c35aef8d9f2f55a594a01427e9c2e1d76258f07dde09f65b5522d9037d3f9cbfa4651cf84770bcdb61ea3a2917125f4d22aa138aad46
+Homepage: https://github.com/ryanoasis/nerd-fonts
+Description: JetBrains Mono: a typeface made for developers
+ This version of the JetBrains Mono font has been patched with the Nerd Fonts
+ patcher.
+ .
+ Nerd Fonts patches developer targeted fonts with a high number of glyphs.
+ Specifically to add a high number of extra glyphs from popular 'iconic fonts'
+ such as Font Awesome, Devicons, Octicons, and others.
+
+Package: fonts-roboto-mono
+Architecture: all
+Version: 3.001-2
+Priority: optional
+Section: fonts
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 979
+Filename: pool/main/fonts-roboto-mono/sid/fonts-roboto-mono_3.001-2_all.deb
+Size: 587448
+MD5sum: 79482d429d4d7c5e23d8b420db5d926d
+SHA1: b22abdf75102d298cb7be4020369b3232032526b
+SHA256: cd2bec40e041e1b8c6da6c4a988b200713d1e457713db1d860fe342c9f35c318
+SHA512: 8787f12675904cbaa438de9e7da95412d96ee3b431a606c6c1f12f7e849514dcb990078b3bfebde9cd6ad125876698e0648fdef6b8b3880b6d25fa688c83c082
+Homepage: https://github.com/googlefonts/RobotoMono
+Description: Monospaced addition to the Roboto type family
+ Like the other members of the Roboto family, the fonts are optimized for
+ readability on screens across a wide variety of devices and reading
+ environments.
+ .
+ While the monospaced version is related to its variable width cousin, it
+ doesn’t hesitate to change forms to better fit the constraints of a monospaced
+ environment. For example, narrow glyphs like ‘I’, ‘l’ and ‘i’ have added
+ serifs for more even texture while wider glyphs are adjusted for weight.
+ Curved caps like ‘C’ and ‘O’ take on the straighter sides from Roboto
+ Condensed. Special consideration is given to glyphs important for reading and
+ writing software source code. Letters with similar shapes are easy to tell
+ apart. Digit ‘1’, lowercase ‘l’ and capital ‘I’ are easily differentiated as
+ are zero and the letter ‘O’. Punctuation important for code has also been
+ considered. For example, the curly braces ‘{ }’ have exaggerated points to
+ clearly differentiate them from parenthesis ‘( )’ and braces ‘[ ]’. Periods
+ and commas are also exaggerated to identify them more quickly.
+ .
+ The scale and weight of symbols commonly used as operators have also been
+ optimized.
 
 Package: neovim-lualine
 Architecture: all

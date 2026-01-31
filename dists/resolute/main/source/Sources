@@ -85,27 +85,89 @@ Version: 2.2-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
-Vcs-Browser: https://github.com/cccp-linux/fonts-courier-nerd
-Vcs-Git: https://github.com/cccp-linux/fonts-courier-nerd.git
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-courier-nerd
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-courier-nerd.git
 Directory: pool/main/fonts-courier-nerd
 Package-List:
  fonts-courier-nerd deb fonts optional arch=all
 Files:
- 620b3ccc47e794d5142b5b6cca4685d0 1277 fonts-courier-nerd_2.2-2.dsc
+ 5a80c283b8c2877fa060aa81e5f9066e 1297 fonts-courier-nerd_2.2-2.dsc
  dc488bbd8e7dab2eb6ea5474839c020b 5623815 fonts-courier-nerd_2.2.orig.tar.gz
- 3662ec30eda37ebf8bdf64eed018d913 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
+ 5ba14edba1ced50bef900e563f92ee8c 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
 Checksums-Sha1:
- 3eb8c02af80d5783fd49a0877e7ef9ca161e7b3e 1277 fonts-courier-nerd_2.2-2.dsc
+ 1a58313a4450993129019c543655bc8ea1d3c9c2 1297 fonts-courier-nerd_2.2-2.dsc
  cc56797f2a4065dfac95181e5f9505d409d84e87 5623815 fonts-courier-nerd_2.2.orig.tar.gz
- bf20246982502e6999a7dc387b51eac56d7eb334 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
+ 9023d710560cd7f8eee459b7c0987651e8e9b51e 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
 Checksums-Sha256:
- b148b9b71624bbe1b27b66b06ffcda4173821560d115a5ac7dd1667f4b749065 1277 fonts-courier-nerd_2.2-2.dsc
+ dc9a2b766f29d9e09460476bf5c36993e48ef394e3b9ddf03cebad88eca71911 1297 fonts-courier-nerd_2.2-2.dsc
  fbefdbe939186629cba50d3c284ca87e73aa87ed442d4b589f934a561815bfe1 5623815 fonts-courier-nerd_2.2.orig.tar.gz
- bfdd5caaafbc52b4c95fbffb5546da6a127068dff4c98b356be169baff6ba8b4 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
+ 6a1e90901d0d6ae2933774d47a4abf97538835568452a25ae453f54a8946c195 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
 Checksums-Sha512:
- 9dd5cb549c04df6b3bfdf9a655d4187e28cc2bd1c0a0882d97b7003e988506925d4dc0073a84a362f1d7aee69e83b685f26b166f241b88daba1754c2058b6ece 1277 fonts-courier-nerd_2.2-2.dsc
+ e1332319e40c5f394ea5c2fc407914615a99836f782233996fb035756f92fd7b75843511ed08a69503ad41f89cee2a978cb5571f0b885ed5b6bed865e404b6f0 1297 fonts-courier-nerd_2.2-2.dsc
  564dc62662cce1b098fe397265dd4de90925f62412c1aee0eeaac4c0d465213b8333389525ac5b090f15573c9228384c8ad9c0c375ae87a2606d3944803f2696 5623815 fonts-courier-nerd_2.2.orig.tar.gz
- 33fd0b64f29a5d4222ab49a573ab138bab7c11dc401b7cb77524e609d93b8acaccd430ca51b5264fefe0d9edbd84fc1ee84fe061c7514382ea9955ab7fefb664 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
+ 5fd9ef2ef77a70f14ae62d61423ee88e666f9a59ab4a51c9e1ac87b212db00a38212fdf71981c04d4c8845d1651e00066d55396d873fd1ff1442a9af3f9314be 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
+
+Package: fonts-jetbrains-mono-nerd
+Format: 3.0 (quilt)
+Binary: fonts-jetbrains-mono-nerd
+Architecture: all
+Version: 3.4.0-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/ryanoasis/nerd-fonts
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-jetbrains-mono-nerd
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-jetbrains-mono-nerd.git
+Directory: pool/main/fonts-jetbrains-mono-nerd
+Package-List:
+ fonts-jetbrains-mono-nerd deb fonts optional arch=all
+Files:
+ 3ec8ae15e4baf6f3c5afa044430e24cf 1438 fonts-jetbrains-mono-nerd_3.4.0-3.dsc
+ 49a313c816e315c6706d9d5c96ff6cda 6217644 fonts-jetbrains-mono-nerd_3.4.0.orig.tar.xz
+ 7d48e4c1a88403626e6e3c0dbc5bd4d9 2212 fonts-jetbrains-mono-nerd_3.4.0-3.debian.tar.xz
+Checksums-Sha1:
+ 01d31fa0abf231d7d36d00969a70868b614211bc 1438 fonts-jetbrains-mono-nerd_3.4.0-3.dsc
+ 14659681923175a1be36ae93d379cd9def86db00 6217644 fonts-jetbrains-mono-nerd_3.4.0.orig.tar.xz
+ e3a39250e9e779ef85e2cda18aae9eec1567d496 2212 fonts-jetbrains-mono-nerd_3.4.0-3.debian.tar.xz
+Checksums-Sha256:
+ 572346e063295e33f2f19cfe4c9c81867e6d042492b0323ce9d02d3bf2541a01 1438 fonts-jetbrains-mono-nerd_3.4.0-3.dsc
+ ef552a3e638f25125c6ad4c51176a6adcdce295ab1d2ffacf0db060caf8c1582 6217644 fonts-jetbrains-mono-nerd_3.4.0.orig.tar.xz
+ bff3c9c797046a615b3fc2225c6d7c981ae841e77639ca0e5008a45cebc58dbe 2212 fonts-jetbrains-mono-nerd_3.4.0-3.debian.tar.xz
+Checksums-Sha512:
+ 2e45a3e7ce395aa9c1f9f16aaec81929f930acb8d0c54ed4752b85e1ab7274c8d6da46c51ec66e3ac703ffb49333ac461f4f9b8d2843989e76e01926a7ac2ceb 1438 fonts-jetbrains-mono-nerd_3.4.0-3.dsc
+ c09183ef60a3845ba01f7cbb3a3c83b344db4f044ec0c2009063e8ed2cb9d4e86fb47b5402570a6f95aed5b179677ec7a04dc365feba7d70f8bc6d4a353ba493 6217644 fonts-jetbrains-mono-nerd_3.4.0.orig.tar.xz
+ 96dd785e44601b47242e8982f6cdce098c82eeab9e419a2847e8d8e4d6a0cedbecd0dc99831744709266fdac4e6ab69574ee8fda740703276113237f81661ba6 2212 fonts-jetbrains-mono-nerd_3.4.0-3.debian.tar.xz
+
+Package: fonts-roboto-mono
+Format: 3.0 (quilt)
+Binary: fonts-roboto-mono
+Architecture: all
+Version: 3.001-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/googlefonts/RobotoMono
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono.git
+Directory: pool/main/fonts-roboto-mono
+Package-List:
+ fonts-roboto-mono deb fonts optional arch=all
+Files:
+ ede611402afed8166e540913207b341d 1352 fonts-roboto-mono_3.001-2.dsc
+ cec35931d61e046937cc50f03acd5d61 4516663 fonts-roboto-mono_3.001.orig.tar.gz
+ ec7ae9d783a3cb5bdcf05cfac2fc7611 2884 fonts-roboto-mono_3.001-2.debian.tar.xz
+Checksums-Sha1:
+ 22c4640973afe3452cbc09212bb83427c75a6ab7 1352 fonts-roboto-mono_3.001-2.dsc
+ 5ec48a4c6cbf460db4691ef738749b81d7a1b3a7 4516663 fonts-roboto-mono_3.001.orig.tar.gz
+ 7b9f4e85d712f497b9abf5bbc28d8d7860167ffa 2884 fonts-roboto-mono_3.001-2.debian.tar.xz
+Checksums-Sha256:
+ d77f33b74ca8c1bf1a2d14922b5f89ba4b2f8653e89a06a35a3175927e0466d1 1352 fonts-roboto-mono_3.001-2.dsc
+ 677d8513918572700531a3115f721a416557a5c701b150abc4d118a7177c8bdc 4516663 fonts-roboto-mono_3.001.orig.tar.gz
+ 382efa31a561b0307fab7c64453181c513d488f50060da2a206cd2e39ff1f454 2884 fonts-roboto-mono_3.001-2.debian.tar.xz
+Checksums-Sha512:
+ 5087ada97ffceb1bda557b2e9feef44451674aa20f18b7f6a516e2305496cf5997b6f384288461b0480f2aea2f6edd0e1cc0cfafdb4dbb32505b03e2faafa62a 1352 fonts-roboto-mono_3.001-2.dsc
+ 93f2d62b2d344451e5f07b7113bd576a4898b42e40de72e8e3bbf8fb797d28a9828f5b3bad729686447d4d6a344505d894f404fa98d90ed23b24ef9b4af6f1a1 4516663 fonts-roboto-mono_3.001.orig.tar.gz
+ 5e5e199f716fcb6a750fc34026e9003ed90062ce6b968d1c348aadfaa90416e834d9713c514b4951b502287d928942a1fb8a8d9ea75ac58e3434958ea8faabbd 2884 fonts-roboto-mono_3.001-2.debian.tar.xz
 
 Package: neovim-lualine
 Format: 3.0 (quilt)
