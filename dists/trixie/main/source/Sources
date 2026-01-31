@@ -81,31 +81,31 @@ Package: fonts-courier-nerd
 Format: 3.0 (quilt)
 Binary: fonts-courier-nerd
 Architecture: all
-Version: 2.2-1
+Version: 2.2-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
-Vcs-Browser: https://salsa.debian.org/debian/fonts-courier-nerd
-Vcs-Git: https://salsa.debian.org/debian/fonts-courier-nerd.git
+Vcs-Browser: https://github.com/cccp-linux/fonts-courier-nerd
+Vcs-Git: https://github.com/cccp-linux/fonts-courier-nerd.git
 Directory: pool/main/fonts-courier-nerd
 Package-List:
  fonts-courier-nerd deb fonts optional arch=all
 Files:
- 010c67e8b94f7d218f43998854677ea7 1886 fonts-courier-nerd_2.2-1.dsc
- 7827292b5edd802af86da27c6dbd6700 5623800 fonts-courier-nerd_2.2.orig.tar.gz
- 5d124951d44815e9fc97550b9e95f827 1888 fonts-courier-nerd_2.2-1.debian.tar.xz
+ 620b3ccc47e794d5142b5b6cca4685d0 1277 fonts-courier-nerd_2.2-2.dsc
+ dc488bbd8e7dab2eb6ea5474839c020b 5623815 fonts-courier-nerd_2.2.orig.tar.gz
+ 3662ec30eda37ebf8bdf64eed018d913 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
 Checksums-Sha1:
- cc18907f4215c4003af77d5a0ba3febce2918770 1886 fonts-courier-nerd_2.2-1.dsc
- 10fe6490fff71df7b7c752d68a22df851decfcbe 5623800 fonts-courier-nerd_2.2.orig.tar.gz
- 9c974ac8ce1bbc493407ff4c8614882a5294e12f 1888 fonts-courier-nerd_2.2-1.debian.tar.xz
+ 3eb8c02af80d5783fd49a0877e7ef9ca161e7b3e 1277 fonts-courier-nerd_2.2-2.dsc
+ cc56797f2a4065dfac95181e5f9505d409d84e87 5623815 fonts-courier-nerd_2.2.orig.tar.gz
+ bf20246982502e6999a7dc387b51eac56d7eb334 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
 Checksums-Sha256:
- 7bebf4df24e0d49eb4340b3a22baca225b2c875c59649799bc8a8e6a224ce24d 1886 fonts-courier-nerd_2.2-1.dsc
- 4f91c5289341b1636e21cdb53f9f88eb598fc7cb63d89b4c542a37bcd8f088b7 5623800 fonts-courier-nerd_2.2.orig.tar.gz
- 211e202709eebf7bb8d208214f6aab0aaa43ffd5aa92a20a2f165d70da48720e 1888 fonts-courier-nerd_2.2-1.debian.tar.xz
+ b148b9b71624bbe1b27b66b06ffcda4173821560d115a5ac7dd1667f4b749065 1277 fonts-courier-nerd_2.2-2.dsc
+ fbefdbe939186629cba50d3c284ca87e73aa87ed442d4b589f934a561815bfe1 5623815 fonts-courier-nerd_2.2.orig.tar.gz
+ bfdd5caaafbc52b4c95fbffb5546da6a127068dff4c98b356be169baff6ba8b4 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
 Checksums-Sha512:
- 464ce501fcb0a16e69105e34d77940a9f968b673c8c7baea3857954b3f86d3d2d01f9631aff53df08bdb055bf400b6ad729403346bb12da9848b59d57fefe5d8 1886 fonts-courier-nerd_2.2-1.dsc
- 443a0b206a6198ad16d20c57a3c49039d0f15c8dc683844b8fc27e93e5529e75c6fc6d4506746bfc4bf33144fed2e968d0fada18b28cd6781f24c2b6885d6b97 5623800 fonts-courier-nerd_2.2.orig.tar.gz
- 42f34cba5fb55f767d05c32db4e947e9afe410810e1df41245d643b2cd9203b2b2d2dbfd744a7712f8d2ab5acd3b4f51937954b3a4bc4586ece619c615b36d4a 1888 fonts-courier-nerd_2.2-1.debian.tar.xz
+ 9dd5cb549c04df6b3bfdf9a655d4187e28cc2bd1c0a0882d97b7003e988506925d4dc0073a84a362f1d7aee69e83b685f26b166f241b88daba1754c2058b6ece 1277 fonts-courier-nerd_2.2-2.dsc
+ 564dc62662cce1b098fe397265dd4de90925f62412c1aee0eeaac4c0d465213b8333389525ac5b090f15573c9228384c8ad9c0c375ae87a2606d3944803f2696 5623815 fonts-courier-nerd_2.2.orig.tar.gz
+ 33fd0b64f29a5d4222ab49a573ab138bab7c11dc401b7cb77524e609d93b8acaccd430ca51b5264fefe0d9edbd84fc1ee84fe061c7514382ea9955ab7fefb664 1924 fonts-courier-nerd_2.2-2.debian.tar.xz
 
 Package: neovim-lualine
 Format: 3.0 (quilt)
