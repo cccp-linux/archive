@@ -418,7 +418,7 @@ Package: quickshell
 Format: 3.0 (quilt)
 Binary: quickshell
 Architecture: any
-Version: 0.2.1-1
+Version: 0.2.1-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: cmake, debhelper-compat (= 13), libcli11-dev, libdrm-dev, libegl1-mesa-dev, libgbm-dev, libjemalloc-dev, libpam0g-dev, libpipewire-0.3-dev, libpolkit-agent-1-dev, libwayland-client0, libwayland-dev, ninja-build, pkgconf, qt6-base-dev, qt6-declarative-dev, qt6-declarative-private-dev, qt6-shadertools-dev, qt6-svg-dev, qt6-wayland, qt6-wayland-dev, qt6-wayland-private-dev, spirv-tools, wayland-protocols (>= 1.41)
@@ -429,21 +429,21 @@ Directory: pool/main/quickshell
 Package-List:
  quickshell deb x11 optional arch=any
 Files:
- 1490d1be5e7ce314b131273e20d3cb38 1634 quickshell_0.2.1-1.dsc
+ b52c2a33334413ef44ea2a293b69c35e 1634 quickshell_0.2.1-2.dsc
  4b001a14ae184fa478abc9f48e4e9d90 403070 quickshell_0.2.1.orig.tar.gz
- ccfefef0fd8ca975107411c40fae36a8 1716 quickshell_0.2.1-1.debian.tar.xz
+ d5397f7ecb752f17dda5e1a74ab748be 1756 quickshell_0.2.1-2.debian.tar.xz
 Checksums-Sha1:
- f0e853a62e9c32265a7fab7cd031464a2618e78a 1634 quickshell_0.2.1-1.dsc
+ 1c7700818b6e77027830e3140fc9e753dc6f3e14 1634 quickshell_0.2.1-2.dsc
  ebc3df112730445c6818137a53203a3ff622ddcd 403070 quickshell_0.2.1.orig.tar.gz
- 1b6ba3283d874dfa6e651f4e1f5dfd5f8cafcd08 1716 quickshell_0.2.1-1.debian.tar.xz
+ a4369d97ea004e0c436024e679d34bcc2cacb5e4 1756 quickshell_0.2.1-2.debian.tar.xz
 Checksums-Sha256:
- 68a31f93846d17207c5842e99d9d9e20d9737304d4ff20644b06948baa3be2f6 1634 quickshell_0.2.1-1.dsc
+ d251bcc067e1f15ad707fcfe3ba782a5f706b80d4c5d1757704a03e6b0d06eab 1634 quickshell_0.2.1-2.dsc
  d815c5f99f4a0a28545ffaa90464420c773b7c0ab62f713d9d8735a8e7282ca7 403070 quickshell_0.2.1.orig.tar.gz
- 13db602a5b199efe8830df46e0ac95702bdff575c61effe3e6903a6a85e3da07 1716 quickshell_0.2.1-1.debian.tar.xz
+ a2f0c1929c7c87915920517c9846c7f8a8bb9ee28f442df955eb706fc24ed822 1756 quickshell_0.2.1-2.debian.tar.xz
 Checksums-Sha512:
- 10c1aba7f6670baea54b8dc7961b5f5261f74e094c06e54052ce973dedb47d0bcfc42d28ac8791afcf6ec8b3e9e4c5749ca1cc2660ca8db6cfb582f7e1b6b74d 1634 quickshell_0.2.1-1.dsc
+ 8473aad08f4424559e62e455c38f1daf82cb139377a385d06130175a0befd76b9484acac7001de6ed9415430391ea7eb709c88f608dcb8386a9c9490e4c27e83 1634 quickshell_0.2.1-2.dsc
  f7f67820f46eed5c0a98ddd823887aab4226cfb953f3529858793658b1c16a4b0190713cee3f9cb07d1cd5ce8e20807529d72a6f7ffb637e9cef6a29cb124092 403070 quickshell_0.2.1.orig.tar.gz
- 08b6ce38743b2bb6225cb7d405e2a0fdbd1291e564af0220aad4eea3dd298eca37f8e871bd576b42bbd6b0994bf4284ec8cc3e6bf270d0a516feb18c13f7d335 1716 quickshell_0.2.1-1.debian.tar.xz
+ 88abb3996bbb4f8923ef66dca2b79fd7492089368b0a79b357b3174acb4e08d043e9e2031e9386ecf1d09d51e00ae9c9a3bd9db40807a8e056b1e4f5a8b6f260 1756 quickshell_0.2.1-2.debian.tar.xz
 
 Package: statuscol.nvim
 Format: 3.0 (quilt)

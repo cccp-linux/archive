@@ -323,18 +323,18 @@ Description: Neovim file explorer
 
 Package: quickshell
 Architecture: armhf
-Version: 0.2.1-1
+Version: 0.2.1-2
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 3055
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2)
-Filename: pool/main/quickshell/resolute/quickshell_0.2.1-1_armhf.deb
-Size: 1114776
-MD5sum: d8e0354008b0c8e8b8aad81ba7217eca
-SHA1: 764dfa53241c48f6e9fb4c116ece77be2731cccb
-SHA256: 0c46adc92e402ee16c62ccacbd679cdd48f5a807a0e053885a34cb360f075383
-SHA512: e9e6f10a4efefda89f953057874d3a00622fcd0180978cb2a35593d4dd254690384a7addf7018a96edc3fb0f68bd603c7ec54da5447aee9df04eec7910f47cd7
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2), qt6-wayland
+Filename: pool/main/quickshell/resolute/quickshell_0.2.1-2_armhf.deb
+Size: 1114684
+MD5sum: 8b609e5d84214cb3ee84acef4c24b5d1
+SHA1: 4ef9b980a791d40ec8d4405cb40c741954ffd14e
+SHA256: 8d84cff06b60de9414c04a1b54258aee9e35abc0db63a11c39f1c1f243a28d07
+SHA512: e8a144c5459d411d622850d31c4d08c66be7fba5a16037e158a6eceedbd271c7a59a8991bec65188ae89bcc90d1b11a3d3e935c90a4aec5d0b8dd4682521f6e0
 Homepage: https://quickshell.org
 Description: Flexible toolkit for making desktop shells with QtQuick
  Quickshell is a toolkit for building a desktop shell, which is to say

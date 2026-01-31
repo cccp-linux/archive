@@ -342,37 +342,37 @@ Description: Neovim file explorer
 
 Package: quickshell-dbgsym
 Architecture: arm64
-Version: 0.2.1-1
+Version: 0.2.1-2
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: quickshell
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 40828
-Depends: quickshell (= 0.2.1-1)
-Filename: pool/main/quickshell/trixie/quickshell-dbgsym_0.2.1-1_arm64.deb
-Size: 35211868
-MD5sum: 5df4b5f1b029f0db0c32574b5b0a89a0
-SHA1: 3ebba7601469558527e36a9ca16be8b16172e40b
-SHA256: 3aa0dddd5a958266fa3c6de0536d2118e3a623784d7299e5dcae3777c0aa517c
-SHA512: 56d20941648da9582f3a56d3037653b27b6b61bf59bd784a8f4f481cf7472a318093aa49884487741363c23b233a1d4f0f14f10e4c99d7211dcefd64121dd6eb
+Depends: quickshell (= 0.2.1-2)
+Filename: pool/main/quickshell/trixie/quickshell-dbgsym_0.2.1-2_arm64.deb
+Size: 35211888
+MD5sum: f2f55200cd1b16e07ec8aedf614ef1c8
+SHA1: 71f0c74374d4178a88aa6934ded19641149faa84
+SHA256: 8e9a8b5b111fe5dd90ba694bb411668660d13caee8a3af91807c9826bcc6fc2b
+SHA512: 954e54376c4e9e160c75e1d796bc40ec21a1e6b1d1d45ba43d24d13f1c20dfa5a21a4b0d2f1b056e8be4455a2d1d5b8abddb71f4b961a6491926b6fc7ce47cf9
 Description: debug symbols for quickshell
-Build-Ids: b7d92a803c497bd19d9643c624a894778698b809
+Build-Ids: 4dea39266e79b5d3f33e6df1973c599a9cb78440
 
 Package: quickshell
 Architecture: arm64
-Version: 0.2.1-1
+Version: 0.2.1-2
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 4754
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.0), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2)
-Filename: pool/main/quickshell/trixie/quickshell_0.2.1-1_arm64.deb
-Size: 1019340
-MD5sum: 3ebcd9f509895a4b60849f81398734a1
-SHA1: 825c2c0aab945f33dedc094a00d621fee0b08426
-SHA256: 0309e410899e04b7e499404ee1c1b4977bd1a4cbbb24de223734b608b01b90db
-SHA512: 030911320e858f793f016dd8a84d970c54bfdf852bfcd75769f9f526ec6e4500248e9f827bda8731b70daaf6f15f9122af946078f7035f233e55ee4a1dfaa314
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.0), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2), qt6-wayland
+Filename: pool/main/quickshell/trixie/quickshell_0.2.1-2_arm64.deb
+Size: 1020240
+MD5sum: afe3cd5940743bf71357ae7d60577211
+SHA1: b905e9c1dce6975f8904ab254d9dffc963049e86
+SHA256: 16ef9eeaddef49d9d4c387dcef96db71bd0f9076cfda2ae40c2cccd7bcdfc75e
+SHA512: fe9071ac3cdaa5b30d97834f0a33efe1d9b4d697c2158d84ebde304c174ef8d6fc7266b99850907a9c998b423a1b6479a663310f75fbd2e0701050ef7d5be1e9
 Homepage: https://quickshell.org
 Description: Flexible toolkit for making desktop shells with QtQuick
  Quickshell is a toolkit for building a desktop shell, which is to say
