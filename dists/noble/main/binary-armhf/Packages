@@ -178,19 +178,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.6
+Version: 0.7
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: niri, quickshell
 Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/noble/niri-meta_0.6_armhf.deb
-Size: 3678
-MD5sum: 4e0f1b68988e7670d428841e191d5b74
-SHA1: 34ed9ce567a472b926fca5f3b9b68ba766ea5bca
-SHA256: 553224cb52e0d0dd2d81b5990d04a44f09001ec454da4fa767ed946495fa8c04
-SHA512: 4a56d95050d64e84a2b34e823f3170032e01a599fa0b42baf95fbed081ae53c2ba8cbda35823c935314467c4995dc07dcae068ee835014d3e54bf3e167885c5b
+Filename: pool/main/niri-meta/noble/niri-meta_0.7_armhf.deb
+Size: 3734
+MD5sum: 17da4a74c6bfbb523797ef3dc1de8659
+SHA1: abafbfe0f56d3a82e89347a0ae35a0ceaf8af183
+SHA256: d0da2a1bc1b74566c8f50fc1c91083278c290f91e250980cf6f3643f422b11d2
+SHA512: e72b33dd697c4fb9a9ed2754669c66f31b92ddda41ffe2205b205c4a19a5763bbd830acc0298c7076d1d925807ca22bdce9cb247750e98124ad240ba1f3d5e76
 Description: Shell meta-package
 
 Package: niri
