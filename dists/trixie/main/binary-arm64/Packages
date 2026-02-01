@@ -236,19 +236,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.7
+Version: 0.8
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: niri, quickshell
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/trixie/niri-meta_0.7_arm64.deb
-Size: 3796
-MD5sum: ffd94819653ecbd7d7ecda0bddd897fa
-SHA1: 0f8a0df2f19ba0f50cfc81a23dd9f0fee608cca1
-SHA256: 3a74652d35b45c984302ba9fee3924e8697c5c5239d3e5397d227815a7902360
-SHA512: b3b55bee4ab3033804b9c95f9bb70035bc265399a8dbd503590d64b722237cf6876ae465d4265ac24d68c29ea5145423904fb14c768d65381db96016f7c310f7
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-slab, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
+Filename: pool/main/niri-meta/trixie/niri-meta_0.8_arm64.deb
+Size: 3860
+MD5sum: f5a2c254e525e380a56c2a910096c6ed
+SHA1: 90b2d60293280d0aaa9052ac1fc435f552338973
+SHA256: 2036606841fcd72d80e059f3fdef0896730017bf03cb303b1f643167dd840ebc
+SHA512: 93c569c2a3ab47826bffd9812725d2324af21ace8310abf44552a6c268ac4a02f3e09785282208327bffd9a066c78951d1d0567f905b42e9f658fbff3d5e1280
 Description: Shell meta-package
 
 Package: niri-dbgsym
