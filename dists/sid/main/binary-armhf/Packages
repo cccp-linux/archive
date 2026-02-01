@@ -342,37 +342,37 @@ Description: Neovim file explorer
 
 Package: quickshell-dbgsym
 Architecture: armhf
-Version: 0.2.1-2
+Version: 0.2.1-3
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: quickshell
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 40833
-Depends: quickshell (= 0.2.1-2)
-Filename: pool/main/quickshell/sid/quickshell-dbgsym_0.2.1-2_armhf.deb
-Size: 36472368
-MD5sum: af6f1717ee8769583b1c6f32b138bcd2
-SHA1: bbaa7314547396f3520d4a4fe3c5b5ff55b3b2c5
-SHA256: ea8057059a41871723e6e1789d2d0b83dab9d61695a7548325fa7d7ac70dee1d
-SHA512: ffd85ed5670241df98e465d83b0862cb654dd99184289e55fad84f2169a5fa84358ccd27136d5b3658eed62365830aadef37c6e6008b3d9afd2f018fdbea4465
+Depends: quickshell (= 0.2.1-3)
+Filename: pool/main/quickshell/sid/quickshell-dbgsym_0.2.1-3_armhf.deb
+Size: 36472312
+MD5sum: 7011c89f44a26eae1e127d95fa82a495
+SHA1: 4a27f8eeaeac214c4dd1e0d15e4df88694cebc93
+SHA256: 7c0204de5daeedf3a79d7cad9e15e864e7fb737ffb4a2301731baee8d3a99f36
+SHA512: 51eec0aa904cfc6734ddc5f16929d78d2c0d1b8512b5e36e7c4518df67d1e5663ee4148ded838dbb42ea7dae024550f7793dbd4d6594a1820274e56175dd686a
 Description: debug symbols for quickshell
-Build-Ids: aba5f682d0c10d9e0f3a01548d3e3092b510c103
+Build-Ids: fddf2d2ac3434e4e1c51bf1c86e5431259a71efd
 
 Package: quickshell
 Architecture: armhf
-Version: 0.2.1-2
+Version: 0.2.1-3
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 3135
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2), qt6-wayland
-Filename: pool/main/quickshell/sid/quickshell_0.2.1-2_armhf.deb
-Size: 977640
-MD5sum: 1013d19e57e12f8390918b26e82460c9
-SHA1: 8af3ecf8bbc12de140f46663162cc2e4b393a611
-SHA256: ec14ab6fe535a5ce3e3f616b729a78b5ad8a3426ea8b196e37183ecb33890e43
-SHA512: 43cbb1544d117c49127f487b54b192c35bf2232d6b8a18c80626dbb123ac2ba7c7910fad5cbc6512f2ea421403f800518c1ec2bb7b1671c6123ed1e45ac42879
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2), qt6-wayland, upower
+Filename: pool/main/quickshell/sid/quickshell_0.2.1-3_armhf.deb
+Size: 977556
+MD5sum: 936e88b6608571436396e26f9368c199
+SHA1: 7ead6be1f6d81e045b2aded96d432a28179ee763
+SHA256: 6876f98d3453e307596bbd8aeed435edd87f1ebc815ef36f5813a0c837aedc0a
+SHA512: fc8b0964221eb69551609be08f2a0c94a57443ba9398a6c13155996f0632dd7f23052d8e76397b9520ec5bfc2535a287e627d7232f8b072b5d6e571b8acc7d98
 Homepage: https://quickshell.org
 Description: Flexible toolkit for making desktop shells with QtQuick
  Quickshell is a toolkit for building a desktop shell, which is to say
