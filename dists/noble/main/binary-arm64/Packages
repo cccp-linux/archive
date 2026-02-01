@@ -236,19 +236,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.8
+Version: 0.9
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: niri, quickshell
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-slab, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/noble/niri-meta_0.8_arm64.deb
-Size: 3796
-MD5sum: 9977dd8cf7f2db269ba31d47bde2c91f
-SHA1: 7d8e895fc8327ae6cb23a770221670ca07dbfbc6
-SHA256: cc22c521a096a8735cf6d8496089a90f3553b3feab0796fd6bb632d1826be889
-SHA512: 6b4077320a6be3c54d9354f0c7f0465b383bf867ad3a6cc2a91d6204bf893833c339b9354700638ee14b0d39731a7e18d0f144a94710786fc1bef5572c16fad4
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
+Filename: pool/main/niri-meta/noble/niri-meta_0.9_arm64.deb
+Size: 3820
+MD5sum: 3947193449004ee25ebcab3bb933c261
+SHA1: f5a00c5047cd808c720bc82c738cbf28a263f5cd
+SHA256: 02f9563df8c652fa309caf55f6a9d277acd867bb9d74089dec65f71bca9b8ef9
+SHA512: e8231d5fe47fcf7ae1d0d674cbd761680b814c1dfec364c19d6f5fb5e5a887b76673655bf9a2fd174014f2ed9783fd02f01c6caec39238277e84df54e9829931
 Description: Shell meta-package
 
 Package: niri
