@@ -234,56 +234,6 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
-Package: niri-meta
-Architecture: arm64
-Version: 0.9
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: niri, quickshell
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, jq, mpv, network-manager, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/resolute/niri-meta_0.9_arm64.deb
-Size: 3820
-MD5sum: 3947193449004ee25ebcab3bb933c261
-SHA1: f5a00c5047cd808c720bc82c738cbf28a263f5cd
-SHA256: 02f9563df8c652fa309caf55f6a9d277acd867bb9d74089dec65f71bca9b8ef9
-SHA512: e8231d5fe47fcf7ae1d0d674cbd761680b814c1dfec364c19d6f5fb5e5a887b76673655bf9a2fd174014f2ed9783fd02f01c6caec39238277e84df54e9829931
-Description: Shell meta-package
-
-Package: niri
-Architecture: arm64
-Version: 25.11-5
-Priority: optional
-Section: x11
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24881
-Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
-Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
-Suggests: alacritty, fuzzel, mako-notifier, waybar
-Filename: pool/main/niri/resolute/niri_25.11-5_arm64.deb
-Size: 6715886
-MD5sum: ae9eb4bab0b5a870201e9c5cca6805f7
-SHA1: bdb3c563591fcfa25dfd191e291799b740ef6d98
-SHA256: c59187c72db0cc38ee443ea6ef9e8a5dca5095e044ff3e34262ffb906745d182
-SHA512: a5e64ab90861a8f537981f1e40659795c42c421062492683be4403eb39ee415a337389c2e53bbda71935101dbaf1c9e1aff7e9d88bfac9c951a388cc49c5a31e
-Homepage: https://yalter.github.io/niri
-Description: A scrollable-tiling Wayland compositor
- Windows are arranged in columns on an infinite strip going to the right.
- Opening a new window never causes existing windows to resize.
- .
- Every monitor has its own separate window strip. Windows can never "overflow"
- onto an adjacent monitor.
- .
- Workspaces are dynamic and arranged vertically. Every monitor has an
- independent set of workspaces, and there's always one empty workspace present
- all the way down.
- .
- The workspace arrangement is preserved across disconnecting and connecting
- monitors where it makes sense. When a monitor disconnects, its workspaces will
- move to another monitor, but upon reconnection they will move back to the
- original monitor.
-
 Package: neovim-web-devicons
 Architecture: all
 Version: 1:0.100-91-gb82-2
