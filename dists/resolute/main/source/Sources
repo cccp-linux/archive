@@ -138,6 +138,37 @@ Checksums-Sha512:
  c09183ef60a3845ba01f7cbb3a3c83b344db4f044ec0c2009063e8ed2cb9d4e86fb47b5402570a6f95aed5b179677ec7a04dc365feba7d70f8bc6d4a353ba493 6217644 fonts-jetbrains-mono-nerd_3.4.0.orig.tar.xz
  96dd785e44601b47242e8982f6cdce098c82eeab9e419a2847e8d8e4d6a0cedbecd0dc99831744709266fdac4e6ab69574ee8fda740703276113237f81661ba6 2212 fonts-jetbrains-mono-nerd_3.4.0-3.debian.tar.xz
 
+Package: fonts-roboto-mono-nerd
+Format: 3.0 (quilt)
+Binary: fonts-roboto-mono-nerd
+Architecture: all
+Version: 3.4.0-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/ryanoasis/nerd-fonts
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono-nerd
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono-nerd.git
+Directory: pool/main/fonts-roboto-mono-nerd
+Package-List:
+ fonts-roboto-mono-nerd deb fonts optional arch=all
+Files:
+ a0f7268283fa8de4f2aaebe58202ee8c 1405 fonts-roboto-mono-nerd_3.4.0-1.dsc
+ 2f9afe5c273a75963cd7d9c83fc96e98 4033992 fonts-roboto-mono-nerd_3.4.0.orig.tar.xz
+ b516b81897f1aa7cb0085076bd2b6ede 1660 fonts-roboto-mono-nerd_3.4.0-1.debian.tar.xz
+Checksums-Sha1:
+ a1799c6cf14cba82600a062d9aa7ad014103f987 1405 fonts-roboto-mono-nerd_3.4.0-1.dsc
+ 42336cb2ca73260c2933d4cd2c70d690275791af 4033992 fonts-roboto-mono-nerd_3.4.0.orig.tar.xz
+ c02253dc8aa7cbd6359819313c1fc57e59c1ed91 1660 fonts-roboto-mono-nerd_3.4.0-1.debian.tar.xz
+Checksums-Sha256:
+ 161f7ce82bba5a6a9fe0f8efcabd9551511be5777e7ec855d05d8fa05a25cf2f 1405 fonts-roboto-mono-nerd_3.4.0-1.dsc
+ 4bc63bf0105c664e466e62cb2fd1c143b310877de93dc35b3b5d48e0e4cb6702 4033992 fonts-roboto-mono-nerd_3.4.0.orig.tar.xz
+ a594a6b74ac6df46880c945bc2dc0fb2cbf81918a5f895e6b3e10bbcc82c3728 1660 fonts-roboto-mono-nerd_3.4.0-1.debian.tar.xz
+Checksums-Sha512:
+ bfb635fa2a3fd322ece50f78554b4dd68152fd344faba549ffd8aaadd81329ee91012c8a7ac50d8a8317ea9ec24ab52f38c62edb5425bee51263e4e25f2294c8 1405 fonts-roboto-mono-nerd_3.4.0-1.dsc
+ 10c13551971a69a5388a52b6e0af567e0dbbd09a1bb2fb833c3eff7979ceed42124194c74d785a8dd19590a386707a93d268ce0c78634e0a7c6a481983d74547 4033992 fonts-roboto-mono-nerd_3.4.0.orig.tar.xz
+ fffc0d04f50a8ee10856361755fbf14bf7d45cb5f055faea33eb0819cba05b312f3bb78dd7913ecd306ccb4825964f9ddb7e3f5746a2a72eb09ec7bd5ff1fd90 1660 fonts-roboto-mono-nerd_3.4.0-1.debian.tar.xz
+
 Package: fonts-roboto-mono
 Format: 3.0 (quilt)
 Binary: fonts-roboto-mono

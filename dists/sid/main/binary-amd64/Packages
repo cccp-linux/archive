@@ -115,6 +115,29 @@ Description: JetBrains Mono: a typeface made for developers
  Specifically to add a high number of extra glyphs from popular 'iconic fonts'
  such as Font Awesome, Devicons, Octicons, and others.
 
+Package: fonts-roboto-mono-nerd
+Architecture: all
+Version: 3.4.0-1
+Priority: optional
+Section: fonts
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 86792
+Depends: fontconfig
+Filename: pool/main/fonts-roboto-mono-nerd/sid/fonts-roboto-mono-nerd_3.4.0-1_all.deb
+Size: 17887800
+MD5sum: c1c942e0d136d36898ba512a7ff9da6a
+SHA1: 546a0dd37c45d05906f85caea779b73725e0f1c8
+SHA256: a580fa31508507d8fd63b2116751eca06b438cd8e64bba2fefec20275992cdd6
+SHA512: 470ea94fca64cbd06d916cfa136f208cd6d72f78200c2682ab883015ae9e2eb0a74e5b679be37abe91a0fecfe48892bdd40398fe7a662b4be536255b4fec3888
+Homepage: https://github.com/ryanoasis/nerd-fonts
+Description: Monospaced addition to the Roboto type family
+ This version of the Roboto Mono font has been patched with the Nerd Fonts
+ patcher.
+ .
+ Nerd Fonts patches developer targeted fonts with a high number of glyphs.
+ Specifically to add a high number of extra glyphs from popular 'iconic fonts'
+ such as Font Awesome, Devicons, Octicons, and others.
+
 Package: fonts-roboto-mono
 Architecture: all
 Version: 3.001-2
