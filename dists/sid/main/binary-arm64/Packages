@@ -435,6 +435,22 @@ SHA256: 614e1cc5c432801608e990725aa0295877016f592fe93e5d28a34e40a2246c27
 SHA512: f8f617754b154f9f9f222cc5583ff831c3dc0993adab961820c5061121f867ff486e61092a0dce02493f80e45e4e80dac83460fb9820eb7e81a0e048c9467a95
 Description: Terminal meta-package
 
+Package: virt-meta
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9
+Depends: libvirt-daemon-system, qemu-utils
+Filename: pool/main/virt-meta/sid/virt-meta_0.1_all.deb
+Size: 1764
+MD5sum: 9b96c912613facd6d45f39f969a80502
+SHA1: 0173083287dc3e9650642b3762422f2f652c39f8
+SHA256: 1f6df88b426cadec829ab6f00072e2d29146e453cc00f18a0cdb0800f65c347a
+SHA512: 5d87734b64acf6d659f46ef8b2d3eb5be5341d9bc2620ba3f5529e9a8e3db85b28ae14c77247d29245fb35f3844c2006e38d887c7741e0181803e55eb3b1bb07
+Description: Virtual machine meta-package
+
 Package: xwayland-satellite-dbgsym
 Architecture: arm64
 Version: 0.8-1

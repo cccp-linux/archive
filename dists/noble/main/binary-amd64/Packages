@@ -358,6 +358,22 @@ SHA256: 32c72d396f28a76f7057b17ea7b4946daa65f763cbcc167769b550b08ed8dfca
 SHA512: aa1d7543a0f23532effa56a0a2ce2d8fbe5b8cd65e09218394ee1c9a8ddbec7c6d05bbacc164df514b556d778bef37d572413cc3a67c3b790454c9d7fa7685f2
 Description: Terminal meta-package
 
+Package: virt-meta
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9
+Depends: libvirt-daemon-system, qemu-utils
+Filename: pool/main/virt-meta/noble/virt-meta_0.1_all.deb
+Size: 1624
+MD5sum: 9c679a8083a78015cca68ed16474ad9a
+SHA1: 6f99e09e06e024e7aac50527fb1937671a475467
+SHA256: 93948214afe75eaeee7f3d9bce547558269636dc657af9081442dc811be5f2ce
+SHA512: 980333b23ccc66ac172b6609a5680dd74a3867a310893a82a94dff0f9d4511246785e68685eeee42832a3850979c6d51e86297988f4e42781b07612918525e2f
+Description: Virtual machine meta-package
+
 Package: xwayland-satellite
 Architecture: amd64
 Version: 0.8-1
