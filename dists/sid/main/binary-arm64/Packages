@@ -259,19 +259,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.12
+Version: 0.13
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: niri, quickshell
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd | fonts-roboto-mono, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, procps, tuned-utils, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/sid/niri-meta_0.12_arm64.deb
-Size: 3988
-MD5sum: a6ef066f74dd9d84d53d2d9173103929
-SHA1: 99e3a04c6c758bb2b6f1d364e9d41e780f9129ff
-SHA256: fecc008fb9059915ed3eba308fadc70ee520b33ec5980ce49fa0c5086d565555
-SHA512: ab22640713fbe6011da389392dd61fc95d307912abec56756c35e7c6ab8fc42397c6ffd0ce869636e55e927954e311516c9ef1739dc4516539608d15db006ac2
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd | fonts-roboto-mono, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
+Filename: pool/main/niri-meta/sid/niri-meta_0.13_arm64.deb
+Size: 4068
+MD5sum: 802515442af2d5bb0d1013db4c75ebf7
+SHA1: c8d88ceefe19ee75d4a46af60e7abd5f8c978502
+SHA256: 5205e1d0abc8abbb9eabf02d98b45703c3a63b6e01d466272e559fbfae7483b9
+SHA512: 800ad1eb6ed119637826a114fe773391b95884f6289e95e5316662bd7eb03af86b40084a5d32576b4bc8930be3eaff6411c4038881b7ffdf83190cb313ad402b
 Description: Shell meta-package
 
 Package: niri-dbgsym
