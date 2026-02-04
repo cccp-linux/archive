@@ -117,18 +117,20 @@ Description: JetBrains Mono: a typeface made for developers
 
 Package: fonts-roboto-mono-nerd
 Architecture: all
-Version: 3.4.0-1
+Version: 3.4.0-2
 Priority: optional
 Section: fonts
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 86792
+Installed-Size: 86799
+Provides: fonts-roboto-mono
 Depends: fontconfig
-Filename: pool/main/fonts-roboto-mono-nerd/noble/fonts-roboto-mono-nerd_3.4.0-1_all.deb
-Size: 16046192
-MD5sum: 7c03c7d16300dbf8bee9365d96e110ec
-SHA1: 6c67a4d6374c6f12adf61f0c8c51617fe7628dc3
-SHA256: fc32aac29cc38c593486479153369983d5e4d18f31cc58a60726a5891122be2e
-SHA512: d819e530180f7875430c454ba3017a33f076b8d38280058798475b5734ad9cd696d904ee2dac66c32dabe8a1aa0edb709daf4947c853d1b473307ce6fc89de26
+Conflicts: fonts-roboto-mono
+Filename: pool/main/fonts-roboto-mono-nerd/noble/fonts-roboto-mono-nerd_3.4.0-2_all.deb
+Size: 16085846
+MD5sum: 275162d6a46023112d4871fc8909ea92
+SHA1: ba448b8210106c909dd3712bbd955b925b58a315
+SHA256: e6595b0d4769e4ae2cd8f40cf760610d0a92c0a506b879ce6416f905076c3675
+SHA512: 67dc29fc8155453f048e2422b1b21b3edb26ba5829e9febd272116ebacb10ccc5a963a33f799eec8d23fe2d74175484a6c5dc3c7f2d3bf15e8fcc1341fe248fa
 Homepage: https://github.com/ryanoasis/nerd-fonts
 Description: Monospaced addition to the Roboto type family
  This version of the Roboto Mono font has been patched with the Nerd Fonts
