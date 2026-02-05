@@ -1164,18 +1164,19 @@ Description: Terminal meta-package
 
 Package: virt-meta
 Architecture: all
-Version: 0.1
+Version: 0.2
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 9
 Depends: libvirt-daemon-system, qemu-utils
-Filename: pool/main/virt-meta/sid/virt-meta_0.1_all.deb
-Size: 1764
-MD5sum: 9b96c912613facd6d45f39f969a80502
-SHA1: 0173083287dc3e9650642b3762422f2f652c39f8
-SHA256: 1f6df88b426cadec829ab6f00072e2d29146e453cc00f18a0cdb0800f65c347a
-SHA512: 5d87734b64acf6d659f46ef8b2d3eb5be5341d9bc2620ba3f5529e9a8e3db85b28ae14c77247d29245fb35f3844c2006e38d887c7741e0181803e55eb3b1bb07
+Recommends: freerdp3-sdl, fuse3, ovmf, virt-viewer
+Filename: pool/main/virt-meta/sid/virt-meta_0.2_all.deb
+Size: 1888
+MD5sum: 27946dcf8cc396fd6c8e5bcae425ef9a
+SHA1: 46a3730cb55f10d94d2287a91f5f1785b49eca11
+SHA256: 2902c105e6de68236ae5d0d3aad953f2367df0aab2ae95d55abbd38b071de0d2
+SHA512: 20786cf2a8b5668d12b4be2d04729f6be136920ace689b80e1522410bfaa22252529a47556b72e0fae3865a200f075c9aa734754d787661593431e1387e5aaa9
 Description: Virtual machine meta-package
 
 Package: xwayland-satellite-dbgsym
