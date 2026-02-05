@@ -200,6 +200,56 @@ Checksums-Sha512:
  93f2d62b2d344451e5f07b7113bd576a4898b42e40de72e8e3bbf8fb797d28a9828f5b3bad729686447d4d6a344505d894f404fa98d90ed23b24ef9b4af6f1a1 4516663 fonts-roboto-mono_3.001.orig.tar.gz
  5e5e199f716fcb6a750fc34026e9003ed90062ce6b968d1c348aadfaa90416e834d9713c514b4951b502287d928942a1fb8a8d9ea75ac58e3434958ea8faabbd 2884 fonts-roboto-mono_3.001-2.debian.tar.xz
 
+Package: freerdp3
+Format: 3.0 (quilt)
+Binary: freerdp3-x11, libfreerdp3-3, libfreerdp-client3-3, libfreerdp-server3-3, libwinpr3-3, libwinpr-tools3-3, libwinpr3-dev, freerdp3-dev, winpr3-utils, libfreerdp-shadow3-3, libfreerdp-shadow-subsystem3-3, freerdp3-shadow-x11, freerdp3-wayland, freerdp3-sdl, libfreerdp-server-proxy3-3, freerdp3-proxy-modules, freerdp3-proxy
+Architecture: any
+Version: 3.21.0+dfsg-1
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Bernhard Miklautz <bernhard.miklautz@shacknet.at>, Michael Tokarev <mjt@tls.msk.ru>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13), cmake, dpkg-dev (>= 1.22.5), libasound2-dev, libavcodec-dev, libavutil-dev, libswscale-dev, libcairo2-dev, libjson-c-dev, libcups2-dev, libfuse3-dev, libgsm1-dev, libicu-dev, libjpeg-dev, libkrb5-dev, libopus-dev, libpam0g-dev, libpcsclite-dev, libpng-dev, libpulse-dev, libsdl2-dev <pkg.freerdp3.sdl2>, libsdl2-image-dev <pkg.freerdp3.sdl2>, libsdl2-ttf-dev <pkg.freerdp3.sdl2>, libsdl3-dev <!pkg.freerdp3.sdl2>, libsdl3-image-dev <!pkg.freerdp3.sdl2>, libsdl3-ttf-dev <!pkg.freerdp3.sdl2>, libssl-dev, libv4l-dev [linux-any], libswresample-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [linux-any], liburiparser-dev, libwayland-dev [linux-any], libwebp-dev, libx11-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxinerama-dev, libxi-dev, libxkbcommon-dev, libxkbfile-dev, libxrandr-dev, libxrender-dev, libxtst-dev, libxv-dev, pkgconf, uuid-dev, xmlto, xsltproc
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xrdp, xvfb
+Homepage: https://www.freerdp.com/
+Vcs-Browser: https://salsa.debian.org/debian-remote-team/freerdp3
+Vcs-Git: https://salsa.debian.org/debian-remote-team/freerdp3.git
+Directory: pool/main/freerdp3
+Package-List:
+ freerdp3-dev deb devel optional arch=any
+ freerdp3-proxy deb x11 optional arch=any
+ freerdp3-proxy-modules deb x11 optional arch=any
+ freerdp3-sdl deb x11 optional arch=any
+ freerdp3-shadow-x11 deb x11 optional arch=any
+ freerdp3-wayland deb x11 optional arch=linux-any
+ freerdp3-x11 deb x11 optional arch=any
+ libfreerdp-client3-3 deb libs optional arch=any
+ libfreerdp-server-proxy3-3 deb libs optional arch=any
+ libfreerdp-server3-3 deb libs optional arch=any
+ libfreerdp-shadow-subsystem3-3 deb libs optional arch=any
+ libfreerdp-shadow3-3 deb libs optional arch=any
+ libfreerdp3-3 deb libs optional arch=any
+ libwinpr-tools3-3 deb libs optional arch=any
+ libwinpr3-3 deb libs optional arch=any
+ libwinpr3-dev deb libdevel optional arch=any
+ winpr3-utils deb utils optional arch=any
+Files:
+ cd29fac4502f365de730c38f8d8f9bab 3474 freerdp3_3.21.0+dfsg-1.dsc
+ d7a52b1b605cd8e03a971b1ecbfa8f5b 5089672 freerdp3_3.21.0+dfsg.orig.tar.xz
+ 6ceddb51d4b2259f2db007feba52d96e 50608 freerdp3_3.21.0+dfsg-1.debian.tar.xz
+Checksums-Sha1:
+ 1a8ef18437ca7bdcdc4ae481f964808ca8b105df 3474 freerdp3_3.21.0+dfsg-1.dsc
+ 2fcffc44b7859ca7371134ae8e3371943e8499cf 5089672 freerdp3_3.21.0+dfsg.orig.tar.xz
+ 4e6aa9aedc7cee36c658f6185a5453c7597369e3 50608 freerdp3_3.21.0+dfsg-1.debian.tar.xz
+Checksums-Sha256:
+ e0efbb188c697810caebf09a403e857e8cedfbc4315fb0513edbd6542a2fb2f6 3474 freerdp3_3.21.0+dfsg-1.dsc
+ a492f35304ab24b8eb08ce4ecfe1b537e1191b237e57db27012e3c0f8d2933ee 5089672 freerdp3_3.21.0+dfsg.orig.tar.xz
+ 5496c0311c59ca0862f173932d3fdd5a602a4bca5bf368c2870d99317d87b624 50608 freerdp3_3.21.0+dfsg-1.debian.tar.xz
+Checksums-Sha512:
+ b1003c17ac551175a1a5c31d7a92fc96f94b2c36d166c82d52ce336e6556e72e4fa81ac2b04f736b9183f665e6cc0879d62dd0c5112c39beaa04c4988f1b12fe 3474 freerdp3_3.21.0+dfsg-1.dsc
+ 42c0d51697507d27615fb7a6d14950238b069a510d84ec6ae4197006cf25662d5e78a64a207c2411337882cff8e9e1a20898ea0c6eb3bf8e89e2ccc2750f0e47 5089672 freerdp3_3.21.0+dfsg.orig.tar.xz
+ 789bff70af21bd08095453399826c57902b9e36f002dd1a39661081c326c573ecc7864bb913e11f4feed8f3c0c95965517efd3154b4eca1c7fc74bb245a09e6b 50608 freerdp3_3.21.0+dfsg-1.debian.tar.xz
+
 Package: neovim-lualine
 Format: 3.0 (quilt)
 Binary: neovim-lualine
