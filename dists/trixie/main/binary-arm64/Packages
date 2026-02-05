@@ -963,19 +963,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.14
+Version: 0.15
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: niri, quickshell
 Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/trixie/niri-meta_0.14_arm64.deb
-Size: 4088
-MD5sum: 0f0403698142d3362a3f83020d66bb3c
-SHA1: e7b2c54fa9082b16c351e23574585721b2b06dfa
-SHA256: 16d180a5cb124e8a2cde700b23bffbe003634ea9ed57d5c1ac2d94f365e825d4
-SHA512: f9147118dad447f1195256c0c63336b52d426a69a794114721029f3bd5ba2e49bb37cf94b9b482e04f17dc3be98623437f0128db068fcb06780c0b6859eeee82
+Filename: pool/main/niri-meta/trixie/niri-meta_0.15_arm64.deb
+Size: 4112
+MD5sum: d43cfc2c5b98cae708aa9fb15d7065e0
+SHA1: db17c794c46c4d05feaec13e08f29210364d3bea
+SHA256: c6c4fd554c41049f1415bf7eb14f24ec21b074275e963ed3780915f3846fecf7
+SHA512: 3aca3bfe0742590e9b90b8184ffc550609b8cf3af8ecea343be0793eaa9c4e4743cb7d79b2902eff6630f7e2be630016a7ed178a4af8c7fdae139b8d334fd23a
 Description: Shell meta-package
 
 Package: niri-dbgsym
