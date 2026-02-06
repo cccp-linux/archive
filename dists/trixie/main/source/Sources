@@ -308,39 +308,6 @@ Checksums-Sha512:
  5f7f5c1f6cb1d43ca1f1e4e22d15020974a320dd6e6b0369d295190fb62f7e39a0923b24847c9894f6b07d1fa7e85c83cb2ad9af042052e09fa67e2dc1be0960 932 neovim-meta_0.7.dsc
  e609931dd2f11f5e5f9c8497210d497ad9a99b694699ffa011fb75e70da82440dcb0a1427a19d24dce58cfd82f86029c3e569ccb5a5a9ced0c56a47aec283634 14652 neovim-meta_0.7.tar.xz
 
-Package: neovim-which-key
-Format: 3.0 (quilt)
-Binary: neovim-which-key
-Architecture: all
-Version: 3.17.0-2
-Maintainer: Debian Vim Team <team+vim@tracker.debian.org>
-Uploaders: Matheus Souza Zanzin <mahzze.dev@gmail.com>, Sérgio de Almeida Cipriano Júnior <cipriano@debian.org>
-Standards-Version: 4.7.2
-Build-Depends: debhelper-compat (= 13), dh-sequence-vim-addon
-Testsuite: autopkgtest
-Homepage: https://github.com/folke/which-key.nvim
-Vcs-Browser: https://salsa.debian.org/vim-team/neovim-which-key
-Vcs-Git: https://salsa.debian.org/vim-team/neovim-which-key.git
-Directory: pool/main/neovim-which-key
-Package-List:
- neovim-which-key deb editors optional arch=all
-Files:
- 98a7b3a706fa8d0ddfe9878735f2777b 1492 neovim-which-key_3.17.0-2.dsc
- ca1a552861dfc75a68ad634a8a495542 73539 neovim-which-key_3.17.0.orig.tar.gz
- 3526cd27130aa771e9e1e4dcf7bfc6b0 2320 neovim-which-key_3.17.0-2.debian.tar.xz
-Checksums-Sha1:
- eb015f639d21ce4b5961837ddc70beee087716ae 1492 neovim-which-key_3.17.0-2.dsc
- 9c9afa0d5a4d03c8a0bcb7748150314f49a11b60 73539 neovim-which-key_3.17.0.orig.tar.gz
- 88e028b5f6ddab9b9aaae68fdfacf62f5d4d4d4b 2320 neovim-which-key_3.17.0-2.debian.tar.xz
-Checksums-Sha256:
- cb88a5e087d307064afa9c90e1f3692dc796983364c38393d0000ef70bb25734 1492 neovim-which-key_3.17.0-2.dsc
- 13b27a25c8a61437955dc28dfca6ce70b5b5392db3650e99d9462d670539b31a 73539 neovim-which-key_3.17.0.orig.tar.gz
- 7f6f93119f823480e84a37e740bdaaa6dd44d6214c4312e3cec1f7d98352f3d0 2320 neovim-which-key_3.17.0-2.debian.tar.xz
-Checksums-Sha512:
- cf51ac72cf36248efce42b28c3da5fb1a38c5ec271c7c5e95c6f370f5bd5aadfac7e3a22b26a78be89e17c721713b097cc2bb2caf61053aecbcf2e30b643cc40 1492 neovim-which-key_3.17.0-2.dsc
- a7adcba7bea1263eee05b6ea9da93f33557e8773d15c470d291ec825e544fc79f5ea05d3f37aca81704edbdf5ed69a6ef5292440a8aca190e4d38abbf0867c33 73539 neovim-which-key_3.17.0.orig.tar.gz
- 428e7ac4102962a2561196198714988f8ad7e7e47a7792bc142f0dec6289175c540c4a113b17f3fab60a3c4e4b8f4ed884f1c86d9ecb5c61ab76ef48b6bef025 2320 neovim-which-key_3.17.0-2.debian.tar.xz
-
 Package: nightfox.nvim
 Format: 3.0 (quilt)
 Binary: neovim-nightfox
