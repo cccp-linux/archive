@@ -1164,19 +1164,19 @@ Description: Terminal meta-package
 
 Package: virt-meta
 Architecture: all
-Version: 0.3
+Version: 0.4
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 9
 Depends: libvirt-daemon-system, qemu-utils
-Recommends: freerdp3-sdl, fuse3, gnvcviewer, ovmf
-Filename: pool/main/virt-meta/trixie/virt-meta_0.3_all.deb
-Size: 1932
-MD5sum: dab67bf3fd40ad80511ff7ff65ba1c93
-SHA1: 6fcfd8d2253d1e24204df9e8cc2cb056bc034520
-SHA256: 573c0c115e651f593f760f044387b7daedbf937398cf469570515ab1db38551f
-SHA512: ba26335a0f00e383e93f9862fdcb2a548fb916379a97dbc949e26509087df538c3fa3d4d7be5a96e17d4e9dfa64e7ef338c2712832c54cf73dbc949e0f37839c
+Recommends: freerdp3-sdl, fuse3, gvncviewer, ovmf
+Filename: pool/main/virt-meta/trixie/virt-meta_0.4_all.deb
+Size: 1944
+MD5sum: f7c3a6d570a9c19aaed276a057759bfb
+SHA1: 2feaee975dbd33e32a4587d69bc32bf3f9680c4b
+SHA256: 3fe27b50bbc9033fcb239a6a6cfa70432b152b11f7e0bc79b2ee1a9caa71ffdc
+SHA512: 46c4d63be9161f000917cc25f548b349b8334addfa3a1b5e18b4e87f25364acaa5ce16096bcfe5e16a84d817d3d41cad193d458a659491e968119d4b82dcea3b
 Description: Virtual machine meta-package
 
 Package: xwayland-satellite-dbgsym
