@@ -585,7 +585,7 @@ Package: virt-meta
 Format: 3.0 (native)
 Binary: virt-meta
 Architecture: all
-Version: 0.2
+Version: 0.3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -595,17 +595,17 @@ Directory: pool/main/virt-meta
 Package-List:
  virt-meta deb metapackages optional arch=all
 Files:
- 72b4123200c154e17ee99a253653b7af 916 virt-meta_0.2.dsc
- 4baa1938eccf22b5df1bd5f4f07cd612 13328 virt-meta_0.2.tar.xz
+ 2d39132f7407bff27a2a8e02f346d8be 916 virt-meta_0.3.dsc
+ 440aba47309985c39bb0ee75277d0d06 13364 virt-meta_0.3.tar.xz
 Checksums-Sha1:
- 7e0c58c8609e4bf39e8621ed2ad151894a07319d 916 virt-meta_0.2.dsc
- fa133f0f3ff3cb6cb856dba698693a3fae51c7c0 13328 virt-meta_0.2.tar.xz
+ 5233f02cb782427800547f26cee7a975bd89df25 916 virt-meta_0.3.dsc
+ df1aab99add7beeed48248c9a887345586ab94e7 13364 virt-meta_0.3.tar.xz
 Checksums-Sha256:
- 23a3322f8ccd97463ff27b16a43605a8e5f60ba04e53dfbaf2fe14924e261c08 916 virt-meta_0.2.dsc
- c1a72008861ecb04d40a9355cd56319991448d4871accc2a91d7668fa9e07deb 13328 virt-meta_0.2.tar.xz
+ 9da001b9953d672d281b8d953b58d135a8966fe5a70aa7a0bf1b7b74ae8dd113 916 virt-meta_0.3.dsc
+ b33459e2fea882dade35a9f25976bcb6bb641e9b68deae87e5a877471e5480cc 13364 virt-meta_0.3.tar.xz
 Checksums-Sha512:
- 1e8fb7597ce64a7b5564bb7a7f84400e92fece87755888b7d35f7be839586ab20d535bef3d8e0234b9a33a10ed457b20fc94903483d9ecc0b06dc14e26fbb28b 916 virt-meta_0.2.dsc
- b4626fe9e29d1848516ce57b2ebac89b59ec7bdb288dbede622ed598124be265eba6052790ff2b54b5d631097a9afccb13988927e33b1e384c4059dd48ba170d 13328 virt-meta_0.2.tar.xz
+ d847617404e55f23e0f60f318fefae0d271828a763b93b7c1f7ab99a242643aa0e09f7dceeb63e49407d1dc2079c8fa96dbc9d6c4be1853374c5e4bdc622fd09 916 virt-meta_0.3.dsc
+ fc489b57b3efa35786d87d3c3d80c232c2df06e5803d184a456013a79a6882ecb0f9a9e1f77c009cf90b87320cef6c8ee79dcdd733f942213a0cefcf94eae104 13364 virt-meta_0.3.tar.xz
 
 Package: xwayland-satellite
 Format: 3.0 (quilt)
