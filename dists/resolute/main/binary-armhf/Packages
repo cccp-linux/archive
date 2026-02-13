@@ -809,19 +809,19 @@ Description: Terminal meta-package
 
 Package: virt-meta
 Architecture: all
-Version: 0.4
+Version: 0.5
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 9
 Depends: libvirt-daemon-system, qemu-utils
-Recommends: freerdp3-sdl, fuse3, gvncviewer, ovmf
-Filename: pool/main/virt-meta/resolute/virt-meta_0.4_all.deb
-Size: 1806
-MD5sum: fc2ddf79efc17ced5dbfc4936adb4f61
-SHA1: 65cec4ac35d68fa5f8e5c685a963fc66ce57bfe7
-SHA256: fc624daff23ddcf2d6518a9637376867444ee46118c825f8b06c4038b8b72222
-SHA512: 9a61e82f2e23f595305932f26cab152427287152b741a9d59e0c9f9a335c40107297ef58dd0a8fcdacf16c2a45d8e11d157ac2e102bed8361f0957dbbde742e3
+Recommends: freerdp-sdl, fuse3, gvncviewer, ovmf
+Filename: pool/main/virt-meta/resolute/virt-meta_0.5_all.deb
+Size: 1838
+MD5sum: 5b5c2cd26bcba4aa44844ff5b9310325
+SHA1: 0be2ec933f1b250c489efd3d06a3e3a4400f0dcf
+SHA256: 78049c3161a326a66fd58417ec96ef188bda77ad97ec6a2611e34bc05626d9e2
+SHA512: 42c83da890e67e4e2b57fc921266e96a9a18a2813dcfb7db76087af8c5833f8e7ba8bfe22d570cda020034e0dbb1e1a8ff8efa6224778c192d735ef228abbc55
 Description: Virtual machine meta-package
 
 Package: xwayland-satellite
