@@ -175,43 +175,21 @@ Description: Monospaced addition to the Roboto type family
  The scale and weight of symbols commonly used as operators have also been
  optimized.
 
-Package: freerdp3-dev
+Package: freerdp-proxy-modules
 Architecture: amd64
-Version: 3.21.0+dfsg-1
-Priority: optional
-Section: devel
-Source: freerdp3
-Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 1142
-Depends: libfreerdp-server-proxy3-3 (= 3.21.0+dfsg-1), libfreerdp-client3-3 (= 3.21.0+dfsg-1), libfreerdp-server3-3 (= 3.21.0+dfsg-1), libfreerdp-shadow-subsystem3-3 (= 3.21.0+dfsg-1), libfreerdp-shadow3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (= 3.21.0+dfsg-1), libwinpr3-dev (= 3.21.0+dfsg-1), libwinpr3-3 (= 3.21.0+dfsg-1), libfuse3-dev, winpr3-utils (= 3.21.0+dfsg-1)
-Filename: pool/main/freerdp3/resolute/freerdp3-dev_3.21.0+dfsg-1_amd64.deb
-Size: 150056
-MD5sum: 445e3087dec0ac7ea159897a9d357a6f
-SHA1: 995c3ac2f0d7bbaa3bb6d95da75c6f248ac11bcf
-SHA256: 6ebc0f633fab7dd923b12c99744b416eddb6cbea8d4282d66ee5be5c2b561e09
-SHA512: ba3e454c3d8917befba69c6d822c83742699aa52893a6216e04e33439c87811c97ae841fd736a4c19b803a7def2c42cc1b5d3a0a1391225f357992048be584b8
-Homepage: https://www.freerdp.com/
-Description: Free Remote Desktop Protocol library (development files)
- FreeRDP is a libre client/server implementation of the Remote
- Desktop Protocol (RDP).
- .
- This package contains the FreeRDP development files.
-
-Package: freerdp3-proxy-modules
-Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Priority: optional
 Section: x11
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 212
-Depends: libc6 (>= 2.32), libfreerdp-server-proxy3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (>= 3.0.0), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libwinpr3-3 (>= 3.17.0)
-Filename: pool/main/freerdp3/resolute/freerdp3-proxy-modules_3.21.0+dfsg-1_amd64.deb
-Size: 64632
-MD5sum: f69780a0713caae7ad80cb8149fcd989
-SHA1: 47e04b24ecf418960c360bbe84857c3e05e86f26
-SHA256: 5bfcb01392ae474d7b8680858f0bd74f17ef3e51383278b7619b127904d19212
-SHA512: 83059055012d5195a033f2ce52357d398a98fdd07eb111517ba3c43715a2ddd77539c892f5d7374fcf4244ee9896fa2c2113e45cfb03765c67fb9154458d0ee6
+Depends: libc6 (>= 2.32), libfreerdp-server-proxy3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (>= 3.0.0), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libwinpr3-3 (>= 3.17.0)
+Filename: pool/main/freerdp3/resolute/freerdp-proxy-modules_3.22.0+dfsg-3.1_amd64.deb
+Size: 64624
+MD5sum: 045b5709141e036e409df5d1177f712f
+SHA1: 320d1db06a83007857e7363e3f3b51b5ce8414e8
+SHA256: d790a502e406bb43191ada8616d70c4ed4e04f7f0add88ddd693db90e40bc06d
+SHA512: 821ffc03ac267192620a9f30443d5972dfd0388446228c902d7dd6f3d06a09bc8020b72646082992122053fac35f18ae15199808b27f69fab393cd89cdebcccd
 Homepage: https://www.freerdp.com/
 Description: FreeRDP Remote Desktop Protocol proxy module libraries
  FreeRDP is a libre client/server implementation of the Remote
@@ -219,22 +197,22 @@ Description: FreeRDP Remote Desktop Protocol proxy module libraries
  .
  This package contains the modules for the proxy.
 
-Package: freerdp3-proxy
+Package: freerdp-proxy
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Priority: optional
 Section: x11
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 30
-Depends: libc6 (>= 2.34), libfreerdp-server-proxy3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (= 3.21.0+dfsg-1), libwinpr3-3 (= 3.21.0+dfsg-1)
-Suggests: freerdp3-proxy-modules
-Filename: pool/main/freerdp3/resolute/freerdp3-proxy_3.21.0+dfsg-1_amd64.deb
-Size: 5736
-MD5sum: 72bcb0bcc62961c25a78ab413f0bb6fe
-SHA1: 067e4977942bcf76d7a47ece991a0fc867153e69
-SHA256: 80585f07882d112a72cf8a3ac1c7ed1f979e7be418ca103659011635c74affc7
-SHA512: d725b43ac7a09b4d92b7ad6ef33c3db3289ce6a1d478fad7f42f23b356886fff8e660fa9f9235a4f38cd12fe5cf44adc950b9faa2d701efee1c6717b08f56146
+Depends: libc6 (>= 2.34), libfreerdp-server-proxy3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (= 3.22.0+dfsg-3.1), libwinpr3-3 (= 3.22.0+dfsg-3.1)
+Suggests: freerdp-proxy-modules
+Filename: pool/main/freerdp3/resolute/freerdp-proxy_3.22.0+dfsg-3.1_amd64.deb
+Size: 5738
+MD5sum: 17b6bfc2956e8cd59271b8a5d79842f4
+SHA1: a95a41f64a3a491c3c10d4bf7a033e0237038f51
+SHA256: c1fe6161fa66dd9ee19a3d976ad7f775ddb453f345758bc868a0e5ede5c7e9e3
+SHA512: 26ddf24bfc6e9571d299c446a85ab3a504dc80346d8e609243cf67a7352ba3ad86447eedace870b04d8b4883d62946bcb88be11ba94d1fb2604da61b8d103a15
 Homepage: https://www.freerdp.com/
 Description: FreeRDP proxy server
  FreeRDP is a libre client/server implementation of the Remote
@@ -243,21 +221,21 @@ Description: FreeRDP proxy server
  This package contains the proxy server that can be used
  as man in the middle proxy for RDP connections.
 
-Package: freerdp3-sdl
+Package: freerdp-sdl
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Priority: optional
 Section: x11
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 815
-Depends: libc6 (>= 2.34), libfreerdp-client3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (>= 3.11.1), libgcc-s1 (>= 3.3.1), libsdl3-0 (>= 3.2.0), libsdl3-image0 (>= 3.2.0), libsdl3-ttf0 (>= 3.2.0), libstdc++6 (>= 13.1), libwinpr3-3 (>= 3.17.0)
-Filename: pool/main/freerdp3/resolute/freerdp3-sdl_3.21.0+dfsg-1_amd64.deb
-Size: 425686
-MD5sum: 8ef56630f0cf0d2ddf00d9b8c6302aac
-SHA1: 5de8f46e3a11b93c70136e9748c4650df7f53fc8
-SHA256: e7b2b142a49a5e8882fdd5f653f22222470ce6e5157e9c7b4107677568ff607e
-SHA512: 3cda551b4f4cf9ae3ab1435d3953daeb5e3d6979f6572d17a5a32cf3bea565afde4acbeac8a0bd32b6008a0e9384ce08c31b083962e2565685c7d997b77866f0
+Installed-Size: 839
+Depends: libc6 (>= 2.34), libfreerdp-client3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (>= 3.11.1), libgcc-s1 (>= 3.3.1), libsdl3-0 (>= 3.2.0), libsdl3-image0 (>= 3.2.0), libsdl3-ttf0 (>= 3.2.0), libstdc++6 (>= 13.1), libwinpr3-3 (>= 3.17.0)
+Filename: pool/main/freerdp3/resolute/freerdp-sdl_3.22.0+dfsg-3.1_amd64.deb
+Size: 434712
+MD5sum: fcef351171873dfc07c5cd8322cc653f
+SHA1: 19954c916e15b15ab83d08fe1d5f35c040f7cd59
+SHA256: 3d60361e49057f4dddf90e6ab600aeaa71c2c1e6a52628e354edfe29769ca406
+SHA512: 664256f18a213a93e05175479344da005f4d01c5dbae06f07520243e7ecd2c1a8d68742780abb132b8daefc6fccff5013906ca0236eb31fb366eb8d342828147
 Homepage: https://www.freerdp.com/
 Description: RDP client for Windows Terminal Services (SDL client)
  FreeRDP is a libre client/server implementation of the Remote
@@ -265,22 +243,22 @@ Description: RDP client for Windows Terminal Services (SDL client)
  .
  This package contains the SDL based client.
 
-Package: freerdp3-shadow-x11
+Package: freerdp-shadow-x11
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Priority: optional
 Section: x11
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 34
 Provides: freerdp
-Depends: libc6 (>= 2.34), libfreerdp-shadow-subsystem3-3 (= 3.21.0+dfsg-1), libfreerdp-shadow3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.0.0), libwinpr3-3 (>= 3.17.0)
-Filename: pool/main/freerdp3/resolute/freerdp3-shadow-x11_3.21.0+dfsg-1_amd64.deb
-Size: 7310
-MD5sum: 59ae5e894604f66573ac7a8e8041241e
-SHA1: 3f68c7fbc470c81f4d100653dcb9d8cc1d25fc87
-SHA256: 7e1c37c4e8c83ea4e29f854e28303cff05b80cf65487dc5551795cf7c38f45a5
-SHA512: b5850e22f80a84f86b52f6c3d83aa8454a3e536c5d65dc760e3f88aeda4461222f42527e27c1e982fd04df07277d3edeef3d1bd3cd8181920430d814ac112478
+Depends: libc6 (>= 2.34), libfreerdp-shadow-subsystem3-3 (= 3.22.0+dfsg-3.1), libfreerdp-shadow3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.0.0), libwinpr3-3 (>= 3.17.0)
+Filename: pool/main/freerdp3/resolute/freerdp-shadow-x11_3.22.0+dfsg-3.1_amd64.deb
+Size: 7314
+MD5sum: a0d4b362ba4426c9888b8491c1bfe016
+SHA1: f18e428a688184005cb705987ee2746ac1b8e3e7
+SHA256: fe21d4db2171b4f00320dcc42fe2be9ef2245270a768c121879bad5a7756e670
+SHA512: 7b5d45aaf44770a1dc6c11aa48fcde003da19b03fd644b46c28500f2c89f5a8cb72e8362dd6f7ae4a281544e80f819f757752ec595fcceae30641ac55bd9037f
 Homepage: https://www.freerdp.com/
 Description: FreeRDP x11 shadowing server
  FreeRDP is a libre client/server implementation of the Remote
@@ -289,21 +267,21 @@ Description: FreeRDP x11 shadowing server
  This package contains a "shadowing" server that can be used to
  share an already started X11 DISPLAY.
 
-Package: freerdp3-wayland
+Package: freerdp-wayland
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Priority: optional
 Section: x11
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 113
-Depends: libc6 (>= 2.34), libfreerdp-client3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (>= 3.16.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwinpr3-3 (= 3.21.0+dfsg-1), libxkbcommon0 (>= 0.5.0)
-Filename: pool/main/freerdp3/resolute/freerdp3-wayland_3.21.0+dfsg-1_amd64.deb
-Size: 34056
-MD5sum: 42dfdc9a8e544b9fd947a4aac4eca9f5
-SHA1: 59f6f520201c8aa988a0df178956e0083582e8ea
-SHA256: c9909f4e708515fd66452e5c9f7b71e111a3f4f728f3bba85f576bb5d60d1691
-SHA512: dc7648dc606caf6c06986c397e3e85928eef5536befd15e035702c6dd5b569a22cc685c36f48acde8d1e82d1110703031698bb5279c753adfce0cdb22636f069
+Depends: libc6 (>= 2.34), libfreerdp-client3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (>= 3.16.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libwinpr3-3 (= 3.22.0+dfsg-3.1), libxkbcommon0 (>= 0.5.0)
+Filename: pool/main/freerdp3/resolute/freerdp-wayland_3.22.0+dfsg-3.1_amd64.deb
+Size: 34074
+MD5sum: 37c2ee71d97bd3e99a0f1f2f3a8abe2a
+SHA1: f06d13bfeee55e93b0f8e335e2c413fd6adb8c1d
+SHA256: 4ed38276e7e3d05ac32a7c42e5461d927cd7009d94d9bd5c48379b38836f1b18
+SHA512: f1e933f54087a5feca69986d6d2b67307fac355bce8ee9b0b08122064b8073cf5b108661077bd9dfc425f2c2e2eab651e0047aed31e0606a40dbfbc2a906681f
 Homepage: https://www.freerdp.com/
 Description: RDP client for Windows Terminal Services (wayland client)
  FreeRDP is a libre client/server implementation of the Remote
@@ -311,22 +289,22 @@ Description: RDP client for Windows Terminal Services (wayland client)
  .
  This package contains the wayland based client.
 
-Package: freerdp3-x11
+Package: freerdp-x11
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Priority: optional
 Section: x11
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 780
 Provides: freerdp
-Depends: libc6 (>= 2.34), libfreerdp-client3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (>= 3.16.0), libwinpr3-3 (>= 3.17.0), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.5.0), libxrender1 (>= 1:0.9.12)
-Filename: pool/main/freerdp3/resolute/freerdp3-x11_3.21.0+dfsg-1_amd64.deb
-Size: 102080
-MD5sum: 4f9256c77c80e92ac3e55af79466732c
-SHA1: d9797152a4fbb2f3cf21dbd4a6ade8ef793a96a3
-SHA256: 3e21fd80e75e2f7af617b1b3412da5f8cf03ec260e865b42b29487e878c7b7fa
-SHA512: d39bad7e121634d4b7a710d2903b19827697f4d0b2fe9f181a70552b0088690aaa91d6bfd53585d7b0cf604186e7e94bab6336e5303390709835e895b10a1786
+Depends: libc6 (>= 2.34), libfreerdp-client3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (>= 3.16.0), libwinpr3-3 (>= 3.17.0), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.5.0), libxrender1 (>= 1:0.9.12)
+Filename: pool/main/freerdp3/resolute/freerdp-x11_3.22.0+dfsg-3.1_amd64.deb
+Size: 102122
+MD5sum: f62a903ad732f42a9cb3023e2ed69113
+SHA1: 039151dc8119e58374df00a60c83b6b375238aee
+SHA256: f6e8df8d6116f2c5315cfe0697a06d455568b1d30b4b786efcb865115e21d464
+SHA512: 5c30b626a41210696672020775ec1d66ac506be76dac8281b52c528994e972ff2d5350ff35b79b75edef7d423c465b9bce903bd46a621cdae50b10d203490671
 Homepage: https://www.freerdp.com/
 Description: RDP client for Windows Terminal Services (X11 client)
  FreeRDP is a libre client/server implementation of the Remote
@@ -334,22 +312,183 @@ Description: RDP client for Windows Terminal Services (X11 client)
  .
  This package contains the X11 based client.
 
+Package: freerdp3-dev
+Architecture: amd64
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: devel
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 1159
+Depends: libfreerdp-server-proxy3-3 (= 3.22.0+dfsg-3.1), libfreerdp-client3-3 (= 3.22.0+dfsg-3.1), libfreerdp-server3-3 (= 3.22.0+dfsg-3.1), libfreerdp-shadow-subsystem3-3 (= 3.22.0+dfsg-3.1), libfreerdp-shadow3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (= 3.22.0+dfsg-3.1), libwinpr3-dev (= 3.22.0+dfsg-3.1), libwinpr3-3 (= 3.22.0+dfsg-3.1), libfuse3-dev, winpr-utils (= 3.22.0+dfsg-3.1)
+Filename: pool/main/freerdp3/resolute/freerdp3-dev_3.22.0+dfsg-3.1_amd64.deb
+Size: 150922
+MD5sum: 6b8c4076bee4e538a8a3016bf07e28fe
+SHA1: a27cd8a3f378c84c9430c378c5a81e8eb74c6a22
+SHA256: a3990249d2251f7bdaf037fc6b7a0b4703a1a9c0d9c41f62ba5c05075429f49f
+SHA512: efb1d600839a046ade866c6254359ad1a75ded3fdf043e6fe729d7c6e82a34b6b60a8d6a19881e3ae5710558d66452184b1059095f8a576d5c31b684b6c999e4
+Homepage: https://www.freerdp.com/
+Description: Free Remote Desktop Protocol library (development files)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains the FreeRDP development files.
+
+Package: freerdp3-proxy-modules
+Architecture: all
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: oldlibs
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 148
+Depends: freerdp-proxy-modules
+Filename: pool/main/freerdp3/resolute/freerdp3-proxy-modules_3.22.0+dfsg-3.1_all.deb
+Size: 31682
+MD5sum: 977cd3dbeac014fc30c84f73e24700ae
+SHA1: f13b58ebbddefb56c1ed20c055ea51320dc67768
+SHA256: 2249168253bbee22b3fef5b7e7875d352fcd1d134ca7c6c8eeaca24fe3ffc431
+SHA512: ee4dce2a227a7a11d2eaae6000f0e02f57046895b34ba796b5a1355f46ca0adb6e8b960cbc8d2ca5929547907683cb27b594c3e04823936e26ecebbc0a6553f7
+Homepage: https://www.freerdp.com/
+Description: FreeRDP Remote Desktop Protocol proxy module libraries (transitional package)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package is used to transition from freerdp3-proxy-modules
+ to freerdp-proxy-modules.
+
+Package: freerdp3-proxy
+Architecture: all
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: oldlibs
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 153
+Depends: freerdp-proxy
+Filename: pool/main/freerdp3/resolute/freerdp3-proxy_3.22.0+dfsg-3.1_all.deb
+Size: 31786
+MD5sum: 1fa3e4fcd51f26447442164fc7d43e74
+SHA1: 212911d51fff806edc124c4a89f824c5d562bb4e
+SHA256: af4f4a540311269775d22b2dd0dfd75b3ebb483a566f2a409b7f575831db3eec
+SHA512: 6899e6708c4fd7e30e72ae4eacb32d6ba661a2b910a8be268e9492df1f05bbcc81f18f2a1bc781e1b71871a72b6ff4a923bd7603319d63abdf0f76e898221739
+Homepage: https://www.freerdp.com/
+Description: FreeRDP proxy server (transitional package)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package provides compatibility links for transition from freerdp3-proxy
+ (freerdp-proxy3 binary) to freerdp-proxy (freerdp-proxy binary).
+
+Package: freerdp3-sdl
+Architecture: all
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: oldlibs
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 153
+Depends: freerdp-sdl (>> 3.22.0+dfsg-3.1~)
+Filename: pool/main/freerdp3/resolute/freerdp3-sdl_3.22.0+dfsg-3.1_all.deb
+Size: 31822
+MD5sum: e8ba00468d4150dc52fbdc9427ca305c
+SHA1: cc4740f20c6816bab01745c9f2ff5402dcf45680
+SHA256: 4bd1eecc519af6d7b6142cd0036c115757533e33758f7a5cd7e139116b3246fb
+SHA512: 418000cafcf59c4dd1fb098db61fa1d5663d071504bad64c4261ae14817d06040aac63213ffb370274f29adc0d28ea20fe1e175d5fea9fa76eccb8d3a59e99b7
+Homepage: https://www.freerdp.com/
+Description: RDP client for Windows Terminal Services (SDL client transitional package)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package provides compatibility links for transition from freerdp3-sdl
+ (sdl-freerdp3 binary) to freerdp-sdl (sdl-freerdp binary).
+
+Package: freerdp3-shadow-x11
+Architecture: all
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: oldlibs
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 153
+Depends: freerdp-shadow-x11 (>> 3.22.0+dfsg-3.1~)
+Filename: pool/main/freerdp3/resolute/freerdp3-shadow-x11_3.22.0+dfsg-3.1_all.deb
+Size: 31820
+MD5sum: 967057f8d414917c55c1d735732ea9ef
+SHA1: 0821cad30fb962b0b68cd965963674c686dc5cd4
+SHA256: 24a566efa46e4df275aafb673a1ec1d467964f14e60ad51ffbe084c03721db4d
+SHA512: a2b7628f9168751729a502bc3ff76d669ebe2673eed2088e482a0c245f938a3083acae6b56dd8e657b35888f9c12d9b9734538c8d38dbf9714e833c016ddfe44
+Homepage: https://www.freerdp.com/
+Description: FreeRDP x11 shadowing server (transitional package)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package provides compatibility links for transition from
+ freerdp3-shadow-x11 (freerdp-shadow-cli3 binary) to freerdp-shadow-x11
+ (freerdp-shadow-cli binary).
+
+Package: freerdp3-wayland
+Architecture: all
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: oldlibs
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 153
+Depends: freerdp-wayland (>> 3.22.0+dfsg-3.1~)
+Filename: pool/main/freerdp3/resolute/freerdp3-wayland_3.22.0+dfsg-3.1_all.deb
+Size: 31832
+MD5sum: 9b115ee35b9a4ce54aa5b1d6f944f8d1
+SHA1: d56f5578834050516e0dc920ce61e2ed8bf8463d
+SHA256: d942aab1cc5988733a38e567e880f7b098d122f4c45ff3c189d324331c15a21a
+SHA512: dc9828e96c036cf8748d939e818dff9a605535107e29dd08cc57261c571ca3ffad5ed439f981c48dcac5c57f18dceae7c968b490941a0a3f0b039b80d9a10fc2
+Homepage: https://www.freerdp.com/
+Description: RDP client for Windows Terminal Services (wayland client transitional package)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package provides compatibility links for transition from freerdp3-wayland
+ (wlfreerdp3 binary) to freerdp-wayland (wlfreerdp binary).
+
+Package: freerdp3-x11
+Architecture: all
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: oldlibs
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 153
+Depends: freerdp-x11 (>> 3.22.0+dfsg-3.1~)
+Filename: pool/main/freerdp3/resolute/freerdp3-x11_3.22.0+dfsg-3.1_all.deb
+Size: 31818
+MD5sum: aaf44d5a9ab99c6280cb3cb64e253a97
+SHA1: b62bfb4c2ca0d42c224cc7cda6474b0ec9a966e0
+SHA256: 0c95e56d935489b4752ea4f08a4a585baa837dbdb115d2ac57a85855bf5f8a43
+SHA512: 286e7139715e81eae180ddbcdd124b337524b2b3b4c12ebf760b122654206c91016308f6550e7dcf085a7f1a96a860fa6d2da8e0bfdea413037c097f6cf16ef3
+Homepage: https://www.freerdp.com/
+Description: RDP client for Windows Terminal Services (X11 client tramsitional package)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package provides compatibility links for transition from freerdp3-x11
+ (xfreerdp3 binary) to freerdp-x11 (xfreerdp binary).
+
 Package: libfreerdp-client3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 745
-Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcups2t64 (>= 1.7.0), libfreerdp3-3 (= 3.21.0+dfsg-1), libfuse3-4 (>= 3.17.2), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.17.0)
-Filename: pool/main/freerdp3/resolute/libfreerdp-client3-3_3.21.0+dfsg-1_amd64.deb
-Size: 269446
-MD5sum: a8e0538392abc7c476a7123bcc314d0a
-SHA1: 6235e0cfa51fe6a0146c6fcfcc3282550dba2fb3
-SHA256: 14b7cb87af7b6ee461b84196ad293a9a874375ec57f0fe42f7beef84eb31501a
-SHA512: 8de374335c6a1b4652f347d4e03ec1dbe28d7ad4cca75edd6f1b18c8492ab757360ea68ece1d7c15a96a8368f7496cc96497a25ed7759083776c25f94fcab9c3
+Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.28), libcups2t64 (>= 1.7.0), libfreerdp3-3 (= 3.22.0+dfsg-3.1), libfuse3-4 (>= 3.17.2), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libpulse0 (>= 0.99.1), libusb-1.0-0 (>= 2:1.0.19), libwinpr3-3 (>= 3.17.0)
+Filename: pool/main/freerdp3/resolute/libfreerdp-client3-3_3.22.0+dfsg-3.1_amd64.deb
+Size: 269208
+MD5sum: 706cc5ab826855f7ccc620079cee1beb
+SHA1: 7947ce801771f8bb141126abd67d4045c738002e
+SHA256: a5910dac244972b414297abd1c25c0a0fc31ed80679a123bfbeabb578e8d7f67
+SHA512: afda4b90c36063848559b42e625e29c16debabdda6b836b3ff8cfe9b572e4def1653ee522509550e99a1b2e7da104658a5c22cde000047abcd1e3143ab542eec
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (client library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -359,20 +498,20 @@ Description: Free Remote Desktop Protocol library (client library)
 
 Package: libfreerdp-server-proxy3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 144
-Depends: libc6 (>= 2.14), libfreerdp-client3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (= 3.21.0+dfsg-1), libwinpr3-3 (= 3.21.0+dfsg-1)
-Filename: pool/main/freerdp3/resolute/libfreerdp-server-proxy3-3_3.21.0+dfsg-1_amd64.deb
+Depends: libc6 (>= 2.14), libfreerdp-client3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (= 3.22.0+dfsg-3.1), libwinpr3-3 (= 3.22.0+dfsg-3.1)
+Filename: pool/main/freerdp3/resolute/libfreerdp-server-proxy3-3_3.22.0+dfsg-3.1_amd64.deb
 Size: 44786
-MD5sum: 6b24190a7596026151899b7ef055201c
-SHA1: 6df9f85f8275dd3a004a6481a20bcf11b229f9ca
-SHA256: 89c9c914c9bcdc2e23befa2b70bd1228a5740ce09aeac8865c7e12592179bf91
-SHA512: c454be5a605d9662f4866f507de20cc99b5032349d1a929194f4b8e4750c8f7a339ce3c23505e3cc90d0af61b6c35dacb92626a8f2b12d27227344703029d754
+MD5sum: 8c103e6705d765a1db9f621d438469db
+SHA1: 21ef8188f7eda521d0762f5bba44a9f36d2d6d81
+SHA256: 6d823f57eb3fb759d330a5af55bbee942d91711028f8f34ecb14963cdd5ba5ad
+SHA512: d3f27b31aacbe4b62519cd3ceab0220e43a5aea27b15dc214350336e6510035945d4fe854d428d346a26b63cb37fc89aefd24f7113fe4e249b6cea4816751271
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (proxy library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -382,20 +521,20 @@ Description: Free Remote Desktop Protocol library (proxy library)
 
 Package: libfreerdp-server3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 289
-Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.21.0+dfsg-1), libwinpr3-3 (>= 3.17.0)
-Filename: pool/main/freerdp3/resolute/libfreerdp-server3-3_3.21.0+dfsg-1_amd64.deb
-Size: 95594
-MD5sum: 542bcf192443190000f1cb8231e9b39c
-SHA1: fa02deb495628eaafdfab3249bd4eef3b8851a5a
-SHA256: 3f8a99042ec6173d021ae017aa0fb2f17695c266ac2275f68a2c4d2392c110ed
-SHA512: f1fd6080cfab4249f06ea14c41c8663d5be161a6fe8842720c55c096ad6b88825568d83b38d3af61b13c9ea3e06746c0722f804c36c29f3f10d4197f1aa2e1af
+Depends: libc6 (>= 2.14), libfreerdp3-3 (= 3.22.0+dfsg-3.1), libwinpr3-3 (>= 3.17.0)
+Filename: pool/main/freerdp3/resolute/libfreerdp-server3-3_3.22.0+dfsg-3.1_amd64.deb
+Size: 95538
+MD5sum: 7fa0d99f6340301279bab10209da3f98
+SHA1: 71fc1842b365f5241a017f33fb5c09b6160c8bf9
+SHA256: 857cf687c7a07dd1eb58376dc58e5adb6d056467aa395b24e9122abd1cf451cd
+SHA512: 814eaf688f9910460085afee7816c28f3e1ad2416a05b5d4dbf8a52597dd333c3eec8a5636699c03bf9d63dac7776f3c130809affcc0999f037f35994fdb0b4f
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (server library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -405,20 +544,20 @@ Description: Free Remote Desktop Protocol library (server library)
 
 Package: libfreerdp-shadow-subsystem3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 55
-Depends: libc6 (>= 2.4), libfreerdp-shadow3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (>= 3.6.2), libpam0g (>= 0.99.7.1), libwinpr3-3 (>= 3.17.0), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxtst6 (>= 2:1.2.5)
-Filename: pool/main/freerdp3/resolute/libfreerdp-shadow-subsystem3-3_3.21.0+dfsg-1_amd64.deb
+Depends: libc6 (>= 2.4), libfreerdp-shadow3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (>= 3.6.2), libpam0g (>= 0.99.7.1), libwinpr3-3 (>= 3.17.0), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxtst6 (>= 2:1.2.5)
+Filename: pool/main/freerdp3/resolute/libfreerdp-shadow-subsystem3-3_3.22.0+dfsg-3.1_amd64.deb
 Size: 12290
-MD5sum: 2c6855a50d3308c5b580fe4e7af8267b
-SHA1: bfd75d0c4d0e28e5610738d2faf05125f5ed71ed
-SHA256: 0e3dcf10161ae65cb0451dceecf8bae68e94a18b62f4a7b3ab72698fa15e20a6
-SHA512: 915164193623be758502c875646071368c95097f629fb63a81cc420e1254802a0fd5aacf89c3773b277ff56e0250d8985b556e3b8d669034c7a24eb6ec4769f3
+MD5sum: 0d834d32c96a60cc6abb4fd894575d96
+SHA1: 94f161b385a40b9ea0d62fc7c53ee9a1fc7de630
+SHA256: fce641125fc83267874b981d1adcc4286b4bb172a21fac344777ef48e7b656ba
+SHA512: d228becf3f1e87dbfd532dc24647a3cb363d83b62f411a8dc88f51a396a2c72b37f5da99cd4cbeb46ee448da162bf1a7dc39b8ece717ed1d5d6a8f2db75b8ebc
 Homepage: https://www.freerdp.com/
 Description: FreeRDP Remote Desktop Protocol shadow subsystem libraries
  FreeRDP is a libre client/server implementation of the Remote
@@ -428,20 +567,20 @@ Description: FreeRDP Remote Desktop Protocol shadow subsystem libraries
 
 Package: libfreerdp-shadow3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 164
-Depends: libc6 (>= 2.4), libfreerdp-server3-3 (= 3.21.0+dfsg-1), libfreerdp3-3 (>= 3.16.0), libwinpr-tools3-3 (= 3.21.0+dfsg-1), libwinpr3-3 (>= 3.17.0)
-Filename: pool/main/freerdp3/resolute/libfreerdp-shadow3-3_3.21.0+dfsg-1_amd64.deb
+Depends: libc6 (>= 2.4), libfreerdp-server3-3 (= 3.22.0+dfsg-3.1), libfreerdp3-3 (>= 3.16.0), libwinpr-tools3-3 (= 3.22.0+dfsg-3.1), libwinpr3-3 (>= 3.17.0)
+Filename: pool/main/freerdp3/resolute/libfreerdp-shadow3-3_3.22.0+dfsg-3.1_amd64.deb
 Size: 41078
-MD5sum: 3997e794efccbfdfcc12c3841eaf7518
-SHA1: 9cdeb861c5a1005993c053b7328c667ecf2ffe65
-SHA256: 0f3c0637ade42a4f0ae5ea41e029524e60d97d6ba35715e1b3301dec1f528096
-SHA512: a0abb6d30ec37a1099ced78babcfe051eba1a2e4d55c0fa860cdbc3919a6a8d9d450f46bcdf58ca99c9e955459ac231ea1c3dd0a985f3cd52b8401555aa8c316
+MD5sum: 15670008a7b1bf79966efc06cd277430
+SHA1: 01118bbca21548690f993eac611758a9d6644a1c
+SHA256: 9a19a09960c1e24afd7d0ffe287b4c751d41441b4faab47131d08e6f5fa6b47e
+SHA512: a8ecfdf906be028b146c4ebc9c5e91dd23e32d43f6053b19a71000507d76a5dce47ee6282efc9cbb21f374919d6a55c700c667d13f999a223179b223168c13a1
 Homepage: https://www.freerdp.com/
 Description: FreeRDP Remote Desktop Protocol shadow libraries
  FreeRDP is a libre client/server implementation of the Remote
@@ -451,21 +590,21 @@ Description: FreeRDP Remote Desktop Protocol shadow libraries
 
 Package: libfreerdp3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 2138
-Depends: libc6 (>= 2.32), libcairo2 (>= 1.2.4), libopus0 (>= 1.1), libssl3t64 (>= 3.0.0), libwinpr3-3 (= 3.21.0+dfsg-1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
-Suggests: freerdp3-x11
-Filename: pool/main/freerdp3/resolute/libfreerdp3-3_3.21.0+dfsg-1_amd64.deb
-Size: 775198
-MD5sum: e8a402925024b9dca3f8da3021db9a54
-SHA1: e3c1b94be1e3b242a44d6531fbffac6d38c1fad7
-SHA256: 19fe3db4fda587bd2f04a5732aac22acdab0ccb27ae5e9ca570f3157d714b1c3
-SHA512: 3fc9821044b569c3832af3055df9436ad233e5d9079a59c4095c0dfd827a7941fae098e2e995e6b1cd7af85bd2f0e04a2bd399267f8fc12a8f01d1377fe7832a
+Installed-Size: 2146
+Depends: libc6 (>= 2.32), libcairo2 (>= 1.2.4), libopus0 (>= 1.1), libssl3t64 (>= 3.0.0), libwinpr3-3 (= 3.22.0+dfsg-3.1), libx11-6, libxkbfile1 (>= 1:1.1.0), zlib1g (>= 1:1.1.4)
+Suggests: freerdp-x11
+Filename: pool/main/freerdp3/resolute/libfreerdp3-3_3.22.0+dfsg-3.1_amd64.deb
+Size: 779336
+MD5sum: afb8925ceca455b93e8fdf067a0a43fc
+SHA1: 64ea87538d1b26f337d8972d02613bfef3589f9d
+SHA256: 1753f71d2dcee06e2270f9da2c4da7698c193e9e78b111703ad0b5384e9180c3
+SHA512: d36c2463474ee95de3c0a2c69360dc2113af87e4ee1c3bc52f52bc9398a38b89f64331cd41691c435592a430b07bcd90d6855b3c186eb68d0d9979db39f698e1
 Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (core library)
  FreeRDP is a libre client/server implementation of the Remote
@@ -475,20 +614,20 @@ Description: Free Remote Desktop Protocol library (core library)
 
 Package: libwinpr-tools3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 47
-Depends: libc6 (>= 2.4), libssl3t64 (>= 3.0.0), libwinpr3-3 (= 3.21.0+dfsg-1)
-Filename: pool/main/freerdp3/resolute/libwinpr-tools3-3_3.21.0+dfsg-1_amd64.deb
-Size: 11170
-MD5sum: 47fcfec4245d1e1879e329472438ec9c
-SHA1: 84509edffd568670227e2af6086c5159db3743c8
-SHA256: 24200cf01075284130a7640837a70449712e869fdd28bb43fca0a401fead78df
-SHA512: 83e3148820dd7076f3d26ed8f24932a5f9d9a0a83e74bdd8ac48eb9ace5d695f5d5ab432caf155eca58257f4138096d0d4104c9a5841e024fce8bd468f1d34e3
+Depends: libc6 (>= 2.4), libssl3t64 (>= 3.0.0), libwinpr3-3 (= 3.22.0+dfsg-3.1)
+Filename: pool/main/freerdp3/resolute/libwinpr-tools3-3_3.22.0+dfsg-3.1_amd64.deb
+Size: 11174
+MD5sum: cd2bdc5bca78c4f0d3ba1465455c34ab
+SHA1: 9153d4c86b644cab5b332f0930d5d7657da4d0d5
+SHA256: 4a1836870fde4ec811bbe33cfbb2a7bafdb5192c4cc05415a8b2946a075b1e52
+SHA512: 4e2fd9c1e0db32a28cc9c96c8cfe739670d462f155a12cc57e45627912a11c6ba962617ac9b0dd019ff593bd6034aa4ebf2cf0bcaeae23ab9c68d797f992d0a3
 Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime Tools library
  FreeRDP is a libre client/server implementation of the Remote
@@ -499,21 +638,22 @@ Description: Windows Portable Runtime Tools library
 
 Package: libwinpr3-3
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 1385
+Installed-Size: 1391
 Depends: libc6 (>= 2.42), libgcc-s1 (>= 3.3), libicu78 (>= 78.1-1~), libjson-c5 (>= 0.15), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (>= 1.15~beta1), libssl3t64 (>= 3.0.0)
-Suggests: freerdp3-x11
-Filename: pool/main/freerdp3/resolute/libwinpr3-3_3.21.0+dfsg-1_amd64.deb
-Size: 375902
-MD5sum: d27e1e205a8e9a3d4b64e9d4c7a104ee
-SHA1: 82974afbe19eb594a704666e7e5ee39a292f40c3
-SHA256: 9991674b757f22768ac1fb67b62def2e6c3462358b19b684767b68f619093df6
-SHA512: 1b08cb264c2f13d13ad3631affdabd4b75c6be23ba2a14786372a1626254b576393458963c0e0284aa8b803b9030323cf890a957068856cd8927e5355cb71b94
+Suggests: freerdp-x11
+Replaces: libwinpr2-2, libwinpr2-2t64
+Filename: pool/main/freerdp3/resolute/libwinpr3-3_3.22.0+dfsg-3.1_amd64.deb
+Size: 377694
+MD5sum: 937cd453899e35aa3051e298f6e715f8
+SHA1: cda41b6a8e71d470c97bf143a890f1b1365ccaf8
+SHA256: 3e094b184d0a227d975b2250661f15ccfd44c4869f35bedf5b6c6e7595f00019
+SHA512: fc40037f64a3d2d218a7cc9e587247cacbe92cb2475ca7bbb49f4fc4c215df94cd43e88e5b3a97bdf4a585ba8969298298de49facff92c6d990ebaef3cefdcdd
 Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime library
  WinPR is a spin-off project of FreeRDP which aims at providing a portable
@@ -529,19 +669,19 @@ Description: Windows Portable Runtime library
 
 Package: libwinpr3-dev
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Priority: optional
 Section: libdevel
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 1066
-Depends: libssl-dev, libjson-c-dev, libwinpr-tools3-3 (= 3.21.0+dfsg-1), libwinpr3-3 (= 3.21.0+dfsg-1)
-Filename: pool/main/freerdp3/resolute/libwinpr3-dev_3.21.0+dfsg-1_amd64.deb
-Size: 153366
-MD5sum: c20f684bc0025a0454da2cc08afcfe86
-SHA1: 8c565b69dc91f01b22f52bbedfa5933f8bf6a829
-SHA256: b2d0abbddfef04dbe1b00b3e1fd85bb98b4101ef9476b8593fbe5c7392c0d978
-SHA512: ae6a4eeb087bbc94b666035f97add410148cfa3f7c39441edebf153cd080bc295aaee681084208f4d21ce5e7e259797186bcaf033c9f6e6ed4aaaa273a023cd3
+Installed-Size: 1068
+Depends: libssl-dev, libjson-c-dev, libwinpr-tools3-3 (= 3.22.0+dfsg-3.1), libwinpr3-3 (= 3.22.0+dfsg-3.1)
+Filename: pool/main/freerdp3/resolute/libwinpr3-dev_3.22.0+dfsg-3.1_amd64.deb
+Size: 153384
+MD5sum: 4683092f79a9268522085f7f448bdc18
+SHA1: ea7304f503227f112d0b94f60f0e47b51c319920
+SHA256: af8a8adee5948baaf29d12544116f7341644bbaea9e021184c1225fa8be36bdd
+SHA512: ebe5896216893bd678388fb54c9ba86684a3c9c68f4e36bd052f03d933fc54e3ffc070ce0e4253e86c4fe4cc47a9a52e078b73752fcc27b523477bf5d86170dd
 Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime library (development files)
  WinPR is a spin-off project of FreeRDP which aims at providing a portable
@@ -555,22 +695,22 @@ Description: Windows Portable Runtime library (development files)
  .
  This package contains the WinPR development files.
 
-Package: winpr3-utils
+Package: winpr-utils
 Architecture: amd64
-Version: 3.21.0+dfsg-1
+Version: 3.22.0+dfsg-3.1
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Source: freerdp3
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 46
-Depends: libc6 (>= 2.34), libwinpr-tools3-3 (= 3.21.0+dfsg-1), libwinpr3-3 (>= 3.0.0)
-Filename: pool/main/freerdp3/resolute/winpr3-utils_3.21.0+dfsg-1_amd64.deb
-Size: 7702
-MD5sum: a84819b76f16105f682ed6855b8b0017
-SHA1: 255a4410b9fcc0d869b53a28d65a6dfe9b6c7e02
-SHA256: f40b5f1f58177d6d77b433836e67ddbd5b41f135cd59bb0eec4ba74d350839bc
-SHA512: 2ce90d7d31720bc4c1131130fb4badbece379f729b54f72237d009ebfef43aab9f483632e58e2aa8029e2fd3879aadc095da79d4db5b83658047f608d64d54d3
+Depends: libc6 (>= 2.34), libwinpr-tools3-3 (= 3.22.0+dfsg-3.1), libwinpr3-3 (>= 3.0.0)
+Filename: pool/main/freerdp3/resolute/winpr-utils_3.22.0+dfsg-3.1_amd64.deb
+Size: 7690
+MD5sum: 1d78b26ec747f9e6857c78f6acc9cac2
+SHA1: 38dc59512206dbe6eef43152c982daba843904b1
+SHA256: 1f56dcac9b6f9ae0550feea1514fe62ae84f5dac04c8fcdd22f10359d96dc25a
+SHA512: b5c9c0ab7301454b73793758a533f9e2a7b302197a6e08fbcf50c3ea6b41a994b80ff32ba3af4e754a2aeced4047c4b97a8e66fc86b5bdc7245a16caf9abb7c6
 Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime library command line utilities
  WinPR is a spin-off project of FreeRDP which aims at providing a portable
@@ -583,6 +723,26 @@ Description: Windows Portable Runtime library command line utilities
  the code using it.
  .
  This package contains WinPR command line utils (winpr-hash, winpr-makecert).
+
+Package: winpr3-utils
+Architecture: all
+Version: 3.22.0+dfsg-3.1
+Priority: optional
+Section: oldlibs
+Source: freerdp3
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 155
+Depends: winpr-utils
+Filename: pool/main/freerdp3/resolute/winpr3-utils_3.22.0+dfsg-3.1_all.deb
+Size: 31794
+MD5sum: 0cfa49c47d4b00c0c1e81ce3115bc861
+SHA1: 608e182649ea8a03bde792fd9fe69265ecc0ad78
+SHA256: 1ba965f87801025829e668d5610f4e711ef7f752bce149efe69e2c0c95aa925f
+SHA512: aa40b940b8da75e38ea79c06839dc16ef0098f977024e213ed32bf2e5c4bd52c65acd03b874ac9a20eebd86dce9abb1acd93f9fe98fa3ea03a17246a58a45690
+Homepage: https://www.freerdp.com/
+Description: Windows Portable Runtime library command line utilities (transitional package)
+ This package provides compatibility links for transition from winpr3-utils
+ to winpr-utils.
 
 Package: neovim-lualine
 Architecture: all
