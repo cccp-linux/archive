@@ -30,27 +30,38 @@ jobs:
         id: update
         run: |
           for d in dists/*; do
-            [ -L $d ] && continue || sources=$d/main/source/Sources
+            [ ! -L $d ] || continue
 
-            apt-ftparchive sources pool/main > $sources
-            gzip -9c $sources > ${sources}.gz
+            for c in $d/*; do
+              comp=$(echo $c | cut -d/ -f3)
+              sources=$c/source/Sources
+
+              apt-ftparchive sources pool/$comp > $sources
+              gzip -9c $sources > ${sources}.gz
+
+            done
           done
 
       - name: Update package indices
         run: |
           for d in dists/*; do
-            [ -L $d ] && continue || suite=$(echo $d | cut -d/ -f2)
+            [ ! -L $d ] || continue
+            suite=$(echo $d | cut -d/ -f2)
 
-            for packages in dists/$suite/main/binary-*/Packages; do
-              arch=$(echo $packages | cut -d/ -f4 | cut -d- -f2)
+            for c in $d/*; do
+              comp=$(echo $c | cut -d/ -f3)
 
-              for path in pool/main/*/$suite; do
-                [ -e $path ] || continue
+              for b in $c/binary-*; do
+                arch=$(echo $b | cut -d/ -f4 | cut -d- -f2)
+                packages=$b/Packages
 
-                apt-ftparchive packages --arch $arch $path
-              done > $packages
-              gzip -9c $packages > ${packages}.gz
+                for path in pool/$comp/*/$suite; do
+                  [ -e $path ] || continue
+                  apt-ftparchive packages --arch $arch $path
+                done > $packages
+                gzip -9c $packages > ${packages}.gz
 
+              done
             done
           done
 
