@@ -1,0 +1,35 @@
+Package: pickle
+Architecture: armhf
+Version: 5.02-1
+Priority: optional
+Section: devel
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1143
+Depends: libc6 (>= 2.42), libftdi1-2 (>= 1.2)
+Filename: pool/embedded/pickle/sid/pickle_5.02-1_armhf.deb
+Size: 86024
+MD5sum: 89ac4342e63fa75aa43df4d07643fa26
+SHA1: e0aa97e4580ee08ae649a278c588edbef24b7369
+SHA256: 258fe06d3a53e2918c65ad6fc096491b759028e5973e695fb529e4f1b067a4e5
+SHA512: b0f7574443137c29d9903b1792d8062b942e28017e763cbed0f114159cf7fe3cbb45e72e404b01d9c656307ff6c8d3ae43d4f4b460d04cc7f49d99c25226fa96
+Homepage: https://wiki.kewl.org/dokuwiki/projects:pickle
+Description: Pickle Microchip PIC ICSP
+ Pickle is an PICMicro in-circuit serial programmer for FreeBSD, NetBSD, Linux,
+ Cygwin (Windows) and MACOS/X or any UNIX/POSIX based system, which includes
+ the Raspberry Pi and embedded devices running OpenWRT.
+ .
+ All operating systems support high voltage programming (HVP) of PICMicros with
+ the Velleman K8048 or K8076 kits using a RS232 interface, yet many other high
+ voltage programming kits may be supported with the appropriate configuration.
+ .
+ Support is also available to program low voltage programming (LVP) compatible
+ PICMicros directly from a Raspberry Pi, OpenWRT enabled router or an USB UART
+ adapter. Look for PICMicros marked LVP(PGM) or LVP(KEY) in the supported
+ PICMicro device list.
+ .
+ Refer to the Microchip documentation for your PICMicro as to whether it
+ supports high voltage (HVP) or low voltage (LVP) programming or both.
+ .
+ Currently supported PICMicros range from the PIC10 to the PIC32. Predominantly
+ PICMicros available in DIP packages are tested and supported.
+
