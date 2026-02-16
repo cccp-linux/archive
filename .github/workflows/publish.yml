@@ -33,9 +33,10 @@ jobs:
             [ ! -L $d ] || continue
 
             for c in $d/*; do
+              [ -d $c ] || continue
               comp=$(echo $c | cut -d/ -f3)
-              sources=$c/source/Sources
 
+              sources=$c/source/Sources
               apt-ftparchive sources pool/$comp > $sources
               gzip -9c $sources > ${sources}.gz
 
@@ -49,6 +50,7 @@ jobs:
             suite=$(echo $d | cut -d/ -f2)
 
             for c in $d/*; do
+              [ -d $c ] || continue
               comp=$(echo $c | cut -d/ -f3)
 
               for b in $c/binary-*; do
