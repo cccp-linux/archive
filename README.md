@@ -1,6 +1,6 @@
 # CCCP Linux Package Archive
 
-1. Obtain CCCP Linux keyring:
+1. Obtain the keyring:
    ```shell
    url=https://cccp-linux.github.io/packages/cccp-linux-keyring.asc
    wget -qO- $url | gpg --dearmor | sudo tee /etc/apt/keyrings/cccp-linux-keyring.gpg
@@ -12,7 +12,7 @@
    comps="main" # embedded
    ```
 
-3. Create CCCP Linux sources file:
+3. Create the sources file:
    ```shell
    sudo tee /etc/apt/sources.list.d/cccp-linux.sources <<EOF
    Types: deb
@@ -33,9 +33,9 @@
    apt list ~OCCCP.Linux
    ```
 
-6. Install the ones you like:
+6. Install the one(s) you like:
    ```shell
-   sudo apt install <package>
+   sudo apt install <package> ...
    ```
 
 7. Share and enjoy.
