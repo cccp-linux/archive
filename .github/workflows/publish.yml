@@ -30,7 +30,7 @@ jobs:
         id: update
         run: |
           for d in dists/*; do
-            [ ! -L $d ] || continue
+            [ ! -h $d ] || continue
 
             for c in $d/*; do
               [ -d $c ] || continue
@@ -46,7 +46,7 @@ jobs:
       - name: Update package indices
         run: |
           for d in dists/*; do
-            [ ! -L $d ] || continue
+            [ ! -h $d ] || continue
             suite=$(echo $d | cut -d/ -f2)
 
             for c in $d/*; do
@@ -70,7 +70,8 @@ jobs:
       - name: Create release file
         run: |
           for d in dists/*; do
-            [ -L $d ] && continue || suite=$(echo $d | cut -d/ -f2)
+            [ ! -h $d ] || continue
+            suite=$(echo $d | cut -d/ -f2)
 
             cat >/tmp/arch.conf <<EOF
           APT::FTPArchive::Release {
