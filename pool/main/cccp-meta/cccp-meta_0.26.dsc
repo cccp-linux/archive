@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: cccp-meta
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: all
-Version: 0.25
+Version: 0.26
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/cccp-linux/cccp-meta
@@ -15,16 +15,16 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=all
  cccp-standard-meta deb metapackages optional arch=all
 Checksums-Sha1:
- a67c0c546446da7b52cd2d03fb55c107bf07cc56 15604 cccp-meta_0.25.tar.xz
+ 74a31997c1141145803205c3544a8e14237d3148 15632 cccp-meta_0.26.tar.xz
 Checksums-Sha256:
- 46d864bc7d3502540aa926401e356e0d6923af901f8df50247f7e752af8e7439 15604 cccp-meta_0.25.tar.xz
+ 5c4d1c9b55985ce77a3c19f7a11ccd913388aa82a0956d5bdc56f13f0fc9bc4b 15632 cccp-meta_0.26.tar.xz
 Files:
- 109167abfd6f5cde9c1af801515473fd 15604 cccp-meta_0.25.tar.xz
+ 92230f866b329d56be23faad10cc2ff3 15632 cccp-meta_0.26.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaYqvCAAKCRA6Vr9YT1rr
-J+dxAQD7jOegPkaSGGoxhgiIPtoCrDDD9+ySxUQ+aYze02kbswD/f25cP4LVQ+sC
-zVBCLzg4/iKi/KmuUwmo0jc7NPsGBw4=
-=BjAz
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaZTtKgAKCRA6Vr9YT1rr
+J4OGAP9QwtS2NxOhWr0PbwZ9aHxbtKV/ZjZH/9EOLfMmf6O8lgEAgW2ZY6x6ImzC
+rM6Zef5dQoHjY6yq1/0SnLZNKn/i/wE=
+=sBvM
 -----END PGP SIGNATURE-----
