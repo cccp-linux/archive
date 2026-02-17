@@ -271,6 +271,23 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
+Package: niri-meta
+Architecture: amd64
+Version: 0.16
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24
+Depends: niri, quickshell
+Recommends: bluez, brightness-udev, brightnessctl, cliphist, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
+Filename: pool/main/niri-meta/noble/niri-meta_0.16_amd64.deb
+Size: 4096
+MD5sum: ffa85bff176b0f9f55a2617c1df3a107
+SHA1: 46aed4bd781bb8f2c1574b399d63ab11544a5824
+SHA256: 0d0ed1a35df199463d8b6eb57bf2b601d7e2388a6a2fbb4dd8dd3c73abed3767
+SHA512: 10299cb64941e3456484a88a42dff0a0acff99da237175e1a72f38f04b2b57f032bc99ff3599773424ef07ff7284ef584a2e37e59d4ca1163240d91366736192
+Description: Shell meta-package
+
 Package: niri
 Architecture: amd64
 Version: 25.11-7
