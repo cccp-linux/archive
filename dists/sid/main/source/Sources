@@ -2,7 +2,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: all
-Version: 0.25
+Version: 0.26
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -13,17 +13,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=all
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- 3cdb5983659f4a5749764e0ab9e26779 1005 cccp-meta_0.25.dsc
- 109167abfd6f5cde9c1af801515473fd 15604 cccp-meta_0.25.tar.xz
+ 48244b576413fb5bea7e364e5622bef6 1005 cccp-meta_0.26.dsc
+ 92230f866b329d56be23faad10cc2ff3 15632 cccp-meta_0.26.tar.xz
 Checksums-Sha1:
- 70781feebbc18bf79fa00e56db939e107d960977 1005 cccp-meta_0.25.dsc
- a67c0c546446da7b52cd2d03fb55c107bf07cc56 15604 cccp-meta_0.25.tar.xz
+ efe9a5e2db6fbbaf7f58d11ae0e9745413397b32 1005 cccp-meta_0.26.dsc
+ 74a31997c1141145803205c3544a8e14237d3148 15632 cccp-meta_0.26.tar.xz
 Checksums-Sha256:
- 5fd4eddcf0da588c229ab7b6dd0fa3946b5d75d433b6a9620489528a83e403aa 1005 cccp-meta_0.25.dsc
- 46d864bc7d3502540aa926401e356e0d6923af901f8df50247f7e752af8e7439 15604 cccp-meta_0.25.tar.xz
+ b78c9efcf8010482d8ceb76886484476e35e0c2ad9cb73197f9b8b130c1ccddf 1005 cccp-meta_0.26.dsc
+ 5c4d1c9b55985ce77a3c19f7a11ccd913388aa82a0956d5bdc56f13f0fc9bc4b 15632 cccp-meta_0.26.tar.xz
 Checksums-Sha512:
- 6a0af3a35fd037f599d00769b28ae6bf9e69b70f4cc84c0efa3952a51bfd8bdcf73314a077b84c39fcd2a7fe5f0699dcdc70123210e9b2070ecdb00a416e5bef 1005 cccp-meta_0.25.dsc
- 18f665f8433eac13dfd230bac6bfdcddf6b8c60bbe37b258b6cbcffddbad74d4e56985d9b14a4cfa973e951fade8f78e19209ce746f4e9b4b5ea798539ee5392 15604 cccp-meta_0.25.tar.xz
+ c4ae4950ebf1576402ff5e64b30f024a3e7a4f589f4ab3c7435a11a8ece6c1710156a08d1f58139296328073bf2e729aae6f2f8478624c31b2e0e1ad908c403b 1005 cccp-meta_0.26.dsc
+ a0e70d62f574009d36f4aab618ced882359e87d8714a408c346992ced83d77246b5c7d7c6daeecd7549617bf519df2945e5e8d3722b3504c03e01d13838d9091 15632 cccp-meta_0.26.tar.xz
 
 Package: debchange
 Format: 3.0 (native)
@@ -560,7 +560,7 @@ Package: virt-meta
 Format: 3.0 (native)
 Binary: virt-meta
 Architecture: all
-Version: 0.5
+Version: 0.6
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -570,17 +570,17 @@ Directory: pool/main/virt-meta
 Package-List:
  virt-meta deb metapackages optional arch=all
 Files:
- 4dc598c0cb36efba1088edf4ca474052 916 virt-meta_0.5.dsc
- bc0af4fee38afdda706d5ba80bb56c49 13396 virt-meta_0.5.tar.xz
+ 9c57d02640cd875a27dd00d760a37b5f 916 virt-meta_0.6.dsc
+ 5767a3e7de750c6630c91a510e5fda82 13428 virt-meta_0.6.tar.xz
 Checksums-Sha1:
- c57baad4f4e2d8e5c494b4fd164ac1dcda73c7b4 916 virt-meta_0.5.dsc
- 5d6869e3849305fa2b377734f6389d436d8e98e6 13396 virt-meta_0.5.tar.xz
+ 4cd92825f329911b0a1a33727f5ec5cf4c349334 916 virt-meta_0.6.dsc
+ feb9a42eb8ebbd290b82f454a6153773199bfd94 13428 virt-meta_0.6.tar.xz
 Checksums-Sha256:
- e4b15803704fef4ba897950152184446fb22031195c067c9f2761e6a6988c874 916 virt-meta_0.5.dsc
- a07d4fa1f10afcd0fe04236b421ab3e2454f83c0d3791ae75f633f7900b62912 13396 virt-meta_0.5.tar.xz
+ b36505f2ee0fd7e87cdd2b014db7b90d66201f614e5af6d78b01c689dd2c4209 916 virt-meta_0.6.dsc
+ e3a6d206fbf340a8649258f4ff6fb79f5cac90a2bb23c16eff163a10f628aa04 13428 virt-meta_0.6.tar.xz
 Checksums-Sha512:
- 64deeb765e6b5fa273a7e1f2222634402cc3d5790f6a93736ef386a6847919a15b01ec88e40c156381f4a032406e8a015e3504283d260077ba066d011cee4240 916 virt-meta_0.5.dsc
- 91619b4eb9d0baedd080ae02ef00b6799d823642e0f997288c7ed3514e83e07a53f170564239a4cf3916f8a16eace4ab5bc03d4025b008c6213afd17f2c08cd0 13396 virt-meta_0.5.tar.xz
+ fdd7b78ba88f4dc589b822d9e7cdad7043f211d8f24b99a8c631c3311705ac507686b3f5b2e3400fa01744c040bbcbf766fcea04e6031f7a432cf122b7af77a0 916 virt-meta_0.6.dsc
+ 1e29325e013d9b9c382da28ce3dd1d6e650b7d9d666839811a5d24fafefa9b050ed48e4d724de741628b00f19181d44e679dfcc0eed736e36a4dec83094a9312 13428 virt-meta_0.6.tar.xz
 
 Package: xwayland-satellite
 Format: 3.0 (quilt)
