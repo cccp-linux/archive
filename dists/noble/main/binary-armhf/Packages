@@ -376,23 +376,3 @@ SHA256: 78049c3161a326a66fd58417ec96ef188bda77ad97ec6a2611e34bc05626d9e2
 SHA512: 42c83da890e67e4e2b57fc921266e96a9a18a2813dcfb7db76087af8c5833f8e7ba8bfe22d570cda020034e0dbb1e1a8ff8efa6224778c192d735ef228abbc55
 Description: Virtual machine meta-package
 
-Package: xwayland-satellite
-Architecture: armhf
-Version: 0.8-1
-Priority: optional
-Section: x11
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 4815
-Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.3), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), init-system-helpers (>= 1.52)
-Filename: pool/main/xwayland-satellite/noble/xwayland-satellite_0.8-1_armhf.deb
-Size: 1545744
-MD5sum: 105f68ef0d73781aa87e136b28605d0f
-SHA1: 3e3d6dc48d62b644e6aa10a5803263255d68c236
-SHA256: d72913bb52098b087e20ff2d183581fe36174c39ec12c4232c3bd21c9ec4555a
-SHA512: eaf903cc9c6db248e0c20250fcfb569a311ed054e3d2a53291b1e43a75d3a8fb114e156a16e70f923dc83effca021a9dd089376caabd251639b67c5e14e0b6f8
-Description: Xwayland outside your Wayland
- xwayland-satellite grants rootless Xwayland integration to any Wayland
- compositor implementing xdg_wm_base and viewporter. This is
- particularly useful for compositors that (understandably) do not want
- to go through implementing support for rootless Xwayland themselves.
-

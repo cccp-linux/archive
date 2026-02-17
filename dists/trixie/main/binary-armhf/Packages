@@ -1317,37 +1317,37 @@ Description: Virtual machine meta-package
 
 Package: xwayland-satellite-dbgsym
 Architecture: armhf
-Version: 0.8-1
+Version: 0.8.1-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: xwayland-satellite
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 6953
-Depends: xwayland-satellite (= 0.8-1)
-Filename: pool/main/xwayland-satellite/trixie/xwayland-satellite-dbgsym_0.8-1_armhf.deb
-Size: 351324
-MD5sum: 0c5dc5928dc0eae23eeb0436eb2c3526
-SHA1: 599757fabc3c7e27f74d7ec195143612e06db640
-SHA256: 9503e15f9c3ed8149d9bbf86bffc3fdd631c4ee0dd029a7c080d8b3d583cf50a
-SHA512: 52e3fdeb165c216927e15aa6c5b41bc6d9c3beeccf8fe86bc01a90828d3a78e36ed753db10080c88c07a122460d8fd392effce1c4e5c5bfb8748f42f582f0bf7
+Installed-Size: 7156
+Depends: xwayland-satellite (= 0.8.1-1)
+Filename: pool/main/xwayland-satellite/trixie/xwayland-satellite-dbgsym_0.8.1-1_armhf.deb
+Size: 362956
+MD5sum: 285002e39a296b17a5d0881bb78a75e0
+SHA1: d23cb38d5391c2640357e0a1dc3697e1b54a733a
+SHA256: d2dbdfab61909bf718dbc7d7fa0f956cd20afea8801514c13dd6d94fb11c788f
+SHA512: 5e31d7367ab77d10124b9e2c928a6554930976d7e7a7f586da4a5c78719c541b8e0ff0f26413ccd0e2ed57bcfdfb7996dcd3ae4d3cb502000f286b9f6a331f45
 Description: debug symbols for xwayland-satellite
-Build-Ids: 2a512117f549105a27d5eae4850cd0bbd6bc6792
+Build-Ids: 9696ecc9ce16d738db051935f46c84125ea88292
 
 Package: xwayland-satellite
 Architecture: armhf
-Version: 0.8-1
+Version: 0.8.1-1
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 4819
+Installed-Size: 4948
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.3), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), init-system-helpers (>= 1.52)
-Filename: pool/main/xwayland-satellite/trixie/xwayland-satellite_0.8-1_armhf.deb
-Size: 1308356
-MD5sum: c248d53461d4da0f0d0e39606f659b27
-SHA1: e7b27dc4e7c93af5246fae752463c97f2688d350
-SHA256: fa8cc992f0e7a0dea93cb411e55176d11f12bc965a3732fc257e1bd5e2deece5
-SHA512: bc9a4d04b75409ea6170139a41cc7f4d54a3c4b8d1d9c8147f78cbca8a7522ba251c32d4b4517e82bc2c2f6c1252985b4079a19ba647b3dbec245f4b16417336
+Filename: pool/main/xwayland-satellite/trixie/xwayland-satellite_0.8.1-1_armhf.deb
+Size: 1333728
+MD5sum: 00c82b295300e2ab69bfd632de93009f
+SHA1: 1c26296114e90488819a8af4e5cc2b927df3d8a2
+SHA256: ba50c4f4c7bad613679139dc4242eaf0176992ac253cbb3f760fe66164142b38
+SHA512: 2fdf45785aa7e39afc775c60978a1b1851bbe2b9ed0e7d4c5178df101bf2995c07270e37f1f1bf81e3432026762ce198726306ec2c8713e8f6d7941a6249ef38
 Description: Xwayland outside your Wayland
  xwayland-satellite grants rootless Xwayland integration to any Wayland
  compositor implementing xdg_wm_base and viewporter. This is

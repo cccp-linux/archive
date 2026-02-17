@@ -986,18 +986,18 @@ Description: Virtual machine meta-package
 
 Package: xwayland-satellite
 Architecture: amd64
-Version: 0.8-1
+Version: 0.8.1-1
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 5407
+Installed-Size: 5564
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), init-system-helpers (>= 1.52)
-Filename: pool/main/xwayland-satellite/resolute/xwayland-satellite_0.8-1_amd64.deb
-Size: 1607970
-MD5sum: 2e6181f2c5444e926b4da8c557d0ee35
-SHA1: 6c6dc75890a0f7e09c6178f21a16ff624b2cd22c
-SHA256: 8e4f5ae28cda9ac54250f94d4397c9a675335a000ced90c0edf7c31beb14dcf2
-SHA512: b3635ff745db6d349027a74cbf019ab26133e4e36fe0e66a8d2fff8f2a64c82cc42f63b98762d73e690657db80658d4b31b6c1d8411d9cfaa83f7cc91ca0d957
+Filename: pool/main/xwayland-satellite/resolute/xwayland-satellite_0.8.1-1_amd64.deb
+Size: 1625834
+MD5sum: 2f8778249e74dc8ed312a00802ec1264
+SHA1: 40d18f348574b8227df1f9431ee2b96048662965
+SHA256: 4e799f11a7b59ee20b24617aa621f8af6e9f306fd1f8d0ec30b6e9075b719971
+SHA512: 9ebe501a4710897f90655a8adef0bb3c72edfe72ed52dda76bd741db954c98c95870942b7042dca8125177239319f58b11413ce9ab313586186adcca8ae0900b
 Description: Xwayland outside your Wayland
  xwayland-satellite grants rootless Xwayland integration to any Wayland
  compositor implementing xdg_wm_base and viewporter. This is
