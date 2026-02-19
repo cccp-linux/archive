@@ -1135,19 +1135,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: amd64
-Version: 0.16
+Version: 0.17
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 24
 Depends: niri, quickshell
-Recommends: bluez, brightness-udev, brightnessctl, cliphist, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/sid/niri-meta_0.16_amd64.deb
-Size: 4140
-MD5sum: 55ec470d5836ad6595c7e7ca3d8cd21d
-SHA1: 79092c9e720ad412936b6be92658ca31c1b4fd5e
-SHA256: b06eb96cfb26bccb49020d55ae26cf53226e8c90730ac789788a1d23db5e94e4
-SHA512: 1fdb9e1e2e1f1b082bcaa892d9a2505051b62e5be53c686a2deb5b360653693efbf340fbb52dd8f9af8e53b8d07659134d0ccad397d3eb31e788f91e1924f1b0
+Recommends: bluez, brightness-udev, brightnessctl, cliphist, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, qml6-module-qt-labs-folderlistmodel, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
+Filename: pool/main/niri-meta/sid/niri-meta_0.17_amd64.deb
+Size: 4264
+MD5sum: 9f8ffee3877b62302575b1e10e47af8b
+SHA1: 878b69479fd1a0b410a7bcf12e2305f5dc3f0047
+SHA256: 4470729a6e0deb2329ea0d26633b32e04f5c8ffb9e80ce01947243e53ad8e26d
+SHA512: 5467f66477a433626f72b44521d3780f0bab540110529691d66bf95315648f3121a1c4da5fb4f7bf7db298753322b85538ffa1b348660f8337d740f8a045c438
 Description: Shell meta-package
 
 Package: niri-dbgsym
