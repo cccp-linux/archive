@@ -92,19 +92,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.6
+Version: 0.7
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 32
 Depends: build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, eatmydata, flex, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, vim-fugitive
-Filename: pool/main/dev-meta/sid/dev-meta_0.6_all.deb
-Size: 5804
-MD5sum: 3f2854ae7689656d94831a0dda68ed93
-SHA1: 986c7ee9ab59d5a2dbb800ee10eaa9b5083fa3bb
-SHA256: 353b25e51b4b26a3693a9ab71298c7bb09b868cb4b5ac95184194d6527cac0ce
-SHA512: ea35b53136f6fae5e5ec6dc3a78630e15f6f606c741d0474dbb0f7a3f3eff81ccfa1ae02257ebe64eabdf51b404a7fcee6dec686740fd5603a3b49b29723063d
+Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, vim-fugitive
+Filename: pool/main/dev-meta/sid/dev-meta_0.7_all.deb
+Size: 5844
+MD5sum: f8c184050411eb349e27f068b718e9b8
+SHA1: 403e08016f136b7096f054837225a52906087889
+SHA256: a8dca30b391ccda4a21302336fa3c1137ef5df5b54465e303a214deb0f442ae4
+SHA512: 7f4f6d3a167f73651b569c6f792c52366fed64877a86f7ea023a5f63b427d0f8a4f37da74fea15758c5d55c88cbda7d1fcd2995a4a70dba835f5c04da2acd53b
 Description: Development meta-package
 
 Package: fonts-courier-nerd
