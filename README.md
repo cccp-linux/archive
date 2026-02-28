@@ -8,7 +8,7 @@
 
 2. Select your distro and component(s):
    ```shell
-   suite="sid"  # resolute noble trixie
+   suite="sid"  # trixie questing resolute noble
    comps="main" # embedded
    ```
 
