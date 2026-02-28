@@ -61,16 +61,16 @@ jobs:
           arch=${{ matrix.arch }}
           path=${{ inputs.path }}
 
-          mkdir /tmp/build /var/build
-          TMPDIR=/var/build sbuild -v --arch=$arch -d $suite \
-            --chroot-mode=unshare --build-dep-resolver=aptitude --build-dir=/tmp/build $path
+          sudo mkdir -m 1777 /build/
+          TMPDIR=/build/ sbuild -v --arch=$arch -d $suite \
+            --chroot-mode=unshare --build-dep-resolver=aptitude --build-dir=/build/ $path
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
         with:
           name: build-${{ matrix.suite }}-${{ matrix.arch }}
           overwrite: 'true'
-          path: /tmp/build/*.deb
+          path: /build/*.deb
 
   collect:
     needs: build
@@ -85,7 +85,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          path: /tmp/build
+          path: /build/
           pattern: build-*
 
       - name: Collect artifacts
@@ -93,10 +93,10 @@ jobs:
           name=$(basename ${{ inputs.path }} .dsc)
           pool=$(dirname ${{ inputs.path }})
 
-          suites=$(ls /tmp/build/ | cut -d- -f2 | sort | uniq)
+          suites=$(ls /build/ | cut -d- -f2 | sort | uniq)
           for suite in $suites; do
             mkdir -p $pool/$suite
-            cp -u /tmp/build/build-$suite-*/* $pool/$suite/ || true
+            cp -u /build/build-$suite-*/* $pool/$suite/ || true
           done
 
           git config user.name "github-actions[bot]"
