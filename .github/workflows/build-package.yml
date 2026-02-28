@@ -61,8 +61,9 @@ jobs:
           arch=${{ matrix.arch }}
           path=${{ inputs.path }}
 
-          mkdir /tmp/build
-          sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dep-resolver=aptitude --build-dir=/tmp/build $path
+          mkdir /tmp/build /var/build
+          TMPDIR=/var/build sbuild -v --arch=$arch -d $suite \
+            --chroot-mode=unshare --build-dep-resolver=aptitude --build-dir=/tmp/build $path
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
