@@ -1,0 +1,12 @@
+#!/bin/sh
+
+d=$(dirname "$0")
+p=chromium-embedded-142
+v=142.0.17+g60aac24
+
+for n in amd64:64 arm64:arm64 armhf:arm; do
+    a=`echo $n | cut -d: -f1`
+    b=`echo $n | cut -d: -f2`
+    wget -cO ${d}/${p}_${v}.orig-${a}.tar.bz2 \
+        https://cef-builds.spotifycdn.com/cef_binary_${v}+chromium-142.0.7444.176_linux${b}_minimal.tar.bz2
+done
