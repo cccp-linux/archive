@@ -61,6 +61,9 @@ jobs:
           arch=${{ matrix.arch }}
           path=${{ inputs.path }}
 
+          fetch=${path%.dsc}.fetch
+          [ -x $fetch ] && $fetch || true
+
           mkdir /tmp/build
           sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dep-resolver=aptitude --build-dir=/tmp/build $path
 
