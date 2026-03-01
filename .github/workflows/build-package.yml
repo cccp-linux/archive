@@ -62,8 +62,8 @@ jobs:
           path=${{ inputs.path }}
 
           sudo mkdir -m 1777 /build/
-          TMPDIR=/build/ sbuild -v --arch=$arch -d $suite \
-            --chroot-mode=unshare --build-dep-resolver=aptitude --build-dir=/build/ $path
+          export TMPDIR=/build/
+          sbuild -v --arch=$arch -d $suite --chroot-mode=unshare --build-dep-resolver=aptitude --build-dir=/build/ $path
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
