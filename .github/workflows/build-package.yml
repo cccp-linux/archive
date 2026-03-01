@@ -26,7 +26,6 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 1
-          lfs: true
           ref: master
 
       - name: Install sbuild tools
@@ -61,6 +60,9 @@ jobs:
           suite=${{ matrix.suite }}
           arch=${{ matrix.arch }}
           path=${{ inputs.path }}
+
+          fetch=${path%.dsc}.fetch
+          [ -x $fetch ] && $fetch || true
 
           mkdir /tmp/build
           sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dep-resolver=aptitude --build-dir=/tmp/build $path
