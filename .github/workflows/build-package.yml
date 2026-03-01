@@ -72,7 +72,9 @@ jobs:
         with:
           name: build-${{ matrix.suite }}-${{ matrix.arch }}
           overwrite: 'true'
-          path: /tmp/build/*.deb
+          path: |
+            /tmp/build/*.deb
+            !/tmp/build/*dbgsym*.deb
 
   collect:
     needs: build
