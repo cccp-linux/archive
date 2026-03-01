@@ -62,7 +62,7 @@ jobs:
           path=${{ inputs.path }}
 
           sudo mkdir -m 1777 /build/
-          export TMPDIR=/build/
+          sudo mount --bind /build/ /tmp/
           sbuild -v --arch=$arch -d $suite --chroot-mode=unshare --build-dep-resolver=aptitude --build-dir=/build/ $path
 
       - name: Upload artifacts
