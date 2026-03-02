@@ -52,8 +52,11 @@ jobs:
           chroot=~/.cache/sbuild/${suite}-${arch}.tar
 
           ubuntu-distro-info --all | grep -qx $suite && comp=main,universe || comp=main
-          incl=aptitude,ca-certificates
-          mmdebstrap -v --variant=buildd --include=$incl --architectures=$arch --components=$comp $suite $chroot
+          mmdebstrap -v --variant=buildd --include=aptitude,ca-certificates --architectures=$arch --components=$comp \
+            --customize-hook="
+          cp cccp-linux-keyring.asc \$1/etc/apt/keyrings/
+          cat cccp-linux.sources | sed s/%suite%/$suite/ > \$1/etc/apt/sources.list.d/cccp-linux.sources
+            " $suite $chroot
 
       - name: Build package
         run: |
