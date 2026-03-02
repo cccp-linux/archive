@@ -54,7 +54,7 @@ jobs:
           ubuntu-distro-info --all | grep -qx $suite && comp=main,universe || comp=main
           mmdebstrap -v --variant=buildd --include=aptitude,ca-certificates --architectures=$arch --components=$comp \
             --customize-hook="
-          cp cccp-linux-keyring.asc \$1/etc/apt/keyrings/
+          cat cccp-linux-keyring.asc | gpg --dearmor     > \$1/etc/apt/keyrings/cccp-linux-keyring.gpg
           cat cccp-linux.sources | sed s/%suite%/$suite/ > \$1/etc/apt/sources.list.d/cccp-linux.sources
             " $suite $chroot
 
