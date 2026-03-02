@@ -1,102 +1,3 @@
-Package: libcef131-data
-Architecture: amd64
-Version: 131.4.1+g437feba-10
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: chromium-embedded-131
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 53242
-Filename: pool/casparcg/chromium-embedded-131/trixie/libcef131-data_131.4.1+g437feba-10_amd64.deb
-Size: 17347704
-MD5sum: 88a692f1a4a20427e6c936d86fb5acbe
-SHA1: e2a9119ced18fb6de5f46d4bdb398368325207e6
-SHA256: f2c7c6d4209d186f18c0e569df2e025648a923410acee8f6ce0f5c87b0b294ff
-SHA512: 2e44535575dd98e78059ff40e77f32d40fc5fdec30dd51b7cdf83c9fb1d2c47ad9a66242d42f1c370819605fea30d15dfaa0db96e87242acf11d22bc253be0b2
-Homepage: https://bitbucket.org/chromiumembedded/cef
-Description: The Chromium Embedded Framework
- The Chromium Embedded Framework (CEF) is a simple framework for embedding
- Chromium-based browsers in other applications.
- .
- CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
- 2008 and based on the Google Chromium project. Unlike the Chromium project
- itself, which focuses mainly on Google Chrome application development, CEF
- focuses on facilitating embedded browser use cases in third-party
- applications. CEF insulates the user from the underlying Chromium and Blink
- code complexity by offering production-quality stable APIs, release branches
- tracking specific Chromium releases, and binary distributions. Most features
- in CEF have default implementations that provide rich functionality while
- requiring little or no integration work from the user.
- .
- This package contains resources required by the library.
-
-Package: libcef131-dev
-Architecture: amd64
-Version: 131.4.1+g437feba-10
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: chromium-embedded-131
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 7614
-Depends: libc6 (>= 2.16), libgcc-s1 (>= 3.0), libcef131 (= 131.4.1+g437feba-10)
-Filename: pool/casparcg/chromium-embedded-131/trixie/libcef131-dev_131.4.1+g437feba-10_amd64.deb
-Size: 757044
-MD5sum: 3d29b5833bde453d899af7f19f2e9c20
-SHA1: ebcacb18268a41e6a697cfef9d772d411ae7f64a
-SHA256: 21bf13a6b5a306135882d9cb7f0e373d92b0f05143a43db6b2430da5ec2f9d01
-SHA512: d59b105ae38d28044ce10bb44c80b3bb3dd3d64d1459ce7f86a0b5cfcb87b5e84c301d1e9454aa2fa031b7ff6b471fe7c67b8c2e67bd9fea01407558d7e64551
-Homepage: https://bitbucket.org/chromiumembedded/cef
-Description: The Chromium Embedded Framework
- The Chromium Embedded Framework (CEF) is a simple framework for embedding
- Chromium-based browsers in other applications.
- .
- CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
- 2008 and based on the Google Chromium project. Unlike the Chromium project
- itself, which focuses mainly on Google Chrome application development, CEF
- focuses on facilitating embedded browser use cases in third-party
- applications. CEF insulates the user from the underlying Chromium and Blink
- code complexity by offering production-quality stable APIs, release branches
- tracking specific Chromium releases, and binary distributions. Most features
- in CEF have default implementations that provide rich functionality while
- requiring little or no integration work from the user.
- .
- This package contains development files.
-
-Package: libcef131
-Architecture: amd64
-Version: 131.4.1+g437feba-10
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: chromium-embedded-131
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 241035
-Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.40.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2
-Recommends: libcef131-data (= 131.4.1+g437feba-10)
-Filename: pool/casparcg/chromium-embedded-131/trixie/libcef131_131.4.1+g437feba-10_amd64.deb
-Size: 73248028
-MD5sum: 6eb24cd5ecc44e829d019355d5114242
-SHA1: 949e0350cbe576f3dccc0ed1d85fffdf1dca9691
-SHA256: 74ab23de1306799f04c2fd48c9797c03ec52a9908ac05d791fded86febdc0cfb
-SHA512: a722950011e3024e3b3eba8003feb75a74924d901b004927868f8b1711ffb06454b3b5f3f7ae61fc993529a791c762c8995a23db2d5ed28bb1f5c946dfdc9837
-Homepage: https://bitbucket.org/chromiumembedded/cef
-Description: The Chromium Embedded Framework
- The Chromium Embedded Framework (CEF) is a simple framework for embedding
- Chromium-based browsers in other applications.
- .
- CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
- 2008 and based on the Google Chromium project. Unlike the Chromium project
- itself, which focuses mainly on Google Chrome application development, CEF
- focuses on facilitating embedded browser use cases in third-party
- applications. CEF insulates the user from the underlying Chromium and Blink
- code complexity by offering production-quality stable APIs, release branches
- tracking specific Chromium releases, and binary distributions. Most features
- in CEF have default implementations that provide rich functionality while
- requiring little or no integration work from the user.
- .
- This package contains the CEF library.
-
 Package: libcef142-data
 Architecture: amd64
 Version: 142.0.17+g60aac24-2
@@ -195,6 +96,28 @@ Description: The Chromium Embedded Framework
  requiring little or no integration work from the user.
  .
  This package contains the CEF library.
+
+Package: casparcg-server-2.5
+Architecture: amd64
+Version: 2.5.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Source: server-2.5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6565
+Depends: libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libboost-context1.83.0 (>= 1.83.0), libboost-filesystem1.83.0 (>= 1.83.0), libboost-locale1.83.0 (>= 1.83.0), libboost-log1.83.0 (>= 1.83.0), libboost-thread1.83.0 (>= 1.83.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3), libglew2.2 (>= 2.2.0-4+b2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libtbb12 (>= 2021.4.0), libx11-6, libcef142, sensible-utils, x11-utils
+Filename: pool/casparcg/server-2.5/trixie/casparcg-server-2.5_2.5.0-1_amd64.deb
+Size: 1743292
+MD5sum: 4052d28b04567eef4c3f03ef1019ac8b
+SHA1: eebccf75f0b33d3a5940248716b2bff5868784cc
+SHA256: b94942253f555e5826dc2283fbfef6618d3cf5cb1d9eed81033c75902e5daba0
+SHA512: fb4a0a47536d6662a4896edd529f0b0c17618169938915148e34463ab0144073086e0367e8b4db55df6ec936d7770aeb809300d4bbe4fc5fcdaae9ce9a9dfef4
+Homepage: https://casparcg.com
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional
+ graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+ production since 2006.
 
 Package: casparcg-server
 Architecture: all
