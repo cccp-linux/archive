@@ -97,3 +97,26 @@ Description: The Chromium Embedded Framework
  .
  This package contains the CEF library.
 
+Package: casparcg-server
+Architecture: all
+Version: 2.5-1
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Source: server-default
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 11
+Depends: casparcg-server-2.5
+Filename: pool/casparcg/server-default/resolute/casparcg-server_2.5-1_all.deb
+Size: 1984
+MD5sum: cfb620daf900e8843d8bfbbf9c1006df
+SHA1: b18ee3147d446d0dcab0fc741842e4b9010b1ff3
+SHA256: ab07b886499a951dfa32f39d9e373d410318037679e1e802a48194120562e0f6
+SHA512: 264a044825ee54f97f43bc64534c53d127735d10b72b5b45c17450bdc2451e23657dac8669edaddda40760d65c1f71cb8cb7bb7f6e830f46adc5a251aecfeb19
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional
+ graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+ production since 2006.
+ .
+ This is a dependency package providing the default version.
+
