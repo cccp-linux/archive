@@ -99,7 +99,7 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-server-2.5
 Architecture: armhf
-Version: 2.5.0-3
+Version: 2.5.0-4
 Multi-Arch: foreign
 Priority: optional
 Section: video
@@ -107,12 +107,12 @@ Source: server-2.5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 4093
 Depends: libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libboost-context1.88.0 (>= 1.88.0), libboost-filesystem1.88.0 (>= 1.88.0), libboost-locale1.88.0 (>= 1.88.0), libboost-log1.88.0 (>= 1.88.0), libboost-thread1.88.0 (>= 1.88.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 4.3), libglew2.2 (>= 2.2.0-4build1), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libtbb12 (>= 2022.1.0), libx11-6, libcef142, sensible-utils, x11-utils
-Filename: pool/casparcg/server-2.5/questing/casparcg-server-2.5_2.5.0-3_armhf.deb
-Size: 1677770
-MD5sum: 787f2e789a17a01c1ad156b60bb2ffab
-SHA1: 4f564d83dc842db90ec962172697f93b5bc72f55
-SHA256: 558d5ecea14551a02e33953a43f0a0fedc729e3487232e6b53b223740db9c9d1
-SHA512: 0e95b119d8af59f7750e6591dd95cc81539744a9ca9a8cf1c1c2353ad9bd2b804f90a1c1f696604b7c54193f339a7f52519005fdd6c7132eac33ebfcca101d5f
+Filename: pool/casparcg/server-2.5/questing/casparcg-server-2.5_2.5.0-4_armhf.deb
+Size: 1677812
+MD5sum: 92e4470319c2e04320c1eca548c664b6
+SHA1: bb6250168373679a4256d32c3833aaf785c60b14
+SHA256: 81aa0d2e8e1843de5d88e9b1b4780e6b1b58358345030fd8f29a3dc5c6ba69d5
+SHA512: d6ba414b0b94ac79cc619bbc3642f9712390b4c42b856250d09dcb3e1021f2b87778d13bbc4563c8d275de1df0ce2e9c24df72ec81d737de5c7230ef2c044f73
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
