@@ -536,25 +536,27 @@ Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
 Architecture: all
-Version: 0.14
+Version: 0.15
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/term-meta
+Vcs-Git: https://github.com/cccp-linux/term-meta.git
 Directory: pool/main/term-meta
 Package-List:
  term-meta deb metapackages optional arch=all
 Files:
- d2c6543ad285f50142f835cf17c942e5 814 term-meta_0.14.dsc
- 79d2e75522525f70c61b0e755e85bec4 14324 term-meta_0.14.tar.xz
+ fc80a0aba45b6cd482109f6105979835 920 term-meta_0.15.dsc
+ 6e0743abaa0af2bec23ae3d65c449f4b 14428 term-meta_0.15.tar.xz
 Checksums-Sha1:
- dfe7343b9bf1d2082107d5a7904fefb6b0b04411 814 term-meta_0.14.dsc
- c9ab7d16c532956e0ea444eb0c070dbf677e2eef 14324 term-meta_0.14.tar.xz
+ 41346f884ae1d2489e631bb7a1faae8a95ba7b1f 920 term-meta_0.15.dsc
+ b67c089ac758ce3de3f53d199d5bcde4ce373e08 14428 term-meta_0.15.tar.xz
 Checksums-Sha256:
- e1a8a46b9af3f567e181d7104998d1757919947a506558262250500c84912031 814 term-meta_0.14.dsc
- a13a01d1cbf52fced0bd45fb39dc083c04eb9abe5e8b379a6cf793e86a98b0f3 14324 term-meta_0.14.tar.xz
+ 1960f1be7fa0b8666af61662043fc567e7fc8b0d40e913418289ac23faa6f7c1 920 term-meta_0.15.dsc
+ e7251f4225d3b3f53deb376a31c7cd245d4a690f0dc170b4ff0c4e50fe4a4262 14428 term-meta_0.15.tar.xz
 Checksums-Sha512:
- f06f8466bbc546b86f7ce7e0fa76254bc0ddbe12832ecc330f391e68f711557db32ac449a48568f2ba4044612cf3a0e79e6bbd5d16116dee3a8b65714009ea22 814 term-meta_0.14.dsc
- 1c976cd82ddfb30722da4de3d86bb261876d9463f323e442ba812edf7e3ded05dcd34926d14bf9d0ff02e274c008d7ce970d4228ca793272a226d7f9a5024fa6 14324 term-meta_0.14.tar.xz
+ 645511b9af25c4ad707b21915202eeb26ead4dc283ba7b0dde1b9ac572f84ec09f92fdcbd9d8539aab2bb2840648aebecbb97a07527944363af7702c06de7b58 920 term-meta_0.15.dsc
+ 36aabe3865d900295aba04c3f88cdf274d67b7b08650b047280568e94de537d022e1571380717e1ce62b1fa75d64e19d595d63c1af9ef50c91c64e47dced6c53 14428 term-meta_0.15.tar.xz
 
 Package: virt-meta
 Format: 3.0 (native)
