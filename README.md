@@ -8,8 +8,8 @@
 
 2. Select your distro and component(s):
    ```shell
-   suite="sid"  # trixie questing resolute noble
-   comps="main" # embedded
+   suite="sid" # or "trixie" "questing" "resolute" "noble"
+   comps="main" # and/or "casparcg" "embedded"
    ```
 
 3. Create the sources file:
