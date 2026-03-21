@@ -51,6 +51,45 @@ SHA256: b366f9a3e82f3e6b94acba75e2752ddde68709d017a00fcdc66eca41f6c5e7c8
 SHA512: cb5d2fc1c1fdd85a2e885c3614a3df22b73a3a6ae0e46fe63a3c6a3cbff385cf7dce2220cf5077c56f4e679c1d90f47c11101423a96a7b245722365f8cfb85ce
 Description: Development meta-package
 
+Package: quickshell
+Architecture: armhf
+Version: 0.2.1-4
+Priority: optional
+Section: x11
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3056
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2), qt6-wayland, upower
+Filename: pool/main/quickshell/questing/quickshell_0.2.1-4_armhf.deb
+Size: 1103906
+MD5sum: ca463da92907d95d25cb841e0d961f77
+SHA1: 1d33fdb1b71b99ab59ef730ffea75b6ffa79f89c
+SHA256: fc7f6e2de5cd815d67b74ed61588286a78e04735455dbfcb7d65d2088100d70e
+SHA512: e864e4358d19e2db03de14e02ac0efb0825cbddf09e3a00362ffcdfe84d89e22061f2c8b81b213f21f9bee003ca5902e8490f5a8bf996e377b96d72e9a1aa5f0
+Homepage: https://quickshell.org
+Description: Flexible toolkit for making desktop shells with QtQuick
+ Quickshell is a toolkit for building a desktop shell, which is to say
+ components of your desktop like bars, widgets, lock screens, display managers,
+ and the like.
+ .
+ Quickshell is based on QtQuick and configured with QML, the QtQuick interface
+ description language. It provides integrations for common shell functionality,
+ as well as support for hot reloading and tools to work with processes,
+ sockets, files, and more.
+ .
+ Built-in integrations are currently provided for:
+ .
+  * Wayland and X11 for windowing
+  * Wayland for window management and screen recording
+  * Workspace management in Hyprland, I3, and Sway
+  * Pipewire for audio controls
+  * BlueZ for bluetooth
+  * Pam for authentication and building lockscreens
+  * Greetd for building a display manager
+  * UPower for monitoring battery statistics
+  * Power Profiles Daemon
+  * MPRIS compatible media players
+  * StatusNotifierItem compatible system tray clients
+
 Package: term-meta
 Architecture: all
 Version: 0.15
