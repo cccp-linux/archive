@@ -2,10 +2,10 @@ Package: server-2.5
 Format: 3.0 (quilt)
 Binary: casparcg-server-2.5
 Architecture: any
-Version: 2.5.0-5
+Version: 2.5.1~rc1-1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13), cmake, dh-exec, fontconfig, fonts-liberation, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libboost-coroutine-dev (>= 1.74.0), libboost-date-time-dev (>= 1.74.0), libboost-filesystem-dev (>= 1.74.0), libboost-locale-dev (>= 1.74.0), libboost-log-dev (>= 1.74.0), libboost-regex-dev (>= 1.74.0), libboost-system-dev (>= 1.74.0), libboost-thread-dev (>= 1.74.0), libcef142-dev, libegl-dev, libglew-dev, libopenal-dev, libopengl-dev, libsfml-dev (<< 3.0.0), libsimde-dev, libswresample-dev, libswscale-dev, libtbb-dev, pkgconf, zlib1g-dev
+Build-Depends: debhelper-compat (= 13), cmake, dh-exec, fontconfig, fonts-liberation, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libboost-coroutine-dev (>= 1.74.0), libboost-date-time-dev (>= 1.74.0), libboost-filesystem-dev (>= 1.74.0), libboost-locale-dev (>= 1.74.0), libboost-log-dev (>= 1.74.0), libboost-regex-dev (>= 1.74.0), libboost-thread-dev (>= 1.74.0), libcef142-dev, libegl-dev, libglew-dev, libicu-dev, libopenal-dev, libopengl-dev, libsfml-dev, libsimde-dev, libswresample-dev, libswscale-dev, libtbb-dev, pkgconf, zlib1g-dev
 Homepage: https://casparcg.com
 Vcs-Browser: https://github.com/CasparCG/server
 Vcs-Git: https://github.com/CasparCG/server.git
@@ -13,21 +13,21 @@ Directory: pool/casparcg/server-2.5
 Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Files:
- 3503df142251841898cc1e902f62171b 1817 server-2.5_2.5.0-5.dsc
- f8d6a47cba57990b6fa92cd8279247bc 1016936 server-2.5_2.5.0.orig.tar.gz
- bdc7d3a163c5b64f9ae6d9cd63beefbc 88656 server-2.5_2.5.0-5.debian.tar.xz
+ e8b6b550eaaf956eb82dfdc13f9c6cd7 1813 server-2.5_2.5.1~rc1-1.dsc
+ cde8e2c5e72781c2d9bd52f805d4b138 1016575 server-2.5_2.5.1~rc1.orig.tar.gz
+ ee956fa2e10592cae1abcc841d6bd9f3 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
 Checksums-Sha1:
- 3e2a71ef6276cf660759e689e614f54a7c395ba9 1817 server-2.5_2.5.0-5.dsc
- 150e541578809cf82d3d06786a46b1c8cbcbf4dd 1016936 server-2.5_2.5.0.orig.tar.gz
- 3884b98eb152cc7b514defb895850c80ef5f4339 88656 server-2.5_2.5.0-5.debian.tar.xz
+ 77a7f34ea37c4847afe009e16148d27bf0e3b64b 1813 server-2.5_2.5.1~rc1-1.dsc
+ 60ea1965886fa70896456768d9b137c25b0f7e97 1016575 server-2.5_2.5.1~rc1.orig.tar.gz
+ f1a66125fb64065b97ccff59ac394db4a8bbd21e 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
 Checksums-Sha256:
- fe7dfa8e5e54bd7b58655cb34757989776ff65ae6c89408f9f25e8276773a4cd 1817 server-2.5_2.5.0-5.dsc
- 3914831a50e94ea10f3a271f987a4168185c9dbdbfa9b62b91434947b521567a 1016936 server-2.5_2.5.0.orig.tar.gz
- 0dc8153db87990ff47ea05c2fef8daf68f1bfcbf739177ffb2c4281452e87a32 88656 server-2.5_2.5.0-5.debian.tar.xz
+ 0655a5231f73c91ea5dfe6993adb860ae36226675d59bc69b5d3aad334af39fd 1813 server-2.5_2.5.1~rc1-1.dsc
+ ca190826261decf43adef680ee29392465487ba15a97c7cd706673ea55de4a40 1016575 server-2.5_2.5.1~rc1.orig.tar.gz
+ d31a37ae3051962ebc32ba5d8798f2dfadb56529c9d1e74583aab5ad3254819b 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
 Checksums-Sha512:
- af546e6a3fd6aff0d5465b713db00bc64365025bc6ea92ab2a0ea693fb93357cfc1cc06a10eaf205302b22c2cb11a6b2dee4554a671bbf02e388a34b103d2323 1817 server-2.5_2.5.0-5.dsc
- 820ff1cf520d21a91a96fff39d1eb5f3aecb1b790c46effea82cffbcbd820411a688f4c6e3db2ce7ee405dc4f658cf0665c8b4f72309ae48595f8ec1b1aa435b 1016936 server-2.5_2.5.0.orig.tar.gz
- 0fe44b3b8889dd1ff58aa6bb50fb3f9d12213106b581ab59075beee27de448e8c5cfb00f3333ffff4a07dbde6da46eef1c607d7c573224a957d907636fb3253d 88656 server-2.5_2.5.0-5.debian.tar.xz
+ 9c01f871a551f308f8eca4bb8d5ae9f24e47dcdbacc070b11ce7d135781de2f4da8f25965200b1a65099a4985841b1f9d7649cb73e2ffd6e7f013de5dea1c65c 1813 server-2.5_2.5.1~rc1-1.dsc
+ c4380a2b401105090eaa2c3049fdff6dc1a452bdbe9ce804482c7a7aaa2f891adc06eb34db30b7f44753e5bbe8455ee97262b1f95dda1a773812777c2a9dff94 1016575 server-2.5_2.5.1~rc1.orig.tar.gz
+ fe64c3a2fa8e32ac5766b61bac0bb39c6970d4502a483e81234b24760651691d4a757af8710929636a6fa7eb1227345a2471161277e37c23277569b0bbe68304 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
 
 Package: server-default
 Format: 3.0 (native)

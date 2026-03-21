@@ -97,28 +97,6 @@ Description: The Chromium Embedded Framework
  .
  This package contains the CEF library.
 
-Package: casparcg-server-2.5
-Architecture: arm64
-Version: 2.5.0-5
-Multi-Arch: foreign
-Priority: optional
-Section: video
-Source: server-2.5
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 6492
-Depends: libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libboost-context1.83.0 (>= 1.83.0), libboost-filesystem1.83.0 (>= 1.83.0), libboost-locale1.83.0 (>= 1.83.0), libboost-log1.83.0 (>= 1.83.0), libboost-thread1.83.0 (>= 1.83.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3), libglew2.2 (>= 2.2.0-4+b2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libtbb12 (>= 2022.1.0), libx11-6, libcef142, sensible-utils, x11-utils
-Filename: pool/casparcg/server-2.5/trixie/casparcg-server-2.5_2.5.0-5_arm64.deb
-Size: 1479832
-MD5sum: 228631424f18208fcf6bc43fe9abb70c
-SHA1: eb2f2877c7fa45efc4e6271ed02de08b2bda7570
-SHA256: b8e3bc40f475f6972dc5b7fcc921b883b43a22802667a8536c3387df3314ad1a
-SHA512: d9c26f885044b77b2050d9c93fed7a3013b138f87fff9aabb435f0731ff882acd27ae6c2b29cfa5e7349003d415906e63bfebcd22e22d33421dcffa53ef71c8b
-Homepage: https://casparcg.com
-Description: CasparCG Server
- CasparCG Server is a Windows and Linux software used to play out professional
- graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
- production since 2006.
-
 Package: casparcg-server
 Architecture: all
 Version: 2.5-1
