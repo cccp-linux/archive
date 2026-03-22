@@ -1,3 +1,34 @@
+Package: server-2.5
+Format: 3.0 (quilt)
+Binary: casparcg-server-2.5
+Architecture: any
+Version: 2.5.1~rc1-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake, dh-exec, fontconfig, fonts-liberation, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libboost-coroutine-dev (>= 1.74.0), libboost-date-time-dev (>= 1.74.0), libboost-filesystem-dev (>= 1.74.0), libboost-locale-dev (>= 1.74.0), libboost-log-dev (>= 1.74.0), libboost-regex-dev (>= 1.74.0), libboost-thread-dev (>= 1.74.0), libcef142-dev, libegl-dev, libglew-dev, libicu-dev, libopenal-dev, libopengl-dev, libsfml-dev, libsimde-dev, libswresample-dev, libswscale-dev, libtbb-dev, pkgconf, zlib1g-dev
+Homepage: https://casparcg.com
+Vcs-Browser: https://github.com/CasparCG/server
+Vcs-Git: https://github.com/CasparCG/server.git
+Directory: pool/casparcg/server-2.5
+Package-List:
+ casparcg-server-2.5 deb video optional arch=any
+Files:
+ 43f2093ff2f5c5f93a912cebb10644d1 1813 server-2.5_2.5.1~rc1-1.dsc
+ 4960cebcb8bc9277fdce801ac6c46649 1016556 server-2.5_2.5.1~rc1.orig.tar.gz
+ 84ab6b474b46a0d78458307ea064e66f 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
+Checksums-Sha1:
+ 89b88d78a2aafe4693ddfc7f2aa901199a5b83cf 1813 server-2.5_2.5.1~rc1-1.dsc
+ 566cc82ccfa2a8954aa35b2c38e27de080c13c09 1016556 server-2.5_2.5.1~rc1.orig.tar.gz
+ be94b802144d2eb9cba748c54290e3d1d60570ab 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
+Checksums-Sha256:
+ cb655eef44d6c1469f6f33165ed6542c054e981428f12a4fc5d7d79b2f882b41 1813 server-2.5_2.5.1~rc1-1.dsc
+ 4238f398a23864c17e98fbe0c141a2447d3c7002d7598dd153466ad9dd031d15 1016556 server-2.5_2.5.1~rc1.orig.tar.gz
+ 3047e830cd67ce84d5abbb39fb29e24b4d98f63c85fde74a144566492157fafc 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
+Checksums-Sha512:
+ 8749b901b1bc1fb671bd5d5cb5ff7d8d0f17679a02a2623e71e9a87a95897b6c45c328c4789d0ad10c1e2d996b78885e641fa2b719a9bb4ce375a21cc3868fc2 1813 server-2.5_2.5.1~rc1-1.dsc
+ 39c8de8dbcac17207ba8cc245d528a88cd98b656c21a4f2607b9fd6d304add1f3f526161e776c302ad94968bf68a6e8297b7811461c77306eb848e5768ceeb10 1016556 server-2.5_2.5.1~rc1.orig.tar.gz
+ 2c8d1a50a2f86a63a7c26fc12882b1e44b096687db29120528a35360a0a882071e871bae702a6895d362f1b4bbfda0ec34ca31eb1419fe39be7ed0265c5fcc9b 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
+
 Package: server-default
 Format: 3.0 (native)
 Binary: casparcg-server
