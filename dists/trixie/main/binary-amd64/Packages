@@ -18,7 +18,7 @@ Description: Kernel and boot packages
 
 Package: cccp-boot-meta
 Architecture: all
-Version: 0.31
+Version: 0.32
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -26,12 +26,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-signed, wireless-regdb
-Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_0.31_all.deb
-Size: 3084
-MD5sum: 393a52d739c428dcdbe99a1d146a86f9
-SHA1: e257365335709caed38a621dd2c3ac18b3a30e0c
-SHA256: e230e5660a867b956899b4b4bc37d5dce994b8406c30a29d73f3fe8240a3d148
-SHA512: 4bd113c033d11065a65164e95117aba2740508129c9e55dba5d75d6903309a167f49f55cc863cd4072e16eafdeebbceb41f06928131c827eceedbac88ed63b67
+Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_0.32_all.deb
+Size: 3124
+MD5sum: 382679578ebb961e90134c3dcbc95d4d
+SHA1: 742983aadf84fc7a7d858965f5239f06a1bbf06c
+SHA256: 810b9c29043370217f491cb72678afc787e8467107a9d89d6dfee570cc1de87c
+SHA512: 6d66074b0d04c576fdea4e6fc97addf033de48413e3d18d28d296f425746a94c63cf2ae20e4c18d9ef357e32712b9c3e21e57024d2ff0e2999ac471451992320
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
@@ -54,20 +54,20 @@ Description: Standard set of CCCP Linux packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.31
+Version: 0.32
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 25
+Installed-Size: 35
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
 Recommends: acl, attr, bash-completion, bc, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_0.31_all.deb
-Size: 5308
-MD5sum: 077fa6f0d2cd82d0ff93a502e7c6d7a8
-SHA1: 8e2de8b80fe25ab673235cda1c9cef5911eb96f6
-SHA256: eb44fe0bfa6b71cb60df01c842dc16e255fcaa2b6c779bf13190f1dd4a2cb991
-SHA512: 2601d311458fe6a68cceded0e2067433187fb69809f1a4593a95f928dc3841cd243b5111445ad8e4441f27a5116e78adf30429b14e4d1537712505eec278c07f
+Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_0.32_all.deb
+Size: 6688
+MD5sum: d4379d8d8d001a2003f54cd5f8ccb294
+SHA1: 5c0e9b7d62ada59b58ab9668c71ae37546772f59
+SHA256: f6bb2627eac3695dd796511b8b9955a552a8811aa6c3be49376b2c63b736a573
+SHA512: 339b0b9344c61b0a4eda9f410f6686df870a6f1c079d32382b4ead7c2f6cfbf3efa959e52b4e02ac1ecd4ae755f239a923f855e6dd1f16d1dbe966e75e76b413
 Description: Standard set of CCCP Linux packages
 
 Package: debchange
@@ -92,19 +92,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.7
+Version: 0.8
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 32
 Depends: build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, vim-fugitive
-Filename: pool/main/dev-meta/trixie/dev-meta_0.7_all.deb
-Size: 5844
-MD5sum: f8c184050411eb349e27f068b718e9b8
-SHA1: 403e08016f136b7096f054837225a52906087889
-SHA256: a8dca30b391ccda4a21302336fa3c1137ef5df5b54465e303a214deb0f442ae4
-SHA512: 7f4f6d3a167f73651b569c6f792c52366fed64877a86f7ea023a5f63b427d0f8a4f37da74fea15758c5d55c88cbda7d1fcd2995a4a70dba835f5c04da2acd53b
+Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, vim-fugitive
+Filename: pool/main/dev-meta/trixie/dev-meta_0.8_all.deb
+Size: 5904
+MD5sum: 0fef24f4101dcefd46b863c590a6def6
+SHA1: 96c9d0ea488d55d06e8b6cc99f32de6ddba7bf76
+SHA256: 85f47316d7afca94a2f16234605c5505909d7d90233a804ae9f31fc47370c87f
+SHA512: 149e67df3b70cac42e092d6a8d681e4a47f12c972db016c115813cb1e3b183dd1a02f3c1d9aebd9289b8392a11d573e0e21cb75cd16cde4961092be663e68b76
 Description: Development meta-package
 
 Package: fonts-courier-nerd

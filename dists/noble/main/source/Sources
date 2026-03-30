@@ -2,7 +2,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: all
-Version: 0.31
+Version: 0.32
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -13,17 +13,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=all
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- 5b6f24e3914477e2848ef11b618992a2 1005 cccp-meta_0.31.dsc
- 7c92c344dcf0e359b28bb038c5fea3b2 15764 cccp-meta_0.31.tar.xz
+ bd5e646a573b1c457bf0464254b58092 1005 cccp-meta_0.32.dsc
+ 27837f02088b39460d67ca599958e6d8 17040 cccp-meta_0.32.tar.xz
 Checksums-Sha1:
- d1b98e17e2806b903fba30f8565e72ab5f32b0a8 1005 cccp-meta_0.31.dsc
- f54ab260ca520c6fecafcadda24d4a3fb877ef65 15764 cccp-meta_0.31.tar.xz
+ 58738081d03ea6bcb2ee5d43d26f2cc39ee226a0 1005 cccp-meta_0.32.dsc
+ be560ceda7d86d2377dfd2712b123c4be0acbc4e 17040 cccp-meta_0.32.tar.xz
 Checksums-Sha256:
- f2271d65631532e4bbbd4b81c16c67d2c96c4792a9f2d5287db9ec3a7a9ce953 1005 cccp-meta_0.31.dsc
- 5ac87a576d1a4178443deafdf6cbc0454e8a5a0dfe1a644ac96ab67bc4c7d6b6 15764 cccp-meta_0.31.tar.xz
+ 673ac1f5b64f6a7dff7717480ff6e7932c65803297492c69e2913a655aa3ce59 1005 cccp-meta_0.32.dsc
+ 9f8f47979ce0aa6745096a3db473646bfec9c04caa120daf1a91f6f7cec98921 17040 cccp-meta_0.32.tar.xz
 Checksums-Sha512:
- 5b218cb77485f706419d34cf9c9d8c348c640fcda894b8e1e5eb8341202f79130a4a1ac0fc66c6396cb81f40cdf23d029e2ce93567cec06d8169fa0853335e68 1005 cccp-meta_0.31.dsc
- c5fb4ee2d9227ef6e815fb6607b7f4a9f2a673ed351525bd266fb8501b5f24b3aa50a21da2956521851cf2e5c4afb2c646cb1d890d2e2da37cd397a582adfa2b 15764 cccp-meta_0.31.tar.xz
+ 89007f09a76ea24dc0ec8d74139c5a7bcb60428e959b5fa334e8f34567ae17294d97d3e17f2ebec4c21e4a6412533f6d1059f3c448cdc656c7e8bd7e6c7d201c 1005 cccp-meta_0.32.dsc
+ 29f9b541dccd647456c0c0563710a17b4a469fd207b8b62053423cb6f739538485d4ee865c2bf3967e5d86ef842bea0e4184c5960b5940af870db8ca12ee3106 17040 cccp-meta_0.32.tar.xz
 
 Package: debchange
 Format: 3.0 (native)
@@ -55,7 +55,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.7
+Version: 0.8
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -65,17 +65,17 @@ Directory: pool/main/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- b99761cdbc837957b5b8e462d2fc9b45 908 dev-meta_0.7.dsc
- 8e4c06b2d0cad243650a7870d5a8e99a 16060 dev-meta_0.7.tar.xz
+ 5fefba4f7a52e05435b5c4460514ca94 908 dev-meta_0.8.dsc
+ 82a6103fce872177489d07bc41f66639 16096 dev-meta_0.8.tar.xz
 Checksums-Sha1:
- 8d8b407a2b8ba25609c92b3d20128079dca85cfa 908 dev-meta_0.7.dsc
- a94b3e6651d523b5a46b5e2b017107305aa410cd 16060 dev-meta_0.7.tar.xz
+ 9a6093bed4386178673b4ab15c5445f4fe875e92 908 dev-meta_0.8.dsc
+ a5bbf464ee0b55ab7c9e65880dd0dce827f565a3 16096 dev-meta_0.8.tar.xz
 Checksums-Sha256:
- 57d73a5838ba0c2c5c9f6c799da84508ae8263dae5bb572df22c94f927008aa9 908 dev-meta_0.7.dsc
- 21191d78e06c534167bc00551af772c6e848718659357dc769139ef1339c45c3 16060 dev-meta_0.7.tar.xz
+ 66be5eab8fca061379c3e95d817f92bb03bd8a76ae917ae4ff03e03fcce53c21 908 dev-meta_0.8.dsc
+ 1ae17d1d2e86de241c3d40b810f6ce1fc4288241caa15962410452be201d1d44 16096 dev-meta_0.8.tar.xz
 Checksums-Sha512:
- 236f83835c3cfbe347ad73d6d6bcbc621396fd8259c45708e33bf5a7ffed5c57f5979ee0abfcce4f3223afa9d9f33c1d2ae280459093c4bf6aefd8ed53c78d90 908 dev-meta_0.7.dsc
- 2ce01925ac23e2937bc4680b062c85e8dbd788b95439d6106f36cc0e588ffcf8f611c15be78c50a4ec6c1ce8c14844414a697ff6bae1176be301aa221881b2fa 16060 dev-meta_0.7.tar.xz
+ f46428f4bd223d0d69b8a0091065d9d6e3e6360533ad2eb41e2886fa74819e835196bcd8a1aef665d37dc396fe58792738771caccfd268a94ee436c75439b8bc 908 dev-meta_0.8.dsc
+ 0ce60505497f5a12982e52786a7b8baef910a1c0c9cd9c386501fc5546eda372ef967b2a1f0c6cfe85c747381deafd6ba01181b6d5aa954da86a564d591d7071 16096 dev-meta_0.8.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
