@@ -414,32 +414,32 @@ Package: nvim-web-devicons
 Format: 3.0 (quilt)
 Binary: neovim-web-devicons
 Architecture: all
-Version: 1:0.100-91-gb82-2
+Version: 1:0.100-100-gd746-1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
 Homepage: https://github.com/nvim-tree/nvim-web-devicons
-Vcs-Browser: https://github.com/dimitry-ishenko-vim/neovim-web-devicons
-Vcs-Git: https://github.com/dimitry-ishenko-vim/neovim-web-devicons.git
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/neovim-web-devicons
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/neovim-web-devicons.git
 Directory: pool/main/nvim-web-devicons
 Package-List:
  neovim-web-devicons deb editors optional arch=all
 Files:
- 97db86519c10d3298d13420ba783ae0c 1431 nvim-web-devicons_0.100-91-gb82-2.dsc
- 7c4632defb44f5688f899c58f0629d9b 45203 nvim-web-devicons_0.100-91-gb82.orig.tar.gz
- 2152ddf19fd90c9e058de029592e4703 3468 nvim-web-devicons_0.100-91-gb82-2.debian.tar.xz
+ e3e4d7f0706f008210ce96d3fc4e399e 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 34fbd1589679945ecf8870dfab518e00 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ cb6aa65ff88718f0e23e5bb614f83c91 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
 Checksums-Sha1:
- 09a1ad18ed4403a4f2a3c25d4e502153fe7c5d3e 1431 nvim-web-devicons_0.100-91-gb82-2.dsc
- 79860795bf9d17c06ff1056876e04d4f7b3c05ab 45203 nvim-web-devicons_0.100-91-gb82.orig.tar.gz
- 9af1d0be39825c1299cf22dd295941a8da6b3c62 3468 nvim-web-devicons_0.100-91-gb82-2.debian.tar.xz
+ dd15af3fbde4cfcb97c93ea87b27d1afe8996bbe 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 49976ba1e9add41ee7620643f1872ba71b153495 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ e148f451a6795f4e5c2ba34c282dcd71a249b4c0 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
 Checksums-Sha256:
- 129acd4e772587c7c6e484694be51c2b9ccd5dfd3e8d1446ad21fe27c13cbc31 1431 nvim-web-devicons_0.100-91-gb82-2.dsc
- 7967e2eb6a1dbc7d0584ebbe9c3e2f5f07fb81a9d6a995e6acf144a352f72d9c 45203 nvim-web-devicons_0.100-91-gb82.orig.tar.gz
- c147cfc175c5918ebf8aa67e285084cc37d5be66302c1a91514b7f99493384d8 3468 nvim-web-devicons_0.100-91-gb82-2.debian.tar.xz
+ 849f53b805b07e7bfa281a34a9010bec4d64b122c954832d3fa7f71627874bd2 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 92cdd53514f3cbcd9073f016520cf5869b761860784ccf0a2cf603dfaee75a91 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ 523ef66982e0bdcdf2caac12eb8bdf517f9d0ad2dbff9514857a8f58b4a6ae32 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
 Checksums-Sha512:
- 2c6226000b8e8a59b509840bdc2fa1120a7fcf337913b18b6cbae1974eab865288f28a7b6709b79ce55c7f99dfb4c7dee8da63aa74663755886a5a75e704527f 1431 nvim-web-devicons_0.100-91-gb82-2.dsc
- 3cc94656e21f6e4819b229108e8a809663dfd66263fee7051c44235920ed9a1f30da62ad704333b87736301b5d6469409c3da75dac752c628d5a95ddd91d0482 45203 nvim-web-devicons_0.100-91-gb82.orig.tar.gz
- a7f2f100c8b906824f56eebe76a85e1c51a16457ae50c491e777ff4cd328ce3fbe67bacaeef95286e80c877523f394103338e1c44109bbabbaf4c65a358c28ea 3468 nvim-web-devicons_0.100-91-gb82-2.debian.tar.xz
+ 6e63cbaf15832890020cb81a5fb8086e05543b20cf37e2069be7916e5f3d127df67621211888b7169a513e230f4aedad5da0f2126856f88447edc13c988c9f4d 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 1e9d2db756700dad7b8cc1efa7065ef70d74a16ca43a4ceb63f2a4cea749daabecfb514505759b5e4eefdc62b5811bf117bc25f93b03af166743cac2efea8204 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ a4d2c1d10df4382e89f9c854ff335fe0dd128015cc7859c94a677d0fe300f5cfd8a28660bf43ccfd8b488545da5df0e6ae5c1b6fe66db06fc2879b5fbda84b9a 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
 
 Package: oil.nvim
 Format: 3.0 (quilt)
