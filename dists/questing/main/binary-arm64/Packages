@@ -51,6 +51,29 @@ SHA256: ac11f37420fc4f0e263f51524c0d0e0f05f8ea4c721bcebf35a03df4ab3c14f2
 SHA512: 2cf685260ba6762e2d7e4c086fbbbef104c7eebe873c68f05e634544b21badceee501b1a7792382c1dee078e7c1f811823150c644cfbf13b8b19d610c6236900
 Description: Development meta-package
 
+Package: neovim-lualine
+Architecture: all
+Version: 1:0.0.6+git20251123-2.1
+Priority: optional
+Section: editors
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Installed-Size: 414
+Depends: neovim (>= 0.2.2-1~)
+Filename: pool/main/neovim-lualine/questing/neovim-lualine_0.0.6+git20251123-2.1_all.deb
+Size: 83162
+MD5sum: a98f6c4b5f4cad2b6ef43571a517f566
+SHA1: 84cfe609e660da08d6ce8b5a61a1d027b96c363f
+SHA256: cd9d99f9f5d71ae51bbd0e08177f72176d78c8995dee65168ca2d247eaae828b
+SHA512: 92d300351fe14ce5fb09111d9da84f8ed6da004224dc7c3641c47ce7982df91cea9f6d4665d198a1f54a30e046971cdf23c377c59a65ee9a6c7d67b3e0e89d27
+Homepage: https://github.com/nvim-lualine/lualine.nvim
+Description: fast and light statusbar for neovim
+ lualine is a statusbar written for neovim, similar to airline. It's fast and
+ highly configureable. A variety of themes are provided; see
+ /usr/share/doc/neovim-lualine/THEMES.md. For configuration please refer to
+ /usr/share/doc/neovim-lualine/README.md and :help lualine.
+ .
+ This is a neovim-only plugin.
+
 Package: quickshell
 Architecture: arm64
 Version: 0.2.1-4

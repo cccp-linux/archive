@@ -262,11 +262,13 @@ Package: neovim-lualine
 Format: 3.0 (quilt)
 Binary: neovim-lualine
 Architecture: all
-Version: 1:0.0.6+git20251123-1.2
+Version: 1:0.0.6+git20251123-2.1
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
 Uploaders: Matthias Geiger <werdahias@debian.org>
-Standards-Version: 4.7.2
+Standards-Version: 4.7.3
 Build-Depends: debhelper-compat (= 13), dh-sequence-vim-addon
+Testsuite: autopkgtest
+Testsuite-Triggers: git, neovim-plenary
 Homepage: https://github.com/nvim-lualine/lualine.nvim
 Vcs-Browser: https://salsa.debian.org/vim-team/neovim-lualine
 Vcs-Git: https://salsa.debian.org/vim-team/neovim-lualine.git
@@ -274,21 +276,21 @@ Directory: pool/main/neovim-lualine
 Package-List:
  neovim-lualine deb editors optional arch=all
 Files:
- 1cca97c35ed39d13ab65d452dc376cf1 1485 neovim-lualine_0.0.6+git20251123-1.2.dsc
+ 1181803ce21477a90f7175dbee90e76e 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
  7e48f18bae7e39ce19a9822702f82405 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- b5578141eaf686e0d1e7ab1636c3cef3 3360 neovim-lualine_0.0.6+git20251123-1.2.debian.tar.xz
+ dd286f2dc0940429ce924f3b049558c0 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
 Checksums-Sha1:
- c9e98fda0a0f3eda7bc2d2d78d6e2a841b817b30 1485 neovim-lualine_0.0.6+git20251123-1.2.dsc
+ 77a0bfab7ebfe452b61aac6aa092fec6ea5e7e9f 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
  c4a80cefca20a24850dcf03ec939c77e8c08b4b2 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- 12bcf81bf5e7f747386a67ecf3514c292a34e7d8 3360 neovim-lualine_0.0.6+git20251123-1.2.debian.tar.xz
+ f2aa39eae11edb8ddec6b8481de9981b3d0677c9 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
 Checksums-Sha256:
- d74fd612ef77114ad87f0f37bdeaeeabd38628b0e7c59e239a4a2848eaa4c685 1485 neovim-lualine_0.0.6+git20251123-1.2.dsc
+ 25bcf2da189373725cde3a5e2ea7d90ae1560affed2ce3217bfac25153698363 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
  5c16ebb09b0764c23045a37b63db3dfef7a2b61284e51cb09dab8c70f96c5081 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- bdfcb923669ee4bbaacd62d27864c1f6fac5242867a996a969a2b769a3eb5a2a 3360 neovim-lualine_0.0.6+git20251123-1.2.debian.tar.xz
+ 62e8543fd665b6da65c47341f169ed7496fb540fef8607dfee489f07840f0c11 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
 Checksums-Sha512:
- d1eb56b7367051a5c726cb6e1eaf5aef78ed3eb1b3f4369e49992134216096fbdc675222af06681db0174a8cdc4cbb67ba3d2493150f592d510469c33f3e1ff8 1485 neovim-lualine_0.0.6+git20251123-1.2.dsc
+ 8188750d35398f6ceec2024453cc457fc70e97da42fbedb60c4347af95aea7cb423a5a988bf819b7cd42767181a3bbaba77776f30cef4bfb6e32e88696300699 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
  b4d17ff3a2b4acb63c10873d12b46b921fd60f300f542694969e4338c2cb1ecf428fa658106e395cf94286d90da2c7fc2f27e26c71cee26ed669398564bb7b15 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- 5c97720ba0145838fd03756365b7a2e3e6e688e15b7fc9d6c0b83283eeae7293b3eaf21ae3ee5f7885874a2dc6ec9621c0bf711624eaf25085c385a51ba24b47 3360 neovim-lualine_0.0.6+git20251123-1.2.debian.tar.xz
+ a583e723337f83f155da8613d480f4fda703d9a3204fce727c3b8d1dd4d93761b842a00eb24f13635b947f0a45b4b7eac02cc7fcfcd82b8a00f9d802aa46165c 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
 
 Package: neovim-meta
 Format: 3.0 (native)

@@ -782,18 +782,18 @@ Description: Windows Portable Runtime library command line utilities (transition
 
 Package: neovim-lualine
 Architecture: all
-Version: 1:0.0.6+git20251123-1.2
+Version: 1:0.0.6+git20251123-2.1
 Priority: optional
 Section: editors
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
 Installed-Size: 414
 Depends: neovim (>= 0.2.2-1~)
-Filename: pool/main/neovim-lualine/resolute/neovim-lualine_0.0.6+git20251123-1.2_all.deb
-Size: 83044
-MD5sum: f7b62da381349e4e17939a1c75d5aaee
-SHA1: 0192db3bf13e984f5e90c2f159fb8e36e59947e6
-SHA256: 2cadb83fdf0b3f7d851ee1e574c37bb9799ec6625e2686862f1990feef18c9dc
-SHA512: 2fc50e4e3662d7c11078cc800fd46613bae56e497bd1dcec749c8a04e902ffe3527d2be922426165ffc0ed79275d63f2a5939c13fbbdfecbe00a1fc88a4dc4ba
+Filename: pool/main/neovim-lualine/resolute/neovim-lualine_0.0.6+git20251123-2.1_all.deb
+Size: 83162
+MD5sum: a98f6c4b5f4cad2b6ef43571a517f566
+SHA1: 84cfe609e660da08d6ce8b5a61a1d027b96c363f
+SHA256: cd9d99f9f5d71ae51bbd0e08177f72176d78c8995dee65168ca2d247eaae828b
+SHA512: 92d300351fe14ce5fb09111d9da84f8ed6da004224dc7c3641c47ce7982df91cea9f6d4665d198a1f54a30e046971cdf23c377c59a65ee9a6c7d67b3e0e89d27
 Homepage: https://github.com/nvim-lualine/lualine.nvim
 Description: fast and light statusbar for neovim
  lualine is a statusbar written for neovim, similar to airline. It's fast and
