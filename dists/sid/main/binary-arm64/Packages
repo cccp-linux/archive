@@ -1298,6 +1298,23 @@ Description: Status column plugin
  Status column plugin that provides a configurable 'statuscolumn' and click
  handlers.
 
+Package: term-meta
+Architecture: all
+Version: 0.17.1
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 19
+Depends: kmscon
+Recommends: fonts-courier-nerd, tmux
+Filename: pool/main/term-meta/sid/term-meta_0.17.1_all.deb
+Size: 3412
+MD5sum: bd92147a9f1ee9514eeac24b7ee9713b
+SHA1: 6e62523fa6cc7a45fb222162a313e002763e07e7
+SHA256: c9d00e078bb3b76126dbd5284a1bf9cc1124d22175dc5e08ab5aca0d2ab005c3
+SHA512: 8a45e1eb1e72441fb9fd2f79a7bad34ce44e6a81b92a8b81ef2b17d2f09c1c65c0504530b76b51b08bb1a37faa2c0858dbd2515abb3eb14622cfa964007f23ef
+Description: Terminal meta-package
+
 Package: virt-meta
 Architecture: all
 Version: 0.6
