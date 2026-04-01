@@ -1332,6 +1332,23 @@ SHA256: 9f3929a3ea9dbcc1427a52af4117ad2b701d95ae04b0f83c58419ef5c0862d97
 SHA512: 605adc6b53140deec2853c96fc00bd84cbe583fac1e3fa6e83dd5d1b007e133115b9c80b30c3ff50b224e557d32565acefc3c6b973b3a923d2c8ccd4cd5e7000
 Description: Virtual machine meta-package
 
+Package: xorg-meta
+Architecture: all
+Version: 1.3
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 19
+Depends: fonts-courier-nerd, xorg, xserver-xorg-video-fbdev, xserver-xorg-video-intel, xserver-xorg-video-nouveau, xterm
+Filename: pool/main/xorg-meta/sid/xorg-meta_1.3_all.deb
+Size: 2296
+MD5sum: 3919b41bf6ba56cfc448e665a010d59d
+SHA1: a05af84f6fc0f85a95264131173217ace1384d93
+SHA256: 8bea9fa5444f5006c6fdb87cd95820b8d07116e4e60e33048aa9450d7bafe25a
+SHA512: 9717b1015defdf49de4d1a6caec221bbf3db92392ea1db0cc4db5b77b94299c26cd506f2c9b99a220782ced680bfbe17522deb53123f87505a0f0ad829e7c424
+Description: xorg-meta
+ X11 meta-package
+
 Package: xwayland-satellite-dbgsym
 Architecture: armhf
 Version: 0.8.1-1

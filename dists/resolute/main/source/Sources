@@ -586,6 +586,32 @@ Checksums-Sha512:
  fdd7b78ba88f4dc589b822d9e7cdad7043f211d8f24b99a8c631c3311705ac507686b3f5b2e3400fa01744c040bbcbf766fcea04e6031f7a432cf122b7af77a0 916 virt-meta_0.6.dsc
  1e29325e013d9b9c382da28ce3dd1d6e650b7d9d666839811a5d24fafefa9b050ed48e4d724de741628b00f19181d44e679dfcc0eed736e36a4dec83094a9312 13428 virt-meta_0.6.tar.xz
 
+Package: xorg-meta
+Format: 3.0 (native)
+Binary: xorg-meta
+Architecture: all
+Version: 1.3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/dimitry-ishenko-ubuntu/xorg-meta
+Vcs-Git: https://github.com/dimitry-ishenko-ubuntu/xorg-meta.git
+Directory: pool/main/xorg-meta
+Package-List:
+ xorg-meta deb metapackages optional arch=all
+Files:
+ 6d2050dc3a234f43f879e8453c886070 937 xorg-meta_1.3.dsc
+ 52c96d723bd5c5528f613c0da67fdb13 1692 xorg-meta_1.3.tar.xz
+Checksums-Sha1:
+ 4138829759ea029400789c26596d00b737cfba86 937 xorg-meta_1.3.dsc
+ 455eb32362a479d391036d0c13b25687b69fedfe 1692 xorg-meta_1.3.tar.xz
+Checksums-Sha256:
+ 43a079682f9760087407062198cbd25e3a06c199f7097b4f2465e8bcfa562472 937 xorg-meta_1.3.dsc
+ e8b0e1ed4c7f4173d8903ffa1fc3802090f555f976a3b1a75717c921a1d7c38e 1692 xorg-meta_1.3.tar.xz
+Checksums-Sha512:
+ 88516115213927693fbac75e38ba7b2d5ca7e959eeb6db0ac0b7afec48b3da763531ecd5796c652e7899f99b6c4f665bce9a8719dd76b82a2341398fe306e986 937 xorg-meta_1.3.dsc
+ 8a7a03a7ca84dbafed433d42e52d42ed43060d7b8a9f09a1aa49a7faa0374b4b2d873df94f7867d69009496ceaf286f8bd9842a24f05580d26c906dea182687d 1692 xorg-meta_1.3.tar.xz
+
 Package: xwayland-satellite
 Format: 3.0 (quilt)
 Binary: xwayland-satellite
