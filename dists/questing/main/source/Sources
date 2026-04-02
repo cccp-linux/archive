@@ -590,7 +590,7 @@ Package: xorg-meta
 Format: 3.0 (native)
 Binary: xorg-meta
 Architecture: all
-Version: 1.3
+Version: 1.4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -600,17 +600,17 @@ Directory: pool/main/xorg-meta
 Package-List:
  xorg-meta deb metapackages optional arch=all
 Files:
- 6d2050dc3a234f43f879e8453c886070 937 xorg-meta_1.3.dsc
- 52c96d723bd5c5528f613c0da67fdb13 1692 xorg-meta_1.3.tar.xz
+ a6b1e7cc64bf480c82aace1177c4af7c 937 xorg-meta_1.4.dsc
+ 3fc9ed2abaabcd12d77c55091ff978e2 1704 xorg-meta_1.4.tar.xz
 Checksums-Sha1:
- 4138829759ea029400789c26596d00b737cfba86 937 xorg-meta_1.3.dsc
- 455eb32362a479d391036d0c13b25687b69fedfe 1692 xorg-meta_1.3.tar.xz
+ d3a2052a3dc76497103ff0e24c4d176bc49fdee1 937 xorg-meta_1.4.dsc
+ 7fa3d271b4f330e9fdf886b5411e9c5cd0ec2a15 1704 xorg-meta_1.4.tar.xz
 Checksums-Sha256:
- 43a079682f9760087407062198cbd25e3a06c199f7097b4f2465e8bcfa562472 937 xorg-meta_1.3.dsc
- e8b0e1ed4c7f4173d8903ffa1fc3802090f555f976a3b1a75717c921a1d7c38e 1692 xorg-meta_1.3.tar.xz
+ 843a3b1dc714eff7d2ebf8fc692742ee53024ad405003d7fbf6b0fd9fba2593a 937 xorg-meta_1.4.dsc
+ 64dd0e63c55ba9ad83011d885bfb757d407c85385a56b7b3c35419a87a304af4 1704 xorg-meta_1.4.tar.xz
 Checksums-Sha512:
- 88516115213927693fbac75e38ba7b2d5ca7e959eeb6db0ac0b7afec48b3da763531ecd5796c652e7899f99b6c4f665bce9a8719dd76b82a2341398fe306e986 937 xorg-meta_1.3.dsc
- 8a7a03a7ca84dbafed433d42e52d42ed43060d7b8a9f09a1aa49a7faa0374b4b2d873df94f7867d69009496ceaf286f8bd9842a24f05580d26c906dea182687d 1692 xorg-meta_1.3.tar.xz
+ 6eff6a88b75cbb019b0af36ebe8f80dc6706996b0a1215fbfd9a4f0ffe280249366301fc0d94e0bb56faad75c39fef35e86708298e77cb6718a0efce025f66fe 937 xorg-meta_1.4.dsc
+ b3573a240bdd8905bc5b7b520f32c2079ad4c5d995726879e7f73d2ac6032a57840f6480fcc5537d1a94ae87eabbdac52116a26bb6f16d5a674f15f87d6c0595 1704 xorg-meta_1.4.tar.xz
 
 Package: xwayland-satellite
 Format: 3.0 (quilt)

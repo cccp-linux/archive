@@ -1334,18 +1334,18 @@ Description: Virtual machine meta-package
 
 Package: xorg-meta
 Architecture: all
-Version: 1.3
+Version: 1.4
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 19
 Depends: fonts-courier-nerd, xorg, xserver-xorg-video-fbdev, xserver-xorg-video-intel, xserver-xorg-video-nouveau, xterm
-Filename: pool/main/xorg-meta/sid/xorg-meta_1.3_all.deb
-Size: 2296
-MD5sum: 3919b41bf6ba56cfc448e665a010d59d
-SHA1: a05af84f6fc0f85a95264131173217ace1384d93
-SHA256: 8bea9fa5444f5006c6fdb87cd95820b8d07116e4e60e33048aa9450d7bafe25a
-SHA512: 9717b1015defdf49de4d1a6caec221bbf3db92392ea1db0cc4db5b77b94299c26cd506f2c9b99a220782ced680bfbe17522deb53123f87505a0f0ad829e7c424
+Filename: pool/main/xorg-meta/sid/xorg-meta_1.4_all.deb
+Size: 2300
+MD5sum: ece3f5c1a407885822ab3d6e2fb36fa2
+SHA1: dfc38f7f8353a48e4e5e64e59061b182804f7b49
+SHA256: 322a031ba54c172bbdf2c1476f9104e5b67f57d878da3cac89fb652d3b07593d
+SHA512: 30577c9d227ee9792caa053243a3e4861337c9e96b4859e19933c13c1eb6e3e913d4ca504172b243d738d78c36f32dffa36436b06a04adc87e1b856c7df1e86d
 Description: xorg-meta
  X11 meta-package
 
