@@ -4,27 +4,27 @@ Hash: SHA512
 Format: 3.0 (native)
 Source: cccp-meta
 Binary: cccp-standard-meta, cccp-boot-meta
-Architecture: all
-Version: 0.36
+Architecture: any all
+Version: 0.37
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/cccp-linux/cccp-meta
 Vcs-Git: https://github.com/cccp-linux/cccp-meta.git
 Build-Depends: debhelper-compat (= 13)
 Package-List:
- cccp-boot-meta deb metapackages optional arch=all
+ cccp-boot-meta deb metapackages optional arch=any
  cccp-standard-meta deb metapackages optional arch=all
 Checksums-Sha1:
- ebaed0561ab0fa37f6490bfcf4e7bcd2d2290961 17144 cccp-meta_0.36.tar.xz
+ 66d1b00fdd6cbd7eaff5cdb5d07b8da946b6cf0f 17192 cccp-meta_0.37.tar.xz
 Checksums-Sha256:
- 71d4839c8fb9d73a46a1213f7ae364bd3dd336088a7af843a5f96d0415c690a9 17144 cccp-meta_0.36.tar.xz
+ c6da12e60927cb1493f6882085ff094f9ce61ec5f089df805aa9020453398307 17192 cccp-meta_0.37.tar.xz
 Files:
- 43bdf4e5c928b8cb1c8e7d9a1604b638 17144 cccp-meta_0.36.tar.xz
+ c8081468f66441b3c81a20db71deebeb 17192 cccp-meta_0.37.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCac29VgAKCRA6Vr9YT1rr
-J/oHAP4vSgejSalSyDQvwNebiZ0Yo0u1dCs4EOqfMjrhGN60qgD9Eug75RqQ9pEK
-XZvBjDn1u7mYrOQ1z+YA9T1Y6GymdAM=
-=uITL
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCac3BHQAKCRA6Vr9YT1rr
+J/BGAP45VXvGtbMD/vWhaY7v6+1DOBu0N5t4dOjZyfplT58wrAEA1ywJ9uoRqzmG
+AWJrLnWqSYPcB+NnPs9enE5wIVIjJw8=
+=jajR
 -----END PGP SIGNATURE-----
