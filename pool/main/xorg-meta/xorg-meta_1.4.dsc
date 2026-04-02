@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: xorg-meta
 Binary: xorg-meta
 Architecture: all
-Version: 1.3
+Version: 1.4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/dimitry-ishenko-ubuntu/xorg-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  xorg-meta deb metapackages optional arch=all
 Checksums-Sha1:
- 455eb32362a479d391036d0c13b25687b69fedfe 1692 xorg-meta_1.3.tar.xz
+ 7fa3d271b4f330e9fdf886b5411e9c5cd0ec2a15 1704 xorg-meta_1.4.tar.xz
 Checksums-Sha256:
- e8b0e1ed4c7f4173d8903ffa1fc3802090f555f976a3b1a75717c921a1d7c38e 1692 xorg-meta_1.3.tar.xz
+ 64dd0e63c55ba9ad83011d885bfb757d407c85385a56b7b3c35419a87a304af4 1704 xorg-meta_1.4.tar.xz
 Files:
- 52c96d723bd5c5528f613c0da67fdb13 1692 xorg-meta_1.3.tar.xz
+ 3fc9ed2abaabcd12d77c55091ff978e2 1704 xorg-meta_1.4.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCac1+UwAKCRA6Vr9YT1rr
-JxnaAQCHNZMI7WYfiM7LxEMASf9Hjvj4Y5Lca/biQF9iI3ZDiQD/ZaaJyYPvqYqW
-oZ4Zs4jVnVLHBo63dv8ZKia/XabmpwA=
-=zAIp
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCac3SDgAKCRA6Vr9YT1rr
+JyXSAP9YRRkJTkVnEVELYLgqrPFoOVPC6lGZ+YKmuP93CljE5wD/X1uGCtFWThaM
+tdpVqqAgmpe4uE3zd8DQh/6rW5LIwQ8=
+=i5wm
 -----END PGP SIGNATURE-----
