@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: server-2.5
 Binary: casparcg-server-2.5
 Architecture: any
-Version: 2.5.1~rc1-1
+Version: 2.5.1~rc2-1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://casparcg.com
 Standards-Version: 4.6.2
@@ -15,19 +15,19 @@ Build-Depends: debhelper-compat (= 13), cmake, dh-exec, fontconfig, fonts-libera
 Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Checksums-Sha1:
- 566cc82ccfa2a8954aa35b2c38e27de080c13c09 1016556 server-2.5_2.5.1~rc1.orig.tar.gz
- be94b802144d2eb9cba748c54290e3d1d60570ab 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
+ 4b9a677f2065c8bf333d6037a19a0ec66ffc6592 1019791 server-2.5_2.5.1~rc2.orig.tar.gz
+ 2a4861bc22dfe89e84400996cfbef32ea0349597 87872 server-2.5_2.5.1~rc2-1.debian.tar.xz
 Checksums-Sha256:
- 4238f398a23864c17e98fbe0c141a2447d3c7002d7598dd153466ad9dd031d15 1016556 server-2.5_2.5.1~rc1.orig.tar.gz
- 3047e830cd67ce84d5abbb39fb29e24b4d98f63c85fde74a144566492157fafc 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
+ 55d6b6f803001d40575469feca5576d0ffb77cde951f0f9e3f5f8eb8eb6f5200 1019791 server-2.5_2.5.1~rc2.orig.tar.gz
+ 4966dcba1b404091bd4ccaff43e310c72861d30e4f0094068c1a61fe08dd76e2 87872 server-2.5_2.5.1~rc2-1.debian.tar.xz
 Files:
- 4960cebcb8bc9277fdce801ac6c46649 1016556 server-2.5_2.5.1~rc1.orig.tar.gz
- 84ab6b474b46a0d78458307ea064e66f 87676 server-2.5_2.5.1~rc1-1.debian.tar.xz
+ c2f5d685dfdbefa9b70f3b6ca78946b8 1019791 server-2.5_2.5.1~rc2.orig.tar.gz
+ 13dc9ca7ae34e52139b500c9a2c2c4aa 87872 server-2.5_2.5.1~rc2-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCacAAQwAKCRA6Vr9YT1rr
-J6bMAQDuQLHxYJBSELteL3CtA/qAyWmKMlVzvRH+2d6rsvOFGAD+Jy8eQTjgsrKz
-FyrLciZo0SBSYxDiWGKyKI/zjBLJzw8=
-=aPd3
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCadFI7AAKCRA6Vr9YT1rr
+J5TMAQCryM/Puqrjk8XHwsHE8MF5/nJaI/xDqUpZyjh8COvL5QD8DGUkTdXmime/
+0Yxl4LZ6L2zlNrWIvhB/kvGxhBz/zgA=
+=HNWO
 -----END PGP SIGNATURE-----
