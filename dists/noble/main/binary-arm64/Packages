@@ -1,3 +1,25 @@
+Package: neovim-blink-cmp
+Architecture: all
+Version: 1.10.2-1
+Priority: optional
+Section: editors
+Source: blink.cmp
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1153
+Depends: neovim (>= 0.10.0)
+Filename: pool/main/blink.cmp/noble/neovim-blink-cmp_1.10.2-1_all.deb
+Size: 284720
+MD5sum: 9ecad3df2a062b6f89f891f50e2cbc75
+SHA1: 4e5e7f315ffe6241802210350c68e8e4e0a500a8
+SHA256: 5f28f534e7f873a8007fe9fa5604b0251493381141c72033a2d66d5e330512a9
+SHA512: 2f79a4d3c942019c0a41b1a11bec7234dfb57d1524e096387b0cf0c1675df9e981cf34b21fbd92b7670314811966a7f3ca752d4206b8b78c2c2fae13dab9aad5
+Homepage: https://cmp.saghen.dev
+Description: Performant, batteries-included completion plugin for neovim
+ blink.cmp is a completion plugin with support for LSPs, cmdline, signature
+ help and snippets. It uses an optional custom fuzzy matcher for typo
+ resistance. It provides extensibility via pluggable sources (LSP, buffer,
+ snippets, etc), component based rendering and dynamic configuration.
+
 Package: cccp-boot-meta
 Architecture: all
 Version: 0.25
