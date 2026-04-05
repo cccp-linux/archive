@@ -862,39 +862,22 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
-Package: niri-meta
-Architecture: amd64
-Version: 0.18
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 46
-Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/resolute/niri-meta_0.18_amd64.deb
-Size: 8932
-MD5sum: 1bc0c3f3726529dd0dcc0b91300a6c15
-SHA1: dbc01b49f25ebab8024feb67916a139750a720c1
-SHA256: dd266b1ea4abbf8a78821a59e4d09704ca864910f51c265390d9c0a54049bcb7
-SHA512: 95c58518d3ccd1a120ab8d5567b34cc88adaea8bb01dd1a1e68dd157a7413a667b19b50c359af74b95cc4ef2139a0411e35a75c6423998d6439bafcda654a867
-Description: Shell meta-package
-
 Package: niri
 Architecture: amd64
-Version: 25.11-7
+Version: 25.11-8
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 26462
+Installed-Size: 25580
 Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
-Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
 Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
-Filename: pool/main/niri/resolute/niri_25.11-7_amd64.deb
-Size: 7010718
-MD5sum: 39263ea7e557fc9aa4d9bd75bec71dc3
-SHA1: 9dfcc8daf26cc9441c2c698851cb42c60dc58e33
-SHA256: 84fd4573b0836bc2b69c849780e19a2271d8117ed6caef6c920877052b936ce0
-SHA512: 845bf8db268de35516116d1ef8c2546ae32a13f0e5d82aa7348e9dbffca3aafc594c43204f8ed7f6aa986e1df89838399875e1f904bc5a1459f85448c0b51554
+Filename: pool/main/niri/resolute/niri_25.11-8_amd64.deb
+Size: 6884264
+MD5sum: 50c155cf48cfc11405f37ad2f6fa4e3d
+SHA1: b215da74004b740d3299d13f663ce30009199b14
+SHA256: 68a63b923df5bca2c7bb3a64b32ae275c4b435f8c89e7b4e2d57ae570184b70c
+SHA512: 6ef44266f0d320a08d8524b9bea966538c3c4c14f044831f5f3efba51aae5035673bb2579c81299b6eb2eeca26f6770938a334bb2c63a6a3c5529cc3d80c15a9
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.

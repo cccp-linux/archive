@@ -862,39 +862,22 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
-Package: niri-meta
-Architecture: armhf
-Version: 0.18
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 46
-Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/resolute/niri-meta_0.18_armhf.deb
-Size: 8932
-MD5sum: 2580311a2356e363e0f96cb8de65b727
-SHA1: 9c219fae90760155569e8cfe2cc0d33a40be0949
-SHA256: 1049f9fd5254007c0cf99aa9b19e6f9b52b60c338ca1d3f535865df401c10734
-SHA512: 99fe0d61baf900d540018ae592e610a6e51f8a7dfebc167aeee5c0c72a8d07778c9bb4c498db45d98695ce054a4bf8f62d3f599bb5f4a8e4f9aa5eb93dc49717
-Description: Shell meta-package
-
 Package: niri
 Architecture: armhf
-Version: 25.11-7
+Version: 25.11-8
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 23010
+Installed-Size: 22371
 Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
-Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
 Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
-Filename: pool/main/niri/resolute/niri_25.11-7_armhf.deb
-Size: 6690730
-MD5sum: 5c14d85366f80f640062f17da84c3d70
-SHA1: 6aa4735432b728004801d2160212353d770a2d28
-SHA256: ddd1f966425446f5b4293d2df99ebc05dd77b9824d21b166ad18e353db124361
-SHA512: 606d4c4248d557355f7057714a40d0a911c5867a48b3379cdef8b680c873bb901f2543971773b569680cb06c68050ecd6c9ba080e90cda759c9a81c9c134845d
+Filename: pool/main/niri/resolute/niri_25.11-8_armhf.deb
+Size: 6585220
+MD5sum: b5d4e6d657e1e99476435bb66250de4b
+SHA1: 5f80750b659acc96dd0c823982f59ebe8d9ff04d
+SHA256: 24be2e1794419fc7cffc71775b02fb99c41cb16346363600d397a166b7da0fa6
+SHA512: 4d96f8ead7bfc4f319cee4d93c6f1ebbc2ad254799f7a199c0e6b28845634a253c74d68b969ac4b4cd029264a1f4356d1e1b8dd57ee8fce283dea568c854139a
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.

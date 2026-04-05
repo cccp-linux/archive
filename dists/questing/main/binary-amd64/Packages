@@ -113,22 +113,38 @@ SHA256: 14568785e29b4575be4b24a0bdeb75c2a9e399f4b37fffc7fdfea25eb4c49e14
 SHA512: fbf9a0b560a084477f72928a9615b5cf40bc580748e0bc82bf3f1804586264efec2ddd04cb5efe0f1b55ae4960804e63df70878573185a2fa5964778bc189414
 Description: Neovim meta-package
 
-Package: niri-meta
+Package: niri
 Architecture: amd64
-Version: 0.18
+Version: 25.11-8
 Priority: optional
-Section: metapackages
+Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 46
-Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/questing/niri-meta_0.18_amd64.deb
-Size: 8932
-MD5sum: 1bc0c3f3726529dd0dcc0b91300a6c15
-SHA1: dbc01b49f25ebab8024feb67916a139750a720c1
-SHA256: dd266b1ea4abbf8a78821a59e4d09704ca864910f51c265390d9c0a54049bcb7
-SHA512: 95c58518d3ccd1a120ab8d5567b34cc88adaea8bb01dd1a1e68dd157a7413a667b19b50c359af74b95cc4ef2139a0411e35a75c6423998d6439bafcda654a867
-Description: Shell meta-package
+Installed-Size: 26711
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info2 (>= 0.2.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
+Filename: pool/main/niri/questing/niri_25.11-8_amd64.deb
+Size: 7026298
+MD5sum: 99f0c485716f0556a0237a29d8a3eecb
+SHA1: 3c5aa1a17367750acb9d61e16e63d4817e7a9a45
+SHA256: 66a4ba0b65f37b6c5fc5f3b8d58710ef134f8aed8c9a07e2195d123dc26f103b
+SHA512: 15d83182bb704b68dbe43624849cded7fbfa8feba532237ac5ccd06b337110e90855cfb6f993b4b6921e10c319dc4a052ab28fbcd900914ae0429542045940f8
+Homepage: https://yalter.github.io/niri
+Description: A scrollable-tiling Wayland compositor
+ Windows are arranged in columns on an infinite strip going to the right.
+ Opening a new window never causes existing windows to resize.
+ .
+ Every monitor has its own separate window strip. Windows can never "overflow"
+ onto an adjacent monitor.
+ .
+ Workspaces are dynamic and arranged vertically. Every monitor has an
+ independent set of workspaces, and there's always one empty workspace present
+ all the way down.
+ .
+ The workspace arrangement is preserved across disconnecting and connecting
+ monitors where it makes sense. When a monitor disconnects, its workspaces will
+ move to another monitor, but upon reconnection they will move back to the
+ original monitor.
 
 Package: neovim-web-devicons
 Architecture: all

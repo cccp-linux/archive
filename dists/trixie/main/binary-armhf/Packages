@@ -1155,58 +1155,22 @@ Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
  tree-sitter and a variety of plugins.
 
-Package: niri-meta
-Architecture: armhf
-Version: 0.18
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 46
-Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/trixie/niri-meta_0.18_armhf.deb
-Size: 8816
-MD5sum: 66f801249a3f4c874d5ad28df3d0201a
-SHA1: 2111b4ce472ed6833e2a684337c77c7fb9a41a13
-SHA256: ccc452e888efb6bcd3693d23de97514036de7ec03ccb34699135ad44d4d690a6
-SHA512: 6ab42574967e776e8c6c93581a39d89007edba4c77c516dacf5753ff30239a6c241b3847f67800be86fbd851fdb87c62c3a8257c1cbce51a7d366999dead0ebf
-Description: Shell meta-package
-
-Package: niri-dbgsym
-Architecture: armhf
-Version: 25.11-7
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: niri
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 58592
-Depends: niri (= 25.11-7)
-Filename: pool/main/niri/trixie/niri-dbgsym_25.11-7_armhf.deb
-Size: 23750644
-MD5sum: 026b6025d33ee06a1508c83851933565
-SHA1: 5e41d06a07aeb2b7d7fa3c7bcd7c08a819c7f064
-SHA256: 1f0e96bf3587d0823fbf4e544b54d73966a66ec2f7f826fa133e9e45e44d7c10
-SHA512: a6f8f8446f2ffe37f5d3a0f7e502e37a1ed1befc932b945654e1aaab58e0499b9b54c7ea5fd3aabaf49ca619eae7bb8a683429954a043a42a709f97b7f88fc27
-Description: debug symbols for niri
-Build-Ids: eaf12231faebf1711dcb804db46e3d1cca5b7e7e
-
 Package: niri
 Architecture: armhf
-Version: 25.11-7
+Version: 25.11-8
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 23137
 Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info2 (>= 0.2.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
-Recommends: gnome-keyring, quickshell, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
 Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
-Filename: pool/main/niri/trixie/niri_25.11-7_armhf.deb
-Size: 5709536
-MD5sum: 2a0904258a661397a26df9ed00fbeb88
-SHA1: cc651672d8a71342c5a1dddbaf915002e0b54cd7
-SHA256: 1b039d0c5035e0d4d44d66f9a1a8dd5ebfe501fe6dd1a235ccbff5ff5539883d
-SHA512: 29a999271877304df6bff2ffea7b83987e9578aaa988c6244498115d6f621bd8d57d7726f0eba6b922fe8e156a9bcd16f20167f8ab7f7b4a04e4c0cf49da4ebf
+Filename: pool/main/niri/trixie/niri_25.11-8_armhf.deb
+Size: 5708800
+MD5sum: db526e693334aea85f8c3d0bbaf72d97
+SHA1: 307fd8a61ef22b63ce46e4991fa6450ae537dd3e
+SHA256: c0c58049996a120dda02b91f97af782e942e829e26beede35e76f1faa4710361
+SHA512: f351069fdcde3bd50d1d30b48efd69a75f7ac0c876c32430f7bcc0b1fe7664f3666a8faff8c61ef5db83933a278bf90803224e63914ae38ad2fd3d968e0bc471
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.
