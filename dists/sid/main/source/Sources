@@ -327,7 +327,7 @@ Package: neovim-meta
 Format: 3.0 (native)
 Binary: neovim-meta
 Architecture: all
-Version: 0.7
+Version: 0.8
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -337,17 +337,17 @@ Directory: pool/main/neovim-meta
 Package-List:
  neovim-meta deb metapackages optional arch=all
 Files:
- 0e448807baa1f6f33a742cb62df388ba 932 neovim-meta_0.7.dsc
- 3b550b92c5e58604327fc9298676775c 14652 neovim-meta_0.7.tar.xz
+ 4a83c31b35a0ba0f9db465e10e9acfea 932 neovim-meta_0.8.dsc
+ 5050c4231a314179bcb113aba42f140d 14884 neovim-meta_0.8.tar.xz
 Checksums-Sha1:
- fc0adea5aadb8fbb7bae1722747914b62eef1b7f 932 neovim-meta_0.7.dsc
- b98101e281b77f3d32285f5cf19c757106707a04 14652 neovim-meta_0.7.tar.xz
+ d9f8188193db5e84319e9e427c2e436fe62dbc09 932 neovim-meta_0.8.dsc
+ f2df49e58bc564f4f850427187b8eefe0c0c23f9 14884 neovim-meta_0.8.tar.xz
 Checksums-Sha256:
- 89f3b0504f20444dc28f8d49dc09435e9d092e12ee9d4fc5b3dd9b62a14619e7 932 neovim-meta_0.7.dsc
- dd9351d5f973c49a2ec1ddc9bcb5aecc3ac1ed40d2413f1817122a82f5c2bd73 14652 neovim-meta_0.7.tar.xz
+ b02a9b40d44c486f4f8e7dd530aa262dbd7114cb4e7d21a13390995e55b0ca4a 932 neovim-meta_0.8.dsc
+ d9fb22721099bfb0d57674551f19e37615f70fb811ba80d198ba214005a91bf6 14884 neovim-meta_0.8.tar.xz
 Checksums-Sha512:
- 5f7f5c1f6cb1d43ca1f1e4e22d15020974a320dd6e6b0369d295190fb62f7e39a0923b24847c9894f6b07d1fa7e85c83cb2ad9af042052e09fa67e2dc1be0960 932 neovim-meta_0.7.dsc
- e609931dd2f11f5e5f9c8497210d497ad9a99b694699ffa011fb75e70da82440dcb0a1427a19d24dce58cfd82f86029c3e569ccb5a5a9ced0c56a47aec283634 14652 neovim-meta_0.7.tar.xz
+ c3373da074a305128f47a8c57aa993462e9279cb08908230f1993bcea780d35c5dc817d3bc5df310bf0b802c722e73b0438b65fa5e11e2395956f56f88e20df1 932 neovim-meta_0.8.dsc
+ e18c4309c9e5b589c35cb12073fa2e933833905c4c0bb1667a72d34a80f02abf30083717bbfa0981c3d7eae1819a063342ed61a3a1f099b108d90eb9b453c79a 14884 neovim-meta_0.8.tar.xz
 
 Package: nightfox.nvim
 Format: 3.0 (quilt)
