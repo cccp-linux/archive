@@ -538,7 +538,7 @@ Package: statuscol.nvim
 Format: 3.0 (quilt)
 Binary: neovim-statuscol
 Architecture: all
-Version: 1:0.0.1-40-gc461-4
+Version: 1:0.0.1-40-gc461-5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
@@ -549,21 +549,21 @@ Directory: pool/main/statuscol.nvim
 Package-List:
  neovim-statuscol deb editors optional arch=all
 Files:
- 712f726a03e46e7db45baf01b11c913e 1408 statuscol.nvim_0.0.1-40-gc461-4.dsc
+ 7d296fb3ba0e7ba4ae380cd6f982a809 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
  51336a0724b37f417bc672e6c2264f21 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- a7dfa3568d6bb9ef7dd0589c7ef2ae91 3952 statuscol.nvim_0.0.1-40-gc461-4.debian.tar.xz
+ bafaf20c8a39dc63b263980265c461a6 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
 Checksums-Sha1:
- edf995fbb0f2061302303739e0f5d9ef3a54780f 1408 statuscol.nvim_0.0.1-40-gc461-4.dsc
+ 25c81df489d7645cfba9f43eb9d62d7ee6723c77 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
  ea9151144855434ead4c90190cab01eebb1aadef 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- 4dcf2cc5632333b2063a78a8c6be7edb5c8bfbed 3952 statuscol.nvim_0.0.1-40-gc461-4.debian.tar.xz
+ c7fa94de9b617d47ac6bf65205d17588be76a024 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
 Checksums-Sha256:
- c915a443e6680ab37b07d530721ebe7c2f0f32f26ac6e2c10cd9af6eec41afcd 1408 statuscol.nvim_0.0.1-40-gc461-4.dsc
+ 3f478dbb8b79df594f26547bb5a2d57400690c2e838ad6b13bfdedee23a9322e 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
  e71a13de01057f7a34b6d4f9bc118254684f3a704e894b22d84737fe64b3e798 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- b60031fb989b7572f03fd6767d2b0ef4b5a6cc9e6b5bdb5bbe11057941e565e2 3952 statuscol.nvim_0.0.1-40-gc461-4.debian.tar.xz
+ 540e5ce3275ceedbbceadc8ffe669f7bf0633bb75c37d4c3bddd945216272834 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
 Checksums-Sha512:
- 9b289c8129a94cd601fd07ab39ccf1e0aec461fd00d5351b894732f44bcaa4be64310d60bca0eebc7561aa2af22114240b089155c5c7ecbeeba05494f9f1fe5c 1408 statuscol.nvim_0.0.1-40-gc461-4.dsc
+ bbaf5bd23f117a14bb324fd74c565c5a70ee64afe9df48077fef86a1bf48e1397a5c9021d90f1d1fa3ff558ee07279a2baf1213984d11a4a295d543daed64129 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
  63fa60b5a986a25c156e2030e0415225c29da8bb838ca1335b77228a386cfb536a82cb5f9fea4325380b9564c678a99336b55392d529c7140997633c094b98bf 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- e99fc3b823ca504199797460ece8ae8d78b870f2beaa7522b5dce912def1e059b78f62f97949dd7f67de2060ec71b307d0c73aabf82ed2bad970ebabd6a07929 3952 statuscol.nvim_0.0.1-40-gc461-4.debian.tar.xz
+ 41fd4b6d7f2e5deafac0dc444b8841e5bcfa34fa8289a1074ceabe41ea6cc076186b653022cc1815af3673da886afccd6df1a4899bc8234b0698a9150d477467 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
 
 Package: term-meta
 Format: 3.0 (native)

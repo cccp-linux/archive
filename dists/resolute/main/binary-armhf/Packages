@@ -990,19 +990,19 @@ Description: Flexible toolkit for making desktop shells with QtQuick
 
 Package: neovim-statuscol
 Architecture: all
-Version: 1:0.0.1-40-gc461-4
+Version: 1:0.0.1-40-gc461-5
 Priority: optional
 Section: editors
 Source: statuscol.nvim
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 67
+Installed-Size: 60
 Depends: neovim (>= 0.10)
-Filename: pool/main/statuscol.nvim/resolute/neovim-statuscol_0.0.1-40-gc461-4_all.deb
-Size: 18220
-MD5sum: 002c08861a4cc9bc5a3f3630cfbb6588
-SHA1: 1d5b06870ae54c5ad64222de4181a158cda5b0f3
-SHA256: 68372cb324f11f9ce0b296f406528140b00f2e7d8012e8025d9940d1fb0229a5
-SHA512: 0a320d7d4a3b7f0d72683b49b99c7e408285f7d68aaa24ada263b0c0cd2150de1fd9d725f4fbc0497e16195bdb90c7fb9d0f3cc41668497e188931ae0b457c66
+Filename: pool/main/statuscol.nvim/resolute/neovim-statuscol_0.0.1-40-gc461-5_all.deb
+Size: 17988
+MD5sum: 225509212235c85a04dab792385bd4d8
+SHA1: a036f6b03a6e143b8072395632ca76c6ff8c9267
+SHA256: 3ec6e85f9742c9c4c9e0611566954f724dfc421367843bf0b73ea78a03c4f626
+SHA512: 31308cc6bbdd7f840b2a836bf4da14413a8b14b5cd0f7d9b91d5e5db8b23fb3d5d60e3907ef75503a13453c536f1500f8361a5419676ac6e7d518472185135b9
 Homepage: https://github.com/luukvbaal/statuscol.nvim
 Description: Status column plugin
  Status column plugin that provides a configurable 'statuscolumn' and click
