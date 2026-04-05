@@ -114,19 +114,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.12
+Version: 0.13
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 33
 Depends: build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
-Filename: pool/main/dev-meta/trixie/dev-meta_0.12_all.deb
-Size: 6612
-MD5sum: a6c308e7b66242a5c2734b9506ebc62e
-SHA1: 21d33d568b8e349f1a65624210630d950c66e1b3
-SHA256: b64715c689ab135b53945b9265ca2475484a1a2f0a01c6aa14f56bfb59e60340
-SHA512: 1330b0e705989442de9ad9d1adca4d65fbf13bd6fe8205ea8838ed19f4f4fbd4b3788617fbb0af22fd63bf2f0b3124b73f588c1516d6a92b7f581b4bda4c2959
+Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
+Filename: pool/main/dev-meta/trixie/dev-meta_0.13_all.deb
+Size: 6636
+MD5sum: 5b6f58bdaf129a698303cb1e2d72b77a
+SHA1: d3dcbaa3ec34d29c190dd5dc022edc648698dec2
+SHA256: af9bc130064d976933ed3cc99cbbd683b65ffd6298c3958416ea935b12e86f3f
+SHA512: 6350abfbf80be9484b4d43c4ac77d4bb7d9443f78c41420c842005c1a68be676dfc6aa6795881e71773c639a6023d7c4f771985e8b1a5757582b2d68166f1f2c
 Description: Development meta-package
 
 Package: fonts-courier-nerd
@@ -1120,19 +1120,19 @@ Description: fast and light statusbar for neovim
 
 Package: neovim-meta
 Architecture: all
-Version: 0.8
+Version: 0.9
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 25
+Installed-Size: 26
 Depends: neovim
 Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/trixie/neovim-meta_0.8_all.deb
-Size: 4428
-MD5sum: ed15b345be5c724577e43e72c301c7ed
-SHA1: 6c2e8301c1c3e77d2722997be307499edbb9a875
-SHA256: 758e6a648d027b6f18b52955856d2bd0a683fe9339aeed4803eb52ac6032b2cf
-SHA512: a373294464928420a35f88cf20f0ff21a61d441b3a86134167d8e952f47ff994b18ad2e26a1d40a597f491aefcb6290a4f4e0b96337f7149a3dd238d63665bc9
+Filename: pool/main/neovim-meta/trixie/neovim-meta_0.9_all.deb
+Size: 4744
+MD5sum: 68c15e450a74194a8c0f453810a2df90
+SHA1: 8a46b9aacc5786a4681bb632fa0ed53404f388c0
+SHA256: 743f65d8b4eea8a7a98d6d75ed4c972fd76bc73ee51dcf122334102697a94bc3
+SHA512: c580ba5cbfe4f5dd8bf8d8168d4bea58f12248fb93cc6700921f59097214ee8dabe721ce1c87a8d37c1719466cb8079fc88fc6722ff866059bfc15ff185b554a
 Description: Neovim meta-package
 
 Package: neovim-nightfox
