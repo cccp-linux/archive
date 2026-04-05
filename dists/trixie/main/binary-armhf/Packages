@@ -114,19 +114,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.11
+Version: 0.12
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 33
 Depends: build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, vim-fugitive
-Filename: pool/main/dev-meta/trixie/dev-meta_0.11_all.deb
-Size: 6580
-MD5sum: c415438b058f393f24c09920863436aa
-SHA1: dbbf378fa6aa83802989609bd9742b7eb40f8fd5
-SHA256: 875604e2693f56bf95220189ae16662f795feb6428cfd366ea2c7d1aea66f147
-SHA512: a27595400943615fc58dc77a0e77ce02ad8af27bbba61cb6f51aa2f7e35c851f46fa278d397a4c14627f244cb64ecb261ebb0c6e968c02afda4600affe410d74
+Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, neovim-statuscol, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
+Filename: pool/main/dev-meta/trixie/dev-meta_0.12_all.deb
+Size: 6612
+MD5sum: a6c308e7b66242a5c2734b9506ebc62e
+SHA1: 21d33d568b8e349f1a65624210630d950c66e1b3
+SHA256: b64715c689ab135b53945b9265ca2475484a1a2f0a01c6aa14f56bfb59e60340
+SHA512: 1330b0e705989442de9ad9d1adca4d65fbf13bd6fe8205ea8838ed19f4f4fbd4b3788617fbb0af22fd63bf2f0b3124b73f588c1516d6a92b7f581b4bda4c2959
 Description: Development meta-package
 
 Package: fonts-courier-nerd
@@ -1157,19 +1157,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.17
+Version: 0.18
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: niri, quickshell
-Recommends: bluez, brightness-udev, brightnessctl, cliphist, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, qml6-module-qt-labs-folderlistmodel, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtqml, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-svg-plugins, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/trixie/niri-meta_0.17_armhf.deb
-Size: 4264
-MD5sum: eee9d8272fd43d3ccfc2198488fbb4e5
-SHA1: 9de428002521e2b40d8b6ef527e7a9a284eb3f46
-SHA256: 9b096eb388a2963d1df26bf1819e674f38d5ae5cd7117882d1eb9e1ba7ab3f7e
-SHA512: 8cd7585361b0c2ec75a530c8d26fedba5789aa5dea0dce155725c2f408d03cd1ba8d34055855e27fdb1ebb8bb926b626d212655554d1feb946fb0d207beddddd
+Installed-Size: 46
+Depends: niri, waybar
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, pipewire-audio, playerctl, power-profiles-daemon, procps, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
+Filename: pool/main/niri-meta/trixie/niri-meta_0.18_armhf.deb
+Size: 8816
+MD5sum: 66f801249a3f4c874d5ad28df3d0201a
+SHA1: 2111b4ce472ed6833e2a684337c77c7fb9a41a13
+SHA256: ccc452e888efb6bcd3693d23de97514036de7ec03ccb34699135ad44d4d690a6
+SHA512: 6ab42574967e776e8c6c93581a39d89007edba4c77c516dacf5753ff30239a6c241b3847f67800be86fbd851fdb87c62c3a8257c1cbce51a7d366999dead0ebf
 Description: Shell meta-package
 
 Package: niri-dbgsym

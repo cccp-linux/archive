@@ -86,7 +86,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.11
+Version: 0.12
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -96,17 +96,17 @@ Directory: pool/main/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- 72e4f27768b4a983fb7d65bc3a66510a 912 dev-meta_0.11.dsc
- c0e2453a55b3ee67600b56dc16df4bf2 16704 dev-meta_0.11.tar.xz
+ 6219913efd53ae3c582a8a28edaa7b25 912 dev-meta_0.12.dsc
+ 6f011d07767d3c4a1e4ae430f4ec04ac 16732 dev-meta_0.12.tar.xz
 Checksums-Sha1:
- 52c4b4ab5edc1ead17b6470e97a474ec63a468e2 912 dev-meta_0.11.dsc
- 9138ca4fea4fc2fadbfe81d6e2049414bb84b442 16704 dev-meta_0.11.tar.xz
+ e69a6703f661111fcffa79084c5f0faea917f38f 912 dev-meta_0.12.dsc
+ d06ade32ecdba41f4873a3f8c5662b5d0d9d76f7 16732 dev-meta_0.12.tar.xz
 Checksums-Sha256:
- a4d834affb0835bb706830154e8613bf6afdfa25f0f0d1e33d1414ff7c7d6a94 912 dev-meta_0.11.dsc
- 3512a816aa664ad6ba23f0a5929fc4b3731e8a6363f7b19154f7fe1dd833a06f 16704 dev-meta_0.11.tar.xz
+ 333d61fb929dbaef94fcb43dc1934f3f28eae32452531b483435e54c2561cc06 912 dev-meta_0.12.dsc
+ 429c43ec2e5037805c579baeea626f82eec4d546a1c3c66ee0cecb0a0dff26c3 16732 dev-meta_0.12.tar.xz
 Checksums-Sha512:
- 58cc73341d1e11602268e90d5454ee6c23b2d5641a7987d2e47d6ea43088881dfae358b300fb645dc9e0149fc204aee83a40931764b869ac3c99383472765d35 912 dev-meta_0.11.dsc
- 91c606c46c45d1ca0def814e0aef41bac6a82a2afead476299c946980d226d5949346fae17de20b0d094ce0aaecf1bb9daf80c8166bba5a872e7abb8403da726 16704 dev-meta_0.11.tar.xz
+ 9152bd9342b5d6e0e5e438902f6f1d7a9342244d272691e6c63d5c93d8c68e6ab8a8c17fee582d119b11e774749c56d6378d61e5caa6fe50764e213dc97bc13b 912 dev-meta_0.12.dsc
+ e8b1c80cca99dc039f7cc745a82b4a16655313066a51e5e3f8aeb3f0396b6b327eff00260906b0b3fbdab3234d6371bcff1ed68b248183c589dc4a7e93563944 16732 dev-meta_0.12.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
@@ -384,7 +384,7 @@ Package: niri-meta
 Format: 3.0 (native)
 Binary: niri-meta
 Architecture: any
-Version: 0.17
+Version: 0.18
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -394,17 +394,17 @@ Directory: pool/main/niri-meta
 Package-List:
  niri-meta deb metapackages optional arch=any
 Files:
- 2065966baa96f75044e50516cd6d800b 920 niri-meta_0.17.dsc
- 860bc6d71dae05d3a108d7ef11814916 14964 niri-meta_0.17.tar.xz
+ 182d9e845e9b815a9424719772df1262 920 niri-meta_0.18.dsc
+ ab7c6dee62cb2fec5ec5dc56d1950974 19268 niri-meta_0.18.tar.xz
 Checksums-Sha1:
- e79da778b81b3d35312c7db978079b610d48bfa6 920 niri-meta_0.17.dsc
- 4a78862cd62e592abab5af65560b3a43c069d951 14964 niri-meta_0.17.tar.xz
+ 6556a6cb546f2aad8866a09f7cdbea1bafbc5523 920 niri-meta_0.18.dsc
+ fe22104c760d31cc1b9c3722e35334f96e754ab1 19268 niri-meta_0.18.tar.xz
 Checksums-Sha256:
- 20bf9a4f53f0d77808c41d50b711c73e541487956e5580f46161d050c4bca736 920 niri-meta_0.17.dsc
- 694f95c023b323dbdf7d2f150bceeeca7be0aeeabc28b25910f18a545017c7af 14964 niri-meta_0.17.tar.xz
+ f9f39a166c72cf8bda24ffbacae13ce72b3238245f15c4cd79d5c66439edbc0b 920 niri-meta_0.18.dsc
+ 0a02e06cd48f19dfe15f1f091f9668f33ea3bf6b412faa319b011300a2991fba 19268 niri-meta_0.18.tar.xz
 Checksums-Sha512:
- fd3dadb407ee1cc763154939adcb735f93ac25f87a5c5478b43e3d4338aa8955f79557153f53b2f8896bc3d4df1f674a3aa52581b9d9caab6cde191c29298aaa 920 niri-meta_0.17.dsc
- 7e54dbde790929b283c891ec4fc1aa95fd1c31269e2f04346942a2713ce29e7f71f28b9ba7fe87400b5fd42125f70cde0feb679b69343ab5b1d15da271f5f2fc 14964 niri-meta_0.17.tar.xz
+ 1d9806a6ae728bb05b1987b48554a20a5d5712abecfbc92887dce2d27ba9a20f120f6da7b6dd763b98f6e0ceb67fbb6983705e3c2f1b6854ffde9b6d69972026 920 niri-meta_0.18.dsc
+ 6f921816691a1471854185b57041bc1abd61adcbec30171241a6b7eeacb20edfd083a14a896c14caade8abd9a3da4e424e496903d357ec2efadfccf746a755ea 19268 niri-meta_0.18.tar.xz
 
 Package: niri
 Format: 3.0 (quilt)
