@@ -1,18 +1,18 @@
 Package: neovim-blink-cmp
 Architecture: all
-Version: 1.10.2-1
+Version: 1.10.2-2
 Priority: optional
 Section: editors
 Source: blink.cmp
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 1153
 Depends: neovim (>= 0.10.0)
-Filename: pool/main/blink.cmp/resolute/neovim-blink-cmp_1.10.2-1_all.deb
-Size: 284394
-MD5sum: b54853a0da80da0651bb5f9629c49220
-SHA1: 0bb375e6dc33f724e2c3087e4596cb196716623d
-SHA256: 5fa26cae77a0e21cfc8657f26a8ba07ebfe4b59ba1e4324f0cb9e0de3278380b
-SHA512: cb0915eb97737aa32d18653dce458fbbbaa60dcbfb97836b36ffd3fdd87460cfab3418204037dbb2a34b6e2dff0085c1b3c09a3e6f19c3802e1c69f9d7ddb7e1
+Filename: pool/main/blink.cmp/resolute/neovim-blink-cmp_1.10.2-2_all.deb
+Size: 284372
+MD5sum: 93338cb15a205f87bd5a25c1b9e3c09d
+SHA1: e00c8826218806f498766dcf16e6b89db6c331ec
+SHA256: 247fdbb0e9b1648e79cb707f8f0adc531100856fa52337b0bece92a8e0fbcc92
+SHA512: c4b80d60b6742c0c270eafbd92a5cf33eeac9db7618c173360d12f2e3b72cabcb8349c14cac25780b02c6f30ffac60e98dce2f935351e90e465ddf8f92ac7d5f
 Homepage: https://cmp.saghen.dev
 Description: Performant, batteries-included completion plugin for neovim
  blink.cmp is a completion plugin with support for LSPs, cmdline, signature

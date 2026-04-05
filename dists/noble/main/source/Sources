@@ -2,7 +2,7 @@ Package: blink.cmp
 Format: 3.0 (quilt)
 Binary: neovim-blink-cmp
 Architecture: all
-Version: 1.10.2-1
+Version: 1.10.2-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
@@ -13,21 +13,21 @@ Directory: pool/main/blink.cmp
 Package-List:
  neovim-blink-cmp deb editors optional arch=all
 Files:
- 79c57d62b636e4db949cda161c5bb228 1283 blink.cmp_1.10.2-1.dsc
+ f5592b29c53ffac3ceddb5e9fde6fdca 1283 blink.cmp_1.10.2-2.dsc
  be6074e320b09497feaff9696bedffd2 412456 blink.cmp_1.10.2.orig.tar.gz
- 978cbb052a9c7a274ceb673e532ab7ee 6412 blink.cmp_1.10.2-1.debian.tar.xz
+ ad0434c9c5d1c7be7ecb8923c94cab9b 6420 blink.cmp_1.10.2-2.debian.tar.xz
 Checksums-Sha1:
- 709f45fda0e2b294453e8c316446c0a741180246 1283 blink.cmp_1.10.2-1.dsc
+ 563015e1efec2b971d278ae2bb8b11a35df2f17a 1283 blink.cmp_1.10.2-2.dsc
  4f8bf979e7bf38909adb412bf80855224e116211 412456 blink.cmp_1.10.2.orig.tar.gz
- 479cebf5675dff3cf81ee027c879d294ee3b80d0 6412 blink.cmp_1.10.2-1.debian.tar.xz
+ 3edeb4d8225997e23836bc37ddae7cba4dc39199 6420 blink.cmp_1.10.2-2.debian.tar.xz
 Checksums-Sha256:
- e002884f659f472acd3c1ea38b253da42b54ed9386589fb435619a52e5b9a657 1283 blink.cmp_1.10.2-1.dsc
+ 605f38e23bf4bab52f1b392279d6ed616f2477104f0184fc4f32b897f67f497c 1283 blink.cmp_1.10.2-2.dsc
  bf76b6f82e91c2fd7920dc71e09d000a3ff79e1bd1262340f9e5287419aa4524 412456 blink.cmp_1.10.2.orig.tar.gz
- a1206ac2ccbd4d60ad26481b1124c0c3f9bb05967194b628cb46aa430e1a2a45 6412 blink.cmp_1.10.2-1.debian.tar.xz
+ 7719e775082bfa327f11f7c1ea5e4f8fd63b0cc8dc615a845d26c64bb5253a90 6420 blink.cmp_1.10.2-2.debian.tar.xz
 Checksums-Sha512:
- 531dbff9ff2b347894ed8a5661f7554425817f0787cac83bd55ca7d597fa32a1be954644e559301ab2f035f78594d6bdf71cdedba3fb492bc5261d282a2e16a4 1283 blink.cmp_1.10.2-1.dsc
+ e11eea359e90bf72a8174169351ea3b1debeb7ca7b53ab44c80b662adff6ccac805259e6da31f55714622937f66750c9a78404e3ffa90356665e5c01fa1e2364 1283 blink.cmp_1.10.2-2.dsc
  89de04a855d6134c07464dac8b2d7046cebacc09379fd3c1df5812cc7b6594ad1f7b193687fc53d858e424ff6c5372936d55931379e9238aaa2d556840640d4d 412456 blink.cmp_1.10.2.orig.tar.gz
- 9590b388b845727404d52c14ef82b5e838dd2174a4532c234a369b78f45a3aab9bc1e2fa8a8a0713403c9d2d97172470ecbeb015b5e05c40c8a6db72011f2e1e 6412 blink.cmp_1.10.2-1.debian.tar.xz
+ 2a3a929090cd06f3ea3b748155636820c6da6a9b24005d54a52ef43bd513d999a1d5e667ce625700b94ad9860da181c0bd0fbfd1355b200bd2ba3db2fc7f55c3 6420 blink.cmp_1.10.2-2.debian.tar.xz
 
 Package: cccp-meta
 Format: 3.0 (native)
