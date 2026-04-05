@@ -86,7 +86,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.10
+Version: 0.11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -96,17 +96,17 @@ Directory: pool/main/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- 04dafb25a9249cd4f1b4e8cd7ded3409 912 dev-meta_0.10.dsc
- 4ea4dfceca3aa0840356a51bfc6c6285 16608 dev-meta_0.10.tar.xz
+ 72e4f27768b4a983fb7d65bc3a66510a 912 dev-meta_0.11.dsc
+ c0e2453a55b3ee67600b56dc16df4bf2 16704 dev-meta_0.11.tar.xz
 Checksums-Sha1:
- 28630616d2b33fb0351f72326adf265ba3af5c0a 912 dev-meta_0.10.dsc
- e4fb25e0e33af77aff5acb4a9cebfd599a1afff1 16608 dev-meta_0.10.tar.xz
+ 52c4b4ab5edc1ead17b6470e97a474ec63a468e2 912 dev-meta_0.11.dsc
+ 9138ca4fea4fc2fadbfe81d6e2049414bb84b442 16704 dev-meta_0.11.tar.xz
 Checksums-Sha256:
- 6ee81ba7efa27851237a47ecb24568e9b0347455880a0e5bf2a543311b0b3c37 912 dev-meta_0.10.dsc
- 81d5756fb57cdef9bdeb6235ea135dffcada8e9cadd1f41247249c7b69217258 16608 dev-meta_0.10.tar.xz
+ a4d834affb0835bb706830154e8613bf6afdfa25f0f0d1e33d1414ff7c7d6a94 912 dev-meta_0.11.dsc
+ 3512a816aa664ad6ba23f0a5929fc4b3731e8a6363f7b19154f7fe1dd833a06f 16704 dev-meta_0.11.tar.xz
 Checksums-Sha512:
- 55e7d00053c8d4abdb2cbcc3aab49392fe8d3df528e8b6a22509cfce28860b2673a972afe9d2e78015a9238af74a53c411325408d75981e6280e8961707b4a5d 912 dev-meta_0.10.dsc
- b9123555043f2e7ee8c88d91f4d6a116d723686ff10b1890082313752de0017599b5a328c972ae325f6423af4870b76d761f77cc746b18bdb2f7081d2a6d375a 16608 dev-meta_0.10.tar.xz
+ 58cc73341d1e11602268e90d5454ee6c23b2d5641a7987d2e47d6ea43088881dfae358b300fb645dc9e0149fc204aee83a40931764b869ac3c99383472765d35 912 dev-meta_0.11.dsc
+ 91c606c46c45d1ca0def814e0aef41bac6a82a2afead476299c946980d226d5949346fae17de20b0d094ce0aaecf1bb9daf80c8166bba5a872e7abb8403da726 16704 dev-meta_0.11.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
