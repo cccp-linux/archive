@@ -115,19 +115,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: amd64
-Version: 0.19
+Version: 0.20
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 46
+Installed-Size: 35
 Depends: niri, waybar
 Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, network-manager-tui, pipewire-audio, playerctl, power-profiles-daemon, procps, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/questing/niri-meta_0.19_amd64.deb
-Size: 8986
-MD5sum: cc2d9a75202baefbc1dbe637974b91d7
-SHA1: b0320a24493f03673ae67dd9aabde13f797242eb
-SHA256: d62b451eada5845e7e726264fcb89431e026762993ffc2e6226ba7e6c8a09dd4
-SHA512: a86a30e5344d2407cf971a1326f6a6a520daa2150b52b63b9eddb1b38c4768a84aa0b70d06ff3eb139badf0f80cd3547eb2f3a78f41ceacdb4e9574b556c971e
+Filename: pool/main/niri-meta/questing/niri-meta_0.20_amd64.deb
+Size: 7300
+MD5sum: 17e3cac450f888b0299424f90635252b
+SHA1: 0a73a12490923d13dea384af952837050e2a30e7
+SHA256: b5f74b9ba8b8e1f315f438a9a9114262c7ca7dbf71acda4c099d239e1d07183e
+SHA512: aa822c1da550e46042797493c96e5afa473a7cb3fc552e6cf9ae461cf9e23ccdeeca56e30a6ebe71e3102bc085d4d2c8ae0e6e9f48f1102a8c4535bee2d50e2b
 Description: Shell meta-package
 
 Package: niri
