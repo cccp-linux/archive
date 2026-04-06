@@ -58,19 +58,19 @@ Description: Standard set of CCCP Linux packages
 
 Package: dev-meta
 Architecture: all
-Version: 0.13
+Version: 0.14
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 33
-Depends: build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
+Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
 Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
-Filename: pool/main/dev-meta/questing/dev-meta_0.13_all.deb
-Size: 6674
-MD5sum: 8dc4d8b27892c75f5a592ceecdcb4b49
-SHA1: 6fb2c96942196ba4741405fc14da89d75a3eae5c
-SHA256: 734aec203c125ee8d8358ab095f84bcd363329e20b4b4cb115a30538e495549d
-SHA512: 16b6476bd54e379a1c9ef5124996d74f13a93c817853e9edfcac6adf49c3ca51be034437e4f76bf69db196bf33d1a391114fb125b76e89a0dee266e30c68920f
+Filename: pool/main/dev-meta/questing/dev-meta_0.14_all.deb
+Size: 6754
+MD5sum: 74b872335acb72a0d3f104f56e1a0955
+SHA1: 8f83484045f67be71e604174d3f0291f5d983931
+SHA256: bcc44f42933e9edfff2502dea134cbd045e08c4086c649a3bf4dd9ff85f74928
+SHA512: 81b485a00cf10203929b14e164997c4b2a105a6d0bb65f791f35bd358b3cf4394def63bc9600f038fc57a348c02991eadfd3394ddced0f02c3950953f6e4ee12
 Description: Development meta-package
 
 Package: neovim-lualine
