@@ -2,7 +2,7 @@ Package: blink.cmp
 Format: 3.0 (quilt)
 Binary: neovim-blink-cmp
 Architecture: all
-Version: 1.10.2-2
+Version: 1.10.2-3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
@@ -13,21 +13,21 @@ Directory: pool/main/blink.cmp
 Package-List:
  neovim-blink-cmp deb editors optional arch=all
 Files:
- f5592b29c53ffac3ceddb5e9fde6fdca 1283 blink.cmp_1.10.2-2.dsc
+ 414c34e766a2a74175945608e0ddb3ba 1283 blink.cmp_1.10.2-3.dsc
  be6074e320b09497feaff9696bedffd2 412456 blink.cmp_1.10.2.orig.tar.gz
- ad0434c9c5d1c7be7ecb8923c94cab9b 6420 blink.cmp_1.10.2-2.debian.tar.xz
+ fedec2ae5d529a11b154b829e92c918f 6500 blink.cmp_1.10.2-3.debian.tar.xz
 Checksums-Sha1:
- 563015e1efec2b971d278ae2bb8b11a35df2f17a 1283 blink.cmp_1.10.2-2.dsc
+ 2d3a9b21d708c3691cc9c4d1daf540512f7bc053 1283 blink.cmp_1.10.2-3.dsc
  4f8bf979e7bf38909adb412bf80855224e116211 412456 blink.cmp_1.10.2.orig.tar.gz
- 3edeb4d8225997e23836bc37ddae7cba4dc39199 6420 blink.cmp_1.10.2-2.debian.tar.xz
+ 699915fd15282e63899711206918ee565329a1f6 6500 blink.cmp_1.10.2-3.debian.tar.xz
 Checksums-Sha256:
- 605f38e23bf4bab52f1b392279d6ed616f2477104f0184fc4f32b897f67f497c 1283 blink.cmp_1.10.2-2.dsc
+ 4f9462d8ea9ea5cbadbcf35ca3af227322a98f030c9cc82838e0cbf70a3a56a5 1283 blink.cmp_1.10.2-3.dsc
  bf76b6f82e91c2fd7920dc71e09d000a3ff79e1bd1262340f9e5287419aa4524 412456 blink.cmp_1.10.2.orig.tar.gz
- 7719e775082bfa327f11f7c1ea5e4f8fd63b0cc8dc615a845d26c64bb5253a90 6420 blink.cmp_1.10.2-2.debian.tar.xz
+ b6e7ecf04e5c621da9608c33e0b4585d5680971ab716c421f6c2276a9cee4dd9 6500 blink.cmp_1.10.2-3.debian.tar.xz
 Checksums-Sha512:
- e11eea359e90bf72a8174169351ea3b1debeb7ca7b53ab44c80b662adff6ccac805259e6da31f55714622937f66750c9a78404e3ffa90356665e5c01fa1e2364 1283 blink.cmp_1.10.2-2.dsc
+ 4afdd4630b1507060660c15166f827afdfba59526340267e40555da45eba2b54ef52f68a7eee88d9723c2f72bd9847251dc073fe4dce4f8cf68059dfdb33fdd0 1283 blink.cmp_1.10.2-3.dsc
  89de04a855d6134c07464dac8b2d7046cebacc09379fd3c1df5812cc7b6594ad1f7b193687fc53d858e424ff6c5372936d55931379e9238aaa2d556840640d4d 412456 blink.cmp_1.10.2.orig.tar.gz
- 2a3a929090cd06f3ea3b748155636820c6da6a9b24005d54a52ef43bd513d999a1d5e667ce625700b94ad9860da181c0bd0fbfd1355b200bd2ba3db2fc7f55c3 6420 blink.cmp_1.10.2-2.debian.tar.xz
+ 8987322c24a77dbacf30bef5e0944db91cb2f70c7e6c3b3014c967794eed279c929fc42c85688889acd24ec4ab1b3754e988bd7672b417d2e0e4486585a15710 6500 blink.cmp_1.10.2-3.debian.tar.xz
 
 Package: cccp-meta
 Format: 3.0 (native)
@@ -293,7 +293,7 @@ Package: neovim-lualine
 Format: 3.0 (quilt)
 Binary: neovim-lualine
 Architecture: all
-Version: 1:0.0.6+git20251123-2.1
+Version: 1:0.0.6+git20251123-2.2
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
 Uploaders: Matthias Geiger <werdahias@debian.org>
 Standards-Version: 4.7.3
@@ -307,21 +307,21 @@ Directory: pool/main/neovim-lualine
 Package-List:
  neovim-lualine deb editors optional arch=all
 Files:
- 1181803ce21477a90f7175dbee90e76e 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
+ 6aab106ed26d82fa3a24116db0e926b8 1548 neovim-lualine_0.0.6+git20251123-2.2.dsc
  7e48f18bae7e39ce19a9822702f82405 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- dd286f2dc0940429ce924f3b049558c0 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
+ 7911bc0185c186a50e202ee5de4e2e03 4172 neovim-lualine_0.0.6+git20251123-2.2.debian.tar.xz
 Checksums-Sha1:
- 77a0bfab7ebfe452b61aac6aa092fec6ea5e7e9f 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
+ 98c5c38bdbaf5c9bdf6c25e3e077ef41b0963a88 1548 neovim-lualine_0.0.6+git20251123-2.2.dsc
  c4a80cefca20a24850dcf03ec939c77e8c08b4b2 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- f2aa39eae11edb8ddec6b8481de9981b3d0677c9 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
+ aa9fe850e3eb61717622660fb2eab61ee37c22ef 4172 neovim-lualine_0.0.6+git20251123-2.2.debian.tar.xz
 Checksums-Sha256:
- 25bcf2da189373725cde3a5e2ea7d90ae1560affed2ce3217bfac25153698363 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
+ dbb87c10ca00cfc2af7b747396d66c3f765e3a0cc8455dd36fa78c27c38812cb 1548 neovim-lualine_0.0.6+git20251123-2.2.dsc
  5c16ebb09b0764c23045a37b63db3dfef7a2b61284e51cb09dab8c70f96c5081 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- 62e8543fd665b6da65c47341f169ed7496fb540fef8607dfee489f07840f0c11 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
+ ecc1a104a72d9852d7ad9a0c52659aaad8ab00e6cdd191a2af557b69abbce18c 4172 neovim-lualine_0.0.6+git20251123-2.2.debian.tar.xz
 Checksums-Sha512:
- 8188750d35398f6ceec2024453cc457fc70e97da42fbedb60c4347af95aea7cb423a5a988bf819b7cd42767181a3bbaba77776f30cef4bfb6e32e88696300699 1548 neovim-lualine_0.0.6+git20251123-2.1.dsc
+ 5cf15904a74abf5d89438c21687bd6628950347491edb25e14961a49a8f73ac9d047c461965105a8f7f2296e0ca31524cb179e5a614f442631fea551c4c54fdc 1548 neovim-lualine_0.0.6+git20251123-2.2.dsc
  b4d17ff3a2b4acb63c10873d12b46b921fd60f300f542694969e4338c2cb1ecf428fa658106e395cf94286d90da2c7fc2f27e26c71cee26ed669398564bb7b15 108728 neovim-lualine_0.0.6+git20251123.orig.tar.gz
- a583e723337f83f155da8613d480f4fda703d9a3204fce727c3b8d1dd4d93761b842a00eb24f13635b947f0a45b4b7eac02cc7fcfcd82b8a00f9d802aa46165c 4084 neovim-lualine_0.0.6+git20251123-2.1.debian.tar.xz
+ 22a6ba0abf5a5df7c1d2834ad08c6d1f99b244d4540157409e7fd0c42a856e515bf3356d77f17cd85a22d09bdf0446ce2b52ac9ab5736b64832e8b53b3c99b54 4172 neovim-lualine_0.0.6+git20251123-2.2.debian.tar.xz
 
 Package: neovim-meta
 Format: 3.0 (native)
@@ -353,32 +353,32 @@ Package: nightfox.nvim
 Format: 3.0 (quilt)
 Binary: neovim-nightfox
 Architecture: all
-Version: 3.10.0-3
+Version: 3.10.0-4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
 Homepage: https://github.com/EdenEast/nightfox.nvim
-Vcs-Browser: https://github.com/dimitry-ishenko-neovim/nightfox-nvim
-Vcs-Git: https://github.com/dimitry-ishenko-neovim/nightfox-nvim.git
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/nightfox.nvim
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/nightfox.nvim.git
 Directory: pool/main/nightfox.nvim
 Package-List:
  neovim-nightfox deb editors optional arch=all
 Files:
- d5fe19fda83899fbdc15ebcf74764395 1336 nightfox.nvim_3.10.0-3.dsc
+ 77886a459fac99289a1c66187f5259ce 1336 nightfox.nvim_3.10.0-4.dsc
  de2215ae5bcf348fc4f8878b45f58027 104911 nightfox.nvim_3.10.0.orig.tar.gz
- b2cb49c0f6b8974a7fe0a0fd843e6654 1588 nightfox.nvim_3.10.0-3.debian.tar.xz
+ c62bab86e428e6a02ada2a1d5acb4635 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
 Checksums-Sha1:
- 77d1c093187ab4a353180723c83059c0b0c59039 1336 nightfox.nvim_3.10.0-3.dsc
+ 9d03b8ca2b4d21a124b2ca87e68ccf67a3f752bd 1336 nightfox.nvim_3.10.0-4.dsc
  a0ac596fc3d7cfc4a8ae7b59790aec505745d15a 104911 nightfox.nvim_3.10.0.orig.tar.gz
- 75f9e20aad8a2f4878698c415f49961f17e58ce1 1588 nightfox.nvim_3.10.0-3.debian.tar.xz
+ 1f3d91000a6a437985b3e6a2429e54eab23d6535 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
 Checksums-Sha256:
- 493b730af27846cbf0bc6612c399495b2b8d66c2ea616f863c8c4936b7277a6c 1336 nightfox.nvim_3.10.0-3.dsc
+ e2b8535f385aa60a503ee8d5f939736325beabe4d9047480cb5c98257c18bbc9 1336 nightfox.nvim_3.10.0-4.dsc
  c655a2d9e19cc20866c2eb3135211e0f57f31106ed20b08fe4d37db82ab7859c 104911 nightfox.nvim_3.10.0.orig.tar.gz
- 7321d4fde2fcfdf6da0480cb77bf2c58c180bdec67cb75d4be30af6018144ffe 1588 nightfox.nvim_3.10.0-3.debian.tar.xz
+ 7052d27ddf72cd267669edf544896e9bd759a4a6866bd907f8b30ca480d7d397 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
 Checksums-Sha512:
- 7e8d2c0772a322862fdabaf99b3800a159dcf91d48f494ed1bb842339d39c92545fad7300c0877c0866142828f9d1bdf6f48771c79981b49b380d81615ce5c74 1336 nightfox.nvim_3.10.0-3.dsc
+ dd774d5f43fdf09fa726cb1483a8c6f73aaee4f2a3779b9af3fc63463b713df023da9f71ec5450d4c2ccb0f3a84adb1b4f2247a3b490b44e43e672e00b0e5c20 1336 nightfox.nvim_3.10.0-4.dsc
  50bf7aec928b5d046bd66790d471edf0bb69e2d52e77da3f7fa3710bdb352e4d5852b2ef14592534f1c0fad90bf30940c2b8b009ac16df84950362936c649e67 104911 nightfox.nvim_3.10.0.orig.tar.gz
- a4e7f2ee4fe864afb01fc01a1f74bca3c2ecd28f536cebf981dd83f64c89ef351321756c23cd99c75a68cc1a99c36ab414f53d1debc3b73f317468c89eca7a21 1588 nightfox.nvim_3.10.0-3.debian.tar.xz
+ dd4676048bc76bf24dde2a703729dfcdf88a6a41f9468c40cc145a78decc7c7a482b457a8a41aaac1303c86244053dc59018c258c0b7686ff110a3e105c406ae 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
 
 Package: niri-meta
 Format: 3.0 (native)
@@ -445,7 +445,7 @@ Package: nvim-web-devicons
 Format: 3.0 (quilt)
 Binary: neovim-web-devicons
 Architecture: all
-Version: 1:0.100-100-gd746-1
+Version: 1:0.100-100-gd746-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
@@ -456,52 +456,52 @@ Directory: pool/main/nvim-web-devicons
 Package-List:
  neovim-web-devicons deb editors optional arch=all
 Files:
- e3e4d7f0706f008210ce96d3fc4e399e 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 93139aa48873b0ed9c252603b6596cc4 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
  34fbd1589679945ecf8870dfab518e00 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
- cb6aa65ff88718f0e23e5bb614f83c91 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
+ 38c3f1f5375f547641a8391728f3449a 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
 Checksums-Sha1:
- dd15af3fbde4cfcb97c93ea87b27d1afe8996bbe 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 4f3ebcb1fdf16165d8665a4eae9d36cbae7aee5f 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
  49976ba1e9add41ee7620643f1872ba71b153495 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
- e148f451a6795f4e5c2ba34c282dcd71a249b4c0 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
+ fbee4dc39835f6fc3d3aca99d57470a1380cc74a 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
 Checksums-Sha256:
- 849f53b805b07e7bfa281a34a9010bec4d64b122c954832d3fa7f71627874bd2 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 659c42d809bd34ec4b1ba85481de2b3f57b9e20018844b3bdfe1523ed8599e7e 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
  92cdd53514f3cbcd9073f016520cf5869b761860784ccf0a2cf603dfaee75a91 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
- 523ef66982e0bdcdf2caac12eb8bdf517f9d0ad2dbff9514857a8f58b4a6ae32 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
+ 919aca9c78a272d981fcfe162d1e4eadaaa298bba614bfa3562fcff777af3a82 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
 Checksums-Sha512:
- 6e63cbaf15832890020cb81a5fb8086e05543b20cf37e2069be7916e5f3d127df67621211888b7169a513e230f4aedad5da0f2126856f88447edc13c988c9f4d 1451 nvim-web-devicons_0.100-100-gd746-1.dsc
+ 189eb3b34df9b743573d875f5d8cc153647d76890fba34d15a43c7dee1b80c2dbdfab68e076d9da1e00b219d033e641aca2552669034326fff422286ff604147 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
  1e9d2db756700dad7b8cc1efa7065ef70d74a16ca43a4ceb63f2a4cea749daabecfb514505759b5e4eefdc62b5811bf117bc25f93b03af166743cac2efea8204 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
- a4d2c1d10df4382e89f9c854ff335fe0dd128015cc7859c94a677d0fe300f5cfd8a28660bf43ccfd8b488545da5df0e6ae5c1b6fe66db06fc2879b5fbda84b9a 3644 nvim-web-devicons_0.100-100-gd746-1.debian.tar.xz
+ 3f5f2270ff96ffcf275945585dd0da3b388496156438bfc9a362075b5bb213c817236bd8482551cc0f444e549d90b0c5e5eeb0ac649efa91f9215fa888a5cee6 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
 
 Package: oil.nvim
 Format: 3.0 (quilt)
 Binary: neovim-oil
 Architecture: all
-Version: 2.15.0-4
+Version: 2.15.0-5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
 Homepage: https://github.com/stevearc/oil.nvim
-Vcs-Browser: https://github.com/dimitry-ishenko-vim/neovim-oil
-Vcs-Git: https://github.com/dimitry-ishenko-vim/neovim-oil.git
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/oil.nvim
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/oil.nvim.git
 Directory: pool/main/oil.nvim
 Package-List:
  neovim-oil deb editors optional arch=all
 Files:
- 14dd58a2999ef4dec295a2fad8a31bc9 1274 oil.nvim_2.15.0-4.dsc
+ 22229d73ec50ad5452fdceb0d1497924 1276 oil.nvim_2.15.0-5.dsc
  9196b3285c76078178f0d3dd69d43c52 128116 oil.nvim_2.15.0.orig.tar.gz
- 2d7a91cabf5e233f0bcba0694bc66ab5 3824 oil.nvim_2.15.0-4.debian.tar.xz
+ 079e966acbcbbb7fef688ec46d44696f 3920 oil.nvim_2.15.0-5.debian.tar.xz
 Checksums-Sha1:
- 04ccc7b0560e3d00af6f21e16fa6a71510be0469 1274 oil.nvim_2.15.0-4.dsc
+ 22cb26c4e741db1bdf8954cd3ad69a9cc0f81c53 1276 oil.nvim_2.15.0-5.dsc
  25a946dc71ecad4ff94d61c2a1f98dca3bdafc5d 128116 oil.nvim_2.15.0.orig.tar.gz
- 01b9bb7f47ee81d5ed40b2126626b4375e12df01 3824 oil.nvim_2.15.0-4.debian.tar.xz
+ 7262db205c3ed4c34e58ea5aa7fc263a47041c2d 3920 oil.nvim_2.15.0-5.debian.tar.xz
 Checksums-Sha256:
- 42e2700cf02ee0442173a792fd5df265cfe5ab7464cba7419146187da2b26e0e 1274 oil.nvim_2.15.0-4.dsc
+ cdf5f2ae3098a77942ee11a62342d9f65b0010e7a7cf539cb055f3a2ac5cea5f 1276 oil.nvim_2.15.0-5.dsc
  713cfb33da514fb23e940b8f19f1c16fdad0479ba457f24c33595d2c6d343d26 128116 oil.nvim_2.15.0.orig.tar.gz
- e7c5efe1432aae9f6087153a1014d82b6f630e9bd46c5b3daec61c838db5ebb5 3824 oil.nvim_2.15.0-4.debian.tar.xz
+ eeb918ce95e16449ccc7911591afd987e4d6e3656f838b7c72946be213640043 3920 oil.nvim_2.15.0-5.debian.tar.xz
 Checksums-Sha512:
- 369f13ee96551c6bec42466e67c597d47dbf9d484107d8357c23b27c12723278934e82fbcfb96954b2a9d8c43fb17e68d54baf7367b26139a7da8b29e9c87cb0 1274 oil.nvim_2.15.0-4.dsc
+ a98ee4a5fe086b86297276b0725ef33fc19e7e72519ac3bb35e8d4ed86483e2c17060387016d2450c85bf1d93b1323bae5149ff221c96b5805c06add050bbf15 1276 oil.nvim_2.15.0-5.dsc
  1e4db7d9fe8f8b748c802ecd1e3f0721105a85a48e284dc968646496ccc71b32753dcb11d634566f67f3c379fdb6ca2d4b9e346a06b4f084f3c8876d36c08171 128116 oil.nvim_2.15.0.orig.tar.gz
- 0411dd2789adc770a0f28b148fdfb6ed98c69e477f3ccc12914390fc42db96b36d761c0e19fdb39e2c05c6ccc34e7fab579470086ec3bd1455d19eab3ddebee8 3824 oil.nvim_2.15.0-4.debian.tar.xz
+ ceec9c6bb0ac9e7dff6f3b4cf0f7a36edbc73a499f6e236962ff93919f22e10a9241e4e5dcf03f8fa3e85616c868ccdcb241036c0625567e585fdc0d0382b646 3920 oil.nvim_2.15.0-5.debian.tar.xz
 
 Package: quickshell
 Format: 3.0 (quilt)
@@ -538,32 +538,32 @@ Package: statuscol.nvim
 Format: 3.0 (quilt)
 Binary: neovim-statuscol
 Architecture: all
-Version: 1:0.0.1-40-gc461-5
+Version: 1:0.0.1-40-gc461-6
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
 Homepage: https://github.com/luukvbaal/statuscol.nvim
-Vcs-Browser: https://github.com/dimitry-ishenko-neovim/neovim-statuscol
-Vcs-Git: https://github.com/dimitry-ishenko-neovim/neovim-statuscol.git
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/statuscol.nvim
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/statuscol.nvim.git
 Directory: pool/main/statuscol.nvim
 Package-List:
  neovim-statuscol deb editors optional arch=all
 Files:
- 7d296fb3ba0e7ba4ae380cd6f982a809 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
+ 3fff4b5b12247b20ea7f514f137b212f 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
  51336a0724b37f417bc672e6c2264f21 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- bafaf20c8a39dc63b263980265c461a6 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
+ 2c3fb7298d649a18d182d912637de850 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
 Checksums-Sha1:
- 25c81df489d7645cfba9f43eb9d62d7ee6723c77 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
+ 14dac20a05ce824d870ac550ec88c0ca028b1470 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
  ea9151144855434ead4c90190cab01eebb1aadef 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- c7fa94de9b617d47ac6bf65205d17588be76a024 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
+ 474e6477c778d429abbae4a386275e2dc4fc88cf 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
 Checksums-Sha256:
- 3f478dbb8b79df594f26547bb5a2d57400690c2e838ad6b13bfdedee23a9322e 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
+ 32634dc7b8032a8d229ce9b96ab1863a9ffcfd8cda3cefd6ee788073a6de5ce2 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
  e71a13de01057f7a34b6d4f9bc118254684f3a704e894b22d84737fe64b3e798 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- 540e5ce3275ceedbbceadc8ffe669f7bf0633bb75c37d4c3bddd945216272834 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
+ 0b201f4a4dfc7aa28613e9b990a3c148504a523e14e111d1f2e6bdab187c6b2d 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
 Checksums-Sha512:
- bbaf5bd23f117a14bb324fd74c565c5a70ee64afe9df48077fef86a1bf48e1397a5c9021d90f1d1fa3ff558ee07279a2baf1213984d11a4a295d543daed64129 1408 statuscol.nvim_0.0.1-40-gc461-5.dsc
+ 98bdd534b614a8f607324c728663ca4998c745d6d543000ffb1e1a6d3aa0eec317df95058474f9d34b3a5c6d5c8b9fa7ff3d0ac0ac2925017fd394baf0d9e6e2 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
  63fa60b5a986a25c156e2030e0415225c29da8bb838ca1335b77228a386cfb536a82cb5f9fea4325380b9564c678a99336b55392d529c7140997633c094b98bf 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
- 41fd4b6d7f2e5deafac0dc444b8841e5bcfa34fa8289a1074ceabe41ea6cc076186b653022cc1815af3673da886afccd6df1a4899bc8234b0698a9150d477467 3756 statuscol.nvim_0.0.1-40-gc461-5.debian.tar.xz
+ 4c7e0ccd12f4137e59719dc68b7dc104c132f7d48aa181d8be6887d8272399a00a0caa05d22b3dd7bcfdf8ca40b10b2a102b226ffff3abff73a81d810a29bddc 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
 
 Package: term-meta
 Format: 3.0 (native)

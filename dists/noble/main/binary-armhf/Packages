@@ -1,18 +1,18 @@
 Package: neovim-blink-cmp
 Architecture: all
-Version: 1.10.2-2
+Version: 1.10.2-3
 Priority: optional
 Section: editors
 Source: blink.cmp
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 1153
 Depends: neovim (>= 0.10.0)
-Filename: pool/main/blink.cmp/noble/neovim-blink-cmp_1.10.2-2_all.deb
-Size: 284736
-MD5sum: 7e6e9b4f8b3d06811618712c370b4cb6
-SHA1: d506e3811ccef2f69fff5f3fcf18fb27053f0533
-SHA256: 4f0d374d9c7e7208650df704baf6c237635e4c8ad4dbb53bae98bf164d5e6a84
-SHA512: 6ee9d969f55cdc2b3376fe4efc0ca5a5156542524ba6c096f0480417895eaa984138ce94f20e39f650713eda0f77e663ccb6320b0b043e717b12d6ba028b9bf3
+Filename: pool/main/blink.cmp/noble/neovim-blink-cmp_1.10.2-3_all.deb
+Size: 284824
+MD5sum: bcadc753b59fc61de7fc9087ca31edc2
+SHA1: d7d640309f9c71ca4aa2cb58e17c7c729a36f234
+SHA256: fdeccc6bdbf462c8ab534bf04ba823b2e9d71ba9fac37094e39aee24d747144b
+SHA512: daa1f66ca4c2de08b16e2279b86dee6bca4382536178b21eeb87279519b5ace9400397a9830da2c0a69abfb43cde58392d3031c066fa3f569bfa3cbc5f8f5674
 Homepage: https://cmp.saghen.dev
 Description: Performant, batteries-included completion plugin for neovim
  blink.cmp is a completion plugin with support for LSPs, cmdline, signature
@@ -235,17 +235,17 @@ Description: Monospaced addition to the Roboto type family
 
 Package: neovim-lualine
 Architecture: all
-Version: 1:0.0.6+git20251123-2.1
+Version: 1:0.0.6+git20251123-2.2
 Section: editors
 Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
 Installed-Size: 414
 Depends: vim (>= 2:8.1.0693-2~) | neovim (>= 0.2.2-1~)
-Filename: pool/main/neovim-lualine/noble/neovim-lualine_0.0.6+git20251123-2.1_all.deb
-Size: 83096
-MD5sum: 271bb53a7d94f8418726cb2390e34bf4
-SHA1: 304403ba1c2864a30abb74518a336dc0ecd51b12
-SHA256: 99da1d56b0e73fc093546262356f094eba00dbeeb86a49581aa7109d45c9eb76
-SHA512: 286053a9091277a50cfba03dfb18f37e8497ec77a190eef080f438ee545702f2f68632ddf2b686874eeb44dd8bc0e3822af493e7908f888c8a3a4b4405e87652
+Filename: pool/main/neovim-lualine/noble/neovim-lualine_0.0.6+git20251123-2.2_all.deb
+Size: 83152
+MD5sum: 5661134e164f90d7233bd84b14231c10
+SHA1: 8f54499416a896e83d05182130fdbe9aed317694
+SHA256: 345c22141883a347041b45d8436cca13d3194fa1951538bb094af9cbbbe73401
+SHA512: b3feba47f02124ed022832c1518b992f0a99fbe8e793afb80ede25d0b6d5c2ba09ed0a08a8f967c5c649088352e6439996bbdf93e5fde45f90332a5f96c9170e
 Homepage: https://github.com/nvim-lualine/lualine.nvim
 Description: fast and light statusbar for neovim
  lualine is a statusbar written for neovim, similar to airline. It's fast and
@@ -274,19 +274,19 @@ Description: Neovim meta-package
 
 Package: neovim-nightfox
 Architecture: all
-Version: 3.10.0-3
+Version: 3.10.0-4
 Priority: optional
 Section: editors
 Source: nightfox.nvim
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 314
 Depends: neovim (>= 0.8)
-Filename: pool/main/nightfox.nvim/noble/neovim-nightfox_3.10.0-3_all.deb
-Size: 57414
-MD5sum: eb184125b4ba2e172b0dd5af768ebafc
-SHA1: ae9876ccff1c3e627ef30234941ad170b50bb647
-SHA256: c4186e1ff08402e9ffc8dd62ffacf860004375f8846ac942a46e9e4f1513412e
-SHA512: 23d4dfc801d15ad6dd0d9a4b2c285f2a0a26904a0fc27608f2cbc242de15af98b8b3125eca8d4101c21e8f5d1f3c60e51a8c65568ba2dc231304a64e07d17f6c
+Filename: pool/main/nightfox.nvim/noble/neovim-nightfox_3.10.0-4_all.deb
+Size: 57492
+MD5sum: d6a74cdd89127f7658d41c80e03f971a
+SHA1: 35c17f40631dbdf2c3b5fcc0e1738860b9d41678
+SHA256: 41c3dab051af401bf68822910fe23dc5519cebf9a66c102499d7b66a8665ff77
+SHA512: eb5d9e336a17edd1ce414f15d2cab8dfff41290b4d590fc3bf24df9b21fd0ce4fd6b0f442c49382c957359dc927f5f7267d00157e9912f722705cb16e05115b3
 Homepage: https://github.com/EdenEast/nightfox.nvim
 Description: NightFox theme for neovim
  A highly customizable theme for vim and neovim with support for LSP,
@@ -344,19 +344,19 @@ Description: A scrollable-tiling Wayland compositor
 
 Package: neovim-web-devicons
 Architecture: all
-Version: 1:0.100-100-gd746-1
+Version: 1:0.100-100-gd746-2
 Priority: optional
 Section: editors
 Source: nvim-web-devicons
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 241
 Depends: neovim (>= 0.7)
-Filename: pool/main/nvim-web-devicons/noble/neovim-web-devicons_0.100-100-gd746-1_all.deb
-Size: 29466
-MD5sum: f90220e1fc415f5e63167544aa962744
-SHA1: 31a41c5cd80ad512dcc3f9559cbb174d203fcc19
-SHA256: 0db78ca929e01ff45393e5954f0ab4260334400142c35d2afb2e3889d0012e0d
-SHA512: c4720c9afdf180647626cb6a72b568893a602f4bfb85b124b6255ffe464d497123820245447449d4cd050b87f5bf6337b4febecc0de8455ac89ed6fe2951458c
+Filename: pool/main/nvim-web-devicons/noble/neovim-web-devicons_0.100-100-gd746-2_all.deb
+Size: 29510
+MD5sum: 43377f449cff3f93d5278d2233187b1a
+SHA1: 1451a11e5f8031b8834dc243987eab54c1093f4a
+SHA256: a7cb3c9e4293544499c3030a1c1a31dcb8231ec12f386d7660b80b8f4eeba4b4
+SHA512: 5b34e36d1fe606fe72dc32f128af719dc235b9a5be01efd11c8dccbec109756597152c6a8a0b2f7acdecc0a942e69c11df46dbf14a153162baae7640550e26c8
 Homepage: https://github.com/nvim-tree/nvim-web-devicons
 Description: Nerd Fonts icons for use by neovim plugins
 
@@ -379,6 +379,25 @@ Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
 
+Package: neovim-oil
+Architecture: all
+Version: 2.15.0-5
+Priority: optional
+Section: editors
+Source: oil.nvim
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 454
+Depends: neovim (>= 0.8)
+Filename: pool/main/oil.nvim/noble/neovim-oil_2.15.0-5_all.deb
+Size: 81846
+MD5sum: 2ddcde7f6cb663efbaa231ace75a5286
+SHA1: 0ecb7cacf57e57da6ef216653a07d8c0e114bc95
+SHA256: fcf741b59062d735f3157de7ec597a7fee5334aaa0674c1c4a12aec5e671ebb1
+SHA512: 19719d2b7196e6346f2ed4fa7d7160517d756b29f0854c4763942e2c60f0312de4ba8119975bfcf7e30d946eb3130e39038d8868eb89f0e1ef62ccb32044797c
+Homepage: https://github.com/stevearc/oil.nvim
+Description: Neovim file explorer
+ Edit your filesystem like a buffer.
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-5
@@ -394,6 +413,26 @@ MD5sum: 225509212235c85a04dab792385bd4d8
 SHA1: a036f6b03a6e143b8072395632ca76c6ff8c9267
 SHA256: 3ec6e85f9742c9c4c9e0611566954f724dfc421367843bf0b73ea78a03c4f626
 SHA512: 31308cc6bbdd7f840b2a836bf4da14413a8b14b5cd0f7d9b91d5e5db8b23fb3d5d60e3907ef75503a13453c536f1500f8361a5419676ac6e7d518472185135b9
+Homepage: https://github.com/luukvbaal/statuscol.nvim
+Description: Status column plugin
+ Status column plugin that provides a configurable 'statuscolumn' and click
+ handlers.
+
+Package: neovim-statuscol
+Architecture: all
+Version: 1:0.0.1-40-gc461-6
+Priority: optional
+Section: editors
+Source: statuscol.nvim
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 60
+Depends: neovim (>= 0.10)
+Filename: pool/main/statuscol.nvim/noble/neovim-statuscol_0.0.1-40-gc461-6_all.deb
+Size: 18020
+MD5sum: 10f164681b8a643d0b713a5af6df3e36
+SHA1: 4de7788aa0351a3aa765223017aa254cb5db1fd0
+SHA256: 2b0f173d566078836da313f5c5561caa206e8cc496d958310225d352fb6e316c
+SHA512: 1d9e0aff7592a28fb89b21e853d45c3d522eab51ff2bb16ffaea20af87415b0381804a8e16763ae021defa1c552cc05a865306b5cd350f769ae00df39e5ac038
 Homepage: https://github.com/luukvbaal/statuscol.nvim
 Description: Status column plugin
  Status column plugin that provides a configurable 'statuscolumn' and click
