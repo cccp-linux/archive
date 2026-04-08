@@ -1225,25 +1225,6 @@ Description: Nerd Fonts icons for use by neovim plugins
 
 Package: neovim-oil
 Architecture: all
-Version: 2.15.0-4
-Priority: optional
-Section: editors
-Source: oil.nvim
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 470
-Depends: neovim (>= 0.8)
-Filename: pool/main/oil.nvim/sid/neovim-oil_2.15.0-4_all.deb
-Size: 97312
-MD5sum: 9d88870eab6e243a8658fa44cb3a5f21
-SHA1: 03a206206af2a90e280c1f07798ef9d6732f1789
-SHA256: f1bed511b84102cad0da9deee3796e6a27b5d4100b1182b8caa5e079d5c50142
-SHA512: d3594f98adf43365d133ff3f2121c5349bb9141472afde93aa6df60168db88769c3a3ef93659aab92ab8e50be6681302c25a4397efcc9bfd495c5705a7dce43c
-Homepage: https://github.com/stevearc/oil.nvim
-Description: Neovim file explorer
- Edit your filesystem like a buffer.
-
-Package: neovim-oil
-Architecture: all
 Version: 2.15.0-5
 Priority: optional
 Section: editors
@@ -1299,26 +1280,6 @@ Description: Flexible toolkit for making desktop shells with QtQuick
   * Power Profiles Daemon
   * MPRIS compatible media players
   * StatusNotifierItem compatible system tray clients
-
-Package: neovim-statuscol
-Architecture: all
-Version: 1:0.0.1-40-gc461-5
-Priority: optional
-Section: editors
-Source: statuscol.nvim
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 60
-Depends: neovim (>= 0.10)
-Filename: pool/main/statuscol.nvim/sid/neovim-statuscol_0.0.1-40-gc461-5_all.deb
-Size: 17676
-MD5sum: dcf6a1ccac8d10da7276a653613772b8
-SHA1: 1fd5fb7d0bdf0461ab35b3848f2f1b419334f4f1
-SHA256: 7e6af75819dca3556ba492341ba67ecf5c8017c31167e87f3b67e347e0be60e3
-SHA512: cb725830d0a44545a1684d4a89ee2ee33e9f1531b713e15807f541973e06e753253af169c3a764b96b3d0e305d9da7b57d9cee95b5c8845e08a262ffbf690b25
-Homepage: https://github.com/luukvbaal/statuscol.nvim
-Description: Status column plugin
- Status column plugin that provides a configurable 'statuscolumn' and click
- handlers.
 
 Package: neovim-statuscol
 Architecture: all
