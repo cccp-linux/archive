@@ -294,19 +294,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.20
+Version: 0.21
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 35
+Installed-Size: 38
 Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, mpv, network-manager, network-manager-tui, pipewire-audio, playerctl, power-profiles-daemon, procps, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite
-Filename: pool/main/niri-meta/noble/niri-meta_0.20_armhf.deb
-Size: 7300
-MD5sum: 82659eca8ad70483091d99ff941dc504
-SHA1: add483f5b0fe1fee405886ac22e4530506c3cbf1
-SHA256: 1201ec2b2009756ae2d9c9a350ffc96d970f24c89d2b87807e19dbb8e8da3b53
-SHA512: 8156ee02c792159ec399c48164d0314f50b400b4f53a6a6a68a1ccbace370e43346bd3121c49bf97e5bfb52df1464d342b498d8c608560c8b8c716dd15cb7f3d
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
+Filename: pool/main/niri-meta/noble/niri-meta_0.21_armhf.deb
+Size: 7662
+MD5sum: a1809f95f2b4d82ff21ff864a6aa9eb2
+SHA1: e0a9919011a570b63603f056fc5a77c7eafbfc66
+SHA256: 1c39cefc11a5ab5f5162fc257cc1e7326480998b2d0f959d7df424250349a775
+SHA512: d11aac061ef791ef46001fc740c3e6b10f316f2e9aaadda95a1d04412b3bee562e403ded1934bc9a12bd5d7efea18ffa27c4cadbb230516e22b18be6f438052e
 Description: Shell meta-package
 
 Package: niri
