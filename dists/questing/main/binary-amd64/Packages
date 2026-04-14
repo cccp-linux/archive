@@ -135,19 +135,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: amd64
-Version: 0.21
+Version: 0.22
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 38
+Installed-Size: 54
 Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/questing/niri-meta_0.21_amd64.deb
-Size: 7664
-MD5sum: b81b76100415563268c18bf1ca062646
-SHA1: 969aa3356cbd34eab62fd9b66bdc512667ff6fb7
-SHA256: 128f6f90a690c8469c69572bc1de11d1720167d69a855235a73b89a6c60d4870
-SHA512: 47df932979c7e018574b44006af96f9c1feab92203e12c7cc8df08fc5701ddc6f45b2726bc3ef878486bebbb8a115eba37485ec9ae449464b6df14e5613d51dc
+Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, swaybg, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
+Filename: pool/main/niri-meta/questing/niri-meta_0.22_amd64.deb
+Size: 10566
+MD5sum: 1aec352b426b079958fa5f647983be53
+SHA1: fab814f1f6a5ac4ae23fb560f9306876e11980e6
+SHA256: 971db2ae0ca7b1c8c80a229be86220e0b1a472370543cd897aea009f2a8a88aa
+SHA512: f2886f6821567bb7e1fd3c612330e4f7f2ae25e88627bdf34a5bd61f4450d71e25b8cea6063d34e7cfd09ca1816c58b4fc99095749b698312fe7c7cb72972dd0
 Description: Shell meta-package
 
 Package: niri

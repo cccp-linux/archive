@@ -384,7 +384,7 @@ Package: niri-meta
 Format: 3.0 (native)
 Binary: niri-meta
 Architecture: any
-Version: 0.21
+Version: 0.22
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -394,17 +394,17 @@ Directory: pool/main/niri-meta
 Package-List:
  niri-meta deb metapackages optional arch=any
 Files:
- e7b297c5835fc9ebaafb2b3cd94e1ef9 920 niri-meta_0.21.dsc
- 3c8569d084c1e79d9b553b4a6b140fb9 18072 niri-meta_0.21.tar.xz
+ d5448524ae2792f534eadd9d714c411a 920 niri-meta_0.22.dsc
+ 8ddfdb87963718eed8816dceaa1ae2ca 20672 niri-meta_0.22.tar.xz
 Checksums-Sha1:
- b0bef3a26abae85dc0b8e2ba22b7586e84612540 920 niri-meta_0.21.dsc
- 3673d607a5c289f00bfae023a94d53de54872f6a 18072 niri-meta_0.21.tar.xz
+ 2b785dbb8a8023d53a6e105bb559bc2804007cd2 920 niri-meta_0.22.dsc
+ 6d3387da62df8e8d539b61b8daa29c40225262de 20672 niri-meta_0.22.tar.xz
 Checksums-Sha256:
- 804953bf38a3f6e82a1aad527e3a12f39c69217ae77a3b9b6bd45aff507fdefa 920 niri-meta_0.21.dsc
- 3d1d28064122b10f6eed6d410d6ce3d9f91a8da1ce459cc7f0e7c81322a234c6 18072 niri-meta_0.21.tar.xz
+ 0b5c86a810bd19cd89f2615479615b0ac070d11eeec5f525b222cf80155784d6 920 niri-meta_0.22.dsc
+ 1dc006e8f19ce952214aea6e7752c38a880a4876cd7a39d2b727f7a54d186fd5 20672 niri-meta_0.22.tar.xz
 Checksums-Sha512:
- 1413ba93d9124d6436aea370de71ee094a769aa414183ce9df16567fe91a791ab3a55e1e7f0756cd8d0d8ab308ccc688796180093b076001d75506cfa6f15da0 920 niri-meta_0.21.dsc
- edf26a373fe431f80a9173fd74af5dfb4b2feef2af823324fc689555a7a1340ea9f102ac30a745226833ce0cf93e94431c78e05d5ca3bff31c0a1f0010181463 18072 niri-meta_0.21.tar.xz
+ 80315866ed91543754c6dab912861b88aebbe2315e8c6a314a919b9cae927e5e493130a353de249433d4f14d8bfe39a1b0eecbf39a8ecffbdf4159a265d2ffb8 920 niri-meta_0.22.dsc
+ 3cbc59d372d0674038ce91e268f769d05b7e16252f5c4ac3332c68c5aaa977fb459acb29581ce202b15fa367db8aaba4cbbe62e875f5e0c162d79521eb60ec88 20672 niri-meta_0.22.tar.xz
 
 Package: niri
 Format: 3.0 (quilt)
