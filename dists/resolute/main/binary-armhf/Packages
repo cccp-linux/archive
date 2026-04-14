@@ -114,19 +114,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.14
+Version: 0.15
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 33
 Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
 Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
-Filename: pool/main/dev-meta/resolute/dev-meta_0.14_all.deb
-Size: 6754
-MD5sum: 74b872335acb72a0d3f104f56e1a0955
-SHA1: 8f83484045f67be71e604174d3f0291f5d983931
-SHA256: bcc44f42933e9edfff2502dea134cbd045e08c4086c649a3bf4dd9ff85f74928
-SHA512: 81b485a00cf10203929b14e164997c4b2a105a6d0bb65f791f35bd358b3cf4394def63bc9600f038fc57a348c02991eadfd3394ddced0f02c3950953f6e4ee12
+Filename: pool/main/dev-meta/resolute/dev-meta_0.15_all.deb
+Size: 6812
+MD5sum: c3f32878f12a561bec749aeeb243db07
+SHA1: c2924b680c9e8ea0b950a8d85d9e8ee6e422bd88
+SHA256: 53c6de558711e5c85668e0128424e5dd1fb13a6cbd061e11b6463441e3f7114f
+SHA512: 78b3c2644e6e82552fe93d28793c0e9756ef1de485964fbeb3e9d7dc9f5c69880eaceb9c1db4d7432b6dbd8c3d73ec8498294eb4d7156640decfd7d39f924cd3
 Description: Development meta-package
 
 Package: fonts-courier-nerd
@@ -1010,19 +1010,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.21
+Version: 0.22
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 26
 Depends: alacritty, cage
 Recommends: fonts-courier-nerd, tmux, wl-clipboard, wlr-randr
-Filename: pool/main/term-meta/resolute/term-meta_0.21_all.deb
-Size: 4118
-MD5sum: af0bb73db19cebc6d129348695bddce4
-SHA1: 0a27f7211ee7353c9042049001cd1b47f1a679c7
-SHA256: 835ee2b3f5332b8c355882d87ad10c37ddc6b1820563f61886a341395cf1e1c4
-SHA512: e593eea4c6505cde22dffb4a4180cd91c095fe29decf9f4d6ab3b22ccf8820ef9a1472a0c68a8fa637d32e82965ef58422bc7f72a7f514b0966c09ee33b9cd63
+Filename: pool/main/term-meta/resolute/term-meta_0.22_all.deb
+Size: 4208
+MD5sum: d201cb7e9232e2a87cd3a1007627bf53
+SHA1: 79f9884e8da378c195d71d3cb4d006020c935d64
+SHA256: e52ed62be86236e796f619c545e62b63df3c9decca13f61f1f6e8a1e0e01da1e
+SHA512: 12fd9ec71387043ae45aad15fbbb1b8199cdad4bc4fb16d2b4ff4b682ed4973fba0d578ec7d55d10272365f8ad13004e93c95d99126340cfe25b44c284b7065a
 Description: Terminal meta-package
 
 Package: virt-meta

@@ -86,7 +86,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.14
+Version: 0.15
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -96,17 +96,17 @@ Directory: pool/main/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- 738c189048044c44b672381c205c7fec 912 dev-meta_0.14.dsc
- 951b5482c220294ef85f8b84d1567112 16812 dev-meta_0.14.tar.xz
+ f09c3d6dbf3bab2aae7256fa344a3e52 912 dev-meta_0.15.dsc
+ 77fcd68f2de5187ea28b94c899a02872 16864 dev-meta_0.15.tar.xz
 Checksums-Sha1:
- d2725da7469928a7a3b3a21baf3f1a5b6386a40e 912 dev-meta_0.14.dsc
- 50c9e2a5f4a13e920ceaec476bb1034881b448a2 16812 dev-meta_0.14.tar.xz
+ d0771b2ff5b9aa31a78c039fb96dc302dd393dbd 912 dev-meta_0.15.dsc
+ 557e343e08dc3d975294d9aaad229a280ef19596 16864 dev-meta_0.15.tar.xz
 Checksums-Sha256:
- 692c07544f8db570e3b8ecdc6af2b6c44a0c871c34d8a7a3823824b34144797f 912 dev-meta_0.14.dsc
- bf974b3c44f0bca837f55a44fb1a494c9e9d3f63ca4b7c079498f27bc3e2e4d8 16812 dev-meta_0.14.tar.xz
+ a37f7d7f6a34303d550fef289d00b0342f04ae652e813e4693499089546259bb 912 dev-meta_0.15.dsc
+ f1f7cad9e8ecd21c722b55b446dd0b9b054dd26c9005549bdee68e0fd39f3523 16864 dev-meta_0.15.tar.xz
 Checksums-Sha512:
- 6362f9fd65c1ba8116606292bcefe3a422865488edb0fdde3f9f4c9a1415f6224bd6e6362a6acb437482edbf753557207280aa967ad36636e4cb37e4e43d0795 912 dev-meta_0.14.dsc
- ff896d6867460b1f84db26823d8962a0ca419e8ca84b60d7c62e2a237ee5abcc5301b3f65b386342eefe70d27d67dd050969e032a2ed95af1a3653f0737d4099 16812 dev-meta_0.14.tar.xz
+ 5e08511cd7d44742cc44274dc0f26bb4e2a9c120f9cfad61966a6c60b7b6cd19bbfffe5ac650e0dc384716572f1abb3f368da096c69289fa3565fcb1be453c07 912 dev-meta_0.15.dsc
+ 0a12a6b5d6e9711aaadf2fa650124344bac68559dbec18b99258204cc12fd3b820ae222a72a19b187f963361d08aa2a013b3e3d3136e6dd2fb7372be9e6a6281 16864 dev-meta_0.15.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
@@ -569,7 +569,7 @@ Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
 Architecture: all
-Version: 0.21
+Version: 0.22
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -579,17 +579,17 @@ Directory: pool/main/term-meta
 Package-List:
  term-meta deb metapackages optional arch=all
 Files:
- 0cbe3ade11368537950360dee4d6b5b7 920 term-meta_0.21.dsc
- f6168edb7f6057328eef94e56724ed6e 14456 term-meta_0.21.tar.xz
+ f3a5106c4a2264936bb31d9b8fc1d53a 920 term-meta_0.22.dsc
+ 9775957a6cbf21698d3e954d00eb54e5 14536 term-meta_0.22.tar.xz
 Checksums-Sha1:
- 60f6b495c0585356887a98cbce187e6a3a855d28 920 term-meta_0.21.dsc
- cd0a19a54b7183cc60833dadc2a5c45eb3a59b54 14456 term-meta_0.21.tar.xz
+ 7695fe5d715f055580b00f311d12951c3569c75d 920 term-meta_0.22.dsc
+ 676879e75c9870dc7aa64c26e3328a71da27f88f 14536 term-meta_0.22.tar.xz
 Checksums-Sha256:
- a6ad1e658a2f51a3cad84ff8111325e1bc141b2925a64692a612b59332980f29 920 term-meta_0.21.dsc
- 5e7d422b570b791344c80effca062bb23568c4650ce44d57a2917b7b851b6b1e 14456 term-meta_0.21.tar.xz
+ 119c530cec28a0e760309c20e28b8ae3315a368c2b538d70f18128705a953967 920 term-meta_0.22.dsc
+ cf1b6a0545784d15eafc60fa66fda22ce8b231cb2a85d52d03f77b45b7b6e786 14536 term-meta_0.22.tar.xz
 Checksums-Sha512:
- f7414f332fbb4af022b9965a153a0e545802f9bdb1e95343f8d78422551b41137b8c041e57d518ba3aad0eb603b834323df334ba84781ba6eb61fd798688fcc0 920 term-meta_0.21.dsc
- 9998fe5c6fdc8d7ab867c08cdc04f99f0f85811111346bcb7195bcfe8b2f0ba8d8897adac1485d9f9af7702e1f6c6372c64b95ae5daa57763ce597ea6a72bc94 14456 term-meta_0.21.tar.xz
+ 36b3f6d20abbd1f0cc09af7d0fa64c31f1cc6b1f4a253261c7c8d055930a74b07b71fb6980464a916795db57f7aa205f16b2aa8cd247086351a51f3eb86df019 920 term-meta_0.22.dsc
+ da498fb5a6de1f56c8c300daa43501eeac9f113b591a0fab582135835ba2225171eaa081847ccd378af4fd255388565b99370d9d1070c27494123ad90569ccc7 14536 term-meta_0.22.tar.xz
 
 Package: virt-meta
 Format: 3.0 (native)

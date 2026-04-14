@@ -114,19 +114,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.14
+Version: 0.15
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 33
 Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
 Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
-Filename: pool/main/dev-meta/trixie/dev-meta_0.14_all.deb
-Size: 6712
-MD5sum: 80dabca9e277b99f972e499753141c54
-SHA1: 7528ff64565ff52cbfd9aab0aaf51c00d24279ec
-SHA256: 92136bb6f94d804d7e418450fccfb81dd39d46320a5985af41bd41248eab8206
-SHA512: 398a034bc85a117c7da5ce64f3a53ee8e3f3247110e5cf2f591d2b69948a2144d4c4fe8b61356c5201209d4cea4f5cf8a7d5ac865a26a8c46d71e3c22a650321
+Filename: pool/main/dev-meta/trixie/dev-meta_0.15_all.deb
+Size: 6780
+MD5sum: 4d62a36a4523bd7b513cd95cf41d07e9
+SHA1: c4b04f957f291f0b5680eda28fafe3448bd03995
+SHA256: c90e80624057089cf6a2cfcadb891008a9767d5f33d86dcf6487241dc2e8aa2a
+SHA512: 7d8938e8ff1f4ddbf2b67b11cfc6c2daeaf3e33f33a22b1adcd46ed8a06ae815317ebf0ebc0e73f1c1ce778ec0ea2e260611c2f4ea70b99b2d9d1372cdb5152c
 Description: Development meta-package
 
 Package: fonts-courier-nerd
@@ -1270,19 +1270,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.21
+Version: 0.22
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 26
 Depends: alacritty, cage
 Recommends: fonts-courier-nerd, tmux, wl-clipboard, wlr-randr
-Filename: pool/main/term-meta/trixie/term-meta_0.21_all.deb
-Size: 4156
-MD5sum: 77c5434c6c98d29cc1019a9267e06cf1
-SHA1: 40d18d1d0b0fc929ccb4c4bec3793120af0f670d
-SHA256: ebad3c65ec9687902e4111c446615ca64dccdae5369a737a3a8fc7a755942297
-SHA512: 2b7a45806cb9e80480053653d576ff70d3efeed5a4f7d1c9db21fb34bbf3ea0b590e0f51bcaf5c530fd6c0fca66a574b7d3c329848ee6f366123527b1608af7c
+Filename: pool/main/term-meta/trixie/term-meta_0.22_all.deb
+Size: 4240
+MD5sum: c9a15ef91f93dae5d68cea4915735cb1
+SHA1: 2b26276fe87a78ac28d46bbd3fbceaf24e9b6bcf
+SHA256: ba7adf7a1df6fb23ad7a4a875ca025732c04ac8ddfba3b27f9aa818d25535523
+SHA512: ba4164eef2b28eb5eb3be3044d2cbe97de9618593139a8b1d9bec5226257f88eb19a819cd2addffcc137c746c59d0ca194c1b74b61fba96bc33462ccb5bdb2e1
 Description: Terminal meta-package
 
 Package: virt-meta
