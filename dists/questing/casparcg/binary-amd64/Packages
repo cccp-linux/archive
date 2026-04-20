@@ -97,6 +97,81 @@ Description: The Chromium Embedded Framework
  .
  This package contains the CEF library.
 
+Package: glew-utils
+Architecture: amd64
+Version: 2.3.1-6.1
+Priority: optional
+Section: utils
+Source: glew
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 696
+Depends: libglew2.3 (= 2.3.1-6.1), libc6 (>= 2.34), libgl1, libx11-6
+Filename: pool/casparcg/glew/questing/glew-utils_2.3.1-6.1_amd64.deb
+Size: 122278
+MD5sum: 33fbd3a726e2496f17e285c97312b1dd
+SHA1: 54df305f1e616a8a47f441ca1f2fb8378d11487d
+SHA256: 7b6807e1f9e2d3bce77fd2375708e954b6a9955505c099c28475311fc526c9d7
+SHA512: 64917d7faf02673b7d9006267fc0f70b5e6fcab3c92286fc6b7cae8eb2588183f4924eebaaab73ca5256c9b65bc9fa59c67239e61c4b98ddbf875b3f1393e9da
+Homepage: http://glew.sourceforge.net
+Description: OpenGL Extension Wrangler - utilities
+ For more information about GLEW please refer to the description of the
+ libglew-dev package.
+ .
+ This package contains the utilities which can be used to query the
+ supported OpenGL extensions.
+
+Package: libglew-dev
+Architecture: amd64
+Version: 2.3.1-6.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: glew
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 2905
+Depends: libgl-dev, libglew2.3 (= 2.3.1-6.1), libglu1-mesa-dev | libglu-dev
+Filename: pool/casparcg/glew/questing/libglew-dev_2.3.1-6.1_amd64.deb
+Size: 305896
+MD5sum: f53e41d52b0a315f47dab4dbd5e42b4e
+SHA1: 9f36c8bc9a8c3115518b1b0372f1b9acbf372fbf
+SHA256: 0a7ffce4b8c5214dbbfa9c195c18bbf61a3d18386ea56f00dbca3764cb1c540f
+SHA512: e25a8573a85ea6a36468e156dbd95ad400f2db8b9fb198a3d211483fca8424110c05c740ccaa7e5ca846ac2e340bc69d78a4257a8df058d0929919f3d96aadba
+Homepage: http://glew.sourceforge.net
+Description: OpenGL Extension Wrangler - development environment
+ The OpenGL Extension Wrangler, GLEW for short, is a library that
+ handles initialization of OpenGL extensions in a portable and simple
+ way. Once the program initializes the library and checks the
+ availability of extensions, it can safely call the entry points defined
+ by the extension. Currently GLEW supports almost all the extensions
+ found in the OpenGL extension registry (http://www.opengl.org/registry).
+ .
+ This package contains the development documentation as well as the
+ required header files.
+
+Package: libglew2.3
+Architecture: amd64
+Version: 2.3.1-6.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: glew
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 793
+Depends: libgl1
+Suggests: glew-utils
+Filename: pool/casparcg/glew/questing/libglew2.3_2.3.1-6.1_amd64.deb
+Size: 177800
+MD5sum: e499cb54ba2b7f373543167488524127
+SHA1: 58422a402fcd322079b8f817c28d67ce09f985b4
+SHA256: 463119224b11b8f7bc973eca5900ee4c7f5bbe82537f3fe258cc61988f0c276e
+SHA512: cf75c368d0a59dc0f0c62e6630ce437bea033a17d7fa58216128a89d3c1804955f15cceab1cb359b1637868e87c92304093483ad57118816f2ddd2dabd4c63b4
+Homepage: http://glew.sourceforge.net
+Description: OpenGL Extension Wrangler - runtime environment
+ For more information about GLEW please refer to the description of the
+ libglew-dev package.
+ .
+ This package contains the runtime support files.
+
 Package: casparcg-server-2.5
 Architecture: amd64
 Version: 2.5.1~rc3-1
