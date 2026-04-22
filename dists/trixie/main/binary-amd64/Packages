@@ -1157,19 +1157,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: amd64
-Version: 0.22
+Version: 0.23
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 54
+Installed-Size: 62
 Depends: niri, waybar
 Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, swaybg, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/trixie/niri-meta_0.22_amd64.deb
-Size: 10352
-MD5sum: b126a95c7c13caafbe937ce781e66c33
-SHA1: 9787a483a8d112ae43b45ed2d818c4c67f569ce1
-SHA256: bc0556610ac717aa093d505d1d683cf70518ef7f2fc049fa01bf44768b4f572a
-SHA512: 20c38eb4571001267cac8817a8265b825864a1a5498419017766a49a58bdfd6babf8a677bc6d586612893c1df6b08053e83c2f5bfe2b34c221781d1fe620abc7
+Filename: pool/main/niri-meta/trixie/niri-meta_0.23_amd64.deb
+Size: 11420
+MD5sum: 2ca62e1fc98387e62f8f7806e17eff5a
+SHA1: 340f121ad7345990d9ef0283fac20fa620956da6
+SHA256: d1efae68ccdfa82accf63f8ccba81b2d6afafe816d2972663469a71ce45c03cd
+SHA512: f88aaa0866ea76d65744e3648fb61a7d2e84435b26faa3e50077e747bd9c5919ebbda1aef61705e60326fac40cd4792c46986a0715cd6790cbc5be881e4d69e2
 Description: Shell meta-package
 
 Package: neovim-web-devicons
