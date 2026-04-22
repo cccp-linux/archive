@@ -33,7 +33,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: any all
-Version: 0.37
+Version: 0.38
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -44,17 +44,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=any
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- 6bdde1afac74084fd23bb202d7c36e21 1009 cccp-meta_0.37.dsc
- c8081468f66441b3c81a20db71deebeb 17192 cccp-meta_0.37.tar.xz
+ 5fccbdae5e780cdecd7f234c116a5c2b 1009 cccp-meta_0.38.dsc
+ ecc188d27ec5861e6e2de18d9b651625 17184 cccp-meta_0.38.tar.xz
 Checksums-Sha1:
- 219f18768b21be1bfe13e5b178bacd8dc24472dc 1009 cccp-meta_0.37.dsc
- 66d1b00fdd6cbd7eaff5cdb5d07b8da946b6cf0f 17192 cccp-meta_0.37.tar.xz
+ 746814829b2a7dedbe1e985251fb4bec6f3114f9 1009 cccp-meta_0.38.dsc
+ 0f26dc1897d6109361dbf7b1f9d2f51d132a80d2 17184 cccp-meta_0.38.tar.xz
 Checksums-Sha256:
- e562673256defd01bc24736783204a49d53c705b241719addafd7a847a0c940c 1009 cccp-meta_0.37.dsc
- c6da12e60927cb1493f6882085ff094f9ce61ec5f089df805aa9020453398307 17192 cccp-meta_0.37.tar.xz
+ 3ccf3d1aac2003ce4abe5a2825e4c3ac84591a41ebf6fab4135bc87f51f6684b 1009 cccp-meta_0.38.dsc
+ d060654db79cb60b49ce8b1b11cc2a697fac3e948ee027ab4cd3e3791068d70a 17184 cccp-meta_0.38.tar.xz
 Checksums-Sha512:
- 60bc83a49a918f3d72469c9c17b4c3269c9004f1183a2f774aeb99082c892037619a5f2eec5f5888fc714f6bf46fac4a9980606749fc288e4a23a45d6a3d3ec1 1009 cccp-meta_0.37.dsc
- 8ffbf9188a2a940a09ef713eba1b844319bc71f9d5175210b978cb80f875b6e78c52621eefebfda76845e25bea35ea6fce943f763125d5968cdd2aeb19e75a85 17192 cccp-meta_0.37.tar.xz
+ 7ce569e230fff0789e7ba791256342683fde2b6a83472e0f068e93875a0f741fb4468d137eb2297773ef0beebf1c40e8cb904b797ff8b7a1006a021bace1ef92 1009 cccp-meta_0.38.dsc
+ 323ec61d61e55101e09e56c1fbf1d8bb0d9aca7fd7f8b874a92cf48a0c2d99cd6e66c36e8165dd7fe6686a63ae3053925f88f5a4c35f1bc820ca75af8169bbca 17184 cccp-meta_0.38.tar.xz
 
 Package: debchange
 Format: 3.0 (native)

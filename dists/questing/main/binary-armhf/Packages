@@ -22,7 +22,7 @@ Description: Performant, batteries-included completion plugin for neovim
 
 Package: cccp-boot-meta
 Architecture: armhf
-Version: 0.37
+Version: 0.38
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -30,30 +30,30 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, wireless-regdb
-Filename: pool/main/cccp-meta/questing/cccp-boot-meta_0.37_armhf.deb
-Size: 3174
-MD5sum: 0c07f187367bd9963f0c2d7a595cfaf6
-SHA1: a119f427f78b4254d1daf3e018a50262cd940877
-SHA256: 28cc69b9678c2e3821e4adf6446ba5750ee170e7342df8d7082f26d60998fe1e
-SHA512: 45bfefedfb2ff0fbc2870bcd37803a65e8639e75592de3d3ccdcf91d55f1e4dcb1117cad46c217821a7c92e6982199a708613d02a7a6fa72ae84c5e36905d74e
+Filename: pool/main/cccp-meta/questing/cccp-boot-meta_0.38_armhf.deb
+Size: 3212
+MD5sum: 77ed516ac78833f733d3cce0d7e0f646
+SHA1: 1581363a602684aa217129b2d0319a85b3fc23da
+SHA256: 25bf27ae4cc147c22e62af5bbbba88656fcf388002153a72eb7efee78e8f316a
+SHA512: fb14b8762dbf8e6b215b968aaa52c5377d545af609688bfb65b85a2fe5d97ba7438614fb5baa0cd2def3eb1fe816fd8d28e1e8e9580c5c7fa4664f45b8bebea8
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.37
+Version: 0.38
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 35
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, attr, bash-completion, bc, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/questing/cccp-standard-meta_0.37_all.deb
-Size: 6884
-MD5sum: 546556b53df5c3c27cb5ebd6f0217ce8
-SHA1: 0fc04e33c030ebb6580e65a87d40c51ca9ce0784
-SHA256: affad4e794ce56ef451ee57b9673eabc28891fcaf8c2250964e812c71fa3e561
-SHA512: 46e1ef23ff28ca6761f4b6d1866ee9ae860a5aa353cd828c54ccb9e2d62cee53dce7080dbba2b3b1c18a53f65edc804f2884d1aa9168f7f9823ee2ebb94c3566
+Recommends: acl, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/questing/cccp-standard-meta_0.38_all.deb
+Size: 6876
+MD5sum: 54b950df8cd37f15b82eeb0a32204192
+SHA1: 8f5e4d70259a5110e7470c697cb3a052f434cbc9
+SHA256: bb27e72e0d5bba3454ddf8d7c6fb49fa29f323936255023ac5ec3ae6c00aaedd
+SHA512: 18916c566dbb13a768824f618aadc508d9a8c17ccb49833ae94a1563e057fdacbf42d05f025f9e43198373af897a5c9a948627b385507612ab57e8dbac2b21e1
 Description: Standard set of CCCP Linux packages
 
 Package: dev-meta
