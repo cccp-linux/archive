@@ -1157,19 +1157,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: amd64
-Version: 0.23
+Version: 0.24
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 62
-Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, swaybg, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/trixie/niri-meta_0.23_amd64.deb
-Size: 11420
-MD5sum: 2ca62e1fc98387e62f8f7806e17eff5a
-SHA1: 340f121ad7345990d9ef0283fac20fa620956da6
-SHA256: d1efae68ccdfa82accf63f8ccba81b2d6afafe816d2972663469a71ce45c03cd
-SHA512: f88aaa0866ea76d65744e3648fb61a7d2e84435b26faa3e50077e747bd9c5919ebbda1aef61705e60326fac40cd4792c46986a0715cd6790cbc5be881e4d69e2
+Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
+Recommends: qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
+Filename: pool/main/niri-meta/trixie/niri-meta_0.24_amd64.deb
+Size: 11468
+MD5sum: 217be7549e61a57f0487ad3f068265b4
+SHA1: 1ffe3400333fd62e3aada8a935b153398cc7095f
+SHA256: 45982bd6702e78222513feb890f6d70b09983bee2ceed50890c4a9de55c8bd0d
+SHA512: effb50ba22103544d7d66cb524c2a1429d52de2909cc1dd582cf6dee27f25540cf247591ac53d56505a2d2bc11fe1ee57b935b742833ac85a9c6c492e50d5410
 Description: Shell meta-package
 
 Package: neovim-web-devicons

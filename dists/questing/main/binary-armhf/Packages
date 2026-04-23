@@ -135,19 +135,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.23
+Version: 0.24
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 62
-Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, swaybg, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/questing/niri-meta_0.23_armhf.deb
-Size: 11656
-MD5sum: 9510eda7e27a1f4bc2c2954cb951a9d7
-SHA1: d0587da357e010f42acfc2ac346d8a28a0cf65d4
-SHA256: 45ebb3b9d39fb995bd9e29745423e9797b47eb0a2c1266c811820d8b15ecd715
-SHA512: 8ece41abd68c6599b2e381a52087336f24a5a24583a9776b4ffa2322542b900a1562903ae2ed56787effec9a2f624b2817c9926c509a2beba9bdd8c8ef039a00
+Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
+Recommends: qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
+Filename: pool/main/niri-meta/questing/niri-meta_0.24_armhf.deb
+Size: 11706
+MD5sum: 92127ffb20b4642f3358fcad2b762f38
+SHA1: 789b750acde4905622de62703e2327ced86ec979
+SHA256: aa96ae00a10db38aac5ed0bfdad0408bde3281426ee3b277787197220083fa85
+SHA512: 2448068a9eb1ab66ad0f6841e3b335c095989f1d13b5520c0f07a3cc6f277bb8c39aae80e2c6f194744cea65f4d98ed63aa357032a4d14f79782f7bdf421a3c8
 Description: Shell meta-package
 
 Package: niri

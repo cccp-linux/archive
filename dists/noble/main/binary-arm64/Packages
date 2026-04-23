@@ -294,19 +294,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.23
+Version: 0.24
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 62
-Depends: niri, waybar
-Recommends: bluez, brightness-udev, brightnessctl, curl, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, swaybg, term-meta, udisks2, wireplumber, wlsunset, wpasupplicant, xdg-utils, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/noble/niri-meta_0.23_arm64.deb
-Size: 11656
-MD5sum: 5f361f287056a0c4f3e4fe422443d049
-SHA1: ca998a07f7bed47cdd8a171668c8816bc45bc8c9
-SHA256: f154ba973f832c54f493baacdcaf8023f40978b0fdc50b23609da1755ff8e938
-SHA512: ae7ab1a2c6dfd96182f555a3e8cb3463f2c5bba43ef58532e579c91c4eb9e12aa36d50e1e78aa0cd8950ef443eb13cdee557f6e9c514c8be9f48c066c2ed3b90
+Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
+Recommends: qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
+Filename: pool/main/niri-meta/noble/niri-meta_0.24_arm64.deb
+Size: 11706
+MD5sum: eb3dd2801ab7346aed18e8506aab899c
+SHA1: 84667867c40ad49f340e3733e2f9bd6c5d7cd673
+SHA256: 6023bbb1c8aad2b6e7f1d9fbf50f52333a0a382b6b3f6a1f9ab195cafac74b6c
+SHA512: 274148d75b41db9e2ffea5a6d607a49f9866034b6cd7eaae9e6cf46be87a3fd9eadbc7fa41cc7bb87a8a8de7ae26bfdbc8e7f75803449540c3bdd0d725af2e3a
 Description: Shell meta-package
 
 Package: niri
