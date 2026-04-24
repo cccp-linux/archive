@@ -1157,19 +1157,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.24
+Version: 0.25
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 62
 Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
 Recommends: qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
-Filename: pool/main/niri-meta/sid/niri-meta_0.24_armhf.deb
-Size: 11468
-MD5sum: 051ff31ff8592840dfd59dd42a2ebd55
-SHA1: c9c1a41143b6cbe45822616b98c87b5addd1a055
-SHA256: 84fc9d26eaf2c87e32425cd7ed0f9cd2180679ae19c342cd540a0eba91752551
-SHA512: 822bf56d79dde7f975986db5eb00d443fbdd5e8466d56e6745e37992917db59f462cde4eee7b6a83b183ef3c718b714f5a82006e65ed70c0f3f14a81d791bfbb
+Filename: pool/main/niri-meta/sid/niri-meta_0.25_armhf.deb
+Size: 11504
+MD5sum: 681993e5f511480a40668bd2e8e3511b
+SHA1: 17cc01c29a5969e7f9e11d7638564161276fb5a5
+SHA256: 2c38a12e19fba382c7fa5b935e5bc2afdbd3f5c9a36a503e99b4550f3d674de8
+SHA512: 5d0a861636660de822d5d76698003f952cedd55c4331a53ea4985cf3f8f6d20a0724e81fabbed99147e134afc6d83617f403fe5dc10a50eae00fae292de456d4
 Description: Shell meta-package
 
 Package: niri
