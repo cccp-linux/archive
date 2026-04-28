@@ -40,7 +40,7 @@ Description: Kernel and boot packages
 
 Package: cccp-boot-meta
 Architecture: arm64
-Version: 0.38
+Version: 0.39
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -48,12 +48,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-arm64-signed, wireless-regdb
-Filename: pool/main/cccp-meta/resolute/cccp-boot-meta_0.38_arm64.deb
-Size: 3214
-MD5sum: d38593fb0fd7dd4694143382b8d988c2
-SHA1: 60144381e2b040c629b6ca6c1192fd77bacd7555
-SHA256: af3df94c6905ccbdc2ef47c136a09ab96fef817b7f9c2baa08227c142fd3eb9a
-SHA512: 48f604e227787b5c53a666ba1b138847c0956717bedcfaaf34b3fdbac3fa9f6be79d11856ea8964567d01f669439f9fe46e4c228a6ccde0d7e72abc287167d15
+Filename: pool/main/cccp-meta/resolute/cccp-boot-meta_0.39_arm64.deb
+Size: 3238
+MD5sum: 4cb22791f147a3c4970cf80fb40b3d4c
+SHA1: 19ad84c9b7ff2a6b46f638646a67996b60dce7cf
+SHA256: 1aab5a621a34d824368e59bd918868e3b2e68e51e3da4dfd54d0551b1fa55d43
+SHA512: 09f5dddf9b6ae4af242c2e82008cf04420af674042420b8cb15f3da7a7f6448144c7237a7b9b5d0bc14e4d1d8d82591b05fc251094b33f061f71f6bbd49d1113
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
@@ -76,20 +76,20 @@ Description: Standard set of CCCP Linux packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.38
+Version: 0.39
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 35
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/resolute/cccp-standard-meta_0.38_all.deb
-Size: 6876
-MD5sum: 54b950df8cd37f15b82eeb0a32204192
-SHA1: 8f5e4d70259a5110e7470c697cb3a052f434cbc9
-SHA256: bb27e72e0d5bba3454ddf8d7c6fb49fa29f323936255023ac5ec3ae6c00aaedd
-SHA512: 18916c566dbb13a768824f618aadc508d9a8c17ccb49833ae94a1563e057fdacbf42d05f025f9e43198373af897a5c9a948627b385507612ab57e8dbac2b21e1
+Recommends: acl, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/resolute/cccp-standard-meta_0.39_all.deb
+Size: 6900
+MD5sum: 56d735349423afda41fb50501a84c97d
+SHA1: a2b56b36327253d9e9786a6f74e8a46c3bebdfdd
+SHA256: 720190e755d02e73471762d98c9261fb2f9cd4c1e7ba160b55d33cff3310008c
+SHA512: a0dcdeeff544da5054863fcb3f5bb330f28dcb904b57b3e1821c9b0173babec6091b8843922d58fbd91ccd7318677c4d5d65bd16a5aeeae04552b466d13761aa
 Description: Standard set of CCCP Linux packages
 
 Package: debchange
