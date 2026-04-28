@@ -289,6 +289,37 @@ Checksums-Sha512:
  ace4ff7f4a72d0eebf4e634351442a3d18e417a6b30f036c78f065ff9ecaf6347d1bc1766aea435a2e2d89c67373523c1420b0fce4f5955d7788cc5071c7dd2f 5110956 freerdp3_3.22.0+dfsg.orig.tar.xz
  8ff70643ad8af4803e9ec6e35c3250f8e3d8854a7718cc167c83e0d1383408b321a81f6470fdb7341232853b9606a9d7b8c68f3ce9133857cae04f6d9f9ca2f1 54120 freerdp3_3.22.0+dfsg-3.1.debian.tar.xz
 
+Package: gtklock
+Format: 3.0 (quilt)
+Binary: gtklock
+Architecture: any
+Version: 4.0.0.1-1
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Standards-Version: 4.7.1
+Build-Depends: debhelper-compat (= 13), meson, scdoc, libaudit-dev, libpam0g-dev, libwayland-dev, libgtk-3-dev, libgtk-session-lock-dev
+Homepage: https://github.com/jovanlanik/gtklock
+Vcs-Browser: https://salsa.debian.org/debian/gtklock
+Vcs-Git: https://salsa.debian.org/debian/gtklock.git
+Directory: pool/main/gtklock
+Package-List:
+ gtklock deb x11 optional arch=any
+Files:
+ a703dfba185cc91bccb84d4298049fa5 1324 gtklock_4.0.0.1-1.dsc
+ 96c15243cd5a0d38eb296b93f09992fe 57076 gtklock_4.0.0.1.orig.tar.gz
+ 9e4210de5a64b80b215f0fcae4f50769 2328 gtklock_4.0.0.1-1.debian.tar.xz
+Checksums-Sha1:
+ a04dab070f5951cdf56c9a92d7f14a7f35799c79 1324 gtklock_4.0.0.1-1.dsc
+ 0e4326e8692f8070e1a085552ef6d526fe202ac8 57076 gtklock_4.0.0.1.orig.tar.gz
+ 724b2e7485568b60d70c0bea75543e4c473d4a47 2328 gtklock_4.0.0.1-1.debian.tar.xz
+Checksums-Sha256:
+ 087810953d746cde9ae094e29a222624c23c5c6543bdbc16c855db2a96aa02de 1324 gtklock_4.0.0.1-1.dsc
+ 69ee46d9e535afcd9380a21bd576f3798b3073134a7eba8c824bab60bb7c8471 57076 gtklock_4.0.0.1.orig.tar.gz
+ 2826a49006b81455aa582cfa51d50719a763a8f596d89d8e6d6c6d49e927f79f 2328 gtklock_4.0.0.1-1.debian.tar.xz
+Checksums-Sha512:
+ 8c19571e01dd452941a3b3e55f5f728ed2354ddc3cebacd28f1c8d035416fa17df20eb5bf6c2c61b15082eadc204ee97d08b90d3f23978838b515c294a92560b 1324 gtklock_4.0.0.1-1.dsc
+ 8280047a50c173970fab594c15808cab19f4a79e8914dd03dc393eef801a9f4fe2a987441b1374fcbbc16426cfbff9f3172f2d596a84f6ea123fdfd26456fe1a 57076 gtklock_4.0.0.1.orig.tar.gz
+ 056d5655aad002c871054ad8b01de8fcf76eb5733b9ec5a0567a5435da64a30b3f2af26e7e9e3b5e807f186778c5dd9695afe9d0010a9cd7cb47e6cdcfa202b5 2328 gtklock_4.0.0.1-1.debian.tar.xz
+
 Package: neovim-lualine
 Format: 3.0 (quilt)
 Binary: neovim-lualine

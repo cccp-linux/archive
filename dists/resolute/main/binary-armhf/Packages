@@ -802,6 +802,26 @@ Description: Windows Portable Runtime library command line utilities (transition
  This package provides compatibility links for transition from winpr3-utils
  to winpr-utils.
 
+Package: gtklock
+Architecture: armhf
+Version: 4.0.0.1-1
+Priority: optional
+Section: x11
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Installed-Size: 98
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.4), libgtk-session-lock0, libpam0g (>= 0.99.7.1)
+Filename: pool/main/gtklock/resolute/gtklock_4.0.0.1-1_armhf.deb
+Size: 18936
+MD5sum: d0e4029e20f1b42bf5e942f48ae8f92c
+SHA1: 768a8214464d1f28311d10778386e36e4b7921fe
+SHA256: cdd2e68e23a011fd1d836974ea43405661e367a071e8b38e56c1cb26fec7835d
+SHA512: 6be8b4d1f079be93e62f4c32b7d34e5bdad0096c31a1c718f89572516c331dc571987a33446f16c999bae3123e21f72f5ef09e760f61035b1b7177df86748978
+Homepage: https://github.com/jovanlanik/gtklock
+Description: GTK-based lockscreen for wayland
+ gtklock is a simple but effective lockscreen for wlroots-based applications,
+ an alternative to swaylock. It features extensive configuration options and
+ can be themed using GTK themes.
+
 Package: neovim-lualine
 Architecture: all
 Version: 1:0.0.6+git20251123-2.2
