@@ -22,7 +22,7 @@ Description: Performant, batteries-included completion plugin for neovim
 
 Package: cccp-boot-meta
 Architecture: amd64
-Version: 0.40
+Version: 0.41
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -30,30 +30,30 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-amd64-signed, wireless-regdb
-Filename: pool/main/cccp-meta/questing/cccp-boot-meta_0.40_amd64.deb
-Size: 3258
-MD5sum: 6df321294530f700444b80e9c2bbd649
-SHA1: ab06acdda0ff307b95f04e1040441257eb10f068
-SHA256: af10d1a0a79b078a1852533f91dcd5d1e0ce3154b5a6b29d170ed3d328a36bad
-SHA512: afca7e56f8d19ce99ba5bb3ce920853afb285b26bd0d0077738c2a5b1dd490ec7e3dce5830534aa7fb1867381fc182e38947047c71542f0b30737f108d8417ad
+Filename: pool/main/cccp-meta/questing/cccp-boot-meta_0.41_amd64.deb
+Size: 3288
+MD5sum: 9bd55f2bd482d0c9fd935bdce98300d9
+SHA1: 1979f819c8017fbf28a295df2e08171a40007eee
+SHA256: 4e6d22903310d82057b6f4749fa895c33c406929da78b2f9e4d32fbff03385de
+SHA512: 5d7e532f48eef9a3896f2fc5134a346a0a061c699f91b0c5bc575b1a90f178a90385977dc597bbfa9bc797a00465f3e32e50664325f90cd7d3070086745524c8
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.40
+Version: 0.41
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 74
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, lf, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/questing/cccp-standard-meta_0.40_all.deb
-Size: 13230
-MD5sum: a39efe7614da6e219af3903d272c0c39
-SHA1: 429a6a97bccfb2a1ee371204ea6f9d28f116573d
-SHA256: 903d635c11a88a58fcfda71a9167f7e55979a4aef9c9d97a2e1df7d202a22456
-SHA512: bbc796321bd24b5c1b434cd1f08ac6e78169700b3bc748554abfa0bb468c63fc8ac4caf2f04b7da84839987aa8a267c32c557720c3ab9a0d86020c75dab6917a
+Recommends: acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, hxtools, iputils-tracepath, lf, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/questing/cccp-standard-meta_0.41_all.deb
+Size: 13272
+MD5sum: f51438b43f9e00490534282af142f45d
+SHA1: e8bd4ab47379ee0779c0a06cce90cd6976767a8b
+SHA256: ce96f00494f20792c4010dea762d3c7a9a6022440d772e2a6db68b1ad463ef0b
+SHA512: 338abce12bf1f215ce8cacbd41fedec22552e70e2f2f5de598148b500aea3467e854773f14991758fbd93ac783df892230c45edc7494057fe2736689be9ae95a
 Description: Standard set of CCCP Linux packages
 
 Package: dev-meta
