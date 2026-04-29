@@ -58,19 +58,19 @@ Description: Standard set of CCCP Linux packages
 
 Package: dev-meta
 Architecture: all
-Version: 0.17
+Version: 0.18
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 33
+Installed-Size: 34
 Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
-Filename: pool/main/dev-meta/questing/dev-meta_0.17_all.deb
-Size: 6996
-MD5sum: 33d19ef87343c68fc2286c1ae96d0d09
-SHA1: 5704fc5d4a8a6050e56680747b0963f8d38baf4f
-SHA256: ebce29499bbfcbbb5efe6257d58fdaaf6f0bd4de1f0bb6adab6ea29cae35e6a8
-SHA512: 54e9c100e481b0678fe578441500d3af4082e75221f3502ba24e6161ec2f1a1ccd40e44023847354aac968bf18eb4d6a5afe0405a48fcf34ad4146c3c40b146d
+Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, git-lfs, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
+Filename: pool/main/dev-meta/questing/dev-meta_0.18_all.deb
+Size: 7012
+MD5sum: 2f431075f9079a059f6ca230d055c931
+SHA1: a9a4994ed3d357adf4d6b05ff1ca2d3fdf0bef75
+SHA256: 78fc0e11d378f0aa20320e29624e26ae01a53623ff6c5fe5c4b90db4a7c2e871
+SHA512: 204f4582e311d348e538aade7bd73674c2c3b90bd8a5a0d702c41fa7442b4a4bdc6b03f1ae1ec173cfaa1efd7ee1c5d61b357e658656192c401ee8137819e249
 Description: Development meta-package
 
 Package: gtklock
