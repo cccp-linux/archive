@@ -40,7 +40,7 @@ Description: Kernel and boot packages
 
 Package: cccp-boot-meta
 Architecture: armhf
-Version: 0.39
+Version: 0.40
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -48,12 +48,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, wireless-regdb
-Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_0.39_armhf.deb
-Size: 3324
-MD5sum: 8caf67c556164e2f4376241a04dc4de0
-SHA1: 0c9fd88bdc7dc3ca749d9e5119dac79707579104
-SHA256: b7d7ad2ec4fc6f1992f7a3e810021db9ff759cf2e892e1e26bc5f2afe367fb01
-SHA512: c149ced9121593faa78c35803f193a13b2b8abf80d3b17c8b41c34f8641f147de20bb7661c585ab3847de6f0160fd56239e6c826febd7749334debd442248fc6
+Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_0.40_armhf.deb
+Size: 3344
+MD5sum: eb9cf24115fa6d0791551f13a6df7e4f
+SHA1: c0beb15e3603419fb5b032df69a87d4a60d747b0
+SHA256: c7f2662b192b325da22a31fbea56cb8f4e2241ace73bbf55809ad2d4874d74ec
+SHA512: d07b0d8f4f4ffb8fae6cad5ef34eb0dbb6500349cdeee987a5eb9df87e7f1c7a74bb6cf627abbbfa53412843925d5cfc45c898b338b1c37aec5e09fe13c1ac38
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
@@ -76,20 +76,20 @@ Description: Standard set of CCCP Linux packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.39
+Version: 0.40
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 35
+Installed-Size: 74
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_0.39_all.deb
-Size: 6856
-MD5sum: 110f6b843fd49258fb84155ebcb0fa9d
-SHA1: 6088343ae69c924188e43ac6dd3fe218a376c135
-SHA256: 6c8abc4b6f22b23a554167c413bb3fe3d0cdacd20187fca577c1b9a374e22c6d
-SHA512: 527f41d13ab9d879eda190722144b77ce02ad4cfc1d13baf218b183c2548a5de89f646c16b032c44ea245dd17b6cf5a90a03b56453279bb0b559a10a7d62fc2d
+Recommends: acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, lf, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_0.40_all.deb
+Size: 12564
+MD5sum: cb59daf7eaecb589a3d238419e7ea3b7
+SHA1: 5ecec54f75e21035722695a3d61fe906896422db
+SHA256: 69d385b7cbbf3a35ce55a5a568e0765100e62a6aaafde6af62ff92f26fc44223
+SHA512: 7bce59aff077198e39b61ce251aa31357482340fb47f62ecc8efd2ffb06d881c83e8e3a675dbd61e3faa50a837814f69ee52f6d97c57d4cc0ae50e0b95c53755
 Description: Standard set of CCCP Linux packages
 
 Package: debchange
