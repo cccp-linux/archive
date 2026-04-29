@@ -1115,6 +1115,22 @@ Description: GTK-based lockscreen for wayland
  an alternative to swaylock. It features extensive configuration options and
  can be themed using GTK themes.
 
+Package: libreoffice-meta
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9
+Depends: libreoffice-calc, libreoffice-draw, libreoffice-gtk3, libreoffice-writer
+Filename: pool/main/libreoffice-meta/trixie/libreoffice-meta_0.1_all.deb
+Size: 1756
+MD5sum: 487df7b6e328818fe361e704e2f0005e
+SHA1: 3f6ceae52fdde7db5051997af4078f470813f6f7
+SHA256: adf46aff7728410c4dd83e0713b316f5563cb68a8b52db8bf82dc701cf90558d
+SHA512: 8fba9233498cee8b4137127e377bb2dd9863feb2cc14058f66796c9fe8861ba02eda4e4fe7a0563b26de3bf607c9e1829ebcec787e85912dfecc1c3bec5214e8
+Description: LibreOffice meta-package
+
 Package: neovim-lualine
 Architecture: all
 Version: 1:0.0.6+git20251123-2.2

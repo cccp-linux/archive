@@ -320,6 +320,32 @@ Checksums-Sha512:
  8280047a50c173970fab594c15808cab19f4a79e8914dd03dc393eef801a9f4fe2a987441b1374fcbbc16426cfbff9f3172f2d596a84f6ea123fdfd26456fe1a 57076 gtklock_4.0.0.1.orig.tar.gz
  056d5655aad002c871054ad8b01de8fcf76eb5733b9ec5a0567a5435da64a30b3f2af26e7e9e3b5e807f186778c5dd9695afe9d0010a9cd7cb47e6cdcfa202b5 2328 gtklock_4.0.0.1-1.debian.tar.xz
 
+Package: libreoffice-meta
+Format: 3.0 (native)
+Binary: libreoffice-meta
+Architecture: all
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/libreoffice-meta
+Vcs-Git: https://github.com/cccp-linux/libreoffice-meta.git
+Directory: pool/main/libreoffice-meta
+Package-List:
+ libreoffice-meta deb metapackages optional arch=all
+Files:
+ 4f370c543d42ab70f25eca7ffb66bb32 969 libreoffice-meta_0.1.dsc
+ 92782289282697cb6e3126c9a193c8d3 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha1:
+ 5d3ad824a96913e8682b7afbf1160bc5e231ddab 969 libreoffice-meta_0.1.dsc
+ aac8afc2e3994bc3f0c67c727c5e2e0c732943e3 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha256:
+ 6b8edf9a92d19b11fb0984ccfd310d13f1b5dd19415816065d8eb2cb0ddcebca 969 libreoffice-meta_0.1.dsc
+ 7dc4fa6463fb0b33c202996a34c02e334a0757381096c865a3dc768dcfdc7f4c 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha512:
+ eb22474a4c985cfca788710f526912266473e078aed82f1540111d27a222ed22ca0f2098e912870c5a4942467671bbf676d4057a0e23a9de41562ecb2b9d5d25 969 libreoffice-meta_0.1.dsc
+ 7bb1a3d781420fc40ca707ac2be27b06451c9ee316bfe357e792602e0466cbdec664aa1a0a65ee136764ff6fb5e7b35de40bd6f94f2b72c2a459d9d883393d8a 1300 libreoffice-meta_0.1.tar.xz
+
 Package: neovim-lualine
 Format: 3.0 (quilt)
 Binary: neovim-lualine
