@@ -310,19 +310,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: amd64
-Version: 0.26
+Version: 0.27
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 66
 Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
-Recommends: qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
-Filename: pool/main/niri-meta/noble/niri-meta_0.26_amd64.deb
-Size: 12042
-MD5sum: 8106595dece66722964880b5bfb0ffc7
-SHA1: 135ed60d71456bf569eb4e69c008411aa50a69dd
-SHA256: 0394ab1ad4e9e95ea5041e4ecea890bc21426378c214958c786e555d0f9bb17c
-SHA512: dd4e91f1573fa3c4000fe8a12d1f58ecb74a04a1269a1bdbc14a052725bc3aea308c337636154b959344adcd49483a9eb56e713fdb819bce1f32bc982a3af441
+Recommends: graphicsmagick, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
+Filename: pool/main/niri-meta/noble/niri-meta_0.27_amd64.deb
+Size: 12088
+MD5sum: 8b5afe230df7f68b67b9c8d0bd1cbca6
+SHA1: eac540afe01cc0c1548fb5787d95fdf76ae2da0b
+SHA256: 2f0d84cf5f7cf79d2eaa04d5a183a10827817eb3a6c758d50e54f6d28085fd07
+SHA512: e0c49d96f892bcc238e9d3511ac0394e8b1e09b5c254070004fbc3d1e49003a09065b6d9b9b0b5f27e6915e2f52ef0fda57afbaaef2f43834862dbf7f1534c41
 Description: Shell meta-package
 
 Package: niri
