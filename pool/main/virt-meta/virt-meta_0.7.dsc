@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: virt-meta
 Binary: virt-meta
 Architecture: all
-Version: 0.6
+Version: 0.7
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Vcs-Browser: https://github.com/cccp-linux/virt-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  virt-meta deb metapackages optional arch=all
 Checksums-Sha1:
- feb9a42eb8ebbd290b82f454a6153773199bfd94 13428 virt-meta_0.6.tar.xz
+ a113dd33ae85c7c889aa96540dca6206424ac480 13608 virt-meta_0.7.tar.xz
 Checksums-Sha256:
- e3a6d206fbf340a8649258f4ff6fb79f5cac90a2bb23c16eff163a10f628aa04 13428 virt-meta_0.6.tar.xz
+ e0467dca79429139a77bc5d04cf2e01ea48c02465673c1a630a80f8a901cb972 13608 virt-meta_0.7.tar.xz
 Files:
- 5767a3e7de750c6630c91a510e5fda82 13428 virt-meta_0.6.tar.xz
+ 400608fdef454fc3ff2745acdb5e40c2 13608 virt-meta_0.7.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaZTsXgAKCRA6Vr9YT1rr
-J4y+APkB8jRQmvaMSvx3yvYbJ11hOTCnY42ePLKp7xg8m+XJ2gD+Nh2Nc5Pypi6F
-7xlhChQ+oPcTf8yOvZXE7mXV8K7bogY=
-=0A0k
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCafVNLAAKCRA6Vr9YT1rr
+J22+AQD/OuyMBvQwzS21hR5dl/9dkYRkaKi25V4K3ziy06YnQAEA1Vjvnl4D59Gx
+BHM7/kRYdrMS08+D794rsDYsGjhMPw0=
+=eT9q
 -----END PGP SIGNATURE-----
