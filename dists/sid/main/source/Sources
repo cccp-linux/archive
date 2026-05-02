@@ -652,7 +652,7 @@ Package: virt-meta
 Format: 3.0 (native)
 Binary: virt-meta
 Architecture: all
-Version: 0.6
+Version: 0.7
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -662,17 +662,17 @@ Directory: pool/main/virt-meta
 Package-List:
  virt-meta deb metapackages optional arch=all
 Files:
- 9c57d02640cd875a27dd00d760a37b5f 916 virt-meta_0.6.dsc
- 5767a3e7de750c6630c91a510e5fda82 13428 virt-meta_0.6.tar.xz
+ 026cf2be0121f82f4e3fd493a8cf45e1 916 virt-meta_0.7.dsc
+ 400608fdef454fc3ff2745acdb5e40c2 13608 virt-meta_0.7.tar.xz
 Checksums-Sha1:
- 4cd92825f329911b0a1a33727f5ec5cf4c349334 916 virt-meta_0.6.dsc
- feb9a42eb8ebbd290b82f454a6153773199bfd94 13428 virt-meta_0.6.tar.xz
+ d362adf10252efc29aeff38c77c21a4bb0cdf063 916 virt-meta_0.7.dsc
+ a113dd33ae85c7c889aa96540dca6206424ac480 13608 virt-meta_0.7.tar.xz
 Checksums-Sha256:
- b36505f2ee0fd7e87cdd2b014db7b90d66201f614e5af6d78b01c689dd2c4209 916 virt-meta_0.6.dsc
- e3a6d206fbf340a8649258f4ff6fb79f5cac90a2bb23c16eff163a10f628aa04 13428 virt-meta_0.6.tar.xz
+ 1ed0561de1f1dc1c58d69ad80ce13a2a0d550897cec7e64fde5efcdbf3c60627 916 virt-meta_0.7.dsc
+ e0467dca79429139a77bc5d04cf2e01ea48c02465673c1a630a80f8a901cb972 13608 virt-meta_0.7.tar.xz
 Checksums-Sha512:
- fdd7b78ba88f4dc589b822d9e7cdad7043f211d8f24b99a8c631c3311705ac507686b3f5b2e3400fa01744c040bbcbf766fcea04e6031f7a432cf122b7af77a0 916 virt-meta_0.6.dsc
- 1e29325e013d9b9c382da28ce3dd1d6e650b7d9d666839811a5d24fafefa9b050ed48e4d724de741628b00f19181d44e679dfcc0eed736e36a4dec83094a9312 13428 virt-meta_0.6.tar.xz
+ 9583b342c10da12fe06b4dcd0acc926498c4049847c14183e837f68fd7d37da941fcd2d37267019894be09aef6ac2c2a338d6b321c51a9b052dbd5efb33bee89 916 virt-meta_0.7.dsc
+ 2fd5ccf291cadcb5ba352df106c89a1a063cbd08cff00c13519fcab112825145e62e268a4a6dffed0e6801be4cbcfe7c879849f2f53bc07181c8b7a1ba65c9b7 13608 virt-meta_0.7.tar.xz
 
 Package: xorg-meta
 Format: 3.0 (native)

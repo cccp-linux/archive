@@ -1323,19 +1323,19 @@ Description: Terminal meta-package
 
 Package: virt-meta
 Architecture: all
-Version: 0.6
+Version: 0.7
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 9
 Depends: libvirt-daemon-system, qemu-utils
-Recommends: freerdp-sdl, fuse3, gvncviewer, ksmbd-tools, ovmf
-Filename: pool/main/virt-meta/trixie/virt-meta_0.6_all.deb
-Size: 2008
-MD5sum: b2c62c6b9bf05577a435e85ec62fae6f
-SHA1: 0d3f9498a56a37eb71c44fcea08c1379a09a4dfd
-SHA256: 9f3929a3ea9dbcc1427a52af4117ad2b701d95ae04b0f83c58419ef5c0862d97
-SHA512: 605adc6b53140deec2853c96fc00bd84cbe583fac1e3fa6e83dd5d1b007e133115b9c80b30c3ff50b224e557d32565acefc3c6b973b3a923d2c8ccd4cd5e7000
+Recommends: freerdp-sdl, fuse3, gvncviewer, ovmf, virtiofsd
+Filename: pool/main/virt-meta/trixie/virt-meta_0.7_all.deb
+Size: 2088
+MD5sum: af4fba351466fb27adc8dce4af85048c
+SHA1: c21471cc0946c39dddf6d7db6f16abb345493a3f
+SHA256: d95e4b028df483e147b91c6a167950eeb9d6839384b6aaab7b7cec7540e5cfd3
+SHA512: 15bb96b49792362e338b16ecaaf8cc633e7bcb1380fc9b80e40d5255ecfb48561e501b57b593a6205b835ae8a54ee4c6ad9dfc51335de36905c69fd0eb47b721
 Description: Virtual machine meta-package
 
 Package: xorg-meta

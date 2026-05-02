@@ -434,19 +434,19 @@ Description: Terminal meta-package
 
 Package: virt-meta
 Architecture: all
-Version: 0.6
+Version: 0.7
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 9
 Depends: libvirt-daemon-system, qemu-utils
-Recommends: freerdp-sdl, fuse3, gvncviewer, ksmbd-tools, ovmf
-Filename: pool/main/virt-meta/noble/virt-meta_0.6_all.deb
-Size: 1868
-MD5sum: fbe39b0a733bba38658dd0f947720854
-SHA1: de3c9c2f605dbdae83eff7598dfda74819a1acf8
-SHA256: 6cb7074e785cb2fc65ec4c9b5b255f62254ea1d86763d93089ffd7c2d7800bf7
-SHA512: 221475f337b993286bc28b37cffcd5012ae1849b44b385a19ba5d754bbf061e86795c6c14d6981ebaf4ad0599691e084b1e66acb4d247dfc778b495cd9947424
+Recommends: freerdp-sdl, fuse3, gvncviewer, ovmf, virtiofsd
+Filename: pool/main/virt-meta/noble/virt-meta_0.7_all.deb
+Size: 1952
+MD5sum: ca7f04394b0686e14673a108ee0c0b9e
+SHA1: 9cd9aa9400ddacb909cf10eb6749738e3a4408d2
+SHA256: d852e53340feabafa1104d8ac5054828f1c37273f52ad4d65efb26c6169c9e11
+SHA512: 80d07e1437efe1a8b990e2101b7eaa4fe73f17931021fa43de23018413665f10b6a501d7b1494dbf98d38dee427d3923fb8a0711ff453ccaf4f7dc67af514db6
 Description: Virtual machine meta-package
 
 Package: xorg-meta
