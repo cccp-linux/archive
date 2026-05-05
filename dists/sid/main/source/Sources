@@ -289,6 +289,37 @@ Checksums-Sha512:
  ace4ff7f4a72d0eebf4e634351442a3d18e417a6b30f036c78f065ff9ecaf6347d1bc1766aea435a2e2d89c67373523c1420b0fce4f5955d7788cc5071c7dd2f 5110956 freerdp3_3.22.0+dfsg.orig.tar.xz
  8ff70643ad8af4803e9ec6e35c3250f8e3d8854a7718cc167c83e0d1383408b321a81f6470fdb7341232853b9606a9d7b8c68f3ce9133857cae04f6d9f9ca2f1 54120 freerdp3_3.22.0+dfsg-3.1.debian.tar.xz
 
+Package: fzf-lua
+Format: 3.0 (quilt)
+Binary: neovim-fzf-lua
+Architecture: any
+Version: 0.0-2640-gcf4c-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://github.com/ibhagwan/fzf-lua
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/fzf-lua
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/fzf-lua.git
+Directory: pool/main/fzf-lua
+Package-List:
+ neovim-fzf-lua deb editors optional arch=any
+Files:
+ 353055ca5833ea9a30486aa8ad91c812 1330 fzf-lua_0.0-2640-gcf4c-1.dsc
+ 062dcb286c16046dd8d605d90ce9972d 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
+ 29066848e94fad5e3f3d5c3eb0629f54 1324 fzf-lua_0.0-2640-gcf4c-1.debian.tar.xz
+Checksums-Sha1:
+ 29a82235b03ed160448d6f4a2c1ee39f510f881e 1330 fzf-lua_0.0-2640-gcf4c-1.dsc
+ 2e4cdf0383d0b24c39dbb99df545b965f0e23a00 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
+ 8ed3b598fd081df33e38dc264634a540db58ba13 1324 fzf-lua_0.0-2640-gcf4c-1.debian.tar.xz
+Checksums-Sha256:
+ a289feccf7ad46eeaf5214ec8352bfe75ab577db73a513b48869060434d45d51 1330 fzf-lua_0.0-2640-gcf4c-1.dsc
+ bafddb93781cab683584d6b11d9e897408c0036da015c9c7cb51feb8f328aad2 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
+ 37e90fd0627c4f224f06666cd5b70899bc54b57d0fa1c0df8e0606467e7749a1 1324 fzf-lua_0.0-2640-gcf4c-1.debian.tar.xz
+Checksums-Sha512:
+ d8be965ad408596f839485575f4c5fdd37b7abd387355ebbaa3a755529db45c27b4c1e2c373fd14b71d736e387d7234db734538b5b6c2ec838cb5f0ac8c57fd0 1330 fzf-lua_0.0-2640-gcf4c-1.dsc
+ 006ef555baeb7a82aa1ff3c93a35e795f603aa130f683fa8e856390c2d1e30c378dd3f0c7f7909fca61b8765e71bff0063452789bd51c04890f729ae32cbfb60 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
+ 82be8f2a40a25ddf963d304ab4bfb2a7d108ff495ddf9ac20320c783bb8c47be83a672309139457751022942c646e8bf96a2fe65e270fc1137d4dbfc288b4f94 1324 fzf-lua_0.0-2640-gcf4c-1.debian.tar.xz
+
 Package: gtklock
 Format: 3.0 (quilt)
 Binary: gtklock

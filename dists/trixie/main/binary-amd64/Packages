@@ -1095,6 +1095,26 @@ Description: Windows Portable Runtime library command line utilities (transition
  This package provides compatibility links for transition from winpr3-utils
  to winpr-utils.
 
+Package: neovim-fzf-lua
+Architecture: amd64
+Version: 0.0-2640-gcf4c-1
+Priority: optional
+Section: editors
+Source: fzf-lua
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1301
+Depends: neovim (>= 0.9), fzf (>> 0.36)
+Recommends: neovim-web-devicons
+Filename: pool/main/fzf-lua/trixie/neovim-fzf-lua_0.0-2640-gcf4c-1_amd64.deb
+Size: 278284
+MD5sum: f8a7a7319c01cac70ddaf28d555a638d
+SHA1: 0833dda234f2c1a76026c84af46f2447c1d3f1d7
+SHA256: 41feec3105c234e565e69dac77a1f105e9f13af70d76aa0acab4aff1e1e68a0b
+SHA512: a1a907877d1268be2e2f6d0a7d8999903852aaf52e8923da395f5185ef531ac6649eeecf2f466317aa8ccf950b9e963a9c10c0fb72692bc409beabbbd3821a3f
+Homepage: https://github.com/ibhagwan/fzf-lua
+Description: Improved fzf.vim written in Lua
+ <Insert long description, indented with spaces.>
+
 Package: gtklock
 Architecture: amd64
 Version: 4.0.0.1-1
