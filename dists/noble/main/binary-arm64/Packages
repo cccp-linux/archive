@@ -233,6 +233,25 @@ Description: Monospaced addition to the Roboto type family
  The scale and weight of symbols commonly used as operators have also been
  optimized.
 
+Package: neovim-fzf-lua
+Architecture: arm64
+Version: 0.0-2640-gcf4c-2
+Priority: optional
+Section: editors
+Source: fzf-lua
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1301
+Depends: neovim (>= 0.9), fzf (>> 0.36)
+Recommends: neovim-web-devicons
+Filename: pool/main/fzf-lua/noble/neovim-fzf-lua_0.0-2640-gcf4c-2_arm64.deb
+Size: 282376
+MD5sum: 0447e08772c3e4b736f76a8e1f545820
+SHA1: 32fe12a62251bf07025051fa5d19e266fc5d9d17
+SHA256: 8c47f586a86d525d3d624bce3a9f7dd7d5c645c2f35ace581e50fcc6761da5c1
+SHA512: e98e7269ca9c0a241ae53fc1fcac9600396fc1cc00f0b82cd8ded4917b00537847e7506d422b6b2ec83f8b49d983c603641139e6df624ecb1e32d5e6e347f4bd
+Homepage: https://github.com/ibhagwan/fzf-lua
+Description: Improved fzf.vim written in Lua
+
 Package: libreoffice-meta
 Architecture: all
 Version: 0.1
