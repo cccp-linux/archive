@@ -114,19 +114,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.18
+Version: 0.19
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 34
+Installed-Size: 36
 Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, git-lfs, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
-Filename: pool/main/dev-meta/trixie/dev-meta_0.18_all.deb
-Size: 6964
-MD5sum: 6276cd620e6b6d879fc9114ee9d91843
-SHA1: 4368b06ecd592bdd2555ab6cca9d9a67629e6624
-SHA256: 2a400a9a58e891954d4f50619cd5dfbfe7baa9dcf4b011c291094c5035da72f3
-SHA512: e3fa2e4ef0eb4eded8ddec44e65fa0550af81fde076f23e592a54f184682867fe4b4b80cf5ce82215ff7f2d10b2db39cb2cdddfc27528938cd3dd633116b2246
+Recommends: bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, git-lfs, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
+Filename: pool/main/dev-meta/trixie/dev-meta_0.19_all.deb
+Size: 7228
+MD5sum: 90e190da5a43b9f59406e653d8d1f92c
+SHA1: 5b539dbf1dfb4a98652f3f937bd6b3965750b2e8
+SHA256: d434c1d2781b474aeaae89a7c03e74e31ad59e61eb5cce438dc6168e52a2f594
+SHA512: 667a2e4bd669afb639bc5d44e4ce927841f32e057c38f403b7c8047122443a86deca3db72d498d4c3d86da3cc20901f5e10fae33f3775ffda7927399b96d3fe8
 Description: Development meta-package
 
 Package: fonts-courier-nerd
@@ -1094,26 +1094,6 @@ Homepage: https://www.freerdp.com/
 Description: Windows Portable Runtime library command line utilities (transitional package)
  This package provides compatibility links for transition from winpr3-utils
  to winpr-utils.
-
-Package: neovim-fzf-lua
-Architecture: armhf
-Version: 0.0-2640-gcf4c-1
-Priority: optional
-Section: editors
-Source: fzf-lua
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 1301
-Depends: neovim (>= 0.9), fzf (>> 0.36)
-Recommends: neovim-web-devicons
-Filename: pool/main/fzf-lua/trixie/neovim-fzf-lua_0.0-2640-gcf4c-1_armhf.deb
-Size: 278284
-MD5sum: a27645f67296cb8381399822ddc9f4f1
-SHA1: f907970bc28dfc56317ed52ec066147a027c666f
-SHA256: 5c9e58253f2cd0f08bf0ab1e0e526363c4849ae1b6e41a9ddfb73a31a19bb8b9
-SHA512: 20871d32f33646bd3b06398e57adb59b66a424b778d1bf91baf84e4763febce84a6c55f3c00fec4b0f486c48ac07d6ee51e132e81f73c9d6bd7e89afcfedc560
-Homepage: https://github.com/ibhagwan/fzf-lua
-Description: Improved fzf.vim written in Lua
- <Insert long description, indented with spaces.>
 
 Package: gtklock
 Architecture: armhf

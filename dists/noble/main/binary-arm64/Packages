@@ -114,19 +114,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.18
+Version: 0.19
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 34
+Installed-Size: 36
 Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, eatmydata, flex, git-credential-oauth, git-lfs, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
-Filename: pool/main/dev-meta/noble/dev-meta_0.18_all.deb
-Size: 7012
-MD5sum: 2f431075f9079a059f6ca230d055c931
-SHA1: a9a4994ed3d357adf4d6b05ff1ca2d3fdf0bef75
-SHA256: 78fc0e11d378f0aa20320e29624e26ae01a53623ff6c5fe5c4b90db4a7c2e871
-SHA512: 204f4582e311d348e538aade7bd73674c2c3b90bd8a5a0d702c41fa7442b4a4bdc6b03f1ae1ec173cfaa1efd7ee1c5d61b357e658656192c401ee8137819e249
+Recommends: bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, git-lfs, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
+Filename: pool/main/dev-meta/noble/dev-meta_0.19_all.deb
+Size: 7298
+MD5sum: fd33f7c62931fd8f9711cfaebc194b7b
+SHA1: ba890f984006aefe6b649aeaa41976e8817afce8
+SHA256: 7b03b2069d27f9b44aebe002da0fd4239e49cdd0daef988786b75442b59532f8
+SHA512: 406da6f6780a7cb9c197ec850f6775c44ebcdaa193c0cf24aad46d50abfbfc581ca6a803ac99cd6aef1f2dca9ce931a7c390894f61a6e961471351add5a28000
 Description: Development meta-package
 
 Package: fonts-courier-nerd
@@ -232,26 +232,6 @@ Description: Monospaced addition to the Roboto type family
  .
  The scale and weight of symbols commonly used as operators have also been
  optimized.
-
-Package: neovim-fzf-lua
-Architecture: arm64
-Version: 0.0-2640-gcf4c-1
-Priority: optional
-Section: editors
-Source: fzf-lua
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 1301
-Depends: neovim (>= 0.9), fzf (>> 0.36)
-Recommends: neovim-web-devicons
-Filename: pool/main/fzf-lua/noble/neovim-fzf-lua_0.0-2640-gcf4c-1_arm64.deb
-Size: 282370
-MD5sum: ddfb28176089a8c67e64477b0aa163a1
-SHA1: a8964574da89354eafae4187d286ddd93d45c67d
-SHA256: 98b93375b032a4f8c42883b5303c76ad6c0069b913a9c35297fc70277376288b
-SHA512: 8580d18d68d9aabdd922e1325843955dd7cc720ef539f6ef42b5ba2e0e67e34d8bc2fe23fe937413b9d56287899852b4d45318163e196399d5c383aa762448f5
-Homepage: https://github.com/ibhagwan/fzf-lua
-Description: Improved fzf.vim written in Lua
- <Insert long description, indented with spaces.>
 
 Package: libreoffice-meta
 Architecture: all
