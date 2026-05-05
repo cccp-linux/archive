@@ -1193,19 +1193,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: amd64
-Version: 0.27
+Version: 0.28
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 66
-Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
-Recommends: graphicsmagick, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
-Filename: pool/main/niri-meta/trixie/niri-meta_0.27_amd64.deb
-Size: 11812
-MD5sum: ab7507642dbb843af2154eda1199a132
-SHA1: 2ca40a4855a8a8d86b9c22b623b85d63259042ea
-SHA256: afa4023a9af153019cbedaac0b74fbba438ce41d552c3510ba400ee61530eba9
-SHA512: fcd855656d5708e2601cbb4939b5f83d36b105167d52bafafee657d27e668559dbc86f31e3036187b2e91069472a1190b7830658ceda255610f2970808a0787b
+Installed-Size: 69
+Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libgtk-3-0, libgtk-4-1, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
+Recommends: fonts-cascadia-code, fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
+Filename: pool/main/niri-meta/trixie/niri-meta_0.28_amd64.deb
+Size: 11964
+MD5sum: a332069f1838356c5832280e09eec19a
+SHA1: 041b434c6328691f3380eae0b4a891f28bdad356
+SHA256: 416abbde75fae8fd880b3b0df9b1587bef42466fc2f49dd1530f8709e1cd905b
+SHA512: a54b340aec12f77f41f50f285e8a238ee527493ccfcde9a9d5e505c32f4ec660fd25c2d85189a91fc0149b55f69ca1dd6e46a6e12c93733259b276cb9cece362
 Description: Shell meta-package
 
 Package: neovim-web-devicons

@@ -1193,19 +1193,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.27
+Version: 0.28
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 66
-Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libgtk-3-0, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
-Recommends: graphicsmagick, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
-Filename: pool/main/niri-meta/sid/niri-meta_0.27_arm64.deb
-Size: 11812
-MD5sum: 7fdd6c4af7d360c07c8832e2834dcda3
-SHA1: 6f8da911770d5e8380e086fb71e88e26eeb37713
-SHA256: 25da41540b14fb26a139a7dc024a0737ad179d6a89f2b4e7d86a85e75a16bea4
-SHA512: 9766593e4717e139a47588128f976cef837e73e36cb39cc9ca4bf14862a5565bef641e1fa58c223aad0f66f8803174471556d8c2c0aaf3c4a537a8ebb5278332
+Installed-Size: 69
+Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libgtk-3-0, libgtk-4-1, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
+Recommends: fonts-cascadia-code, fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
+Filename: pool/main/niri-meta/sid/niri-meta_0.28_arm64.deb
+Size: 11964
+MD5sum: 0660006c8d796e9f0e761912e14fcec8
+SHA1: 4b9fc8e836e576809e96aa942033510b2b3d5d72
+SHA256: ca0644059ee809457bcb63919fae0ea65128db0b2fe8fd92a8b005701d42b86c
+SHA512: 5a8cf457a9fb7ee9b1dc76d22368b6aa9161198aadd72e184cb4390a00131c08525f674819d168e6226ff449fd08017d9e1811e6a85dd93d84fb476a4d15fdad
 Description: Shell meta-package
 
 Package: niri
