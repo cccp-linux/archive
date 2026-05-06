@@ -1212,19 +1212,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.29
+Version: 0.30
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 69
-Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libgtk-3-0, libgtk-4-1, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
-Recommends: fonts-cascadia-code, fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
-Filename: pool/main/niri-meta/trixie/niri-meta_0.29_arm64.deb
-Size: 12004
-MD5sum: e843b01485eaa98276b7fa18bf5443a2
-SHA1: 38d5dde91e0b8ba66bd045fecade535be81a7e6a
-SHA256: 901e8d30cfb79662a9264f1a1f546c6baf93c3a394a716a77262705487cadd98
-SHA512: bbc79f1525402d388fdf3fe1e5ad27a02faa9625f3c80008f19e5d4c4e8f69368464494a1806e14750054cba663966f0979cfb94696765469b756c22e24cbe42
+Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
+Recommends: fonts-cascadia-code, fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
+Filename: pool/main/niri-meta/trixie/niri-meta_0.30_arm64.deb
+Size: 12068
+MD5sum: aeed2b9c330af049ae660803b652b077
+SHA1: f38b038abbf0dbbecde4f6c4485e4dc8e9ad6589
+SHA256: a804cc9a9cc84695f721bcd2704b59480269b3ee7563e2311b05f53e69ed79dd
+SHA512: e56456c126d05955247df19a618df200129ab8dac4b1945fc288dffd95db820eb5b1deb2e13ec135520fcd4d53be9608359d615e3674252dd56dc51ea52b0e1f
 Description: Shell meta-package
 
 Package: niri

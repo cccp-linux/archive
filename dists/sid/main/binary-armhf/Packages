@@ -1212,19 +1212,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.29
+Version: 0.30
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 69
-Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libgtk-3-0, libgtk-4-1, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils, yaru-theme-gtk, yaru-theme-icon
-Recommends: fonts-cascadia-code, fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite
-Filename: pool/main/niri-meta/sid/niri-meta_0.29_armhf.deb
-Size: 12004
-MD5sum: 720506c44df120a769e14ad0c1eb8dc7
-SHA1: a6c487d84f7bd9bceffb6ecf80e3df3582d9941c
-SHA256: 010f8c1221aba4ef71ce27c2cd0142cc610b05d404cb587749dd9b26dab31ae1
-SHA512: d7712bd258655b16d7614aab42d0fc689d2e4b402323b68d09bbba096689a67ad4697a352bca428e86ac520ee7376ab887b88306888465d59a4984d3683303bb
+Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
+Recommends: fonts-cascadia-code, fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
+Filename: pool/main/niri-meta/sid/niri-meta_0.30_armhf.deb
+Size: 12068
+MD5sum: 27055e648cfa2932a936dfbaf4262a76
+SHA1: 5710b2b5866098ce858c2cb65c36bb04a3c06650
+SHA256: 43d6656cadd75e6ae8bdb35062fbeab76ec0f0f9b221ed04f281b61e8f4cb929
+SHA512: 82975b76f7236c0d2676291d10c713e04c26daa353e7a71c9f5a413d4f7d9365cd52ea31f0556c062b5a7bfcfb4141ae7668c49a313a3e28556b785788d0d2a4
 Description: Shell meta-package
 
 Package: niri
