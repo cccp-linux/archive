@@ -1212,19 +1212,19 @@ Description: NightFox theme for neovim
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.31
+Version: 0.32
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 69
-Depends: bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
+Installed-Size: 68
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
 Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/sid/niri-meta_0.31_arm64.deb
-Size: 12064
-MD5sum: a70480b15845aadb191a11edd4903f7f
-SHA1: 675f9d907eaf1616348473f54af84287f92de579
-SHA256: bd485065fe48f84bee14be3aeeeab0fe9da6afa88c70f255f1282163eae05fa4
-SHA512: d7202d2a22cfe9808b783c238249de646d5d3589d35345a76359836d9e0b27200dd3a2f07750a3b914b7206adc48675fdb87edb8179494a139c328413a7d6103
+Filename: pool/main/niri-meta/sid/niri-meta_0.32_arm64.deb
+Size: 12528
+MD5sum: f5b2828081a92fcf4b4f8ccc04abccd1
+SHA1: 77fdbf1dd42cb6c6d456db918df6f164242ee740
+SHA256: a980a5f1b5275364ec9d35dcfc7ac00a0269a1653797b83c03016e208971f6a7
+SHA512: 253ffb5bb5ad3b2ee4ec89c6f919de7f03a3ee47b2fd3c024cb3d38e4d84d4d31c9f3d531c249a8bb7b0926e246fe523bafe221d9ef7e50e39480e77b7eee8ed
 Description: Shell meta-package
 
 Package: niri
@@ -1358,19 +1358,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.23
+Version: 0.24
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 26
 Depends: alacritty, cage
 Recommends: fonts-courier-nerd, tmux, wl-clipboard, wlr-randr
-Filename: pool/main/term-meta/sid/term-meta_0.23_all.deb
-Size: 4264
-MD5sum: a193b4f0e34479b4d6705dfe213bc190
-SHA1: 270416d8c7f01a37d59a386d2c8a2124a98794e4
-SHA256: 5c24077999664b819ba70f988f42364759324d904ef658079a3c0b6017a11c94
-SHA512: 4a21c5b27b433411f2509a02486d24c5e6f3b23653b98a53a60fd7c4d89ac7d83f6695f4c48e7eb02d066561bcf082d841cd49d814554ebe217ea89fa81afaec
+Filename: pool/main/term-meta/sid/term-meta_0.24_all.deb
+Size: 4312
+MD5sum: a6e34d60c3b3bc9d157a7660181b2266
+SHA1: 0c23563ccb3ed4a9650edddd325958d8cfc1513d
+SHA256: a79495fb343eea12a9b79519269e7e52615f83058916ad269e2caa0680dfeb14
+SHA512: d1237ea415d161d507369420fbd9256ccca5de3195695cf44dfa7a423fbec35fbccf211917465144d79bd131d82bd06b7fa5ec279f139aaea1887b6624b710d2
 Description: Terminal meta-package
 
 Package: virt-meta

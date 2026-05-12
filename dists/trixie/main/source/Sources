@@ -472,7 +472,7 @@ Package: niri-meta
 Format: 3.0 (native)
 Binary: niri-meta
 Architecture: any
-Version: 0.31
+Version: 0.32
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -482,17 +482,17 @@ Directory: pool/main/niri-meta
 Package-List:
  niri-meta deb metapackages optional arch=any
 Files:
- a90cdee6208e0d70349d3952b8c366fe 920 niri-meta_0.31.dsc
- 06ab64ed1b78e6140783b0a41af88f63 22156 niri-meta_0.31.tar.xz
+ f302772bec7801edbefcfe222b57a294 920 niri-meta_0.32.dsc
+ 0323b74ef97a1a4d0091906ea70fcb3d 22492 niri-meta_0.32.tar.xz
 Checksums-Sha1:
- dd79190b05a582a1808082c437ce862f96c42da1 920 niri-meta_0.31.dsc
- ced76e658ab115845a45d8cb5021791418773ed0 22156 niri-meta_0.31.tar.xz
+ 051c0d1e40cee262388ae7152e18abb138ef79fa 920 niri-meta_0.32.dsc
+ f5b09b96bb07f7b56bdec670b67a0c4a338fa52d 22492 niri-meta_0.32.tar.xz
 Checksums-Sha256:
- 06cf505249668b1309618afd4cdfa7b8204f386ce8c7c1777a26eea7fb392f26 920 niri-meta_0.31.dsc
- b4b013949f7396f56e9347a52b5c540b40a389603c02e5b7c2fa3e89470ddf42 22156 niri-meta_0.31.tar.xz
+ d6747023a7f1e964f6c844e644c80fe1ff9e19142b5a276b777aa15034f5b14a 920 niri-meta_0.32.dsc
+ 1de99651e0c7aa87a03e3b1028e0c952dfc3347c488ee6dc601e1bd43e72295e 22492 niri-meta_0.32.tar.xz
 Checksums-Sha512:
- 6cd70dce86eb7fbe51754e7dc0bd32f382f1ae287ccb048e46f4623b056f715b7255c009814c74f99ba4791146c83003430bf970946b59823b4f5343b6a7336f 920 niri-meta_0.31.dsc
- 553fea01874089da293c454dd7f8c594230954415c028167c2668495cc5aea080dbec8f0a047d618fe123def0ff07dec63daf2e48d495e9206a0c44675fe9471 22156 niri-meta_0.31.tar.xz
+ 1d8032ebeebc570b4bc4d0443401fbf1a6455c632fb7bc4df64ecaf0e0d3a14956cb2e1c54a4251865c3f93bc82a477f39b2523aaf29011599b2b30522b87ec6 920 niri-meta_0.32.dsc
+ 062c3d4e049c0576fabe00fea069cf1361b6429b76009d89e6281f0a342e2c25b6447c19fe5a9773778803f30c039716e934d3faaab754afe223ac7987330aa7 22492 niri-meta_0.32.tar.xz
 
 Package: niri
 Format: 3.0 (quilt)
@@ -657,7 +657,7 @@ Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
 Architecture: all
-Version: 0.23
+Version: 0.24
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -667,17 +667,17 @@ Directory: pool/main/term-meta
 Package-List:
  term-meta deb metapackages optional arch=all
 Files:
- 8397429c05de12960e2238e180cebd3a 920 term-meta_0.23.dsc
- 41ef2f7d33b34e4dc2416e35c5a309c1 14568 term-meta_0.23.tar.xz
+ ee02f2198684d375b48c14c8ea9f2c54 920 term-meta_0.24.dsc
+ 3561e22a077e43d34cfc8239084192e5 14608 term-meta_0.24.tar.xz
 Checksums-Sha1:
- 8ea19630e2d450bec15a996b3b9b3f6158643b10 920 term-meta_0.23.dsc
- cf3c2ce32bcdb1fcc899d25cf5609bd7a3d40b7e 14568 term-meta_0.23.tar.xz
+ 11d70b0e372fa2c0bb1654894136ee8c229e7afb 920 term-meta_0.24.dsc
+ dc079c86df0e64dbab31619ef14f24b7361f170c 14608 term-meta_0.24.tar.xz
 Checksums-Sha256:
- cea5faf4756f1edfac8423edd1ef3ea0c981d58b37ab379ae96cdc53b0c18d41 920 term-meta_0.23.dsc
- 91efe3073d84ea3545c5c42aa77d90da546fd2d58a80b0e748397240757f9922 14568 term-meta_0.23.tar.xz
+ e9736b407f913cca942e340e1261d75881dea6eae68804d6134ab307656d5f85 920 term-meta_0.24.dsc
+ 95e7608af6cd2514305e773278094edf5b79744b9609501a85ffe804e9d54525 14608 term-meta_0.24.tar.xz
 Checksums-Sha512:
- 369bb4a4e2ce5469cb624ef5e560d5177a9c221886830725549f958eb176d8c945691f221eecfd78f31f06d62d12ed1c401669aad845655d8a9fdec4ddff7bb3 920 term-meta_0.23.dsc
- 131828dec8db0d178132b75361068aa3ff65bb2eaa0e826f034394940164dc0c8fda1ddecadccedf31cd61242a0ac35a2453bf7fe2c89cc50b812771cd122ace 14568 term-meta_0.23.tar.xz
+ ab0564ce286d571dda24d42dbd65215ff0f7c2c103137974efbf33d6c072d0d30a860e272644754afd50b933658db9cd56b3d48f55e5d4d07695ec01625dd1bb 920 term-meta_0.24.dsc
+ eec2d9f6fc716b78c2988bc25e171507cd86251b9dca8ba26308e82180c57a5db1cf2b97c33964dc80a5f04ed5a936bfc60d1e34ed7522880220c397e178b91c 14608 term-meta_0.24.tar.xz
 
 Package: virt-meta
 Format: 3.0 (native)
