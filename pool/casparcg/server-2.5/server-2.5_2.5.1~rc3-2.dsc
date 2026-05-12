@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: server-2.5
 Binary: casparcg-server-2.5
 Architecture: any
-Version: 2.5.1~rc3-1
+Version: 2.5.1~rc3-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://casparcg.com
 Standards-Version: 4.6.2
@@ -16,18 +16,18 @@ Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Checksums-Sha1:
  12fd32954ee3eb0476e7c357acefcf86ddbd6454 1019818 server-2.5_2.5.1~rc3.orig.tar.gz
- 49f14d7ef4a552b87b8c12163fe58549cc7da68c 88448 server-2.5_2.5.1~rc3-1.debian.tar.xz
+ 0616952a1d9e81d5490e12e3114b0119b4e42b21 88468 server-2.5_2.5.1~rc3-2.debian.tar.xz
 Checksums-Sha256:
  1fa7cb1ecb9d0de6a7e66a7f521943e143f6a372e28ce6140e3ccd3b07254929 1019818 server-2.5_2.5.1~rc3.orig.tar.gz
- 0441a3a254298d3f9e1079b461d05409de57036d6aa97f4610f055bada229907 88448 server-2.5_2.5.1~rc3-1.debian.tar.xz
+ 5a38c652985f5163a949db2e6c6db1f778c04458db9faea84ab76b98c26dd17b 88468 server-2.5_2.5.1~rc3-2.debian.tar.xz
 Files:
  189eea364badcf8f3ce86294395d4123 1019818 server-2.5_2.5.1~rc3.orig.tar.gz
- 9e4ad185763e0f90a0bc33fe5a14af3c 88448 server-2.5_2.5.1~rc3-1.debian.tar.xz
+ 398fe19dbbb2b1623b88fada1f6a322b 88468 server-2.5_2.5.1~rc3-2.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCadRYlwAKCRA6Vr9YT1rr
-JwJMAQCPErspHAYWPNo0lMIx0aAxaIaz7JR6U9YrvdO83MrPpQD/SBnxbnhW14Ap
-KW4OWgNl4qPsZvp4XmZNxL/wvkJlUgY=
-=o9X3
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCagOYuAAKCRA6Vr9YT1rr
+J5IDAP9C3Mf5Pwg62yNej7hT+QuwT73tVJNMbhZxFeBgERYVEAD7BAOEz466hD3i
+4dw8zSGOjEhElfmpq/KgqoKh7rXQOwA=
+=m/aj
 -----END PGP SIGNATURE-----
