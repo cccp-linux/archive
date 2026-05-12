@@ -40,7 +40,7 @@ Description: Kernel and boot packages
 
 Package: cccp-boot-meta
 Architecture: armhf
-Version: 0.41
+Version: 0.42
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -48,12 +48,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, wireless-regdb
-Filename: pool/main/cccp-meta/noble/cccp-boot-meta_0.41_armhf.deb
-Size: 3282
-MD5sum: 0d988bd9f2101a3cd7f126764381974b
-SHA1: a94fe6ac13b285ff3d22aee6438c5840dda35764
-SHA256: 9329b43b03f1d48b62199f3a68b7d6ff68d62f73c8d797723e6ceff191a32931
-SHA512: b69201993eca225bbe0ee48a81cb6032481cb050cd6b0e1c4f179594e4654bea2170f4f735cc4ecbec01326d4bfb4adfd505781025b941e7983585c454f12dd7
+Filename: pool/main/cccp-meta/noble/cccp-boot-meta_0.42_armhf.deb
+Size: 3336
+MD5sum: dd3b422d0f500408ba15c0dcd1eeda9c
+SHA1: 03e8c20aeed2a994e07572b6a83fffe06345490b
+SHA256: 05468db5b8ab1cc7e5dcc02bb959bcd8d5654ccb71c39b7024f2bda82ef45350
+SHA512: 7fdd63991e26fa2e4dc51da8a37dae25e232549bcf66ebf104c7c16b669d0e10558afcc9b653cc058f2ead1e1530e451142932158a3b83cf4bf23b79fcc75a29
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
@@ -76,20 +76,20 @@ Description: Standard set of CCCP Linux packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.41
+Version: 0.42
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 74
+Installed-Size: 75
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, hxtools, iputils-tracepath, lf, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/noble/cccp-standard-meta_0.41_all.deb
-Size: 13272
-MD5sum: f51438b43f9e00490534282af142f45d
-SHA1: e8bd4ab47379ee0779c0a06cce90cd6976767a8b
-SHA256: ce96f00494f20792c4010dea762d3c7a9a6022440d772e2a6db68b1ad463ef0b
-SHA512: 338abce12bf1f215ce8cacbd41fedec22552e70e2f2f5de598148b500aea3467e854773f14991758fbd93ac783df892230c45edc7494057fe2736689be9ae95a
+Recommends: acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/noble/cccp-standard-meta_0.42_all.deb
+Size: 13448
+MD5sum: 3dca8bf51cd2ab82bfcf87aaf79a7a58
+SHA1: 53d8884b2158476f7f55359941852c5d2bb5c201
+SHA256: 97e2f74ff827b99d8901b0a41b047baeea1f70820eb0763b48a9bf2ac58d90e0
+SHA512: 04ea118163a40e55bae08ac4bb869ba983135c9b07e98bdcf3df2ab5e1f111714839ad72e87516e259655a613af0034bd9cbb132287294e972ce67a73128a01b
 Description: Standard set of CCCP Linux packages
 
 Package: debchange
