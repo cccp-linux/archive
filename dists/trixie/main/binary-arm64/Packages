@@ -1175,19 +1175,19 @@ Description: fast and light statusbar for neovim
 
 Package: neovim-meta
 Architecture: all
-Version: 0.11
+Version: 0.12
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 27
 Depends: neovim
-Recommends: neovim-blink-cmp, neovim-fzf-lua, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/trixie/neovim-meta_0.11_all.deb
-Size: 4900
-MD5sum: cbdd73fc31be265cea92dab4fc6b154d
-SHA1: ce6458f3517e8c87f2eb2ac4d8a9821fcabbeec4
-SHA256: b40969f6af31ac7e28a563d9092e078941327fb0d4359313cba76df832c533d5
-SHA512: 77caa8d66853d92c1a45ce957322dfb024859a6fd24eb638d495347a453fd04858f448bb0ebac54081bd383a6be0e13acb64ef3d9f053cbdcb8ab1b7f70d685e
+Recommends: neovim-blink-cmp, neovim-fzf-lua, neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-web-devicons, neovim-which-key
+Filename: pool/main/neovim-meta/trixie/neovim-meta_0.12_all.deb
+Size: 4972
+MD5sum: 3e90db8fcfbff5734e9b3f8d2c2e86a1
+SHA1: d49c0c6327f42deb5fafd02c2a5f0df48e28beff
+SHA256: 44458a9c4ee2ab21e957ed310618bee1a140c8466b6040bc97404dc3d5c7a605
+SHA512: a572240d130f5808bd6815b1c734bb55eb5a0fcbb0680e0b1f4ae681ccb7dbec15d47ffaea406f083f29c65fc4f2769ffd07176f86e756a78b5ad467647a69b2
 Description: Neovim meta-package
 
 Package: neovim-nightfox
