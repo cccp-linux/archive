@@ -174,20 +174,20 @@ Description: OpenGL Extension Wrangler - runtime environment
 
 Package: casparcg-server-2.5
 Architecture: arm64
-Version: 2.5.1~rc3-1
+Version: 2.5.1~rc3-2
 Multi-Arch: foreign
 Priority: optional
 Section: video
 Source: server-2.5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 5055
-Depends: libavcodec62 (>= 7:8.0.1), libavdevice62 (>= 7:8.0.1), libavfilter11 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libboost-chrono1.90.0 (>= 1.90.0), libboost-context1.90.0 (>= 1.90.0), libboost-filesystem1.90.0 (>= 1.90.0), libboost-locale1.90.0 (>= 1.90.0), libboost-log1.90.0 (>= 1.90.0), libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4build2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-system3.0 (>= 3.0.2+dfsg), libsfml-window3.0 (>= 3.0.2+dfsg), libstdc++6 (>= 14), libswresample6 (>= 7:8.0.1), libswscale9 (>= 7:8.0.1), libtbb12 (>= 2022.3.0), libx11-6, libcef142, libcef142-data, sensible-utils, x11-utils
-Filename: pool/casparcg/server-2.5/resolute/casparcg-server-2.5_2.5.1~rc3-1_arm64.deb
-Size: 1429980
-MD5sum: fd064f27b3dd585a56a9fa0710ad8e59
-SHA1: fd9d9499802ffea2c471ce7c324692be094af135
-SHA256: 0b24f8fff4cfe3e87264bd6e657c48e94c28a459ce60e3c72104109f13553d82
-SHA512: 728ba2edf4a1f5aa76d54900406ae5dc67aecdb6fbe2fad47768e113cfc80a0da85e14db136be8b99be9488597b54c7702287e8a0fc88372fc76af3fdfdec572
+Depends: libavcodec62 (>= 7:8.0.1), libavdevice62 (>= 7:8.0.1), libavfilter11 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libboost-chrono1.90.0 (>= 1.90.0), libboost-context1.90.0 (>= 1.90.0), libboost-filesystem1.90.0 (>= 1.90.0), libboost-locale1.90.0 (>= 1.90.0), libboost-log1.90.0 (>= 1.90.0), libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.3 (>= 2.3.1), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-system3.0 (>= 3.0.2+dfsg), libsfml-window3.0 (>= 3.0.2+dfsg), libstdc++6 (>= 14), libswresample6 (>= 7:8.0.1), libswscale9 (>= 7:8.0.1), libtbb12 (>= 2022.3.0), libx11-6, libcef142, libcef142-data, sensible-utils, x11-utils
+Filename: pool/casparcg/server-2.5/resolute/casparcg-server-2.5_2.5.1~rc3-2_arm64.deb
+Size: 1429996
+MD5sum: 9f064efa481209502c800156c03c0f07
+SHA1: 32960ec3bd546c268f3b5882a37adbaf2e13ad2c
+SHA256: 093146991c7c148bc566a0c1c97cb477af222e2fbbd9558702d903b22718c213
+SHA512: 2d3de3705b49b76e5f6785cae841f4b97ebf7ceef1b508c9e061d5957de9cfbc34359fe8a2ab9e00cecb92fbfde00322d7013cf1659bcd116aa6334582c607f8
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
