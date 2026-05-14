@@ -172,6 +172,28 @@ Description: OpenGL Extension Wrangler - runtime environment
  .
  This package contains the runtime support files.
 
+Package: casparcg-server-2.5
+Architecture: arm64
+Version: 2.5.1~rc3-2
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Source: server-2.5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6750
+Depends: libavcodec62 (>= 7:8.1.1), libavdevice62 (>= 7:8.1.1), libavfilter11 (>= 7:8.1.1), libavformat62 (>= 7:8.1.1), libavutil60 (>= 7:8.1.1), libboost-chrono1.90.0 (>= 1.90.0), libboost-context1.90.0 (>= 1.90.0), libboost-filesystem1.90.0 (>= 1.90.0), libboost-locale1.90.0 (>= 1.90.0), libboost-log1.90.0 (>= 1.90.0), libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3), libglew2.3 (>= 2.3.1+dfsg2), libopenal1 (>= 1.14), libopengl0, libsfml-system3.1 (>= 3.1.0+dfsg), libsfml-window3.1 (>= 3.1.0+dfsg), libstdc++6 (>= 14), libswresample6 (>= 7:8.1.1), libswscale9 (>= 7:8.1.1), libtbb12 (>= 2022.3.0), libx11-6, libcef142, libcef142-data, sensible-utils, x11-utils
+Filename: pool/casparcg/server-2.5/sid/casparcg-server-2.5_2.5.1~rc3-2_arm64.deb
+Size: 1585076
+MD5sum: 2a0a218b798f49ceefb47ef83157ccc2
+SHA1: 108dfb55c0ad4aebb8c166e14400ac6b9552630d
+SHA256: 6fe57a7f515d24222a27cdb67e75e54a02e4d0e8a5051ee8027e5c375191d0fe
+SHA512: 068cc8447837ed6e1d69847727d9cedb50a754e708fa391e0c419bbde9de5afcc93d93272478b48c52df8db9b4b733f6597a8c13746ad2beb98f6bb88aa2972c
+Homepage: https://casparcg.com
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional
+ graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+ production since 2006.
+
 Package: casparcg-server
 Architecture: all
 Version: 2.5-1
