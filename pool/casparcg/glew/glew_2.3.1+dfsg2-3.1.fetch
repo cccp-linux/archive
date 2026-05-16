@@ -1,4 +1,0 @@
-#!/bin/sh
-d=$(dirname "$0")
-p=glew_2.3.1+dfsg2.orig-auto.tar.gz
-wget -cO ${d}/${p} http://deb.debian.org/debian/pool/main/g/glew/${p}
