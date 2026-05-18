@@ -207,20 +207,20 @@ Description: Shell meta-package
 
 Package: niri
 Architecture: armhf
-Version: 25.11-8
+Version: 26.04-2
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 23137
-Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info2 (>= 0.2.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Installed-Size: 23139
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info2 (>= 0.2.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.75), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
 Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
 Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
-Filename: pool/main/niri/questing/niri_25.11-8_armhf.deb
-Size: 6737760
-MD5sum: fd9a3d8a9bd222b9dcb1ad2b0395b005
-SHA1: cc5ff7da92096852938a304011b98a8786cd7129
-SHA256: f749e5ef4dc6d3d8acaa3a3b568490e6d9faf273053261b39bce1332e6836c49
-SHA512: 4f3fbce5a0d1f3d6a75531333ef4227f4c7a13eea0ffa1c2769c3b14b68985791183ae1a04a226cfa98d432013754351ebfdbf4ca4563dfc9878114f85107a8c
+Filename: pool/main/niri/questing/niri_26.04-2_armhf.deb
+Size: 6796732
+MD5sum: 2cf67841d1d92f36257b8725f7bcde68
+SHA1: 1f52907ea6e1a4eec270a6f4173a6af7214fad85
+SHA256: 18a2011c8730859cdc4d79e6105141ecd9bf2954b2d379aefa540775d3571409
+SHA512: 1fb637d5dac6845663c29246b6fe33ce1ffc96c35d9e829cf8e98245a095094ae0b1068b7eee7d15e9145e7078acd6a8ff1bf489030f7be0b590d1f3719b384a
 Homepage: https://yalter.github.io/niri
 Description: A scrollable-tiling Wayland compositor
  Windows are arranged in columns on an infinite strip going to the right.
