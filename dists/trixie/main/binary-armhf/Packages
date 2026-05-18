@@ -1227,6 +1227,39 @@ SHA256: f0c77f5492b7462c72fc50c44d9d3d65e119962ee6e98cfd0375224b751ddcb4
 SHA512: 0f17994d37892479590e75de43b81e24df0f960ce6a3881d8a8f4dc58eb663719972d10d4293920c6af632dcfd1ac3a41c9b988810d27164406d1e1d4255ad1c
 Description: Shell meta-package
 
+Package: niri
+Architecture: armhf
+Version: 26.04-4
+Priority: optional
+Section: x11
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 23139
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info2 (>= 0.2.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.3), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.75), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
+Filename: pool/main/niri/trixie/niri_26.04-4_armhf.deb
+Size: 5764268
+MD5sum: aa5e41560fdfdb8be67f9a7ece1d8b99
+SHA1: 183b99099772a563dce274e95b410fd4058794a9
+SHA256: 07fbb4a38f9a1e848e895c6e36294454c2d4e7faa14d5ade4795e36e7bc153c3
+SHA512: bdedeba103be4466b029f2cc00ab17b2bd88d8dadcaafa2ccc12f8fba12feb36b4618d5776b60436cd3442e9b97d0ab2a983118b7bedc8bfb41d19976967ec43
+Homepage: https://yalter.github.io/niri
+Description: A scrollable-tiling Wayland compositor
+ Windows are arranged in columns on an infinite strip going to the right.
+ Opening a new window never causes existing windows to resize.
+ .
+ Every monitor has its own separate window strip. Windows can never "overflow"
+ onto an adjacent monitor.
+ .
+ Workspaces are dynamic and arranged vertically. Every monitor has an
+ independent set of workspaces, and there's always one empty workspace present
+ all the way down.
+ .
+ The workspace arrangement is preserved across disconnecting and connecting
+ monitors where it makes sense. When a monitor disconnects, its workspaces will
+ move to another monitor, but upon reconnection they will move back to the
+ original monitor.
+
 Package: neovim-web-devicons
 Architecture: all
 Version: 1:0.100-100-gd746-2
