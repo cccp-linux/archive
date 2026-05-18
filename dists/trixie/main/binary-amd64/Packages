@@ -112,6 +112,23 @@ SHA256: 218b923efe3ea79ee7194ceee9125c892c928593216fb80c5e118ed7b72ad419
 SHA512: 815d91f831d6f0a0a9d23b9249686275dd94ca338455fb2697b796279d680845f8ec6aae09e7f1b4512933d6c0472dcfefbcbfe97b6912f9ca1f0213afbe7ff6
 Description: debchange (aka dch) script extracted from devscripts
 
+Package: dev-meta
+Architecture: all
+Version: 0.20
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 36
+Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
+Recommends: bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, vim-fugitive
+Filename: pool/main/dev-meta/trixie/dev-meta_0.20_all.deb
+Size: 7268
+MD5sum: 5855e690139e56010ab09bb6e4b2965c
+SHA1: 29ea023ca303d0774639cf5c5d7ae7c20b8927e0
+SHA256: 92d92d0bc51ec712d8fad7d006619f9aad8a32359bd94ebb8fef098f5660428f
+SHA512: 2a61c72f5216138209f1b8274fdcace10ef1eb8934288d789d642352704d92857336317e10b0684df846bfd8bfcd6eef76995bc22d6c7062ebd500da9e74c581
+Description: Development meta-package
+
 Package: fonts-courier-nerd
 Architecture: all
 Version: 2.2-2
