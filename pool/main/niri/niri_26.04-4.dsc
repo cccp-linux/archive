@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: niri
 Binary: niri
 Architecture: any
-Version: 26.04-3
+Version: 26.04-4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://yalter.github.io/niri
 Standards-Version: 4.6.2
@@ -17,20 +17,20 @@ Package-List:
 Checksums-Sha1:
  494b18e4b8372293110afc64017b08db001a3535 40263284 niri_26.04.orig-vendor.tar.xz
  1ccc5acfa05a9d34b708e1d60de6baf37d7161f0 967630 niri_26.04.orig.tar.gz
- 8cbdb207a5996e0117c572b73ebcb7cfa2625a43 7128 niri_26.04-3.debian.tar.xz
+ 7d242a6487955d3c1220eea47e6394e7cb17d694 7164 niri_26.04-4.debian.tar.xz
 Checksums-Sha256:
  407c525cd78710e72455c48741756857ca47dc32910a42f82cd40992a34beed6 40263284 niri_26.04.orig-vendor.tar.xz
  134c602d8e0d53413a52d6cd58f9ce7e79a07d03288ee0a51ba1abd5db1b1ad9 967630 niri_26.04.orig.tar.gz
- ebfe266068ca52e4d2c8c399ff68af7bbca9dc9e22754366387666480d487f53 7128 niri_26.04-3.debian.tar.xz
+ 4bde8002e3f9cc0e54250b9214186605fcb8c1f9a35e0c05ddfddf33ebd3a56b 7164 niri_26.04-4.debian.tar.xz
 Files:
  9f151890d91f9a5780dca869fbeb5679 40263284 niri_26.04.orig-vendor.tar.xz
  cea62fd43268e1ea4cc96b5a788b5bc4 967630 niri_26.04.orig.tar.gz
- 9495333bbd5ad4a590bbe398862443e7 7128 niri_26.04-3.debian.tar.xz
+ 80cfa54ac02cbfa39407485cd8f6e053 7164 niri_26.04-4.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaguP2AAKCRA6Vr9YT1rr
-J5yKAQCVkvRC7PI2NYEb7IZiAxtZ+MFrV5pSINTGw012oQ6SpgD9HVx6InKrTYHJ
-5mLYjfp3zniQ/PUaywHJEwWslt0Mmw0=
-=yFd2
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaguW7QAKCRA6Vr9YT1rr
+J11BAQD/3TUoE8hLng/KCPgEk3lb68l/8AfBBLLQzhPvvSYROAEA80VBTVIXp1ms
+/jJk4jj8ZCoOjpqcjLi5yOWu971BBgM=
+=MbkM
 -----END PGP SIGNATURE-----
