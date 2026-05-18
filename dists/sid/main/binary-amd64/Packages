@@ -1407,39 +1407,20 @@ SHA512: 30577c9d227ee9792caa053243a3e4861337c9e96b4859e19933c13c1eb6e3e913d4ca50
 Description: xorg-meta
  X11 meta-package
 
-Package: xwayland-satellite-dbgsym
-Architecture: amd64
-Version: 0.8.1-1
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: xwayland-satellite
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 3083
-Depends: xwayland-satellite (= 0.8.1-1)
-Filename: pool/main/xwayland-satellite/sid/xwayland-satellite-dbgsym_0.8.1-1_amd64.deb
-Size: 320100
-MD5sum: ccd03bd33314dc082e3035431912cfbe
-SHA1: 31aeec19efc6b18d3c4607db4077c41afdf96d9a
-SHA256: 21eb81155c13cdb08937049b8732692f77177c708ec556504782b18a10f14df0
-SHA512: 423a584ed91daac28329fe5eba861f17edce2c3971e42a5ada7cac444a906e9172e16fc8262265d63501704989e172b6b97112f9789e94de45e335e50ecab20b
-Description: debug symbols for xwayland-satellite
-Build-Ids: ae909f86e69f502ed90a11fffb27a178acc48e10
-
 Package: xwayland-satellite
 Architecture: amd64
-Version: 0.8.1-1
+Version: 0.8.1-2
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 5548
-Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), init-system-helpers (>= 1.52)
-Filename: pool/main/xwayland-satellite/sid/xwayland-satellite_0.8.1-1_amd64.deb
-Size: 1486188
-MD5sum: 74d3a6cde4074069c7467839b9526aff
-SHA1: 28ad60a6052e90819e7c65fb68a18712aac8f128
-SHA256: 34c5f62f583852ad7315be52fce7289749879a2f11946b00e0eb4429d9178ec8
-SHA512: af116bef1d7276950764253585be4e03634feb0b72231b86b2937e49ce77765b074f32a65f7c8b1f0c2b83308b7ebbef7cc3895d00a6cf281e4800ab250dbf39
+Installed-Size: 5412
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), xwayland (>= 23.1)
+Filename: pool/main/xwayland-satellite/sid/xwayland-satellite_0.8.1-2_amd64.deb
+Size: 1463236
+MD5sum: 2768df3c7a1a69407dbe0a954c7af5fc
+SHA1: 8676a3eefd7788ed9e1770ae1835c10165b1fc2c
+SHA256: 029d4f5a53bfc907ed819cadda9aa97d9ebf6dfc2329f8622d2d74baf517d877
+SHA512: 6a3671669d209614f5e063ca7cbb8499ed87bf375fa644530a47af325b8470fad0e00202ed0f8990ce261089ddeda7d7fc333ac94c7c6e10899a4ca913aa1504
 Description: Xwayland outside your Wayland
  xwayland-satellite grants rootless Xwayland integration to any Wayland
  compositor implementing xdg_wm_base and viewporter. This is

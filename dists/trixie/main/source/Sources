@@ -735,7 +735,7 @@ Package: xwayland-satellite
 Format: 3.0 (quilt)
 Binary: xwayland-satellite
 Architecture: any
-Version: 0.8.1-1
+Version: 0.8.1-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.83) | cargo-1.83:native, libclang-dev, libxcb-cursor-dev, libxcb1-dev, pkgconf, rustc:native (>= 1.83) | rustc-1.83:native, xwayland (>= 23.1)
@@ -745,23 +745,23 @@ Directory: pool/main/xwayland-satellite
 Package-List:
  xwayland-satellite deb x11 optional arch=any
 Files:
- 0c14f9b6c5df0ff76394b8839f3a4ecd 1748 xwayland-satellite_0.8.1-1.dsc
+ e9f87285db746dcef4e5ed2cbec94416 1748 xwayland-satellite_0.8.1-2.dsc
  a9fcfc77e7a1d0ed72ec861ca317f085 15242661 xwayland-satellite_0.8.1.orig-vendor.tar.gz
  0fc0bfb8fc259b8d989bfe7630f7842a 213937 xwayland-satellite_0.8.1.orig.tar.gz
- b3bffb44e9958f04b41fbbdaf9c0c1a8 2548 xwayland-satellite_0.8.1-1.debian.tar.xz
+ 4bde7b0a0d959b8b3c7cd893dc55a030 2596 xwayland-satellite_0.8.1-2.debian.tar.xz
 Checksums-Sha1:
- 91208c022d877921b099733cd1aaf1cfd9dad32e 1748 xwayland-satellite_0.8.1-1.dsc
+ e924b5ffb15545af4edec8feda4a080cd3169347 1748 xwayland-satellite_0.8.1-2.dsc
  7aeb62b441f61343ff7a9c788026f15a0cb88c8c 15242661 xwayland-satellite_0.8.1.orig-vendor.tar.gz
  ba6d7e78905dc249025374e0b2d2e5f7a4defbda 213937 xwayland-satellite_0.8.1.orig.tar.gz
- 4d4303d7bba4541b029d571b9e0bec2d837b05c3 2548 xwayland-satellite_0.8.1-1.debian.tar.xz
+ c55a5b8f3c50550ad87c0205e90d88a0b3692923 2596 xwayland-satellite_0.8.1-2.debian.tar.xz
 Checksums-Sha256:
- 8d1c29c11de618203908817f8a8ed0364d678d695e6b71e4d8cbcfa340950322 1748 xwayland-satellite_0.8.1-1.dsc
+ 8a3684a97c9c087c5cdc89719b3c040bd4a67b9cc88e007e6eaf42e0d5d529be 1748 xwayland-satellite_0.8.1-2.dsc
  1896ed123d9c14aa3f1de354ac136f0308f16a26345d44598c5f18bb037efade 15242661 xwayland-satellite_0.8.1.orig-vendor.tar.gz
  44d4ed941f99b88be6655d9c31db90d2a44e2deec52da7446237354508369caf 213937 xwayland-satellite_0.8.1.orig.tar.gz
- b2e81d63de1482cdbb4e7b7393a1093991f5e2c60b95bb3b00736780ebb8c424 2548 xwayland-satellite_0.8.1-1.debian.tar.xz
+ be8704533c791c832c06c36a5a39e95a177838982a0fe7d6e9aebcdbd8266376 2596 xwayland-satellite_0.8.1-2.debian.tar.xz
 Checksums-Sha512:
- ddf95f64f273f6601ec7cda721fa182b5a068d85e802441215b7d625fa2c84b93818cf6f73b2453a6e4858d04583e41c0108803cdd7cd31517310b57c78bb7b6 1748 xwayland-satellite_0.8.1-1.dsc
+ e3563a7bf76521c4f6b81d94e2cf0570fa92dd7e2c3230254a7a1d514c50d2593ce309e5dcf51f2465491262fbafaa3411219ddb46f9beb63ff7bb51171c5fef 1748 xwayland-satellite_0.8.1-2.dsc
  3af4c0a8abca0996f8f1a03ff3de7ab1cecb0fa66f084c44b67bb1ac57c0e29031b40734e2624375574b31c5f6110dcb1745a41efa641555a1c358a8ccea420d 15242661 xwayland-satellite_0.8.1.orig-vendor.tar.gz
  f0d08d0a1ca19f286cddceac0d731b37df37a4bf8c158437dc82a46d9eb2888cf87265ca7d9b58afcf4941800349949979c73510e3f30980d6ec6a4822f205e8 213937 xwayland-satellite_0.8.1.orig.tar.gz
- 7847f78c13a1ccbf9cce2e116581ad6ab2dad9c43323c46a3dbf3f5d095f939dbd0ecf74e106a8b1bd8c0340e7dea1a0920b1c9ff1e7f384ed4200f7e3845079 2548 xwayland-satellite_0.8.1-1.debian.tar.xz
+ d5987006854c2298509d1aa7e9388753f969a6707a34299b65ac0a082253025d804479a00173b751e50d2fda6f5b8de097f58e6130abc57e90889f1870bb3b0f 2596 xwayland-satellite_0.8.1-2.debian.tar.xz
 
