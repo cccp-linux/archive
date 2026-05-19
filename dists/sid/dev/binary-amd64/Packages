@@ -1,0 +1,76 @@
+Package: librtaudio-alsa-dev
+Architecture: amd64
+Version: 6.0.1~ds-2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: rtaudio
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 79
+Provides: librtaudio-dev
+Depends: libasound2-dev, librtaudio7-alsa (= 6.0.1~ds-2)
+Suggests: librtmidi-dev
+Conflicts: librtaudio-dev
+Replaces: librtaudio-dev
+Filename: pool/dev/rtaudio/sid/librtaudio-alsa-dev_6.0.1~ds-2_amd64.deb
+Size: 20540
+MD5sum: ff2f8848d340e87496e3953d03197b5f
+SHA1: 45c364f368552527c5a33e82341d5e194aa1861d
+SHA256: 18a47012aa6b1402d2ae69ca557b430d8382e66b2f06f476a50767a7a2ad1627
+SHA512: df23530839009a35c3e4be1e722a348d0b1f359981bec274cee57ce6cd4f0db4da4bf7022901a2d751d98ab3746171b72732e41d7da17250206172efe9df8dda
+Homepage: https://www.music.mcgill.ca/~gary/rtaudio/
+Description: C++ library for realtime audio input/ouput (development files)
+ RtAudio is a set of C++ classes that provides a common API (Application
+ Programming Interface) for realtime audio input/output across Linux
+ (native ALSA, JACK, and OSS), Macintosh OS X, SGI, and Windows
+ (DirectSound and ASIO) operating systems. RtAudio significantly
+ simplifies the process of interacting with computer audio hardware.
+ .
+ This package provides the development files.
+
+Package: librtaudio7-alsa
+Architecture: amd64
+Version: 6.0.1~ds-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: rtaudio
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 122
+Provides: librtaudio7
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Conflicts: librtaudio7
+Replaces: librtaudio7
+Filename: pool/dev/rtaudio/sid/librtaudio7-alsa_6.0.1~ds-2_amd64.deb
+Size: 42696
+MD5sum: 7f3c51a6942e2a1f7e17a685f1a57513
+SHA1: 341970e98cca9368c7cf598039ce886f4430fdf1
+SHA256: 0fe354de6089336334df7a6370f59be132f752644e584285f27b33f7131396a2
+SHA512: e1952dafda2b3a3bb9667bf173785f7bd8d41bd69a7151e55c001e82549e8ef6d51bc3486208f592ee15ed52e44a22ceedab6d44d75235617dea1174697a51e7
+Homepage: https://www.music.mcgill.ca/~gary/rtaudio/
+Description: C++ library for realtime audio input/ouput
+ RtAudio is a set of C++ classes that provides a common API (Application
+ Programming Interface) for realtime audio input/output across Linux
+ (native ALSA, JACK, and OSS), Macintosh OS X, SGI, and Windows
+ (DirectSound and ASIO) operating systems. RtAudio significantly
+ simplifies the process of interacting with computer audio hardware. It
+ was designed with the following objectives:
+ .
+  * object-oriented C++ design
+  * simple, common API across all supported platforms
+  * only one source and two header files for easy inclusion in
+    programming projects
+  * allow simultaneous multi-api support
+  * support dynamic connection of devices
+  * provide extensive audio device parameter control
+  * allow audio device capability probing
+  * automatic internal conversion for data format, channel number
+    compensation, (de)interleaving, and byte-swapping
+ .
+ RtAudio incorporates the concept of audio streams, which represent audio
+ output (playback) and/or input (recording). Available audio devices and
+ their capabilities can be enumerated and then specified when opening a
+ stream.
+ .
+ This package provides the shared library.
+

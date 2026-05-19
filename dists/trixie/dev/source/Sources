@@ -1,0 +1,34 @@
+Package: rtaudio
+Format: 3.0 (quilt)
+Binary: librtaudio7-alsa, librtaudio-alsa-dev
+Architecture: any
+Version: 6.0.1~ds-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Jaromír Mikeš <mira.mikes@seznam.cz>, IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), libasound2-dev
+Build-Depends-Indep: doxygen
+Homepage: https://www.music.mcgill.ca/~gary/rtaudio/
+Vcs-Browser: https://salsa.debian.org/multimedia-team/rtaudio
+Vcs-Git: https://salsa.debian.org/multimedia-team/rtaudio.git
+Directory: pool/dev/rtaudio
+Package-List:
+ librtaudio-alsa-dev deb libdevel optional arch=any
+ librtaudio7-alsa deb libs optional arch=any
+Files:
+ 16be8402a6d8e407663e305223ec3476 1527 rtaudio_6.0.1~ds-2.dsc
+ 0b7054baf75b86966bba49689a85823d 144628 rtaudio_6.0.1~ds.orig.tar.xz
+ 7774787b69f90322bc72d4eaf7fd9366 7704 rtaudio_6.0.1~ds-2.debian.tar.xz
+Checksums-Sha1:
+ a9316db494700b3fc257e58b264faa638d2b2462 1527 rtaudio_6.0.1~ds-2.dsc
+ f4b5a6e7f127dfcafc9011ead6bb9f8e4e3e7a2c 144628 rtaudio_6.0.1~ds.orig.tar.xz
+ e8a6a0300c1663bd0076c7c13cd7aaac36f6e16a 7704 rtaudio_6.0.1~ds-2.debian.tar.xz
+Checksums-Sha256:
+ 04874592bb69b05a9119a87015ec07373540b27e2991a978b593ff13bc90ccb5 1527 rtaudio_6.0.1~ds-2.dsc
+ a49a9e09f2a463ef81f5ed6c562346fa51537541835df460e1387dc703f79ead 144628 rtaudio_6.0.1~ds.orig.tar.xz
+ 09c19da35f538036f2d91d0241c030fe0a85fec481bb9edc269f5e01192ced14 7704 rtaudio_6.0.1~ds-2.debian.tar.xz
+Checksums-Sha512:
+ bc79fc63eb06f4d63d601fd855b52884772eebc3ed98523f65d2a626d579f6c906620dbaa5d7551b996787e5de118a85d08c95f0965fc17ef06cd8a085cc4ced 1527 rtaudio_6.0.1~ds-2.dsc
+ b02c2c664d4b19a15b0d68ea47e9839da1fc35c0cecc5d6fd286355e7bfb2a41196037fd3884549eff3782a05c10c51f6e9f6f2162057359fda1b4aeda9ff7f6 144628 rtaudio_6.0.1~ds.orig.tar.xz
+ 3bed0af9e0009175f5d2fe738b509109eaad3e5f5ed50e51c0bd75fca5eb19add8dce6b405d96e56241936ddacffbd88541c62fe408e4b6d8cf8fcc9fb169d4e 7704 rtaudio_6.0.1~ds-2.debian.tar.xz
+
