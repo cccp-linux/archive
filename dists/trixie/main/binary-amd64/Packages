@@ -94,7 +94,7 @@ Description: Standard set of CCCP Linux packages
 
 Package: debchange
 Architecture: all
-Version: 2.26.5
+Version: 2.26.9
 Multi-Arch: foreign
 Priority: optional
 Section: devel
@@ -104,12 +104,12 @@ Depends: perl:any, dpkg-dev (>= 1.18.19)
 Recommends: libdistro-info-perl
 Breaks: devscripts
 Replaces: devscripts
-Filename: pool/main/debchange/trixie/debchange_2.26.5_all.deb
-Size: 30784
-MD5sum: d7fe675d691cf653e21ec86f2d88c089
-SHA1: d3d4090892af90dbc28808b77cf3a67f310a327e
-SHA256: 218b923efe3ea79ee7194ceee9125c892c928593216fb80c5e118ed7b72ad419
-SHA512: 815d91f831d6f0a0a9d23b9249686275dd94ca338455fb2697b796279d680845f8ec6aae09e7f1b4512933d6c0472dcfefbcbfe97b6912f9ca1f0213afbe7ff6
+Filename: pool/main/debchange/trixie/debchange_2.26.9_all.deb
+Size: 30860
+MD5sum: 679c300db62a9cb8583ae43d3a2a689c
+SHA1: 48027e1708742c589023a9b2ecf5066a6b4c8c13
+SHA256: 3abd86a63091190460c95889f819070a58189a4c7fd4fe2214ef9b94537ffa7d
+SHA512: fafcd2b3f5ffe0957c45d5c02fb48be0424580b9a637a06cc766f4e8c4e98386f8be776d3c6faa168171ccfcf17f63cd13c6f56d523bcfd6f90f0fa076b06721
 Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
