@@ -74,3 +74,22 @@ Description: C++ library for realtime audio input/ouput
  .
  This package provides the shared library.
 
+Package: uscan
+Architecture: all
+Version: 2.26.9
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Installed-Size: 320
+Depends: perl:any, dpkg-dev (>= 1.18.19), libfile-dirlist-perl, libfile-homedir-perl, libfile-touch-perl, libmoo-perl, libwww-perl, libyaml-libyaml-perl, sopv | gpgv
+Breaks: devscripts
+Replaces: devscripts
+Filename: pool/dev/uscan/sid/uscan_2.26.9_all.deb
+Size: 72412
+MD5sum: fa80f54853981d32988632d505c173b7
+SHA1: ffa3f6062c52e418d81395cd60bad50ea6686afe
+SHA256: f7fcd74aa1908e0d088f062198de7eac4edab5944dcce769a232848269e28b2e
+SHA512: c448c64969160b47993fae46b1d576817f73a2081562e43369a5b954ebcf5e1ccf90bfeef8ed4dac98af80cb6522523c6f004310ab56d51c9981643a37079750
+Description: scan/watch upstream sources for new releases of software
+
