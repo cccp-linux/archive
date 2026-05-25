@@ -56,32 +56,6 @@ Checksums-Sha512:
  acacd68104ccd954f861717c5ce70708767e7e90d331272a0a9eb3553073635e11e074df7e1fe8a755d61b32452bb18b9129343b40e45151a7c5a0f86cac1c53 1009 cccp-meta_0.42.dsc
  8f5dcad51f325023e982ee73aa038898b716202734ecebd9ab9d89b147666f7f5434158cd19b7b7f0f9235741d57d0a467ebbf426c17af0188ecf66353afd1ef 23000 cccp-meta_0.42.tar.xz
 
-Package: debchange
-Format: 3.0 (native)
-Binary: debchange
-Architecture: all
-Version: 2.26.9
-Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
-Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 12), bash-completion, dh-exec, perl:any
-Vcs-Browser: https://salsa.debian.org/debian/devscripts
-Vcs-Git: https://salsa.debian.org/debian/devscripts.git
-Directory: pool/main/debchange
-Package-List:
- debchange deb devel optional arch=all
-Files:
- 36e01c77c97a1189286bf0afd1091861 975 debchange_2.26.9.dsc
- a46a9a5341e4df30835539c2beaca500 28316 debchange_2.26.9.tar.xz
-Checksums-Sha1:
- f998311fb45beccd12ff7525ae8c58889dcac8e4 975 debchange_2.26.9.dsc
- a6765b3260b6c1c01d888f26f513f2a8358c0af7 28316 debchange_2.26.9.tar.xz
-Checksums-Sha256:
- f0b4abc0bb263ae7b0b0e00c11dee304b3f6058007ea6f5eb6782acce595f87f 975 debchange_2.26.9.dsc
- 99bd3ba13fb7c1f083a6beb7216dfbc43298cdf9386ddf66ac1898d0c965bb5f 28316 debchange_2.26.9.tar.xz
-Checksums-Sha512:
- c1112041018fa25d12c3834eecbcf85253f7acce2ed3ea83fc8495ff80707222bc4e7dd21e67d93170e9eb7d632d210d80f6f7e8cb276c4c85ce185f2ac9e776 975 debchange_2.26.9.dsc
- d958514c57fdebc4c85af573d82957c56ff68b09036b8755937ae479f07ea5d89ee14cf3e04d3bfab62c63caf9e93a5afdd9a93693bac8fbf24a3d036f51d8e4 28316 debchange_2.26.9.tar.xz
-
 Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
