@@ -564,7 +564,7 @@ Package: oil.nvim
 Format: 3.0 (quilt)
 Binary: neovim-oil
 Architecture: all
-Version: 2.15.0-5
+Version: 2.16.0-1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
@@ -575,21 +575,21 @@ Directory: pool/main/oil.nvim
 Package-List:
  neovim-oil deb editors optional arch=all
 Files:
- 22229d73ec50ad5452fdceb0d1497924 1276 oil.nvim_2.15.0-5.dsc
- 9196b3285c76078178f0d3dd69d43c52 128116 oil.nvim_2.15.0.orig.tar.gz
- 079e966acbcbbb7fef688ec46d44696f 3920 oil.nvim_2.15.0-5.debian.tar.xz
+ 27cf1afe2bb1e604aabfa2228b242d4a 1276 oil.nvim_2.16.0-1.dsc
+ 50d80d53547d6c71500cac7676ebf89e 136992 oil.nvim_2.16.0.orig.tar.gz
+ fa3e1cfe54fedca5796d34dbd89e028a 5112 oil.nvim_2.16.0-1.debian.tar.xz
 Checksums-Sha1:
- 22cb26c4e741db1bdf8954cd3ad69a9cc0f81c53 1276 oil.nvim_2.15.0-5.dsc
- 25a946dc71ecad4ff94d61c2a1f98dca3bdafc5d 128116 oil.nvim_2.15.0.orig.tar.gz
- 7262db205c3ed4c34e58ea5aa7fc263a47041c2d 3920 oil.nvim_2.15.0-5.debian.tar.xz
+ bf84e60b7790dfe75e5c508338202967b93aad3c 1276 oil.nvim_2.16.0-1.dsc
+ a375b557c581aa0693ee7b48e4258d6cbf31d813 136992 oil.nvim_2.16.0.orig.tar.gz
+ 0341e241f80144ec893e598057397a9a01fd38ea 5112 oil.nvim_2.16.0-1.debian.tar.xz
 Checksums-Sha256:
- cdf5f2ae3098a77942ee11a62342d9f65b0010e7a7cf539cb055f3a2ac5cea5f 1276 oil.nvim_2.15.0-5.dsc
- 713cfb33da514fb23e940b8f19f1c16fdad0479ba457f24c33595d2c6d343d26 128116 oil.nvim_2.15.0.orig.tar.gz
- eeb918ce95e16449ccc7911591afd987e4d6e3656f838b7c72946be213640043 3920 oil.nvim_2.15.0-5.debian.tar.xz
+ 386a5f4a2f7c0a19ba2be96c764f915b5a10faea69864277c51864591fc3102e 1276 oil.nvim_2.16.0-1.dsc
+ 459762f40b4bb208d5eeb8cd511153a2b9cf2c097d7d3954bcf808411d611ee8 136992 oil.nvim_2.16.0.orig.tar.gz
+ 2fbdb8b36fb4d1d7f63a3975feafd2f99c8bcb2510fcc3719f6f502df28499f3 5112 oil.nvim_2.16.0-1.debian.tar.xz
 Checksums-Sha512:
- a98ee4a5fe086b86297276b0725ef33fc19e7e72519ac3bb35e8d4ed86483e2c17060387016d2450c85bf1d93b1323bae5149ff221c96b5805c06add050bbf15 1276 oil.nvim_2.15.0-5.dsc
- 1e4db7d9fe8f8b748c802ecd1e3f0721105a85a48e284dc968646496ccc71b32753dcb11d634566f67f3c379fdb6ca2d4b9e346a06b4f084f3c8876d36c08171 128116 oil.nvim_2.15.0.orig.tar.gz
- ceec9c6bb0ac9e7dff6f3b4cf0f7a36edbc73a499f6e236962ff93919f22e10a9241e4e5dcf03f8fa3e85616c868ccdcb241036c0625567e585fdc0d0382b646 3920 oil.nvim_2.15.0-5.debian.tar.xz
+ 04b296471a183c62ecce8f337320655651c0d3214f6d4ec310a089a99ee32bcc5982e60bbe05ad774c2d22bb3e95d11650bae7f66defa2b8d46bf15b14c83b7d 1276 oil.nvim_2.16.0-1.dsc
+ 30fe68143e1c4b3fdfc68c0bd65d67ef21171b39fb0ae4c79fce782019533284df6473b842fd1b153dfcb94a327a867e6a7efb44f7737aea66ab18e815d2698b 136992 oil.nvim_2.16.0.orig.tar.gz
+ dd6720b91511f180a3a39bbfbb70113f8a565607bd3087dbf7e04895e2b8f5de4cd65d1412832676676989fddaedfb39c05a78cf563e64c2f24e71d13b397a8e 5112 oil.nvim_2.16.0-1.debian.tar.xz
 
 Package: quickshell
 Format: 3.0 (quilt)
