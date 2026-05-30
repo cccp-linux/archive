@@ -2,7 +2,7 @@
 
 1. Obtain the keyring:
    ```shell
-   url=https://cccp-linux.github.io/packages/cccp-linux-keyring.asc
+   url=https://cccp-linux.github.io/archive/cccp-linux-keyring.asc
    wget -qO- $url | gpg --dearmor | sudo tee /etc/apt/keyrings/cccp-linux-keyring.gpg
    ```
 
@@ -16,7 +16,7 @@
    ```shell
    sudo tee /etc/apt/sources.list.d/cccp-linux.sources <<EOF
    Types: deb
-   URIs: https://cccp-linux.github.io/packages
+   URIs: https://cccp-linux.github.io/archive
    Suites: $suite
    Components: $comps
    Signed-By: /etc/apt/keyrings/cccp-linux-keyring.gpg
