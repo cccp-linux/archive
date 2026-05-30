@@ -56,23 +56,6 @@ SHA256: 97e2f74ff827b99d8901b0a41b047baeea1f70820eb0763b48a9bf2ac58d90e0
 SHA512: 04ea118163a40e55bae08ac4bb869ba983135c9b07e98bdcf3df2ab5e1f111714839ad72e87516e259655a613af0034bd9cbb132287294e972ce67a73128a01b
 Description: Standard set of CCCP Linux packages
 
-Package: dev-meta
-Architecture: all
-Version: 0.21
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 36
-Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
-Filename: pool/main/dev-meta/questing/dev-meta_0.21_all.deb
-Size: 7370
-MD5sum: 7e6e4e6bbb23db4b3afb92d0d2c10a3a
-SHA1: 4f3827da328edbbc2a6ce4eadc02900e03e71190
-SHA256: 412f3ca0d915e54c21015b824e0aceb37daf23a8d5efe206b0ab59768d6c642f
-SHA512: aba172ae0ffd32c69bf101174e9a4380de12608692c9f01989c882533620ef64a4f1537836f7e633529326784baa5f98807c061963791a30f42094eea7b47a64
-Description: Development meta-package
-
 Package: neovim-fzf-lua
 Architecture: armhf
 Version: 0.0-2640-gcf4c-2

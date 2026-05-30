@@ -1,3 +1,29 @@
+Package: aprox
+Format: 3.0 (native)
+Binary: aprox
+Architecture: all
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/aprox
+Vcs-Git: https://github.com/cccp-linux/aprox.git
+Directory: pool/dev/aprox
+Package-List:
+ aprox deb admin optional arch=all
+Files:
+ db36342eea6df25568d5f216f37e5e81 877 aprox_0.1.dsc
+ ebd3476395df318e6def5608ac380bbe 14828 aprox_0.1.tar.xz
+Checksums-Sha1:
+ 162eba0d93f8c38f15ae7e94d0db6b3757a328b2 877 aprox_0.1.dsc
+ b55edf8d8923a666d8f9349bc8f79563c9de33eb 14828 aprox_0.1.tar.xz
+Checksums-Sha256:
+ 3ad2dbbc1248c8716d747b1ce99b46cfde93664f8a4f8a1e7ba0288e7c3d67b9 877 aprox_0.1.dsc
+ 446019a303dbe5dc7ef8d15ec572ce9283960abbcf880efaaec22ae986b506f2 14828 aprox_0.1.tar.xz
+Checksums-Sha512:
+ 421b1849421958a26f6034b80d70b8d1d3d19f9422602bb17d06686eea811a1eba2d75bf526ee5d0300cba7b26062b309d30671e260dc5a8e75d6071bbc95657 877 aprox_0.1.dsc
+ 759c2bd19a735e3dc0d3885f6617a8b0e7d31564c2cb3a427467cc2e8c1f55b863296b2e83a8b18391f61be15e2f3897a6a75a943142208fa8ee3cdf1c33bdff 14828 aprox_0.1.tar.xz
+
 Package: debchange
 Format: 3.0 (native)
 Binary: debchange
@@ -23,6 +49,32 @@ Checksums-Sha256:
 Checksums-Sha512:
  c1112041018fa25d12c3834eecbcf85253f7acce2ed3ea83fc8495ff80707222bc4e7dd21e67d93170e9eb7d632d210d80f6f7e8cb276c4c85ce185f2ac9e776 975 debchange_2.26.9.dsc
  d958514c57fdebc4c85af573d82957c56ff68b09036b8755937ae479f07ea5d89ee14cf3e04d3bfab62c63caf9e93a5afdd9a93693bac8fbf24a3d036f51d8e4 28316 debchange_2.26.9.tar.xz
+
+Package: dev-meta
+Format: 3.0 (native)
+Binary: dev-meta
+Architecture: all
+Version: 0.21
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/dev-meta
+Vcs-Git: https://github.com/cccp-linux/dev-meta.git
+Directory: pool/dev/dev-meta
+Package-List:
+ dev-meta deb metapackages optional arch=all
+Files:
+ 27fc6f3770199914b619a63f8b79b020 912 dev-meta_0.21.dsc
+ 2b3f8a88104b5c6eae3e1380717770bc 17324 dev-meta_0.21.tar.xz
+Checksums-Sha1:
+ 4948794bc1e5d5e2cbd90a67aedb0f6ae2c6c1f9 912 dev-meta_0.21.dsc
+ 577238236e9c2851107e256d2cefd2417c5c2219 17324 dev-meta_0.21.tar.xz
+Checksums-Sha256:
+ 0030ed81f68fac81b80a3d060a54a2779f474d922dbf3dd0155cb8e5812bcc90 912 dev-meta_0.21.dsc
+ f6083478a132d405d3d19274179e7e05bf085e4a9bb0ff75b030ec12a894d7e5 17324 dev-meta_0.21.tar.xz
+Checksums-Sha512:
+ 7bda390e2f8d05c860d577835acb7f1e39329c04636362339a71b75a9372c7016b47ecbe12bab64bc47116eae65d14e38d477f639c2776bceae79345d1a08fcf 912 dev-meta_0.21.dsc
+ cd4d14d1bb758e87f8963f789e9423cc66ae12d8485052ab56d31b18b8f36696a03246128fa62836add728e39c81a37e195e2403f62256a9543c9bcb83b0e74f 17324 dev-meta_0.21.tar.xz
 
 Package: rtaudio
 Format: 3.0 (quilt)

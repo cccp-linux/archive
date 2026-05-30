@@ -92,23 +92,6 @@ SHA256: 5013313bf18900c0b10463c625370c2013bca424ced1ccd0a94cd419e437a756
 SHA512: d85917f0296d98ab021d270c345d7eacfdc2ad7e935575664f599b932f10978ff40db7dfb14b03b236b3095863e20a41d990085be09795fe4d653ff983fb021c
 Description: Standard set of CCCP Linux packages
 
-Package: dev-meta
-Architecture: all
-Version: 0.21
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 36
-Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
-Filename: pool/main/dev-meta/trixie/dev-meta_0.21_all.deb
-Size: 7296
-MD5sum: 4c901ffb59eac169aed365e25be758ee
-SHA1: 05e519786d26a1f9e1166bc8c6449458e309b809
-SHA256: abbf48ae15137ec240804507097fcdf75c20d8bf1cba6857ac11842376720964
-SHA512: 25b0acff26a5a627ad29c2765413157078f86e058b89e3a1c6872890ba9880ee1190b776d9ccaf81f8ac668ec71f3d7a4ff21a30eb7822f90864e67290c0ff91
-Description: Development meta-package
-
 Package: fonts-courier-nerd
 Architecture: all
 Version: 2.2-2
