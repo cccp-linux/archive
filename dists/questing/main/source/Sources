@@ -60,7 +60,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.20
+Version: 0.21
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -70,17 +70,17 @@ Directory: pool/main/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- f0226d483be9d9f6e618f3a2bb225583 912 dev-meta_0.20.dsc
- f8797167f2148c777af2b68495e20add 17304 dev-meta_0.20.tar.xz
+ 27fc6f3770199914b619a63f8b79b020 912 dev-meta_0.21.dsc
+ 2b3f8a88104b5c6eae3e1380717770bc 17324 dev-meta_0.21.tar.xz
 Checksums-Sha1:
- 8db6059f17e1153b936ca8202007e50e8f603503 912 dev-meta_0.20.dsc
- 301e1752bed5bde6d790414c37e4f1ef17fc62f4 17304 dev-meta_0.20.tar.xz
+ 4948794bc1e5d5e2cbd90a67aedb0f6ae2c6c1f9 912 dev-meta_0.21.dsc
+ 577238236e9c2851107e256d2cefd2417c5c2219 17324 dev-meta_0.21.tar.xz
 Checksums-Sha256:
- 5ca6a7d145d76634daad19bf185628473f91a30e59c08cf86170ffd368442235 912 dev-meta_0.20.dsc
- c1f0d8939025cdfca39779c9e1ed725cc627d1623352219fe6f4ad51705b3c00 17304 dev-meta_0.20.tar.xz
+ 0030ed81f68fac81b80a3d060a54a2779f474d922dbf3dd0155cb8e5812bcc90 912 dev-meta_0.21.dsc
+ f6083478a132d405d3d19274179e7e05bf085e4a9bb0ff75b030ec12a894d7e5 17324 dev-meta_0.21.tar.xz
 Checksums-Sha512:
- a44a08a5984335409271e36ed7e71cbcddf09bd0b5b218baf52b7494e801a11afb25d757b4e15d905256020f77b2f04f13032fa647d50586b4e7d6a2e5461bae 912 dev-meta_0.20.dsc
- 42072aa49ab356d12b180ef1c8c3b22302dcf5cd7215ef370ba629f73f80b53048dc7249b94fb6cd8e372c758dc5baea923f8013abb829a15d0ff3a3be00d3c8 17304 dev-meta_0.20.tar.xz
+ 7bda390e2f8d05c860d577835acb7f1e39329c04636362339a71b75a9372c7016b47ecbe12bab64bc47116eae65d14e38d477f639c2776bceae79345d1a08fcf 912 dev-meta_0.21.dsc
+ cd4d14d1bb758e87f8963f789e9423cc66ae12d8485052ab56d31b18b8f36696a03246128fa62836add728e39c81a37e195e2403f62256a9543c9bcb83b0e74f 17324 dev-meta_0.21.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
@@ -564,37 +564,6 @@ Checksums-Sha512:
  04b296471a183c62ecce8f337320655651c0d3214f6d4ec310a089a99ee32bcc5982e60bbe05ad774c2d22bb3e95d11650bae7f66defa2b8d46bf15b14c83b7d 1276 oil.nvim_2.16.0-1.dsc
  30fe68143e1c4b3fdfc68c0bd65d67ef21171b39fb0ae4c79fce782019533284df6473b842fd1b153dfcb94a327a867e6a7efb44f7737aea66ab18e815d2698b 136992 oil.nvim_2.16.0.orig.tar.gz
  dd6720b91511f180a3a39bbfbb70113f8a565607bd3087dbf7e04895e2b8f5de4cd65d1412832676676989fddaedfb39c05a78cf563e64c2f24e71d13b397a8e 5112 oil.nvim_2.16.0-1.debian.tar.xz
-
-Package: quickshell
-Format: 3.0 (quilt)
-Binary: quickshell
-Architecture: any
-Version: 0.2.1-4
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Standards-Version: 4.6.2
-Build-Depends: cmake, debhelper-compat (= 13), libcli11-dev, libdrm-dev, libegl1-mesa-dev, libgbm-dev, libjemalloc-dev, libpam0g-dev, libpipewire-0.3-dev, libpolkit-agent-1-dev, libwayland-client0, libwayland-dev, ninja-build, pkgconf, qt6-base-dev, qt6-declarative-dev, qt6-declarative-private-dev, qt6-shadertools-dev, qt6-svg-dev, qt6-wayland, qt6-wayland-dev, qt6-wayland-private-dev, spirv-tools, wayland-protocols (>= 1.41)
-Homepage: https://quickshell.org
-Vcs-Browser: https://git.outfoxxed.me/quickshell/quickshell
-Vcs-Git: https://git.outfoxxed.me/quickshell/quickshell.git
-Directory: pool/main/quickshell
-Package-List:
- quickshell deb x11 optional arch=any
-Files:
- e9b081ca1edbdfeabf358ba8ebc75c08 1634 quickshell_0.2.1-4.dsc
- 4b001a14ae184fa478abc9f48e4e9d90 403070 quickshell_0.2.1.orig.tar.gz
- 71a8ac3bbba1c909659f0974c96610eb 1816 quickshell_0.2.1-4.debian.tar.xz
-Checksums-Sha1:
- a0dbe0c58a227abf5b38cf7327966998ede767cc 1634 quickshell_0.2.1-4.dsc
- ebc3df112730445c6818137a53203a3ff622ddcd 403070 quickshell_0.2.1.orig.tar.gz
- 8408e59fd76c1f2908ccad839afd14701ff5cf17 1816 quickshell_0.2.1-4.debian.tar.xz
-Checksums-Sha256:
- 2c339301a465f83eb452f801ba0e7a0878f49fb268d9d9de32c44997b14e8518 1634 quickshell_0.2.1-4.dsc
- d815c5f99f4a0a28545ffaa90464420c773b7c0ab62f713d9d8735a8e7282ca7 403070 quickshell_0.2.1.orig.tar.gz
- b5e8a7653de0295c9d16ea6c13c44a161b023323ada4cfe79bb58ce319e81e10 1816 quickshell_0.2.1-4.debian.tar.xz
-Checksums-Sha512:
- 510191f1081524f234526abf79301b729670da5bd22a1d2c442e3a0591eb23c696c37d30cc48bd1d3addd53da67cb39fa6618661ee495677dace9a6b02b55bc0 1634 quickshell_0.2.1-4.dsc
- f7f67820f46eed5c0a98ddd823887aab4226cfb953f3529858793658b1c16a4b0190713cee3f9cb07d1cd5ce8e20807529d72a6f7ffb637e9cef6a29cb124092 403070 quickshell_0.2.1.orig.tar.gz
- 5175b70ce6b0d5151fabed95e9b36084c01669addaba6d5e147a3800a0bbed38ad145b58f6c4684648a6de2246b5ec2f965f1d659084d9e7fbe47531a9e559ca 1816 quickshell_0.2.1-4.debian.tar.xz
 
 Package: statuscol.nvim
 Format: 3.0 (quilt)
