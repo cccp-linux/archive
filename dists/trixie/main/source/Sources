@@ -33,7 +33,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: any all
-Version: 0.43
+Version: 0.44
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -44,17 +44,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=any
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- a2bd467d84d52e8465aa8c252c889a6a 1009 cccp-meta_0.43.dsc
- 1d5ce6f64f012196aec0c54dc8546c14 23168 cccp-meta_0.43.tar.xz
+ 47b378435e05bb616e1731531b3db6ba 1009 cccp-meta_0.44.dsc
+ 1de3ad99706f18cda648b83cb82ce378 23192 cccp-meta_0.44.tar.xz
 Checksums-Sha1:
- 687f60ee745004f9b4453b5f1234a439149e7575 1009 cccp-meta_0.43.dsc
- a33e52552fd7f5ea8cee69ed48487e5e6aa24f1b 23168 cccp-meta_0.43.tar.xz
+ d2a3ddbb341cffb5701f70ed8903d21bd7e2e401 1009 cccp-meta_0.44.dsc
+ 1636fd2651d56a747603de97b07567630b86d732 23192 cccp-meta_0.44.tar.xz
 Checksums-Sha256:
- 16a667732f39df8def14b7b61363799f557f7f3b78cfe7176bbb7f04eb02ede8 1009 cccp-meta_0.43.dsc
- d1fe41525dd82baf7f001db1e5e6ccc72f16775c0f2feda94e1ed879257b0e25 23168 cccp-meta_0.43.tar.xz
+ 0fbd6085a26f0a93d4132e4cd68fee19613e820e2e70066fa897cafba2056dcd 1009 cccp-meta_0.44.dsc
+ 3af65f3ecb2fd90524d6d4c445fbf6a60101bb2f0a84a24584367187bf4940f8 23192 cccp-meta_0.44.tar.xz
 Checksums-Sha512:
- 44543d5b7c8546a7c02e6c398d7c41c109e2dfcb37b32913906df79d1ed38f9ea8388631fe81bb98ce094a6992eb24f885b6c0a4dc4fd42bed84089934288153 1009 cccp-meta_0.43.dsc
- 358744bdf88b91af62fe445e850c7e3ff23d0ec2163087a81c2cec7b4e547faa04f3a63391c81cf018e693911c4d7b7f200f1988f00e522d9336f6f29eebbf1f 23168 cccp-meta_0.43.tar.xz
+ 36dac441b6307f7eebb8fb069c20efa56f661e2877a60b056e21ec16f60f512f9d2a45d08c396e4c40f5a769709450f9f6c8a312f793d2c02c5ecab7cd5658d0 1009 cccp-meta_0.44.dsc
+ 0ac97afd6fe0a4ba431b011de05dddb51759886b29eb75732e65cb5419b3ba04f6aa627de1e684b542bbec36fb8cca835f44e8592586629bd6112decab1cf92d 23192 cccp-meta_0.44.tar.xz
 
 Package: fonts-courier-nerd
 Format: 3.0 (quilt)
