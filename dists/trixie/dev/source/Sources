@@ -54,7 +54,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.22
+Version: 0.23
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -64,17 +64,17 @@ Directory: pool/dev/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- 0d7b4992315891e2a1d12c1a2ff8dd94 912 dev-meta_0.22.dsc
- f483951420370e415ab607dbf020a4b9 17348 dev-meta_0.22.tar.xz
+ f0869cd0ccb4cc863510e8dc2dcd5910 912 dev-meta_0.23.dsc
+ 3a3e560dbf6afa35cea061b362cca571 17424 dev-meta_0.23.tar.xz
 Checksums-Sha1:
- a41886c22ee94858cbd021c5fe0af58af63901ac 912 dev-meta_0.22.dsc
- 9eff2a533278af4d25c6adb0a19d30831e7b0084 17348 dev-meta_0.22.tar.xz
+ d2ce43e870203703c4726b590b2a0e17fd41650a 912 dev-meta_0.23.dsc
+ 45d04a628c7ef9022de9d658c6af1a5d7dbeda33 17424 dev-meta_0.23.tar.xz
 Checksums-Sha256:
- 0a27fb35983825622348297ad1e886aefa68c485723e6276e066821bb1617f2b 912 dev-meta_0.22.dsc
- c3d69355ee4b872aaab34b07696931441a02815bfd2cc905f41d0a995dc6970d 17348 dev-meta_0.22.tar.xz
+ cbc9a1ddee31c30ed90f7913c2f7b51cf26e000156a3ee6e2186c41cb9b363a4 912 dev-meta_0.23.dsc
+ e7eb0bb1d8f7ec72ae4060bc89b465322417e7332c0df23c8cb9f0b6fec34bed 17424 dev-meta_0.23.tar.xz
 Checksums-Sha512:
- 8ed92e2c738ec88d6aedb7b588323248dcc0ebb873f3d0a1140c67421524f51b16a45593f5b70b7703022eea65d7993344546ee7d45c678f56410ecdda1664b3 912 dev-meta_0.22.dsc
- 2c8d71ff9a5eaed77f3f0fb4224ee4f7aa8d4a7a2a8ccb3f0ced02db6a1b557abc2dffbdf25ea3d3889a3e30bd46f5428f20fba0f9ec93fd6b30f82f9aa4a9f0 17348 dev-meta_0.22.tar.xz
+ 80754794286346842794e3f21c6b962a1e62bdc1a11a1a6fd9b7eadeb56dc6fcf287fd4b4121f65d3a163984902ece98b9c54dd6fe83dc53b5cabf64de0024f1 912 dev-meta_0.23.dsc
+ ab553c279017d8d6dc7497cfc9ea85ede613f04d6801e8060b54e670b069079dfaf4d74bcd1bd6c01ada2dd388945f722129c30b28bf3c6967339e39549e3be9 17424 dev-meta_0.23.tar.xz
 
 Package: rtaudio
 Format: 3.0 (quilt)
