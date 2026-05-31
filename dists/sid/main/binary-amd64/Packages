@@ -1094,28 +1094,22 @@ SHA256: adf46aff7728410c4dd83e0713b316f5563cb68a8b52db8bf82dc701cf90558d
 SHA512: 8fba9233498cee8b4137127e377bb2dd9863feb2cc14058f66796c9fe8861ba02eda4e4fe7a0563b26de3bf607c9e1829ebcec787e85912dfecc1c3bec5214e8
 Description: LibreOffice meta-package
 
-Package: neovim-lualine
+Package: neovim-meta
 Architecture: all
-Version: 1:0.0.6+git20251123-2.2
+Version: 0.15
 Priority: optional
-Section: editors
-Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
-Installed-Size: 414
-Depends: neovim (>= 0.2.2-1~)
-Filename: pool/main/neovim-lualine/sid/neovim-lualine_0.0.6+git20251123-2.2_all.deb
-Size: 81324
-MD5sum: ea7fbf36183715cbd4c1fe7f19135427
-SHA1: 682343b4989814319dd362b5f644b8e06a6c4f17
-SHA256: f8ff76f79b688af6aa44a312c5fa6b5a975bc7c0a7355a10c2d6398f47c17e67
-SHA512: 5473fc90f320049ac733265926c47e7c0bd72b7f54cdddb10734d66a91feed196034b1e7e2bbfa1a09287468d626963b1de78027bbddb2275639b1e1536b1e69
-Homepage: https://github.com/nvim-lualine/lualine.nvim
-Description: fast and light statusbar for neovim
- lualine is a statusbar written for neovim, similar to airline. It's fast and
- highly configureable. A variety of themes are provided; see
- /usr/share/doc/neovim-lualine/THEMES.md. For configuration please refer to
- /usr/share/doc/neovim-lualine/README.md and :help lualine.
- .
- This is a neovim-only plugin.
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 28
+Depends: neovim
+Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons, neovim-which-key
+Filename: pool/main/neovim-meta/sid/neovim-meta_0.15_all.deb
+Size: 5344
+MD5sum: e79dc46ef4f127b2843d223f3f16626f
+SHA1: 69cf7d6da0773815765091bc936feec19465a0db
+SHA256: c6935bcd3b846621dfbd3d3dba3da7eabcdcf9442260253606b741c4d10fe260
+SHA512: 99c5ee0585fa46e9a1580e90023e3e7bf27500f95a9c142c0c1b36a8ef216a4a7f51a02cc660bee2ced7ca19fa488d54f34d292aa03a4369b576f3ea15e678c0
+Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: amd64
