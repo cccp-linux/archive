@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: term-meta
 Binary: term-meta
 Architecture: all
-Version: 0.24
+Version: 0.25
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/cccp-linux/term-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  term-meta deb metapackages optional arch=all
 Checksums-Sha1:
- dc079c86df0e64dbab31619ef14f24b7361f170c 14608 term-meta_0.24.tar.xz
+ b6a4be3e6c89312c8e240d181b11204967fb44b3 14620 term-meta_0.25.tar.xz
 Checksums-Sha256:
- 95e7608af6cd2514305e773278094edf5b79744b9609501a85ffe804e9d54525 14608 term-meta_0.24.tar.xz
+ 25efe2b45352a069a9c36701762a909b4eb2e2691ca0c0d7e2fd3c3b5b419160 14620 term-meta_0.25.tar.xz
 Files:
- 3561e22a077e43d34cfc8239084192e5 14608 term-meta_0.24.tar.xz
+ dcdbf1c414674716b84cd4243d93a2a4 14620 term-meta_0.25.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCagOsqgAKCRA6Vr9YT1rr
-J+mNAPwJo9Z7am8X+tcyjk/GUkaR/+VSry83Z6UY+2oKiWh7egEA5OI10xS1AgUa
-sU+XxQ1szc8og2RN9YsuZBs19wU3ggE=
-=FL/k
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCahue2AAKCRA6Vr9YT1rr
+JxySAQC5H7luZOeXG4uPCZNM00D3iVtudgyU9UepnqpXqoC9ogEA3cGgPoPxGuO3
+/fU7b68CPvomk6RM+0VWeQGk1UPYKwo=
+=QTFV
 -----END PGP SIGNATURE-----
