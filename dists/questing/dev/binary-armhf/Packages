@@ -1,3 +1,19 @@
+Package: aprox
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 26
+Depends: python3:any
+Filename: pool/dev/aprox/questing/aprox_0.1_all.deb
+Size: 4234
+MD5sum: 6512b4cbae463bb737ec5000607248ae
+SHA1: 549ee3b0dd7e23698915427efccf0976e9304f4f
+SHA256: cda089835fa74c1002bab62e58f8a29c607f30c7aa0f08e1ec368bd8b217881c
+SHA512: d1b93d623f58abcfa176527116b9ce322ff4ee30f86c5ea71cc9530558dd68ee9b0c1455fcf378580b69589f00370e346cd380b3005ddf81cac8cb7fbdf3005c
+Description: Simple caching apt proxy
+
 Package: debchange
 Architecture: all
 Version: 2.26.9

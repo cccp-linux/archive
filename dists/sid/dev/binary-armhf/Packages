@@ -1,3 +1,19 @@
+Package: aprox
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 26
+Depends: python3:any
+Filename: pool/dev/aprox/sid/aprox_0.1_all.deb
+Size: 4316
+MD5sum: 7c9861a725da41f65c680b8b51501073
+SHA1: 1ace220fb46147978d115552481498f8e5052946
+SHA256: ca0b4383684e206a546314b00de03ee29bb17a55a026dfde25cd1ce6f0026b6d
+SHA512: 0cc271eb56a9129999a4a4d16bd6ea364ae5a222a529969090b79662cca687bb642a55d5c3e5a0b8ef9a7e212fe9d6922ae2f188fda0de89bcb930f27da23885
+Description: Simple caching apt proxy
+
 Package: debchange
 Architecture: all
 Version: 2.26.9

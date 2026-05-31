@@ -1,3 +1,19 @@
+Package: aprox
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 26
+Depends: python3:any
+Filename: pool/dev/aprox/trixie/aprox_0.1_all.deb
+Size: 4312
+MD5sum: dd7f317622a15cbdd1ef436adfcbac7d
+SHA1: 9e3b1330303a6a21e2f34c00273217f77004196c
+SHA256: fcb1cdcfafc86ba0177244cc9141c5de60465cc1e6870bf5e1cecf261e80e12d
+SHA512: a2c849b79078286feb9e3c74d9cd257664c469abb7b9f7521ce761a4539b81e5f9c91a3d9defb4991817df8da88e7fa312ca2849592b9324c6e677aeb6b71044
+Description: Simple caching apt proxy
+
 Package: debchange
 Architecture: all
 Version: 2.26.9
