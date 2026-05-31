@@ -18,6 +18,23 @@ SHA256: 3abd86a63091190460c95889f819070a58189a4c7fd4fe2214ef9b94537ffa7d
 SHA512: fafcd2b3f5ffe0957c45d5c02fb48be0424580b9a637a06cc766f4e8c4e98386f8be776d3c6faa168171ccfcf17f63cd13c6f56d523bcfd6f90f0fa076b06721
 Description: debchange (aka dch) script extracted from devscripts
 
+Package: dev-meta
+Architecture: all
+Version: 0.22
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 36
+Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
+Recommends: aprox, bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
+Filename: pool/dev/dev-meta/sid/dev-meta_0.22_all.deb
+Size: 7308
+MD5sum: c5cf899d29cf63eb3b5d02f595b0495e
+SHA1: c654bc957dbc1f1f3580f33ccc21e8d16beb4566
+SHA256: fc542cb0ca0ba0be79040a7ceecfa97bd3e04562eefbbfcb243ea3a3243a1244
+SHA512: f2d273aa8a71f9036591cfc6ebfd50b649bd3ffcbaf1151cbe89a94cd89187a37f7ba79796a5b883c745859d82a7f2faaf9a9b8e47bd58637be37801ee259a43
+Description: Development meta-package
+
 Package: librtaudio-alsa-dev
 Architecture: arm64
 Version: 6.0.1~ds-2
