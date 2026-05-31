@@ -1136,6 +1136,23 @@ Description: fast and light statusbar for neovim
  .
  This is a neovim-only plugin.
 
+Package: neovim-meta
+Architecture: all
+Version: 0.13
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 27
+Depends: neovim
+Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-nightfox, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-web-devicons, neovim-which-key
+Filename: pool/main/neovim-meta/trixie/neovim-meta_0.13_all.deb
+Size: 5024
+MD5sum: 090ab8dd84a8e5a66b42b19cd13c03aa
+SHA1: 34f848fa65b9d5b835142392782982ae82447c27
+SHA256: c6c2ed66a2add0bba1d0ba3a82ad885ea3a0f88a48a7e0fe30f4008f8349f7ea
+SHA512: 30d4aff78b9afd79cd64d44b32bca6452c54668be2aa9170b1df93f92dd2ffb908c32fb7beec560d4647bb1c3917af0af876410288819e8b25c77c29a02875fb
+Description: Neovim meta-package
+
 Package: neovim-nightfox
 Architecture: all
 Version: 3.10.0-4
