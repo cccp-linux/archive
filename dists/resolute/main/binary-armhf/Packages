@@ -765,25 +765,6 @@ Description: Windows Portable Runtime library command line utilities (transition
  This package provides compatibility links for transition from winpr3-utils
  to winpr-utils.
 
-Package: neovim-fzf-lua
-Architecture: armhf
-Version: 0.0-2640-gcf4c-2
-Priority: optional
-Section: editors
-Source: fzf-lua
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 1301
-Depends: neovim (>= 0.9), fzf (>> 0.36)
-Recommends: neovim-web-devicons
-Filename: pool/main/fzf-lua/resolute/neovim-fzf-lua_0.0-2640-gcf4c-2_armhf.deb
-Size: 282066
-MD5sum: c4baca8579f106805fbb9b2f630ccc37
-SHA1: 9411bb97c88e3e53718772c394e927202eb150b9
-SHA256: d0a809f1549e6264502a949b41e830027458f07352838d04c3959de72ea8f9e7
-SHA512: f32af2e1173511257f459389a2cd63c5f9e7663f0f6cd2b22e692dbce1e116e1a4f421dbb4f7ac0b17cde7f434bafb8772f4ae397068efd99e5a5facfdc10559
-Homepage: https://github.com/ibhagwan/fzf-lua
-Description: Improved fzf.vim written in Lua
-
 Package: gtklock
 Architecture: armhf
 Version: 4.0.0.1-1
@@ -842,43 +823,6 @@ Description: fast and light statusbar for neovim
  /usr/share/doc/neovim-lualine/README.md and :help lualine.
  .
  This is a neovim-only plugin.
-
-Package: neovim-meta
-Architecture: all
-Version: 0.14
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 27
-Depends: neovim
-Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/resolute/neovim-meta_0.14_all.deb
-Size: 5014
-MD5sum: 56d18990a3aeab56994e9c3f2e7f67ab
-SHA1: a23d73874eb8b598976d71968f078edfda3284f5
-SHA256: f1d2d211e20a0f61e6df1f9a4dc9c09a8ce51a7faf8967c4fe35aed0a251bac5
-SHA512: 95d1ad88c9c744078311e5139a179aae9d9444a17975129422ea617c0aa81315b69c64dedae8704be3b431dbbeca08c5595cda1cce95253227413f624e6ef037
-Description: Neovim meta-package
-
-Package: neovim-nightfox
-Architecture: all
-Version: 3.10.0-4
-Priority: optional
-Section: editors
-Source: nightfox.nvim
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 314
-Depends: neovim (>= 0.8)
-Filename: pool/main/nightfox.nvim/resolute/neovim-nightfox_3.10.0-4_all.deb
-Size: 57552
-MD5sum: 2a02216b6e7c5e183f7b83d82f69a42e
-SHA1: a5cc001c3eab580cfae36abd3b3f8af4fae4eed7
-SHA256: a5a4a29d2465653691201c0ce255dc3f251073691a67d198eaaca8614f34a3e6
-SHA512: 4c03bde6e470ffaf1ac1d8f45fbee045fdc6a7368b17f6bd92d65b2e4764ab334fd52516a0eab0852b0fe3bc9b3493d081b13ffa3043e69efa2892ac8ba8eeb5
-Homepage: https://github.com/EdenEast/nightfox.nvim
-Description: NightFox theme for neovim
- A highly customizable theme for vim and neovim with support for LSP,
- tree-sitter and a variety of plugins.
 
 Package: niri-meta
 Architecture: armhf

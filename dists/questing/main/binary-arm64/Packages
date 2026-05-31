@@ -56,25 +56,6 @@ SHA256: 6381bf0d351c4d039255722d2ce60d8b153f9dbbd3e4ab76680090831de2ee58
 SHA512: 965f9554d9b17605330dcdbc09bfb1822339843b63b15e0e361035549fea7a338fcd6f4e3b2176a92351c2aaec48f7bc45bdc06ab71f5f4b53f72a8e280207e5
 Description: Standard set of CCCP Linux packages
 
-Package: neovim-fzf-lua
-Architecture: arm64
-Version: 0.0-2640-gcf4c-2
-Priority: optional
-Section: editors
-Source: fzf-lua
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 1301
-Depends: neovim (>= 0.9), fzf (>> 0.36)
-Recommends: neovim-web-devicons
-Filename: pool/main/fzf-lua/questing/neovim-fzf-lua_0.0-2640-gcf4c-2_arm64.deb
-Size: 282066
-MD5sum: f253078ea622c3fc4d73457131d59645
-SHA1: 9d17d15bb8f5d770a4eaa93687826394a0d26e87
-SHA256: 93f10cf1a5ab96e051d6723a7d352a13f5a44fbbe3159dd07513292cd093b58d
-SHA512: cb166a38c9bdfde4fbeb5e7a52cd9ed2cd454839a8f0eb79ca1986c1aa30af472ecd1b8a27b381f4358e428a5e8d08aa45b4afe4c6290b1611add87fe7036dfe
-Homepage: https://github.com/ibhagwan/fzf-lua
-Description: Improved fzf.vim written in Lua
-
 Package: gtklock
 Architecture: arm64
 Version: 4.0.0.1-1
@@ -133,43 +114,6 @@ Description: fast and light statusbar for neovim
  /usr/share/doc/neovim-lualine/README.md and :help lualine.
  .
  This is a neovim-only plugin.
-
-Package: neovim-meta
-Architecture: all
-Version: 0.14
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 27
-Depends: neovim
-Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons, neovim-which-key
-Filename: pool/main/neovim-meta/questing/neovim-meta_0.14_all.deb
-Size: 5014
-MD5sum: 56d18990a3aeab56994e9c3f2e7f67ab
-SHA1: a23d73874eb8b598976d71968f078edfda3284f5
-SHA256: f1d2d211e20a0f61e6df1f9a4dc9c09a8ce51a7faf8967c4fe35aed0a251bac5
-SHA512: 95d1ad88c9c744078311e5139a179aae9d9444a17975129422ea617c0aa81315b69c64dedae8704be3b431dbbeca08c5595cda1cce95253227413f624e6ef037
-Description: Neovim meta-package
-
-Package: neovim-nightfox
-Architecture: all
-Version: 3.10.0-4
-Priority: optional
-Section: editors
-Source: nightfox.nvim
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 314
-Depends: neovim (>= 0.8)
-Filename: pool/main/nightfox.nvim/questing/neovim-nightfox_3.10.0-4_all.deb
-Size: 57552
-MD5sum: 2a02216b6e7c5e183f7b83d82f69a42e
-SHA1: a5cc001c3eab580cfae36abd3b3f8af4fae4eed7
-SHA256: a5a4a29d2465653691201c0ce255dc3f251073691a67d198eaaca8614f34a3e6
-SHA512: 4c03bde6e470ffaf1ac1d8f45fbee045fdc6a7368b17f6bd92d65b2e4764ab334fd52516a0eab0852b0fe3bc9b3493d081b13ffa3043e69efa2892ac8ba8eeb5
-Homepage: https://github.com/EdenEast/nightfox.nvim
-Description: NightFox theme for neovim
- A highly customizable theme for vim and neovim with support for LSP,
- tree-sitter and a variety of plugins.
 
 Package: niri-meta
 Architecture: arm64

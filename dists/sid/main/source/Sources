@@ -237,37 +237,6 @@ Checksums-Sha512:
  ace4ff7f4a72d0eebf4e634351442a3d18e417a6b30f036c78f065ff9ecaf6347d1bc1766aea435a2e2d89c67373523c1420b0fce4f5955d7788cc5071c7dd2f 5110956 freerdp3_3.22.0+dfsg.orig.tar.xz
  8ff70643ad8af4803e9ec6e35c3250f8e3d8854a7718cc167c83e0d1383408b321a81f6470fdb7341232853b9606a9d7b8c68f3ce9133857cae04f6d9f9ca2f1 54120 freerdp3_3.22.0+dfsg-3.1.debian.tar.xz
 
-Package: fzf-lua
-Format: 3.0 (quilt)
-Binary: neovim-fzf-lua
-Architecture: any
-Version: 0.0-2640-gcf4c-2
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Standards-Version: 4.7.2
-Build-Depends: debhelper-compat (= 13), dh-vim-addon
-Homepage: https://github.com/ibhagwan/fzf-lua
-Vcs-Browser: https://github.com/dimitry-ishenko-neovim/fzf-lua
-Vcs-Git: https://github.com/dimitry-ishenko-neovim/fzf-lua.git
-Directory: pool/main/fzf-lua
-Package-List:
- neovim-fzf-lua deb editors optional arch=any
-Files:
- c91b0486a46fa6b2f3a00ea58c0e9682 1330 fzf-lua_0.0-2640-gcf4c-2.dsc
- 062dcb286c16046dd8d605d90ce9972d 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
- ca55d8afe86643b52f216aba24c09bbd 1320 fzf-lua_0.0-2640-gcf4c-2.debian.tar.xz
-Checksums-Sha1:
- 7a1125363a74152456860b8549da8374e3006c8e 1330 fzf-lua_0.0-2640-gcf4c-2.dsc
- 2e4cdf0383d0b24c39dbb99df545b965f0e23a00 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
- 5c558c14516584959e6b049f3be72b1c301d64ac 1320 fzf-lua_0.0-2640-gcf4c-2.debian.tar.xz
-Checksums-Sha256:
- 9adfaae57ecba81034ddc5a575a49228c3a4b57cd1fa2164e54040222e46f5b6 1330 fzf-lua_0.0-2640-gcf4c-2.dsc
- bafddb93781cab683584d6b11d9e897408c0036da015c9c7cb51feb8f328aad2 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
- 9459038d09352d5d1289b6142ac1b13af5f3abe559a6e072d1d2f657d6ada521 1320 fzf-lua_0.0-2640-gcf4c-2.debian.tar.xz
-Checksums-Sha512:
- 27a65ccb38a4bf193b36cc44b2ac615c7856beda4a2c066dcbb590eaeddf68b9c47e8689e4ec025cc611db557b179b88c29e247288a0a3cb0b06274d5e5d8533 1330 fzf-lua_0.0-2640-gcf4c-2.dsc
- 006ef555baeb7a82aa1ff3c93a35e795f603aa130f683fa8e856390c2d1e30c378dd3f0c7f7909fca61b8765e71bff0063452789bd51c04890f729ae32cbfb60 401568 fzf-lua_0.0-2640-gcf4c.orig.tar.gz
- c47917a4b775ddd0affb2d9c54da4b94974183ebb45b6a310f3092352b96d770a06525ff11239c856eb70731c2acc442bf0c1c18552a0217671b32af5571bd6e 1320 fzf-lua_0.0-2640-gcf4c-2.debian.tar.xz
-
 Package: gtklock
 Format: 3.0 (quilt)
 Binary: gtklock
@@ -363,7 +332,7 @@ Package: neovim-meta
 Format: 3.0 (native)
 Binary: neovim-meta
 Architecture: all
-Version: 0.14
+Version: 0.15
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -373,48 +342,17 @@ Directory: pool/main/neovim-meta
 Package-List:
  neovim-meta deb metapackages optional arch=all
 Files:
- 23c2486275d5f7d595226e0bfc6b8a72 936 neovim-meta_0.14.dsc
- 9fc690fcd5e77b92da1dc7da6781fa4b 15424 neovim-meta_0.14.tar.xz
+ 270f0a2abec9e6832dc2afc4dd195bc0 936 neovim-meta_0.15.dsc
+ 729715604c1ad50a6254b6a5583b33a2 15704 neovim-meta_0.15.tar.xz
 Checksums-Sha1:
- a756d0e321f547f2c5b6acd538a8ada295085774 936 neovim-meta_0.14.dsc
- cc433c2bd80f14210c101c13a775f1805f3d3881 15424 neovim-meta_0.14.tar.xz
+ b798b0802ef669d99c505ebd68aea6a8d9ee0a56 936 neovim-meta_0.15.dsc
+ 8bdc0e362820a4478043d98bebaf6f63be3711b6 15704 neovim-meta_0.15.tar.xz
 Checksums-Sha256:
- ac0a37048934b330a6ff0a6aa566402e596490af22a2d9c32b2f842886259dab 936 neovim-meta_0.14.dsc
- 1f26ff29d6f87364be2a3baa4eb01f74de97cd4da2e064edb4f13e490b202845 15424 neovim-meta_0.14.tar.xz
+ 618ec364e7937e33f02494404030a4231ba06f456c4b8de087b10d24aa4340b4 936 neovim-meta_0.15.dsc
+ efc5942a50f25089dfa3085be473f7bc2e9a104db39634a3310006917f6cd847 15704 neovim-meta_0.15.tar.xz
 Checksums-Sha512:
- 6a2290beb12c9a080038a1e920d909d72001ee530603df28a1177d80b077299640c00d1f86852701bf1e23fe1b2054dfba5c5c1022a808bb6f5102a386d5d327 936 neovim-meta_0.14.dsc
- f061ef20bd236d9a6b61988f8f3ee9f2dcbdcf4398670f059de1d38aae2f4d6b2d050cff5d4a134575e15dac7c2d9ba8462e944a5490df55120b395878789934 15424 neovim-meta_0.14.tar.xz
-
-Package: nightfox.nvim
-Format: 3.0 (quilt)
-Binary: neovim-nightfox
-Architecture: all
-Version: 3.10.0-4
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13), dh-vim-addon
-Homepage: https://github.com/EdenEast/nightfox.nvim
-Vcs-Browser: https://github.com/dimitry-ishenko-neovim/nightfox.nvim
-Vcs-Git: https://github.com/dimitry-ishenko-neovim/nightfox.nvim.git
-Directory: pool/main/nightfox.nvim
-Package-List:
- neovim-nightfox deb editors optional arch=all
-Files:
- 77886a459fac99289a1c66187f5259ce 1336 nightfox.nvim_3.10.0-4.dsc
- de2215ae5bcf348fc4f8878b45f58027 104911 nightfox.nvim_3.10.0.orig.tar.gz
- c62bab86e428e6a02ada2a1d5acb4635 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
-Checksums-Sha1:
- 9d03b8ca2b4d21a124b2ca87e68ccf67a3f752bd 1336 nightfox.nvim_3.10.0-4.dsc
- a0ac596fc3d7cfc4a8ae7b59790aec505745d15a 104911 nightfox.nvim_3.10.0.orig.tar.gz
- 1f3d91000a6a437985b3e6a2429e54eab23d6535 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
-Checksums-Sha256:
- e2b8535f385aa60a503ee8d5f939736325beabe4d9047480cb5c98257c18bbc9 1336 nightfox.nvim_3.10.0-4.dsc
- c655a2d9e19cc20866c2eb3135211e0f57f31106ed20b08fe4d37db82ab7859c 104911 nightfox.nvim_3.10.0.orig.tar.gz
- 7052d27ddf72cd267669edf544896e9bd759a4a6866bd907f8b30ca480d7d397 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
-Checksums-Sha512:
- dd774d5f43fdf09fa726cb1483a8c6f73aaee4f2a3779b9af3fc63463b713df023da9f71ec5450d4c2ccb0f3a84adb1b4f2247a3b490b44e43e672e00b0e5c20 1336 nightfox.nvim_3.10.0-4.dsc
- 50bf7aec928b5d046bd66790d471edf0bb69e2d52e77da3f7fa3710bdb352e4d5852b2ef14592534f1c0fad90bf30940c2b8b009ac16df84950362936c649e67 104911 nightfox.nvim_3.10.0.orig.tar.gz
- dd4676048bc76bf24dde2a703729dfcdf88a6a41f9468c40cc145a78decc7c7a482b457a8a41aaac1303c86244053dc59018c258c0b7686ff110a3e105c406ae 1696 nightfox.nvim_3.10.0-4.debian.tar.xz
+ 632f9b44d9b5bf90dc39981b7d9616565a6609b82529c47cd1f37d6b685f752b38c2d7fb68fabe9c56d4a6494aa9541fe9093143625183ff024184c8766de0aa 936 neovim-meta_0.15.dsc
+ 09f6388077d367c51b42d8b0573b032afee4672698973c4cda23cc5206bd1b4f8d33800ef4098848a9fab54ee893267820c82ef326366bf0b47ffc8df1cc81c8 15704 neovim-meta_0.15.tar.xz
 
 Package: niri-meta
 Format: 3.0 (native)
