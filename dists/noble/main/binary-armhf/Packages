@@ -299,19 +299,20 @@ Description: Nerd Fonts icons for use by neovim plugins
 
 Package: neovim-oil
 Architecture: all
-Version: 2.16.0-1
+Version: 2.16.0-2
 Priority: optional
 Section: editors
 Source: oil.nvim
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 493
 Depends: neovim (>= 0.8)
-Filename: pool/main/oil.nvim/noble/neovim-oil_2.16.0-1_all.deb
-Size: 88450
-MD5sum: a0c2ce34ca13646fd80941b63514262b
-SHA1: b1527a524881649f7d3f0ef5d4edcabd37b71cc1
-SHA256: fdaad3aa5c1558eb72b2a7c96c33c0885e463bd3122e2a5e7f43dd97436c8811
-SHA512: 62759cf72ffd2e2fc0f240fb0a8ff605850200da55109bd83945d333033010c0a51771b8b5830554d4cf1a4484989762bbddb509ce68b838d3ff7c71319d3c45
+Recommends: neovim-web-devicons
+Filename: pool/main/oil.nvim/noble/neovim-oil_2.16.0-2_all.deb
+Size: 88500
+MD5sum: bbbd2ccc01c2957d8575b1017233ebaf
+SHA1: 6ea039217e9c90b361c54c86da6e58b8ab2e568a
+SHA256: a7bdafd0674bdfe0c3e0837240e23d5f6383e2a97cda1abaaae395baec8e9e1d
+SHA512: 3464d748b0dcd8f42fc47c73ddb9705d3988356e84435e403aabab6b400681821e42c9495dcc3c69cd0a070cb91dc759129c7b0332c84d74c6186c5cf9bdf508
 Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
