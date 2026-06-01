@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: oil.nvim
 Binary: neovim-oil
 Architecture: all
-Version: 2.16.0-1
+Version: 2.16.0-2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://github.com/stevearc/oil.nvim
 Standards-Version: 4.6.2
@@ -16,18 +16,18 @@ Package-List:
  neovim-oil deb editors optional arch=all
 Checksums-Sha1:
  a375b557c581aa0693ee7b48e4258d6cbf31d813 136992 oil.nvim_2.16.0.orig.tar.gz
- 0341e241f80144ec893e598057397a9a01fd38ea 5112 oil.nvim_2.16.0-1.debian.tar.xz
+ 862e164e5f2675020c34ce05a27b689e5727ebf7 5156 oil.nvim_2.16.0-2.debian.tar.xz
 Checksums-Sha256:
  459762f40b4bb208d5eeb8cd511153a2b9cf2c097d7d3954bcf808411d611ee8 136992 oil.nvim_2.16.0.orig.tar.gz
- 2fbdb8b36fb4d1d7f63a3975feafd2f99c8bcb2510fcc3719f6f502df28499f3 5112 oil.nvim_2.16.0-1.debian.tar.xz
+ c292619abaf8219cea96fa795dfc592309870bc82e806da8297fc147185db506 5156 oil.nvim_2.16.0-2.debian.tar.xz
 Files:
  50d80d53547d6c71500cac7676ebf89e 136992 oil.nvim_2.16.0.orig.tar.gz
- fa3e1cfe54fedca5796d34dbd89e028a 5112 oil.nvim_2.16.0-1.debian.tar.xz
+ aa8bbd1854893e0aeaf5242f269e3091 5156 oil.nvim_2.16.0-2.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCahOpygAKCRA6Vr9YT1rr
-J1teAP9DqJHL/Y2PsjV1zJmpD3lDo9SMOfbTbGG2ILxnayoWBgEA8uOrB47I1W3a
-1X4xp3rOQSKfS5TvcgzPoNzML9xA4Ak=
-=x/Ge
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCahzU2QAKCRA6Vr9YT1rr
+JyKTAP9ze38m7w6ykoC+tYJ+31Pv89iQBU0FWAP+20rfLQAy2QEA908/Tnld956H
+Sm7OoQtuRUOYNsUhCTm1Fqga1SSqHwA=
+=ME2V
 -----END PGP SIGNATURE-----
