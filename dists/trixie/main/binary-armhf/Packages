@@ -1113,19 +1113,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.33
+Version: 0.34
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 69
 Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-courier-nerd, fonts-roboto, fonts-roboto-mono-nerd, fonts-roboto-slab, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
 Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono-nerd, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/trixie/niri-meta_0.33_armhf.deb
-Size: 12548
-MD5sum: 1236e163121f19d5a0a81a26f9b9c10c
-SHA1: 57c70a6c98d0d48818d69be53f7af850167d35d3
-SHA256: 15ebc71aea9ea5dd462e4dfa88af2faccb2632c6789341eac1f436822efc5271
-SHA512: ebb3ddff0c1a7009a0c25ee443329975b6a41cf8066bf26c02b98df10d6781c0ab388d81bf993130b9f79a4a7987841027ade08d4d6e7a0cd3e425c981768fbc
+Filename: pool/main/niri-meta/trixie/niri-meta_0.34_armhf.deb
+Size: 12584
+MD5sum: 2916c8c27949e92a23e39e4e4957dffe
+SHA1: b61ad4d77801462f3db02ffa2ea64d4204e94496
+SHA256: 701e1b06b0b13c9182eec0ea86079019a0b6ab4a8b44a220af52bf2bafd1c686
+SHA512: 85d3810f766752ee548361333b89ddb45f2482ae9139bcec611dec2ae4a471b361826e42656a6890d5e1eb7bb4ca2b32a452fe820c8139f9832fcb21cf2060b1
 Description: Shell meta-package
 
 Package: niri
