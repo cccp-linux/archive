@@ -1260,19 +1260,19 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.25
+Version: 0.26
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 26
-Depends: alacritty, cage
-Recommends: fonts-courier-nerd, tmux, wl-clipboard, wlr-randr
-Filename: pool/main/term-meta/sid/term-meta_0.25_all.deb
-Size: 4340
-MD5sum: 2fffd6310092d7ccf16ba42724245928
-SHA1: 3ff8bf8ae2b0ea3e87e28ac9f4e48e8bfe22924c
-SHA256: 4606e551d5abc0d404d6260ebf3296aef23009681ad3a6c67e54e55d7e56cede
-SHA512: 5c0599106d0c4f75602067d9724f28f97aeb4959b78c507e02062c2786331132e97d71163c8c865befe5855810d512f3161134a872cd821b541e8033d0d70470
+Depends: foot, cage
+Recommends: fonts-courier-nerd, foot-themes, tmux, wl-clipboard, wlr-randr
+Filename: pool/main/term-meta/sid/term-meta_0.26_all.deb
+Size: 4316
+MD5sum: c8af7bce0fd36a1555387d36c16521c7
+SHA1: eaca2c5a06ec535e1f66069b9cdcb90f0998976f
+SHA256: 4edec23bdff1226747a2450e72e187b2133c0b5beeea233cd118c83a9d04e5f9
+SHA512: 510b3e7cd1775e7459351f363b6ded2c061621af30f42d3884f3d17564fa511da9c2fc29987a862da7cde2703e461cc7630e0beed6ace94d2e3bc82195a94674
 Description: Terminal meta-package
 
 Package: virt-meta
