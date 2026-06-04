@@ -60,7 +60,7 @@ Package: font-bitstream-type1
 Format: 3.0 (quilt)
 Binary: fonts-courier-10pitch, fonts-bitstream-charter
 Architecture: all
-Version: 1.0.4-2
+Version: 1.0.4-3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), fontforge-nox
@@ -71,21 +71,52 @@ Package-List:
  fonts-bitstream-charter deb fonts optional arch=all
  fonts-courier-10pitch deb fonts optional arch=all
 Files:
- e6842239ac710e2cf464781126a45959 1405 font-bitstream-type1_1.0.4-2.dsc
+ 5dd52f08e30425c431f23b876fc5ef3f 1405 font-bitstream-type1_1.0.4-3.dsc
  5f778f9855dc27417283202fefdcc97f 336615 font-bitstream-type1_1.0.4.orig.tar.gz
- 19aeea66827207549e04ffabef6df675 3372 font-bitstream-type1_1.0.4-2.debian.tar.xz
+ 88a578920a05f89442c7a5ba603a33f4 3572 font-bitstream-type1_1.0.4-3.debian.tar.xz
 Checksums-Sha1:
- e842c235c55a877a23612a410aac8948c328bfc9 1405 font-bitstream-type1_1.0.4-2.dsc
+ 4048cff2239a56d8d17e7e288203e0a0fb8f67a6 1405 font-bitstream-type1_1.0.4-3.dsc
  152322cf77219dc7891f79ff251cd48d0bcfff21 336615 font-bitstream-type1_1.0.4.orig.tar.gz
- 7d9511278bf3a2e87ed8d57b5d3cc16f8d0adf41 3372 font-bitstream-type1_1.0.4-2.debian.tar.xz
+ dc4528f5ea398f4768c26268f5f12d9eae0f8286 3572 font-bitstream-type1_1.0.4-3.debian.tar.xz
 Checksums-Sha256:
- 1ef553904e98abdac06f4a648665e145a0fc1a6681b04ea3053c7e4019bcd8d7 1405 font-bitstream-type1_1.0.4-2.dsc
+ 0a06659e5c8eaa0a5516bbe152142b145b18b17d797dcc63ced23d13e1d29025 1405 font-bitstream-type1_1.0.4-3.dsc
  d5db1d2421a90aef06371138d07556b5e9f5fa847dc029c4656a84e5ca8a11b4 336615 font-bitstream-type1_1.0.4.orig.tar.gz
- 820fabd02d5126c13e305dd1ef9db327026e814e7857a953a2a94b41b4681886 3372 font-bitstream-type1_1.0.4-2.debian.tar.xz
+ a48a0490339deb65de1a27947521ccf7b7f27c01acae5c7a8e64c2d7d4ca37e7 3572 font-bitstream-type1_1.0.4-3.debian.tar.xz
 Checksums-Sha512:
- 0b8e9c8acb11a85e10291858e74a0b237c528e8661c446d34a028aa79142a4012c4342d897caca1de370d396b1b794a5fc8e3f797095bf603364c6e0a3649831 1405 font-bitstream-type1_1.0.4-2.dsc
+ 98a38cc9d424c85a6d36e109b73db0aae95a82a9ee3ebb9c1a328d8d722388625912c4dee53aef3920c070543bd55542f104e30d33244209fb6a262005879ebd 1405 font-bitstream-type1_1.0.4-3.dsc
  d3f693adfe6a9b6ec464b725cfcf283e120b6a8a3fd93dec5363dd8cac10ff688cfede967d91dbbe699f74c89af9ddd238e10eab4620032395d404111a8d112f 336615 font-bitstream-type1_1.0.4.orig.tar.gz
- 628040944f2edd619514fe1ade2122a6782c33392276893b88ec1f7e1a7adc2e2dbc0e3a381bf8639f6e65ccb599d1bf4a7ee98db161ae81cf17bf491b851f43 3372 font-bitstream-type1_1.0.4-2.debian.tar.xz
+ 512191264d79d3381b2edf708e6b24dd0ff14848ccba7209e92d06d88fa8884036e05f71bdfc2bb7c4ec6a14aaaa91add63f13b8e0eb4c4ee60beb5bcc449cf4 3572 font-bitstream-type1_1.0.4-3.debian.tar.xz
+
+Package: fonts-roboto-mono
+Format: 3.0 (quilt)
+Binary: fonts-roboto-mono
+Architecture: all
+Version: 3.001-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/googlefonts/RobotoMono
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono.git
+Directory: pool/main/fonts-roboto-mono
+Package-List:
+ fonts-roboto-mono deb fonts optional arch=all
+Files:
+ e34fdaee1b19f97d87edd2de77abec9f 1352 fonts-roboto-mono_3.001-3.dsc
+ 7ef2b7b0ecf93d49c67c5f4c2aa9369f 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 47439f9298a0af16d0ea0bc2b3fcd8cb 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha1:
+ 0ad3ce43f0609e2bb80db996ac5cb5e4d675d5bb 1352 fonts-roboto-mono_3.001-3.dsc
+ 440b59c0a717a54ac6d8d55f2b1737a03c9d0ab1 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 77a334a7f7754a23fbb31c0a821e4bb306cac54f 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha256:
+ a56c5f451d116a145afbfbb332d034b972bd5e0c6c6249b22d6ea944a733cea9 1352 fonts-roboto-mono_3.001-3.dsc
+ 52dfbcfd8fa063b5233245921995178345b3bc276e463a5b60b40bcf26ff9bca 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ f5bec69b2514eeaaaa45333b3ab0faeaf0f2514332fbac760f66660f6bde3b1a 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha512:
+ d10c890667dfcc0841a58e7813efb25abafca2e96754bb94b467f9d3a53a80001ef65f9f6b7be31fd3c1279e34f06b6dbcf359f1d20702c440e11e85c1efeb51 1352 fonts-roboto-mono_3.001-3.dsc
+ 98f1b292943aee7cee748c917e33f39bd4a76d5a733e3c4d8e398fdb7642ffc0810642fd2546dbf479b73471b4b96ad3d681343e922efc6905a3a629236cf59f 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 9a107aa041f9690b80e30c31b58a2ed3da07dc62154f6d18d111ca797762f32778cfd7a8e9eb41f4c2cabc1b4dda960a676fd1af7db34a386c4ba85d64076150 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
 
 Package: fonts-symbols-nerd
 Format: 3.0 (quilt)

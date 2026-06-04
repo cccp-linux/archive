@@ -94,35 +94,35 @@ Description: Standard set of CCCP Linux packages
 
 Package: fonts-bitstream-charter
 Architecture: all
-Version: 1.0.4-2
+Version: 1.0.4-3
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 106
-Filename: pool/main/font-bitstream-type1/sid/fonts-bitstream-charter_1.0.4-2_all.deb
-Size: 59240
-MD5sum: 64d41f27b5ff9453be8cd2040f1ece56
-SHA1: 3b506979604324c4b0761e6978a973c7e3bf2400
-SHA256: 36872873e947b4d7d22f4112a86d89e9ddfe5354383413c6d8442c1e6b8cad5c
-SHA512: a23e6635fd04f66fae0108f91484451b27c96a7a0b29b4229d27ed812133208fbc9a45e5c3a20a28bce4ffe5d726976d9c328c7ab1422c0e29e36a33652b1b33
+Filename: pool/main/font-bitstream-type1/sid/fonts-bitstream-charter_1.0.4-3_all.deb
+Size: 59284
+MD5sum: c1a9de47b7c7afab9ac5f70de3fb20af
+SHA1: be2f02950dcbfb4838b6d312c4989e5a7258b4db
+SHA256: d1c65cc904aaf822722b36a3dbb9ffd9f0c032c358d7f171fffedd30feadccda
+SHA512: 6b6860c860167ecf69aeabd2012d82b1d30f54db65533b3675be419dc9600d261a95bff5613fb056289c261e5c6c53cf8d3ae6acb186c587705343b3713d28fb
 Description: Bitstream Charter font from xfonts-scalable
 
 Package: fonts-courier-10pitch
 Architecture: all
-Version: 1.0.4-2
+Version: 1.0.4-3
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 115
+Installed-Size: 122
 Provides: fonts-courier
-Filename: pool/main/font-bitstream-type1/sid/fonts-courier-10pitch_1.0.4-2_all.deb
-Size: 61384
-MD5sum: a011924d22fdbaebbc0195096e126ee2
-SHA1: 8bd101e7b7d21359a63087a6788272f3c36c485f
-SHA256: 59e2dae7dd7af992cd053f203b6fa7b2234afb43cd4944642da451805fee6326
-SHA512: 35e744dd6f67c5576edac7f002058b1678f0ad0ed4ac278ac0697e5d1e7908fe07dac0943ea1f9e66e3ce7ecdec3b1512a969f00f5852d454bbde86ed1f80687
+Filename: pool/main/font-bitstream-type1/sid/fonts-courier-10pitch_1.0.4-3_all.deb
+Size: 61648
+MD5sum: a1ed8a59b4a787b425b7502038e0cc56
+SHA1: 542e49383b6a016db1452534ef9ef36aa8c20969
+SHA256: 9a0f8d49df34b5272dfc07f8c7687002c4dc4ee6ae24ce9803b406d2f3d17b3d
+SHA512: 2f6fe6aebcc0a7d19fdf6d585d07153575aba66b8d347a204d7af6c807b52e3a47634bdd86c40fc45b3e7ec4472d0bb2a7518e658c695cbf547a230cdd91d836
 Description: Courier 10 Pitch font from xfonts-scalable
 
 Package: fonts-symbols-nerd
