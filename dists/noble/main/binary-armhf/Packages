@@ -192,41 +192,6 @@ Description: Monospaced addition to the Roboto type family
  Specifically to add a high number of extra glyphs from popular 'iconic fonts'
  such as Font Awesome, Devicons, Octicons, and others.
 
-Package: fonts-roboto-mono
-Architecture: all
-Version: 3.001-2
-Priority: optional
-Section: fonts
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 979
-Filename: pool/main/fonts-roboto-mono/noble/fonts-roboto-mono_3.001-2_all.deb
-Size: 659932
-MD5sum: b92da1dcde9d7c633972651135e23f7a
-SHA1: b0e101a4dcdc0ac76d3ec57ac7b464ade042b267
-SHA256: cbc973c44d3dfa981f189ad53f86ea084b6661c8233b1a177bd3a7f2e17b2d54
-SHA512: c5ac12b4786567d8fab94addc8965f1ae64ea903d7fa9efd87bcb94fbdcec904d1cd7fadd104cbe4adae10a588c594477607a1d9abf51df4c5ddb7eebd7f4188
-Homepage: https://github.com/googlefonts/RobotoMono
-Description: Monospaced addition to the Roboto type family
- Like the other members of the Roboto family, the fonts are optimized for
- readability on screens across a wide variety of devices and reading
- environments.
- .
- While the monospaced version is related to its variable width cousin, it
- doesn’t hesitate to change forms to better fit the constraints of a monospaced
- environment. For example, narrow glyphs like ‘I’, ‘l’ and ‘i’ have added
- serifs for more even texture while wider glyphs are adjusted for weight.
- Curved caps like ‘C’ and ‘O’ take on the straighter sides from Roboto
- Condensed. Special consideration is given to glyphs important for reading and
- writing software source code. Letters with similar shapes are easy to tell
- apart. Digit ‘1’, lowercase ‘l’ and capital ‘I’ are easily differentiated as
- are zero and the letter ‘O’. Punctuation important for code has also been
- considered. For example, the curly braces ‘{ }’ have exaggerated points to
- clearly differentiate them from parenthesis ‘( )’ and braces ‘[ ]’. Periods
- and commas are also exaggerated to identify them more quickly.
- .
- The scale and weight of symbols commonly used as operators have also been
- optimized.
-
 Package: libreoffice-meta
 Architecture: all
 Version: 0.1

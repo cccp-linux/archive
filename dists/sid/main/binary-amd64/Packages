@@ -194,41 +194,6 @@ Description: Monospaced addition to the Roboto type family
  Specifically to add a high number of extra glyphs from popular 'iconic fonts'
  such as Font Awesome, Devicons, Octicons, and others.
 
-Package: fonts-roboto-mono
-Architecture: all
-Version: 3.001-2
-Priority: optional
-Section: fonts
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 979
-Filename: pool/main/fonts-roboto-mono/sid/fonts-roboto-mono_3.001-2_all.deb
-Size: 587448
-MD5sum: 79482d429d4d7c5e23d8b420db5d926d
-SHA1: b22abdf75102d298cb7be4020369b3232032526b
-SHA256: cd2bec40e041e1b8c6da6c4a988b200713d1e457713db1d860fe342c9f35c318
-SHA512: 8787f12675904cbaa438de9e7da95412d96ee3b431a606c6c1f12f7e849514dcb990078b3bfebde9cd6ad125876698e0648fdef6b8b3880b6d25fa688c83c082
-Homepage: https://github.com/googlefonts/RobotoMono
-Description: Monospaced addition to the Roboto type family
- Like the other members of the Roboto family, the fonts are optimized for
- readability on screens across a wide variety of devices and reading
- environments.
- .
- While the monospaced version is related to its variable width cousin, it
- doesn’t hesitate to change forms to better fit the constraints of a monospaced
- environment. For example, narrow glyphs like ‘I’, ‘l’ and ‘i’ have added
- serifs for more even texture while wider glyphs are adjusted for weight.
- Curved caps like ‘C’ and ‘O’ take on the straighter sides from Roboto
- Condensed. Special consideration is given to glyphs important for reading and
- writing software source code. Letters with similar shapes are easy to tell
- apart. Digit ‘1’, lowercase ‘l’ and capital ‘I’ are easily differentiated as
- are zero and the letter ‘O’. Punctuation important for code has also been
- considered. For example, the curly braces ‘{ }’ have exaggerated points to
- clearly differentiate them from parenthesis ‘( )’ and braces ‘[ ]’. Periods
- and commas are also exaggerated to identify them more quickly.
- .
- The scale and weight of symbols commonly used as operators have also been
- optimized.
-
 Package: freerdp-proxy-dbgsym
 Architecture: amd64
 Version: 3.22.0+dfsg-3.1
