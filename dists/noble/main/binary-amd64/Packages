@@ -123,6 +123,40 @@ SHA256: 9c617dcb6123fd324f2004b3ee0a3ed026a274af8f3169d49105d4fa3d815d1f
 SHA512: 5c1f419cc581d907459a7b9b9ffce9e56528497712f18be8bd30909ca7f85e9b22486c809272108621e5ee3b540b6b7d54f168b201c1bc3b23d290ec94b41de1
 Description: Courier 10 Pitch font from xfonts-scalable
 
+Package: fonts-roboto-mono
+Architecture: all
+Version: 3.001-3
+Section: fonts
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 979
+Filename: pool/main/fonts-roboto-mono/noble/fonts-roboto-mono_3.001-3_all.deb
+Size: 660010
+MD5sum: 8b58b603b8c81358137dfaf093d80d0a
+SHA1: d2179e6e4c61acaf1a1ff4d9f0f497dc20bdbd67
+SHA256: e80a8fec32fbe6e0344c96c752efaba324852d7451ff8d628a9ea7358c05b033
+SHA512: 6ce16306bd0980c96dc06e8e0221926e2367f8b2fec76a3cc7f15045844a5c3b4e88cf041a15282184be9a94211edc0ecd9b827538f2a29c3f150f3fc72816cf
+Homepage: https://github.com/googlefonts/RobotoMono
+Description: Monospaced addition to the Roboto type family
+ Like the other members of the Roboto family, the fonts are optimized for
+ readability on screens across a wide variety of devices and reading
+ environments.
+ .
+ While the monospaced version is related to its variable width cousin, it
+ doesn’t hesitate to change forms to better fit the constraints of a monospaced
+ environment. For example, narrow glyphs like ‘I’, ‘l’ and ‘i’ have added
+ serifs for more even texture while wider glyphs are adjusted for weight.
+ Curved caps like ‘C’ and ‘O’ take on the straighter sides from Roboto
+ Condensed. Special consideration is given to glyphs important for reading and
+ writing software source code. Letters with similar shapes are easy to tell
+ apart. Digit ‘1’, lowercase ‘l’ and capital ‘I’ are easily differentiated as
+ are zero and the letter ‘O’. Punctuation important for code has also been
+ considered. For example, the curly braces ‘{ }’ have exaggerated points to
+ clearly differentiate them from parenthesis ‘( )’ and braces ‘[ ]’. Periods
+ and commas are also exaggerated to identify them more quickly.
+ .
+ The scale and weight of symbols commonly used as operators have also been
+ optimized.
+
 Package: fonts-symbols-nerd
 Architecture: all
 Version: 3.4.0-1
