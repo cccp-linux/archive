@@ -129,20 +129,20 @@ Description: C++ library for realtime audio input/ouput
 
 Package: uscan
 Architecture: all
-Version: 2.26.9.1
+Version: 2.26.9.2
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
 Installed-Size: 350
-Depends: perl:any, dpkg-dev (>= 1.18.19), libfile-dirlist-perl, libfile-homedir-perl, libfile-touch-perl, libmoo-perl, libwww-perl, libyaml-libyaml-perl, sopv | gpgv
+Depends: perl:any, dpkg-dev (>= 1.18.19), libfile-dirlist-perl, libfile-homedir-perl, libfile-touch-perl, libjson-perl, libmoo-perl, libwww-perl, libyaml-libyaml-perl, sopv | gpgv
 Breaks: devscripts
 Replaces: devscripts
-Filename: pool/dev/uscan/trixie/uscan_2.26.9.1_all.deb
-Size: 78024
-MD5sum: 93973454a5845f8652673189d6dcd236
-SHA1: a149a69decd271a51bbed858a4dc93718ce18096
-SHA256: 403497f6af40c155293671301755fe8342e067b3e9d69785a9eec4daa2a59010
-SHA512: ffbef18f9d3cc2ce1f084224b9a79ad85cadd3a9f64dc401a9c65348261e29b60567db62b4edbe7b1cbeb2313a7d4f071b5444b01220e9aa4a78b01449f1826f
+Filename: pool/dev/uscan/trixie/uscan_2.26.9.2_all.deb
+Size: 78088
+MD5sum: 69ca259d9289716ab9bf725e3db98016
+SHA1: 5103ad292f927aa07d259769843f87e1d95fc1c0
+SHA256: 970f9391c1a196ffc65147c8311cda9bcf919feb1588b345ad4320f083064e62
+SHA512: 0586b4976283075b00725efdae3e22347ee31c19734b0e91d9c96c5d9b67f27dca79ff2f4fbe58aba2532cbf44635d8a51c94d653fd873a1c19e68eb0e5a519d
 Description: scan/watch upstream sources for new releases of software
 
