@@ -16,18 +16,18 @@ Package-List:
  fonts-courier-10pitch deb fonts optional arch=all
 Checksums-Sha1:
  152322cf77219dc7891f79ff251cd48d0bcfff21 336615 font-bitstream-type1_1.0.4.orig.tar.gz
- 985aee832b626243a9c1ab87a9bf6490fa195117 3412 font-bitstream-type1_1.0.4-2.debian.tar.xz
+ 7d9511278bf3a2e87ed8d57b5d3cc16f8d0adf41 3372 font-bitstream-type1_1.0.4-2.debian.tar.xz
 Checksums-Sha256:
  d5db1d2421a90aef06371138d07556b5e9f5fa847dc029c4656a84e5ca8a11b4 336615 font-bitstream-type1_1.0.4.orig.tar.gz
- a55c8e7fe1dcb284984a41d8cf1eebc0feea73feb0255628267b73b020033875 3412 font-bitstream-type1_1.0.4-2.debian.tar.xz
+ 820fabd02d5126c13e305dd1ef9db327026e814e7857a953a2a94b41b4681886 3372 font-bitstream-type1_1.0.4-2.debian.tar.xz
 Files:
  5f778f9855dc27417283202fefdcc97f 336615 font-bitstream-type1_1.0.4.orig.tar.gz
- c540c4891604962f1bbd7e49bb3f6c8e 3412 font-bitstream-type1_1.0.4-2.debian.tar.xz
+ 19aeea66827207549e04ffabef6df675 3372 font-bitstream-type1_1.0.4-2.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaiGnGAAKCRA6Vr9YT1rr
-J0LbAQCEQIGNuWIAkinQXMGQP8wtAYf5zlY74jfL5YqiGwgFpAEAih8iHClJisbA
-pzzOlIIs983MjpMhxK1CN7TAj6CVsAQ=
-=YwY6
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaiG/gAAKCRA6Vr9YT1rr
+J+F0AQCE+qVFT/aAk0SgXVLXvfaScIdUdepc4v8HfuVcu0p2dwEAkpFMs0t6LWji
++W9FherV7nuVoZsgdGRKORA4wYPqrwo=
+=/I/m
 -----END PGP SIGNATURE-----
