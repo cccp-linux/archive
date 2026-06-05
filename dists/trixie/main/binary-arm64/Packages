@@ -1181,17 +1181,18 @@ Description: Neovim file explorer
 
 Package: pycal
 Architecture: arm64
-Version: 0.1
+Version: 0.1.1
 Priority: optional
 Section: utils
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 16
-Filename: pool/main/pycal/trixie/pycal_0.1_arm64.deb
-Size: 3600
-MD5sum: 9dea82194d90bcc584e172e0ac534356
-SHA1: f15ba8c82289e51b00b831ac84ca48f65b1fa665
-SHA256: 838c09b9ef92046adbe88a4e1ace783daf8d7cdda77d7330558a2fb16ce49171
-SHA512: fd99693b8ca1de3e39d54bd4821905b85be8cee31ab6228b8c6b70fa3cf42c6fc71528360a8666af710cefe2bd47da56b34e6cc381c7843b4ebf3119cd550dbd
+Depends: python3
+Filename: pool/main/pycal/trixie/pycal_0.1.1_arm64.deb
+Size: 3652
+MD5sum: 833c930ea1b0336ea6001d274fd4c769
+SHA1: e3b752e6b97178a115617f4f6e776722a52ad2b6
+SHA256: 5fb5c3d16ccabc3ecf104240ace357e4fa3ba00282996ace584be2090f475a48
+SHA512: 336877890151bf0d39d0a0d7f0a6797daa245143ceaf2976997725e2dcdb37e271d9a74a2966370bc3c8ae3d6c627ff28fba96ff58f79d7d2127ec2601c64064
 Description: Calendar display utility
 
 Package: quickshell

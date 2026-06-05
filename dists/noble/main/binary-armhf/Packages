@@ -295,16 +295,17 @@ Description: Neovim file explorer
 
 Package: pycal
 Architecture: armhf
-Version: 0.1
+Version: 0.1.1
 Section: utils
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 16
-Filename: pool/main/pycal/noble/pycal_0.1_armhf.deb
-Size: 3458
-MD5sum: d55bbab2108cac4bab609d4e7741d104
-SHA1: ff849b65891cd12e4869b449d35e3301e3865e0d
-SHA256: eeff94869ee236e30c37b7a5512095360db18551ea8b5cc526eb406452cfaea2
-SHA512: dd45ad61efa9ae40d775ccda3f9741b25019fbdc373dc8bd123885ae60e19563151413a585adc73e57ac943b68e443e58e9fcd762c5743ec64c2ab37b57cbf7e
+Depends: python3
+Filename: pool/main/pycal/noble/pycal_0.1.1_armhf.deb
+Size: 3526
+MD5sum: 52f6e5fe17b00f0503048acbea38df9c
+SHA1: 24b94f1b1dc5c2dbb36fa07e96228febc4c7f19a
+SHA256: 83bd096f664a9d644e17f35db785a7b1e7caea33a10d69c5b9ddbee6ffb94313
+SHA512: 12f2ed6c4e2c532d5886f2d8cf8bc3410266f8a820ee4d6eb16927a4131312a5d9d3f2f03b92532502a65b5ea210cbc1bc3775f5364c77e2908dc5623507884d
 Description: Calendar display utility
 
 Package: neovim-statuscol

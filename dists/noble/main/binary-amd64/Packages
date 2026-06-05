@@ -295,16 +295,17 @@ Description: Neovim file explorer
 
 Package: pycal
 Architecture: amd64
-Version: 0.1
+Version: 0.1.1
 Section: utils
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 16
-Filename: pool/main/pycal/noble/pycal_0.1_amd64.deb
-Size: 3458
-MD5sum: 803229cfcc191437ccaf065c60e53b53
-SHA1: 301719f21d9319f626fa9f1a9d58eea29cc576df
-SHA256: 8a8a0f349996c0c05acbc3e576b80f4fc219cacd282e3a67b714d9916cbda333
-SHA512: db2eb4918ca4e788d8b0d137f1a98d9cd6c551b995060a4f64d496b151d1980758bfbfc2c321a28ba50a1b102164595a4eea409a9fb7cd970c434f99b995662e
+Depends: python3
+Filename: pool/main/pycal/noble/pycal_0.1.1_amd64.deb
+Size: 3524
+MD5sum: 5a119a48b3d23178a2d1193f0359eef8
+SHA1: 1f58febf0e98a3165cb9bd55933ed60552a79aa3
+SHA256: d250276beb51f569ca5803a161374a8166148e93c659214d215f161248a7862e
+SHA512: d2ca66f0e9fbfd04cf97efa8ed7c1234769ccc4e52dce231acab4ef1e02d58d7d30f59547b4663d185b3bf33e84ba96ae51f2890684a0ca763676b1c8311a9bd
 Description: Calendar display utility
 
 Package: neovim-statuscol

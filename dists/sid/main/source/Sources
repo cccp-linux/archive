@@ -417,7 +417,7 @@ Package: pycal
 Format: 3.0 (native)
 Binary: pycal
 Architecture: any
-Version: 0.1
+Version: 0.1.1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13)
@@ -427,17 +427,17 @@ Directory: pool/main/pycal
 Package-List:
  pycal deb utils optional arch=any
 Files:
- 21cd80fb0c82162ce0847813a220dc6e 880 pycal_0.1.dsc
- 08af1a71f88643ca0cf06c7707cf5c92 311244 pycal_0.1.tar.xz
+ 70909625eef480d89f7ab0d104601558 888 pycal_0.1.1.dsc
+ b5dc35ece62e855317d9878f8c0b3b9b 311260 pycal_0.1.1.tar.xz
 Checksums-Sha1:
- 14ea037b824411675e926d2af10076dac41eb23e 880 pycal_0.1.dsc
- 177eb1b7d9dcb319c0b081f28819249746abad48 311244 pycal_0.1.tar.xz
+ 801cef73e0b0b34cc608c0edae1a276d0565dc8c 888 pycal_0.1.1.dsc
+ e82a6ec407547d2d923584ab37c1c7e487ef15ae 311260 pycal_0.1.1.tar.xz
 Checksums-Sha256:
- 7ed1470c160df0e46564d07b3112c3da2a8184ec8b8c5f49c5b6b4f1a2f7cd3b 880 pycal_0.1.dsc
- 9ffeab98e416bd8555e610606135004ce439ad7ec058b86d42d840c7658149f0 311244 pycal_0.1.tar.xz
+ a88aa4a36d655a3a11911a6a17a0d8e4142746290b44b8bedc57de9623b42db5 888 pycal_0.1.1.dsc
+ b1adb06996183d42a82fbff6afb6f9433747e3ddceb0878bb1b923ac5ac2925f 311260 pycal_0.1.1.tar.xz
 Checksums-Sha512:
- 32e540d932d0802f727209ecbacb5fc84c9c5418eb7c2b7c2309a1fbf0f5b382dfb8fd9e60f4399f785ecd0e721d85a00d34c4ca58ce1812a5ada69585f3fce4 880 pycal_0.1.dsc
- 9f611c0e82cdda9a3d3daad455ba890fdb40f8809058caa63daaa150649a326d86b268f116d3e33e5c224a80f50ba1b2fc9407a12979ea412be90e4f2c6811e8 311244 pycal_0.1.tar.xz
+ 13fdd9a655bc284c1a129df33c189f4d2b15107be7fe6852e089db3252d7e8a96c96d8818517642fa051f8d994651d4d9e780595b2aad18968eff3a9108fa2fd 888 pycal_0.1.1.dsc
+ 12ae886db5dce61174556498990be31fbc052c7262c8f07871463729adb1d0734d76c3598b12822af6a41ce370900e9ef8a1288ea577691e6e25bd4370470f83 311260 pycal_0.1.1.tar.xz
 
 Package: statuscol.nvim
 Format: 3.0 (quilt)
