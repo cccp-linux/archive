@@ -40,7 +40,7 @@ Description: Kernel and boot packages
 
 Package: cccp-boot-meta
 Architecture: armhf
-Version: 0.44
+Version: 0.45
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -48,12 +48,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, wireless-regdb
-Filename: pool/main/cccp-meta/sid/cccp-boot-meta_0.44_armhf.deb
-Size: 3468
-MD5sum: 7cba6920491a1eaff5719019b9654815
-SHA1: 18dd9c72e29355d7f84db12c07f2d44fe8b04b05
-SHA256: e8242493d1f313ca99e9babdd0ba5e3da529ec667338957f151d7cb8475f3b01
-SHA512: 3953998ab50f7bc81da8823c440d52dfabbe9c0e9ed547df7fcf042d0d931a49f5453074e96595f8ec9f55cb0ab38ec4952a8ceb79413330e29b6bac350ec537
+Filename: pool/main/cccp-meta/sid/cccp-boot-meta_0.45_armhf.deb
+Size: 3512
+MD5sum: 179f734bb4f5eda991de7b0c78278221
+SHA1: 3f270c81b870fc5f18998bf0ce90e46a77846837
+SHA256: 343f74ff0eb76e592a481828ccafdc6103863e2092e2ca7a1d5af1f33feea922
+SHA512: 76855c264de81ea881456bc12192db26a6434bfe2e916358b4912e68e8b7c19958d01f86ff0b7380713b5cbc2eb0eea287ce6d5154e0b1ea309c8a21d11ee042
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
@@ -76,20 +76,20 @@ Description: Standard set of CCCP Linux packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.44
+Version: 0.45
 Priority: optional
 Section: metapackages
 Source: cccp-meta
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 77
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/sid/cccp-standard-meta_0.44_all.deb
-Size: 12960
-MD5sum: 7c77a112d283316d54f52cbc839e4d10
-SHA1: a45313a40f0540a3f2cbcc866e5b79b7e5bd2c26
-SHA256: 076271478cd0dec6346a5f9a644a6e9b748fedd0d3c4eb468d6bae353078ef7e
-SHA512: 095d7b184af72cb5b7b8ff16060034a6de3b7c11e205ee5f21d67ca61dcbcb337a194d4d1591e9370e1a00859ad85848dd46870e9f20fab33c17208c65d22185
+Recommends: acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/sid/cccp-standard-meta_0.45_all.deb
+Size: 13192
+MD5sum: 84c6f806d93cafed041ab8369db08c48
+SHA1: 014b508d93792d9be8bbbb57d3787d2cf93493d1
+SHA256: 8a476fd7b7d082336f2197775b15f7bcd39ea1e22d44c643c2d46f1689599862
+SHA512: 371362d3258bc996f5989896bb83dd0aa465877d7581a551b1752f0ac9d2c821c4ddd6806ea54826e1783c608237db1ceca43f889dbfc6a4837d906cb7b1976c
 Description: Standard set of CCCP Linux packages
 
 Package: fonts-bitstream-charter
