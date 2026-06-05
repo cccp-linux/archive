@@ -207,19 +207,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.35
+Version: 0.36
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 74
-Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, swaybg, swayidle, term-meta, udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
+Installed-Size: 73
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
 Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/noble/niri-meta_0.35_arm64.deb
-Size: 13176
-MD5sum: 225bf15b1711af6938b2dfa72547eb1a
-SHA1: 845089d961d18b7a4a53557c92d49dca699e5538
-SHA256: ea5420e5f519fa6874512e7f692ab94ff8022ab1ffa8b0366e53593bc8faebe1
-SHA512: 673c703282f60a1690d986d91d990ef2a99ddb58a5f78539b7160e0435d46f1c73aa16201c7473773e8c20c6e14e000d20232f713b7d2c4fa3012fd2d425e7bc
+Filename: pool/main/niri-meta/noble/niri-meta_0.36_arm64.deb
+Size: 13284
+MD5sum: bd24be9b1ee191d4a93fa64300161bc6
+SHA1: 8516f67da576ea805926c39cecb1c1615b2da540
+SHA256: 5e134c42f040f4a5a08b69e3796aca62097b36e4cf3d7f7b4bbd431f1c2b983c
+SHA512: 5eee0a415e2fa91eb467a9e693151bd9a85f354fb6bd23ccf887f4f7b97829234c59a03e612eae436528c2158d3b59779dcbb2f76e274b88362492b358a2b83a
 Description: Shell meta-package
 
 Package: niri
