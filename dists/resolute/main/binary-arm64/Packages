@@ -94,52 +94,52 @@ Description: Standard set of CCCP Linux packages
 
 Package: fonts-bitstream-charter
 Architecture: all
-Version: 1.0.4+~3.4.0-1
+Version: 1.0.4+~3.4.0-2
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 106
-Filename: pool/main/font-bitstream-type1/resolute/fonts-bitstream-charter_1.0.4+~3.4.0-1_all.deb
-Size: 63080
-MD5sum: ffc4da1a991258d84b8e1dabdfa63e2d
-SHA1: b97f2eb282942b87c9bab15cb90adf6000df32a8
-SHA256: f929c163f50e4c058d7d9bd8c53a74bf86d18bf9cc12c9cab313da13ab4fcb5a
-SHA512: 245da56c37aa80a536a6ebf716317691a0455ee79e60cf52e6f854955c99594f8a8055315fad011f03c90fe43d9c2961fd910c30a4d3d79a203c5e6e25ac9ce4
+Installed-Size: 107
+Filename: pool/main/font-bitstream-type1/resolute/fonts-bitstream-charter_1.0.4+~3.4.0-2_all.deb
+Size: 63382
+MD5sum: e358c278cae3e24fbda2079f2fa5f60a
+SHA1: 5484d5b6a004b350d3621a5c7f4b2601abaa25d5
+SHA256: 87c88b4490333f04292c9ed884222eb40c080d583b2de95dc24dfd63e092e694
+SHA512: 72443590aafb8faec09cfa824272d3c7cd09a738f4b504ccd25f02da3555a4f856d70ce7e2cbdeb12ac407e2cb6f615e8505f816a00fd92d6ff34dd13ed2f0ab
 Description: Bitstream Charter font from xfonts-scalable
 
 Package: fonts-courier-10pitch
 Architecture: all
-Version: 1.0.4+~3.4.0-1
+Version: 1.0.4+~3.4.0-2
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 122
+Installed-Size: 123
 Provides: fonts-courier
-Filename: pool/main/font-bitstream-type1/resolute/fonts-courier-10pitch_1.0.4+~3.4.0-1_all.deb
-Size: 65746
-MD5sum: 3777fe8db4a210307f3786f27ad19d3f
-SHA1: 1fa4378ff3fca08df50d5ceae9c087ec0dd68fb1
-SHA256: 6695348ad83c43f90a4eb8c0c152fd7f8afedaa2fcc0041ee67fad0225b0da06
-SHA512: 4ff99e6f540827a353fbf69352edfd3b3aa5666c69d2e9258683e75eb9da79464b43ba905b4b54b08f332be53d3bbd2ea89e87d100eda89f31b8c627dcfe780e
+Filename: pool/main/font-bitstream-type1/resolute/fonts-courier-10pitch_1.0.4+~3.4.0-2_all.deb
+Size: 66060
+MD5sum: 72d1aba4dbefab4533799f8e0dbe95c3
+SHA1: 457a5069ce111e3c9fd4ef0eec9d5bc6d4d64837
+SHA256: 07ce789f03b6507e82140f41ee41fbc75fec4f783b46674ba58b4e037ebf0b98
+SHA512: ffb27c0cb8767f8b88b0266dbc0922873c49a296fa8ed3614ee1e5c7f91aa2b8ee2ca633439dd9457e7d9eb39720cdf276ccb86410fdab58331dc495322600fd
 Description: Courier 10 Pitch font from xfonts-scalable
 
 Package: fonts-courier-nerd
 Architecture: all
-Version: 1.0.4+~3.4.0-1
+Version: 1.0.4+~3.4.0-2
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 8272
+Installed-Size: 8273
 Provides: fonts-courier
-Filename: pool/main/font-bitstream-type1/resolute/fonts-courier-nerd_1.0.4+~3.4.0-1_all.deb
-Size: 1538066
-MD5sum: f3ba7f44b5c79be91d924bdb38c2f4e2
-SHA1: 33890e8ac32ffa484731fe80ecab9774813fd32b
-SHA256: b64cfd55ef54ec3e908bfec226763638463fbfc27f2db5131fe8fd7dbbc2395c
-SHA512: 057d2179d7c2d77e650e7b79b2b990f4814ed6dbab715138f3e8062151a297b60fa51e6ed727cd61c148e8db86b602f8b25bb5d287f9a5a72753a0bc592652be
+Filename: pool/main/font-bitstream-type1/resolute/fonts-courier-nerd_1.0.4+~3.4.0-2_all.deb
+Size: 1538302
+MD5sum: 68cebe708748c45f9fd5e62654156740
+SHA1: ce8ee4630edf0ea0fc5615e377cb21434e3b261d
+SHA256: 9e763e20a80321a88aa123d64966adb4be6232d098c356b96afe149a5b8f87b0
+SHA512: b0fc8dd645b9a1cf13766cefc2c2fadc8a97d0fbc3c46388bd5291c1aa2293e99c01b6f9b3a804b36d0b06d152a0f2f8db1daa82be35d3efba1888883b713e77
 Description: Courier 10 Pitch font with Nerd Font glyphs
 
 Package: fonts-roboto-mono
