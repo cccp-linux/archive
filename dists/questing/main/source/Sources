@@ -479,7 +479,7 @@ Package: term-meta
 Format: 3.0 (native)
 Binary: term-meta
 Architecture: all
-Version: 0.29
+Version: 0.30
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -489,17 +489,17 @@ Directory: pool/main/term-meta
 Package-List:
  term-meta deb metapackages optional arch=all
 Files:
- 11c45d55a8ff4a8e8457d7d70b96f304 920 term-meta_0.29.dsc
- aa8b5ae955116b21641f4df3ffaf3a7c 14920 term-meta_0.29.tar.xz
+ 8ad483841fbdccd17c08a0f4773a9b16 920 term-meta_0.30.dsc
+ c4b348121da39760b70425b841a10cf3 15244 term-meta_0.30.tar.xz
 Checksums-Sha1:
- 93460d467a86acd1cbfbd0e2ee13c853dfe4cbf6 920 term-meta_0.29.dsc
- ca918b5520bb6e288084e5c518981ead720785d3 14920 term-meta_0.29.tar.xz
+ f69d64dc596ebcb9f67589d1e9d1c920548be404 920 term-meta_0.30.dsc
+ 13223ae0e2a0e12e5b40b8761b6dfe6f91d163e7 15244 term-meta_0.30.tar.xz
 Checksums-Sha256:
- 19284813c49a18aac36c93a274a7d19e0f7b80fc8e3ba0e00723588fd648bb3c 920 term-meta_0.29.dsc
- 4d1b2cbd94b959b44da9cd865a83204d8a58fd7bf097e097c1f234f8e3c77f48 14920 term-meta_0.29.tar.xz
+ 3ad986fe2acadb1d0be2a334dfb829aa363628b7476c92c1c3ffd36e177be89a 920 term-meta_0.30.dsc
+ d445042be600c8572bc8eb2bc58f7d426d636818b86e3031f6bd3f82f9e93bd3 15244 term-meta_0.30.tar.xz
 Checksums-Sha512:
- 3dc8c684e22db27a5ea2060762dcebadfbb7183d726f18e72b6bdf1349b8e7f018d931b448b6f5ef174b34bbd9a8efcbae2484245b213f34ba96baf6af1bb406 920 term-meta_0.29.dsc
- 8f4f62f1c1dfa113cb51b2eebc480d28e440bb9d737bc3d596e093f847701be690fbe56ef07b400e0830ded2cc18d8e032591133dc5f405626bec2bbdfd6b8bf 14920 term-meta_0.29.tar.xz
+ a92675290802e1434b22b0bc122d90a923bf6b85fbf478db1d1817216db0e1541c458e184e17a6ddf09d8d5528e8f9ceee2238968ae4b441b4dc61631d9b6c5e 920 term-meta_0.30.dsc
+ 2bd0fd8c53d831762ac72d0af3488aa71c8e9e996544a59980d15b7c5224853e58d1d1e30ad20e0c0c8dcf0d6f89c5410731da5ea8eb9e7b3a67be9177597e79 15244 term-meta_0.30.tar.xz
 
 Package: virt-meta
 Format: 3.0 (native)
