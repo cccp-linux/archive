@@ -223,19 +223,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.36
+Version: 0.37
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 73
 Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
-Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, graphicsmagick, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
-Filename: pool/main/niri-meta/noble/niri-meta_0.36_armhf.deb
-Size: 13284
-MD5sum: 01e892eac644007bab303015c70b2e8a
-SHA1: 4abc0a21de3b2356afc161df383702e065b6a67a
-SHA256: 75c92f15c29b078f4201ec42e9d7a05a38fd87af8b8e0fc0a93f4a042d9ef2b4
-SHA512: 828293ed627ee2f4909a47f2e8d27d3d518f03d5165a12c46fbe51c86c25d22ebaefd3260d948862d4c814883c8220e71856973c5a8928374c94e325f1d97c07
+Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon
+Filename: pool/main/niri-meta/noble/niri-meta_0.37_armhf.deb
+Size: 13326
+MD5sum: 8cff21b8da461a5f7f94ba0c47fd90a2
+SHA1: be4e4ddf769973a9b267ee0be4bb55c7e39c1b52
+SHA256: 824515ac9847bbf821813a862e36e1aee4685cd7e9546f28bcfdf9b73496ce2f
+SHA512: c8a30259f46ba2bf89f9927989a461993a4c7be5a448f4837924df4c7b2f93b75392d3a21588b9fe627d9a8aef63d1f4389a13151cc4283104a91f4c717c1876
 Description: Shell meta-package
 
 Package: niri
