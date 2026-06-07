@@ -60,7 +60,7 @@ Package: font-bitstream-type1
 Format: 3.0 (quilt)
 Binary: fonts-courier-10pitch, fonts-courier-nerd, fonts-bitstream-charter
 Architecture: all
-Version: 1.0.4+~3.4.0-3
+Version: 1.0.4+~3.4.0-4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), fontforge-nox
@@ -72,25 +72,25 @@ Package-List:
  fonts-courier-10pitch deb fonts optional arch=all
  fonts-courier-nerd deb fonts optional arch=all
 Files:
- 6fbabf353a8a3754d0cbb96e621b3215 1850 font-bitstream-type1_1.0.4+~3.4.0-3.dsc
+ b72c534da67e3d121115e0b381e1b059 1850 font-bitstream-type1_1.0.4+~3.4.0-4.dsc
  91205a9e486dd7882aa390f0eb1a704b 3128442 font-bitstream-type1_1.0.4+~3.4.0.orig-patcher.tar.gz
  5f778f9855dc27417283202fefdcc97f 336615 font-bitstream-type1_1.0.4+~3.4.0.orig.tar.gz
- e235cc5011d91262a0b0d4ff46247da4 8532 font-bitstream-type1_1.0.4+~3.4.0-3.debian.tar.xz
+ 9ccec88b93d6656dadfaa6eb8f37a6f4 8588 font-bitstream-type1_1.0.4+~3.4.0-4.debian.tar.xz
 Checksums-Sha1:
- 76346f545bc0de8d31f3c5ee62874b8ef3b26616 1850 font-bitstream-type1_1.0.4+~3.4.0-3.dsc
+ eaf238fd4fe44e4d0bfc3835f5f389dd762b6a7b 1850 font-bitstream-type1_1.0.4+~3.4.0-4.dsc
  1e852eff7a350971d641e21ad2b4ca7be25a5a3a 3128442 font-bitstream-type1_1.0.4+~3.4.0.orig-patcher.tar.gz
  152322cf77219dc7891f79ff251cd48d0bcfff21 336615 font-bitstream-type1_1.0.4+~3.4.0.orig.tar.gz
- 3486404f596a709d4feee73919dfffe1de4d8428 8532 font-bitstream-type1_1.0.4+~3.4.0-3.debian.tar.xz
+ d3822919c4860c823d1b81b0ee3af976d38699e4 8588 font-bitstream-type1_1.0.4+~3.4.0-4.debian.tar.xz
 Checksums-Sha256:
- 817021c8be330baa8e270cd75018b823b9a043c5554ba88e60f8e23c79072a8b 1850 font-bitstream-type1_1.0.4+~3.4.0-3.dsc
+ 87ac6ef0fc14232dfd911e44a2c73100ac863b3d18302ef3e4823babb7743ff9 1850 font-bitstream-type1_1.0.4+~3.4.0-4.dsc
  68f306147018ad21ee7053fd28cd94e04b0a64127abe64cd6c8ba014909786a0 3128442 font-bitstream-type1_1.0.4+~3.4.0.orig-patcher.tar.gz
  d5db1d2421a90aef06371138d07556b5e9f5fa847dc029c4656a84e5ca8a11b4 336615 font-bitstream-type1_1.0.4+~3.4.0.orig.tar.gz
- e6b2d6af17ceadd931b0747c5c47ba5b45d80c0b798040489569196a05e7d678 8532 font-bitstream-type1_1.0.4+~3.4.0-3.debian.tar.xz
+ 69ac804112f36641cc0b498de762f35f14d496d8201f94836254f07602025502 8588 font-bitstream-type1_1.0.4+~3.4.0-4.debian.tar.xz
 Checksums-Sha512:
- 090283138d692417357b51a42665dfe8213ef7aaad655a689cd8b71b7d303e7c5ee19a0a875892d0da49568484b3041dfdcd73e8de06c7c671fae024fe199c62 1850 font-bitstream-type1_1.0.4+~3.4.0-3.dsc
+ b488345375f3456d014efa1cdf683a1aab71992841f0f00b1238d480e6b9610062fa63b73df1e9654f5277e1570162d435d98224367e61a8135c28de31a134e4 1850 font-bitstream-type1_1.0.4+~3.4.0-4.dsc
  8f03070d2a63866885ba31f9efeae1b6bcc471fdac27744a079d91b07d4aee69a8c98865f74b8f2a7d43c1122b1b19db96817a40d2ddb7e36dd443ea39ea125b 3128442 font-bitstream-type1_1.0.4+~3.4.0.orig-patcher.tar.gz
  d3f693adfe6a9b6ec464b725cfcf283e120b6a8a3fd93dec5363dd8cac10ff688cfede967d91dbbe699f74c89af9ddd238e10eab4620032395d404111a8d112f 336615 font-bitstream-type1_1.0.4+~3.4.0.orig.tar.gz
- e2db47ec5aed45b323696beb681ac19323ff43ef0893dc6c7f48fdd9162ac5974935a167180d6a5acf36cdb2a3399cf2318056de47855d2be67bc3e455cfb1f8 8532 font-bitstream-type1_1.0.4+~3.4.0-3.debian.tar.xz
+ 2a19e34d6eb9290cd3a9020378f064b32e20939366c518f0c3176bc8e25b9ae0f9f943e26c4f9e60835fcada9e6b699fc6e3cb93eed5abf9813734c53c009851 8588 font-bitstream-type1_1.0.4+~3.4.0-4.debian.tar.xz
 
 Package: fonts-roboto-mono
 Format: 3.0 (quilt)
