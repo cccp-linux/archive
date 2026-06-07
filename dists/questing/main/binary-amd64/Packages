@@ -157,6 +157,102 @@ SHA512: 7908ba450e711a899ecc86598fa7002e77acdfe3c7e2710c774d31f4c7c82696155ae13c
 Homepage: https://www.nerdfonts.com
 Description: Just the Nerd Font Icons
 
+Package: foot-extra-terminfo
+Architecture: all
+Version: 1.27.0-1.1
+Priority: optional
+Section: x11
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 38
+Filename: pool/main/foot/questing/foot-extra-terminfo_1.27.0-1.1_all.deb
+Size: 12250
+MD5sum: eb428644eb2863d5aa3a2a9dbfed3456
+SHA1: 4f0fe49be169c93142e18cd3c222caffb011d41d
+SHA256: 815a4aafd458b85c955366646cbe67fb071acd75e483c54e292a8ddf2f9dd9dc
+SHA512: c009391d156462f11bcb6bb2495c238cc5ec61e90886844ba7e3f4697b0bcf260a999c99c81921416508538dede7f685af54cd18556de454c85b9e30c22177eb
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (extra terminfo files)
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ .
+ This package contains extra terminfo files for foot.
+
+Package: foot-terminfo
+Architecture: all
+Version: 1.27.0-1.1
+Priority: optional
+Section: oldlibs
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 27
+Depends: ncurses-term (>= 6.4+20230625-2)
+Breaks: foot (<< 1.5.3-2)
+Replaces: foot (<< 1.5.3-2)
+Filename: pool/main/foot/questing/foot-terminfo_1.27.0-1.1_all.deb
+Size: 9936
+MD5sum: d1bd93eb5b117164a607537ed857c309
+SHA1: 670dead3343d4b7ee5ffb16541d97e2c1341604e
+SHA256: 44e1e902c5a5c6524d148636abf64af777914dc0e261e92fee60fd49ae579946
+SHA512: 8a0c79ff3a2f8ab86b86f62f6d894ceda8168ef3eafc4d6df487e1222521fb30ad887553e5f7a906e2191f4c4812a213368ec57f9bb4e81332a3edf2cb6f3414
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (terminfo files)
+ This is a transitional package. It can safely be removed.
+ The foot terminfo files are now shipped by ncurses-term.
+
+Package: foot-themes
+Architecture: all
+Version: 1.27.0-1.1
+Priority: optional
+Section: x11
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 119
+Filename: pool/main/foot/questing/foot-themes_1.27.0-1.1_all.deb
+Size: 24664
+MD5sum: d9194c17d785308510b460e84520b97d
+SHA1: e52fb1fe11f379e46356e6c02cb8db0f4372c585
+SHA256: 432a0da29747a4362b844c45107419146bb86a5066649fbc59238f1dead59290
+SHA512: aa693750d5d6c191b8eb9286c6336d48f235ef8b925890c7b6bff373be0ea203faf1e47537c4d5b007aa664f0fdfb4c834e2beac03b008f6ca66c6b0e882c91f
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (theme files)
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ .
+ This package contains theme files for foot.
+
+Package: foot
+Architecture: amd64
+Version: 1.27.0-1.1
+Priority: optional
+Section: x11
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 708
+Provides: x-terminal-emulator
+Depends: init-system-helpers (>= 1.52), libc6 (>= 2.38), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
+Suggests: foot-themes
+Filename: pool/main/foot/questing/foot_1.27.0-1.1_amd64.deb
+Size: 317688
+MD5sum: e85a0c0c9b85ab96687050e2f2997335
+SHA1: 7904ecdcd342c6268aff3735e5f743be0aeaf1e4
+SHA256: 706c9bb51c4690eb5e1728122a4f17096a7acef55a6c4d05da151ddc8ebc1b97
+SHA512: 4dd636788cd2651283578b2e525c1aeccef822dba609f5323f7ffca1eec9719ece66dd9705a1e25cfec37711063e605c0cd39c9117eb58a635165e9d36c044c6
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ Features
+ .
+  * Fast
+  * Lightweight, in dependencies, on-disk and in-memory
+  * Wayland native
+  * DE agnostic
+  * User configurable font fallback
+  * On-the-fly DPI font size adjustment
+  * Scrollback search
+  * Color emoji support
+  * Server/daemon mode
+  * Multi-seat
+  * Synchronized Updates support
+  * Sixel image support
+
 Package: gtklock
 Architecture: amd64
 Version: 4.0.0.1-1

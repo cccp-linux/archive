@@ -193,6 +193,102 @@ SHA512: cc74f9249a04e1763483c040ce6072bac493a6fa5f2b00b61fc656a1398391adcd2bce50
 Homepage: https://www.nerdfonts.com
 Description: Just the Nerd Font Icons
 
+Package: foot-extra-terminfo
+Architecture: all
+Version: 1.27.0-1.1
+Priority: optional
+Section: x11
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 80
+Filename: pool/main/foot/sid/foot-extra-terminfo_1.27.0-1.1_all.deb
+Size: 55280
+MD5sum: e9afa7e3d58a0f07efa1bdb003ecb790
+SHA1: 6091b8629be672b976428897e4cb716b2002bc71
+SHA256: a0ff571074f34dcf719fe349a3a4c9f563ca00858781d297c9dc707f34f8b449
+SHA512: e6b06fe63b0078f81c652baaf9b6de908b6990f20dbb8fe80fca1004d021cea315b43e3429fa8969558122e6ca81b71515adeb6d78a519a1046e334c25e94e3b
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (extra terminfo files)
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ .
+ This package contains extra terminfo files for foot.
+
+Package: foot-terminfo
+Architecture: all
+Version: 1.27.0-1.1
+Priority: optional
+Section: oldlibs
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 69
+Depends: ncurses-term (>= 6.4+20230625-2)
+Breaks: foot (<< 1.5.3-2)
+Replaces: foot (<< 1.5.3-2)
+Filename: pool/main/foot/sid/foot-terminfo_1.27.0-1.1_all.deb
+Size: 53336
+MD5sum: b93bcebbce8fcb6b090b3ce55ed3272c
+SHA1: f1074676dd4a924745f9c75c11c203e4318b960a
+SHA256: 3198246f71c2daf25e6907e82e4e90d283544d0b26baf6ed62b91ae299f73113
+SHA512: f1e8fa232ac0dff6ef1c0d376e8aa6eb81efe0ef48394700399ba0337512243c4cd2c0c78f8d32897b0f3b47cbeff896eb00e8a2734b45930188d3932c11866c
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (terminfo files)
+ This is a transitional package. It can safely be removed.
+ The foot terminfo files are now shipped by ncurses-term.
+
+Package: foot-themes
+Architecture: all
+Version: 1.27.0-1.1
+Priority: optional
+Section: x11
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 161
+Filename: pool/main/foot/sid/foot-themes_1.27.0-1.1_all.deb
+Size: 67344
+MD5sum: 1fd478181d440678cde2a06328d374aa
+SHA1: c76dcc7ef6301521884e7e453e5082e722f62c3b
+SHA256: 21881102978d1b9047c07c48de93cc25423f4bdb72a135add62b327be18a17c3
+SHA512: a183d496028182980362108e9dd2b50de1f16a70b6366c09d682a85732255c718ba5ad49f48f5fd3b1c354b0fa781787d52a937ba9d1b6b39a1a76a6a36c6b3b
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (theme files)
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ .
+ This package contains theme files for foot.
+
+Package: foot
+Architecture: amd64
+Version: 1.27.0-1.1
+Priority: optional
+Section: x11
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 694
+Provides: x-terminal-emulator
+Depends: libc6 (>= 2.38), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
+Suggests: foot-themes
+Filename: pool/main/foot/sid/foot_1.27.0-1.1_amd64.deb
+Size: 302648
+MD5sum: 4268fc1c9e419600149860f3a82f7f7a
+SHA1: 280e1307a5157510bdc92d268a6a1699e7c48cd4
+SHA256: 831d6133b25ce7be8a0776957a149be18086ae5e38321e7add714d47fa873762
+SHA512: 1fedbdc9300e521b09b56a8ae8797899052b1c3942adb5591c7363e30f883cea6bd6cd7f26e134cdb8dfa96af75ff586e154338979bad7cf3e3366d1b02e00df
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ Features
+ .
+  * Fast
+  * Lightweight, in dependencies, on-disk and in-memory
+  * Wayland native
+  * DE agnostic
+  * User configurable font fallback
+  * On-the-fly DPI font size adjustment
+  * Scrollback search
+  * Color emoji support
+  * Server/daemon mode
+  * Multi-seat
+  * Synchronized Updates support
+  * Sixel image support
+
 Package: freerdp-proxy-dbgsym
 Architecture: amd64
 Version: 3.22.0+dfsg-3.1

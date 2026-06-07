@@ -154,6 +154,40 @@ Checksums-Sha512:
  2d1744affba49a14455a671c9dd19f5b3eb2f97009788bef1d832241aef4ab9149f51e7aa1cfed1436fb3b6db6f4de36bef0883959e7797f74097ceab4689f89 2260092 fonts-symbols-nerd_3.4.0.orig.tar.xz
  c92d7e9d5ac8012e3b6c1a79a3b6a605ebc4421771c9c9a74a6fdb8017f2a30e0be83fedbef5c2ceec6f2ce152d06da2bdbe40585345764e1d69fd2270bc30f5 1816 fonts-symbols-nerd_3.4.0-1.debian.tar.xz
 
+Package: foot
+Format: 3.0 (quilt)
+Binary: foot, foot-terminfo, foot-themes, foot-extra-terminfo
+Architecture: any all
+Version: 1.27.0-1.1
+Maintainer: Birger Schacht <birger@debian.org>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), meson (>= 0.59), ninja-build, wayland-protocols (>= 1.41), libxkbcommon-dev, pkgconf, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libwayland-dev, libtllist-dev (>= 1.0.4), libfcft-dev (>= 3.3.1), libffi-dev, libharfbuzz-dev, libutf8proc-dev, systemd-dev, scdoc
+Homepage: https://codeberg.org/dnkl/foot
+Vcs-Browser: https://salsa.debian.org/birger/foot
+Vcs-Git: https://salsa.debian.org/birger/foot.git
+Directory: pool/main/foot
+Package-List:
+ foot deb x11 optional arch=any
+ foot-extra-terminfo deb x11 optional arch=all
+ foot-terminfo deb oldlibs optional arch=all
+ foot-themes deb x11 optional arch=all
+Files:
+ f48a5e95eee2ca3bc06468d27031efbf 1644 foot_1.27.0-1.1.dsc
+ aa870e0498290dc92835d1629f63fcf5 1195886 foot_1.27.0.orig.tar.gz
+ 900faaa821b2f12e494ffd30b9641518 11564 foot_1.27.0-1.1.debian.tar.xz
+Checksums-Sha1:
+ 6c9cf3a503dc6427397a61309e7ea6b3694eeb84 1644 foot_1.27.0-1.1.dsc
+ 4ee8e45d7e2874da06e5cc86205285c8fc40aaeb 1195886 foot_1.27.0.orig.tar.gz
+ 5a02a1a8ad00ae95ef02593924c58fbd9359dafc 11564 foot_1.27.0-1.1.debian.tar.xz
+Checksums-Sha256:
+ 407244c45f8df6b14e387b5354a1f54acfa6e403cd760544f34507dd5e28a306 1644 foot_1.27.0-1.1.dsc
+ 4e6131cc859ec6a36569f1978cf3617cc3836a681d13d228ded1b4885dab7770 1195886 foot_1.27.0.orig.tar.gz
+ b0a09298be942214f471292f705cfbf8473fa3ea5ceeb5a4e872bc56afd6d74f 11564 foot_1.27.0-1.1.debian.tar.xz
+Checksums-Sha512:
+ 59b9cfe13094f1a88ec95cbd84be6d76b8a82e8bf8a6607dd12ad3ff9a883bcb2e26fd0cdc5fc45901b46a1825f04dc6708d25a662a4d3378572e885d599c71b 1644 foot_1.27.0-1.1.dsc
+ cb4635c2afc18799c3c5b30715e575e0fa7e1621a1b6dab27bebdb9a530fd999a7d551986404ad17aaa8a8986e7250541a33324ef4acc5a6ff8058537545400b 1195886 foot_1.27.0.orig.tar.gz
+ ff069081838a810c5f7cc43da09b24a12d14fc624d6bb70017fa8d3845e41e3c51d2a46d61ec784aa33dbe7a93539323f50fc94bfdda9ca318d86d9dd30c0de8 11564 foot_1.27.0-1.1.debian.tar.xz
+
 Package: freerdp3
 Format: 3.0 (quilt)
 Binary: freerdp-x11, freerdp3-x11, libfreerdp3-3, libfreerdp-client3-3, libfreerdp-server3-3, libwinpr3-3, libwinpr-tools3-3, libwinpr3-dev, freerdp3-dev, winpr-utils, winpr3-utils, libfreerdp-shadow3-3, libfreerdp-shadow-subsystem3-3, freerdp-shadow-x11, freerdp3-shadow-x11, freerdp-wayland, freerdp3-wayland, freerdp-sdl, freerdp3-sdl, libfreerdp-server-proxy3-3, freerdp-proxy-modules, freerdp-proxy, freerdp3-proxy-modules, freerdp3-proxy
