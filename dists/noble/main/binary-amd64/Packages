@@ -92,6 +92,22 @@ SHA256: a79f90413bd03d0b665ed3305d523dba6fbb847313f90c706a56bc26e47f3808
 SHA512: 3f6e6edf98984da4f2b8c055bc0b314997aeaba6fc690d3a5d68c85161c767b2d5169e139a48a4fb1020debbb6c0b983eb65531ed0b04a1a1e82fb662e390c4e
 Description: Standard set of CCCP Linux packages
 
+Package: crossover-meta
+Architecture: amd64
+Version: 0.7
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 10
+Depends: crossover
+Recommends: libc6:i386, libfontconfig1:i386, libfreetype6:i386
+Filename: pool/main/crossover-meta/noble/crossover-meta_0.7_amd64.deb
+Size: 1870
+MD5sum: 6c2f818da7ab549f7648d61c5c9e1754
+SHA1: 9be7f96fb46402b728b5feb565b7a0a5cdcca447
+SHA256: 4f9afa93d967a448a5f31a68e68419a4df467f5c13f969d89f1a0d39f3b4b381
+SHA512: 1f280cd9687640241e64e06080c81116c8d4e7ceee71fcde31fe5021acd1c649e2cd02bbb5cc35fc1bb7414149bb8d71e5c713dcc452c9839cf8ee0505135671
+Description: CrossOver meta-package
+
 Package: fonts-bitstream-charter
 Architecture: all
 Version: 1.0.4+~3.4.0-4
