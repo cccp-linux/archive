@@ -60,7 +60,7 @@ Package: crossover-meta
 Format: 3.0 (native)
 Binary: crossover-meta
 Architecture: amd64
-Version: 0.7
+Version: 0.8
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13)
@@ -70,17 +70,17 @@ Directory: pool/main/crossover-meta
 Package-List:
  crossover-meta deb metapackages optional arch=amd64
 Files:
- 69509a5528faafdaef0fb39e33fe275c 960 crossover-meta_0.7.dsc
- f4aee7083c97a0f4d7182787cbb57acd 12900 crossover-meta_0.7.tar.xz
+ 014ed7ea076578c50b74a0372f067b61 960 crossover-meta_0.8.dsc
+ 0a5e43478082b6a6b1d0fab25aaf583b 13144 crossover-meta_0.8.tar.xz
 Checksums-Sha1:
- 2a7878ca0054dc84f5611afc02f6749a7e757657 960 crossover-meta_0.7.dsc
- 1cd19618560af9e3ef117f23d623cd1acc422c52 12900 crossover-meta_0.7.tar.xz
+ fc0a6abde44f09b52dc0e8ab39287d5323f73915 960 crossover-meta_0.8.dsc
+ b0a2e7f56ea6baaaa97e9a74072391696820516a 13144 crossover-meta_0.8.tar.xz
 Checksums-Sha256:
- 0068c54101b2dcf13ebaee5f0efc46c42dfb84806782fc4ce63bd41f8e1d1d6f 960 crossover-meta_0.7.dsc
- 97b1c7f3d237497fcad537d904389a1c2df208e2bae74c7d433881429beb12a6 12900 crossover-meta_0.7.tar.xz
+ cec0f47e6f9f8669e085d7ce01bdd90613c55db80175c30632a35a7ed76a75ed 960 crossover-meta_0.8.dsc
+ 395ffe056c2756240ee20ae2937fb541590fac6ffe17402b5bf021f1bb652dd4 13144 crossover-meta_0.8.tar.xz
 Checksums-Sha512:
- 82f7e801cd47eae4cac97f8d95acb598be758d00e4a91e40f5f5bb59b1873c4bb539832204f05e602f4ea70e765d2376123d2649f4dd992730c2e5dea0d5a38c 960 crossover-meta_0.7.dsc
- 134a7b68b72fd6f74e883975f3517d2e3ec96e2e8e3e094c6ba4228a562446f0a3d3a71d100d28a734dfa04d1bab0fcbf80f9ecf43655febc2ccb827cc8025ed 12900 crossover-meta_0.7.tar.xz
+ 4f08f547de14b02bf69fbb48ab86c9db9f233434b4267ad2299f5f5572518cf9c5f2585f4a15b8fa0870460f404f528e7ef0d817eb822b2c685b22e776d09660 960 crossover-meta_0.8.dsc
+ c84325e36b2dcaecca952c1971c1a0679449bc8743d4c0bf64adf99170e7dc1545d5a6e1e360702954c2cb1b702f449bc61e3e24689a49d2475edfaa0ace397b 13144 crossover-meta_0.8.tar.xz
 
 Package: font-bitstream-type1
 Format: 3.0 (quilt)
