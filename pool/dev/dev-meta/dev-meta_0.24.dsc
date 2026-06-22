@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: dev-meta
 Binary: dev-meta
 Architecture: all
-Version: 0.23
+Version: 0.24
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Vcs-Browser: https://github.com/cccp-linux/dev-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  dev-meta deb metapackages optional arch=all
 Checksums-Sha1:
- 45d04a628c7ef9022de9d658c6af1a5d7dbeda33 17424 dev-meta_0.23.tar.xz
+ 9ce337a4bad9ee09e9143b968dd18c38e99728ad 17752 dev-meta_0.24.tar.xz
 Checksums-Sha256:
- e7eb0bb1d8f7ec72ae4060bc89b465322417e7332c0df23c8cb9f0b6fec34bed 17424 dev-meta_0.23.tar.xz
+ b896599b7d2a4d8a226c6df063bccff8c6db7a49654d7cf36e4cb8b33cc57cfa 17752 dev-meta_0.24.tar.xz
 Files:
- 3a3e560dbf6afa35cea061b362cca571 17424 dev-meta_0.23.tar.xz
+ 7cba92614adc23b34bc065b8bf8cb586 17752 dev-meta_0.24.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCahugLwAKCRA6Vr9YT1rr
-JxcAAQCtmjP25ng1VBDLcnBCYfAjN1yWd2urUIfxgm5OzIgyrwD/VDRJXbPEhNaz
-yyMmvNwboekShSypkTUMV4nV5buYMgE=
-=48Tp
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCajlpUAAKCRA6Vr9YT1rr
+J8sMAP9pubV/Pw/Fm8R1KLBrrDCPa7JB+DsStG6EUvoEKb8H4QD/UmIgwtnQ2j0f
+XGEE+FlIttB+3hTrsGv5kEReuez3cwQ=
+=yC6Z
 -----END PGP SIGNATURE-----
