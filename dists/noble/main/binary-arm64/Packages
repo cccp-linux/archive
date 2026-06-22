@@ -206,19 +206,19 @@ Description: LibreOffice meta-package
 
 Package: neovim-meta
 Architecture: all
-Version: 0.17
+Version: 0.18
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 27
 Depends: neovim
 Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons
-Filename: pool/main/neovim-meta/noble/neovim-meta_0.17_all.deb
-Size: 5384
-MD5sum: bc4ccb7aed858c59e7080107096d74d6
-SHA1: 0edcefec1656712faa45a51b1d2d302390d702de
-SHA256: 95bbd15719fe0b23526f6a515de1c6663983c06a1becfff3d8b69cf3d6012ffc
-SHA512: 58488db1329775e9de4413f8275c6ff80998988ebdcbde0c3a7364a82c3dcac4d52e5d1107203dc15b9c0e7945139162064d0b4ba1cdb86de69cc914a7a8bbe9
+Filename: pool/main/neovim-meta/noble/neovim-meta_0.18_all.deb
+Size: 5424
+MD5sum: 1e4ea1323d496c406934f286786b76fb
+SHA1: 1a778a4dea56ca371858291121ecf061dd4304a6
+SHA256: 722386b5a8c241a4012968d85385bf5e7548806562456efca49615555deb7b2b
+SHA512: 3c386968b71bc3590c289f43cc7b7dfb8fdb60a42706c233d9e035659d4b73cfb560ff3c72aa9cd7ac0fba4d80a379bc316cd35fea432e369f245a2f68bf8b23
 Description: Neovim meta-package
 
 Package: niri-meta
