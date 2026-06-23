@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: foot
 Binary: foot, foot-terminfo, foot-themes, foot-extra-terminfo
 Architecture: any all
-Version: 1.27.0-1.1
+Version: 1.27.0.1-1
 Maintainer: Birger Schacht <birger@debian.org>
 Homepage: https://codeberg.org/dnkl/foot
 Standards-Version: 4.7.4
@@ -18,19 +18,19 @@ Package-List:
  foot-terminfo deb oldlibs optional arch=all
  foot-themes deb x11 optional arch=all
 Checksums-Sha1:
- 4ee8e45d7e2874da06e5cc86205285c8fc40aaeb 1195886 foot_1.27.0.orig.tar.gz
- 5a02a1a8ad00ae95ef02593924c58fbd9359dafc 11564 foot_1.27.0-1.1.debian.tar.xz
+ 4ee8e45d7e2874da06e5cc86205285c8fc40aaeb 1195886 foot_1.27.0.1.orig.tar.gz
+ 9ebf31bcfe11a8f0805caeda59ac1cc2e16cc64b 11840 foot_1.27.0.1-1.debian.tar.xz
 Checksums-Sha256:
- 4e6131cc859ec6a36569f1978cf3617cc3836a681d13d228ded1b4885dab7770 1195886 foot_1.27.0.orig.tar.gz
- b0a09298be942214f471292f705cfbf8473fa3ea5ceeb5a4e872bc56afd6d74f 11564 foot_1.27.0-1.1.debian.tar.xz
+ 4e6131cc859ec6a36569f1978cf3617cc3836a681d13d228ded1b4885dab7770 1195886 foot_1.27.0.1.orig.tar.gz
+ 9c6747cefef8e17c5013eafa93b74bf0a5a3a9d742fbc9eae208a561349d9563 11840 foot_1.27.0.1-1.debian.tar.xz
 Files:
- aa870e0498290dc92835d1629f63fcf5 1195886 foot_1.27.0.orig.tar.gz
- 900faaa821b2f12e494ffd30b9641518 11564 foot_1.27.0-1.1.debian.tar.xz
+ aa870e0498290dc92835d1629f63fcf5 1195886 foot_1.27.0.1.orig.tar.gz
+ 1bb3f6b0b0f7b5a43a54e5bafa8a3810 11840 foot_1.27.0.1-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaiW2MQAKCRA6Vr9YT1rr
-JyaoAP9SBo6rGrFwAb6TulEk6kEKQqEuRAonzko6aQeEqC0OegD/e7pw9SLQpy8X
-D9TiFxfDfGSD3KkE3lsJw4KWClgv1Aw=
-=SUYC
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCajnRygAKCRA6Vr9YT1rr
+J2EgAQDrYgPTYX4CBb5lOKppR6VlVKBCxA+A8vTDSOzby6OtsAD/RMqV38ge60+N
+5LPqjAFqDqp/VT2Z4IOkjqxneMXQ6gs=
+=z6De
 -----END PGP SIGNATURE-----
