@@ -195,18 +195,18 @@ Description: Just the Nerd Font Icons
 
 Package: foot-extra-terminfo
 Architecture: all
-Version: 1.27.0-1.1
+Version: 1.27.0.1-1
 Priority: optional
 Section: x11
 Source: foot
 Maintainer: Birger Schacht <birger@debian.org>
 Installed-Size: 82
-Filename: pool/main/foot/trixie/foot-extra-terminfo_1.27.0-1.1_all.deb
-Size: 56740
-MD5sum: cd86afda6093e19014c96c5ea981672c
-SHA1: 5924486ac73fe7eb05e0bec58910ed4d2e321611
-SHA256: 9c198b5f9c00462d700eda64d273f7e5aa3b16ab5d47db3a59b0022809cedaab
-SHA512: a86fb7b1f5f8b7931b8dc920e9f11896be61cfc8fc15e8c2c3b5939be9befb31e04564d8ead142a70aa0459f0bf4847e0e818b1893de2be4394f9dc339a03858
+Filename: pool/main/foot/trixie/foot-extra-terminfo_1.27.0.1-1_all.deb
+Size: 56780
+MD5sum: 9ad586ad6601109015bffce1a67a22a7
+SHA1: 4e58c2839e4edc262f8b510290fd2cc8a8da5267
+SHA256: c85f6f126da7958cba122ee3358793cb31c9b0bf193490dc2b89c932f5657f64
+SHA512: d827b91fb07cefaf8dad48c6de0f436529ae67225ea9ec7f1a22b7b42a79adacec8653668bc5043197a5f7b4767928948055a30b029074362e945e11c631fe68
 Homepage: https://codeberg.org/dnkl/foot
 Description: Fast, lightweight and minimalistic Wayland terminal emulator (extra terminfo files)
  The fast, lightweight and minimalistic Wayland terminal emulator.
@@ -215,7 +215,7 @@ Description: Fast, lightweight and minimalistic Wayland terminal emulator (extra
 
 Package: foot-terminfo
 Architecture: all
-Version: 1.27.0-1.1
+Version: 1.27.0.1-1
 Priority: optional
 Section: oldlibs
 Source: foot
@@ -224,12 +224,12 @@ Installed-Size: 71
 Depends: ncurses-term (>= 6.4+20230625-2)
 Breaks: foot (<< 1.5.3-2)
 Replaces: foot (<< 1.5.3-2)
-Filename: pool/main/foot/trixie/foot-terminfo_1.27.0-1.1_all.deb
-Size: 54792
-MD5sum: aa40cf917e78cb918292af158bb5c982
-SHA1: 9d2a12a5d97b4505adc614bbb51ab80eb380486d
-SHA256: 6a7896fc2bf8488115db1896cdea36eae47def03e5c4a010567b2909fb050e8d
-SHA512: a6bd516442825aab73f3295646eea01aebaf101b29250957c856ff947abf914b413b74293313f4dbf4d88e224f32c1fd3b66e0e7a255ea9943116bdfcad3dea7
+Filename: pool/main/foot/trixie/foot-terminfo_1.27.0.1-1_all.deb
+Size: 54800
+MD5sum: 71d50367b4dc36c5a58bc5b5158c321d
+SHA1: 238da2e52222678911cd39c4e2e0f9b35eaf19a0
+SHA256: 54d7177dec22cacfc6daed711f531c0b023872af800198e72e00704d3fc15980
+SHA512: a74b1f7a778413522b1d01d27210a41da77bb933d5a0670115c3f51c393d498fae6ab6574b5bbb425cf903a07d2db1ff2b85ae8e77160e30038ed924fa0bec7d
 Homepage: https://codeberg.org/dnkl/foot
 Description: Fast, lightweight and minimalistic Wayland terminal emulator (terminfo files)
  This is a transitional package. It can safely be removed.
@@ -237,18 +237,18 @@ Description: Fast, lightweight and minimalistic Wayland terminal emulator (termi
 
 Package: foot-themes
 Architecture: all
-Version: 1.27.0-1.1
+Version: 1.27.0.1-1
 Priority: optional
 Section: x11
 Source: foot
 Maintainer: Birger Schacht <birger@debian.org>
 Installed-Size: 163
-Filename: pool/main/foot/trixie/foot-themes_1.27.0-1.1_all.deb
-Size: 68824
-MD5sum: f8a60e8e4cda15f34061720945122750
-SHA1: 9e918377180ac9fd8783ffe9c0de6f6250c32488
-SHA256: 61dd349146813f38097e6e2be7c88123a6fda3244f2fa3301b35c4934984860c
-SHA512: 5da153d52afc696bd1402ad0801f93de4af00faa1b342bb68bb71f1b90f43c6e9893d4e2ded10d074ace7225585846a3968e74328bbcba20add2e108a0358013
+Filename: pool/main/foot/trixie/foot-themes_1.27.0.1-1_all.deb
+Size: 68856
+MD5sum: 292b3e9a8eb8a8e61143fefa1934071e
+SHA1: 0053ccb06f1e90c2411a53975176d619891dd2b3
+SHA256: b8a9488e8c3c30bfd6decf8dea57eb02826c1c0fd136e10cf338d7d0265615fa
+SHA512: 93053ad645d6d37290f53b40866200bc5a25fff771a7f3b46b496e5fcb6a3a3e6137bed435b15ef8e4a01a99be350ff9eb3f211c2ec24c9bf53c3cb19180e934
 Homepage: https://codeberg.org/dnkl/foot
 Description: Fast, lightweight and minimalistic Wayland terminal emulator (theme files)
  The fast, lightweight and minimalistic Wayland terminal emulator.
@@ -257,7 +257,7 @@ Description: Fast, lightweight and minimalistic Wayland terminal emulator (theme
 
 Package: foot
 Architecture: arm64
-Version: 1.27.0-1.1
+Version: 1.27.0.1-1
 Priority: optional
 Section: x11
 Maintainer: Birger Schacht <birger@debian.org>
@@ -265,12 +265,12 @@ Installed-Size: 777
 Provides: x-terminal-emulator
 Depends: init-system-helpers (>= 1.52), libc6 (>= 2.38), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
 Suggests: foot-themes
-Filename: pool/main/foot/trixie/foot_1.27.0-1.1_arm64.deb
-Size: 297848
-MD5sum: eebd68293aea3891b7da61b6cb76e254
-SHA1: a8f2f89a0b2ffb1c5a5691ea01d901e1c70c6816
-SHA256: e615319c62b6f0d5c657a3bd679e8bf78b757bc24a3bd47a5c7781a0d957de0b
-SHA512: f7a8fe93f050468eda046bd17b43420dae64282b3833c15c9e36574c43782ba6ea216c83f033ad6b3e212a2ba30f3abbcedd142760ba24c4053acc71fe84abbe
+Filename: pool/main/foot/trixie/foot_1.27.0.1-1_arm64.deb
+Size: 298056
+MD5sum: 0ac0e26b7658be0f0e457f5ec5a39a8d
+SHA1: 1f27051271e5ca7691aa7159c31521a10c06443d
+SHA256: 1f3ffd2f15aa17d7ad48a97e3eda7dd93650b3c56f26d1bbec646857a5152b90
+SHA512: cca07a0c86b8b92cc25ebf20224ebfd3823ca628fa6663e9b426cf22076b60554f7968e0f71d49bb901f8f013e49780c7359eaa0162b3edf961d1cfb90fba4df
 Homepage: https://codeberg.org/dnkl/foot
 Description: Fast, lightweight and minimalistic Wayland terminal emulator
  The fast, lightweight and minimalistic Wayland terminal emulator.

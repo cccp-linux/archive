@@ -184,7 +184,7 @@ Package: foot
 Format: 3.0 (quilt)
 Binary: foot, foot-terminfo, foot-themes, foot-extra-terminfo
 Architecture: any all
-Version: 1.27.0-1.1
+Version: 1.27.0.1-1
 Maintainer: Birger Schacht <birger@debian.org>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), meson (>= 0.59), ninja-build, wayland-protocols (>= 1.41), libxkbcommon-dev, pkgconf, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libwayland-dev, libtllist-dev (>= 1.0.4), libfcft-dev (>= 3.3.1), libffi-dev, libharfbuzz-dev, libutf8proc-dev, systemd-dev, scdoc
@@ -198,21 +198,21 @@ Package-List:
  foot-terminfo deb oldlibs optional arch=all
  foot-themes deb x11 optional arch=all
 Files:
- f48a5e95eee2ca3bc06468d27031efbf 1644 foot_1.27.0-1.1.dsc
- aa870e0498290dc92835d1629f63fcf5 1195886 foot_1.27.0.orig.tar.gz
- 900faaa821b2f12e494ffd30b9641518 11564 foot_1.27.0-1.1.debian.tar.xz
+ 345e5f65bf36d9f8c3c2707b49141ada 1650 foot_1.27.0.1-1.dsc
+ aa870e0498290dc92835d1629f63fcf5 1195886 foot_1.27.0.1.orig.tar.gz
+ 1bb3f6b0b0f7b5a43a54e5bafa8a3810 11840 foot_1.27.0.1-1.debian.tar.xz
 Checksums-Sha1:
- 6c9cf3a503dc6427397a61309e7ea6b3694eeb84 1644 foot_1.27.0-1.1.dsc
- 4ee8e45d7e2874da06e5cc86205285c8fc40aaeb 1195886 foot_1.27.0.orig.tar.gz
- 5a02a1a8ad00ae95ef02593924c58fbd9359dafc 11564 foot_1.27.0-1.1.debian.tar.xz
+ ec62479dde5409be5d0b5dbda95c18a9a5b310da 1650 foot_1.27.0.1-1.dsc
+ 4ee8e45d7e2874da06e5cc86205285c8fc40aaeb 1195886 foot_1.27.0.1.orig.tar.gz
+ 9ebf31bcfe11a8f0805caeda59ac1cc2e16cc64b 11840 foot_1.27.0.1-1.debian.tar.xz
 Checksums-Sha256:
- 407244c45f8df6b14e387b5354a1f54acfa6e403cd760544f34507dd5e28a306 1644 foot_1.27.0-1.1.dsc
- 4e6131cc859ec6a36569f1978cf3617cc3836a681d13d228ded1b4885dab7770 1195886 foot_1.27.0.orig.tar.gz
- b0a09298be942214f471292f705cfbf8473fa3ea5ceeb5a4e872bc56afd6d74f 11564 foot_1.27.0-1.1.debian.tar.xz
+ e2784c8bf8abd01c6e42741771cb96d0b8ecb9ee6d1fb9499f7c3245511ef964 1650 foot_1.27.0.1-1.dsc
+ 4e6131cc859ec6a36569f1978cf3617cc3836a681d13d228ded1b4885dab7770 1195886 foot_1.27.0.1.orig.tar.gz
+ 9c6747cefef8e17c5013eafa93b74bf0a5a3a9d742fbc9eae208a561349d9563 11840 foot_1.27.0.1-1.debian.tar.xz
 Checksums-Sha512:
- 59b9cfe13094f1a88ec95cbd84be6d76b8a82e8bf8a6607dd12ad3ff9a883bcb2e26fd0cdc5fc45901b46a1825f04dc6708d25a662a4d3378572e885d599c71b 1644 foot_1.27.0-1.1.dsc
- cb4635c2afc18799c3c5b30715e575e0fa7e1621a1b6dab27bebdb9a530fd999a7d551986404ad17aaa8a8986e7250541a33324ef4acc5a6ff8058537545400b 1195886 foot_1.27.0.orig.tar.gz
- ff069081838a810c5f7cc43da09b24a12d14fc624d6bb70017fa8d3845e41e3c51d2a46d61ec784aa33dbe7a93539323f50fc94bfdda9ca318d86d9dd30c0de8 11564 foot_1.27.0-1.1.debian.tar.xz
+ d6349310240d5e6848d3f13961f20575b63beaaef9f47b62b2714c7ecded86feb20f873eac6c84934e5682ce31af5b0d9ef4c68ade3169e98183f6d21c7ad3fb 1650 foot_1.27.0.1-1.dsc
+ cb4635c2afc18799c3c5b30715e575e0fa7e1621a1b6dab27bebdb9a530fd999a7d551986404ad17aaa8a8986e7250541a33324ef4acc5a6ff8058537545400b 1195886 foot_1.27.0.1.orig.tar.gz
+ 9f3647868dad203f7084066894b2051f4c45f33ee5fbae0227ed3d2aaf4737ab6a06df9c96cdb28019c24cb58295ec4b318c6527455b053a9d10754b3df25b7d 11840 foot_1.27.0.1-1.debian.tar.xz
 
 Package: freerdp3
 Format: 3.0 (quilt)
