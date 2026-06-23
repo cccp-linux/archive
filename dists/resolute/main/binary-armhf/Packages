@@ -1076,18 +1076,18 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.30
+Version: 0.31
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 31
-Depends: cage, fonts-courier-nerd | fonts-courier, fonts-courier-nerd | fonts-symbols-nerd, fonts-ibm-plex, foot, foot-themes, tmux, wl-clipboard, wlr-randr
-Filename: pool/main/term-meta/resolute/term-meta_0.30_all.deb
-Size: 4758
-MD5sum: 122a594a048fb615ce8a87b6652a0955
-SHA1: e23ad4445b49198d5fa8a84fe29b88c364962620
-SHA256: a127cb583bbf362fc836beba61142cff61140ed63132a21d8383c1be252d1af5
-SHA512: 244e5eb33823313d5c42ee90d07a9cda4b7c8df03e133d2f97b958b40354f27f84205d9f59daabd54cff7245dd47d5c34375e971d075288727e86385e6917fe7
+Depends: cage, fonts-courier-nerd | fonts-courier, fonts-courier-nerd | fonts-symbols-nerd, fonts-ibm-plex, foot (>= 1.27.0.1), foot-themes, tmux, wl-clipboard, wlr-randr
+Filename: pool/main/term-meta/resolute/term-meta_0.31_all.deb
+Size: 4830
+MD5sum: 241a9b7696601b52a8abf89c62dbf0a8
+SHA1: f5ce7dbe0a25f9816276e398b92b044495c982e6
+SHA256: 99b23d622cf59ff7dd7305e3e7b272e0904bf1d1641e50eebacfca7e71798c79
+SHA512: 6d35c6182e198a3b83c14bb3d23aa8ede800714ffb9c986a87e2873e56ae401c898ac9a5f6179f6d9c45f51d005deb56c5761d460c935b5d662d70bfa336237d
 Description: Terminal meta-package
 
 Package: virt-meta
