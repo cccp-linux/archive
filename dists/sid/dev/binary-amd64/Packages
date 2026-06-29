@@ -36,19 +36,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.23
+Version: 0.24
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 36
 Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
 Recommends: aprox, bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
-Filename: pool/dev/dev-meta/sid/dev-meta_0.23_all.deb
-Size: 7372
-MD5sum: 143b5f1c9d352aa45309cb8ef893803f
-SHA1: 913f637112bf3e47b36a6e02b7fcc45c12e0404a
-SHA256: a9f413af2b57d3ddf6d6ad4759c22c8e2b01d96a715cb2c809f0cf74615333eb
-SHA512: a870e8cfb9f5f02a4d8b30e3db8b6bc9ff480fdc37260373da4c7eadf49d0c176e4e2e85a1a654e9e421d7b3fb982ef34df504120677bc2e482f44a3f3e4641e
+Filename: pool/dev/dev-meta/sid/dev-meta_0.24_all.deb
+Size: 7416
+MD5sum: b277e63e134eaaee42054510fee681e3
+SHA1: 3239a6ca4983ca6d2fd25fb9af378a32fe2a7260
+SHA256: 209f26e4594f6289e0a03276bccf998eb7fc466b01c65ad8936fe0ec488d7b53
+SHA512: a7cdcb9b8ef05c271b0ee85593006345b84c651e90c5377486b6c1c19c1a4e9ac0f077d053e5266e427b3b595a299bdd07463a7d60c3f526a7d5363c0002909b
 Description: Development meta-package
 
 Package: librtaudio-alsa-dev
