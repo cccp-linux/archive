@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: sessionctl
 Binary: sessionctl
 Architecture: any
-Version: 0.1
+Version: 0.2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Vcs-Browser: https://github.com/cccp-linux/sessionctl
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  sessionctl deb admin optional arch=any
 Checksums-Sha1:
- 64cbf779e6631ae190c78b263606bf70cdd2408c 13604 sessionctl_0.1.tar.xz
+ 2a0b1f9cbd73b5f3fd3c9cd9eb1b8be90e7db1f8 13528 sessionctl_0.2.tar.xz
 Checksums-Sha256:
- 82037f192be693f97008e976606ab27d00d68df9780dc7edf23678b31c811a8c 13604 sessionctl_0.1.tar.xz
+ e59886eb884dd316e21686af572d4a0965353f86d238d69a0fcad8bb59d16600 13528 sessionctl_0.2.tar.xz
 Files:
- be3a2aaf3f65afa8eb949bc04b96ae60 13604 sessionctl_0.1.tar.xz
+ 880334b21dc8ecc6c251aa9f9a658103 13528 sessionctl_0.2.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCakKOQQAKCRA6Vr9YT1rr
-J14AAP9AKtVn0xFtT+nbckFKt4O1AlJlKca24z2B2GdwMptKXAD9HC9v0kinSPTg
-aauMRTy5BPIQOVvqYhkZkg8hwp6zcwo=
-=7swD
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCakKZuwAKCRA6Vr9YT1rr
+Jw5wAQD8h9wVBex8XZYseICu8NeZ0BegilD9JYmgMF3ZCzNrlAEAh/WSs+i3IPsw
+aeM5msXhJ7AaS6YSm0Euw//sD6I3XA8=
+=37Lz
 -----END PGP SIGNATURE-----
