@@ -1056,17 +1056,18 @@ Description: Flexible toolkit for making desktop shells with QtQuick
 
 Package: sessionctl
 Architecture: arm64
-Version: 0.1
+Version: 0.2
 Priority: optional
 Section: admin
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 14
-Filename: pool/main/sessionctl/resolute/sessionctl_0.1_arm64.deb
-Size: 2560
-MD5sum: 3e5a49b86c426769ac860eeb08a0a26a
-SHA1: aa23beadf9bfb024ff43f2da6f44a1101c593e2f
-SHA256: 00a9f416f8dd9a3c5d8c05d9469e34a3196e9875523e5f9f88bd04d3bd3b0e38
-SHA512: 051dec149a07a498f564cbc325cc710b23fbae7ac3811a3c99d91fabc8b991fcb5c8277fcf8993fb5664c45a8ae045d441239b3ac75313b04df9fc4e2442677c
+Installed-Size: 12
+Depends: systemd
+Filename: pool/main/sessionctl/resolute/sessionctl_0.2_arm64.deb
+Size: 2456
+MD5sum: 0c2c5fb9c8c2430735fd8676264c9386
+SHA1: 07576816d1be3bfaa8145f1cba83c0c0da88d085
+SHA256: f0d217131fc415b9f5ee006249fe240f950258c0f4de6247f64df39d5eea18d8
+SHA512: c76926b6c512d8947ac2270952b65880c605fb357b403139b12deecff464d0c6a2ac1b9b928eb616dbea2e90a8020bc636524cab85a51e7a98db12c94d1dfa18
 Description: Session control wrapper script
 
 Package: neovim-statuscol

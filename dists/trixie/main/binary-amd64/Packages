@@ -1366,17 +1366,18 @@ Description: Flexible toolkit for making desktop shells with QtQuick
 
 Package: sessionctl
 Architecture: amd64
-Version: 0.1
+Version: 0.2
 Priority: optional
 Section: admin
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 14
-Filename: pool/main/sessionctl/trixie/sessionctl_0.1_amd64.deb
-Size: 2696
-MD5sum: dc9094265891f658d8abd508d22489e0
-SHA1: 954cc663a2c37d2572e22a2b7bda28b389dbf2a8
-SHA256: e356f9c21844b7ade2f888e0128712932ba7ece2e245d178e5449f421da4d8ff
-SHA512: e172c6548aeb9fe4d1315edb9ba1cd64f0a010caedd4505f53805e22827e6efb3e07ff425f53e6756263092750e2f8c8d7a717657065c6d5087272ff54e83ff1
+Installed-Size: 12
+Depends: systemd
+Filename: pool/main/sessionctl/trixie/sessionctl_0.2_amd64.deb
+Size: 2580
+MD5sum: 21b346193e3755309cfffa2f022828af
+SHA1: bd062b9fc22eb25e8e2ec122f1dcede7d775edb3
+SHA256: 6b4798322a040c7d17fb8323c74678c75b16eb4c9ce9ebab61405e7e2a13a295
+SHA512: f69120b6762492a50b64c322b20030232ed39f7a9c8f1fd70574b0b2ff616e27263782567112c80b7687de16e05844f36e1da58940ba945b4891b14e810504eb
 Description: Session control wrapper script
 
 Package: neovim-statuscol
