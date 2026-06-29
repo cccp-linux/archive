@@ -326,17 +326,17 @@ Description: Calendar display utility
 
 Package: sessionctl
 Architecture: armhf
-Version: 0.3
+Version: 0.4
 Section: admin
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 12
 Depends: systemd
-Filename: pool/main/sessionctl/noble/sessionctl_0.3_armhf.deb
-Size: 2522
-MD5sum: c99868a055a0c33049494767f88f2915
-SHA1: 7c736c28afc768097d9d4c7960684d9fe8e4ac47
-SHA256: 14a3e3c4297ce35b4a7ef777f00f29e564ada061d9e29f3a5c57403d0defd83a
-SHA512: 05a3317d7d8c71f852a0938d9b5ff011754afa50d172a6cc477bb678b724ac1d655f9d92b42d4b217824b573b0c57cd9ad706d81b57b10befc3ea565d0ff4f52
+Filename: pool/main/sessionctl/noble/sessionctl_0.4_armhf.deb
+Size: 2516
+MD5sum: 46a7024477fe4c89b89dea160de70cbf
+SHA1: 11f120b4e8073b18a9b9b185feeb0403ab088ca7
+SHA256: 96a9728e2c1b59e222fe65853f83ea69f564f08c20295b52c5aa05e2ce2c5c60
+SHA512: 1b2ec5d1d59797abfb7cb443eb2ef72fbff229481d5f1e6118073c2ff533e0c01e24f665614eaad01e1a2d67cf59eed05186d46f88cfd5b76f57e1465b4f5554
 Description: Session control wrapper script
 
 Package: neovim-statuscol

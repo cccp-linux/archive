@@ -326,17 +326,17 @@ Description: Calendar display utility
 
 Package: sessionctl
 Architecture: arm64
-Version: 0.3
+Version: 0.4
 Section: admin
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 12
 Depends: systemd
-Filename: pool/main/sessionctl/noble/sessionctl_0.3_arm64.deb
-Size: 2522
-MD5sum: 27e0524d1c1e49f3c852a0ac64864b33
-SHA1: c9c7d2a9a6dadac3565c19026e154eb7a945392c
-SHA256: 5fbd8682863a7518e6a24c2d43a6e837d46e83d4a68dbfd4028aa2662efc9c75
-SHA512: 262fba49b163c9f1be259e2cce94aa292cab298ae699111f43b6ffb3518a7dfad05ca7dc1e5c486eb2f96a457862579a6ccb22c93f6dbeffe9e22cae30de66ee
+Filename: pool/main/sessionctl/noble/sessionctl_0.4_arm64.deb
+Size: 2516
+MD5sum: 2c76cce20af11caa9d9e61aba0b7bae2
+SHA1: 431d74987153773a79eb925e4c49a17b9c3a3df3
+SHA256: c6645852b2fb6bff7253c9da782424470a0ba90741330ae41e061e2ac46f4d02
+SHA512: aae5558f6b441fcd9e7d6381f88de383a264d1f2f472320e889c9fa4920c168cf31d9fff27662c1846b77a51651d92aa45d818cb972ce0363e88ac436c1d0f75
 Description: Session control wrapper script
 
 Package: neovim-statuscol

@@ -1073,18 +1073,18 @@ Description: Flexible toolkit for making desktop shells with QtQuick
 
 Package: sessionctl
 Architecture: amd64
-Version: 0.3
+Version: 0.4
 Priority: optional
 Section: admin
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 12
 Depends: systemd
-Filename: pool/main/sessionctl/resolute/sessionctl_0.3_amd64.deb
-Size: 2532
-MD5sum: 87f63d21756bda2676e5349dfa530dd8
-SHA1: 2466a599e9b329bf77fbe48948ae35784c345a5d
-SHA256: 2841d7cf6f562f6ec729559a8faba1d00ee5df57d29e984aade998dd5304aba3
-SHA512: c806b912ff6bd12a745964e17c2c988136815a87c541375920660f637fbbf0bb2fe4a76781992eca139d2ef7b0b466577b6235498bbda09b4a8f2ea20638cd9e
+Filename: pool/main/sessionctl/resolute/sessionctl_0.4_amd64.deb
+Size: 2528
+MD5sum: 66d1a065aad405453abc9c85124ffb4a
+SHA1: b19fc56b73631d3241c6e8620de04feb2fe86b93
+SHA256: e22edf8eb51e327eac7887f78e055eb51990cde54e7895a977bf8ee6456696cd
+SHA512: 8d59c5ba525119b2472c5d12b52d25c0c5c112fcfa11c8e4eb431a6516b15f1bf7d2398c83a93e311ac2a2be5bf8a957fc24186a4747098470d3d4e45f7ea663
 Description: Session control wrapper script
 
 Package: neovim-statuscol
