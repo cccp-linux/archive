@@ -324,6 +324,20 @@ SHA256: 83bd096f664a9d644e17f35db785a7b1e7caea33a10d69c5b9ddbee6ffb94313
 SHA512: 12f2ed6c4e2c532d5886f2d8cf8bc3410266f8a820ee4d6eb16927a4131312a5d9d3f2f03b92532502a65b5ea210cbc1bc3775f5364c77e2908dc5623507884d
 Description: Calendar display utility
 
+Package: sessionctl
+Architecture: armhf
+Version: 0.1
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 14
+Filename: pool/main/sessionctl/noble/sessionctl_0.1_armhf.deb
+Size: 2546
+MD5sum: 2bb2ebea142fa7e97bb6ee79ac55ab25
+SHA1: 2d87e30dd1aba1d8256f8bb234161a36b19a4bbf
+SHA256: 4a822199330906eb1b498265e385272e5766bb3d7bd033d232be0a4a966c1171
+SHA512: 03c8efc4477c3fba96a8b7acbfadfd0a98bbfca0e151554fe4dbdf36600ecd1807aad4644f6bdcf0e8a2b7c586564a59506f79a2d0067e9f99a28e72591f8b32
+Description: Session control wrapper script
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-6

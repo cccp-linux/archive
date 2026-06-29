@@ -466,6 +466,21 @@ Description: Flexible toolkit for making desktop shells with QtQuick
   * MPRIS compatible media players
   * StatusNotifierItem compatible system tray clients
 
+Package: sessionctl
+Architecture: amd64
+Version: 0.1
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 14
+Filename: pool/main/sessionctl/questing/sessionctl_0.1_amd64.deb
+Size: 2560
+MD5sum: 9b2da46e7d31c2e9943735db7e7c9523
+SHA1: 422c046f411cf8f3522320c6ec189121bd881495
+SHA256: 84050acdfef8af2839d8d3c67e748559bbd258e61f3e890ed14cb6e2de6bee72
+SHA512: 90bf7ed2eba46470e233f78d1866a569badbc64e001d6705353a38cce763f8beab9e9c96519b8e3fb1ab1be7c8f7d84a3cc17edcfb98b97c6d5d9db65de4eb5f
+Description: Session control wrapper script
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-6

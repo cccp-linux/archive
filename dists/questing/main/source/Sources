@@ -504,6 +504,32 @@ Checksums-Sha512:
  13fdd9a655bc284c1a129df33c189f4d2b15107be7fe6852e089db3252d7e8a96c96d8818517642fa051f8d994651d4d9e780595b2aad18968eff3a9108fa2fd 888 pycal_0.1.1.dsc
  12ae886db5dce61174556498990be31fbc052c7262c8f07871463729adb1d0734d76c3598b12822af6a41ce370900e9ef8a1288ea577691e6e25bd4370470f83 311260 pycal_0.1.1.tar.xz
 
+Package: sessionctl
+Format: 3.0 (native)
+Binary: sessionctl
+Architecture: any
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/sessionctl
+Vcs-Git: https://github.com/cccp-linux/sessionctl.git
+Directory: pool/main/sessionctl
+Package-List:
+ sessionctl deb admin optional arch=any
+Files:
+ e0560a9640495ddf4d623738515b8947 917 sessionctl_0.1.dsc
+ be3a2aaf3f65afa8eb949bc04b96ae60 13604 sessionctl_0.1.tar.xz
+Checksums-Sha1:
+ 2b18f46430727d0722db45d69adcda8f0d544931 917 sessionctl_0.1.dsc
+ 64cbf779e6631ae190c78b263606bf70cdd2408c 13604 sessionctl_0.1.tar.xz
+Checksums-Sha256:
+ 5aa6c4bd6c6e1bec54051bafee1b33e7c49f755d200a16433128dcb9a305df58 917 sessionctl_0.1.dsc
+ 82037f192be693f97008e976606ab27d00d68df9780dc7edf23678b31c811a8c 13604 sessionctl_0.1.tar.xz
+Checksums-Sha512:
+ 484e194e3ed5d4f17837ed8d3783c1a677155098e0715264623f6a24eb33990ffabd644b6ab31e0a707ec3af9fd4b5413c69785da5dbed5dcf93e74865352e4b 917 sessionctl_0.1.dsc
+ dfbc8e1bd72d0dfebc8d413bc910eb6e9041ff6cf426c1ab464e8169d75beacccdaf4af93c044243d9709d969e6cd030fa41c0cd0871c443df45ece91d0f8922 13604 sessionctl_0.1.tar.xz
+
 Package: statuscol.nvim
 Format: 3.0 (quilt)
 Binary: neovim-statuscol

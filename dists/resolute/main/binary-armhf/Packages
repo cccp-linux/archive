@@ -1054,6 +1054,21 @@ Description: Flexible toolkit for making desktop shells with QtQuick
   * MPRIS compatible media players
   * StatusNotifierItem compatible system tray clients
 
+Package: sessionctl
+Architecture: armhf
+Version: 0.1
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 14
+Filename: pool/main/sessionctl/resolute/sessionctl_0.1_armhf.deb
+Size: 2560
+MD5sum: 354510ca361efa3af2e5b7068ca8137d
+SHA1: e0e72bee9071e08746fb469db262f57aa2fd2cf4
+SHA256: fb2836bfadffc8b26de3b0188f269d2d8a75e7a228582caf5f2f32f3568a8cbd
+SHA512: d306d4f9c2ddea4ec9d04ba670ced3c81d24cbc12ee7fd04448afb41a23b6b8501b1fa0ffe38b78aed08c85ecd6d4d8f41da1b103d2ccc471815f83ea1307e34
+Description: Session control wrapper script
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-6
