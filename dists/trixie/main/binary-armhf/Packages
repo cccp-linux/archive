@@ -1349,18 +1349,18 @@ Description: Flexible toolkit for making desktop shells with QtQuick
 
 Package: sessionctl
 Architecture: armhf
-Version: 0.2
+Version: 0.3
 Priority: optional
 Section: admin
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 12
 Depends: systemd
-Filename: pool/main/sessionctl/trixie/sessionctl_0.2_armhf.deb
-Size: 2580
-MD5sum: c12b92fade2edcbd8fd524ea9e0d1338
-SHA1: fb865b945e72f25b7d65228bfb58d8d7d1c3ea13
-SHA256: 4257fead26037626896c7e25709712e5ea43f726cf3c919f13f1fdc1dcd903f0
-SHA512: cdc55bdfa682d06f27299e87f0c2b73884371f0d5c0e5f5bcffb7d54964446389146eb6305cff810ef9afed0c25a4f05b87ec37c7eb6b32a5cbcf11e22c88f59
+Filename: pool/main/sessionctl/trixie/sessionctl_0.3_armhf.deb
+Size: 2644
+MD5sum: 0e1a555c84d59318b20e67b1d0045d47
+SHA1: e69f5d23541d609ca3c8afa076946c2b697a36b4
+SHA256: b1e782a392cb4a855734ab881f886992fd81c5aa9b9be06290a4f0ad16dc2eca
+SHA512: 0cc9b0ff0e8217087f2246f48f852429f73048c1550c2583a6e203ae79919f101b78b57c3483a97f04502c96a835e9e6324a7eaa36134b3a4548b143bd22916c
 Description: Session control wrapper script
 
 Package: neovim-statuscol

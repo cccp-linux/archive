@@ -508,7 +508,7 @@ Package: sessionctl
 Format: 3.0 (native)
 Binary: sessionctl
 Architecture: any
-Version: 0.2
+Version: 0.3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13)
@@ -518,17 +518,17 @@ Directory: pool/main/sessionctl
 Package-List:
  sessionctl deb admin optional arch=any
 Files:
- 935de5656ddd8fe280cb86f2aa04a80c 917 sessionctl_0.2.dsc
- 880334b21dc8ecc6c251aa9f9a658103 13528 sessionctl_0.2.tar.xz
+ fdd04b8b7521b4a67e66de2f6a996c19 917 sessionctl_0.3.dsc
+ eb423a12dc11f0006c0e77f8ed47f4c9 13592 sessionctl_0.3.tar.xz
 Checksums-Sha1:
- fdb8655525620e58965ffef5137227e2a4442b90 917 sessionctl_0.2.dsc
- 2a0b1f9cbd73b5f3fd3c9cd9eb1b8be90e7db1f8 13528 sessionctl_0.2.tar.xz
+ 3d8a129a407a5b703a81c12d5d6302a2a1067ba4 917 sessionctl_0.3.dsc
+ 50fe3ad8521a6e89abd15616534e906e10fb6867 13592 sessionctl_0.3.tar.xz
 Checksums-Sha256:
- 1ff2825f5c2167082e332597451c632651d6ef59d418b7d9a92607d4af249599 917 sessionctl_0.2.dsc
- e59886eb884dd316e21686af572d4a0965353f86d238d69a0fcad8bb59d16600 13528 sessionctl_0.2.tar.xz
+ 11bc5a7789cb27b9a0319cf4fcb36ff66ee1979649721ee26af33f1fd7971f03 917 sessionctl_0.3.dsc
+ cb09fedb7e1032592842849f82476ac446f8c14e77cc1f516811722c6fdd5615 13592 sessionctl_0.3.tar.xz
 Checksums-Sha512:
- 87cdf6d27bd7053169ee9cae52e60dbf328a61e2e5e9cac6cccdef96b105bb93b08895499b8133c413775cd343ce608ff6e1fd7af303d447b5916bb62789af41 917 sessionctl_0.2.dsc
- aa64d12619dfb9dab0a14b89ebb16c6af7848c0247677b4294c78efa1ac8383f44185315efc89296437ab3abf33a8c7d3fda380366b307a96b3ebd5aad833c91 13528 sessionctl_0.2.tar.xz
+ 2640a6434030fcbd360c5687b5646105c1e07f64a9bf981c6d79540013db3f38a132580ceeeae7dea7dece1fa9fa1151cb55aeb50994109e8f5494d447485338 917 sessionctl_0.3.dsc
+ 5038e737c0642ea1eef8f45d2b13177e04f3f2318b99218fd265d9aaeec131a35346fd84fbe63399644bb6ea2bd862a8da2af6601100760471f9b49254d84563 13592 sessionctl_0.3.tar.xz
 
 Package: statuscol.nvim
 Format: 3.0 (quilt)
