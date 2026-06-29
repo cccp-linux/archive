@@ -1206,19 +1206,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.39
+Version: 0.40
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 76
-Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
+Installed-Size: 77
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, libfile-mimeinfo-perl, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.3), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant, xdg-utils
 Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
-Filename: pool/main/niri-meta/sid/niri-meta_0.39_armhf.deb
-Size: 13208
-MD5sum: 9512fee23206a554c19ea694e1e73c0a
-SHA1: 22d3fb0d7e01e25eda7d7981d2a2d395a844ed28
-SHA256: 76cd3cad06d0c91a9a151c640c3460289d351c0a70e2c49da6cdcfb9eec2d4f7
-SHA512: 9b0c31d57237e39d4c9d43f104b050ce01eb38a2482371d12de948d55c3b32dac218378a00d4693cac1f809104a8024d637ed86eb060be44ad111e101b3123fd
+Filename: pool/main/niri-meta/sid/niri-meta_0.40_armhf.deb
+Size: 13256
+MD5sum: 74dc35bc6e7a147c7e7bde8ac41aa225
+SHA1: cf13337296b01502108d9573c8ccb730acdad20b
+SHA256: 153b7247fa473c372940ceaa10c3d2ce9e5c9111d3034edc60fb8b64319b07e5
+SHA512: f6c1bbc03b0d4f2288297a11d2bb163d0d6a64d796f099058a6451cb970119430a78894ab52c4fe2aad6623b45608dad73262653320308a23e5dc3c546f985e7
 Description: Shell meta-package
 
 Package: niri
