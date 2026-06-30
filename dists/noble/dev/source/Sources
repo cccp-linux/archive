@@ -76,6 +76,32 @@ Checksums-Sha512:
  1978845df86541e91348dac183384442ed4e0a611807690a53c5b215dd7d3d02b0778d3cb2573ce97c56bfacf6add3dccbb9c5c34f30da500536c56fc773ddef 912 dev-meta_0.24.dsc
  9e662643cd28a918228ad3eac5968878b22fef5401588a4abb2ffbe552f8f5ef026a648f9ba9271562e64ddb5375021855c9f2f091c72a26648d56bbd0a92036 17752 dev-meta_0.24.tar.xz
 
+Package: devdocs-meta
+Format: 3.0 (native)
+Binary: devdocs-meta
+Architecture: all
+Version: 1.2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/devdocs-meta
+Vcs-Git: https://github.com/cccp-linux/devdocs-meta.git
+Directory: pool/dev/devdocs-meta
+Package-List:
+ devdocs-meta deb metapackages optional arch=all
+Files:
+ b196aba0808b1f7efb2f20b7694dce68 940 devdocs-meta_1.2.dsc
+ 5efd75fa8b27a2af21899056ff507507 12896 devdocs-meta_1.2.tar.xz
+Checksums-Sha1:
+ 6061bf634ed20e6a60cf925a6f4cdb3a5fa213a0 940 devdocs-meta_1.2.dsc
+ f52b394794ed07a166df4af860439406b6f3af6b 12896 devdocs-meta_1.2.tar.xz
+Checksums-Sha256:
+ 07a73fb89c05a44057a49dcce7672f0e9170ca65704cdc279f0be0e7326c6cbc 940 devdocs-meta_1.2.dsc
+ 1c2162ecf2ccc4b92b3b02dca3e58d5967c76260f468a9a4789cbd5b4c1f62de 12896 devdocs-meta_1.2.tar.xz
+Checksums-Sha512:
+ 2e4fae9f8c76f0d0c35c1a9de67685400127ca3f9041f415e05a89e5e06c088fe10933cc3e377cdada5468a66deb678c5c9aae8066b411fa216157e128a604cb 940 devdocs-meta_1.2.dsc
+ 556cba8c6a2792cbb1db586f784a16e70eed2370d3c0be9566c685cb41c67af7746d3946975e07afe28335c09cd79461728f4b7d441c8c180d7fbc93b1194e8b 12896 devdocs-meta_1.2.tar.xz
+
 Package: rtaudio
 Format: 3.0 (quilt)
 Binary: librtaudio7-alsa, librtaudio-alsa-dev

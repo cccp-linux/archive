@@ -51,6 +51,23 @@ SHA256: 209f26e4594f6289e0a03276bccf998eb7fc466b01c65ad8936fe0ec488d7b53
 SHA512: a7cdcb9b8ef05c271b0ee85593006345b84c651e90c5377486b6c1c19c1a4e9ac0f077d053e5266e427b3b595a299bdd07463a7d60c3f526a7d5363c0002909b
 Description: Development meta-package
 
+Package: devdocs-meta
+Architecture: all
+Version: 1.2
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16
+Depends: devdocs
+Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
+Filename: pool/dev/devdocs-meta/sid/devdocs-meta_1.2_all.deb
+Size: 2388
+MD5sum: 4f75cef64f883033f2ff5870e0d13958
+SHA1: ebada534816b1651a31e2665bd79eec39da33b29
+SHA256: 26a2770face272bdc43e0a451e7954a171cf21e29422390247a2be626c0182e8
+SHA512: 91a3dd6998fd6de07a8f1a650310177902f811fd943bad01267d80cf4dcf51eeff0c5abffc7289b7a5d241d359a9c67b278f7f4e398f078028ba24ec291358ca
+Description: Devdocs meta-package
+
 Package: devdocs-data-angular
 Architecture: all
 Version: 1.4
