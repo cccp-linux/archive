@@ -1,0 +1,8 @@
+#!/bin/sh
+
+d=$(dirname "$0")
+p=devdocs
+v=1.4
+
+wget -cO ${d}/${p}_${v}.orig.tar.gz \
+    https://github.com/dimitry-ishenko-cpp/${p}/archive/refs/tags/debian/${v}.tar.gz
