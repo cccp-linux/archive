@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: uscan
 Binary: uscan
 Architecture: all
-Version: 2.26.9.2
+Version: 2.26.9.3
 Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
 Standards-Version: 4.7.4
 Vcs-Browser: https://salsa.debian.org/debian/devscripts
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13), bash-completion, dh-exec, perl:any
 Package-List:
  uscan deb devel optional arch=all
 Checksums-Sha1:
- 5da482e7341f6a9b2fefa21caa2b8d3520440026 59572 uscan_2.26.9.2.tar.xz
+ 918bae6656288a13499fe175351ade91b13fe1ae 65056 uscan_2.26.9.3.tar.xz
 Checksums-Sha256:
- ea2bcf277868c396282b49dd007a1c82d80834e7d56e9a89be8bea47aac5783f 59572 uscan_2.26.9.2.tar.xz
+ ac06a3cb694abb47976a8367526dbd8f0f630d1d22fb5f242929c3ad5a41ddab 65056 uscan_2.26.9.3.tar.xz
 Files:
- 2a9c56cd0fd1b8cbd17b05e7c152a8b2 59572 uscan_2.26.9.2.tar.xz
+ cc7cc32dac36bd3dbb9385f8aba6f35b 65056 uscan_2.26.9.3.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCamFjcAAKCRA6Vr9YT1rr
-J4ukAP0ZExdGKE5QJLHyQ+nPqfrGCKp/M5THZUby9foofUFFLgEA7sc79+enGxJ1
-XBwUGLX7BVe1CKtyvSrWVz88TJyCoQg=
-=SZMB
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCamGBUAAKCRA6Vr9YT1rr
+J8J5AP9HssBnbM/JUhNi5c5FTbnIZYwSBj61iDIGOICXMfHAuQEAqZ+MNwKZRU+o
+KazIy4OhaFMtsEoUlDyyp3uEJI21vQw=
+=n6zi
 -----END PGP SIGNATURE-----
