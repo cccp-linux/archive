@@ -5045,20 +5045,20 @@ Description: C++ library for realtime audio input/ouput
 
 Package: uscan
 Architecture: all
-Version: 2.26.9.2
+Version: 2.26.9.3
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
-Installed-Size: 320
+Installed-Size: 350
 Depends: perl:any, dpkg-dev (>= 1.18.19), libfile-dirlist-perl, libfile-homedir-perl, libfile-touch-perl, libio-string-perl, libjson-perl, libmoo-perl, libwww-perl, libyaml-libyaml-perl, sopv | gpgv
 Breaks: devscripts
 Replaces: devscripts
-Filename: pool/dev/uscan/noble/uscan_2.26.9.2_all.deb
-Size: 73236
-MD5sum: 284f199ae9e5f99cdba75ac6e88daf77
-SHA1: 5493484aa0d422d246667e23f27f34aff6e56a58
-SHA256: 0229a48c947631c0d4a6ea48d73c64c95a3d27efe6b51c316250a5b38c623050
-SHA512: 5585a3b6423c1a6d19028d19c952308837ce89f2c2a9d0015d3028919c63bcd23735ae840488b7c4b90900f4e76ce2cd30356acec1941aebdac4a67d29078831
+Filename: pool/dev/uscan/noble/uscan_2.26.9.3_all.deb
+Size: 78886
+MD5sum: aed724845d6703abe50ec00f1431033c
+SHA1: d1742482912077bdf8b7a3f39e0bcf6399553838
+SHA256: 4390a181b1dbb28742e4a0f5e8fad7e049b561bc8e89c25ff3e506b2759e48a9
+SHA512: c5e65b382079a4ee7d0b4dd85427ca371cbb4f34629d9f553a887c79ee5c9a3d91212c16aecdc73970c431d07116c2ac4bb458e881ec3262d09b87ebecc14228
 Description: scan/watch upstream sources for new releases of software
 

@@ -5046,20 +5046,20 @@ Description: C++ library for realtime audio input/ouput
 
 Package: uscan
 Architecture: all
-Version: 2.26.9.2
+Version: 2.26.9.3
 Multi-Arch: foreign
 Priority: optional
 Section: devel
 Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
-Installed-Size: 320
+Installed-Size: 350
 Depends: perl:any, dpkg-dev (>= 1.18.19), libfile-dirlist-perl, libfile-homedir-perl, libfile-touch-perl, libio-string-perl, libjson-perl, libmoo-perl, libwww-perl, libyaml-libyaml-perl, sopv | gpgv
 Breaks: devscripts
 Replaces: devscripts
-Filename: pool/dev/uscan/questing/uscan_2.26.9.2_all.deb
-Size: 73320
-MD5sum: 378a89965f771046eec2e30c00263cb3
-SHA1: 5c0f5d1b1ce08d86d77caa67c5e9058b2db7e3db
-SHA256: 975f27a3b09249e7f06812c84964b7e798e0381771b18ce9371904f8aa5480e8
-SHA512: 5d6ee7cdf77a38dd6fd63e4270854f5bb37b3e4176a2ad783df0b1982add93f188eb9591955fc3d0f55a70d68d8f15b5079833c0fe546c9d5189e20197dbf7ba
+Filename: pool/dev/uscan/questing/uscan_2.26.9.3_all.deb
+Size: 78984
+MD5sum: 66421d80b3308c9294dfd1e1ad68e500
+SHA1: 0345b09673b9ce5b64ce8c742173537f1ea43066
+SHA256: 2ef15f119c1368d9538dffbe6c80c0aa0edc47418e28ccfb31ed55bdf60a98bd
+SHA512: 1fea1ecb346c593d9310673c88da7a9f6204fd319acccb89d19f7e24c4a39ce92d6d45f9961f1f1a3ac3f01e8000b2d8a7615cb205a71a2837bc9ededf85f092
 Description: scan/watch upstream sources for new releases of software
 

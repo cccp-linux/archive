@@ -140,7 +140,7 @@ Package: uscan
 Format: 3.0 (native)
 Binary: uscan
 Architecture: all
-Version: 2.26.9.2
+Version: 2.26.9.3
 Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), bash-completion, dh-exec, perl:any
@@ -150,15 +150,15 @@ Directory: pool/dev/uscan
 Package-List:
  uscan deb devel optional arch=all
 Files:
- a2d20be42dca64c918087d1b97bd3137 959 uscan_2.26.9.2.dsc
- 2a9c56cd0fd1b8cbd17b05e7c152a8b2 59572 uscan_2.26.9.2.tar.xz
+ f825c3e64abeb29d1668ed7a7058ab3a 959 uscan_2.26.9.3.dsc
+ cc7cc32dac36bd3dbb9385f8aba6f35b 65056 uscan_2.26.9.3.tar.xz
 Checksums-Sha1:
- da99613ab88df20a2d687aae391764b78da7709c 959 uscan_2.26.9.2.dsc
- 5da482e7341f6a9b2fefa21caa2b8d3520440026 59572 uscan_2.26.9.2.tar.xz
+ 1d1b70ee5af1b8d157c285cdd36d4cb45adb1db9 959 uscan_2.26.9.3.dsc
+ 918bae6656288a13499fe175351ade91b13fe1ae 65056 uscan_2.26.9.3.tar.xz
 Checksums-Sha256:
- 414f21b9cba07b41b8d6a840ed295fd41220c114c29a1bca33656531241839b7 959 uscan_2.26.9.2.dsc
- ea2bcf277868c396282b49dd007a1c82d80834e7d56e9a89be8bea47aac5783f 59572 uscan_2.26.9.2.tar.xz
+ 5b340358927b70e42ab096177c4202c6176a92a20c0dc426b51ab5fc9a52f63b 959 uscan_2.26.9.3.dsc
+ ac06a3cb694abb47976a8367526dbd8f0f630d1d22fb5f242929c3ad5a41ddab 65056 uscan_2.26.9.3.tar.xz
 Checksums-Sha512:
- 27961c3bee38e6d4bc5b66e138e7f4d254509564b2e0544ab0e34e789327791d2c68ff3c92e2065fc46f4c78ea4d7a3a483b617891d534810c0154092025a3fe 959 uscan_2.26.9.2.dsc
- d41dc4f73269e9340a5cbca6a8f8799a8fa2fbe7bd012543eb1a3bfe5281580df135b4de38ccb7e29ba5cbfaa5d6faae003e6539b48489a40cfc4601fd1dae36 59572 uscan_2.26.9.2.tar.xz
+ 9d0d099098298fd13edd197587770d2dda30d7e653811addef5b7dce46ac376d09b350c9a1675cad8c4429feb757c10fbaa8ec154bc24ed2dcd660e4432381f8 959 uscan_2.26.9.3.dsc
+ b4b2cd232dc669e8e38e2c62fa8f0a0cef8621e9961c82d4f94797fbd20a42401eb09c3afa9db8fd4c57bb5512b2d45b626b5a92e6de9a43e8c35a00a44f2290 65056 uscan_2.26.9.3.tar.xz
 
