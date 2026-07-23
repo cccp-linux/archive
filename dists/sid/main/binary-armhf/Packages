@@ -1433,23 +1433,3 @@ SHA512: 30577c9d227ee9792caa053243a3e4861337c9e96b4859e19933c13c1eb6e3e913d4ca50
 Description: xorg-meta
  X11 meta-package
 
-Package: xwayland-satellite
-Architecture: armhf
-Version: 0.8.1-2
-Priority: optional
-Section: x11
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 4757
-Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.3), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), xwayland (>= 23.1)
-Filename: pool/main/xwayland-satellite/sid/xwayland-satellite_0.8.1-2_armhf.deb
-Size: 1299092
-MD5sum: 9ce79ae52537fe36a1c85ca5ad3645e7
-SHA1: 01955eb04882c1219a13ebbf6075279706a59ae7
-SHA256: 9a8ac0084d938ef7b7f3fb4c4f6abaa33224654cfc04e704d0b1c16d3605a0e5
-SHA512: bb4a83d35614ed515d34f5293ab10fe407ee66a4f7a3c2366cc004e86116cb5fcc0071a514749d1d91d5651735b9787ecb676bba64e7b7017e973d6478bfa00b
-Description: Xwayland outside your Wayland
- xwayland-satellite grants rootless Xwayland integration to any Wayland
- compositor implementing xdg_wm_base and viewporter. This is
- particularly useful for compositors that (understandably) do not want
- to go through implementing support for rootless Xwayland themselves.
-
