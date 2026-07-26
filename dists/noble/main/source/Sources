@@ -673,3 +673,38 @@ Checksums-Sha512:
  56fbfab7585f79acfd134b96f34f0d41c12d0a02bd05310d4e9ddbe0c0c5acee0bac2a3c38894995b97217e6913b1256b11fa2949f453d5a8d01f2fd6617145e 219789 xwayland-satellite_0.8.2.orig.tar.gz
  de0804c854f481a764d25ae8f7b1645adab5065b6b1be2165adc7e6fc44a08cda7c573b5e3735217efec5e89a80d9a19bddd5f1d2b70e3fa9aadec8d3eaa0020 3148 xwayland-satellite_0.8.2-1.debian.tar.xz
 
+Package: yazi
+Format: 3.0 (quilt)
+Binary: yazi
+Architecture: any
+Version: 26.5.6-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.95) | cargo-1.95:native, rustc:native (>= 1.95) | rustc-1.95:native, dh-exec
+Homepage: https://yazi-rs.github.io/
+Vcs-Browser: https://github.com/sxyazi/yazi
+Vcs-Git: https://github.com/sxyazi/yazi.git
+Directory: pool/main/yazi
+Package-List:
+ yazi deb utils optional arch=any
+Files:
+ 0c93e5e9f241c5cbbb9300933325829d 1535 yazi_26.5.6-1.dsc
+ 7204506895bbe0708cdd109ed09f1f40 62266120 yazi_26.5.6.orig-vendor.tar.xz
+ f4cc3b03cd3a7bba8868f2d466fd885d 1065667 yazi_26.5.6.orig.tar.gz
+ 6b4d08f8f4475504cbd29c499101c98e 14564 yazi_26.5.6-1.debian.tar.xz
+Checksums-Sha1:
+ ea0a1eef38836f83e91ebaed681277c5930169ea 1535 yazi_26.5.6-1.dsc
+ ddc258c4c4ec478250d1e179d6c5cfac1d5789d8 62266120 yazi_26.5.6.orig-vendor.tar.xz
+ 58d9c3ec00d5342ab9cda3d077cec9f90924c958 1065667 yazi_26.5.6.orig.tar.gz
+ 7e2127c6f3f853d7937fbfccb610e4fdb94c3660 14564 yazi_26.5.6-1.debian.tar.xz
+Checksums-Sha256:
+ b3c4922b56f7c9e53a13c57d4a6186a483e27f66d940846db6e5ad4ccc3028e7 1535 yazi_26.5.6-1.dsc
+ 60d9f8df3184d92fc37b9c192cb489bb15444db928017d10593eb0d7bc92d814 62266120 yazi_26.5.6.orig-vendor.tar.xz
+ 6c8ea7c26e37c4bde8908f7409112239e6100d02182da111f664edd8f1fc0f6d 1065667 yazi_26.5.6.orig.tar.gz
+ 5cd9c9ba53965f99665aeebbe9f2161e41708b66ded315cef56d77ac458b414b 14564 yazi_26.5.6-1.debian.tar.xz
+Checksums-Sha512:
+ 3cbe47804565a647272bb319508b0311d9c6bc3e45f3970ae374ddc20b8299f5c8d98f44c759b510151cbeb576483c69985b3c80cb1a8c9131184f5c18687eea 1535 yazi_26.5.6-1.dsc
+ a4db4ce6b778fd918d2b84cf5f91e95d74aca4c93d70164d651300df4ea4f13032e8e44616ad8ec58104af1fcfb4203a3e4bb160038b1b5d200d48dcad39c63b 62266120 yazi_26.5.6.orig-vendor.tar.xz
+ 804e80bf4eb5cf4b31eb814fd89c05092ad295b0380ad05474878f2131a745ca6dcc8badada8a33436e8a59494524fe74bcfa4b8778ede2fa6840d8cb9d4564a 1065667 yazi_26.5.6.orig.tar.gz
+ 18764fe5ba7edb9655b1faeef76fdc68ed459d7671a0dca1f2901e7af04290b9f511c53eaaa3cd474086d3c8951b66a8182dc15e1b7820f29a471e23d15e3bdb 14564 yazi_26.5.6-1.debian.tar.xz
+
