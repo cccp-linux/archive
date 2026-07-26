@@ -555,3 +555,24 @@ Description: Xwayland outside your Wayland
  particularly useful for compositors that (understandably) do not want
  to go through implementing support for rootless Xwayland themselves.
 
+Package: yazi
+Architecture: arm64
+Version: 26.5.6-2
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 22509
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
+Recommends: 7zip, fd-find, ffmpeg, fzf, imagemagick (>= 7.1.1), jq, poppler-utils, resvg, ripgrep, xclip | wl-clipboard | xsel, zoxide
+Filename: pool/main/yazi/questing/yazi_26.5.6-2_arm64.deb
+Size: 7860874
+MD5sum: 7dbbd0cd63acb022123ad33d7464eefd
+SHA1: 30eb3990e3c67bc55134aca2dd065ded98b21080
+SHA256: 72e665e0105424bda9766fa222db7bb36d35f4a7f49d2deeea3e3b6c185f3a70
+SHA512: d10095bbc2e1fdda138506c3fce5d31a34afe7398b6c53b01baae5234121c1df679ef4ff75b03ba60e73f6294f6fde28f6c248482801ef9ec7964b3c6678e167
+Homepage: https://yazi-rs.github.io/
+Description: Blazing fast terminal file manager
+ Yazi (means "duck") is a terminal file manager written in Rust, based on
+ non-blocking async I/O. It aims to provide an efficient, user-friendly, and
+ customizable file management experience.
+

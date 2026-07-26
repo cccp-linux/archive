@@ -1455,19 +1455,19 @@ Description: Xwayland outside your Wayland
 
 Package: yazi
 Architecture: arm64
-Version: 26.5.6-1
+Version: 26.5.6-2
 Priority: optional
 Section: utils
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 22595
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
 Recommends: 7zip, fd-find, ffmpeg, fzf, imagemagick (>= 7.1.1), jq, poppler-utils, resvg, ripgrep, xclip | wl-clipboard | xsel, zoxide
-Filename: pool/main/yazi/sid/yazi_26.5.6-1_arm64.deb
-Size: 6915540
-MD5sum: 58e927c16e76bbee4d82f4174b61d0f8
-SHA1: d46cdd62cd76422ef9f55b179d9de30cd2b0f938
-SHA256: c0d8b4bd24ad02e8c01cb729b0ab85db83e4d2c40e37aa65b95ac8a4e8e713c5
-SHA512: bc99ff655bca44da0e1a7db77ad398c8293d5793c4f7d9881c2ace55d8b6ffd4529d094939b32c120b30010d77b3fa8414ab29a8d0727f16b819669acf56221f
+Filename: pool/main/yazi/sid/yazi_26.5.6-2_arm64.deb
+Size: 6916384
+MD5sum: 7aefbde6047c0921c8ed83a74b5e6b23
+SHA1: cf8640b013fe139e1d05e7068dfe778aaa05f9f5
+SHA256: 38bea7f627fa7dce09cf6255c36a1ec60e69029f9c5f42c43dfdaf5bb34e4703
+SHA512: 71ef754458b5d55b6785c652347403781c94d5baea62599b3c20c1bcb2a18ee1154fc034783d202ead716fca3c6f36b212a86101329b125ccee29b7d4bb27e77
 Homepage: https://yazi-rs.github.io/
 Description: Blazing fast terminal file manager
  Yazi (means "duck") is a terminal file manager written in Rust, based on

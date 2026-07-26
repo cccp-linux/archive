@@ -425,3 +425,23 @@ SHA512: 45fe11ba99989b14a1be6d6d4eb6f02623d985eda13da99aaba4848c862612408aef2f52
 Description: xorg-meta
  X11 meta-package
 
+Package: yazi
+Architecture: amd64
+Version: 26.5.6-2
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 26357
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
+Recommends: 7zip, fd-find, ffmpeg, fzf, imagemagick (>= 7.1.1), jq, poppler-utils, resvg, ripgrep, xclip | wl-clipboard | xsel, zoxide
+Filename: pool/main/yazi/noble/yazi_26.5.6-2_amd64.deb
+Size: 8325244
+MD5sum: 039284571fa4184ef8784fdc372304d3
+SHA1: 33bc9e42a618406b825e7d791dd3c2ed91026eca
+SHA256: 2f4f9e6dd3df945f6bf2935642c87069dacda1f160b8beebd42636c09ce35397
+SHA512: b13de503cd6627a9a0ae052cac079df798ec2a136a80deedcb2b99dab64f7138793d7377e3384a8ed1d7bf95caf9ed4adf5a645335c747dacea48d58a63defeb
+Homepage: https://yazi-rs.github.io/
+Description: Blazing fast terminal file manager
+ Yazi (means "duck") is a terminal file manager written in Rust, based on
+ non-blocking async I/O. It aims to provide an efficient, user-friendly, and
+ customizable file management experience.
+
