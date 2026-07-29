@@ -33,7 +33,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: any all
-Version: 0.48
+Version: 0.49
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -44,17 +44,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=any
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- acf1e4ec0411495e815fd9633782d3fa 1009 cccp-meta_0.48.dsc
- 136269a3eced94da484eaf75f676fe28 24644 cccp-meta_0.48.tar.xz
+ 630738e951968f62a076fc802da2af33 1009 cccp-meta_0.49.dsc
+ c053eca69d488de266b2dec5d6ac9ce1 24652 cccp-meta_0.49.tar.xz
 Checksums-Sha1:
- a03e62ed2a1400695d92b14fb376a81342e5cef8 1009 cccp-meta_0.48.dsc
- b380fe07e085f9ff7397b6592ce202c196e24879 24644 cccp-meta_0.48.tar.xz
+ d4ad370b396eea692387d1bd8220a8ac8098b8f4 1009 cccp-meta_0.49.dsc
+ 185f3f0105dc79ff132ba4af8888dbab8fa02199 24652 cccp-meta_0.49.tar.xz
 Checksums-Sha256:
- 7780c95543dd6e89b834b727a1b6d57ee7d37a22ccd151b0f004182d6ef25ee1 1009 cccp-meta_0.48.dsc
- be54443c50d3ed73dbf0916ad30886f6eb6cda6e583ac4b643effbb821916b34 24644 cccp-meta_0.48.tar.xz
+ a7976f5339167b6f25cccd99fc75911f8208e9068e18a73ef58a4a537078dd8a 1009 cccp-meta_0.49.dsc
+ 2bcce43d634f37737dd5cb1f56405ab2481a58dd2642e2fb8cb92c07f64004f5 24652 cccp-meta_0.49.tar.xz
 Checksums-Sha512:
- a0ef2521aabaa1730c7bec878c1cb160966b68f2e66e263b19e375441740073aad9a257589b233153a349b5a50269f3d8db52ab8ec0a0accb47706d949dbbbcc 1009 cccp-meta_0.48.dsc
- 6d748bd60be0e0ac614f0665ee172e7b6bf2fdbae35e12d572c5f9d4bf89599f3be87bee48c779dfd06b163b9ff4daa8158b1f59934bf090f43b25e278f57538 24644 cccp-meta_0.48.tar.xz
+ 99beac3f8a881124fd604bd9822fd193d97c6c980562b7745e55a8575b3e1a928de096680c9a7fd1a5df3523ff8460d8b6cff350c8069b239d2ab187e1a7f02d 1009 cccp-meta_0.49.dsc
+ d5a2c50df2305ac667b3140b6d2b876d4ed76b6be50b056c189b6b3f108adc13ada6aecab5b04af9eb2a2d7641579c588332d818ef038d91e96f5cbc74d6e206 24652 cccp-meta_0.49.tar.xz
 
 Package: crossover-meta
 Format: 3.0 (native)
