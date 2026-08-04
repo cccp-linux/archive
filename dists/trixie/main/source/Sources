@@ -153,7 +153,7 @@ Package: fonts-symbols-nerd
 Format: 3.0 (quilt)
 Binary: fonts-symbols-nerd
 Architecture: all
-Version: 3.4.0-1
+Version: 3.5.0-1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13)
@@ -164,21 +164,21 @@ Directory: pool/main/fonts-symbols-nerd
 Package-List:
  fonts-symbols-nerd deb fonts optional arch=all
 Files:
- ecf2333c844c3204b5fc828d286e0297 1347 fonts-symbols-nerd_3.4.0-1.dsc
- a918a452b854c1eaff1b22bd599aa5a3 2260092 fonts-symbols-nerd_3.4.0.orig.tar.xz
- dc6f97630dff246f20ff30e53c0bd37a 1816 fonts-symbols-nerd_3.4.0-1.debian.tar.xz
+ db597b0d2168903d14c171887cc8ef96 1347 fonts-symbols-nerd_3.5.0-1.dsc
+ 08ed4836c5100005342ae48fc629ff66 2308652 fonts-symbols-nerd_3.5.0.orig.tar.xz
+ f631e3545bc21dc792342cb7f7eade55 1800 fonts-symbols-nerd_3.5.0-1.debian.tar.xz
 Checksums-Sha1:
- 422bf9146c70113b10d1ead844a37e17fa89f6a9 1347 fonts-symbols-nerd_3.4.0-1.dsc
- f89860dfef9348e0ee32c1663feccb896a4c1584 2260092 fonts-symbols-nerd_3.4.0.orig.tar.xz
- fba5fec210c1ca49b4cfe7eb2f126e505434f569 1816 fonts-symbols-nerd_3.4.0-1.debian.tar.xz
+ ec463c7e50e4889eaecae9f2e6e85047a9193a1b 1347 fonts-symbols-nerd_3.5.0-1.dsc
+ 26806fc534140396a8b8f2225c04abe2e5edd92e 2308652 fonts-symbols-nerd_3.5.0.orig.tar.xz
+ 060e41efbd5435f07f256ceb53f8aebdcaf32b5c 1800 fonts-symbols-nerd_3.5.0-1.debian.tar.xz
 Checksums-Sha256:
- da3a89673097fe3d77fd03ae6c17a77f1fff63dba6e5eff5433a7e50938df75e 1347 fonts-symbols-nerd_3.4.0-1.dsc
- 7f8c090da3b0eaa7108646bf34cbbb6ed13d5358a72460522108b06c7ecd716a 2260092 fonts-symbols-nerd_3.4.0.orig.tar.xz
- ed8b6e9ea980f4fdea51eed966aff47c1168cf19d08894b31c5957c524886d0b 1816 fonts-symbols-nerd_3.4.0-1.debian.tar.xz
+ 86d021a494a9260564a6f026b3b84cc4833d1b20109fac7049994bcd69f64778 1347 fonts-symbols-nerd_3.5.0-1.dsc
+ b7ef2283462b435f1fe91d729dc412d5dbe34269dd2c7f4e1d803e4105c8d883 2308652 fonts-symbols-nerd_3.5.0.orig.tar.xz
+ 2d4aecff78981fc44c474774e30e71f506b154c4b0f72187f626bbe3886ce73f 1800 fonts-symbols-nerd_3.5.0-1.debian.tar.xz
 Checksums-Sha512:
- db8525a9ef6a6acfa909a206444b0a066c387f898227842e7d2d280947cf1638e28f434484929c72e78a9d37476106f66068d0931fd305c8761af7dd431228f5 1347 fonts-symbols-nerd_3.4.0-1.dsc
- 2d1744affba49a14455a671c9dd19f5b3eb2f97009788bef1d832241aef4ab9149f51e7aa1cfed1436fb3b6db6f4de36bef0883959e7797f74097ceab4689f89 2260092 fonts-symbols-nerd_3.4.0.orig.tar.xz
- c92d7e9d5ac8012e3b6c1a79a3b6a605ebc4421771c9c9a74a6fdb8017f2a30e0be83fedbef5c2ceec6f2ce152d06da2bdbe40585345764e1d69fd2270bc30f5 1816 fonts-symbols-nerd_3.4.0-1.debian.tar.xz
+ c073b3a0abf32b1dd13c80155c74e8110bf5397a6b4e704981d4a142ed3a93c8b67f5f75de8f74ec379d39d19703bfa86943edd6ba31377c41e39a1e780da2a0 1347 fonts-symbols-nerd_3.5.0-1.dsc
+ 303a23856f077f2720dfe922372594e38aec727891968d11bc1699d526b8af2a19dc9628092bcfb3ee59b3fb03c4671bf3a34f771e28f6fb6a41733c9f81a9c6 2308652 fonts-symbols-nerd_3.5.0.orig.tar.xz
+ a64b9117ce012461d6b46738e92d076eef882a7bd8df6e80dd37a2cb3c289a52ed410c6614a3f271b09a0dc41b53c04d74cbee911f76ddf546ddfd597c5acb8d 1800 fonts-symbols-nerd_3.5.0-1.debian.tar.xz
 
 Package: foot
 Format: 3.0 (quilt)
