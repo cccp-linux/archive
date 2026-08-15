@@ -2,7 +2,7 @@
 
 d=$(dirname "$0")
 p=devdocs
-v=1.4
+v=1.5
 
 wget -cO ${d}/${p}_${v}.tar.xz \
     https://github.com/dimitry-ishenko-cpp/${p}/releases/download/debian/${v}/${p}_${v}.tar.xz
