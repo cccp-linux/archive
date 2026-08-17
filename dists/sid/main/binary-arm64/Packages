@@ -1,3 +1,66 @@
+Package: android-file-transfer-tools
+Architecture: arm64
+Version: 4.5-2.1
+Priority: optional
+Section: misc
+Source: android-file-transfer
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Installed-Size: 1115
+Depends: libc6 (>= 2.38), libfuse3-4 (>= 3.17.2), libgcc-s1 (>= 3.0), libmagic1t64 (>= 5.12), libreadline8t64 (>= 6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0)
+Filename: pool/main/android-file-transfer/sid/android-file-transfer-tools_4.5-2.1_arm64.deb
+Size: 235064
+MD5sum: 9278a7775bee03e10531b5d8e598084f
+SHA1: 994bab2f6f5c80a4b33df164d3f24e78155ff7cb
+SHA256: 9ff1bad4aba80329b88a42432829d0777773580e0f547fe56c75e881b86ad45b
+SHA512: 23b8c8fdbc22f5fde3f6565e279d1c99750b2552f10d546c9db3bed0a69ccff6fc19de48f62ee5f12ab3fb261cdfc9b728976bae03a86c780f30e620898ab6a8
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Description: reliable MTP client with minimalistic UI
+ Android-File-Transfer is a reliable MTP client with minimalistic UI.
+ Its features are:
+ 1. Simple Qt UI with progress dialogs.
+ 2. FUSE wrapper, supporting partial read/writes, allowing instant access
+      to your files.
+ 3. No file size limits.
+ 4. Automatically renames album cover to make it visible from media player.
+ 5. USB ‘Zerocopy’ support found in recent Linux kernel (no user/kernel
+      data copying).
+ 6. No extra dependencies (e.g. libptp/libmtp).
+ 7. Available as static/shared library.
+ 8. Command line tool (aft-mtp-cli).
+ .
+ This package provides command line tools (aft-mtp-cli and aft-mtp-mount).
+
+Package: android-file-transfer
+Architecture: arm64
+Version: 4.5-2.1
+Priority: optional
+Section: misc
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Installed-Size: 959
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libmagic1t64 (>= 5.12), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0), android-file-transfer-tools (= 4.5-2.1)
+Filename: pool/main/android-file-transfer/sid/android-file-transfer_4.5-2.1_arm64.deb
+Size: 263120
+MD5sum: 78f13231415c0577422d5122c241234b
+SHA1: 095f66a0247202bcc62a1f643257ff34468ce2cf
+SHA256: 44d16295c6852f9f37d3885c80e38226c07f09f34c525f3c0232c17b23ac8f31
+SHA512: dd0e145d70864d1970aa205aaeddaa1a6502bf2863651e2f0746d5fea80d491fa1e36f2a3a6fd7fbd27b0b5af6545bfe6e39746097c1fc97de5b21acecae50de
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Description: reliable MTP client with minimalistic UI
+ Android-File-Transfer is a reliable MTP client with minimalistic UI.
+ Its features are:
+ 1. Simple Qt UI with progress dialogs.
+ 2. FUSE wrapper, supporting partial read/writes, allowing instant access
+      to your files.
+ 3. No file size limits.
+ 4. Automatically renames album cover to make it visible from media player.
+ 5. USB ‘Zerocopy’ support found in recent Linux kernel (no user/kernel
+      data copying).
+ 6. No extra dependencies (e.g. libptp/libmtp).
+ 7. Available as static/shared library.
+ 8. Command line tool (aft-mtp-cli).
+ .
+ This package provides the Qt UI.
+
 Package: neovim-blink-cmp
 Architecture: all
 Version: 1.10.2-3

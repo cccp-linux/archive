@@ -1,3 +1,35 @@
+Package: android-file-transfer
+Format: 3.0 (quilt)
+Binary: android-file-transfer-tools, android-file-transfer
+Architecture: any
+Version: 4.5-2.1
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13), cmake, qt6-base-dev, libfuse3-dev, libmagic-dev, libreadline-dev, libssl-dev, libtag-dev, pkgconf, qt6-tools-dev
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Vcs-Browser: https://salsa.debian.org/debian/android-file-transfer
+Vcs-Git: https://salsa.debian.org/debian/android-file-transfer.git
+Directory: pool/main/android-file-transfer
+Package-List:
+ android-file-transfer deb misc optional arch=any
+ android-file-transfer-tools deb misc optional arch=any
+Files:
+ b089c9b827229bd7dba330d19500f21d 1574 android-file-transfer_4.5-2.1.dsc
+ 54b81adf2eabf4881e733d2e0a9fb202 1074267 android-file-transfer_4.5.orig.tar.gz
+ 18eed00136af3472094a983828ca2c5a 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+Checksums-Sha1:
+ 83ffe9ab30db198f5c83f48ae4eb0a8be87e376b 1574 android-file-transfer_4.5-2.1.dsc
+ 340671b13efdeb0420293563be95096f48e66d37 1074267 android-file-transfer_4.5.orig.tar.gz
+ 007590d6ba2893c8d22f769c00148ae0f12744df 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+Checksums-Sha256:
+ 3c5647f7a9b5d1f857e3d961dc242a10338a5a23b6ccac0331ef67b8742111c8 1574 android-file-transfer_4.5-2.1.dsc
+ 0f366a8d659926d3859a8628d4f7592692389b060f67da9a936d19b252b42d96 1074267 android-file-transfer_4.5.orig.tar.gz
+ a9af4318f2c550951787fdd683d421c05c8b4715a1e98b8e37be3836f6343af8 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+Checksums-Sha512:
+ cf98ba00881d7f9aa0e71e8ebfb5842f0bd2af4df328a129b870eaef732e9bbe28de78fa616e3f3d8fe69a175b0bacf88f564e99cf4a429c6619113a00c9822a 1574 android-file-transfer_4.5-2.1.dsc
+ 7aff608f83055a92fb35ccec768e531c60984d3fc8293c04443bb52a2eeef208c50f6baeccabd951ebc630711b07f043f6ed118bf4e308836c5c796281d68ffd 1074267 android-file-transfer_4.5.orig.tar.gz
+ 5f7d458fc809f9a12ffe5a13af0171a18c0c0813870dd14653e4ab3cc897913f68ea193883edb2b599395b1c0721cf392bff8cfe504b7511d34ef7aae7cbe821 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+
 Package: blink.cmp
 Format: 3.0 (quilt)
 Binary: neovim-blink-cmp
