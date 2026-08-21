@@ -121,52 +121,52 @@ Description: Standard set of CCCP Linux packages
 
 Package: fonts-bitstream-charter
 Architecture: all
-Version: 1.0.4+~3.5.0-1
+Version: 1.0.4+~3.5.1-1
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 107
-Filename: pool/main/font-bitstream-type1/trixie/fonts-bitstream-charter_1.0.4+~3.5.0-1_all.deb
-Size: 59744
-MD5sum: 667f82cfd58293728fe0bddd44b3d83c
-SHA1: a422c01f7acf306d1a4bc9def39d105097cbc82c
-SHA256: c1d7b30f82e9f1aeca2f21cfad72341a1387759a1843dfd9eef409c707d201df
-SHA512: b96a938685612d8dededbfd4325d282c556c1dc47a333bde56a040b5e7d8ebc0122e3ff24519a8c11fb8abad0e526f3f12aa62fc0e120d549482dbc38a8061db
+Filename: pool/main/font-bitstream-type1/trixie/fonts-bitstream-charter_1.0.4+~3.5.1-1_all.deb
+Size: 59780
+MD5sum: 0b76364340295f474394d449d97b4df7
+SHA1: 919689e7185e0f1192c24fb6ebe1639aa69a16fc
+SHA256: ba8988ff1ce1a55a263f6cb4d6a4ed72d1b9f16d8180207dc7762042ab3757d5
+SHA512: 15f0d24d357977cf1d1c39843cc6523fdb39c9a3418634836c1f013bff287f604f71a7fe9c36c65244429780d81a713d76040fb9d45210509b96838f2933afd9
 Description: Bitstream Charter font from xfonts-scalable
 
 Package: fonts-courier-10pitch
 Architecture: all
-Version: 1.0.4+~3.5.0-1
+Version: 1.0.4+~3.5.1-1
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 123
 Provides: fonts-courier
-Filename: pool/main/font-bitstream-type1/trixie/fonts-courier-10pitch_1.0.4+~3.5.0-1_all.deb
-Size: 62136
-MD5sum: b91fa0e5b481cd7b0cf58886457b9512
-SHA1: 9515998ae3846ccca19507304aa00f9ace8bea1e
-SHA256: 3ecad89fac9430d2cea18755422f3187562e89120b5c550b0847c31ce9d2f8d1
-SHA512: af41dc0e0e31f8c2a2251b46618dc9c3a74e83ce7946994c4da546174e4b9a820a9a50fe2ef4c543910366cc8a5afbc15c3981e0291786ac9707b50feaa8367f
+Filename: pool/main/font-bitstream-type1/trixie/fonts-courier-10pitch_1.0.4+~3.5.1-1_all.deb
+Size: 62176
+MD5sum: b787842d7193566b7aa2855033dfc367
+SHA1: b7cc08eef69a536c9d216e28c98cae9549981402
+SHA256: 3a1f00f0e62c1a0a40327bb150457dd677e0382c2ff2ed23bc5fab96cdeae5b2
+SHA512: acbaf0cfd2a2856d0926c64bea2113b288f324fbb243a85a579f6671f0c7b53baf5dd5e33c7d1116a1f5301b368c19de4564a213b5ca1e97f7f19291aa16946d
 Description: Courier 10 Pitch font from xfonts-scalable
 
 Package: fonts-courier-nerd
 Architecture: all
-Version: 1.0.4+~3.5.0-1
+Version: 1.0.4+~3.5.1-1
 Priority: optional
 Section: fonts
 Source: font-bitstream-type1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 8600
+Installed-Size: 8743
 Provides: fonts-courier
-Filename: pool/main/font-bitstream-type1/trixie/fonts-courier-nerd_1.0.4+~3.5.0-1_all.deb
-Size: 1370240
-MD5sum: f9c37be30b00fa891dcd28fe81deedb5
-SHA1: c5c46f52da857ff55d9af086758a5cfd235d380d
-SHA256: 9582dd8125c6d3db412bed8a3b8d02bedcdae56d80f69d71bd3724f39f86db26
-SHA512: 22f8afa7628854b305550fd2b8fe8665207ba9a4b98cebc94e51dde6c6cba30e21185bca189b0f6b71ce193098dc6ec889b4bff2ad5b730280a9f803f2b9d55a
+Filename: pool/main/font-bitstream-type1/trixie/fonts-courier-nerd_1.0.4+~3.5.1-1_all.deb
+Size: 1394456
+MD5sum: ec703763bd36c1369c9298947fc5938d
+SHA1: 3ceff75d048555a43f8815c11fea88d5c5d86b06
+SHA256: c976ffc3f3144383dec1adb0c1345eafbd60ca5a3263ab9cb7f5797692c44719
+SHA512: e965c6610005c486529c6c63dac82641abe6381123efc88080b6e11637b1f8ec40a6b45d6bbf555b982150d1847ac75125bbeea514cf365516441cc00e0ac862
 Description: Courier 10 Pitch font with Nerd Font glyphs
 
 Package: fonts-roboto-mono
