@@ -361,6 +361,32 @@ Checksums-Sha512:
  eb22474a4c985cfca788710f526912266473e078aed82f1540111d27a222ed22ca0f2098e912870c5a4942467671bbf676d4057a0e23a9de41562ecb2b9d5d25 969 libreoffice-meta_0.1.dsc
  7bb1a3d781420fc40ca707ac2be27b06451c9ee316bfe357e792602e0466cbdec664aa1a0a65ee136764ff6fb5e7b35de40bd6f94f2b72c2a459d9d883393d8a 1300 libreoffice-meta_0.1.tar.xz
 
+Package: llm-meta
+Format: 3.0 (native)
+Binary: llm-meta
+Architecture: any
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/llm-meta
+Vcs-Git: https://github.com/cccp-linux/llm-meta.git
+Directory: pool/main/llm-meta
+Package-List:
+ llm-meta deb metapackages optional arch=any
+Files:
+ 3a9b4a8d2b1c07b3cd8d253273d6f1d0 908 llm-meta_0.1.dsc
+ 97989a8392b2db887ea560c045b58dd1 15088 llm-meta_0.1.tar.xz
+Checksums-Sha1:
+ ddadaf79232a069a730b99e1a8858f42a1e32126 908 llm-meta_0.1.dsc
+ 1f7d817e14c4a56eb6dd8824e6b398c0dd2fce73 15088 llm-meta_0.1.tar.xz
+Checksums-Sha256:
+ 8b5564ecdf8c3da611e65108fb1bb6c0353c32dc825093b96989ea5f928c4972 908 llm-meta_0.1.dsc
+ e724db6ea111d5cc3ec96353a0497d2c5013e4a7b995fec06487bc9080c7d3ee 15088 llm-meta_0.1.tar.xz
+Checksums-Sha512:
+ 82c7ec0bb546c3992aea2837d2efe0fd8b5fb59a6781a26f81cb08af207fb84543e3c38a040e5b4d23eae28217bfe6c32620f07bf6a73b5988c65c8f89652a5e 908 llm-meta_0.1.dsc
+ 03aed6bf52d533f9ab24384455c0a780fc1e904fd819c6ec23a903d8ccde10a3e01d019f0ef0d3db14b720035858ff0b85b106d1e14452f105647be78102eb43 15088 llm-meta_0.1.tar.xz
+
 Package: neovim-meta
 Format: 3.0 (native)
 Binary: neovim-meta

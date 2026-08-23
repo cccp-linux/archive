@@ -316,6 +316,22 @@ SHA256: 195f3cdc04e3e926e1d4206c83065b0284fb04e8d266e25b10543259b98616b3
 SHA512: 27d70b706497ddeeed2d57a99fc1aa72133a454bf7f1aa977227750241625f58aff899265934215305d2a5b0ccf8332e14609620bce7392ad32bbb1df50198ee
 Description: LibreOffice meta-package
 
+Package: llm-meta
+Architecture: armhf
+Version: 0.1
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 17
+Depends: llm, python3-prompt-toolkit, python3-rich
+Filename: pool/main/llm-meta/questing/llm-meta_0.1_armhf.deb
+Size: 4240
+MD5sum: fbf5ad3a0679b33066c5ae9dfa7ecdf2
+SHA1: 60d1be2eb0e04e2c251b0b32f481a370bfe39225
+SHA256: d536a0b5c896331927ed8a219fd6bfa624b459adceb69730525eec1ca16ed8b1
+SHA512: 83f858709323c4caa593947418ce29765ee7ca309a6f16c8bf5fbeca2b77781a4242538ead679faffad1e32c494da0861602d6a07b89d23e5d0dd71a10042899
+Description: LLM meta-package
+
 Package: neovim-meta
 Architecture: all
 Version: 0.19
