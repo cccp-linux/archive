@@ -333,7 +333,7 @@ Package: ncp
 Format: 3.0 (native)
 Binary: ncp
 Architecture: any
-Version: 0.4.1
+Version: 0.4.2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), cmake, libasio-dev, pkgconf
@@ -343,17 +343,17 @@ Directory: pool/main/ncp
 Package-List:
  ncp deb utils optional arch=any
 Files:
- 5ce9f839a8be044ba300ea1d16081c9b 922 ncp_0.4.1.dsc
- 4f447eb941864d3f2d3f136965971dac 2999836 ncp_0.4.1.tar.xz
+ 1220be478944ab0cda5dd5c8481f5808 922 ncp_0.4.2.dsc
+ 363b27c55b8e712171cfb749aeb11b77 3001808 ncp_0.4.2.tar.xz
 Checksums-Sha1:
- 49b781a23a5df699a8ef5bddfb0ce5134dd76b93 922 ncp_0.4.1.dsc
- 76aacd821517de270b070e57170984ee700c2372 2999836 ncp_0.4.1.tar.xz
+ e7f0eeadc2118072370ce08d56eb79d5256bbf2f 922 ncp_0.4.2.dsc
+ 08e0f65d5a69ecb9e3afb2e929407ec1906e8ca4 3001808 ncp_0.4.2.tar.xz
 Checksums-Sha256:
- eed146590b3e28f6c07f7454fbd9cd3bab83ddce1103264daf6691d8a9cc9bcd 922 ncp_0.4.1.dsc
- 831126dbd10b3523997192d7aff3d59479a8b65f3ae5c5945ff24e108143bda6 2999836 ncp_0.4.1.tar.xz
+ 7d79dcc44dd38d99bf6e62cd7033cdf5bf5382e6000b1e80c74c77509e59701d 922 ncp_0.4.2.dsc
+ f3e4fc19b4f16335da98935c73ccfa8a54cea8346e15a9adb4a81599ac1c60de 3001808 ncp_0.4.2.tar.xz
 Checksums-Sha512:
- 30f3096a6d7f2d83d43af165506b09024f7a1e478f3cb0bd0948e95fc8ccdf753de024e708ac0ed82c7c43d7874ba522fb827cfa10823a3a9bcb9ee8caf139c1 922 ncp_0.4.1.dsc
- 28be8c4258f51e3fa873cbbab5e51b4c25a4ae1674c22ec57ad3f0b0fb7b1314572c02815db6d7c3791b3bb6ad1191544795f83607afd50b4f5c392aad2fb78c 2999836 ncp_0.4.1.tar.xz
+ 4aeaa86e75a7958ca2dfe868e7f0ae58e1e39288a3e46e30e925394ed75bf1fe9a5c3e1e0251dc416801635828d61d0d3e473d426df20a4d174508f3e55c3480 922 ncp_0.4.2.dsc
+ 0752de497e3526af76ac7b22b68ca8c345a4f289092043672de00abb98a8cd3264a220cddc139bb4a3c15bc2acf33aa2f25ace486ebab02053df81ef0543bf57 3001808 ncp_0.4.2.tar.xz
 
 Package: neovim-meta
 Format: 3.0 (native)
