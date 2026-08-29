@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: ncp
 Binary: ncp
 Architecture: any
-Version: 0.4.1
+Version: 0.4.2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Vcs-Browser: https://github.com/dimitry-ishenko-cpp/ncp
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13), cmake, libasio-dev, pkgconf
 Package-List:
  ncp deb utils optional arch=any
 Checksums-Sha1:
- 76aacd821517de270b070e57170984ee700c2372 2999836 ncp_0.4.1.tar.xz
+ 08e0f65d5a69ecb9e3afb2e929407ec1906e8ca4 3001808 ncp_0.4.2.tar.xz
 Checksums-Sha256:
- 831126dbd10b3523997192d7aff3d59479a8b65f3ae5c5945ff24e108143bda6 2999836 ncp_0.4.1.tar.xz
+ f3e4fc19b4f16335da98935c73ccfa8a54cea8346e15a9adb4a81599ac1c60de 3001808 ncp_0.4.2.tar.xz
 Files:
- 4f447eb941864d3f2d3f136965971dac 2999836 ncp_0.4.1.tar.xz
+ 363b27c55b8e712171cfb749aeb11b77 3001808 ncp_0.4.2.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCapM++QAKCRA6Vr9YT1rr
-J27OAQCElSxmTmsN3tbSKlaY9CY+/yc6MKuT/9T7Hck0Xx4hkQEAqjOJCLwiGGiQ
-OVQFEB+JwUq/llLCpa44m0yVJi3NIQY=
-=AS3F
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCapNFfAAKCRA6Vr9YT1rr
+J2DRAQD6uvWBwRw0Ibi4uNsrHBajgotqdicYGQdhOmIzjSJdsgD/Tetcx+J+qPbl
+3/lJf/erONlGi+3J0vOgdtSqEmpwGgs=
+=tlZn
 -----END PGP SIGNATURE-----
