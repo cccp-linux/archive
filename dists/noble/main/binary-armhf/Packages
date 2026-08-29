@@ -21,24 +21,6 @@ Description: Performant, batteries-included completion plugin for neovim
  snippets, etc), component based rendering and dynamic configuration.
 
 Package: cccp-boot-meta
-Architecture: all
-Version: 0.25
-Priority: optional
-Section: metapackages
-Source: cccp-meta
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 13
-Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
-Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode
-Filename: pool/main/cccp-meta/noble/cccp-boot-meta_0.25_all.deb
-Size: 2778
-MD5sum: 46559954f26ed1d8eebfecd4858d28d7
-SHA1: 4084689737a758d08004f377bb5d2dd8827ddcc4
-SHA256: 4ad459ca6b9c066d03fc6c0132089b52b934a63e8f46e5826c6ab8850aaffbf7
-SHA512: 85897571c168a2d4c03358cb392b7e805a98726deac8c6ee0f12cd528265c9e69b62c0aae254333fae88c1c45a166705b25e5f31f28f6bb5a7e469be5287eda8
-Description: Kernel and boot packages
-
-Package: cccp-boot-meta
 Architecture: armhf
 Version: 0.50
 Priority: optional
@@ -55,24 +37,6 @@ SHA1: 81a306170913866d437e025fbad3b58028599697
 SHA256: ffa99f5677aa912e8212ac063a2187697d8d194a48f746d9fd76a346869512ed
 SHA512: e951849c3972e6d10f24d7c84525feb487225eb94eb3c34902ab91ca1b8408e3eb6da834fc3b2ea7f06e179d9ebd1f36b1e91a8856ed65cd74260132154187ba
 Description: Kernel and boot packages
-
-Package: cccp-standard-meta
-Architecture: all
-Version: 0.25
-Priority: optional
-Section: metapackages
-Source: cccp-meta
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, sysstat, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, strace, systemd-homed, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/noble/cccp-standard-meta_0.25_all.deb
-Size: 5078
-MD5sum: 455e20172190fe6a84d3a4e549020af0
-SHA1: 47420d963ebb67214ab5517a7dad95b610e8cd38
-SHA256: 26ffa43707e45f0abe198ab2286ba5e959fcffa20c904d47f6f361d74e2bcf60
-SHA512: cedac8a4c08cb91547ca784510c3b71ba866854049852b470e214abb1a9aa5a2fbd9e2180b80f69608a8ca5590c11d80772241b38169e8a9a77a9317b34ab7a4
-Description: Standard set of CCCP Linux packages
 
 Package: cccp-standard-meta
 Architecture: all

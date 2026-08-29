@@ -246,64 +246,6 @@ Checksums-Sha512:
  cb4635c2afc18799c3c5b30715e575e0fa7e1621a1b6dab27bebdb9a530fd999a7d551986404ad17aaa8a8986e7250541a33324ef4acc5a6ff8058537545400b 1195886 foot_1.27.0.1.orig.tar.gz
  9f3647868dad203f7084066894b2051f4c45f33ee5fbae0227ed3d2aaf4737ab6a06df9c96cdb28019c24cb58295ec4b318c6527455b053a9d10754b3df25b7d 11840 foot_1.27.0.1-1.debian.tar.xz
 
-Package: freerdp3
-Format: 3.0 (quilt)
-Binary: freerdp-x11, freerdp3-x11, libfreerdp3-3, libfreerdp-client3-3, libfreerdp-server3-3, libwinpr3-3, libwinpr-tools3-3, libwinpr3-dev, freerdp3-dev, winpr-utils, winpr3-utils, libfreerdp-shadow3-3, libfreerdp-shadow-subsystem3-3, freerdp-shadow-x11, freerdp3-shadow-x11, freerdp-wayland, freerdp3-wayland, freerdp-sdl, freerdp3-sdl, libfreerdp-server-proxy3-3, freerdp-proxy-modules, freerdp-proxy, freerdp3-proxy-modules, freerdp3-proxy
-Architecture: any all
-Version: 3.22.0+dfsg-3.1
-Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Uploaders: Mike Gabriel <sunweaver@debian.org>, Bernhard Miklautz <bernhard.miklautz@shacknet.at>, Michael Tokarev <mjt@tls.msk.ru>
-Standards-Version: 4.7.2
-Build-Depends: debhelper-compat (= 13)
-Build-Depends-Arch: cmake, dpkg-dev (>= 1.22.5), libasound2-dev, libavcodec-dev, libavutil-dev, libswscale-dev, libcairo2-dev, libjson-c-dev, libcups2-dev, libfuse3-dev, libgsm1-dev, libicu-dev, libjpeg-dev, libkrb5-dev, libopus-dev, libpam0g-dev, libpcsclite-dev, libpng-dev, libpulse-dev, libsdl2-dev <pkg.freerdp3.sdl2>, libsdl2-image-dev <pkg.freerdp3.sdl2>, libsdl2-ttf-dev <pkg.freerdp3.sdl2>, libsdl3-dev <!pkg.freerdp3.sdl2>, libsdl3-image-dev <!pkg.freerdp3.sdl2>, libsdl3-ttf-dev <!pkg.freerdp3.sdl2>, libssl-dev, libv4l-dev [linux-any], libswresample-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [linux-any], liburiparser-dev, libwayland-dev [linux-any], libwebp-dev, libx11-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxinerama-dev, libxi-dev, libxkbcommon-dev, libxkbfile-dev, libxrandr-dev, libxrender-dev, libxtst-dev, libxv-dev, pkgconf, uuid-dev, xmlto, xsltproc
-Testsuite: autopkgtest
-Testsuite-Triggers: xauth, xrdp, xvfb
-Homepage: https://www.freerdp.com/
-Vcs-Browser: https://salsa.debian.org/debian-remote-team/freerdp3
-Vcs-Git: https://salsa.debian.org/debian-remote-team/freerdp3.git
-Directory: pool/main/freerdp3
-Package-List:
- freerdp-proxy deb x11 optional arch=any
- freerdp-proxy-modules deb x11 optional arch=any
- freerdp-sdl deb x11 optional arch=any
- freerdp-shadow-x11 deb x11 optional arch=any
- freerdp-wayland deb x11 optional arch=linux-any
- freerdp-x11 deb x11 optional arch=any
- freerdp3-dev deb devel optional arch=any
- freerdp3-proxy deb oldlibs optional arch=all
- freerdp3-proxy-modules deb oldlibs optional arch=all
- freerdp3-sdl deb oldlibs optional arch=all
- freerdp3-shadow-x11 deb oldlibs optional arch=all
- freerdp3-wayland deb oldlibs optional arch=all
- freerdp3-x11 deb oldlibs optional arch=all
- libfreerdp-client3-3 deb libs optional arch=any
- libfreerdp-server-proxy3-3 deb libs optional arch=any
- libfreerdp-server3-3 deb libs optional arch=any
- libfreerdp-shadow-subsystem3-3 deb libs optional arch=any
- libfreerdp-shadow3-3 deb libs optional arch=any
- libfreerdp3-3 deb libs optional arch=any
- libwinpr-tools3-3 deb libs optional arch=any
- libwinpr3-3 deb libs optional arch=any
- libwinpr3-dev deb libdevel optional arch=any
- winpr-utils deb utils optional arch=any
- winpr3-utils deb oldlibs optional arch=all
-Files:
- ed3b82d4aae06db9782bcc2823cc8ebe 3943 freerdp3_3.22.0+dfsg-3.1.dsc
- 5bd5f024f94a5db898924c18dd370e6c 5110956 freerdp3_3.22.0+dfsg.orig.tar.xz
- 9fd05b3298af505389dcebd158d83bd6 54120 freerdp3_3.22.0+dfsg-3.1.debian.tar.xz
-Checksums-Sha1:
- 0c46ea6a4fe6be9900957bfc28ba84c9fd7e8c49 3943 freerdp3_3.22.0+dfsg-3.1.dsc
- a0ba95e51e27b764f9fad428b19b773ffd8ef326 5110956 freerdp3_3.22.0+dfsg.orig.tar.xz
- b244f5e9647f74c5b5873abfd55f2edf4591bf83 54120 freerdp3_3.22.0+dfsg-3.1.debian.tar.xz
-Checksums-Sha256:
- b1d1ebc1c6215af30fd3454a108056420912e85de233e0253764009a8d38d6f8 3943 freerdp3_3.22.0+dfsg-3.1.dsc
- b816f5976c0f3e0e2581126dc377af618d6aa36b42fae8b9daac2706d5641940 5110956 freerdp3_3.22.0+dfsg.orig.tar.xz
- be92102f7a70b80b1560bd53de5b065c73ed70665cd5833a3db8009442b67909 54120 freerdp3_3.22.0+dfsg-3.1.debian.tar.xz
-Checksums-Sha512:
- a2b8c51fa103c1b3048d3676b697c0bf8a1e88d98814c6871763fd811a3d9847b08ecbbc13e7e423b5e9403c2af2b39cd17eb80abc489575b37d7abc0a4eca94 3943 freerdp3_3.22.0+dfsg-3.1.dsc
- ace4ff7f4a72d0eebf4e634351442a3d18e417a6b30f036c78f065ff9ecaf6347d1bc1766aea435a2e2d89c67373523c1420b0fce4f5955d7788cc5071c7dd2f 5110956 freerdp3_3.22.0+dfsg.orig.tar.xz
- 8ff70643ad8af4803e9ec6e35c3250f8e3d8854a7718cc167c83e0d1383408b321a81f6470fdb7341232853b9606a9d7b8c68f3ce9133857cae04f6d9f9ca2f1 54120 freerdp3_3.22.0+dfsg-3.1.debian.tar.xz
-
 Package: gtklock
 Format: 3.0 (quilt)
 Binary: gtklock
@@ -386,6 +328,32 @@ Checksums-Sha256:
 Checksums-Sha512:
  82c7ec0bb546c3992aea2837d2efe0fd8b5fb59a6781a26f81cb08af207fb84543e3c38a040e5b4d23eae28217bfe6c32620f07bf6a73b5988c65c8f89652a5e 908 llm-meta_0.1.dsc
  03aed6bf52d533f9ab24384455c0a780fc1e904fd819c6ec23a903d8ccde10a3e01d019f0ef0d3db14b720035858ff0b85b106d1e14452f105647be78102eb43 15088 llm-meta_0.1.tar.xz
+
+Package: ncp
+Format: 3.0 (native)
+Binary: ncp
+Architecture: any
+Version: 0.4
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cmake
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/ncp
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/ncp.git
+Directory: pool/main/ncp
+Package-List:
+ ncp deb utils optional arch=any
+Files:
+ 4685a77031d641a4e7173623a3684d6c 892 ncp_0.4.dsc
+ ad2974cc17d40b08a2cd1432a5add074 2999668 ncp_0.4.tar.xz
+Checksums-Sha1:
+ 8380c092cf627f425ef95ca870a17e5c390f2553 892 ncp_0.4.dsc
+ 872660b3722549148399436d47eb2c6dd3451df9 2999668 ncp_0.4.tar.xz
+Checksums-Sha256:
+ 3c3510c5c197901896f5d197e6b91eb5fc10de1dabe1b6b1778d91392131c942 892 ncp_0.4.dsc
+ ce1b1cacac1f73d30b5a841fb5a083e13da3fc3227b92cef134d6fb69c617666 2999668 ncp_0.4.tar.xz
+Checksums-Sha512:
+ 969f923898e2dad52f112f1218d4cd8fba23a230e8cd201bb88ad39873643c593453fe0323c772df30359cac004cd1e0859809ab56b1055d68e64498e5a90ef5 892 ncp_0.4.dsc
+ 72873863a168cabc5fbf0baa590f12d404a434795f08258c081209b4a76add5a97b1710862fcb211a48d1fbeb0dc6a707a81a35c23ffdf86a5d0d19832b83379 2999668 ncp_0.4.tar.xz
 
 Package: neovim-meta
 Format: 3.0 (native)
@@ -730,39 +698,4 @@ Checksums-Sha512:
  e3498a77ecfe5aa92eb1a57fb74b1d8ede478377b6e44358ca65a29d3620bf4c048833eead402456be8d6d8235262452b005521345ae6e31bf914552500b3a6d 8022800 xwayland-satellite_0.8.2.orig-vendor.tar.xz
  56fbfab7585f79acfd134b96f34f0d41c12d0a02bd05310d4e9ddbe0c0c5acee0bac2a3c38894995b97217e6913b1256b11fa2949f453d5a8d01f2fd6617145e 219789 xwayland-satellite_0.8.2.orig.tar.gz
  de0804c854f481a764d25ae8f7b1645adab5065b6b1be2165adc7e6fc44a08cda7c573b5e3735217efec5e89a80d9a19bddd5f1d2b70e3fa9aadec8d3eaa0020 3148 xwayland-satellite_0.8.2-1.debian.tar.xz
-
-Package: yazi
-Format: 3.0 (quilt)
-Binary: yazi
-Architecture: any
-Version: 26.5.6-2
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Standards-Version: 4.7.4
-Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.91) | cargo-1.91:native, rustc:native (>= 1.91) | rustc-1.91:native, dh-exec
-Homepage: https://yazi-rs.github.io/
-Vcs-Browser: https://github.com/sxyazi/yazi
-Vcs-Git: https://github.com/sxyazi/yazi.git
-Directory: pool/main/yazi
-Package-List:
- yazi deb utils optional arch=any
-Files:
- d3f5b0b0d5cfc862d6b458ba34aed52b 1535 yazi_26.5.6-2.dsc
- 7204506895bbe0708cdd109ed09f1f40 62266120 yazi_26.5.6.orig-vendor.tar.xz
- f4cc3b03cd3a7bba8868f2d466fd885d 1065667 yazi_26.5.6.orig.tar.gz
- 714c67cf5026dcb7c237cd37bb69129b 15204 yazi_26.5.6-2.debian.tar.xz
-Checksums-Sha1:
- 300713da650a1ebb03fc76f97790a95dd1c84d16 1535 yazi_26.5.6-2.dsc
- ddc258c4c4ec478250d1e179d6c5cfac1d5789d8 62266120 yazi_26.5.6.orig-vendor.tar.xz
- 58d9c3ec00d5342ab9cda3d077cec9f90924c958 1065667 yazi_26.5.6.orig.tar.gz
- 251e7f974a7f442ecaa71b7222ca2b30a482d1b4 15204 yazi_26.5.6-2.debian.tar.xz
-Checksums-Sha256:
- 4bd0e4a4bf2b6c7548da9a197b9197de701d245a0c576924b00162a168aae686 1535 yazi_26.5.6-2.dsc
- 60d9f8df3184d92fc37b9c192cb489bb15444db928017d10593eb0d7bc92d814 62266120 yazi_26.5.6.orig-vendor.tar.xz
- 6c8ea7c26e37c4bde8908f7409112239e6100d02182da111f664edd8f1fc0f6d 1065667 yazi_26.5.6.orig.tar.gz
- b8aa78b4116d493ce55eb56a362e9c409d39404fca027f97568f9ed49d9a123e 15204 yazi_26.5.6-2.debian.tar.xz
-Checksums-Sha512:
- 993f4f5265837437a1f0ed7c534c057f661d3163fe2d2e9831f1d6dc00bbc0fd29e3dbf7eecb6b3b152b0fbc6f0047f412bb57ad07607a56d5a71eeeebd75ba1 1535 yazi_26.5.6-2.dsc
- a4db4ce6b778fd918d2b84cf5f91e95d74aca4c93d70164d651300df4ea4f13032e8e44616ad8ec58104af1fcfb4203a3e4bb160038b1b5d200d48dcad39c63b 62266120 yazi_26.5.6.orig-vendor.tar.xz
- 804e80bf4eb5cf4b31eb814fd89c05092ad295b0380ad05474878f2131a745ca6dcc8badada8a33436e8a59494524fe74bcfa4b8778ede2fa6840d8cb9d4564a 1065667 yazi_26.5.6.orig.tar.gz
- 4843fb16daa81779684955f270134195884d194ec768ef92c4619804bded75a82b224247c9316e436a2fdda75424ca75182663024f1e4b8171338490019a16d0 15204 yazi_26.5.6-2.debian.tar.xz
 

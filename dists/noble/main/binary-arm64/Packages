@@ -21,24 +21,6 @@ Description: Performant, batteries-included completion plugin for neovim
  snippets, etc), component based rendering and dynamic configuration.
 
 Package: cccp-boot-meta
-Architecture: all
-Version: 0.25
-Priority: optional
-Section: metapackages
-Source: cccp-meta
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 13
-Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
-Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode
-Filename: pool/main/cccp-meta/noble/cccp-boot-meta_0.25_all.deb
-Size: 2778
-MD5sum: 46559954f26ed1d8eebfecd4858d28d7
-SHA1: 4084689737a758d08004f377bb5d2dd8827ddcc4
-SHA256: 4ad459ca6b9c066d03fc6c0132089b52b934a63e8f46e5826c6ab8850aaffbf7
-SHA512: 85897571c168a2d4c03358cb392b7e805a98726deac8c6ee0f12cd528265c9e69b62c0aae254333fae88c1c45a166705b25e5f31f28f6bb5a7e469be5287eda8
-Description: Kernel and boot packages
-
-Package: cccp-boot-meta
 Architecture: arm64
 Version: 0.50
 Priority: optional
@@ -55,24 +37,6 @@ SHA1: fbe24517bc3f3fed6aed6fa743567deb0766bb90
 SHA256: 3ba472e8a8f253765625464ced6f452fe02d4c9ddd124817671359c0d1a61710
 SHA512: c8832ef281504baf3a290b89d7e0ee537baec88ed15ebed55769d2b2ab636ee19c78e5adc5c18a43d9587299e2927dca322cfb62e58fbaa0e5b1db82931b33d6
 Description: Kernel and boot packages
-
-Package: cccp-standard-meta
-Architecture: all
-Version: 0.25
-Priority: optional
-Section: metapackages
-Source: cccp-meta
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 24
-Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, sysstat, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
-Recommends: acl, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, htop, iputils-tracepath, lshw, man-db, manpages, mc, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, numactl, openssh-client, openssh-server, psmisc, python3, rename, ripgrep, rsync, sdparm, socat, strace, systemd-homed, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/noble/cccp-standard-meta_0.25_all.deb
-Size: 5078
-MD5sum: 455e20172190fe6a84d3a4e549020af0
-SHA1: 47420d963ebb67214ab5517a7dad95b610e8cd38
-SHA256: 26ffa43707e45f0abe198ab2286ba5e959fcffa20c904d47f6f361d74e2bcf60
-SHA512: cedac8a4c08cb91547ca784510c3b71ba866854049852b470e214abb1a9aa5a2fbd9e2180b80f69608a8ca5590c11d80772241b38169e8a9a77a9317b34ab7a4
-Description: Standard set of CCCP Linux packages
 
 Package: cccp-standard-meta
 Architecture: all
@@ -423,24 +387,4 @@ SHA256: b10851a59b6f83d20fd4c61354e7c5d3cd2d42c33f3d7e4930ab02da2f0790d0
 SHA512: 45fe11ba99989b14a1be6d6d4eb6f02623d985eda13da99aaba4848c862612408aef2f52215933da3d3c2c69cfe5a97add6abca05eaf5414cc19c60e118ae9a8
 Description: xorg-meta
  X11 meta-package
-
-Package: yazi
-Architecture: arm64
-Version: 26.5.6-2
-Section: utils
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 22509
-Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
-Recommends: 7zip, fd-find, ffmpeg, fzf, imagemagick (>= 7.1.1), jq, poppler-utils, resvg, ripgrep, xclip | wl-clipboard | xsel, zoxide
-Filename: pool/main/yazi/noble/yazi_26.5.6-2_arm64.deb
-Size: 7868366
-MD5sum: 0e32dc53dd633b372fbdf80e1edbd436
-SHA1: 2d00acb175b08fd44ba4cf56034a89a54b7d9a6e
-SHA256: a1d31d49e01830c70367ddb6861fbabc7e35f25eba35cb9a0ce5e7b3f3a8f893
-SHA512: ae1095a83bf13cb8c5bc680ae0eb619941215b7e0815b81b4ac29adc034d3181e581555f2e2d5072a138f9d54f18178c526335cadbf0f9b1e2fc5e8f34f16ce8
-Homepage: https://yazi-rs.github.io/
-Description: Blazing fast terminal file manager
- Yazi (means "duck") is a terminal file manager written in Rust, based on
- non-blocking async I/O. It aims to provide an efficient, user-friendly, and
- customizable file management experience.
 
