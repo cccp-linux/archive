@@ -333,27 +333,27 @@ Package: ncp
 Format: 3.0 (native)
 Binary: ncp
 Architecture: any
-Version: 0.5
+Version: 0.5.1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
-Build-Depends: debhelper-compat (= 13), cmake, libasio-dev, pkgconf
+Build-Depends: debhelper-compat (= 13), cmake, libacl1-dev, libasio-dev, libcap-dev, pkgconf
 Vcs-Browser: https://github.com/dimitry-ishenko-cpp/ncp
 Vcs-Git: https://github.com/dimitry-ishenko-cpp/ncp.git
 Directory: pool/main/ncp
 Package-List:
  ncp deb utils optional arch=any
 Files:
- 3214d096adfc26b4fd3ccfa012d184bb 914 ncp_0.5.dsc
- 8823d8d92f1387e74efa1c8e84e1d5f4 3096800 ncp_0.5.tar.xz
+ 0ebfea7693fcb8f69a71529147003200 947 ncp_0.5.1.dsc
+ 532b3754c5fa1630b5ca2682ab8add7a 3098160 ncp_0.5.1.tar.xz
 Checksums-Sha1:
- 31d32638f2978ad828cc44502de965c1882068cd 914 ncp_0.5.dsc
- 1bd40df0dface61b66f2c67a91eb94bfda10e670 3096800 ncp_0.5.tar.xz
+ b80a7ad35cdbd7eedde843e7e57443f0019dba84 947 ncp_0.5.1.dsc
+ 8f4a7a7de67de14832f95149e695b4e62457804d 3098160 ncp_0.5.1.tar.xz
 Checksums-Sha256:
- 4b6ce7cae9e2b3585611e24feeae26569c9f904580329d8895438003bbb172de 914 ncp_0.5.dsc
- 2ddb7e3a4ebf7d38de3d754679774905850a4c3c86d2908bc692f710125c153f 3096800 ncp_0.5.tar.xz
+ c4c1a283bf5bc7179af7b9ce05413ed82fa4a7776010699ab93573858909b9e2 947 ncp_0.5.1.dsc
+ 852bb9af4a5572c48da7c4d45d999c82b1c14d3c2ea3e03c80ea01a12eda5a41 3098160 ncp_0.5.1.tar.xz
 Checksums-Sha512:
- 8b31e5e00c0b52e9f443db12ffcced598f43bafb6d98922f2ea7ad0d0171c133236e7666c0d2750e6d9b2ef27ea051961ced69301c9717dd4727e83d608f0168 914 ncp_0.5.dsc
- 6ec959c8c57261afd951d11514d7c169444d7cd15cb187ed32ef8c0329349a68eb7c764356bef64b94e8455c0f1f983c699b26c62de2057ab9136a4fd5de6dee 3096800 ncp_0.5.tar.xz
+ a015ab0976a5a1a04585d6d145330c1f9aeae6719d17c530ec64f4ae98edf7f4fd15e1c7cbdfc9ca1641991f9727b1198f93b0c4d7f1dad457ea6096441874e0 947 ncp_0.5.1.dsc
+ 20e7407318c8bb2ecb8392690a8f41958ebcbb7eed7710aff8a9ab5da3231b9fb35651124f7f214c2b57092474334d0ab6258eee88de949d392a311cfeefd5cf 3098160 ncp_0.5.1.tar.xz
 
 Package: neovim-meta
 Format: 3.0 (native)

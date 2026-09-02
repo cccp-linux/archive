@@ -385,6 +385,22 @@ SHA256: e3948947a9cf2e805e5663471038595ea591924f089508de8235c8dc36b3076d
 SHA512: bfba3ba0b72feaeeeed258e3aed55e0e98619fbee896852db49e63dd2bca2c664454dde7f14f32c1ae1201bcd68deefb951d2127bcf41a5e75d95aac77477dc3
 Description: LLM meta-package
 
+Package: ncp
+Architecture: amd64
+Version: 0.5.1
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 386
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.38), libcap2 (>= 1:2.10), libgcc-s1 (>= 13), libstdc++6 (>= 16.2.0-1)
+Filename: pool/main/ncp/sid/ncp_0.5.1_amd64.deb
+Size: 142824
+MD5sum: acd828f875239e17b667ed680984467c
+SHA1: 94660b92c4a589875d1ef6c10bbd8c123020b360
+SHA256: 352e6ff0a7a9669d0d819e478ce52b92515519e42c18a9ca7db70e3d741b3349
+SHA512: abfdbe8f720fdff04da77eda5d2c142c8d4618286834f415f33dbc8b8dde2028b6b501a152cd19a0c0611e69f8b21a2287b1a86bc1ba562198565d70089b7207
+Description: New and improved, now asbestos-free copy utility
+
 Package: neovim-meta
 Architecture: all
 Version: 0.19
