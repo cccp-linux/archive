@@ -368,22 +368,6 @@ SHA256: f8c4e3397f406bb2838ad5cd217adf2dfba62fbc1fa599929b1bbb3650875daf
 SHA512: c933c7416b4b657accc6795bcb7a9797ddebb799e347ef5b0bfd456d9e7774055d4e2ea07cf8fea78f4d364755a19e5fe4ccd88c4f9366f43b0d0459b21c11d4
 Description: LLM meta-package
 
-Package: ncp
-Architecture: armhf
-Version: 0.4.2
-Priority: optional
-Section: utils
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 208
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 14)
-Filename: pool/main/ncp/trixie/ncp_0.4.2_armhf.deb
-Size: 98656
-MD5sum: 942edc1adc3a7a7ab81b3906ecd16f23
-SHA1: 6c54f4d1d6a136b794d039afe2af52a0925b9f5f
-SHA256: 6569a339ca158043fde020ae081d3f83dd3488a9370a42bd7c02a74d216c42ef
-SHA512: c59b975eb2d6981fd1de7bdf37604bc5fb73fe9b6e9d1266dbf35ed37af9a4b89f639c7108fc0a9f53249421a5fd0412da9a95f11332e0939c926e0d90f43a2a
-Description: New and improved, now asbestos-free copy utility
-
 Package: neovim-meta
 Architecture: all
 Version: 0.19
