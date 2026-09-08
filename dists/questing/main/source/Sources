@@ -216,7 +216,7 @@ Package: foot
 Format: 3.0 (quilt)
 Binary: foot, foot-terminfo, foot-themes, foot-extra-terminfo
 Architecture: any all
-Version: 1.27.0.1-1
+Version: 1.28.0-1.1
 Maintainer: Birger Schacht <birger@debian.org>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), meson (>= 0.59), ninja-build, wayland-protocols (>= 1.41), libxkbcommon-dev, pkgconf, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libwayland-dev, libtllist-dev (>= 1.0.4), libfcft-dev (>= 3.3.1), libffi-dev, libharfbuzz-dev, libutf8proc-dev, systemd-dev, scdoc
@@ -230,21 +230,21 @@ Package-List:
  foot-terminfo deb oldlibs optional arch=all
  foot-themes deb x11 optional arch=all
 Files:
- 345e5f65bf36d9f8c3c2707b49141ada 1650 foot_1.27.0.1-1.dsc
- aa870e0498290dc92835d1629f63fcf5 1195886 foot_1.27.0.1.orig.tar.gz
- 1bb3f6b0b0f7b5a43a54e5bafa8a3810 11840 foot_1.27.0.1-1.debian.tar.xz
+ 174cddbd798663c86bea200e0131543e 1644 foot_1.28.0-1.1.dsc
+ cf718d6b2713777ee4ca323f807434dc 1201047 foot_1.28.0.orig.tar.gz
+ fbefd724224f86537252286b27f2c6b5 12760 foot_1.28.0-1.1.debian.tar.xz
 Checksums-Sha1:
- ec62479dde5409be5d0b5dbda95c18a9a5b310da 1650 foot_1.27.0.1-1.dsc
- 4ee8e45d7e2874da06e5cc86205285c8fc40aaeb 1195886 foot_1.27.0.1.orig.tar.gz
- 9ebf31bcfe11a8f0805caeda59ac1cc2e16cc64b 11840 foot_1.27.0.1-1.debian.tar.xz
+ fbc51785d1bfad929a0c8f976c3ebbbe4df94760 1644 foot_1.28.0-1.1.dsc
+ 68ff560b1f7e4828564db199f966b4b6a1130c79 1201047 foot_1.28.0.orig.tar.gz
+ 67ab5325e77504c331cc64506ed064a6cb4869e5 12760 foot_1.28.0-1.1.debian.tar.xz
 Checksums-Sha256:
- e2784c8bf8abd01c6e42741771cb96d0b8ecb9ee6d1fb9499f7c3245511ef964 1650 foot_1.27.0.1-1.dsc
- 4e6131cc859ec6a36569f1978cf3617cc3836a681d13d228ded1b4885dab7770 1195886 foot_1.27.0.1.orig.tar.gz
- 9c6747cefef8e17c5013eafa93b74bf0a5a3a9d742fbc9eae208a561349d9563 11840 foot_1.27.0.1-1.debian.tar.xz
+ 84eb5e21470e20897a0a1671f5e9707e67e887b8d6bbc70963864cef1d17b822 1644 foot_1.28.0-1.1.dsc
+ 4296be402b5684d049534598e69db92b918f92beac9dab76b585207045f0b037 1201047 foot_1.28.0.orig.tar.gz
+ f6bf0ddaa6ab232a19ffc82437176d1172c7134543b9ba6b14ec21a8e3b6e36a 12760 foot_1.28.0-1.1.debian.tar.xz
 Checksums-Sha512:
- d6349310240d5e6848d3f13961f20575b63beaaef9f47b62b2714c7ecded86feb20f873eac6c84934e5682ce31af5b0d9ef4c68ade3169e98183f6d21c7ad3fb 1650 foot_1.27.0.1-1.dsc
- cb4635c2afc18799c3c5b30715e575e0fa7e1621a1b6dab27bebdb9a530fd999a7d551986404ad17aaa8a8986e7250541a33324ef4acc5a6ff8058537545400b 1195886 foot_1.27.0.1.orig.tar.gz
- 9f3647868dad203f7084066894b2051f4c45f33ee5fbae0227ed3d2aaf4737ab6a06df9c96cdb28019c24cb58295ec4b318c6527455b053a9d10754b3df25b7d 11840 foot_1.27.0.1-1.debian.tar.xz
+ f50c9c4cadaa5257cc3e7494b99b698acc14f882fadf850c2ffe8f61e18300c643d4cc1a3edbe672fe0ef6ced41102630e49db72548554bd863b0b411a6b451d 1644 foot_1.28.0-1.1.dsc
+ 4286464e84b298a08b0ce1a7fc703670b4acec9af401cedc06b9e6c2e2aefde88829ad99aae4ee0cd4c7696b0ba46e1345f8a7090c46791e847daadf6da34867 1201047 foot_1.28.0.orig.tar.gz
+ d84a58cb5aff25ba840af3813a5c12a509c958a3f009a6dea2417a1a89cd1ffec17e879c929ab7b568d4e9fe03798de1e0f363c43aee04fd8a87a455d085c89c 12760 foot_1.28.0-1.1.debian.tar.xz
 
 Package: gtklock
 Format: 3.0 (quilt)
