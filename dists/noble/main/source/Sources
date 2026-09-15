@@ -333,7 +333,7 @@ Package: ncp
 Format: 3.0 (native)
 Binary: ncp
 Architecture: any
-Version: 0.6.1
+Version: 0.7
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), cmake, libacl1-dev, libasio-dev, libcap-dev, pkgconf, python3, python3-pytest
@@ -343,17 +343,17 @@ Directory: pool/main/ncp
 Package-List:
  ncp deb utils optional arch=any
 Files:
- f01873854ad118307d39947bced22d05 969 ncp_0.6.1.dsc
- 78695c2ca45458d9db4bb236a08ee612 284472 ncp_0.6.1.tar.xz
+ d1bf10391d0d7e4ca21297689dfdf4f1 964 ncp_0.7.dsc
+ aeb87850103b94a9b1f71e2197412478 2102876 ncp_0.7.tar.xz
 Checksums-Sha1:
- 9720a1a1a2f7f92e59ef836aa7d62704a8431a7f 969 ncp_0.6.1.dsc
- 4309938239722f11aa46dcf1f23f2da54a9b5818 284472 ncp_0.6.1.tar.xz
+ 5f27955ad0de3a0ac07d23bfa276e2654719d547 964 ncp_0.7.dsc
+ 22a0ce4bbce80aeba13b0b051668938009ed68d7 2102876 ncp_0.7.tar.xz
 Checksums-Sha256:
- a81b5d050af71f10e9dcf5f55d816c09038548a9dac5c14efbdeac19901ee08b 969 ncp_0.6.1.dsc
- e0cc9289b176156a75c827d9b4f90a2ca85cb0471c56d548aadefef1102a25b4 284472 ncp_0.6.1.tar.xz
+ d4b1d7340a7e789066c4b7d422832ef0e3939d76273a4d0ce5a7ccc24b814abc 964 ncp_0.7.dsc
+ 6476574aa3ec740229743d647322f0ca2bccf7bf45dc3b2e4644386841a47f12 2102876 ncp_0.7.tar.xz
 Checksums-Sha512:
- 728769f5955407899e8fb402c976f3082bf962c9d78bcfaaddc93a21cf8b59568665454c51fb400d65623d26b3867a13b8f409d8b5eb184f76ff52cb3ed20ffc 969 ncp_0.6.1.dsc
- d8fed2f819a8b0494e2d367ecd21f726ef135500b6a8ea12180f38cb836d59d72e889b2fa2aada8199574a3afcdfa09718cfd755f82fd8a0a94451d0597e5136 284472 ncp_0.6.1.tar.xz
+ a53432361e2f2ce6c6733cc7127bd91999fcef4a02aa033ed88dbe2d55d58c55f3107597a460525602c64e81a05d869800b75c1077bd1e2089ef98964d1f4756 964 ncp_0.7.dsc
+ a145ff120dfac9529211fac7b96c89a33c9a56417e7412755804aa42816b7e68b0413cfeeec61a4a352b19d92b95f4ab76e801c8af2b6e74dabf17b7c0013355 2102876 ncp_0.7.tar.xz
 
 Package: neovim-meta
 Format: 3.0 (native)

@@ -387,18 +387,18 @@ Description: LLM meta-package
 
 Package: ncp
 Architecture: amd64
-Version: 0.6.1
+Version: 0.7
 Priority: optional
 Section: utils
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 329
+Installed-Size: 321
 Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.3), libstdc++6 (>= 15)
-Filename: pool/main/ncp/resolute/ncp_0.6.1_amd64.deb
-Size: 133202
-MD5sum: b6cd706d60f58cd472ce895ee0aa8fd2
-SHA1: a4d488e3992f46866404a34f1fa94c85fe52d573
-SHA256: afa6f02fe6cccbfa1dcd3ed4ca0f2197242d1e2d5bc708007b0d5a44bce58cae
-SHA512: 73ba3c9f7c1fb96587132399af9cfdf635cebe6dc6abd192bb6b09764500749931a203491e257f276c9ceb76e85cf94929090084fa6217cbb87e94971853917c
+Filename: pool/main/ncp/resolute/ncp_0.7_amd64.deb
+Size: 129656
+MD5sum: 17d7492c101b22f08a2082f68a3e7284
+SHA1: b89e47340250de21fe292f188823a72eaf87d014
+SHA256: 047b4db58868de9229b27a82a470cb00732a729d45f4cf72214a7809cada54a6
+SHA512: c87a3977b97fc5e983ca19c706a62493fdd12e7c496b952dd244f1de6edf81b3af48b470d54af48dab0355d01ef3984896a1ec093a223c221ed556542edbdce7
 Description: New and improved, now asbestos-free copy utility
 
 Package: neovim-meta
