@@ -370,18 +370,18 @@ Description: LLM meta-package
 
 Package: ncp
 Architecture: armhf
-Version: 0.7
+Version: 0.8
 Priority: optional
 Section: utils
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 272
 Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 15)
-Filename: pool/main/ncp/questing/ncp_0.7_armhf.deb
-Size: 125260
-MD5sum: 8966bb1b6934047b8bb621cf44f4d67c
-SHA1: eb773ae5cca3b475d8a4774c615455048eeff17e
-SHA256: 0d5014451be5f997b95a0b6f725c38fe614f47a6d459a72954561a401bea4fe7
-SHA512: bfd21c00bced49d0791757c321fc4daee07a6f975621bfcd251b0c492891b8ad13d7392195aaf971656d049244e18220e4502cec07b0b1e090e869e738d9201c
+Filename: pool/main/ncp/questing/ncp_0.8_armhf.deb
+Size: 128334
+MD5sum: bc25686f325eac4d60f8d6b5ee736775
+SHA1: 79119a7ebd6a5e29a659f1460adf21d519bdef66
+SHA256: 73965814fba57b97cdecaee2a30451d7ee4fdf92ea9ac9f168d589758b928b76
+SHA512: b60ac2f5d2c216c1e1616cf15369aac54ca22b236ddb8d5c44b999614156516ef78e9ec75824e954a173c1ffb4c51226de0a257defd6a957f7d44a4797877995
 Description: New and improved, now asbestos-free copy utility
 
 Package: neovim-meta
