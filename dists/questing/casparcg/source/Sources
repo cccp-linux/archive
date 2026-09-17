@@ -13,21 +13,52 @@ Directory: pool/casparcg/server-2.5
 Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Files:
- 394c0f10f9541c0f730e65e63b5c956b 1785 server-2.5_2.5.1-1.dsc
+ 8a919880f697d194752be7eb28c32468 1785 server-2.5_2.5.1-1.dsc
  94c4f3ddb0ce35dce2a173434e5200d1 1026395 server-2.5_2.5.1.orig.tar.gz
  5ccedae937709d1c3f0b1465e7af89cd 88304 server-2.5_2.5.1-1.debian.tar.xz
 Checksums-Sha1:
- 1af26c27c5ac73b281950f57abe733ee6f793420 1785 server-2.5_2.5.1-1.dsc
+ 5d737565a0417673d9704c9fa6484180e5b97951 1785 server-2.5_2.5.1-1.dsc
  abb6878831d880c8d22d87bd3fb213012c268567 1026395 server-2.5_2.5.1.orig.tar.gz
  5dfb5108c087dfc41d8076afce8433bed0e2ae5f 88304 server-2.5_2.5.1-1.debian.tar.xz
 Checksums-Sha256:
- a39dd6c789c7a1ceb30d9aa9529d6db9fa602997ad266696c5f59e6e3ed9bd50 1785 server-2.5_2.5.1-1.dsc
+ 4243f980b5a0311404fbe45e83bcc86a013fdc733507b23dcbf140906c13db5c 1785 server-2.5_2.5.1-1.dsc
  543098e109e1f8f06f88c8d464e390e2c8bd5b3413b5775f3933d34faf0faeb6 1026395 server-2.5_2.5.1.orig.tar.gz
  17b8013328fe932b09264561cbffa2331727e4f827c1e289abf10b3a158fccb9 88304 server-2.5_2.5.1-1.debian.tar.xz
 Checksums-Sha512:
- 8e67f5cd4850b315a5a2253012bb6d720931bb97fdaaacac2b220e2a19ba46c0142e6dd1fd7184a3c152b22daa2d713842d7153d8b950cd7265e979067d75744 1785 server-2.5_2.5.1-1.dsc
+ 18d857c8e8e9f828211477b8cc35c9557a085db10801fb583e616b125ff06727a07d6d441a90c381a15053c8bd2ea98e5070578045bae2f923656927630e175f 1785 server-2.5_2.5.1-1.dsc
  145e3b4544a980befbee9cbfba4142971ef25a33b3a7f1d256176fafd19409e44c288e85620f6f7e87bff2b47c3c163c48fe331a6237afb8d212a468fb5e40f0 1026395 server-2.5_2.5.1.orig.tar.gz
  fd295e2cda6128dbe037d7be400d2c6e3a140d61ea9279c16e13495186aedd188107055b87d3be0cc6c8e9b05932a3db7671c4a528191f4f657ffa2f47deb5ed 88304 server-2.5_2.5.1-1.debian.tar.xz
+
+Package: server-2.5
+Format: 3.0 (quilt)
+Binary: casparcg-server-2.5
+Architecture: any
+Version: 2.5.1-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake, dh-exec, fontconfig, fonts-liberation, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libboost-coroutine-dev (>= 1.74.0), libboost-date-time-dev (>= 1.74.0), libboost-filesystem-dev (>= 1.74.0), libboost-locale-dev (>= 1.74.0), libboost-log-dev (>= 1.74.0), libboost-regex-dev (>= 1.74.0), libboost-thread-dev (>= 1.74.0), libcef142-dev, libegl-dev, libglew-dev, libicu-dev, libopenal-dev, libopengl-dev, libsfml-dev, libsimde-dev, libswresample-dev, libswscale-dev, libtbb-dev, pkgconf, zlib1g-dev
+Homepage: https://casparcg.com
+Vcs-Browser: https://github.com/CasparCG/server
+Vcs-Git: https://github.com/CasparCG/server.git
+Directory: pool/casparcg/server-2.5
+Package-List:
+ casparcg-server-2.5 deb video optional arch=any
+Files:
+ 009aeacc05a9e684b50af3255e0157de 1785 server-2.5_2.5.1-2.dsc
+ 94c4f3ddb0ce35dce2a173434e5200d1 1026395 server-2.5_2.5.1.orig.tar.gz
+ ad988a20b1651b358d38165a55fc1dfa 88888 server-2.5_2.5.1-2.debian.tar.xz
+Checksums-Sha1:
+ 0df2414fae5138fc772b917ab68cd5b8ed170bad 1785 server-2.5_2.5.1-2.dsc
+ abb6878831d880c8d22d87bd3fb213012c268567 1026395 server-2.5_2.5.1.orig.tar.gz
+ 5f1f12b5aed1519f05507a63770df565133ac28f 88888 server-2.5_2.5.1-2.debian.tar.xz
+Checksums-Sha256:
+ 903054c8545258775c108092bd1f3875b715005d19ba56eeb44101d40cfedaaa 1785 server-2.5_2.5.1-2.dsc
+ 543098e109e1f8f06f88c8d464e390e2c8bd5b3413b5775f3933d34faf0faeb6 1026395 server-2.5_2.5.1.orig.tar.gz
+ ee96ded59447b6c1daea8a8837454acd24bb730dea2089b21819e739861470a5 88888 server-2.5_2.5.1-2.debian.tar.xz
+Checksums-Sha512:
+ e60a7c9a97d41f87697ee72f4f6c5e221979d35587f4aea7489fcb86be9a3e61bc36a2de0a3318460c4b06360267faf284aee5fe2a201e7c6ade8ce39cee5c84 1785 server-2.5_2.5.1-2.dsc
+ 145e3b4544a980befbee9cbfba4142971ef25a33b3a7f1d256176fafd19409e44c288e85620f6f7e87bff2b47c3c163c48fe331a6237afb8d212a468fb5e40f0 1026395 server-2.5_2.5.1.orig.tar.gz
+ 8fa19fc883f6b87edebc971106a17a16ddc4cb39ade72143d853205c0ff10593c7a4e1f802f7bd941d5abda8665a17e6773e7c2b02a2893f41b91a2ce13bf481 88888 server-2.5_2.5.1-2.debian.tar.xz
 
 Package: server-default
 Format: 3.0 (native)

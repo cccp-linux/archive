@@ -119,6 +119,28 @@ Description: CasparCG Server
  graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
  production since 2006.
 
+Package: casparcg-server-2.5
+Architecture: amd64
+Version: 2.5.1-2
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Source: server-2.5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5137
+Depends: libavcodec62 (>= 7:8.0.1), libavdevice62 (>= 7:8.0.1), libavfilter11 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libboost-chrono1.90.0 (>= 1.90.0), libboost-context1.90.0 (>= 1.90.0), libboost-filesystem1.90.0 (>= 1.90.0), libboost-locale1.90.0 (>= 1.90.0), libboost-log1.90.0 (>= 1.90.0), libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4build2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-system3.0 (>= 3.0.2+dfsg), libsfml-window3.0 (>= 3.0.2+dfsg), libstdc++6 (>= 14), libswresample6 (>= 7:8.0.1), libswscale9 (>= 7:8.0.1), libtbb12 (>= 2021.4.0), libx11-6, libcef142, libcef142-data, sensible-utils, x11-utils
+Filename: pool/casparcg/server-2.5/resolute/casparcg-server-2.5_2.5.1-2_amd64.deb
+Size: 1568222
+MD5sum: 033f6d54a738ef5b1cff3a195f430468
+SHA1: 8a624642000d21ea0f83740eff5b4ad51012cbd4
+SHA256: 213cfaddca7fe110e03a10be78f0c3dce736e6cd659b7f5eddfd71286b618b3f
+SHA512: bbaa502ec04cbc40c1b705fea2aef5a8f3378851d696e5d593d160c3107d56106afd777713e7baf80d1e46baa4cfcb1d493ff5daf38062fe65da777f01950b27
+Homepage: https://casparcg.com
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional
+ graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+ production since 2006.
+
 Package: casparcg-server
 Architecture: all
 Version: 2.5-1
