@@ -16,13 +16,13 @@ Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Checksums-Sha1:
  abb6878831d880c8d22d87bd3fb213012c268567 1026395 server-2.5_2.5.1.orig.tar.gz
- 5dfb5108c087dfc41d8076afce8433bed0e2ae5f 88304 server-2.5_2.5.1-1.debian.tar.xz
+ 4cd65f6aeff1b504da01cb75df5d61930b14cb20 88644 server-2.5_2.5.1-1.debian.tar.xz
 Checksums-Sha256:
  543098e109e1f8f06f88c8d464e390e2c8bd5b3413b5775f3933d34faf0faeb6 1026395 server-2.5_2.5.1.orig.tar.gz
- 17b8013328fe932b09264561cbffa2331727e4f827c1e289abf10b3a158fccb9 88304 server-2.5_2.5.1-1.debian.tar.xz
+ ba2a6a807f20bd99ca600a6e681c55cbacc8620ef36228f1e0ea75f1d22fcbe8 88644 server-2.5_2.5.1-1.debian.tar.xz
 Files:
  94c4f3ddb0ce35dce2a173434e5200d1 1026395 server-2.5_2.5.1.orig.tar.gz
- 5ccedae937709d1c3f0b1465e7af89cd 88304 server-2.5_2.5.1-1.debian.tar.xz
+ ebc754f35644d163e3f1d91c6eebde87 88644 server-2.5_2.5.1-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
