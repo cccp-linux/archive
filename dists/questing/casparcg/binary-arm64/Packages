@@ -99,20 +99,20 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-server-2.5
 Architecture: arm64
-Version: 2.5.1~rc3-2
+Version: 2.5.1-1
 Multi-Arch: foreign
 Priority: optional
 Section: video
 Source: server-2.5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 5118
-Depends: libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libboost-chrono1.88.0 (>= 1.88.0), libboost-context1.88.0 (>= 1.88.0), libboost-filesystem1.88.0 (>= 1.88.0), libboost-locale1.88.0 (>= 1.88.0), libboost-log1.88.0 (>= 1.88.0), libboost-thread1.88.0 (>= 1.88.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.3 (>= 2.3.1), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libtbb12 (>= 2022.1.0), libx11-6, libcef142, libcef142-data, sensible-utils, x11-utils
-Filename: pool/casparcg/server-2.5/questing/casparcg-server-2.5_2.5.1~rc3-2_arm64.deb
-Size: 1439908
-MD5sum: 2ee4871a282b54d94465f0300ba2f999
-SHA1: a5bef22935cef0f5254f0f74a8efff29e969866e
-SHA256: 05f0a251c54c2db6702d1660dcd67475877eda9531c04ffb3f3db3192f264b44
-SHA512: b59cebf9ca060ed45b9f377381989b94693a6d832fd5239bf0af95d76038c3ed8db94f934fe00150a6f007c7116cb7d8ae3ec4019feec624c75b69752816374e
+Installed-Size: 5054
+Depends: libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libboost-chrono1.88.0 (>= 1.88.0), libboost-context1.88.0 (>= 1.88.0), libboost-filesystem1.88.0 (>= 1.88.0), libboost-locale1.88.0 (>= 1.88.0), libboost-log1.88.0 (>= 1.88.0), libboost-thread1.88.0 (>= 1.88.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4build1), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libtbb12 (>= 2022.1.0), libx11-6, libcef142, libcef142-data, sensible-utils, x11-utils
+Filename: pool/casparcg/server-2.5/questing/casparcg-server-2.5_2.5.1-1_arm64.deb
+Size: 1441160
+MD5sum: ff0223ccb88b40ac40693f195f788899
+SHA1: 924afc4ec66a48e48ded1b2b235d1d0c8f47c250
+SHA256: c1b0bc91b2bd299b5e01b17621930d3d2ed069d3316c11986040a827034a7167
+SHA512: e0feda736610ff6ac38f3c34ab097a803f7ed3bf773f689c9c191d8d0dceae096dd558ef486ba240fec1021034179dfc74c332ffe56d67f1ddf4390ba9cb229b
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
