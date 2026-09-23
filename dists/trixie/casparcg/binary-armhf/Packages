@@ -97,6 +97,23 @@ Description: The Chromium Embedded Framework
  .
  This package contains the CEF library.
 
+Package: casparcg-scanner
+Architecture: all
+Version: 0.4
+Priority: optional
+Section: python
+Source: scanner
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 61
+Depends: init-system-helpers (>= 1.52), python3-flask, python3-lxml, python3-waitress, python3-watchdog, python3:any, ffmpeg
+Filename: pool/casparcg/scanner/trixie/casparcg-scanner_0.4_all.deb
+Size: 12420
+MD5sum: da57d85e2c634016737078b3c5f498cc
+SHA1: 992f6ffd2ec6e5fefea46dd6c534cb9d121933aa
+SHA256: b7fdd67c7b16287fa80370316d9bea842d30470fcc1f92002f6d53d31ca62cd0
+SHA512: a10b186de021dc25ee7cdd41f7705f1896bbbc883eaf8fc62c91a9b1738185894e1cca4da5a017858b0b59694cc0c277331f21050274108e9a009290867b69f9
+Description: CasparCG Media Scanner
+
 Package: casparcg-server-2.5
 Architecture: armhf
 Version: 2.5.1-2

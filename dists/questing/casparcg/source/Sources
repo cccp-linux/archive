@@ -1,3 +1,29 @@
+Package: scanner
+Format: 3.0 (native)
+Binary: casparcg-scanner
+Architecture: all
+Version: 0.4
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools
+Vcs-Browser: https://github.com/dimitry-ishenko-casparcg/scanner
+Vcs-Git: https://github.com/dimitry-ishenko-casparcg/scanner.git
+Directory: pool/casparcg/scanner
+Package-List:
+ casparcg-scanner deb python optional arch=all
+Files:
+ 51bf4c0c8a424da3926b5199d8b0ea99 1020 scanner_0.4.dsc
+ 477549b94442e1dda4e47a051ae201ff 21508 scanner_0.4.tar.xz
+Checksums-Sha1:
+ 768f51ce2dbd2b65821ca889b242a8d47c6f3e81 1020 scanner_0.4.dsc
+ 3b844ecea0ab6c7ea30e856f8ded7b4c93934ee0 21508 scanner_0.4.tar.xz
+Checksums-Sha256:
+ 0e89b950f3118678b3cb910814d99c811964795cfb0053fb649512f231ddd1b2 1020 scanner_0.4.dsc
+ 253ec3554de508f8bad80ec6e3f418b2f73b4f499b485db0e111cb817bf38ab1 21508 scanner_0.4.tar.xz
+Checksums-Sha512:
+ bb8819c9c3949e5bb7c754edb2762565e6b6957319162c3c87f4a19599490d345ff4dd5dac55b9ca73e5c709f7ca4c34f4a8ddac54a2b53e5e33ca26e7b59a62 1020 scanner_0.4.dsc
+ 8eea892bcaeecef67a385c8fb0c849c29d952bf8eae259498eaa897e40ba35d0115ddc478583960b7509ec9fff7d06e89a8c26a49410e1f1a485fb829f01fa03 21508 scanner_0.4.tar.xz
+
 Package: server-2.5
 Format: 3.0 (quilt)
 Binary: casparcg-server-2.5
