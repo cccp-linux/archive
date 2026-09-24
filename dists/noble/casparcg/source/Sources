@@ -2,7 +2,7 @@ Package: scanner
 Format: 3.0 (native)
 Binary: casparcg-scanner
 Architecture: all
-Version: 0.4
+Version: 0.4.1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools
@@ -12,17 +12,17 @@ Directory: pool/casparcg/scanner
 Package-List:
  casparcg-scanner deb python optional arch=all
 Files:
- 51bf4c0c8a424da3926b5199d8b0ea99 1020 scanner_0.4.dsc
- 477549b94442e1dda4e47a051ae201ff 21508 scanner_0.4.tar.xz
+ 66ae43ddc8b9726d33b427412d69999a 1028 scanner_0.4.1.dsc
+ b776dba50d42eb2349d0eea0258c0d50 21580 scanner_0.4.1.tar.xz
 Checksums-Sha1:
- 768f51ce2dbd2b65821ca889b242a8d47c6f3e81 1020 scanner_0.4.dsc
- 3b844ecea0ab6c7ea30e856f8ded7b4c93934ee0 21508 scanner_0.4.tar.xz
+ 0ae93cbc0c8e0170ad3cb8c2ebcc5d8edd25921a 1028 scanner_0.4.1.dsc
+ 0853767d93be924d8c844fad7e4338ae17b85faa 21580 scanner_0.4.1.tar.xz
 Checksums-Sha256:
- 0e89b950f3118678b3cb910814d99c811964795cfb0053fb649512f231ddd1b2 1020 scanner_0.4.dsc
- 253ec3554de508f8bad80ec6e3f418b2f73b4f499b485db0e111cb817bf38ab1 21508 scanner_0.4.tar.xz
+ 7ec8feb59d946b92a7de81793423c352b70921d271c144d4c4a878ba6d340160 1028 scanner_0.4.1.dsc
+ 8e916c491284608f7eb79f55f85f1043dc751066128a5b36cb6610a1bd17fdf8 21580 scanner_0.4.1.tar.xz
 Checksums-Sha512:
- bb8819c9c3949e5bb7c754edb2762565e6b6957319162c3c87f4a19599490d345ff4dd5dac55b9ca73e5c709f7ca4c34f4a8ddac54a2b53e5e33ca26e7b59a62 1020 scanner_0.4.dsc
- 8eea892bcaeecef67a385c8fb0c849c29d952bf8eae259498eaa897e40ba35d0115ddc478583960b7509ec9fff7d06e89a8c26a49410e1f1a485fb829f01fa03 21508 scanner_0.4.tar.xz
+ 7602ad4fdf8f72823b3ebd6de1577bb7f4271b5d2923893ad47c9ef9636a4d7ec50bfa59740c9533a37bfa4f8e0f5c3a5c9ea83608f7ab80aa8e3ad3b5a350b2 1028 scanner_0.4.1.dsc
+ 00f2f97b5b44cbd8b0e7e53924ffa1e0547c1efcfc93156fb1b1f5c38f36edbbecc62e7dd49324cd7d34e131bf6a68184ca37c7270a9e6d78412153fc366563c 21580 scanner_0.4.1.tar.xz
 
 Package: server-2.5
 Format: 3.0 (quilt)
