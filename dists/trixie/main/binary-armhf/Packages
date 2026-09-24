@@ -632,18 +632,18 @@ Description: xorg-meta
 
 Package: xwayland-satellite
 Architecture: armhf
-Version: 0.8.2-1
+Version: 0.8.3-1
 Priority: optional
 Section: x11
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 4948
+Installed-Size: 5081
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.3), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), init-system-helpers (>= 1.52), xwayland (>= 23.1)
-Filename: pool/main/xwayland-satellite/trixie/xwayland-satellite_0.8.2-1_armhf.deb
-Size: 1330116
-MD5sum: c3c206e2f6a0cb71c93c8f04e8bdf426
-SHA1: 196b247f8c71fe599ba9ce00f11ee2e65ff7c385
-SHA256: 2589e7cc0fce4933a38defff7284b04e87fb9f2e11b272e4a358cadd8b440cab
-SHA512: d6403c6711c01fbb916cef816affb248e785b7bfe784453d66c7ce4daf18ffb7b109921975a4b813f6110004ba4f4df997ef8b7281445ba9ff71959cd5c63eae
+Filename: pool/main/xwayland-satellite/trixie/xwayland-satellite_0.8.3-1_armhf.deb
+Size: 1368128
+MD5sum: 4b411eff3055873f0c0014d5692a5cb0
+SHA1: 3d0b3d691687e24b53dafcb2d385addbfc8e524c
+SHA256: 55350c89593a64c437dd4c694d068596cd2820771690c3d8afec21690e556993
+SHA512: e72172af662d8fc9600955b0258bb9e19cfe465bc3cccc81e70b5a44ca33cc5c6211c0239677a73dc812c667ac5b3f4467c0909402e931a901b120a337e796b4
 Description: Xwayland outside your Wayland
  xwayland-satellite grants rootless Xwayland integration to any Wayland
  compositor implementing xdg_wm_base and viewporter. This is
