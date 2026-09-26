@@ -359,7 +359,7 @@ Package: neovim-meta
 Format: 3.0 (native)
 Binary: neovim-meta
 Architecture: all
-Version: 0.19
+Version: 0.20
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -369,17 +369,17 @@ Directory: pool/main/neovim-meta
 Package-List:
  neovim-meta deb metapackages optional arch=all
 Files:
- 31108bf18134fca69be52226e8c6b4a6 936 neovim-meta_0.19.dsc
- 7d630a4f34538ad23ac1436914d5861d 16096 neovim-meta_0.19.tar.xz
+ e24d3d72d8e72aa2d7182f2cd8d19db8 936 neovim-meta_0.20.dsc
+ 36276b3f9c68e873ed4d59890c22e04d 16540 neovim-meta_0.20.tar.xz
 Checksums-Sha1:
- f2f5a267f94d80cd2bfa697c3f5e2cd9123ea4c7 936 neovim-meta_0.19.dsc
- cfc694483e673841ff007f8b7573b597eff1fb68 16096 neovim-meta_0.19.tar.xz
+ a32156d179084365c0de97d24ab3aebc6d0c52b0 936 neovim-meta_0.20.dsc
+ 0e4b12c1b8dc3662521d30d09f113d46f19bbd7d 16540 neovim-meta_0.20.tar.xz
 Checksums-Sha256:
- c3590a0abdc7b0ad3122d05346e6fc15d4d67054665f211532b2bde42cac94e2 936 neovim-meta_0.19.dsc
- 4e90ae3c7a0217201da7028c83073ff69818c0fc694b1943e9114475d03385a5 16096 neovim-meta_0.19.tar.xz
+ 019211715db2ea722dfed5f1e5dc5c6c45a5a13ffe6dad830b8d82d0d48aa077 936 neovim-meta_0.20.dsc
+ 639415b4502a42367516f5081a4f06adbf1c6de502cfaa550ffbc69f1821a60c 16540 neovim-meta_0.20.tar.xz
 Checksums-Sha512:
- ad1039a18739684cdde45f1a021c0e7a79f8a5507238de6c30c909d8070ec3aca81606624ef681fdf12d9c984b220d7e8387ed11d4c1c2ef2be3d34eb9a956b3 936 neovim-meta_0.19.dsc
- a8ab5162b902ffb9be8387896f13fefd726400844af513ca2a72671ff6af0919fc1fa7fdb7155e68329ee67219f54b7c134c0a74bf52fbad2877b9d1e23e3822 16096 neovim-meta_0.19.tar.xz
+ 8e75d23668881a6166e848837480c17f8b977be2ba7a67aaafe90433753c73f4c04bc6eed9ac28cd0ce53293bc3fe44c7d52dfdfc03baa455de88bdd11c532cd 936 neovim-meta_0.20.dsc
+ f6cf886f02246fa0110ac33a6f09347784aa5a92505aadbdc370fe92d2e07619f40da045f644749e6135e2133d67dbbd958bf7f4427820f271f827d54b3c8db9 16540 neovim-meta_0.20.tar.xz
 
 Package: niri-meta
 Format: 3.0 (native)
