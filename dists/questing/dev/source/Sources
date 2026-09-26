@@ -54,7 +54,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.25
+Version: 0.26
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -64,23 +64,23 @@ Directory: pool/dev/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- e98256e665c6558ca62899d4beba841d 912 dev-meta_0.25.dsc
- 44b2599e78734077d4c543ad77342453 17968 dev-meta_0.25.tar.xz
+ 902c81dd807af8c61889a185f7ea46de 912 dev-meta_0.26.dsc
+ 2d9357a2f865373fd7aba3e56324b24b 18000 dev-meta_0.26.tar.xz
 Checksums-Sha1:
- e142626c8e6c61090c332406cf971913f5e1015a 912 dev-meta_0.25.dsc
- ae2441da2dc0c8a3e797a7a32e9bd045b2844c26 17968 dev-meta_0.25.tar.xz
+ 0a34bb2d29b1825a9318a8c4690e99b33d22d53f 912 dev-meta_0.26.dsc
+ 5a77f360d314cd8c112ab8a4c533db7dee6a3bd3 18000 dev-meta_0.26.tar.xz
 Checksums-Sha256:
- 9ce797c7c6f2f5cab13269e0cc0c26565eb0b408ee9c554e09c4f27d0acdae3b 912 dev-meta_0.25.dsc
- 3437f0aa65cf9cc4d8676188727d25e0900a67b66487b7c74b1f7eab6b4ae679 17968 dev-meta_0.25.tar.xz
+ 5beb235e6f3e16f86f094f362e33ff2f68fdef521c188fba418d02ff42fcf86f 912 dev-meta_0.26.dsc
+ 22f4d5d844442105488bd190c7118563c42dd6a925c75d877cd54ec8346b85d3 18000 dev-meta_0.26.tar.xz
 Checksums-Sha512:
- 59b8091c4181b98bce31075701d596cb9824eb43c813713d1b144e5fd6abac1d036bd18b536a5c98f0fd7b8bfa9f7e5a5c93af208a49d0602adbe0318e75a496 912 dev-meta_0.25.dsc
- 60c22da8771cd4fb2c901b70e9c7ffefe8f238b139127dd8a4dbec414c9e9dc274963e5b93efddbee4ef402bbe0fd11928521fd92776fc3b9e8494d729c440d6 17968 dev-meta_0.25.tar.xz
+ d06580f6f5c7253e7369d3e85db9e023eed16473c44112ad7b49038354330761c484df4e51e181aba8bff2a40ad84032cb7bfd1a09f216337f6a11056b09ae65 912 dev-meta_0.26.dsc
+ 0e8a110966f6c2ec2f0c1a66e7b2a05898ad989c25ec2d0ff4ca7f28f4ed9f979a34b520b7bb82587aca3d852a4ed2f7eb9f1cd14a97fc0893fa05408b32df2a 18000 dev-meta_0.26.tar.xz
 
 Package: devdocs-meta
 Format: 3.0 (native)
 Binary: devdocs-meta
 Architecture: all
-Version: 1.2
+Version: 1.3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -90,17 +90,17 @@ Directory: pool/dev/devdocs-meta
 Package-List:
  devdocs-meta deb metapackages optional arch=all
 Files:
- b196aba0808b1f7efb2f20b7694dce68 940 devdocs-meta_1.2.dsc
- 5efd75fa8b27a2af21899056ff507507 12896 devdocs-meta_1.2.tar.xz
+ 18a493c8e240d078cab6a34a2eba1137 940 devdocs-meta_1.3.dsc
+ 032bb032a6c0dc152e7e6c6a9222fc6f 13256 devdocs-meta_1.3.tar.xz
 Checksums-Sha1:
- 6061bf634ed20e6a60cf925a6f4cdb3a5fa213a0 940 devdocs-meta_1.2.dsc
- f52b394794ed07a166df4af860439406b6f3af6b 12896 devdocs-meta_1.2.tar.xz
+ 81eca9e69fc6c5220f7a71ee62b6bb31d0a29432 940 devdocs-meta_1.3.dsc
+ 52889d692f9a7587dfa8b3a972fd4d68a057c5c9 13256 devdocs-meta_1.3.tar.xz
 Checksums-Sha256:
- 07a73fb89c05a44057a49dcce7672f0e9170ca65704cdc279f0be0e7326c6cbc 940 devdocs-meta_1.2.dsc
- 1c2162ecf2ccc4b92b3b02dca3e58d5967c76260f468a9a4789cbd5b4c1f62de 12896 devdocs-meta_1.2.tar.xz
+ b3e346bea3b1fdd75486a0b1745379032a2ce6f2061476bbb505d5e55fffc7f8 940 devdocs-meta_1.3.dsc
+ 3b96b1bf31d598a0830ede7c14c05660cc7ed3c8446820d8031ebffefaa8cfb0 13256 devdocs-meta_1.3.tar.xz
 Checksums-Sha512:
- 2e4fae9f8c76f0d0c35c1a9de67685400127ca3f9041f415e05a89e5e06c088fe10933cc3e377cdada5468a66deb678c5c9aae8066b411fa216157e128a604cb 940 devdocs-meta_1.2.dsc
- 556cba8c6a2792cbb1db586f784a16e70eed2370d3c0be9566c685cb41c67af7746d3946975e07afe28335c09cd79461728f4b7d441c8c180d7fbc93b1194e8b 12896 devdocs-meta_1.2.tar.xz
+ 93be60a1bd03a92a51d06954bd433813981fb748bf9948563f2f07d2fd73c9ecb6bb1f2c4ee18d8e5ce98c84bd8772d541ca7befe6f7062c9b09333c39c542dd 940 devdocs-meta_1.3.dsc
+ e0aa190edb3408cfcdabe28003c6b108d9c2baafc01f30e210a27df1d7e3681ac2bce23b1a6f44ee95a6ba83ca71a80e902fac993b5fa22b69ea2e9b6121e180 13256 devdocs-meta_1.3.tar.xz
 
 Package: rtaudio
 Format: 3.0 (quilt)

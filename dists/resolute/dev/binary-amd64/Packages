@@ -34,38 +34,21 @@ SHA256: 84d257569cfadd12d3d92fae038e84d4ecd5b19a3c895a635c935d0b5a108454
 SHA512: e3590b45a2b14a2d2623c81156c9285c5a732ed2904b3652eecfe8ace3284762e6d4ceab10fd89f4590e8920edbcb8a14b4588588597ba054ea9fa169f602963
 Description: debchange (aka dch) script extracted from devscripts
 
-Package: dev-meta
-Architecture: all
-Version: 0.25
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 37
-Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: aprox, bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
-Filename: pool/dev/dev-meta/resolute/dev-meta_0.25_all.deb
-Size: 7812
-MD5sum: bb3f7ed9043a4631ef994f59e5a3de08
-SHA1: 9e8bddcd107e4ebc89a7f0f81734d7a320b5f25b
-SHA256: a7b78e4fb5a7a696f74e144d9c740235d34046beceb1ea7087d0b709e41e3b19
-SHA512: 257d38a2a7ab714df452f367b9bd343b353f385cd9ff463bd84d8c9893a47a7cf1215ce2fb5b12c9f6974eb58ba2b44f14ba7837765becea750aa0733e9e574f
-Description: Development meta-package
-
 Package: devdocs-meta
 Architecture: all
-Version: 1.2
+Version: 1.3
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 16
 Depends: devdocs
 Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
-Filename: pool/dev/devdocs-meta/resolute/devdocs-meta_1.2_all.deb
-Size: 2242
-MD5sum: 81a8fdb5a18292582e4dc2f02a1d4af3
-SHA1: 70ba6e5f0a39a1ea62b635c03556e1ab9da810a9
-SHA256: 1f9fdfb74db8b56a93e2e287a1945e096c6c23666b3c12bb427098e80b36d77b
-SHA512: cde8fdb41634aa2d2f78fe20ab1b8021444a4dcacc6850c028be7aa34b22cdd1742e9bc0bec594c4792d59f5759e56447d75791492162bb640426f25f6c58df0
+Filename: pool/dev/devdocs-meta/resolute/devdocs-meta_1.3_all.deb
+Size: 2300
+MD5sum: 41c240c5d74137613503ff1a9c92d5b3
+SHA1: 2cab684fce95391fe9af57c02b9fa5c0d1ae3d15
+SHA256: a7855efac1869b51b2550801a1cea72753ed955383ef26184591430b506b1f5f
+SHA512: b9fadf45ee828136e348c9d2151d9772cb91da77ad84b0d668856020ada3c1a9434700690108295b6a7511e16a235ec4d5d48c4c25c9fb26a8e1d38486ab9277
 Description: Devdocs meta-package
 
 Package: devdocs-data-angular

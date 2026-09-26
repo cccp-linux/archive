@@ -34,38 +34,21 @@ SHA256: 3abd86a63091190460c95889f819070a58189a4c7fd4fe2214ef9b94537ffa7d
 SHA512: fafcd2b3f5ffe0957c45d5c02fb48be0424580b9a637a06cc766f4e8c4e98386f8be776d3c6faa168171ccfcf17f63cd13c6f56d523bcfd6f90f0fa076b06721
 Description: debchange (aka dch) script extracted from devscripts
 
-Package: dev-meta
-Architecture: all
-Version: 0.25
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 37
-Depends: arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
-Recommends: aprox, bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
-Filename: pool/dev/dev-meta/trixie/dev-meta_0.25_all.deb
-Size: 7764
-MD5sum: 84476f4fdebb448a53d962ac9e53d199
-SHA1: a51b96a6af2b3e579ae276260616542214847e2f
-SHA256: a724ec1ba54f7f323648d71c24ba163d7f767d0b7f4e3d82147e7486e116e311
-SHA512: bdd2593a8878daf7a1ac8cbdb53c92d5c58e82d8a239ad778e5b68fa54552dc57f79d329668971260f9275e73a6a655e73055e30bd3b9bc11a6d745c0a661af9
-Description: Development meta-package
-
 Package: devdocs-meta
 Architecture: all
-Version: 1.2
+Version: 1.3
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 16
 Depends: devdocs
 Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
-Filename: pool/dev/devdocs-meta/trixie/devdocs-meta_1.2_all.deb
-Size: 2388
-MD5sum: 4f75cef64f883033f2ff5870e0d13958
-SHA1: ebada534816b1651a31e2665bd79eec39da33b29
-SHA256: 26a2770face272bdc43e0a451e7954a171cf21e29422390247a2be626c0182e8
-SHA512: 91a3dd6998fd6de07a8f1a650310177902f811fd943bad01267d80cf4dcf51eeff0c5abffc7289b7a5d241d359a9c67b278f7f4e398f078028ba24ec291358ca
+Filename: pool/dev/devdocs-meta/trixie/devdocs-meta_1.3_all.deb
+Size: 2448
+MD5sum: 06a6d0061d0e24a1f274a21997009e72
+SHA1: d11bc249eec5649fed61af8eaa8a13f8cf12b8c1
+SHA256: 0bcc75d05c69d7880347cbf0850f1e02aefde0c40faa2f1d9868ded5f1544cd3
+SHA512: c270fc0e82a03d205dee529b8285b4319526b476fd59a9059123be1a4c5d076c57a8ee24f9292c74d1bc9e124a852838d4caa206bed3657e48759e58fffdeca8
 Description: Devdocs meta-package
 
 Package: devdocs-data-angular
