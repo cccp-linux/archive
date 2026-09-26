@@ -54,7 +54,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.24
+Version: 0.25
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
@@ -64,17 +64,17 @@ Directory: pool/dev/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- 1253d41b861548b060d67c80a01634da 912 dev-meta_0.24.dsc
- 7cba92614adc23b34bc065b8bf8cb586 17752 dev-meta_0.24.tar.xz
+ e98256e665c6558ca62899d4beba841d 912 dev-meta_0.25.dsc
+ 44b2599e78734077d4c543ad77342453 17968 dev-meta_0.25.tar.xz
 Checksums-Sha1:
- c54322412b733dae173aa0b27e2bf861b2403a5f 912 dev-meta_0.24.dsc
- 9ce337a4bad9ee09e9143b968dd18c38e99728ad 17752 dev-meta_0.24.tar.xz
+ e142626c8e6c61090c332406cf971913f5e1015a 912 dev-meta_0.25.dsc
+ ae2441da2dc0c8a3e797a7a32e9bd045b2844c26 17968 dev-meta_0.25.tar.xz
 Checksums-Sha256:
- b4bed8adf11d35d162f9c77c88ba516921f3defdb6a26b2f0afc3808409ed796 912 dev-meta_0.24.dsc
- b896599b7d2a4d8a226c6df063bccff8c6db7a49654d7cf36e4cb8b33cc57cfa 17752 dev-meta_0.24.tar.xz
+ 9ce797c7c6f2f5cab13269e0cc0c26565eb0b408ee9c554e09c4f27d0acdae3b 912 dev-meta_0.25.dsc
+ 3437f0aa65cf9cc4d8676188727d25e0900a67b66487b7c74b1f7eab6b4ae679 17968 dev-meta_0.25.tar.xz
 Checksums-Sha512:
- 1978845df86541e91348dac183384442ed4e0a611807690a53c5b215dd7d3d02b0778d3cb2573ce97c56bfacf6add3dccbb9c5c34f30da500536c56fc773ddef 912 dev-meta_0.24.dsc
- 9e662643cd28a918228ad3eac5968878b22fef5401588a4abb2ffbe552f8f5ef026a648f9ba9271562e64ddb5375021855c9f2f091c72a26648d56bbd0a92036 17752 dev-meta_0.24.tar.xz
+ 59b8091c4181b98bce31075701d596cb9824eb43c813713d1b144e5fd6abac1d036bd18b536a5c98f0fd7b8bfa9f7e5a5c93af208a49d0602adbe0318e75a496 912 dev-meta_0.25.dsc
+ 60c22da8771cd4fb2c901b70e9c7ffefe8f238b139127dd8a4dbec414c9e9dc274963e5b93efddbee4ef402bbe0fd11928521fd92776fc3b9e8494d729c440d6 17968 dev-meta_0.25.tar.xz
 
 Package: devdocs-meta
 Format: 3.0 (native)
