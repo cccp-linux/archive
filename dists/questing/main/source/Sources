@@ -333,7 +333,7 @@ Package: ncp
 Format: 3.0 (native)
 Binary: ncp
 Architecture: any
-Version: 0.8
+Version: 0.9
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), cmake, libacl1-dev, libasio-dev, libcap-dev, pkgconf, python3, python3-pytest
@@ -343,17 +343,17 @@ Directory: pool/main/ncp
 Package-List:
  ncp deb utils optional arch=any
 Files:
- acc8aa19e1f034dea9aa15b75c134019 961 ncp_0.8.dsc
- 6fbc54665d96b9c27bcee404ad61272e 281784 ncp_0.8.tar.xz
+ 0d2f10250014dc3dbb6d38d1127afbc0 958 ncp_0.9.dsc
+ 7df8e114ff81d7fc9108e53dd1ae10df 38424 ncp_0.9.tar.xz
 Checksums-Sha1:
- b7ced201a4e0edc6c17a45150bb9b930d2179a2c 961 ncp_0.8.dsc
- 3a39d62126ded6e74d9235da22af8a5bf4f511d3 281784 ncp_0.8.tar.xz
+ 5a48efb4a8ce13fb3d93a37514956d3fbd2a9bcf 958 ncp_0.9.dsc
+ e521fb7881b87c5e8dd9551815b08b5e4d2ee674 38424 ncp_0.9.tar.xz
 Checksums-Sha256:
- 915581f4a3519e574b3aba7ca014478c5daa928939419498b2077cc65b52b15c 961 ncp_0.8.dsc
- 71becfe2143bde6326d09edfe4f4864292b99f18126c67f40a21f8eff18ce7b4 281784 ncp_0.8.tar.xz
+ e15a3b9024e28f124922b4d2c77d0ccc82e0a2aacbb94671cd164288864f22f5 958 ncp_0.9.dsc
+ f16d05cfabed7deb93d0b52b440b51fa957418d0221893d2b6ad023dbfe132ca 38424 ncp_0.9.tar.xz
 Checksums-Sha512:
- 98fd5e2f81d20fa78e4d9104181c46a28d5845ce45c45776b14e98abd062d012db8f3b61e1a2ad535571fc547cbe409116db5a009392c3a2ba201ad0510ae9d9 961 ncp_0.8.dsc
- dec23c576c794a90a4038cb3197fd3c251087a0c856de1fdc88fd58e4699cd709c1117b4134f6554c17b96c72203492bb7708548e220a5b3ba51514ed1f9708c 281784 ncp_0.8.tar.xz
+ 1c9a4ddb43e2d2d7d5056843706f5a0a2fe4226a3ae0bc1c51e6ef616899cee1c0ada622466526ef48e1c10e8f0c7ff188236a60e1df366f46fe936fb4041a87 958 ncp_0.9.dsc
+ ceab41dd1ae09d061beaad44ef923689de9083f650704403fe1e63147e3d7de923162b6b38d8a9a495260918363b7a7544f8ad0ca16bc3e9303b5dd0632eecba 38424 ncp_0.9.tar.xz
 
 Package: neovim-meta
 Format: 3.0 (native)
