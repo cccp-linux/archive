@@ -36,19 +36,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.27
+Version: 0.28
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 45
 Depends: neovim (>= 0.2.2-1~), arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
 Recommends: aprox, bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
-Filename: pool/dev/dev-meta/trixie/dev-meta_0.27_all.deb
-Size: 8140
-MD5sum: dade6405c968e2eafe2f10bf6e2a4f6d
-SHA1: 690e2bb26955775cef0e70226c804bc9ebcec896
-SHA256: 6467e8b743a535b3a538a7b51e86f513d36ab0896af24e12a7f69ea87d311809
-SHA512: 16f3e715bdeffc14d5b2136e5773840ced8e55f1ddc58c31eebec07f2efce203d58ebd84e82d42509b14039a3150be8e511a45e0a241afb59bf8edfb23ad0aac
+Filename: pool/dev/dev-meta/trixie/dev-meta_0.28_all.deb
+Size: 8164
+MD5sum: 1f9efa32b49d3b933131d96e046800a9
+SHA1: 32522240d045b98c430021ea0ab3d5be7982ed45
+SHA256: ce869157304d18a48804c56d03e2ca43203765e4a82a8be0f24886347931aa8f
+SHA512: d5d7d55919da7604f638383673bc8b307e99e8bd719dc1d5b222ce7d3beea8a29fe677946e88e71fddaf17177074567f6b18d3648e015b22a4e6b58c46f11d72
 Description: Development meta-package
 
 Package: devdocs-meta
