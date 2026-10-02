@@ -201,19 +201,19 @@ Description: LLM meta-package
 
 Package: neovim-meta
 Architecture: all
-Version: 0.26
+Version: 0.27
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 32
+Installed-Size: 33
 Depends: neovim
 Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons
-Filename: pool/main/neovim-meta/noble/neovim-meta_0.26_all.deb
-Size: 6578
-MD5sum: 6e8bf3dd3a91fc6a09da90e7f705fd91
-SHA1: 4f707d8bb4c07e6f355270bbacfcffcb8181d4c2
-SHA256: 62a1496064b7b24827996644554a0fb93367b5dcc67d69a69edb0dc1bc748c20
-SHA512: 01b119923fd875563d237e73def1f52840608dddc6be7b9899fd861a2f105469939a8f871cb99ee4bcd4ca217629c82dd8cf65b9790ab538e24f091006374d2c
+Filename: pool/main/neovim-meta/noble/neovim-meta_0.27_all.deb
+Size: 6616
+MD5sum: 478d6f630a6e7333b804d8f11e66d16f
+SHA1: 5a08de3b79054f4382c13e5c0f10f9c93e64f1e6
+SHA256: dc8074912d589a3a2faf8d7725a244bbd6b9e23139ce6138de9a2d3ecdd85310
+SHA512: 995d1af3217cd812121caebbebb37e6e67681ece80c80d589aeb1f695cc43f3e082dcb24d925e80e70303539c108e6f1c7b64eee31a14ddb402d1e82fe8325c1
 Description: Neovim meta-package
 
 Package: niri-meta
