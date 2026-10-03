@@ -401,23 +401,6 @@ SHA256: bf5a749adea8711b2873092f3fc28d784e896299c2e9e1ab054483f35e6d910a
 SHA512: b4c0be253450e6aa44ddd1a867b26e1d05503533a64c1d8abcd424bb5c03a86be0337ee359a62af76c66ce504d5ef2938403d9ab5b1204af8b8fc1dd0bcc7309
 Description: New and improved, now asbestos-free copy utility
 
-Package: neovim-meta
-Architecture: all
-Version: 0.31
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 33
-Depends: neovim (>= 0.2.2-1~)
-Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons
-Filename: pool/main/neovim-meta/sid/neovim-meta_0.31_all.deb
-Size: 6692
-MD5sum: e0d9fd57c1126f8ceaa8bf91c5ba1b0b
-SHA1: 6555996886e6a8144253fd009c0a0c0657176ffc
-SHA256: 3318377d8bf9699d930b9e8c997452b882bfbbf462e8212255726a08cb8674cb
-SHA512: 49f2b837665b25baa7f5cef1f837f1635e0443088d1bb653725f16a94b4956bd0663c6aca8e19d89cd5f642edfddd5d701cb08ef7f51a22cac138d1da8ba24a4
-Description: Neovim meta-package
-
 Package: niri-meta
 Architecture: amd64
 Version: 0.47

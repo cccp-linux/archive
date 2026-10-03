@@ -183,23 +183,6 @@ SHA256: 6e592eaf5a5cd2705c72540862782ea55f8b3fbf3575dacc951d1c692215b938
 SHA512: 4c8d3a544b328ae5c020bf911666c0d546c35f3ccb3ecda47c2099413739b4d9d7559d12970db37ac4ca41be76a66d8e28dd9f4cc5b55fc3ac08300a7db7c107
 Description: LLM meta-package
 
-Package: neovim-meta
-Architecture: all
-Version: 0.31
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 33
-Depends: vim (>= 2:8.1.0693-2~) | neovim (>= 0.2.2-1~), neovim
-Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons
-Filename: pool/main/neovim-meta/noble/neovim-meta_0.31_all.deb
-Size: 6818
-MD5sum: 425e02725ea9fba54ee49e35f7655ee2
-SHA1: 864e229ada0e59d481ccb1604c443107e06c1270
-SHA256: 0ae204358f8d1c4499b4298073c1c548f559c66df7ca092662d4a112e15213f8
-SHA512: b0696ecf3421db9a4d96b74fe018284ef74792296ac0e8e79ebd852119d9aa1aacdefd1079141448272fa8011e1fe6bc5b822ab4c14308dafe4998c1cf3451bf
-Description: Neovim meta-package
-
 Package: niri-meta
 Architecture: arm64
 Version: 0.47
