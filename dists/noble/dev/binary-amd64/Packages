@@ -35,19 +35,19 @@ Description: debchange (aka dch) script extracted from devscripts
 
 Package: dev-meta
 Architecture: all
-Version: 0.28
+Version: 0.29
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 45
+Installed-Size: 46
 Depends: vim (>= 2:8.1.0693-2~) | neovim (>= 0.2.2-1~), arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
 Recommends: aprox, bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
-Filename: pool/dev/dev-meta/noble/dev-meta_0.28_all.deb
-Size: 8256
-MD5sum: e7b736694f69affce36e10efcab837d9
-SHA1: 3585d1b0328e85d42d824b4c5af4197d7c67a3c8
-SHA256: ebb6d10d717227f5ed184b3c62138218ced1b18eaf6ee178a286ff0afc55adb3
-SHA512: ab83b96031fb6d341e0451bc3d9215ec8eff06b9f2783ceefb4bfbdb4b8a6961b27a02d53d054583679246e1d9bc56324117cdc29b0bd0457ad7f1bd09839b21
+Filename: pool/dev/dev-meta/noble/dev-meta_0.29_all.deb
+Size: 8376
+MD5sum: ba085d82e07735b84a454a0fdc48ae91
+SHA1: 7b371c9d0598a98e5e0eeb881dbef600504fbdc6
+SHA256: 0bf595d80ce590aecdfa72f04f5bd2155c1efee5fb1c66fee02dca2322727728
+SHA512: e7cf321d2b47e8ea37a2ef937b066d08f8e21f303e9d0d5b6504a909a0be4811ebf67f44f00423eb216e810a8cb7c89f878c194546769c827fa56bc6086f5899
 Description: Development meta-package
 
 Package: devdocs-meta
