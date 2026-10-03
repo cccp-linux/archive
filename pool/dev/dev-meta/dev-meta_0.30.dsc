@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: dev-meta
 Binary: dev-meta
 Architecture: all
-Version: 0.29
+Version: 0.30
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Vcs-Browser: https://github.com/cccp-linux/dev-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13), dh-vim-addon
 Package-List:
  dev-meta deb metapackages optional arch=all
 Checksums-Sha1:
- 1cf772f24bef3e0d4ba7670ce02de3d494be3872 18348 dev-meta_0.29.tar.xz
+ 65e8495ed2d4432f57e4ccf73e94921f9e63c04b 18336 dev-meta_0.30.tar.xz
 Checksums-Sha256:
- 27375f48a3b491ac9e72d8c8c30efd0ea0bc34500cf27f68d5156f89f4dfda59 18348 dev-meta_0.29.tar.xz
+ 015e13280edfad5ac2510e03c90b88fcefcbd18aff55a65b134fcb6fc77e394e 18336 dev-meta_0.30.tar.xz
 Files:
- ff1afb993fd767d68b97e2d2a71c0a37 18348 dev-meta_0.29.tar.xz
+ 554bed325d098912a2d653927d9e1a0b 18336 dev-meta_0.30.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCasBhLQAKCRA6Vr9YT1rr
-J07tAQDAoCHDWuIKJWG1554ImP97DSGP7g8d3RbD+61oYfr9DQEAxBQD9cp82f0t
-4GPeWu7bUi/Qy1MJ1TW8zhLu/APnIQE=
-=PIiJ
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCasFRjwAKCRA6Vr9YT1rr
+JyU9AQCM8uftQ4i+PqRgwwLvm2A0HmsI0tG41CKPLjw/Mt0KwwEAot5TjI4sGkuy
+NHc7xlTT0ZEB7Zf08pZ/CwC85A85iAo=
+=Aywl
 -----END PGP SIGNATURE-----
