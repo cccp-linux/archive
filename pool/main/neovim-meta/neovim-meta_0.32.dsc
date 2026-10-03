@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: neovim-meta
 Binary: neovim-meta
 Architecture: all
-Version: 0.31
+Version: 0.32
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/cccp-linux/neovim-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13), dh-vim-addon
 Package-List:
  neovim-meta deb metapackages optional arch=all
 Checksums-Sha1:
- 1a13350358c24f5ac9f4818fefc9a7823f147e8b 17056 neovim-meta_0.31.tar.xz
+ b0e058acc1b0078aecf700e2125a4ddeec6d9b89 17112 neovim-meta_0.32.tar.xz
 Checksums-Sha256:
- 1913fe024fae2030e594ee697467d90890086ee51968ba7597f2986e1a043fdd 17056 neovim-meta_0.31.tar.xz
+ 14aa0e60fa2a38d1166aba858266f7eb7a441413f4368449e3ff2d759941c548 17112 neovim-meta_0.32.tar.xz
 Files:
- dad62a8afa6f2fb5a44f21bd2d493557 17056 neovim-meta_0.31.tar.xz
+ b9aa26fd240cf2c945669c1731ecd5b6 17112 neovim-meta_0.32.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCasFSbQAKCRA6Vr9YT1rr
-JwFWAQDv1ClDPDVKDm3hk8SZ3O9xvpGq1B0IbzmONL9Wiea7PgD7Bm8NgDLnMuoM
-sc5maMOigGpU2MMZfUT3LhrkD4SOfwE=
-=UQmW
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCasFe2QAKCRA6Vr9YT1rr
+J62VAP9LgBawjAHPpsAfFRxy6g9ypVKwjdFG2E6kpU6ovWZaJAEA1FKWoY1nfonx
+lobnpR1Yyu3xER8hQb3u+Qm3EF2OOwA=
+=sDxI
 -----END PGP SIGNATURE-----
