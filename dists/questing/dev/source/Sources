@@ -54,7 +54,7 @@ Package: dev-meta
 Format: 3.0 (native)
 Binary: dev-meta
 Architecture: all
-Version: 0.29
+Version: 0.30
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
@@ -64,17 +64,17 @@ Directory: pool/dev/dev-meta
 Package-List:
  dev-meta deb metapackages optional arch=all
 Files:
- 1b6e14c16dcc9e083895ba2ef189b673 926 dev-meta_0.29.dsc
- ff1afb993fd767d68b97e2d2a71c0a37 18348 dev-meta_0.29.tar.xz
+ 1b57c4a24fa49341124107e604994568 926 dev-meta_0.30.dsc
+ 554bed325d098912a2d653927d9e1a0b 18336 dev-meta_0.30.tar.xz
 Checksums-Sha1:
- dc25b27ea2f95d18ab9bbbda837b298d66857188 926 dev-meta_0.29.dsc
- 1cf772f24bef3e0d4ba7670ce02de3d494be3872 18348 dev-meta_0.29.tar.xz
+ f7d4dc81c4f96a7de9677660e19b7793abdcec4f 926 dev-meta_0.30.dsc
+ 65e8495ed2d4432f57e4ccf73e94921f9e63c04b 18336 dev-meta_0.30.tar.xz
 Checksums-Sha256:
- 96ca53f03cdfd7884993bdd1f6d200f369538e94bade884e8ba3e2a21592685a 926 dev-meta_0.29.dsc
- 27375f48a3b491ac9e72d8c8c30efd0ea0bc34500cf27f68d5156f89f4dfda59 18348 dev-meta_0.29.tar.xz
+ cf479130d3573454838e74669ff62b28244f332fdd8cef88906656964f8c32f6 926 dev-meta_0.30.dsc
+ 015e13280edfad5ac2510e03c90b88fcefcbd18aff55a65b134fcb6fc77e394e 18336 dev-meta_0.30.tar.xz
 Checksums-Sha512:
- 280ddec490c0adf28eba97c1427db4704d304b3be9f82eb90ed451a5ca7759d0a66e2e99ad328a6665fc33455864ffb56ff028f3c0028a452d50901ccd2e27cc 926 dev-meta_0.29.dsc
- 8c5b48d29e7fe393ae986ee8c0fc34ecfc8dd4ed4ed66532fe0c7510edbf2852ae47b60a9423c06a657827d4dcc577d05907af7e5fd23101d0e7e852833611e1 18348 dev-meta_0.29.tar.xz
+ fb600446ae25113cff111c8e18615d4d37c44f418caa39ed0aa91d89c1f56bab2a876654dc35e0f80637e68ab09ca908aeafd8e1fef8799ea72421a59dabce3e 926 dev-meta_0.30.dsc
+ 8085923ee159c86c35bc737d5792f53c8b3ee3628a245d9557f3904a8a65d49bb3ac6e58c1c3e06a6ad4ddbb50bebc676ed9f32385362b65b489bc64a0bf6441 18336 dev-meta_0.30.tar.xz
 
 Package: devdocs-meta
 Format: 3.0 (native)
