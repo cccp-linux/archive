@@ -55,20 +55,22 @@ Description: Development meta-package
 
 Package: devdocs-meta
 Architecture: all
-Version: 1.5
+Version: 1.6
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 18
 Depends: neovim (>= 0.2.2-1~), devdocs
 Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
-Filename: pool/dev/devdocs-meta/trixie/devdocs-meta_1.5_all.deb
-Size: 2564
-MD5sum: 88f52475a3b256d602eb5056c562a00b
-SHA1: 6c330be027418389535aadb9a61fa29eb66f0819
-SHA256: b661cbf67d0ff8fac6cebf7c8d21cdb6886554b944c19a64d9c03df1fcc1e1e1
-SHA512: 8799e18cefc7ce813e7bc044e6b120e547b543d946832f2654476e456af3e6e171071a4869eeac539654b35c49960e20c03e39d589308a7a6b3b2d10f2e92d31
+Filename: pool/dev/devdocs-meta/trixie/devdocs-meta_1.6_all.deb
+Size: 2628
+MD5sum: 71129c5ceec9ec7835803ecc0c80be14
+SHA1: 0b81fa0c411354b7064c51a8341c5c0317328944
+SHA256: ab9ee92d9aa370cc92e006cb93ab20db00acd647654c0e31ba02d1e971d78b48
+SHA512: 4c2265fa1c4b5fcf2e24068f89caea88823faa4212c03dc59257231f03c91cce757927817a89155fa078088d352c399c6a38c79e85990e11cc03b8518079bbac
 Description: Devdocs meta-package
+ Add the following to your .config/nvim/init.lua:
+ * require("devdocs")
 
 Package: devdocs-data-angular
 Architecture: all

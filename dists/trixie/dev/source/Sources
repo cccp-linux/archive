@@ -80,7 +80,7 @@ Package: devdocs-meta
 Format: 3.0 (native)
 Binary: devdocs-meta
 Architecture: all
-Version: 1.5
+Version: 1.6
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-vim-addon
@@ -90,17 +90,17 @@ Directory: pool/dev/devdocs-meta
 Package-List:
  devdocs-meta deb metapackages optional arch=all
 Files:
- 423bf836f2007a86613789b4b9932bdc 954 devdocs-meta_1.5.dsc
- b1936b61e2b1ab2e9543f1062c6a5578 13380 devdocs-meta_1.5.tar.xz
+ 8ebeb2614fde2abb09c3d8f56b120d44 954 devdocs-meta_1.6.dsc
+ c6e64055d2ad5df40c3479461c29513f 13444 devdocs-meta_1.6.tar.xz
 Checksums-Sha1:
- cb3b4771745464d130cb25cbf5f213e0f2017710 954 devdocs-meta_1.5.dsc
- 9cced45f460245dc9ad553b0152486ced6271330 13380 devdocs-meta_1.5.tar.xz
+ 207e6f046234e3f682c9507acfb5b5386ad89e19 954 devdocs-meta_1.6.dsc
+ 1eae80545603883ec537a4da3001ea9c0989b506 13444 devdocs-meta_1.6.tar.xz
 Checksums-Sha256:
- 82cd839908c2809e7cd478d2fdeb59608af0160e3d4ddfe6411ed001cf62d61e 954 devdocs-meta_1.5.dsc
- bccc90ee8c9b2ec00689fbb2d1be24efc2df99e5317f3a08947213b200dcf717 13380 devdocs-meta_1.5.tar.xz
+ 04918b6081dc19cfbe57299d3ea872d86cb921ccd6cad9491dc784b7efbaa8a5 954 devdocs-meta_1.6.dsc
+ 0d86a548f520467c4ed6925da19c220e736598e4d6093ca82e4b857fbff8d2cf 13444 devdocs-meta_1.6.tar.xz
 Checksums-Sha512:
- f4091f7d41ae75a1233f391cff394c9c8713c49e0cde522c849a498a6384623ec3d3ed13165e2f16aaeefe47185683a9e150d4e9ab8c41bbf5bf50b0a4228b21 954 devdocs-meta_1.5.dsc
- 2c27564b36ca8a633e970d321e904d97889f60f74a3eaf975d5bbfe37edd62bb7b1d39cf7a498f4d657d3596464c2392bf48a4760e81e1e3b486618d6f9e80cb 13380 devdocs-meta_1.5.tar.xz
+ a2e46d59c8f76dd3270532c6675565ec8e9b61357015db5905c831b367b60c6d701ff6534029b815e8e7ecbbdeb489fbbaad0494a7be9f3e7796c5d8a5ea1224 954 devdocs-meta_1.6.dsc
+ f660ecb2beb3c5eebf813ed094a9416c1e0dcee7341219970e686692bb2a921161c37ea86fb1592c471d3b6ef8a43a53bff41b7d74fcc093023244d580537e90 13444 devdocs-meta_1.6.tar.xz
 
 Package: rtaudio
 Format: 3.0 (quilt)

@@ -55,20 +55,22 @@ Description: Development meta-package
 
 Package: devdocs-meta
 Architecture: all
-Version: 1.5
+Version: 1.6
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 18
 Depends: neovim (>= 0.2.2-1~), devdocs
 Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
-Filename: pool/dev/devdocs-meta/resolute/devdocs-meta_1.5_all.deb
-Size: 2444
-MD5sum: 3aac26a3c1c507ef9682b9819964ebc7
-SHA1: a239d719c9bff8c94602e3a831b847b7fe44dbc4
-SHA256: 3d0c63689837fa0e147e469f92b19ceb499048fad226607c89282079edbc3c5c
-SHA512: b7b3ff79a15049e6d82f6be655f74c889db5655663566e329f45b23c134292929cc4afb61bc9fc50fe4779fca981a4547d04177a434e991d0758bd445f70758e
+Filename: pool/dev/devdocs-meta/resolute/devdocs-meta_1.6_all.deb
+Size: 2508
+MD5sum: 880b00b51b38fdbae7ad5af5e7d05e98
+SHA1: aeff912d68d6ceb89bfa6d3000924db8194bc9b9
+SHA256: 7bac53a9872fee320d44e7a6d4ef91cae1646f4a5c21d07b0890b56beb515370
+SHA512: 5336683389e2e267e431680ee1204060cc11c36fd2348ca5ca7661f449dc656b3e93618cbe9eb0602ba91665f89029486b870e2ae14433866296397b25e33f24
 Description: Devdocs meta-package
+ Add the following to your .config/nvim/init.lua:
+ * require("devdocs")
 
 Package: devdocs-data-angular
 Architecture: all
