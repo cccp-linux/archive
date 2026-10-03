@@ -80,27 +80,27 @@ Package: devdocs-meta
 Format: 3.0 (native)
 Binary: devdocs-meta
 Architecture: all
-Version: 1.3
+Version: 1.4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
 Vcs-Browser: https://github.com/cccp-linux/devdocs-meta
 Vcs-Git: https://github.com/cccp-linux/devdocs-meta.git
 Directory: pool/dev/devdocs-meta
 Package-List:
  devdocs-meta deb metapackages optional arch=all
 Files:
- 18a493c8e240d078cab6a34a2eba1137 940 devdocs-meta_1.3.dsc
- 032bb032a6c0dc152e7e6c6a9222fc6f 13256 devdocs-meta_1.3.tar.xz
+ 40e4b6fdc3330a1bbd6397ce15b436a5 954 devdocs-meta_1.4.dsc
+ 0ac9754444898340f6e06b6d0373237e 13360 devdocs-meta_1.4.tar.xz
 Checksums-Sha1:
- 81eca9e69fc6c5220f7a71ee62b6bb31d0a29432 940 devdocs-meta_1.3.dsc
- 52889d692f9a7587dfa8b3a972fd4d68a057c5c9 13256 devdocs-meta_1.3.tar.xz
+ c06f7046fd4e6027e98b764ea13a146488653e4f 954 devdocs-meta_1.4.dsc
+ d0487473eb713f26c4e434561304ed8eb2eb64a9 13360 devdocs-meta_1.4.tar.xz
 Checksums-Sha256:
- b3e346bea3b1fdd75486a0b1745379032a2ce6f2061476bbb505d5e55fffc7f8 940 devdocs-meta_1.3.dsc
- 3b96b1bf31d598a0830ede7c14c05660cc7ed3c8446820d8031ebffefaa8cfb0 13256 devdocs-meta_1.3.tar.xz
+ 25a20b262c229b400a7eee2b814e1407010205ef0e7a46cbc0ea3ebdbd3ed11e 954 devdocs-meta_1.4.dsc
+ a58693780e883a97470f60bec1dfe4006132b6ca000d6da55696ab91bf33f9a7 13360 devdocs-meta_1.4.tar.xz
 Checksums-Sha512:
- 93be60a1bd03a92a51d06954bd433813981fb748bf9948563f2f07d2fd73c9ecb6bb1f2c4ee18d8e5ce98c84bd8772d541ca7befe6f7062c9b09333c39c542dd 940 devdocs-meta_1.3.dsc
- e0aa190edb3408cfcdabe28003c6b108d9c2baafc01f30e210a27df1d7e3681ac2bce23b1a6f44ee95a6ba83ca71a80e902fac993b5fa22b69ea2e9b6121e180 13256 devdocs-meta_1.3.tar.xz
+ dbf0b45ade3db8689212d1f6a0bca1cb6f2a6de5553ec7784fee81526bc60fa6c52f474365a3f54e5a590d8b0e56675ddfbf7371179cd1ab81060f48ab72fa08 954 devdocs-meta_1.4.dsc
+ d683decc28eb0d6591850337426acb4bb7005039a38c6eee9a0983152e5da6f9205f3f4f2784d22830ffa92865aed66eb5f0c38b50a16742c435cd75e3f9717e 13360 devdocs-meta_1.4.tar.xz
 
 Package: rtaudio
 Format: 3.0 (quilt)

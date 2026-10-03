@@ -53,19 +53,19 @@ Description: Development meta-package
 
 Package: devdocs-meta
 Architecture: all
-Version: 1.3
+Version: 1.4
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 16
-Depends: devdocs
+Installed-Size: 18
+Depends: neovim (>= 0.2.2-1~), devdocs
 Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
-Filename: pool/dev/devdocs-meta/sid/devdocs-meta_1.3_all.deb
-Size: 2448
-MD5sum: 06a6d0061d0e24a1f274a21997009e72
-SHA1: d11bc249eec5649fed61af8eaa8a13f8cf12b8c1
-SHA256: 0bcc75d05c69d7880347cbf0850f1e02aefde0c40faa2f1d9868ded5f1544cd3
-SHA512: c270fc0e82a03d205dee529b8285b4319526b476fd59a9059123be1a4c5d076c57a8ee24f9292c74d1bc9e124a852838d4caa206bed3657e48759e58fffdeca8
+Filename: pool/dev/devdocs-meta/sid/devdocs-meta_1.4_all.deb
+Size: 2532
+MD5sum: 877d18ab5945154e5539319c89395105
+SHA1: 3a71079634067d9b3b5e1952ad4e54f833a35e82
+SHA256: a5be5a1fb5b58f1dc64e7e5d9adf07d09c18e45108fe5ea885619e6add309d0c
+SHA512: 3f001fe9cddc9b21531c59d2fc91a5b7da6d9596303c84b83796b63a5854d9b4880d5d7855adf09e1ef3f366b3b1f61405b01d9d9d32c8eed6d2949bfcce0e4c
 Description: Devdocs meta-package
 
 Package: devdocs-data-angular
