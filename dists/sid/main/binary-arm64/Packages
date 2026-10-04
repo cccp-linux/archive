@@ -85,7 +85,7 @@ Description: Performant, batteries-included completion plugin for neovim
 
 Package: cccp-boot-meta
 Architecture: arm64
-Version: 0.52
+Version: 1.0
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -93,17 +93,17 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 14
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-arm64-signed, wireless-regdb
-Filename: pool/main/cccp-meta/sid/cccp-boot-meta_0.52_arm64.deb
-Size: 3756
-MD5sum: eb01d8af6132e44259831302478e3b46
-SHA1: 4418b09911e9f788c68c0e9a6a236537124dfd8d
-SHA256: 18c6a6c7f9c4d2fd5e0eb9dbb9cd480f4cc8a4b7b0649a1c1e2a378b4b2545c3
-SHA512: cb10e62cc78106300f6663d67481a47be9eb8eceadc0d259904b63f73277810840f5fa5012a45446d2c512744f5c15b3f32bc078c2d1183f40d69cdfd84badeb
+Filename: pool/main/cccp-meta/sid/cccp-boot-meta_1.0_arm64.deb
+Size: 3908
+MD5sum: 3d81637220e0e528e95d30c5bcc00e14
+SHA1: e0a8100d0a0f4430d059c4f90d5d0b60e167f966
+SHA256: 5b121c4baa9b52afbab5dcb607e9254ad0aa68289d7c791e708b757ccd002ab1
+SHA512: 817e9b3a6fdb968991eeb1a2ee910c232ffa2059137bca3691ef49cf2cb973df3ece63f31223fcc451e7e717d1939a1ce720fc14c468c23fbfe525e0f9346252
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 0.52
+Version: 1.0
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -111,12 +111,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 72
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
 Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/sid/cccp-standard-meta_0.52_all.deb
-Size: 14252
-MD5sum: 7c9313c8a32d1177c22ee8295f5be194
-SHA1: 342b2b900737ccbc7dc335f18f5411781e4aa990
-SHA256: c97d510cfd5bd50643e3897fa6336ef333ccddfa4b1ef964f0721b5bf6d1d05d
-SHA512: 51eaaa240b646537a534ca3553993d4ec6a4e80d72837fde183b07dd82911d5050b0500969f4824ca41e92ba4d043a9a566b85744b3ad4cead3bfb24f5096bbc
+Filename: pool/main/cccp-meta/sid/cccp-standard-meta_1.0_all.deb
+Size: 14056
+MD5sum: af460896ff778b1423f14f80ac5dafd7
+SHA1: 9d5bdc00765e9c47752a814665ff463ee406e0c3
+SHA256: 0737a1f5241e9450e9b9d27c922ee27180888258ee01f711c73f6bda915ff99d
+SHA512: 862401964532ec28ed0d0a3788116876836aa989e11f967e949a8b74bf9879d7eae7d26d5a14a4fd8be42ad0e9304c46648f3962ac821075cd48aaaa90e35a45
 Description: Standard set of CCCP Linux packages
 
 Package: fonts-bitstream-charter
