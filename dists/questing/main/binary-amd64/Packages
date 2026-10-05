@@ -83,6 +83,47 @@ Description: Performant, batteries-included completion plugin for neovim
  resistance. It provides extensibility via pluggable sources (LSP, buffer,
  snippets, etc), component based rendering and dynamic configuration.
 
+Package: cccp-boot-meta
+Architecture: amd64
+Version: 1.4
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15
+Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
+Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-amd64-signed, wireless-regdb
+Filename: pool/main/cccp-meta/questing/cccp-boot-meta_1.4_amd64.deb
+Size: 3968
+MD5sum: 1fec56cbb81a45d183d5bf391f6e3481
+SHA1: 551e8a3dc424de7bd8b0ab0591dca12307fd87b4
+SHA256: b793bca0c95ee0d8a747250de6227e5b04382d8812d8039a36f180a58f58114b
+SHA512: 9d6d365801bcba341b55bc8b945b1056d1b5ec79a2fe8640962a9a0159ee7496eaab99d3786ea58b2016cb5a7eaaaec5d61656d8bc6f3552fadfad82a3eac3d8
+Description: Kernel and boot packages
+
+Package: cccp-standard-meta
+Architecture: all
+Version: 1.4
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 77
+Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
+Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/questing/cccp-standard-meta_1.4_all.deb
+Size: 16020
+MD5sum: 85e3e8d36ae3fa083f0d2840526ad85a
+SHA1: 032c094ba27bd0519aadb7003906b37c61c38b3e
+SHA256: f11fe3a9345e3ac4168be85a0015305d6602bc8e32d2af69ea880b02c625d864
+SHA512: 49c8a50308de47a6f0fe274608ea956aa8bd054b380603756c59c3f5978d8cac6ec2ed2b7d8778de4dc8ec481835e86192f0233a4506f252a4ec2487e1c908be
+Description: Standard set of CCCP Linux packages
+ Copy the following into your home dir:
+ * /etc/skel/.bashrc
+ * /etc/skel/.bashrc.d/
+ * /etc/skel/.profile
+ * /etc/skel/.profile.d/
+
 Package: crossover-meta
 Architecture: amd64
 Version: 0.8

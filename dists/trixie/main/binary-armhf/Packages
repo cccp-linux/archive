@@ -83,6 +83,47 @@ Description: Performant, batteries-included completion plugin for neovim
  resistance. It provides extensibility via pluggable sources (LSP, buffer,
  snippets, etc), component based rendering and dynamic configuration.
 
+Package: cccp-boot-meta
+Architecture: armhf
+Version: 1.4
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15
+Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
+Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, wireless-regdb
+Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_1.4_armhf.deb
+Size: 4052
+MD5sum: 3898807e12cc6c2dfc5b330d9e7700fa
+SHA1: bd2d47a95a8095c757ad1d1be41a8658b6c89532
+SHA256: 7ca57b89011fb9377c2bc52af4cba59047d2a8e7d4141dcb88b93e4a8b516f28
+SHA512: 7c5161283326070587cb960e8be891942c4555f6eac0d5e14c8a59c95daff1b21a97d4bcecf0791f4945715e8b92f09087e3ac6f19abc40891b891a61481f254
+Description: Kernel and boot packages
+
+Package: cccp-standard-meta
+Architecture: all
+Version: 1.4
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 77
+Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
+Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_1.4_all.deb
+Size: 15100
+MD5sum: f312c735749717726409d42986248297
+SHA1: 5f93b0948770d096e454d577b24022b1a9984eb1
+SHA256: ada27583c648ae73d696613bc17a2d3c1a89a003b8bc5ac9aa126ac8761b2189
+SHA512: a499becedbc0e1d92147303160a26e0549d354b5034b1b371cc00e7f5b32bdaeda41e0b8868f45b870f597ec1ca431817889e96745dfee65e2f97832ab7a2225
+Description: Standard set of CCCP Linux packages
+ Copy the following into your home dir:
+ * /etc/skel/.bashrc
+ * /etc/skel/.bashrc.d/
+ * /etc/skel/.profile
+ * /etc/skel/.profile.d/
+
 Package: fonts-bitstream-charter
 Architecture: all
 Version: 1.0.4+~3.5.1-1
