@@ -65,7 +65,7 @@ Package: cccp-meta
 Format: 3.0 (native)
 Binary: cccp-standard-meta, cccp-boot-meta
 Architecture: any all
-Version: 1.1
+Version: 1.2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
@@ -76,17 +76,17 @@ Package-List:
  cccp-boot-meta deb metapackages optional arch=any
  cccp-standard-meta deb metapackages optional arch=all
 Files:
- 7d058bddda9a01e91e92785e41d489ea 1005 cccp-meta_1.1.dsc
- 2a1ba53a6cd6f3ad5ac840fcc1b97bc3 25176 cccp-meta_1.1.tar.xz
+ c4b58293d60aef6bb0fcf99aec3d2b75 1005 cccp-meta_1.2.dsc
+ 783732ca0731af07b35f04e3e9831291 25288 cccp-meta_1.2.tar.xz
 Checksums-Sha1:
- 3b4f52b2cfc228cd2bf5dd6e411bd1ca3a6a5f15 1005 cccp-meta_1.1.dsc
- c677f369cf6d2a5820eb3cd541eba5895a11ae4c 25176 cccp-meta_1.1.tar.xz
+ 23e00e575727f79b49d5ebe42a15f39f08e12816 1005 cccp-meta_1.2.dsc
+ a63766d2df10656d9546304dfc09a28f8edbd0c3 25288 cccp-meta_1.2.tar.xz
 Checksums-Sha256:
- 3da1f641232f616ea671a41185fa5800fdba93284db38bf63c2c1dbf6106d546 1005 cccp-meta_1.1.dsc
- 1c5cb4658fc265183b69b68018af334389902cf0e24cb311a3fd15c03f93b440 25176 cccp-meta_1.1.tar.xz
+ 379cad23d693b5c2b9fc0550093ab37eda6b7e555b5c2864e92c997b5dd5cfe1 1005 cccp-meta_1.2.dsc
+ 3354bf6886d4780817c3324334279429df3bcaa290bd0a9d7ef9952d8734ef75 25288 cccp-meta_1.2.tar.xz
 Checksums-Sha512:
- 57e0dc0f1687dc21451d8f66405b451e5420cc333ca3cceb4be587963dd37485b24ff79986e6663ac0b0daafdddda0cd26a62a1bf0ddd09e520f73ad100a360c 1005 cccp-meta_1.1.dsc
- 71de5258bff43d35a5871d817a79814ae132335e7aa72798f6d12411026103ab23ecb055cafb545c140ac7ba9ad0c823d77af99e05f82510d6b8600f29646023 25176 cccp-meta_1.1.tar.xz
+ 40bce863228b532d8f9ea8adf90a03056a51375fcd6e63d1a23a8fac76a6ceb09568fa98fa5ab8e4b063c0e5693f261bbd1be5c50e4a6d7b8a89d4ffd1ae77f0 1005 cccp-meta_1.2.dsc
+ ba668b2ec9089194a39eabd658eb6a6e2149f4ea276c0683734066c3d7e22c4078dc3c8af7d4ec7bc2dce29d921ccef1975ad2a104375361b50d6dc45af6ac70 25288 cccp-meta_1.2.tar.xz
 
 Package: crossover-meta
 Format: 3.0 (native)
