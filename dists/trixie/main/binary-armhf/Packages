@@ -85,7 +85,7 @@ Description: Performant, batteries-included completion plugin for neovim
 
 Package: cccp-boot-meta
 Architecture: armhf
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -93,17 +93,17 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 15
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, wireless-regdb
-Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_1.4_armhf.deb
-Size: 4052
-MD5sum: 3898807e12cc6c2dfc5b330d9e7700fa
-SHA1: bd2d47a95a8095c757ad1d1be41a8658b6c89532
-SHA256: 7ca57b89011fb9377c2bc52af4cba59047d2a8e7d4141dcb88b93e4a8b516f28
-SHA512: 7c5161283326070587cb960e8be891942c4555f6eac0d5e14c8a59c95daff1b21a97d4bcecf0791f4945715e8b92f09087e3ac6f19abc40891b891a61481f254
+Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_1.5_armhf.deb
+Size: 4076
+MD5sum: b911f19007b5208945a18f8fb7a26a3f
+SHA1: 01eaf24bf08455c5400a58c0fe74c7e65ee54245
+SHA256: dfd1284651f5ee1bc515368d30e719c1176e01386bdf14120f5b3985118835f6
+SHA512: eead79c9b52b5edc53c9a8f9276502bd7a9ac335b15ec5d3909504e0442434e6ab280a3eb2816ae25efb611d00cdf03c26e43390954f022a1ec1d6bffe5b8a16
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -111,12 +111,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 77
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
 Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_1.4_all.deb
-Size: 15100
-MD5sum: f312c735749717726409d42986248297
-SHA1: 5f93b0948770d096e454d577b24022b1a9984eb1
-SHA256: ada27583c648ae73d696613bc17a2d3c1a89a003b8bc5ac9aa126ac8761b2189
-SHA512: a499becedbc0e1d92147303160a26e0549d354b5034b1b371cc00e7f5b32bdaeda41e0b8868f45b870f597ec1ca431817889e96745dfee65e2f97832ab7a2225
+Filename: pool/main/cccp-meta/trixie/cccp-standard-meta_1.5_all.deb
+Size: 15132
+MD5sum: 74e837e91b3c556bfbe464a6465440ec
+SHA1: fb24fee775e8a73d5e76421caf75bbded6f7abca
+SHA256: 67cf3672ae31f2098793971928b58cbf3b10ea47ecd7fef42e8b55a70e993fb8
+SHA512: 50fd0d04034702cfae8a9c588a27dd6478d3057a7737de255a2c6ba5499e8a01cce29e6d7c22498410c0a527db425691cb7f2cc89a562ff76cdc105c0b59c775
 Description: Standard set of CCCP Linux packages
  Copy the following into your home dir:
  * /etc/skel/.bashrc
@@ -511,45 +511,6 @@ SHA1: 306e6c8584a5c9d040bbacd578c1f853a1ff121e
 SHA256: eb6b1832e3c289a0ef67992a7ad9cd070993c0b14709aa5abcb3a10dea05ad9f
 SHA512: 7bf47bae8ac59a27929cde28f7f1d2cfc8abf893511cbf7112f74a65dfade26ebe0aa817573e12d0d52f490fafbfa6bff8fea82b074ed27853db61123f64e51d
 Description: Calendar display utility
-
-Package: quickshell
-Architecture: armhf
-Version: 0.2.1-4
-Priority: optional
-Section: x11
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 3069
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2), qt6-wayland, upower
-Filename: pool/main/quickshell/trixie/quickshell_0.2.1-4_armhf.deb
-Size: 954836
-MD5sum: 571ecc59606df830a853e91b7360b85d
-SHA1: 7b0ef87f86af6f6c7f36c3e9dad155fcde42e0c4
-SHA256: cd05b1705a995a7029231704eb27b4e805981f5d4a03872b2c47634bffda7681
-SHA512: f54a26ecfe44da2575f0aac1296f562a3603b0f8a9587d710f32579a49295f09e232d408f70d96c6d3ad2dd27c158167573db6b25366d0c547ef38371cea2419
-Homepage: https://quickshell.org
-Description: Flexible toolkit for making desktop shells with QtQuick
- Quickshell is a toolkit for building a desktop shell, which is to say
- components of your desktop like bars, widgets, lock screens, display managers,
- and the like.
- .
- Quickshell is based on QtQuick and configured with QML, the QtQuick interface
- description language. It provides integrations for common shell functionality,
- as well as support for hot reloading and tools to work with processes,
- sockets, files, and more.
- .
- Built-in integrations are currently provided for:
- .
-  * Wayland and X11 for windowing
-  * Wayland for window management and screen recording
-  * Workspace management in Hyprland, I3, and Sway
-  * Pipewire for audio controls
-  * BlueZ for bluetooth
-  * Pam for authentication and building lockscreens
-  * Greetd for building a display manager
-  * UPower for monitoring battery statistics
-  * Power Profiles Daemon
-  * MPRIS compatible media players
-  * StatusNotifierItem compatible system tray clients
 
 Package: sessionctl
 Architecture: armhf

@@ -85,7 +85,7 @@ Description: Performant, batteries-included completion plugin for neovim
 
 Package: cccp-boot-meta
 Architecture: arm64
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -93,17 +93,17 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 15
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-arm64-signed, wireless-regdb
-Filename: pool/main/cccp-meta/sid/cccp-boot-meta_1.4_arm64.deb
-Size: 4064
-MD5sum: d72cef0999c1d48e83ab840ae98f27f2
-SHA1: d23c754465aea6fa387e0e51221cf58ec30390ec
-SHA256: 7dffa4f869afc3857bb9a55a47fea189a89b174707e6d6787720ce36b3fa48f7
-SHA512: 3b778ced776bb39593760a67709a5a4a53802baaa0b401c31aa02abcf7a0439f8da1e3e3c6f212b113daa1026845a39897a076e222cefb48e6cfa92a8192ec37
+Filename: pool/main/cccp-meta/sid/cccp-boot-meta_1.5_arm64.deb
+Size: 4088
+MD5sum: 420d667c0d4e51229198dd80f932ea9d
+SHA1: edbffd7f1423faeb11361d4ddb0c2887b4672408
+SHA256: f39bae2dfb3f8096bd21254af7f3835abe64e1b2afef11997706714c4d1c447a
+SHA512: 7d9bfecbff00ce6dba2e8b475b2d1923e1af6ba04aa24947840e129f28f5f0b349b356fba8a116d9d487927a6ac41e1b2814fccd6fd4b81c78f1c9cbbda840da
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -111,12 +111,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 77
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
 Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/sid/cccp-standard-meta_1.4_all.deb
-Size: 15100
-MD5sum: f312c735749717726409d42986248297
-SHA1: 5f93b0948770d096e454d577b24022b1a9984eb1
-SHA256: ada27583c648ae73d696613bc17a2d3c1a89a003b8bc5ac9aa126ac8761b2189
-SHA512: a499becedbc0e1d92147303160a26e0549d354b5034b1b371cc00e7f5b32bdaeda41e0b8868f45b870f597ec1ca431817889e96745dfee65e2f97832ab7a2225
+Filename: pool/main/cccp-meta/sid/cccp-standard-meta_1.5_all.deb
+Size: 15132
+MD5sum: 74e837e91b3c556bfbe464a6465440ec
+SHA1: fb24fee775e8a73d5e76421caf75bbded6f7abca
+SHA256: 67cf3672ae31f2098793971928b58cbf3b10ea47ecd7fef42e8b55a70e993fb8
+SHA512: 50fd0d04034702cfae8a9c588a27dd6478d3057a7737de255a2c6ba5499e8a01cce29e6d7c22498410c0a527db425691cb7f2cc89a562ff76cdc105c0b59c775
 Description: Standard set of CCCP Linux packages
  Copy the following into your home dir:
  * /etc/skel/.bashrc
@@ -511,45 +511,6 @@ SHA1: e3b752e6b97178a115617f4f6e776722a52ad2b6
 SHA256: 5fb5c3d16ccabc3ecf104240ace357e4fa3ba00282996ace584be2090f475a48
 SHA512: 336877890151bf0d39d0a0d7f0a6797daa245143ceaf2976997725e2dcdb37e271d9a74a2966370bc3c8ae3d6c627ff28fba96ff58f79d7d2127ec2601c64064
 Description: Calendar display utility
-
-Package: quickshell
-Architecture: arm64
-Version: 0.2.1-4
-Priority: optional
-Section: x11
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 4865
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.0), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.10.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), qt6-wayland, upower
-Filename: pool/main/quickshell/sid/quickshell_0.2.1-4_arm64.deb
-Size: 1037840
-MD5sum: d4a920c204b2caad2c5ebd64fc381ae5
-SHA1: 096c752fc75234d9ad7801fc25846b8c1168081a
-SHA256: 8580539659f3418a3cc87761149ab7dcfa1d05f1e303c505b44ed8cc85936098
-SHA512: ddb7a29b8cecfb94c79dbf57db06e52d118d754fa1345efaaa722a71bff17d22b5591d9cea2a54f427ef7cf590e8e422d891e379221da33a7660cb793016b5cf
-Homepage: https://quickshell.org
-Description: Flexible toolkit for making desktop shells with QtQuick
- Quickshell is a toolkit for building a desktop shell, which is to say
- components of your desktop like bars, widgets, lock screens, display managers,
- and the like.
- .
- Quickshell is based on QtQuick and configured with QML, the QtQuick interface
- description language. It provides integrations for common shell functionality,
- as well as support for hot reloading and tools to work with processes,
- sockets, files, and more.
- .
- Built-in integrations are currently provided for:
- .
-  * Wayland and X11 for windowing
-  * Wayland for window management and screen recording
-  * Workspace management in Hyprland, I3, and Sway
-  * Pipewire for audio controls
-  * BlueZ for bluetooth
-  * Pam for authentication and building lockscreens
-  * Greetd for building a display manager
-  * UPower for monitoring battery statistics
-  * Power Profiles Daemon
-  * MPRIS compatible media players
-  * StatusNotifierItem compatible system tray clients
 
 Package: sessionctl
 Architecture: arm64

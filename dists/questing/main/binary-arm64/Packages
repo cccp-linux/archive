@@ -85,7 +85,7 @@ Description: Performant, batteries-included completion plugin for neovim
 
 Package: cccp-boot-meta
 Architecture: arm64
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -93,17 +93,17 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 15
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-arm64-signed, wireless-regdb
-Filename: pool/main/cccp-meta/questing/cccp-boot-meta_1.4_arm64.deb
-Size: 3966
-MD5sum: 8c14e7c09329ebda6505971e37adb8a7
-SHA1: ecdbff369c3f49db20f99979f155046043a569f0
-SHA256: 6a5b7f9548640f4646d3d15468b774cb1396e187b68db2291d0ebf4018b2265f
-SHA512: 102a0117eb2ea7f024742db5b5bfc5dc0d858adbdc261104ceff982006252775dea0f66fbf9241cf35a6ddc2bdfa5088f10ddd111e56ec8c42579222229a5c8f
+Filename: pool/main/cccp-meta/questing/cccp-boot-meta_1.5_arm64.deb
+Size: 3980
+MD5sum: 4f09ea2fdbdd6c4fdfb6e96b8f7072ed
+SHA1: 15b4c5bec1a1328f8e9b4c78466b4829462f0846
+SHA256: 5f6f1b1368550dae9b85fc5df422ed03d7bd87b779f59930dc827cad6d028998
+SHA512: 896c2264ead834f9007bd765cdb7ef5b485b286759d817395814e987a75836ded930544fd948d15e46b8d207ee579d9aa691313f88f21c92129e67c846bb01c3
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -111,12 +111,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 77
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
 Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/questing/cccp-standard-meta_1.4_all.deb
-Size: 16020
-MD5sum: 85e3e8d36ae3fa083f0d2840526ad85a
-SHA1: 032c094ba27bd0519aadb7003906b37c61c38b3e
-SHA256: f11fe3a9345e3ac4168be85a0015305d6602bc8e32d2af69ea880b02c625d864
-SHA512: 49c8a50308de47a6f0fe274608ea956aa8bd054b380603756c59c3f5978d8cac6ec2ed2b7d8778de4dc8ec481835e86192f0233a4506f252a4ec2487e1c908be
+Filename: pool/main/cccp-meta/questing/cccp-standard-meta_1.5_all.deb
+Size: 16042
+MD5sum: abcb850c65818472c6260673846f7df3
+SHA1: 283d32d6db49661edd3287847cef8744265ec8fd
+SHA256: 08b5044aa41de3d4ce49a5f4b0e51ae40e3c4336b28f06462c2bb70f0ff669d9
+SHA512: 7541b256bbfc54f372e2195ce8a88f1a5e63d6831a6d292238ae053348370ef3910c1cf80ba581b5137f586e27725f9311da6ac9ad103c3bf7972026460a240d
 Description: Standard set of CCCP Linux packages
  Copy the following into your home dir:
  * /etc/skel/.bashrc
@@ -511,45 +511,6 @@ SHA1: 2698431308ce11207aef3a415ab83f6c62511d7d
 SHA256: 02ee6c562afba1c7a15d2d33c72740975a9a09b68666596fd956c8fe54fd6a47
 SHA512: 48f1a97f7e003731dfec1d817b1211a93afc56b8ed03ca5b62686697a540072f544b4ba77d2311ff5c74515c560ab278ccdfde7ad9427b3f7d0b410ae2b82ec1
 Description: Calendar display utility
-
-Package: quickshell
-Architecture: arm64
-Version: 0.2.1-4
-Priority: optional
-Section: x11
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 4360
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.3.1), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2), qt6-wayland, upower
-Filename: pool/main/quickshell/questing/quickshell_0.2.1-4_arm64.deb
-Size: 1117730
-MD5sum: 1fea5d98210ebed7eb7fabed6b06754f
-SHA1: 65e963a35b5fee01410cc34fbabc4a834a793d78
-SHA256: 43fdc55794200e916e1f508b02522e95b179e4c25ce01a4f9def9bd3f0271aa6
-SHA512: ceb3295bf6ab77b9e1767fdfb6abbd80a6df1dbef07a0ce95eb8991c4c35e356a695f639f461e21be4957ef092bd33f163758f4b3ac687d051c14507f1a3b11f
-Homepage: https://quickshell.org
-Description: Flexible toolkit for making desktop shells with QtQuick
- Quickshell is a toolkit for building a desktop shell, which is to say
- components of your desktop like bars, widgets, lock screens, display managers,
- and the like.
- .
- Quickshell is based on QtQuick and configured with QML, the QtQuick interface
- description language. It provides integrations for common shell functionality,
- as well as support for hot reloading and tools to work with processes,
- sockets, files, and more.
- .
- Built-in integrations are currently provided for:
- .
-  * Wayland and X11 for windowing
-  * Wayland for window management and screen recording
-  * Workspace management in Hyprland, I3, and Sway
-  * Pipewire for audio controls
-  * BlueZ for bluetooth
-  * Pam for authentication and building lockscreens
-  * Greetd for building a display manager
-  * UPower for monitoring battery statistics
-  * Power Profiles Daemon
-  * MPRIS compatible media players
-  * StatusNotifierItem compatible system tray clients
 
 Package: sessionctl
 Architecture: arm64

@@ -85,7 +85,7 @@ Description: Performant, batteries-included completion plugin for neovim
 
 Package: cccp-boot-meta
 Architecture: armhf
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -93,17 +93,17 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 15
 Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
 Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, wireless-regdb
-Filename: pool/main/cccp-meta/questing/cccp-boot-meta_1.4_armhf.deb
-Size: 3958
-MD5sum: 12aac13620ddffc20b1530c04d407ef9
-SHA1: f1928d522650ae746bf792ac158ab1bfca644117
-SHA256: eb83829cd6b959206befe71855743d56e1f4725461c75542e4cfc67b6ab239f8
-SHA512: 3fe36bc1e73829a7c8206214e393d0e659fa4876a45fbbe2c6f643a6ae814d7a458c2b3a650666557cd20ce82b618267ffb852ae760146e8fe79478601c8c2a6
+Filename: pool/main/cccp-meta/questing/cccp-boot-meta_1.5_armhf.deb
+Size: 3972
+MD5sum: 4568c8a77cb5925c4251772476b240df
+SHA1: 8f3842516dadaa60358bd7281e55b8c6077cf44a
+SHA256: cc0ef7a7341d33ad5c9fc3dd44331697054a1adbb17b38565e6b49373bc7fcf6
+SHA512: cf7fdb559bc9cd9828185658cec092e30f7106fc482827e3182e5bbcbf1f51c4b2941df176832edd775034a897f79fb94d71f8ee399c98aaa77da2576334ecaa
 Description: Kernel and boot packages
 
 Package: cccp-standard-meta
 Architecture: all
-Version: 1.4
+Version: 1.5
 Priority: optional
 Section: metapackages
 Source: cccp-meta
@@ -111,12 +111,12 @@ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 77
 Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
 Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
-Filename: pool/main/cccp-meta/questing/cccp-standard-meta_1.4_all.deb
-Size: 16020
-MD5sum: 85e3e8d36ae3fa083f0d2840526ad85a
-SHA1: 032c094ba27bd0519aadb7003906b37c61c38b3e
-SHA256: f11fe3a9345e3ac4168be85a0015305d6602bc8e32d2af69ea880b02c625d864
-SHA512: 49c8a50308de47a6f0fe274608ea956aa8bd054b380603756c59c3f5978d8cac6ec2ed2b7d8778de4dc8ec481835e86192f0233a4506f252a4ec2487e1c908be
+Filename: pool/main/cccp-meta/questing/cccp-standard-meta_1.5_all.deb
+Size: 16042
+MD5sum: abcb850c65818472c6260673846f7df3
+SHA1: 283d32d6db49661edd3287847cef8744265ec8fd
+SHA256: 08b5044aa41de3d4ce49a5f4b0e51ae40e3c4336b28f06462c2bb70f0ff669d9
+SHA512: 7541b256bbfc54f372e2195ce8a88f1a5e63d6831a6d292238ae053348370ef3910c1cf80ba581b5137f586e27725f9311da6ac9ad103c3bf7972026460a240d
 Description: Standard set of CCCP Linux packages
  Copy the following into your home dir:
  * /etc/skel/.bashrc
@@ -511,45 +511,6 @@ SHA1: da04aa11e732673f61cde569381228c16ea4a023
 SHA256: 7030322144a0d3b02b6e3e1d3e3706fe0a7a38a01c1c794d272891e72ccbf6ae
 SHA512: 797a57815e4ae4b4c44c0761c5f55e9efcfd88e1bf41c1c113e67527e508f7b15aaec724b82a2497725c7b4497762323a60c5188d1f5ac3b1c6e2ee71b2b65c4
 Description: Calendar display utility
-
-Package: quickshell
-Architecture: armhf
-Version: 0.2.1-4
-Priority: optional
-Section: x11
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 3056
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.5), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libqt6core6t64 (>= 6.9.1), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.9.1), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.9.2), qt6-declarative-private-abi (= 6.9.2), qt6-waylandclient-private-abi (= 6.9.2), qt6-wayland, upower
-Filename: pool/main/quickshell/questing/quickshell_0.2.1-4_armhf.deb
-Size: 1103906
-MD5sum: ca463da92907d95d25cb841e0d961f77
-SHA1: 1d33fdb1b71b99ab59ef730ffea75b6ffa79f89c
-SHA256: fc7f6e2de5cd815d67b74ed61588286a78e04735455dbfcb7d65d2088100d70e
-SHA512: e864e4358d19e2db03de14e02ac0efb0825cbddf09e3a00362ffcdfe84d89e22061f2c8b81b213f21f9bee003ca5902e8490f5a8bf996e377b96d72e9a1aa5f0
-Homepage: https://quickshell.org
-Description: Flexible toolkit for making desktop shells with QtQuick
- Quickshell is a toolkit for building a desktop shell, which is to say
- components of your desktop like bars, widgets, lock screens, display managers,
- and the like.
- .
- Quickshell is based on QtQuick and configured with QML, the QtQuick interface
- description language. It provides integrations for common shell functionality,
- as well as support for hot reloading and tools to work with processes,
- sockets, files, and more.
- .
- Built-in integrations are currently provided for:
- .
-  * Wayland and X11 for windowing
-  * Wayland for window management and screen recording
-  * Workspace management in Hyprland, I3, and Sway
-  * Pipewire for audio controls
-  * BlueZ for bluetooth
-  * Pam for authentication and building lockscreens
-  * Greetd for building a display manager
-  * UPower for monitoring battery statistics
-  * Power Profiles Daemon
-  * MPRIS compatible media players
-  * StatusNotifierItem compatible system tray clients
 
 Package: sessionctl
 Architecture: armhf
