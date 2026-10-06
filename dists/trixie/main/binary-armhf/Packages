@@ -550,18 +550,18 @@ Description: Status column plugin
 
 Package: term-meta
 Architecture: all
-Version: 0.32
+Version: 0.33
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 31
+Installed-Size: 32
 Depends: cage, fonts-courier-nerd | fonts-courier, fonts-courier-nerd | fonts-symbols-nerd, fonts-ibm-plex, foot (>= 1.27.0.1), foot-themes, tmux, wl-clipboard, wlr-randr
-Filename: pool/main/term-meta/trixie/term-meta_0.32_all.deb
-Size: 4884
-MD5sum: 21ab8f94a035e23365a3843891ce467c
-SHA1: 9f2858acd6e81b28a0f00914313f6a71824db86c
-SHA256: 9e12358102f52480d46271371a8c2405f4fab0eebb5c31783db6b31a6a9e07b8
-SHA512: f99507ec397d835b85d01218ff4e96ec66c9026ff6fab9759877b40dbceff658b7930e266b7fb160e6cf165d9010e160fad050e6882be1b65dc4225909bb203f
+Filename: pool/main/term-meta/trixie/term-meta_0.33_all.deb
+Size: 5552
+MD5sum: 22956b7e344159b936cc1d2f95ac1e17
+SHA1: e19284e42cc85811dd8076cce1756f273d5110b1
+SHA256: 5399b54af5851e50731de6455b4eeb64dcb075823a17a747138bdec87f1012b8
+SHA512: 8b1d528df4c6e3994b1c04b8a32882f1ea89a956793c262dc42111bd9f08f56f2773c4aa4f061917f4e1d421cd4e49de6962adea3ffa12b4d118f319fd23916d
 Description: Terminal meta-package
 
 Package: virt-meta
