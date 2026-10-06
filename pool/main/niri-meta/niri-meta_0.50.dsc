@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: niri-meta
 Binary: niri-meta
 Architecture: any
-Version: 0.49
+Version: 0.50
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/cccp-linux/niri-meta
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  niri-meta deb metapackages optional arch=any
 Checksums-Sha1:
- a08518fe3cfcedbec0882fdc986fe9835ec79b61 6542392 niri-meta_0.49.tar.xz
+ 10459d0f585dc5877caa1da96f214af3c4e31dc8 6542560 niri-meta_0.50.tar.xz
 Checksums-Sha256:
- d69dda3057bf76b84e93ec7059a898a3b8028f35b1eb046445aab8a608311073 6542392 niri-meta_0.49.tar.xz
+ 7c6180ecd2fde038fd65c02b224df1a45b023602f1ed3b005d2a5fe1ad3d915c 6542560 niri-meta_0.50.tar.xz
 Files:
- b046ff1e2af0986af554bdd88123a9de 6542392 niri-meta_0.49.tar.xz
+ 51bd75c50d09deedf40784510c79067a 6542560 niri-meta_0.50.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCasUojwAKCRA6Vr9YT1rr
-J9pEAQCioUwMTDbpWU2kkgdYkAN/stXfxyFaTYKtTrolB54q0gEAwp8lJPO/2+XX
-xiB0Sm09IeNgWsGgrKaBH3DhgALPEg8=
-=jyy6
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCasVDoAAKCRA6Vr9YT1rr
+J2dHAP9GFEo3IbyRFQlI6HfUNw9NTPXsEfGPJXIcxlI/tEm4WgEAx95uD1h9BrhM
+xLlCNEgHQ2kQiL50MVHzwwtIidx/LgM=
+=YW7A
 -----END PGP SIGNATURE-----
