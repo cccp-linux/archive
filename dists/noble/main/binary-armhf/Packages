@@ -209,20 +209,26 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.50
+Version: 0.51
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 6692
 Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
 Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
-Filename: pool/main/niri-meta/noble/niri-meta_0.50_armhf.deb
-Size: 6518242
-MD5sum: 9d93be88f9aa9969d2cfe69b4af2b802
-SHA1: 470371b6b5658892152752c079e98deff7db198b
-SHA256: 5566fc793d17276466bc0f69cdc595f39a16b73d456cc3a2f76733068e98715b
-SHA512: 0672eab02c3cfbad9db46ab37a9829fbe470028f242f2b86069ac34a796f73cfae0cbdc6d719d5dfdfd86b72f472395e2a5260649dffb7124b2c20ad2efddf88
+Filename: pool/main/niri-meta/noble/niri-meta_0.51_armhf.deb
+Size: 6518300
+MD5sum: f28712860675834e73dc9827ceb9fd90
+SHA1: 2f218106e7cccefcb31ac0a6400a2dce74a16bd7
+SHA256: 1795c9dfd7646efa20f4b216b6233536cf15431a751255e114a680d4a67a1798
+SHA512: 664e55cb2999e8d0cd44f96288c229fab725034d002661d29b00dcc4bb9386f49a7c780797cf2fa0613c1e7d51bac5e4e6571d3ff202eab43584c8a645d6d6c4
 Description: Shell meta-package
+ Copy the following into your home dir:
+ * /etc/skel/.config/
+ * /etc/skel/.profile.d/
+ .
+ Add the following to your .config/niri/config.kdl:
+ * include "/etc/niri/config.kdl"
 
 Package: niri
 Architecture: armhf
