@@ -209,19 +209,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.49
+Version: 0.50
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 6693
+Installed-Size: 6692
 Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
 Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
-Filename: pool/main/niri-meta/noble/niri-meta_0.49_arm64.deb
-Size: 6518262
-MD5sum: 9f46bbdda086f5ac51aab7508d0b5d19
-SHA1: f709bb6f509fcec1f05078930942fa9d449e88fe
-SHA256: aeff3d78740c2ceae9a5df2c17ba84da71e525acc3f9d99f374969ea6b3156d8
-SHA512: f96579e058ba046e1e7c8391887eebe240e0c19c6bca4987743ac7bebb8fe76cb46f23445cb5f8ebda58eff77bc75814e17a506c44c8ffdaf91ccb919f75da2f
+Filename: pool/main/niri-meta/noble/niri-meta_0.50_arm64.deb
+Size: 6518242
+MD5sum: d0c9cb164b1f6ce352460f77f0dc7ee4
+SHA1: ed3a3cd4c080ef7e4714c180a21c2466901ad4f9
+SHA256: 2698ff888d089a31c773b075d8947012b333bd22e84625ce892540a65be7ac7d
+SHA512: e3b2d2c17f5a20461360aa5823b3b88d7436564fa43cc7ae2584baaaba747cfba574feaa4411d402e1db6d4e94c91f5591443ef9e2334727e52c5ad715fbe395
 Description: Shell meta-package
 
 Package: niri
