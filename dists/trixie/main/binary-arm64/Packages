@@ -410,19 +410,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: arm64
-Version: 0.47
+Version: 0.48
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 73
-Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, swayimg, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
-Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp, zathura
-Filename: pool/main/niri-meta/trixie/niri-meta_0.47_arm64.deb
-Size: 12540
-MD5sum: 2f64c6b35b6082f9555ef03d688c0ad4
-SHA1: 1dc6e8d728b92a585e5df88bdfa4567a099fceac
-SHA256: ca15eda04572e0beee9c23639a14c527d881705fc037bb1b7843a00b07ab5d61
-SHA512: 448a36945302bf78c93e8e492c9e8226a210451c5d89de980d995fe8a95d413f03f85b3fda9da5f6a7f72e83f9837be8a3f1a9f37fe308ffa47dbdd4a7fd167b
+Installed-Size: 6691
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
+Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
+Filename: pool/main/niri-meta/trixie/niri-meta_0.48_arm64.deb
+Size: 6532064
+MD5sum: 6a80fd399c7484addb39e07b32c89e70
+SHA1: 60308c79db6d44895f9ed07ce7261f634336c011
+SHA256: bad27e4966939aed21558e314a99303ddc3aa43f9de076b91f746ea5a06fe9a7
+SHA512: 9b4161cd220451b10807274f6703a69935e622c8027de7368cf84aa5e268c878703c13699133cdbecedc4ca0880b32d1eff1649c31841938f3b11369db0c83ea
 Description: Shell meta-package
 
 Package: niri

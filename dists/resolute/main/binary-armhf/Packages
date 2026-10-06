@@ -410,19 +410,19 @@ Description: Neovim meta-package
 
 Package: niri-meta
 Architecture: armhf
-Version: 0.47
+Version: 0.48
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 73
-Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, swayimg, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
-Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp, zathura
-Filename: pool/main/niri-meta/resolute/niri-meta_0.47_armhf.deb
-Size: 12830
-MD5sum: 45de5a80e4756ccfed8a1f1ed7c6bb3a
-SHA1: 0b7b717e71762edaaa5b86a9ef75aa50aadd8070
-SHA256: 3905e2c73f63d3dbedac4c731835208c67c15881aeb660c922db0c0530b80fc4
-SHA512: 15d68245af0c98abcd639c0eba9d4743080a9f7672da417cdea109a5933ed870dff8611b526b95fbbc3ce94647f6fd0b4a8f04bd59fa4cfd2099d76be0fda10d
+Installed-Size: 6691
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
+Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
+Filename: pool/main/niri-meta/resolute/niri-meta_0.48_armhf.deb
+Size: 6517912
+MD5sum: a5e4ba105ce509799c9f74d8867839ff
+SHA1: d971130d77b3e41d0b6697177f27a217a0ae358b
+SHA256: 1857a59044b706d21903eaf6786cdc8a851985ed34195ecfed87afdf9df5b430
+SHA512: 45e235f6edb9c9944f8ce646051ff294da946f28bfafa16aec975a5a7338b384200b1b3ea473a021b3235666068ee6859913459a8607fd27944bc053e3e3eb85
 Description: Shell meta-package
 
 Package: niri
