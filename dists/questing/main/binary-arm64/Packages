@@ -587,23 +587,6 @@ SHA256: d852e53340feabafa1104d8ac5054828f1c37273f52ad4d65efb26c6169c9e11
 SHA512: 80d07e1437efe1a8b990e2101b7eaa4fe73f17931021fa43de23018413665f10b6a501d7b1494dbf98d38dee427d3923fb8a0711ff453ccaf4f7dc67af514db6
 Description: Virtual machine meta-package
 
-Package: xorg-meta
-Architecture: all
-Version: 1.4
-Priority: optional
-Section: metapackages
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 19
-Depends: fonts-courier-nerd, xorg, xserver-xorg-video-fbdev, xserver-xorg-video-intel, xserver-xorg-video-nouveau, xterm
-Filename: pool/main/xorg-meta/questing/xorg-meta_1.4_all.deb
-Size: 2158
-MD5sum: 1a41ba4d217b437d51718061a6bdeefd
-SHA1: 9d135a21ca239013a1c41e9d435dcc9628693a36
-SHA256: b10851a59b6f83d20fd4c61354e7c5d3cd2d42c33f3d7e4930ab02da2f0790d0
-SHA512: 45fe11ba99989b14a1be6d6d4eb6f02623d985eda13da99aaba4848c862612408aef2f52215933da3d3c2c69cfe5a97add6abca05eaf5414cc19c60e118ae9a8
-Description: xorg-meta
- X11 meta-package
-
 Package: xwayland-satellite
 Architecture: arm64
 Version: 0.8.3-1
