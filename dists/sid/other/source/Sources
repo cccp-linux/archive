@@ -1,0 +1,24 @@
+Package: kde-meta
+Format: 3.0 (native)
+Binary: kde-meta
+Architecture: all
+Version: 0.3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Directory: pool/other/kde-meta
+Package-List:
+ kde-meta deb metapackages optional arch=all
+Files:
+ 7254dc4015292de8647d4939467164e7 804 kde-meta_0.3.dsc
+ ba358777df01a7ee81b0bc80a720636d 12860 kde-meta_0.3.tar.xz
+Checksums-Sha1:
+ e45913a64e7883e42f95c46d6e66c6813be824b6 804 kde-meta_0.3.dsc
+ a3b326a23a28a94023325b9bc29f0af21ea0da80 12860 kde-meta_0.3.tar.xz
+Checksums-Sha256:
+ 30d5f408d2b25a8b12e64d79575337084147f1db63656a652bceb420b1bb3305 804 kde-meta_0.3.dsc
+ 37d3d180cc72c099332e0d9c3ab27236c7e2e55103796ccac045c6586bc876a5 12860 kde-meta_0.3.tar.xz
+Checksums-Sha512:
+ 5287c2b20d3cd28cc097893b35edbf9b6344f87a377eeb61aa7ba26b2cf639bde72255c0cf8bdb4dc0d99c4b3c35db3bc6eade41095316be81255bc6f9527e04 804 kde-meta_0.3.dsc
+ 60c94a3e8c8757283df021f432a7e06cf1d069e097c4eb713f2a4a6d4e3e526eef76074055f45c65ab83d30629f24b240ae6ba1d8439e5f494c12d1a2043208c 12860 kde-meta_0.3.tar.xz
+
