@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: aprox
 Binary: aprox
 Architecture: all
-Version: 0.2
+Version: 0.3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Vcs-Browser: https://github.com/cccp-linux/aprox
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  aprox deb admin optional arch=all
 Checksums-Sha1:
- 4dedec58920d254d1ad2f04720b7d46904f7a7f4 14916 aprox_0.2.tar.xz
+ 6677f004c7adf16ff17167e1abf29a902e735676 15144 aprox_0.3.tar.xz
 Checksums-Sha256:
- 1bfe86dfc3edb40cfae1fed0ad42bf6e54c937195b64abdfe7bde40b307e558a 14916 aprox_0.2.tar.xz
+ d545ad27613da752e13b674ad0bb64ca4f8747890c251c7e75f07731f4997da0 15144 aprox_0.3.tar.xz
 Files:
- 85ee26846f083c42e44632a20336c108 14916 aprox_0.2.tar.xz
+ be14931f685bf9b446716173a316d283 15144 aprox_0.3.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCahuZ0QAKCRA6Vr9YT1rr
-J+J3AP0dlY1FLnqDrjS/pAm6bPXGv17GClWDfhO8Gu8Pjxu4zgD+I7VQT0Haw+ih
-COpmT5Xqq5oaWB0PN6u0X4RXHPp2Bww=
-=oQXG
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCas6rWAAKCRA6Vr9YT1rr
+J51qAQCryg0GajZh35YMgreR5YepgjukEjUB9jZ+hvI81R1IeQEAqvPWkJ6nZf1N
+4h1B52G0Zk5k6z3GWmJ5Nt3OMK4IeAE=
+=3GZ2
 -----END PGP SIGNATURE-----
