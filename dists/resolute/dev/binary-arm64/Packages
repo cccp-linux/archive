@@ -1,17 +1,17 @@
 Package: aprox
 Architecture: all
-Version: 0.2
+Version: 0.3
 Priority: optional
 Section: admin
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 26
+Installed-Size: 27
 Depends: python3:any
-Filename: pool/dev/aprox/resolute/aprox_0.2_all.deb
-Size: 4352
-MD5sum: 1560f05b79bf8c4014564154188005a5
-SHA1: 9efcd60ffaf471f62fe04755c443665ff001d6e3
-SHA256: a8d1b2e3874b3ff0cb07b2edf5a62d94d65c3721f908e6ad2309af7e92ea87d3
-SHA512: dc2fbfae4f1b6f6a759cb59033920fae8508626315d29b199107cee414f2498107f3418d0a7895603bce43ab2eefe3a70cac76e560ea80076a1fcc2e2daae734
+Filename: pool/dev/aprox/resolute/aprox_0.3_all.deb
+Size: 4694
+MD5sum: ea798b6ecae6cf8c8ba2bf6765740ef9
+SHA1: 000f56e11dc1bb60bbafef9709a719b9a60876db
+SHA256: e1469f75f421f61443e1266f54a2e1d37fbcf10ebf4b8bbed5520be35f946307
+SHA512: 88f679c0d588d337f22434ed0aa6beaa5cc1e470b435f66908004317b6280d7f2e8646cd60731100ffe192f9f87b3cac45972557842084dd58a97bb4158ce182
 Description: Simple caching apt proxy
 
 Package: debchange

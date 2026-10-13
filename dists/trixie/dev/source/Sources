@@ -2,7 +2,7 @@ Package: aprox
 Format: 3.0 (native)
 Binary: aprox
 Architecture: all
-Version: 0.2
+Version: 0.3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13)
@@ -12,17 +12,17 @@ Directory: pool/dev/aprox
 Package-List:
  aprox deb admin optional arch=all
 Files:
- a873f5d6f32718dd18977c326cab65cd 877 aprox_0.2.dsc
- 85ee26846f083c42e44632a20336c108 14916 aprox_0.2.tar.xz
+ a6661005dfa27592f3adce07d2e96553 877 aprox_0.3.dsc
+ be14931f685bf9b446716173a316d283 15144 aprox_0.3.tar.xz
 Checksums-Sha1:
- cc0f465bb5e9b4c2b25ce6b47c9c24625562b316 877 aprox_0.2.dsc
- 4dedec58920d254d1ad2f04720b7d46904f7a7f4 14916 aprox_0.2.tar.xz
+ 3745dc03a1de9166e499b0544d08f1f6259d8d85 877 aprox_0.3.dsc
+ 6677f004c7adf16ff17167e1abf29a902e735676 15144 aprox_0.3.tar.xz
 Checksums-Sha256:
- 8e33b898620c22cc9bd31fbcfcbb02ab9ce8a80c7dfe4efd553a9bdd35b36fe7 877 aprox_0.2.dsc
- 1bfe86dfc3edb40cfae1fed0ad42bf6e54c937195b64abdfe7bde40b307e558a 14916 aprox_0.2.tar.xz
+ 2a610f4f97f489a30225eaac2316d2401bff9223bddfc4a595a8c790e848bf74 877 aprox_0.3.dsc
+ d545ad27613da752e13b674ad0bb64ca4f8747890c251c7e75f07731f4997da0 15144 aprox_0.3.tar.xz
 Checksums-Sha512:
- 2441149263f95093756edf20cab92d4e86c7c7ae11449581c9f264adbf999984dad7a0f69c0e1325ce2863ce83fa6ab20d048180bda5aac7b6b16fc4fa561cd8 877 aprox_0.2.dsc
- 608b1808d76e26376e28c6fee4e45b221e8716a4e562dffc8ce7764c0b5ce3b6a788da0e0a5539a77aecafdb84c5712ddf1bf88ae2374b5b170133b68da788e8 14916 aprox_0.2.tar.xz
+ 5a8a4c906bbb4ce9d9e2f4653e451e744ee85e253df47e99e8d461ddf06a91fdc712eef944feb0e867a89575ad307aac808c59037ffccad39b1a7f7b928033a4 877 aprox_0.3.dsc
+ 8fa4cc63ca7ec073ef83f667f1be0d3ec856d54db6cdbf70c3d15324bcc6cb22ee7baadb710e0c806fd1208106337566c17dd9054da997b7e1978db8195af40d 15144 aprox_0.3.tar.xz
 
 Package: debchange
 Format: 3.0 (native)
