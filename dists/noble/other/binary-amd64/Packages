@@ -1,16 +1,16 @@
 Package: kde-meta
 Architecture: all
-Version: 0.5
+Version: 0.6
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 18
 Depends: plasma-desktop, plasma-workspace
-Recommends: bluedevil, cifs-utils, dolphin, ffmpeg, fonts-courier-nerd, fonts-freefont-otf, fonts-hack, fonts-liberation, fonts-open-sans, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gwenview, kate, kimageformat6-plugins, kio-extras, kio-fuse, konsole, kscreen, mpv, okular, pipewire-audio, plasma-nm, plasma-pa, plasma-systemmonitor, rtkit, systemsettings
-Filename: pool/other/kde-meta/noble/kde-meta_0.5_all.deb
-Size: 2424
-MD5sum: 26d5293fa4d5dfee3b1795e2f45d555c
-SHA1: a90f5faf2212a8dc82cdbb841290385e962c5df8
-SHA256: 364dd619954f1429bb21cf9a5d92e92d22e7ee11de1f38464f5f7f796dcebccb
-SHA512: bc2055199fe54a8e9b8e1684d3b262ba7b3588955cf72bc453d389d3e331a7b64529815b52d407d1ac119111852fa845166bb31958fbe344bdee61b2a1e3ba7f
+Recommends: bluedevil, cifs-utils, desktop-file-utils, dolphin, ffmpeg, ffmpegthumbs, fonts-courier-nerd, fonts-freefont-otf, fonts-hack, fonts-liberation, fonts-open-sans, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gwenview, kate, kimageformat6-plugins, kio-extras, kio-fuse, konsole, kscreen, mpv, okular, pipewire-audio, plasma-nm, plasma-pa, plasma-systemmonitor, rtkit, systemsettings, xdg-utils
+Filename: pool/other/kde-meta/noble/kde-meta_0.6_all.deb
+Size: 2452
+MD5sum: d79f71383945a778f8d60a0fa3ff2a7e
+SHA1: ca84a31f6fe2eafd0ea6b62483bb3b2b9b4ad9ef
+SHA256: f240b9a097d71f4de5746ef566955ebc658f04282d7ad4d9bcbb482e00764e30
+SHA512: 6e678506448c7656645427ccb22b48053731a522369a1ec68e09f3e48493561a295cca89a7f41d0edb4a497a5cc393877574b7ae9cd14ec47d13c0f3b096cc6e
 Description: KDE meta-package
 
