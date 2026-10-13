@@ -1,17 +1,17 @@
 Package: kde-meta
 Architecture: all
-Version: 0.3
+Version: 0.4
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 14
-Depends: dolphin, kate, plasma-desktop, systemsettings
-Recommends: alsa-topology-conf, alsa-ucm-conf, bluez, cifs-utils, desktop-file-utils, ffmpeg, ffmpegthumbs, fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gwenview, kimageformat6-plugins, kio-extras, kscreen, mpv, okular, phonon4qt6-backend-null, pipewire, pipewire-audio, plasma-nm, plasma-pa, rtkit, wireplumber, wpasupplicant, xdg-utils
-Filename: pool/other/kde-meta/questing/kde-meta_0.3_all.deb
-Size: 2172
-MD5sum: ef934f77d1c0dd607b4fd44d6115fa82
-SHA1: 9ad213b3c5cbf019c0fe601ec4257cabaf6db680
-SHA256: e6d20ac8a15817c428dbcd5f05d5fa14f6d76fbb47037c849a34f28d68bfe10a
-SHA512: b9cf2bd4ee0e0e9c656827549d45ea87b68f2a77aaa51a65bcfb4698f4c25e59f37521c98397ce5183193ce5dbb7aa3b627f656e2c023d31a6ac5b9f4021a98a
+Installed-Size: 18
+Depends: plasma-desktop, plasma-workspace
+Recommends: bluedevil, cifs-utils, dolphin, ffmpeg, fonts-courier-nerd, fonts-freefont-otf, fonts-hack, fonts-liberation, fonts-open-sans, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gwenview, kate, kimageformat6-plugins, kio-extras, kio-fuse, konsole, kscreen, mpv, okular, phonon4qt6-backend-null, pipewire-audio, plasma-nm, plasma-pa, plasma-systemmonitor, rtkit, systemsettings
+Filename: pool/other/kde-meta/questing/kde-meta_0.4_all.deb
+Size: 2412
+MD5sum: 0561547bced1a0027e3d7ff860739a1c
+SHA1: 02a8f98f8a706746d57835298d55b3987ea34328
+SHA256: a03fc46b70d31a5356aeabf3095d986767a483192d0f0fee0a4d7146e55dca36
+SHA512: 3d719e01eccec9ce2246f8bb6303eb413e97dbd1cb7582989ebdf0e19c69b542d205676a3dfe34958933ac016b57688e5d38e87ee6487d158c0f6971ca6764fd
 Description: KDE meta-package
 
