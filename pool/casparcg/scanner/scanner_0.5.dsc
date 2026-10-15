@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: scanner
 Binary: casparcg-scanner
 Architecture: all
-Version: 0.4.1
+Version: 0.5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Vcs-Browser: https://github.com/dimitry-ishenko-casparcg/scanner
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pypr
 Package-List:
  casparcg-scanner deb python optional arch=all
 Checksums-Sha1:
- 0853767d93be924d8c844fad7e4338ae17b85faa 21580 scanner_0.4.1.tar.xz
+ 16025b9b946d60e7c35da959f63da9376dc70f8c 39032 scanner_0.5.tar.xz
 Checksums-Sha256:
- 8e916c491284608f7eb79f55f85f1043dc751066128a5b36cb6610a1bd17fdf8 21580 scanner_0.4.1.tar.xz
+ 1986a2c2e033913e6c00cf84b292a1153cfa3826c849309da9660115b3ad7331 39032 scanner_0.5.tar.xz
 Files:
- b776dba50d42eb2349d0eea0258c0d50 21580 scanner_0.4.1.tar.xz
+ a436a0b1d9a3cab45709b9f60417fe8d 39032 scanner_0.5.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCarWOpgAKCRA6Vr9YT1rr
-JwDMAQCRhu97e5WLOj0tUOWDXkdXiiKgsdSAyIS70q/qRpFlBAD9GTecEQrG1c6W
-NDvZp7NjJxvluZ6jGVYz/OdCX2leqwQ=
-=FwOp
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCatFnQQAKCRA6Vr9YT1rr
+JxlaAP9TzDgGVqSm2nLZP1xDx01E+Jg6ns8/28v2pKYApmBXuAEAvKZKkMyoy+tP
+D1E6LhaPybX+BaoGGmaX5s6jTyMjGQM=
+=RsJ8
 -----END PGP SIGNATURE-----
