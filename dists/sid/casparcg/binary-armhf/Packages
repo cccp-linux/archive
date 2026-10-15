@@ -99,19 +99,19 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-scanner
 Architecture: all
-Version: 0.4.1
+Version: 0.5
 Priority: optional
 Section: python
 Source: scanner
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 60
+Installed-Size: 56
 Depends: python3-flask, python3-lxml, python3-waitress, python3-watchdog, python3:any, ffmpeg
-Filename: pool/casparcg/scanner/sid/casparcg-scanner_0.4.1_all.deb
-Size: 12440
-MD5sum: 0101d4515d725cfb7456d83c7d3a1fe6
-SHA1: c4bc585f4a3815c4596ff7aae9b294d38d48d217
-SHA256: 8ab8dfd8e35b3a24a7e8f223bd87a36aa4dd01ee3a7cb8edb6809a971a855100
-SHA512: 4ec4198a5f96117f8bdbe61daac7a03f5a6e47928d34bc2cadb2d8f890bb09909eb242501fd8d4003b903bca077972af0ce3a4a1bd9d0ffdfe4c1680c9bf0b9d
+Filename: pool/casparcg/scanner/sid/casparcg-scanner_0.5_all.deb
+Size: 12692
+MD5sum: cecbb667107037ff4f8e55f69e0264d5
+SHA1: 4eeda7ff1eb1ae3d25dffd696c63cf62fd132796
+SHA256: 9b036f63a5deb564e2d000a811434a49523020f8a8a8d98b77b738a0a4794073
+SHA512: bdf21253d4c554401174aa8142b2b5e07b8c1ae8608c525f5704baa21720024fb9a60ac99c15049056b0a7d87c5b30e1f97fbf1aa38b0d1ccdbb82ee30545b74
 Description: CasparCG Media Scanner
  This is an alternate implementation of the written in Python. It can be used
  as a drop-in replacement for the original, or as a standalone background

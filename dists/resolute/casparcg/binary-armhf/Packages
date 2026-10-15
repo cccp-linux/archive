@@ -1,18 +1,18 @@
 Package: casparcg-scanner
 Architecture: all
-Version: 0.4.1
+Version: 0.5
 Priority: optional
 Section: python
 Source: scanner
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 61
+Installed-Size: 57
 Depends: python3-flask, python3-lxml, python3-waitress, python3-watchdog, python3:any, ffmpeg
-Filename: pool/casparcg/scanner/resolute/casparcg-scanner_0.4.1_all.deb
-Size: 12782
-MD5sum: 137de6b7a909d8b50554add3947f466c
-SHA1: 2b736748d31ef67e3d51d53d224fbf08d4d30b5e
-SHA256: 9a43df4c7472178831530c616246bed05d7bc7697605da99eca25fbe7e7ae502
-SHA512: f5f833edc3f66274000cb6c44224ee81b8977af92e0f678ef3befa7b96a3deb89fba5cb1591d44e3b0d6282242df05f81ed12c65a9f2900812ec90caa9b1b242
+Filename: pool/casparcg/scanner/resolute/casparcg-scanner_0.5_all.deb
+Size: 13088
+MD5sum: 973ee5e2eecf46b8e63068fd7bd0c678
+SHA1: 223dcf460f1205c1b04b470a4dfe07ad0594dcad
+SHA256: 3e191c444f85b8936ce914c11d7c6381a167a69c3075702e1fc86d932e12c704
+SHA512: 52bae363af9f608318cea5a50a38a6f96f14128963486620dd97ced3fde250ca5b8823e9dc730aea931e5876fc7e38a70f91cc788e2c2e2420ba5625aa9e7990
 Description: CasparCG Media Scanner
  This is an alternate implementation of the written in Python. It can be used
  as a drop-in replacement for the original, or as a standalone background
