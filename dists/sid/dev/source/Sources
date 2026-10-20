@@ -102,6 +102,33 @@ Checksums-Sha512:
  a2e46d59c8f76dd3270532c6675565ec8e9b61357015db5905c831b367b60c6d701ff6534029b815e8e7ecbbdeb489fbbaad0494a7be9f3e7796c5d8a5ea1224 954 devdocs-meta_1.6.dsc
  f660ecb2beb3c5eebf813ed094a9416c1e0dcee7341219970e686692bb2a921161c37ea86fb1592c471d3b6ef8a43a53bff41b7d74fcc093023244d580537e90 13444 devdocs-meta_1.6.tar.xz
 
+Package: pgm-args
+Format: 3.0 (native)
+Binary: libpgm-args-dev
+Architecture: all
+Version: 2.0
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
+Homepage: https://github.com/dimitry-ishenko-cpp/pgm-args
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/pgm-args
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/pgm-args.git
+Directory: pool/dev/pgm-args
+Package-List:
+ libpgm-args-dev deb libdevel optional arch=all
+Files:
+ cfc4eda5752039de3b91aea91c045aa3 1042 pgm-args_2.0.dsc
+ 5e4602df1bde83243c7b76a4c3883b58 1416220 pgm-args_2.0.tar.xz
+Checksums-Sha1:
+ 041c16965fc6a70ca802bf654d9c10ebb53fd8c1 1042 pgm-args_2.0.dsc
+ 8f194935f90aa44db845c50adf572bc1c0a8782c 1416220 pgm-args_2.0.tar.xz
+Checksums-Sha256:
+ 2181696b03713a26f9cd6528a45fdc5a74cef467006e1a26c4aa64b3581b0fe5 1042 pgm-args_2.0.dsc
+ bd605c29b4a64b8de3e6d39c9475ae2d495bab97f199d82e67eb2e502c8e03be 1416220 pgm-args_2.0.tar.xz
+Checksums-Sha512:
+ 18e78b35e26be6a532855f5ca9efb7cbc963dc79dc86a5e72718e1c5e01fa10c8e029e57ac58a86712af1cd2152217dcfa0b1c6fbef62deb1ff91efc3432dc1b 1042 pgm-args_2.0.dsc
+ 4d7a508c0aaaba186e8188082e208691c3a2ce3692d9ed336fc875b232116a7ad69930549be0587d864ff3ec4686bb8d3323ed9102ebf0fc91c9787d96d7a19c 1416220 pgm-args_2.0.tar.xz
+
 Package: uscan
 Format: 3.0 (native)
 Binary: uscan

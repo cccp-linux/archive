@@ -5124,6 +5124,25 @@ SHA512: 9d2089682224dd5ba4327c9ab80b18652ac96c10cd5a09232be98f8bfd310affb1e3cccc
 Homepage: https://devdocs.io
 Description: View devdocs offline in a terminal
 
+Package: libpgm-args-dev
+Architecture: all
+Version: 2.0
+Priority: optional
+Section: libdevel
+Source: pgm-args
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 61
+Filename: pool/dev/pgm-args/resolute/libpgm-args-dev_2.0_all.deb
+Size: 18848
+MD5sum: 6c8f9c4084e05c129f60b3fd8f212a27
+SHA1: c715ea4214468e5f3192265ec7790edb953504c6
+SHA256: b5b8853fd7b31040abc0179ab4796b50fa9310dc988d16c4197445e5cfd14a1e
+SHA512: a83a6268ff61a89441498fb6dae70860f3e869001f5f14fc05e768e4f6a0f1602eb9e0498c26b61260a32b0553d1fb5df196a1e5dfd3b74321756c7d3ff76593
+Homepage: https://github.com/dimitry-ishenko-cpp/pgm-args
+Description: pgm::args – Define & Process Program Arguments in C++
+ This simple header-only library allows you to easily define, parse and examine
+ program options and positional parameters in a C++ program.
+
 Package: uscan
 Architecture: all
 Version: 2.26.9.3
