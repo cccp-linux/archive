@@ -8,11 +8,11 @@ Binary: devdocs, devdocs-data-angular, devdocs-data-angularjs, devdocs-data-ansi
  devdocs-data-haxe-flash, devdocs-data-haxe-hashlink, devdocs-data-haxe-java, devdocs-data-haxe-javascript, devdocs-data-haxe-lua, devdocs-data-haxe-neko, devdocs-data-haxe-php, devdocs-data-haxe-python, devdocs-data-haxe-sys, devdocs-data-homebrew, devdocs-data-html, devdocs-data-htmx, devdocs-data-http, devdocs-data-i3, devdocs-data-immutable, devdocs-data-influxdata, devdocs-data-jasmine, devdocs-data-javascript, devdocs-data-jekyll, devdocs-data-jest, devdocs-data-jinja, devdocs-data-joi, devdocs-data-jq, devdocs-data-jquery, devdocs-data-jquerymobile, devdocs-data-jqueryui, devdocs-data-jsdoc, devdocs-data-julia, devdocs-data-knockout, devdocs-data-koa, devdocs-data-kotlin, devdocs-data-kubectl, devdocs-data-kubernetes, devdocs-data-laravel, devdocs-data-latex, devdocs-data-leaflet, devdocs-data-less, devdocs-data-liquid, devdocs-data-lit, devdocs-data-lodash, devdocs-data-love, devdocs-data-lua, devdocs-data-make, devdocs-data-man, devdocs-data-maplibre-gl,
  devdocs-data-mariadb, devdocs-data-marionette, devdocs-data-markdown, devdocs-data-matplotlib, devdocs-data-meteor, devdocs-data-minitest, devdocs-data-mocha, devdocs-data-modernizr, devdocs-data-moment, devdocs-data-moment-timezone, devdocs-data-mongoose, devdocs-data-nextjs, devdocs-data-nginx, devdocs-data-nginx-lua-module, devdocs-data-nim, devdocs-data-nix, devdocs-data-node, devdocs-data-nokogiri, devdocs-data-npm, devdocs-data-numpy, devdocs-data-nushell, devdocs-data-ocaml, devdocs-data-octave, devdocs-data-odin, devdocs-data-opengl, devdocs-data-openjdk, devdocs-data-openjdk-gui, devdocs-data-openjdk-web, devdocs-data-openlayers, devdocs-data-opentofu, devdocs-data-opentsdb, devdocs-data-padrino, devdocs-data-pandas, devdocs-data-perl, devdocs-data-phalcon, devdocs-data-phaser, devdocs-data-phoenix, devdocs-data-php, devdocs-data-phpunit, devdocs-data-playwright, devdocs-data-point-cloud-library, devdocs-data-polars, devdocs-data-pony,
  devdocs-data-postgresql, devdocs-data-powershell, devdocs-data-powershell-scripting, devdocs-data-prettier, devdocs-data-pug, devdocs-data-puppeteer, devdocs-data-pygame, devdocs-data-pytest, devdocs-data-python, devdocs-data-pytorch, devdocs-data-q, devdocs-data-qt, devdocs-data-qunit, devdocs-data-r, devdocs-data-rabbitmq, devdocs-data-rack, devdocs-data-rails, devdocs-data-ramda, devdocs-data-react, devdocs-data-react-bootstrap, devdocs-data-react-native, devdocs-data-react-router, devdocs-data-reactivex, devdocs-data-redis, devdocs-data-redux, devdocs-data-relay, devdocs-data-requests, devdocs-data-requirejs, devdocs-data-rethinkdb-java, devdocs-data-rethinkdb-javascript, devdocs-data-rethinkdb-python, devdocs-data-rethinkdb-ruby, devdocs-data-ruby, devdocs-data-rust, devdocs-data-rxjs, devdocs-data-saltstack, devdocs-data-sanctuary, devdocs-data-sanctuary-def, devdocs-data-sanctuary-type-classes, devdocs-data-sass, devdocs-data-scala, devdocs-data-scala-library,
- devdocs-data-scala-reflection, devdocs-data-scikit-image, devdocs-data-scikit-learn, devdocs-data-sequelize, devdocs-data-sinon, devdocs-data-socketio, devdocs-data-spring-boot, devdocs-data-sqlite, devdocs-data-statsmodels, devdocs-data-svelte, devdocs-data-svg, devdocs-data-symfony, devdocs-data-tailwindcss, devdocs-data-tcl-tk, devdocs-data-tcllib, devdocs-data-tensorflow, devdocs-data-tensorflow-c++, devdocs-data-terraform, devdocs-data-threejs, devdocs-data-tokio, devdocs-data-trio, devdocs-data-twig, devdocs-data-typescript, devdocs-data-underscore, devdocs-data-vagrant, devdocs-data-varnish, devdocs-data-vertx, devdocs-data-vite, devdocs-data-vitest, devdocs-data-vue, devdocs-data-vue-router, devdocs-data-vueuse, devdocs-data-vuex, devdocs-data-vulkan, devdocs-data-wagtail, devdocs-data-web-extensions, devdocs-data-webpack, devdocs-data-werkzeug, devdocs-data-wordpress, devdocs-data-xslt-xpath, devdocs-data-yarn, devdocs-data-yarn-classic, devdocs-data-yii,
- devdocs-data-zig,
+ devdocs-data-scala-reflection, devdocs-data-scikit-image, devdocs-data-scikit-learn, devdocs-data-sequelize, devdocs-data-sinon, devdocs-data-socketio, devdocs-data-spring-boot, devdocs-data-sqlite, devdocs-data-statsmodels, devdocs-data-svelte, devdocs-data-svg, devdocs-data-symfony, devdocs-data-tailwindcss, devdocs-data-tanstack-query, devdocs-data-tanstack-router, devdocs-data-tcl-tk, devdocs-data-tcllib, devdocs-data-tensorflow, devdocs-data-tensorflow-c++, devdocs-data-terraform, devdocs-data-threejs, devdocs-data-tokio, devdocs-data-trio, devdocs-data-twig, devdocs-data-typescript, devdocs-data-typst, devdocs-data-underscore, devdocs-data-vagrant, devdocs-data-valibot, devdocs-data-varnish, devdocs-data-vertx, devdocs-data-vite, devdocs-data-vitest, devdocs-data-vue, devdocs-data-vue-router, devdocs-data-vueuse, devdocs-data-vuex, devdocs-data-vulkan, devdocs-data-wagtail, devdocs-data-web-extensions, devdocs-data-webpack, devdocs-data-werkzeug,
+ devdocs-data-wordpress, devdocs-data-xslt-xpath, devdocs-data-yarn, devdocs-data-yarn-classic, devdocs-data-yii, devdocs-data-zig,
  devdocs-data-zsh
 Architecture: all
-Version: 1.5
+Version: 1.6
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://devdocs.io
 Standards-Version: 4.6.2
@@ -254,6 +254,8 @@ Package-List:
  devdocs-data-svg deb doc optional arch=all
  devdocs-data-symfony deb doc optional arch=all
  devdocs-data-tailwindcss deb doc optional arch=all
+ devdocs-data-tanstack-query deb doc optional arch=all
+ devdocs-data-tanstack-router deb doc optional arch=all
  devdocs-data-tcl-tk deb doc optional arch=all
  devdocs-data-tcllib deb doc optional arch=all
  devdocs-data-tensorflow deb doc optional arch=all
@@ -264,8 +266,10 @@ Package-List:
  devdocs-data-trio deb doc optional arch=all
  devdocs-data-twig deb doc optional arch=all
  devdocs-data-typescript deb doc optional arch=all
+ devdocs-data-typst deb doc optional arch=all
  devdocs-data-underscore deb doc optional arch=all
  devdocs-data-vagrant deb doc optional arch=all
+ devdocs-data-valibot deb doc optional arch=all
  devdocs-data-varnish deb doc optional arch=all
  devdocs-data-vertx deb doc optional arch=all
  devdocs-data-vite deb doc optional arch=all
@@ -287,16 +291,16 @@ Package-List:
  devdocs-data-zig deb doc optional arch=all
  devdocs-data-zsh deb doc optional arch=all
 Checksums-Sha1:
- 856b21d6732e76b8de2caa3debbaebb55f3f5b34 370522088 devdocs_1.5.tar.xz
+ 2cdaea8bab327438ecad181dde77710efe38f751 375873296 devdocs_1.6.tar.xz
 Checksums-Sha256:
- 4616befb38ffde4a28cff987f75e1cb37d8064caf8e0b27f7f06f80334551497 370522088 devdocs_1.5.tar.xz
+ b095686afd3cc397c2bb8321d200a21958a795d4ae6f4988cd4f6f28b17595f5 375873296 devdocs_1.6.tar.xz
 Files:
- c7302f4755457acfbf7c7d5493135344 370522088 devdocs_1.5.tar.xz
+ 4212f18f22b4337cfe3bc81994a65f6a 375873296 devdocs_1.6.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCaoBoTwAKCRA6Vr9YT1rr
-J4cOAP9SGFdgKKY9nnATey9Ioa4EjHOZeLbwE4WvqBy0N7XOrgD+Lv9pjPrsc82V
-06PNZYWu1G1mKKotLgI7ejujRWJdpg4=
-=pDaL
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCatfn8wAKCRA6Vr9YT1rr
+J9pXAQCWmnmaiHNSgLS95vhBTuPBOvcgvkw5brRjCIfNhdqG+wEApOtj5OmQL3ss
+83lh7jCRfWG5fZDsj5+kgMjc/pog5Q8=
+=7Ts9
 -----END PGP SIGNATURE-----
