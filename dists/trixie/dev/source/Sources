@@ -106,7 +106,7 @@ Package: pgm-args
 Format: 3.0 (native)
 Binary: libpgm-args-dev
 Architecture: all
-Version: 2.0
+Version: 2.0.1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
@@ -117,17 +117,17 @@ Directory: pool/dev/pgm-args
 Package-List:
  libpgm-args-dev deb libdevel optional arch=all
 Files:
- cc54525a09119f5a8b266cf581e5ec73 1042 pgm-args_2.0.dsc
- b4ddaa0e6dce874f9a0d27a96569a6c5 1431988 pgm-args_2.0.tar.xz
+ e413549f1d312d7efc2689db72d58458 1044 pgm-args_2.0.1.dsc
+ 142e0fcfb0ae397adc981bb2577b9d25 27200 pgm-args_2.0.1.tar.xz
 Checksums-Sha1:
- 2db852e20d0f2143e63a0b1fa763538ec75d06b6 1042 pgm-args_2.0.dsc
- aeaace55740aec2102fd189f1970ff38e1aee444 1431988 pgm-args_2.0.tar.xz
+ e9ca70146a119ec0f50216fb2fa07f38f4d741a4 1044 pgm-args_2.0.1.dsc
+ a1543634003e752fead71e344891dba76688452a 27200 pgm-args_2.0.1.tar.xz
 Checksums-Sha256:
- a3e4533a7a818febb70f850baec74b7b56fac80b2078ddde029ff701a5845ac5 1042 pgm-args_2.0.dsc
- 57c3b5e2b8acffa8f2d5cea84c88793c6d27771602e64564af5ac05ffc2782b5 1431988 pgm-args_2.0.tar.xz
+ 7b1b5d1c1343aa1f92ff087392625d8d6d4b0c32c7c84fc780308a9297a0649a 1044 pgm-args_2.0.1.dsc
+ 09ffef7992322806a76a464142afb31dc2b748def872e2b3b9c1e9be93ddd375 27200 pgm-args_2.0.1.tar.xz
 Checksums-Sha512:
- 3db80927dff7f3791d709374bf4d9082bb0faf884ce97c15d57838cd60d05fcbcc1c22f3bc5ae7f0da33166b94355e5e5a978da2142e55d5391c6e9e6eea1316 1042 pgm-args_2.0.dsc
- d133820e189cedadb7e8eebf417d2428d71f125093e4ab3aaf4f16698cc13f676c312a6fc6d4c542d5e3d0b40933882d51f4b96b648c1f5e527d52146c132721 1431988 pgm-args_2.0.tar.xz
+ eb0eabd6410de61ef8a6d95240c107a365992d93c46257375322a74cdb3dd79708c26b75860da3ddf01fa0ce2d71d0bf02bd0b21ac6e9180294489fbfda443a4 1044 pgm-args_2.0.1.dsc
+ 090c85bd120cfd057ea825b82bd29f826f137b01dbda54969dbb7b53efe49707de0494413d001cfbd242c4a2caf6f7bd79e418cb923c588890da733e0770504b 27200 pgm-args_2.0.1.tar.xz
 
 Package: uscan
 Format: 3.0 (native)
