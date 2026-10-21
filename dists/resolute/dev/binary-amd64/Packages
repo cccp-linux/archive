@@ -72,6 +72,5134 @@ Description: Devdocs meta-package
  Add the following to your .config/nvim/init.lua:
  * require("devdocs")
 
+Package: devdocs-data-angular
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9083
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-angular_1.6_all.deb
+Size: 886154
+MD5sum: dc4b51abc468d2ff4916a839eb14855b
+SHA1: da8e9c0e75537d74437a91a3e55b9b94a9817177
+SHA256: e6a933a7585307c5f91cb10d6894561f7721385d08f86062edb2b86b166e75e7
+SHA512: 88963351051350482e1063e0fbc6bb350b61cc1c36805bba546b7f7bef217f577649c80b56c6328ceee6de2bba5e9aecd8d5c6b123a991634204db8fcb73a375
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for angular.
+
+Package: devdocs-data-angularjs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2354
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-angularjs_1.6_all.deb
+Size: 510930
+MD5sum: 9144c6ddab27611c46ee1e2b5b054ccf
+SHA1: a77d861b314093c6b529e0e9d630064539cbc977
+SHA256: efd8610ddde43b17e8233485f4497ba39bdc1a95583b2b6ab3d7d01da7442e5b
+SHA512: 732444f7560eea6e3883ab8db72c0ca877e27a5b0f5c5cb56af0840bdfb256013623ef8af04f04498b60e7369f31c775a5ba25d3d24f4d680a3711a003061f6b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for angularjs.
+
+Package: devdocs-data-ansible
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 271204
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-ansible_1.6_all.deb
+Size: 9770550
+MD5sum: 8e43eb58a5f687e32e73c709fea56acb
+SHA1: 76c5ece0c4f71ac73f00ceb34ae3a73c688c7451
+SHA256: 0ff071e31791ad43f835f81c7658e07d6d60bdc9bb4ba9618bd60cba264fa6dc
+SHA512: f63654fb8c3cc91a9f6b24a41cd7e1aa204800465ff576cd2b22488f6eec53d0edb9efe7db492ba4cee57563662488d4ea5a25d016782cd0ec92e3801e129f9d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for ansible.
+
+Package: devdocs-data-apache-http-server
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3450
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-apache-http-server_1.6_all.deb
+Size: 675198
+MD5sum: 4424f0ad7312cc657fd878b175de6f35
+SHA1: acde88a79d83cf8c0431075353a3e7cbd2b17b25
+SHA256: 0d28b841daf86f0c1ad82d4b74d085353536e53b8ef45fd322d55407f9048716
+SHA512: 8d0a05d3da3795c28b6a5ba0eb77c2b6a5418c4c2ad93c41877016625113a226fc8d4ffc921488b024e4f6c3b2386f544a451b17f9126a6173eab9b3163c11b1
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for apache-http-server.
+
+Package: devdocs-data-apache-pig
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 724
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-apache-pig_1.6_all.deb
+Size: 138114
+MD5sum: 4b74efd015961154bdb32ac43cc3cef0
+SHA1: 8ad413155586c0e67a204c37b1e54fd1dcf72f79
+SHA256: b8c1ecc7826149884b87ced8fe96015c3caf4e538ac4184f76b230d6057bf302
+SHA512: 02191fd3ed0d54f153c9075e581dca3906b537a9889b6cefaaf495ec598be87ccdeea7c531175c735782d411a3f6ab3329d66aa4e7ea59a419cf95b8bd7e5c10
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for apache-pig.
+
+Package: devdocs-data-astro
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 19516
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-astro_1.6_all.deb
+Size: 872326
+MD5sum: 9351ee4aae9c6a73d74e65f3aa006c7f
+SHA1: dae8b7d4405bef35fb7a4cfc88d89097d848f677
+SHA256: beec63c099dc349f692e05fc285b0ea7792f5a5e935af35a5921ef6eb986ec81
+SHA512: 84092863f2cdd6645cc6199b611f92cdcd1785cb38515f61aa01eb68a7412fbc5790484ff453c3c52ec12e98367156dfd8dcd3c2060067c34671fdbdbc7a3ba0
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for astro.
+
+Package: devdocs-data-async
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 230
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-async_1.6_all.deb
+Size: 25984
+MD5sum: 54616908ba83974c8cf80e4eb48afe38
+SHA1: 49d4e7c7b1e554c6ced4caf1d2a49c50536dc8e0
+SHA256: 03aca4d97badb4e4146b6f4a0a261cc28fd45c96d8fb418756b7c5fd8c81305c
+SHA512: 33f8b14c2d41661e46e598673b8657aeff7ed11bbc03d2e2d5d9def4b51b36a2a46d4ec32c09673693fa0f95d5f8e769c532a0d77e007301535b4c984c5d2000
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for async.
+
+Package: devdocs-data-axios
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 79
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-axios_1.6_all.deb
+Size: 20168
+MD5sum: 176f810d3dd0be61755d7f926d715e3c
+SHA1: 2598e9f8a3d96cbee918baf048791b06dc84b8b3
+SHA256: bf8d1291298c6816d847643c25f12b7642ddbff5bbd62ed9f3cc6cbf40cb287c
+SHA512: aaaabad4731d722a8d5bcb1e82fd2bdebc6d9f43de0556abfe95e28302ded3268fba62fb2eb874f2cfd923f457be252ececdd33f1dc66cd601be31b48fcdf377
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for axios.
+
+Package: devdocs-data-babel
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1199
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-babel_1.6_all.deb
+Size: 129422
+MD5sum: 342c671d3dda273b5a66fd2ad38f1a68
+SHA1: 5b49b2d0ac5feb5925aaa78b3da43ee47567317b
+SHA256: afe6c532242b334c77732f4801428d782713464cfe6896ede93fb210f95f48a1
+SHA512: e4e3fdf6609101c2a5220eb4a4c91ad86f05c6664051ab0e8ae288562321e996fbd83a12e51e92231295d47a040d22f4dab0feb9109efa8ba2ff20a91e655167
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for babel.
+
+Package: devdocs-data-backbone
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 113
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-backbone_1.6_all.deb
+Size: 29022
+MD5sum: 7acc57754fa259ec7714ca60d02bd1c9
+SHA1: 34070deede1ad8f87c0ab7ce04346deadabe1599
+SHA256: da4e3739e25b373898bd5bfbeffb3e948a0030ad04d5b9f069801134d0873960
+SHA512: 350ccc6f0a4508dea6a33b1c6e83a25579aad6ca849fabbfb258417debf6e2ca6380ae6a1b5d55cfa1e4b18356c15037daf18ce639d93818c93bbbc9601680d2
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for backbone.
+
+Package: devdocs-data-bash
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1034
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-bash_1.6_all.deb
+Size: 157844
+MD5sum: a5d849720ff7724d5628093aec9b9b54
+SHA1: 6e8eeb9359803927e99d92e92a061df73869a56c
+SHA256: 2d81c4a9f707f53ef1fe30f8816ec39fa08f084c0ecd97a1e66328b13f53068a
+SHA512: b67cbbf6f283a5be78739a597b31bb4c7071d056e69f198ee56ca52f5ba2c0f8ebb870d217b57fdbf6c66b5efab2b96e20095cc350069037c9635694ca27b651
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for bash.
+
+Package: devdocs-data-bazel
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 470
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-bazel_1.6_all.deb
+Size: 74822
+MD5sum: a193205b445a9c4520806aa23958d757
+SHA1: 39bca71f9516aba533b7f9684a59ec9688ebf091
+SHA256: 27d5463d3eec73434689a5911f9703e0be3757633f2c54be2ba08682f7c7a4c5
+SHA512: 1968e289566bb4276169954b7e70b38c1cdca4966e1bf8f3eed98bd17b819e439886c9a623b0291fb027bf59b0193c372f1babc09b8e0fbe1a94f79ee2eeb930
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for bazel.
+
+Package: devdocs-data-bluebird
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 507
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-bluebird_1.6_all.deb
+Size: 110470
+MD5sum: b8ae5035179628ecc316a3cd9424db75
+SHA1: e2e47f7fae3c36342163a2bbde7e53ba709c3377
+SHA256: 51df494a7f8bfa9956a87176deaa8a68eae5c7340d49f340b1584d986c14b588
+SHA512: 1643afacb9c03977a134f756bb3fb1a45cc92bd9840baa728ac727d2aba3e000c7bc811bc7fb4ae369b46166b30809b6e049365351ccdf76a178af0c3a3e3ae2
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for bluebird.
+
+Package: devdocs-data-bootstrap
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2367
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-bootstrap_1.6_all.deb
+Size: 437552
+MD5sum: 9efdf71d98d722389c3ff713e96b7fc0
+SHA1: 4c1560edc82c521d55dbee1fa5aa0acd35c936af
+SHA256: e76cc4e2b73f8550ae7c27b1d00301a1cc156997907cf346ded5b926fc89db3f
+SHA512: a1fd2f69fa3dfd84276d14126d2665283bbe519dcb77b11f1bfe2a31d94e3d9fd9db4e51e6ff575fbf02eb74e6555d5221ab30d4578dc314a3f867b69e7552e1
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for bootstrap.
+
+Package: devdocs-data-bottle
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 317
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-bottle_1.6_all.deb
+Size: 67382
+MD5sum: 178a742a071f2aad4846cd19e0112270
+SHA1: 4247ab606e3b154dfeaa429683e4265477067a5c
+SHA256: 539fd046d4d5c3d4d9b41d63c0e503588abe7ea584bce1314743f1d81aa0c4d4
+SHA512: a136e3b2a2060a8d59c4b669f35392d0b7fa6e2bc5396c1ed86f608ce34a6c06e7a90688c4a722ffc20a5f47c349f50f3c9e7e9813cb5aafc1d07eede79f493b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for bottle.
+
+Package: devdocs-data-bower
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 63
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-bower_1.6_all.deb
+Size: 15358
+MD5sum: 88e52b906ccd540aaa8df7528f5e5d00
+SHA1: caeda0796bf9d2d3f4e0afdeeae4c8422bc0d3f0
+SHA256: 790170eda3eedbd867a2904f8461a476e599819b91f5a06079b8287aff919f10
+SHA512: 87f484f5f82b415d42e127aadd74e7e03a3cbe6bdce62acb2fb065937db8d331d8d571fcb6efd6a85fe2befcbeb89152da20981e94ff64c5b66b9f4ae1b136c8
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for bower.
+
+Package: devdocs-data-browser-support-tables
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 20707
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-browser-support-tables_1.6_all.deb
+Size: 356038
+MD5sum: f705caad5214364ff750679516e27f0e
+SHA1: 1cc1f57c7fb28718ea15be7eed0f9659b463dfde
+SHA256: 2a4bad89cc469f6c7aa20ca44278f9f59a91bb69abd4ea5954c91a18d490e272
+SHA512: f59cdb8ffea097b377eb2fa0ce826fc045376d900c0d3c484461dab35c5800d10e3fe2bd91ff60e3dfacdfc8a09ededd118459c62d334a85dc1a6fe44c77d102
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for browser-support-tables.
+
+Package: devdocs-data-bun
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2689
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-bun_1.6_all.deb
+Size: 439122
+MD5sum: 21a4f08304ef9ccbe330c6ff0e3f285c
+SHA1: aac158021ab890d6c31caeec42048d4d3f1675d1
+SHA256: 86d6a727d46da5cc447cdeb55af0862e27daf04f7fd743ab84bc327e5e3b4b1c
+SHA512: d8f401342923b321ec2c7d2a75d00586b8e2123766ac682ed42a1db1bdfbfab635b1a1116f33cf2a98b0ed5c6c9177fb2068b70b86ca8efd7235609169548d74
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for bun.
+
+Package: devdocs-data-c++
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 46070
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-c++_1.6_all.deb
+Size: 2927192
+MD5sum: 3179091e3ef6b24b42742aad53211670
+SHA1: d5599feb81e5d171791e85c741d7be2bef087706
+SHA256: 11eae89a51268aa6a23cce1b6f0cbaa5f9b3c1bfad523a56bbdc3701e9564669
+SHA512: c355d49217febe9aac33a7d814fc31562ae6bc4ce9f20c9c1d06028c469cda12a6370ffe582bf962c8d9eb4452b069d337f5b8ef61da15cc1f9808375a68e17e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for c++.
+
+Package: devdocs-data-c
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5253
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-c_1.6_all.deb
+Size: 423646
+MD5sum: 0f4a882d37b80c831f01bf1c109fba11
+SHA1: d31a6b7d9235344f8de166dfdcf2227a48ecfb9e
+SHA256: 35c5abd904f65b4b0786dc873a18f7df018cbdcacca968ab2f0f6830935a489d
+SHA512: ba5dd931c4865240b0cb83935de45d634de16ef79846b8e630a0c1019282f956cebb16862c88540693c09698aa34b8c4f2cdecda04d62039c4ac83b33c9ef2c1
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for c.
+
+Package: devdocs-data-cakephp
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16899
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-cakephp_1.6_all.deb
+Size: 683964
+MD5sum: f57ff9b7a661ebd0ec8bc17bfae57c26
+SHA1: 9fb9dd47b3199b4a8df438f640e76d0c4f5e862f
+SHA256: 364c802eac665950359b8d733fcec4cda277658f5463771c6518d6d42e6b325a
+SHA512: ff75535142cb2d5d5d57d1491b50244cba96384991736d660a9ee079a6f4f61c77c37bb4242c111d4be916a8e878728882f5b6a57b193462be8b171e9e6aa519
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for cakephp.
+
+Package: devdocs-data-celery
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2694
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-celery_1.6_all.deb
+Size: 370658
+MD5sum: dfa9375b9433754d1402aed7f31adfb2
+SHA1: fbe4d144b87c43b07c074a6409a1da1ffb1c5ad0
+SHA256: 792d981b12364d10a1e9e3b7c24548f9db111787a444c7e559e06e69a15a7d79
+SHA512: 11a7b6102aff67c22ba80499b850373a9c1119dc9e897921ef0b108735ef76d269545c013872a1050e28d04ff60a9132aff15d3e7bf460937e269616646c98e7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for celery.
+
+Package: devdocs-data-chai
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 424
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-chai_1.6_all.deb
+Size: 40188
+MD5sum: e7900c709ebe3bc6319e94ed47d603c8
+SHA1: 7051b82032ca71bbaf7e7bf6f91c1ba25ec4e81d
+SHA256: 4d0287b312015e9df60679ae9ee03ae635747f38b4a1c616ed00bfa35c1c9e2c
+SHA512: 93dac99879f061c766214b0f361441c9a771bbebf36128b1427d3a76bad19d2eedbca57733f532275541c739d0f3afedb0c4a9428fa27752c455fc85b9d4e582
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for chai.
+
+Package: devdocs-data-chef
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 39865
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-chef_1.6_all.deb
+Size: 10572010
+MD5sum: b2614ab9d9468732b5653a8090488eb5
+SHA1: 3705b7581ae391a5e78191eabdd8460b10afd4bb
+SHA256: 2f13d4a9afeeadc2126ece2d76e10e1e8a1c5e0c992c53680b093c584aeb9f19
+SHA512: 8bd2b80a269c57ce0eb0412ec0bf38c3b2f62aabd5487980441a61cf0ce1969778b4b10a8743b7423a3ac342921ab98498aeedcdcb95440a314bbc75d7f20641
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for chef.
+
+Package: devdocs-data-click
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 636
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-click_1.6_all.deb
+Size: 93386
+MD5sum: 1d6834ed18e5da12686452970638fa4e
+SHA1: ffba322bdfd4f96fddf8f3dce11422702cd8cb87
+SHA256: 55d24425f8fe78d3c0afa44f558eff53fbd75a00c61efb841a0bb12e1c418b7c
+SHA512: 8bf400358be346f39b66b12801aca073769bae2657c898538f885fa389798ba47171e22bedf6d0cd7d4d7833eba9ed7f17b6e1ac44c94bafdb5585599d48c000
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for click.
+
+Package: devdocs-data-clojure
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 665
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-clojure_1.6_all.deb
+Size: 89018
+MD5sum: 04572343b265e8383e6e7cdb4b68e8fa
+SHA1: 79ead4e7e1db5c6cd92207e17734eb7ce04b7cd6
+SHA256: e7aafbae0cd64081b687ac9099bcb6c7797968723b0f8af3b016f82d948dd43b
+SHA512: eed86c95579556235e2080970308ac1aabd2a9d52d11b91215b4ec01c420ff1e6b1a475821c2c83be3b8910d9c9fc4dc48adc01c4d517661a384077e94a2a99a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for clojure.
+
+Package: devdocs-data-cmake
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9754
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-cmake_1.6_all.deb
+Size: 962496
+MD5sum: 3a60b9fc147e1e44016dfdde044355af
+SHA1: 57724651aedbe56c4154dcf9448d91cc0cc8e934
+SHA256: 220576b13f895243d17b3bac81dfa91184ef8cd2eb261a2d8699b44de4b353e5
+SHA512: 6c8842eb7993e5a88d91c0abb7517442885865e163491fd1012d9f07ca2d3330ecc74240ca0232fd94040af24bfce60b49a56f2a9e8cd29461abdbf7b9d43130
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for cmake.
+
+Package: devdocs-data-cobol
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1231
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-cobol_1.6_all.deb
+Size: 220030
+MD5sum: 40ee0a57ab98c1fcdf2f71012d9cf187
+SHA1: cb9b2b72e4e95a7a84b005162a3ecc2be5422b1f
+SHA256: 039042c9008ad84e70753dc8226aa43f596e7f334522e5b3a64ad3c144026b03
+SHA512: acd8e3f3f1c3071381183c260cc6a80a763d5210f1171565f78c8d3ddd777f6dee851823565130ffe9cf1ee7e05ab30a88f0c88d25f6e757bba0a0fed2c981cc
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for cobol.
+
+Package: devdocs-data-codeception
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1918
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-codeception_1.6_all.deb
+Size: 417118
+MD5sum: f7c363b226ee40f3126cc8b85391c113
+SHA1: 83b0e7734386f800f712e539853502f215d13039
+SHA256: b7877044545293fb34aaf6ea569e0156a3a6bdb0d4d3f6b1582d3b39d4a79ae1
+SHA512: 0db10c9f2a47dc82f2b7a43063bb6dc3e448e63ff6912f1d5beaeb82cf3f0f5e3cc6789fa8bc508f95f98c976dc7e7c9ba8a9da8f95c44daa99e935aa55d128e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for codeception.
+
+Package: devdocs-data-codeceptjs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1728
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-codeceptjs_1.6_all.deb
+Size: 432738
+MD5sum: 10c76ed1e74ffbce1a734fbfefe42653
+SHA1: 01d285f5b09c2aa95fc70d11dfaad283d3f7d098
+SHA256: e50aca02341f5f78d977def9c1389b1e05c7f2741155f00c8698e702d1766b4c
+SHA512: cc9bcc840f7400a255684a623bfb78e8ad51cfb964633d00a179b6147731b724ac0151daa539deace64d7feb083a67fb4790e7bb2a518714e26aee493be3ad20
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for codeceptjs.
+
+Package: devdocs-data-codeigniter
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1872
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-codeigniter_1.6_all.deb
+Size: 410792
+MD5sum: f997a13a57cd33e3ca4359e993f2e078
+SHA1: b252cd4daa713eb729f04d7505a55fc4513252d7
+SHA256: 0610124175903231413c31a0cc1e172c35d7ea0de4247ec01932ad98c05d32d6
+SHA512: 98e2fc755907c793fb9324e24a42868eb5bcfc5f0d4888fd78c456f6f43299f06178d2115f6fdee0969ed87a3a6f5f24e85f6873a15fbbfe6258647e492a279d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for codeigniter.
+
+Package: devdocs-data-coffeescript
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 129
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-coffeescript_1.6_all.deb
+Size: 35508
+MD5sum: decaa8842cc5d500a5280729dde2812b
+SHA1: 4f436f0a0cfb4f62995c1132e7862b68ca8497e8
+SHA256: 1c7d792767b70ae888f8984dc13c88d97c159c13cb265339ee630e4b840f2f80
+SHA512: f51881a5d93197771a13192b02cbe8e25716b8f270994b2a3f91b12f40c6c58d17ebbffcae2c830a4893c33463cc0e93769e930a9b574518e9dd697acd67a6c8
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for coffeescript.
+
+Package: devdocs-data-coldfusion
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4991
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-coldfusion_1.6_all.deb
+Size: 434878
+MD5sum: 8959460f7b7824e01ade2d0c797a50c1
+SHA1: 0d34291100702bccf4387a1022b3703423bcac72
+SHA256: 395a5705aa0d5eb8f17cbcebab852b392d4157f2b17097875dbc60ed4165daba
+SHA512: 89cd4023b591c07fbdecc8ae672b378c5ef2a9cdf6474051d1fc39885a485d6851325cbcf9a0b0cd5c45b8d1e9344c0009560ad3cba495b97c7707c6bddf600f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for coldfusion.
+
+Package: devdocs-data-composer
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 364
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-composer_1.6_all.deb
+Size: 80744
+MD5sum: b62b104cba494bbcd4a7cbf874f759b3
+SHA1: 9c2d742092254a9077c1ecaaa8392b4d957f3b5f
+SHA256: fb0c7588ca26d955cbaaab5d31a45dd8d6364c7ca54df0ebf1ebb9efa1569863
+SHA512: 7028ea11a65ae281e59228e11c60fc5d515647bbe3a7644d9a7ed9e0dd6632383e73ccbbe7e28255020bb33a0829f8f5b573b3d64b230c4a4899e79de8fe39c9
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for composer.
+
+Package: devdocs-data-cordova
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2023
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-cordova_1.6_all.deb
+Size: 1021072
+MD5sum: d6f1cc43569ab67e6f40d6b6e8c607f3
+SHA1: e5134a51dc6ffd3c96e64d485c4ae3c7c99a198f
+SHA256: 130d7644d85fae2a8ebbe0e6d6791798dd0ae2c4000d72ef50cefe712b45a51a
+SHA512: 799627881c45e7f3286bc5f59081aa51fec05cd19d78ace2ac994475998c520ee54ed8e83de4497c3a52c92bf8d6fcd2a6a8933da17292f4e10df80c63ab23fb
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for cordova.
+
+Package: devdocs-data-couchdb
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1678
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-couchdb_1.6_all.deb
+Size: 274158
+MD5sum: e070d12585da82f14be11d6f71e9aa4f
+SHA1: e592f3dcc107b5f1c6b6863294683ac5cae37452
+SHA256: 7032f87c77ec808b8a0acab68d672eda9cfd5e430396375636adcae9376fcd96
+SHA512: 8c6086dca922d367e2ce4c32742b5692fce6f01b9ae404415272fb3297d640a4493d40c9731bd622d61ba8d7dd1a54ab6a37f9f4eca2e62c5ad589dfd3675922
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for couchdb.
+
+Package: devdocs-data-crystal
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 20028
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-crystal_1.6_all.deb
+Size: 1028620
+MD5sum: 85bfbe474ccbdd4d0f5d360e7a9f80e9
+SHA1: 51616e95661f47b2cf235305451f5f14f1523222
+SHA256: 9b47b3bf511ab851a2ebca0996f7b54007bb5ad53d85d4e6da02b8a2ec1011a7
+SHA512: 1604a966c566cef307af55383b5dae5e70ac9e74a56e588298a76d5eca93068bfa7319b0d39d8619a23cb415a10a8f9036a6e9037c24e6bec8c63be9fb285d93
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for crystal.
+
+Package: devdocs-data-css
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15562
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-css_1.6_all.deb
+Size: 1159058
+MD5sum: b00539d4edbda73db379e229c9629dc6
+SHA1: 67dc4a6a06dd309a208f8db1fc3d9930964d3366
+SHA256: da7eb00cfb45f9c004d6c161cb15dc8bde62b3f257863e4167a09df1ecc05193
+SHA512: 6e3423fd0973175d44406167c695c9877e133ea9f6b7b61eaf219d283521a75905eeba80fa4d6ce0daf09e0c1a847e03e678bf832660d171fd7dc4820b93b774
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for css.
+
+Package: devdocs-data-cyclejs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 275
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-cyclejs_1.6_all.deb
+Size: 61316
+MD5sum: 6210903311c36c7148d713fa39bef9aa
+SHA1: 940080d61064c456a591715f897c1ad05481bf80
+SHA256: 6485ce8767de6c04f106c3bfd6a7cbf93b7226f68ad05fba310ee279e4d6da84
+SHA512: bb580a97c3b383760feff7684b4d0bc1ad21ec89b6b77404c25c17f4d8f637c338ccc0c8a60c82ec2a3150001ed6dd87557e519a9a9230d6195ce3a57fbd410d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for cyclejs.
+
+Package: devdocs-data-cypress
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6375
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-cypress_1.6_all.deb
+Size: 3573266
+MD5sum: eec7ac121397516ad3f28d8e45a14d87
+SHA1: d297996faae2b92bae06e0c0df11ae926d1bbbf4
+SHA256: 908050e76c4fa7917213eb530f54aea73766d24d49780dcd9e5cf364c671e085
+SHA512: bbfd63d190f9f106e4a3d4beeb01d493ead56842197def5464d21cff7e00c1f5de23b6d8fd8ec7f04d394139c5619e7e2f678379fd3d33652a8d2d849d2c26ea
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for cypress.
+
+Package: devdocs-data-d3
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15011
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-d3_1.6_all.deb
+Size: 9704400
+MD5sum: 960b90b318094813973c57ad9973c657
+SHA1: dff10bac68a31f7540b0e747df8413541c22ff5e
+SHA256: 320933980d66e84c6d516c761c83b75d5abc7c4a63386012bbf2e19da357a654
+SHA512: b1c752d8396123b0a1d87c3e2438d09dddbec37dac7aab22e9667f2ebfd8b583c787b9d65857a88f1f795d4a5c12896d96e1386c6df07fbca6388deca9555505
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for d3.
+
+Package: devdocs-data-d
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5962
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-d_1.6_all.deb
+Size: 975148
+MD5sum: cc7aae4aa15acacf98ec0b15cd36a153
+SHA1: 4f69be68c9c3fc14780d3971cda5dff7628d6bab
+SHA256: cc116e2d090fc02d714bb195f2f9784b3409224798c9c49749649d7f42116168
+SHA512: 8375d67781d329469d4e71f4d614b7e60b5133730c7e4fa8c2037a5807317458f6490579172659e98425473c91e007fc3805497294b45750d70bd9214c233d40
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for d.
+
+Package: devdocs-data-dart
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 38886
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-dart_1.6_all.deb
+Size: 1682660
+MD5sum: 6fe364f83b19c27376d2f9d21d69d4a8
+SHA1: c114b2c7c2a451806f3e186d4e6c56b196c28b0d
+SHA256: 9c1f4f8967df44990485cafffd48b2f0d92718c67c785c3af23ea7a9734f9f5b
+SHA512: cfeb0b3dddf549f8d03cc03935c81460306f437abbfd3a9d7b75399ff91d8e7f1702fd95ad12e581b4171ccf99ad5dce2299f44620b0d8d3d14321ca82ec8ddf
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for dart.
+
+Package: devdocs-data-date-fns
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 914
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-date-fns_1.6_all.deb
+Size: 68096
+MD5sum: c9dc8113803121d566de1b4890696ea1
+SHA1: f8dcb1203a28dbe1f8e9f60f89ba9b2baa6a71f6
+SHA256: fdfcf61d006104535e676660aeab312cb8b1f1f28cc8b9a7c26bef528ed7473b
+SHA512: 65a52ae84f4130e79535e0e79a7337361733345cb05cee550f87b257bf67c2e810d1a17f1a0d5e2bd8d03a62e70e916671370f3344c7a7bdc1e9ab5fb7fa063a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for date-fns.
+
+Package: devdocs-data-deno
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24073
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-deno_1.6_all.deb
+Size: 1506588
+MD5sum: 126bb457a624b5fdba71dbe4bdd9ef93
+SHA1: eee1d21b92276fcb87d395bc09ef7fab792b3a4d
+SHA256: d5f13bc993781e7222ed195ef2aa7ac1567d4aae9596477c2bcb5590cd785c0f
+SHA512: 0982d042825b619691f4fdab14b48cf6b8774aebbe0ba8e91f12ab01d34c1ca6561cf68f436c0732bafe49c99de8f31999df62040f0489a48209d8fe912d4b22
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for deno.
+
+Package: devdocs-data-django-rest-framework
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 815
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-django-rest-framework_1.6_all.deb
+Size: 213736
+MD5sum: 9a95af9d2471dd8ac7acaac181f0cd63
+SHA1: d6735500c700fd9e2a432adb88f7bd2b15eca7a0
+SHA256: 9786092d013729f88c975abbd00a71e2b6406b074f8a86bb9f4ce6444ac87374
+SHA512: 4472ad9c5ee03a7245b7d3269d96feded500cc1a5307a4c8c32390e26b2ed55bde3b94fce1a22d39115acbd99ba0956eb36cd82e4e3720d437992bdc30bd421a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for django-rest-framework.
+
+Package: devdocs-data-django
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 7690
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-django_1.6_all.deb
+Size: 1301244
+MD5sum: 6f4f2e785029eeb06f2798a1edf11535
+SHA1: 5c90c2837614aef9e79fe469abfa5dad2b68b75d
+SHA256: dad9b33fd0e117dace6f85baeccb5b395856df3e92c3084d0658195de9818c1d
+SHA512: bd8e9a163178edebfc66604f5b93301e22869e371c2acdefe241d05c5a5177d7e0382e13f460bddccf189302a0e82ad8ae07ac58c9206caf3cd6e56eabfc8abd
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for django.
+
+Package: devdocs-data-docker
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4620
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-docker_1.6_all.deb
+Size: 1033378
+MD5sum: 880f0bca2dfd9a05148c811e6d5bef69
+SHA1: 3e5e67cb9fbc554632b062409fb5cd3216a3b334
+SHA256: 79e147d8842e9aa90cb82acedf5462823acd0c27303e7e1f1eb515643aa8c498
+SHA512: d577be5db0f819835641e581e9b184099feed832c65b84df196b40bfa6000db279a98edf455fa64c739e6c28d8aa999b8f0d15fbae4f54fd24b4927053fb738c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for docker.
+
+Package: devdocs-data-dojo
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2219
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-dojo_1.6_all.deb
+Size: 160820
+MD5sum: b33c0ac525be5761139e5f7ce1d99f23
+SHA1: 7e1faef907ff92bb7b3846911d45e72fd87d7a65
+SHA256: e9ff7947f539b9f9bd96d181cf20a21d1c66f0c4e7e318d43dea941b4bd53a01
+SHA512: 72c64c0b4032467f51d7c41ed180d51510bd9ba1ea498b20f7b19b26dd58f637c4ac9d8f125dc9a77fc695eca20fc0cb547022072f58698cdc043430ebf94377
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for dojo.
+
+Package: devdocs-data-dom
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 67577
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-dom_1.6_all.deb
+Size: 4353402
+MD5sum: 08a00754dab99cc3e62fdd72a98136c7
+SHA1: 384f364ca53719d411d55a3cd90a0f0e36aad9dc
+SHA256: 7f6085f6a970d24bf632a6e667b25546fef13c3b1ac42595e1514af15704ea83
+SHA512: 5cd2c6c02c0026eba00429bf314c96ae9c3f8af3edcaa25f833229d1db4a01b13dfd90dace037600454a33d8104b45cd470cdffd04c13582fba38bad4316171a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for dom.
+
+Package: devdocs-data-drupal
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 58001
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-drupal_1.6_all.deb
+Size: 3076756
+MD5sum: 3d850ba140a98b1e2858965f48c6743a
+SHA1: 68822ba78669a32c4f2088f49d5c9c99f678bb48
+SHA256: 08899accb9284c0210e3a0f01fb1c605362cc25bc6cfdb5a6b4d7a5ef508c6b1
+SHA512: 9cb6c5c45a9e757378feab78bde97ebb4203395c2e97441911118d259511cea36a1d63a055985d54415889c53057f8d7cc3a8d089073d7b0e6296341b59981f4
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for drupal.
+
+Package: devdocs-data-duckdb
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5182
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-duckdb_1.6_all.deb
+Size: 1201076
+MD5sum: 8a80fff3227f85ce83186970e2e567b5
+SHA1: 96dc83acc7932cda227bbf2196e24221591928bc
+SHA256: 254218c6cd99aac432f3954082695a1b050139c84b744c9902abadfd3e3a5c8c
+SHA512: 7a2f3e452dc0ee7484f1aee382d693ff826e0caa56ecacc2c4522a34eeaf6634d002bbfff01595b4bed0192c8ae646c7ecbb806a5501072cc306cf528b62c739
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for duckdb.
+
+Package: devdocs-data-eigen3
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 7984
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-eigen3_1.6_all.deb
+Size: 1958498
+MD5sum: fba83464821fd118bab340c3c31b0046
+SHA1: fbb58b163ee6fb99f6f15c83c734e620d56e9bbf
+SHA256: 378ea5596db52f53f267e743cbf85c6801e27ab5c4cdfab77725ca5a0add35c2
+SHA512: 3d2c0f1fc6bba6a2c828567640e94753b68c2df02f67f895a18eb4be44f7ce40848682b9eb92a508fa151f5832ab89348cfe876bef7b48047093afffcfc16758
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for eigen3.
+
+Package: devdocs-data-electron
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3333
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-electron_1.6_all.deb
+Size: 1087388
+MD5sum: ac8d89a7a0a40af6a63a709ad72156a7
+SHA1: c4b3cbdda01249424c7326206766c2da0771cd16
+SHA256: 4204e9ec926c611a3b4897497fbd58761351c03157471f6ed5c88e94cf92d42e
+SHA512: ac2537d30d2e11d5576d07e45eb168d95311f4155ba0b1ceda7578e62b02470e6e38c0597ce367ee4f8796b23af1ec77f72d926d2a9adff01c21ded220e121fe
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for electron.
+
+Package: devdocs-data-elisp
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 7518
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-elisp_1.6_all.deb
+Size: 1073736
+MD5sum: e56325effee66f2ceffbf597d3f4b12c
+SHA1: c5c007ce062a012b682fdf2b70975cbbf6eba403
+SHA256: e65e96765131bbbd841cbc756aa7ee5df9e0e72d5c649c76c681a3bab8cdbf28
+SHA512: 730e886929871fc2bf940ea954ff6996a157acaaf81614368d7484c91588c57d618ca3a74c1d6217c2329f0d0e677e10a2df86fb3f59c546d4cc206ecee777b6
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for elisp.
+
+Package: devdocs-data-elixir
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5314
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-elixir_1.6_all.deb
+Size: 670712
+MD5sum: e3784a97b7c3398f89c3ed7c1c2552a5
+SHA1: 048be1c9da7eb821b00028f277a3f9c55a8cf9af
+SHA256: 91a3296af3c3213f9f0529f3dfcb10703dd6d3cf1811f51870b2222eea4e27e5
+SHA512: a7e6c4d13e6374e3f05e639e6d0029827fb1a4aebb9e92dc5bb2ec69a400b76cfac214357dc11ded0d286b8dde12355ef408062fd03c0a508353039c0c404074
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for elixir.
+
+Package: devdocs-data-ember
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4292
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-ember_1.6_all.deb
+Size: 404400
+MD5sum: 4bfac9a2ec081ca7f5a38d492d906484
+SHA1: 1b2927258c28441100d4db83923351826c9d1de4
+SHA256: 0e992b9e7bc0478bc67515d25c26b05201ce978699bf2c82c8ef0a893f815a96
+SHA512: 1aecdd07813106f0e77bda8866623d1627d417295f50275e5376a39c7509527c4f3d541f7e6ccf18a9175293027c79290b4d7ef84d9d9ab3e32fad0a77d32d12
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for ember.
+
+Package: devdocs-data-enzyme
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 418
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-enzyme_1.6_all.deb
+Size: 48274
+MD5sum: 866e93225f9eb706bd3d5cacf18fbcec
+SHA1: 9d872ea236cbc5f7c76b7eae8412764e1744c001
+SHA256: 6ffac855fe022dcf5743d00db652cb78133b14545784634ce1ba41ff3b4d0c88
+SHA512: 266bc2ba2d37c85bd0480f08da53daf06952d75102da227387c45472ea3f52f19e83d58f50979ba9a843e580ad96959096181b9585670d0706aa1ec5da5d3b1e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for enzyme.
+
+Package: devdocs-data-erlang
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18733
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-erlang_1.6_all.deb
+Size: 2236260
+MD5sum: 2cf167ee3a1aef876bfb352295e04033
+SHA1: a1c27ed39ade64b29500542e8a2d781cab8a273c
+SHA256: d265f3698eb1150e9c9803a655aa57b4b030c4af9424c75260cefbc71b0493ca
+SHA512: 169e18eb0cef909d773ee24c1f367db52adac29a4126e3d00d10cb9f6a789eab03bc5d0b8b0c18bc72cc8e6ab2ef49716e6c261b3bce27ef25f2e2b3a8f344a4
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for erlang.
+
+Package: devdocs-data-es-toolkit
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2017
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-es-toolkit_1.6_all.deb
+Size: 227904
+MD5sum: 600cf235dd528f97e04a21830a388f33
+SHA1: efda426dcaa726ef46ab380f0b311ea91b0d9140
+SHA256: 03b9d01c82b64df263389e9af077eaf18dd287fc4da44da811c2879d9adfcf25
+SHA512: 971749c842290c2dd8f42b0bdcd634634a02b2ed441ef4e19f7cb1c9d41e272b8c133d1cfd788ac55af53c4a71943587d27d969e53d7179ac82d520784ff3087
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for es-toolkit.
+
+Package: devdocs-data-esbuild
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 537
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-esbuild_1.6_all.deb
+Size: 106258
+MD5sum: e9773f871d68804bcfe6090894746aec
+SHA1: 5853df67874309b50ba081a226246a2f465291bc
+SHA256: fb88914f0cfc336cd1bc886e912e8bfc86bc379398e9fc87d23f6bba58b22c3c
+SHA512: c9edb79d3b5cffba6a54b8876baf7b51cc851caabd304ec4837d78ae77e1de7074099e39099a1c95be6bb05fb9693ea806b237cbc955def3044fe1b0a4e4571b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for esbuild.
+
+Package: devdocs-data-eslint
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5690
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-eslint_1.6_all.deb
+Size: 425600
+MD5sum: 269f697520c3b02b10b0d5ba652c6bae
+SHA1: 9cce5e0e8e1cc6e53e7c9d1bf6939cd535ef937d
+SHA256: d2d2db214396ff20b911293d758ee56483d1302982e5786f5415669eff20602e
+SHA512: 70983d0bed22c5e9367d328b28e3657b934959a1348bb570c3bf4d7e466175f91e926f28514e52153ac65bafa95f8ef304301199814fbcc9e251072d6f72abc7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for eslint.
+
+Package: devdocs-data-express
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 533
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-express_1.6_all.deb
+Size: 90972
+MD5sum: c2a440014177022f46620765d99de6c6
+SHA1: 54b609904a6c34995f0c2527bebcd670fc113b93
+SHA256: 79132b551baaa497ef8ad71942b049fec213060cb159ec774cf51ce980bd5df5
+SHA512: b6ea8e4afacf8f60430aac530cf82d96ef8e25d9fcaeabc80aa8e9013a66a5dd73ca4dd514adef969f9532c4d2ae9d4c078d6ac2cafa4f9083af2230f62bf031
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for express.
+
+Package: devdocs-data-falcon
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 675
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-falcon_1.6_all.deb
+Size: 88668
+MD5sum: 7959e42350b0920440597894f402ab55
+SHA1: 9b58b3a3b120a75bd8d1d5239310ee6791fdf8cd
+SHA256: b8160b6ffd43b715a2caf9dbb079dc1bea072bcfbc927cd342dc1c6e9ceda91f
+SHA512: 720fe59f3ca3dba98c4f2ecfdce18f9000f4eb11cfb14b0f41f172d9a38952d2c8794516203211980e062005d1da3e4ef9b2b7c38b67736ef3bdd13b58463f2d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for falcon.
+
+Package: devdocs-data-fastapi
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4484
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-fastapi_1.6_all.deb
+Size: 2037788
+MD5sum: f1fdb7f42dad8480eb158fd1972a9316
+SHA1: fd0fcd5a8a77df9f91763cf7e1097693f8b900a8
+SHA256: 523ab665209c837d1b00b47f239af53bdc84c6575aecbf93c5c456d868b4d0af
+SHA512: d2fe81d984ba27ac543b42890966e414e1dba8bac9952d189612ba42e603d7ba77c656b2df9c65ef640e6610a4468126a2a72ece0ade0c3eb9defc3fed7a5ff6
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for fastapi.
+
+Package: devdocs-data-fish
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 957
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-fish_1.6_all.deb
+Size: 167168
+MD5sum: 8f1d99d795a9b7a97694d622ae873b36
+SHA1: 3c10822688dffb8f19d7f40ac065261af6bb982a
+SHA256: a3538dfe8dbd8ca8a4a89e9ecfb3b3e133a8a484b3d4d64814cee3b5403336b2
+SHA512: df3b714d3eda640783423fd54756db47a83dca4cd0f7d20d2a8b777d6e5ddbd680c464e678be81346866a35572aa082a8acd34cc1b90b020668b86e840ff811c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for fish.
+
+Package: devdocs-data-flask
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1318
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-flask_1.6_all.deb
+Size: 214460
+MD5sum: 31e3039ceb919c00068de5afbf4764ed
+SHA1: 86e621a285dfbffce9597a38465564d58a843729
+SHA256: 7f875a7fbea738515be3e77e660644e5ae0d6c81183d2e8a3dec2e9f35639570
+SHA512: 70351595a6e20c75a9d34bf4883b3d9295f9ae0245e941ae0644ba85f9adaa660c9ce5cfb13eb86a0d58993ee60ec68ad3baaccf862569351da8e2be4ad5a9d3
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for flask.
+
+Package: devdocs-data-flow
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1095
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-flow_1.6_all.deb
+Size: 191734
+MD5sum: e3e743f61707a821c9ec733f53b671e1
+SHA1: 06989c8499a86e8f05d9a90b76d77230001dd548
+SHA256: 565a0612d029194480c0c1d98068a3fec5dfa24e1acc9da9c243b72b2f12f8cd
+SHA512: f9e84f9580b408265889b7655b8ddc53571c53c67da94efe38e6cecaf00ba8b83d13c883a79858817eb5a4634bf7927791112bb4d5a0a9e6d977858e71ae0114
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for flow.
+
+Package: devdocs-data-fluture
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 81
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-fluture_1.6_all.deb
+Size: 19986
+MD5sum: 758e949b5e907e5b70584ea8c38c4272
+SHA1: 450cc2fd90e4dcc944cdd9e74b61f4fb4b69e0ae
+SHA256: 8bdb68780805759b6b9180fe7a32276c7de7327d80bca1d05ece39b7241e58fd
+SHA512: ce2eed209da958cbfbe19cefa0cc01d85cff959d82b33ae72b1c6f0f92d2a0a337a8ce4c8ea4e39ac92b9a615b7ef1419021a75f495d839ca74d8dece7dca816
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for fluture.
+
+Package: devdocs-data-fortran
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1542
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-fortran_1.6_all.deb
+Size: 169168
+MD5sum: a527900d89579a56830befad4828c333
+SHA1: 78811d01a6e2e5c8468b4cd9194fa8a5038446e9
+SHA256: abcbaac9f96950e417de5e080a1e8ef8cbcb6fb301121ce18bc766d00780be64
+SHA512: cf7051cb477903bc88c3c7889efe3afab424025bded56806392ee4459b843e5949132beb38f2efc117f9d48cbd20eee79d36d2405dd6c0e944b6a5dd497089a7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for fortran.
+
+Package: devdocs-data-g++
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 363
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-g++_1.6_all.deb
+Size: 69040
+MD5sum: 4d9a377c46a145291bb1fa1f7a1640b7
+SHA1: f11bfe3c9e3ed52136f1857cc0a327ab061305db
+SHA256: 3fbb32d71fbfe6e066e51454dc879bbc03222e1ba21950c9322d83e9d2f5aa89
+SHA512: 3c69882dc810bce5ae94ad87e1536bbedb5ecc094e8620be46e67d668bfa6dae33c79b8c8628e6aa46d194e40cd3ccf05e460ec9febeddba0e33c70094c958f6
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for g++.
+
+Package: devdocs-data-gcc
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4455
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-gcc_1.6_all.deb
+Size: 634016
+MD5sum: 46412c4b4e6726f9581dae219ed98cf0
+SHA1: 8d485579c0fa3ba23e6f7a25afc1e69a38556302
+SHA256: 9d557e172bcde276e8ff65467ce6a54ef251f0e10080eed1c613ec1e185ad012
+SHA512: 9ca056227a0dd9d6ec987983c5bd449cf9f467e7face8c53fb28e468fcabe0ac365a7d59fcee003e0984f1fa641e68a8cf53dd926126caecf247e96c072aa9ff
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for gcc.
+
+Package: devdocs-data-git
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6095
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-git_1.6_all.deb
+Size: 795434
+MD5sum: 679e4d4f94faa9121bb68a9a66da1cca
+SHA1: 38ac1df634a912fb99995f597108630c463923aa
+SHA256: 50eb58a0e01790b71444fe991d140cadf951ed0a3fb07bd40c9c45bd430c92f9
+SHA512: 2812e6d3e4bd26063684ce010b21cb8f0cf5df1daeca5d68219fda7fd6eb64e50ebfd33405ea4d3be7b8161472c839d2f77c6ef6fa69496517e5259121373689
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for git.
+
+Package: devdocs-data-gnuplot
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1238
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-gnuplot_1.6_all.deb
+Size: 248574
+MD5sum: e6f4785cc2803860d87e96151dc43a55
+SHA1: a8ae97ef493918ff5083b70af6f627ccb63ca7cd
+SHA256: 9be1170e38ba8db79321f2d158a6bd8d2bc264ff117dae132065d5d6ca5f457b
+SHA512: 7f738859725c7707c176c13664821a8a147cafa7e22c2257c775b0155729d144df4e5b481b065e30abf012e05367745e135a2ba028e66dcad3f750e46a219a08
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for gnuplot.
+
+Package: devdocs-data-go
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5407
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-go_1.6_all.deb
+Size: 814236
+MD5sum: 40d07f5aee4342f520b967a863902d0c
+SHA1: 4a0b242feb0ae31af2c0aaac79110ea8aee32503
+SHA256: fb4da1d814d2f6afdded5f87f913d9eee1b1a5f936071a6c5233d9c4dc9e921b
+SHA512: c9c0e66102197e0951f8e952090d5ef0ce64dbde7934e562fcb57ab92c3aa0744f3e1a4ae587f2642f64ea42dd9e1f02672870b49ebb1bad5ae9de28b3bcbf3b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for go.
+
+Package: devdocs-data-godot
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15985
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-godot_1.6_all.deb
+Size: 1103404
+MD5sum: a083bda79088f9cf5803f742477a9b21
+SHA1: d9017b675d5ff81b44e40264adfb9827e83855e0
+SHA256: c4f1a2193fcaccc0ecafc9711e4338f3565726bcb330af1a0a4ee6c2b8c7d613
+SHA512: ec369855d04910912808941f3c96195b68ff54f7cffbb9b52cac9582b55b546ad03ae51e6a7faa769152bc372f3a345db353ec20eee6d890924ee919f88dfcbb
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for godot.
+
+Package: devdocs-data-graphite
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 483
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-graphite_1.6_all.deb
+Size: 109462
+MD5sum: 9b938248afcd764f8ab4da5b4ff2f42e
+SHA1: 01c82714e1b5793935e5c44c85ad0e24ba4dffcb
+SHA256: 8f721a175c06e8d4ac94cef97e861e77a867afc7a693de1d06c2d15e0885d28e
+SHA512: 143fb8ccd70ea1499d56c25e550fa3662257fa9148a9bddd5f82c18056c9f16360ac6c90a7d3baf72ece12a714926b73089a453b9c13c18f6f64ee1980114127
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for graphite.
+
+Package: devdocs-data-graphviz
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2070
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-graphviz_1.6_all.deb
+Size: 408176
+MD5sum: 4f7442d3a0f52b9504c8727c0692dbc2
+SHA1: ca36f7aab173bfcf2f6feb330d6002b5b7e37632
+SHA256: 02c7a0f83af2e883e68a15e456f75aeaf1d3dc2dd54f54c7b9d40a63d6090227
+SHA512: de976a87327abfe4017e7959eb70f8c00e5eb2a25b0049afb7c5b82d4c49e60ec963408a99ef3f9ffd47786d14a33e0238afedde4f89e28bb6d37336dc6f9801
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for graphviz.
+
+Package: devdocs-data-groovy
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 34969
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-groovy_1.6_all.deb
+Size: 1260468
+MD5sum: fd63927b5b67f665d37d688cd1651aab
+SHA1: 938018a9fbdd6de04292e6d29ce6f57bb283f815
+SHA256: d975e6ed28e56872e351d033587207de568512df75b0a36b21f3cf6a39511077
+SHA512: 727bb13ae2a17df8cafec897f6da8f68e1f7661573953cdc04513be5d7cf3cd187e6fd325ae3dba040826085b6b59ce6e36c82e2d0a2b336b05ae3e7b467e5dc
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for groovy.
+
+Package: devdocs-data-grunt
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 204
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-grunt_1.6_all.deb
+Size: 43868
+MD5sum: 885e0bea053814c3dd376150b5a8a3f2
+SHA1: f45bb409ca3f692caa31182436a0d972783a7c19
+SHA256: 166d3b26e1cdfce8530dd14216eca2876439c31d4be9743c608a7f2513115a6a
+SHA512: 7455d5d25ffd8b7f08dfd5a9a48d7d06940c226ac049eeb96844f7bb1428598cd0f3ee71171f0dfc5fda45240973343cb0e92975bcfa11e214bd0615e9405803
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for grunt.
+
+Package: devdocs-data-gtk
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 10920
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-gtk_1.6_all.deb
+Size: 1139692
+MD5sum: 79ede6b03d657e45f77e4ae21e1e113f
+SHA1: 32ecf61bc8e188e2562237bab1b8c0217dd18f7d
+SHA256: e25ed304c8bfd7e77c13da511ee2ce8e7f506dd48ce3a5fef32141f22d236136
+SHA512: 5beb2733d0670b5eda3c001540165b1268f48cf1346a7b45cf54abb1494335d5b4bc485afd6ad5b57e2f0919001d248a2557799ecb611f7646baf1df82edb0cf
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for gtk.
+
+Package: devdocs-data-hammerspoon
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2927
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-hammerspoon_1.6_all.deb
+Size: 339700
+MD5sum: c3258d49203014ed1f608aa5b7584cdb
+SHA1: 0be248b11dbeec919631aa7dc71587c3976c16d4
+SHA256: b8e2edfdc23362ca320f802e5808e549198e1d2e4dc49201802e6874f2db965e
+SHA512: a3cabe7c3abc23cb2944e22fe43e1d91c786d11d19052d2f9ccb4cfd29feb0ddd018abfdf036d7c594d5d449f1d3b28adbf2d54c45efb66e6a9fa25290ddc16f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for hammerspoon.
+
+Package: devdocs-data-handlebars
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 105
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-handlebars_1.6_all.deb
+Size: 24336
+MD5sum: 42ab9d8f2f6e220532461376fa6de4df
+SHA1: 8ae25b91560d7dec12af4e51ecac01e3559b7ef9
+SHA256: 0a6ed16ddf3c7c8694c33a967db7d4b00bb85f5bbf005c6c8680790d341e933c
+SHA512: 885881252c30c8719ead822027c045b8bd64c2388f951d2af4c241189a2696cbd2e3083298fa5e00f1737319e9fee4235d3ce80635ab33d4934ab20fcf76992e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for handlebars.
+
+Package: devdocs-data-hapi
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 480
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-hapi_1.6_all.deb
+Size: 53586
+MD5sum: 6594695def03b04569ac6344135fe3ae
+SHA1: 779961f111bae790b5d25b7fbce94c669384b5a6
+SHA256: 8c13ee5a96f6b12abc1a47e7fa019b9d49aae6cf4614b3e778507cbb5f1e4b68
+SHA512: a557dd430590fb957365f6c699886a35f6fe14527f9dd80c3bf60849d6049a4008b9c713d929aa9159b6ffd3c2a9df173d1acd4a9f76018303987fcf24bcd704
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for hapi.
+
+Package: devdocs-data-haproxy
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2984
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haproxy_1.6_all.deb
+Size: 436814
+MD5sum: 294f2a0b4d3623ca84118f1b68232669
+SHA1: a92f8b7f892e289cd2b0e5091ddd5f296ac8f2c8
+SHA256: 110eada6e0a0be2a4165c6a34d4f646bff9bcda8ef7bec40d2cd1f21dcb274c4
+SHA512: 9ebbeedafc7342971f5443595d1353d23b55de8da9a8425636b43a3d3e6e2e1bbf90f2a41c1f4ce7f49c1fc0dc4941838a3e714119deb437c0604e065e659cf8
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haproxy.
+
+Package: devdocs-data-haskell
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 70256
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haskell_1.6_all.deb
+Size: 2247016
+MD5sum: 63fcad7897c3c53785c6210334df2e6e
+SHA1: b67152df655abeda8f7aebb685c14eb6079b61d0
+SHA256: cb99f45e15f7477ab38cb46271789b0c8a3f3d0ef17bbe1021fc066ccca2d182
+SHA512: 98c4dcd055a64ee0a9db1a4de86ffc6e2320fa3e5ac935e3c95b0c3d492cb9f55baf8124f35fcf646018479f01a96b0b6ba3dcd8e0b8587211a5d8191024ded6
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haskell.
+
+Package: devdocs-data-haxe-c++
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 441
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-c++_1.6_all.deb
+Size: 34292
+MD5sum: 5e0973fb6123cbbf928478c8cf188283
+SHA1: c2b11f58a8418274d3c5278b6441ba0d9330b3a2
+SHA256: a13cdd1b6d7d5abc8d01e87ee4f6d4927dd80d1edd086fb95080a567e3449520
+SHA512: 49ac509bc6c4fc6fbeb3d052f8263f8e915959ea2efbe32f09ef117c310cb8bc45b2e53a3a9686020884463d90dc9d5ae3818fa0a60824a94a053a9e7a437af3
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-c++.
+
+Package: devdocs-data-haxe-cs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3417
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-cs_1.6_all.deb
+Size: 164928
+MD5sum: 4f05669dac00055cd932bb159ed192ad
+SHA1: 31175bf6130708b412038b098932384e77f0dc58
+SHA256: 76b4d1d718d44f3932757001236d09d3908b6b59236b74cc578d32ea44754a8d
+SHA512: f00d69830f507a0d0119c5dbc4b03084aba4648f59caf8648b39c74afaaaef40a3a3586d877588089b3d3eed7377bb3744a5acec8c83fcb6e0256dcc8d103ccf
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-cs.
+
+Package: devdocs-data-haxe-eval
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 62
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-eval_1.6_all.deb
+Size: 11842
+MD5sum: 4fafee7117215e68156e2b1fdb7c1c80
+SHA1: ec2ae5c480e8ecebcf522e54f678b589da00e5e6
+SHA256: 13df1fd86b8dfaded0c58e1ea649c9b69f5720dd79c8fa528ce72824fa49de45
+SHA512: e6aa068629263feaf84e89b74941b253a22aa6f9b580dc830bb2ba9161ae4b8bc96cd0f2a3191cd777cdaf13700e3c833bd0e389cfe8e292e1a3f8249a3879bd
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-eval.
+
+Package: devdocs-data-haxe-flash
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2214
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-flash_1.6_all.deb
+Size: 132168
+MD5sum: 4112ee5dd24d073dcc96488d8e7dc97e
+SHA1: 9934218f8e5e39e29d8434035cb62dfa3e8a2f3e
+SHA256: 44ea8996ecb58926f069436e2b5ddc864ad47c494e9ead53cee524f8dc447828
+SHA512: aa1b25d286a2d94f9273d45cfba6d94d21e124751f41aff0b67917b775b61f028dc10d63ff545a367f5cf375da33e34ca38621a916d634d2ff71b9bbf2ef3f0a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-flash.
+
+Package: devdocs-data-haxe-hashlink
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 230
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-hashlink_1.6_all.deb
+Size: 20454
+MD5sum: af14e716a56ea3ee80174078926b4a4f
+SHA1: 66c578f98aec98af653d8adab3456eb3fb196793
+SHA256: fd37e4163bf18ac495e9669eeea6ba0528dcdf0effced1a770c7b0f156033717
+SHA512: 90379c9c21f25399be57af8d16675b63f363969ae115eb2d9bb9ac7dcc44ded97754896d2c06511ccfdc8ef33ab60746139a610f12a9f6ba5c68f7db19eb7de5
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-hashlink.
+
+Package: devdocs-data-haxe-java
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3776
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-java_1.6_all.deb
+Size: 181458
+MD5sum: 5247b993d138d1f8fca66f2d3c126d34
+SHA1: 6c2c84afa51875457dc5fe933cfaab1c96dbcb86
+SHA256: 0dcc45e195cbb92524645e021b9b47a1e23a7eb9df825bc9dabc3142dc29ff76
+SHA512: 8d5e119a9be2b473992aa036b3e76d1bce2bfbaab85e54f00cba6261954a39f8a05940d90b89e40c04ac27d41824fc0ae0be878815461853df908cfad53dd30d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-java.
+
+Package: devdocs-data-haxe-javascript
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6951
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-javascript_1.6_all.deb
+Size: 384774
+MD5sum: 518ca8324c8e93f0d758ffc6f90c0c44
+SHA1: 60f25a01d392c68f4d5079e0b25d92ae9e7a619b
+SHA256: 344f6bca1bbd565c968fd21c0e2277476ac2f0ec3aab96ee5c107d942195ee56
+SHA512: 1ac4ed69aea0befdeb963345f33b879b26b038564ce85b1aba667d559d4e2ef295e67b1217d0353e34f1c024a52db7f6b090370df2fc7c24c9a7299d6b84c536
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-javascript.
+
+Package: devdocs-data-haxe-lua
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 467
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-lua_1.6_all.deb
+Size: 37302
+MD5sum: 1b9f3b3d505e2289f0de5742a3d3363a
+SHA1: d608a7612b0b10d678f172ccd5a91b1b72c67814
+SHA256: 9240d6261d20acf4745694b032614d17c4f861cad89108e062738955d57dfac0
+SHA512: d384c76698ef50551fe8276f960484cfa36c46798359405dc544acfbfb9afdd34f74a9250dc15535b37f845cc8d35d336e73ad7ab934879240ca145999867e71
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-lua.
+
+Package: devdocs-data-haxe-neko
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 112
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-neko_1.6_all.deb
+Size: 15090
+MD5sum: 710da65d8a4e71ec6c8d74d33d6bc9f2
+SHA1: e38f02f7bf9f53b76f5bed952d04942c16cc1e99
+SHA256: 7bd72411c4a3d79a321607e19334bb76533403e219bf86eefd048ecfa65770ee
+SHA512: 882f51d47aed110274880ba7ba788792e6e4395d83e85118d25bf4f0ba2d670d466ca4af8b79d27f35426981ca1c9dbdf0081d13dd69ec33387c6d68057b89e7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-neko.
+
+Package: devdocs-data-haxe-php
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 738
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-php_1.6_all.deb
+Size: 46512
+MD5sum: 3807a25a7f520426c98a1ba77c552603
+SHA1: fc49f74996320824774dc4c6412a7b358c96b835
+SHA256: 9246614f47e2b64df14be5dd92831157c621a8b4cf31645f04a7ab08a72af80e
+SHA512: 1b773bc16a29cc4ca33ac44124d2290a3db6c1693475a4359226d0bf6280ef54addf82e3e949e0c8cfc031b65676d58a413c4a712f1b6876eac78c34fbfded2c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-php.
+
+Package: devdocs-data-haxe-python
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 783
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-python_1.6_all.deb
+Size: 53104
+MD5sum: 732dd539d5da1f1744ef410816d6f477
+SHA1: 03c683c8cfa77bad1ed37f4355b39213b2cd39ae
+SHA256: d82b3341352912dcf38aac6900c4a6ab88c8ae99c391c67423580d8a62cbb3b0
+SHA512: f53c40f4491dd59bb001045770daecb8729965d5884c28bbcb8add7437b4d2a6083a1c73b1ea7a134a1fd478adc5c06e232d1e37a3bec42e45382ef55bada1bc
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-python.
+
+Package: devdocs-data-haxe-sys
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 158
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe-sys_1.6_all.deb
+Size: 19456
+MD5sum: 77d17cc2b29f22fcb5b9617c795488be
+SHA1: 669cf2b34e442925eab58326aadcf152aefed373
+SHA256: d4942573eb0876b134690e29cdcaf9389aca3debb79487cdbc0a100b1d6472e2
+SHA512: 4c813c1c9bc5e3fd19e809421ccca26fd9e8606a7f91be365c525ba1bacd69ac53290020a489cbca803181e7af601fd679b8c79270f71f11025b098f23ea919f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe-sys.
+
+Package: devdocs-data-haxe
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1746
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-haxe_1.6_all.deb
+Size: 142076
+MD5sum: 25fa88e66389296a78693a579da01bcb
+SHA1: 97bd6bb8fa2679c1cf5e3eff9521e55f129df090
+SHA256: bc9f9a2c2b74e261d773f1c145a6f051ab2fb8f2f8cb44f1d9e761c130ab8043
+SHA512: bd034c43fc9b70e716e88389732562a515c61ebbddf63db757b3315ad8b237c5c227052d032c8612e11cde347627b06c7bf9431d484c7bdc8aac3f368d996e44
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for haxe.
+
+Package: devdocs-data-homebrew
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 41300
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-homebrew_1.6_all.deb
+Size: 1834124
+MD5sum: 303b409a325fb2594eb1ac13abd21861
+SHA1: e9ee0e522d8d6bad8ea2722c5fd6421b34842a00
+SHA256: d8c0d63ef25a67daa00e5fbc780aef9e797ab4cc1fd3517e3968e37b0fe51e1c
+SHA512: c983b7ae1a28de8a718369b422ea4eaef180cabd28a3ce4c941edc4a3504a6b152f5d892521bc9db80fb9ee0dc72950bb98ddc592810ab919306cc1b8379996a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for homebrew.
+
+Package: devdocs-data-html
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5438
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-html_1.6_all.deb
+Size: 1004782
+MD5sum: 5e2c1a9aff498c9eee9e4992a34ec4be
+SHA1: 21ae3c7e736757080bfa6e927ed5a5c73daeb16b
+SHA256: a3065ff08988e6eb4c345fcf2ffdeac3fae37fed577303887a4eaef202b0d1e2
+SHA512: 855b3aa10a4a172a1460f0afd204a7c41c967eff6824b7cfca20333e9576cf3e14f5f7707dedcfee40278e0101c31733808b2488dbe43fba889b401749c41f5b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for html.
+
+Package: devdocs-data-htmx
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1003
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-htmx_1.6_all.deb
+Size: 141426
+MD5sum: b47288f40a02332f907dd2d9a10fc3ae
+SHA1: 3bc3fe6df2db0a6d01c3c569c6f961bc87c287f2
+SHA256: f6331c86ed18a52b6ef39597f7612111abbb9b70f1e8967f7b26385b5389808c
+SHA512: 83acda18e70196c9932db8f8574a9026d3efa33b9148b945d2af864070dbbe3cca5c7504b465791e48886473c09cc654950fb6558ea19773d82bcadb9ac6b7b6
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for htmx.
+
+Package: devdocs-data-http
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6965
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-http_1.6_all.deb
+Size: 1106744
+MD5sum: 940fed99222da094ffa07b180b82b2a4
+SHA1: 799e9ca653965940ed6f5ab6cb6676fe84c2a354
+SHA256: eeb7bb3e1d170f943830b54f7c79d2a4d69aa80edd5470e962205312d8c8fed5
+SHA512: e24b6e050e8bdce214771578031c2fac37dd35ebb27959b1b50c4a22f42b506f49c4f01a02ab7b0a642af2a9e5a5c55df60f946b6bc741d6c7e58b8da906a1a3
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for http.
+
+Package: devdocs-data-i3
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 286
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-i3_1.6_all.deb
+Size: 116318
+MD5sum: 038a5e97aa462a452484e18cfaca29b3
+SHA1: 7d103b689284d860c7f4bce0fecd0e68c5a7961a
+SHA256: 9e7068065bc5378a24e28314dd3d92ec7944919b10f63119a89e6315eb1143ca
+SHA512: 8db94865121d838e48146d5ae60bf2a8c2f368c814ceb68e5010aceb0af51aaa64b1da57637926c3447e8d18a73456404a85675c9e04ad7d80d10887e233a3dc
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for i3.
+
+Package: devdocs-data-immutable
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 982
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-immutable_1.6_all.deb
+Size: 47878
+MD5sum: 6756b63b8216fb803083247d86aa687d
+SHA1: 46dd2004cb462cd18a1b804033d352faf3e5ac89
+SHA256: f056b07399b5fe2bc757f30e07e0e9f23835618efae41b1dc594094044bef4d6
+SHA512: 55b13124076e25827b6bc2ed59a055829a51ce733f31fdb3e8ee2fe6615761f8346592f53a6c64462bab1af5d2352b2b2c466574fd24f5e0a66d4f80ae90b733
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for immutable.
+
+Package: devdocs-data-influxdata
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3735
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-influxdata_1.6_all.deb
+Size: 1315554
+MD5sum: 06453dc47478a6e92241c4730379c952
+SHA1: 06ef03f022f583261855b26932020c2201dbb969
+SHA256: ea11ce6493e7e421322d14eb5e315fa7751c5510d6db5b12fb67818e6b6665c1
+SHA512: 45dc3a580c80045b05792ddd511f9b1cc9b7ff094a5219ad69abefe5af9226487c3fc6bf9676f6f8182e2cc0f9a1075b79eac982d48844d056a5b1dd71be27f7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for influxdata.
+
+Package: devdocs-data-jasmine
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 211
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jasmine_1.6_all.deb
+Size: 22692
+MD5sum: 9e62626172ec8dc2c5db9f6a67c385f5
+SHA1: 7628081d1e6c7a3515c16327846560d73dd65cae
+SHA256: 259da7972719817e27cf7ca44c4befd154b1fce8ba14109b74b1b901551c7d7a
+SHA512: d597a7f8bddf93cf42b43c1f8500e53b919ce2d740a4bb3de7384745cc819eaea1dce4e7eeacca6da930d4e1e7deb7100ea06dd254a8e709d0565c6abb2e8174
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jasmine.
+
+Package: devdocs-data-javascript
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 12548
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-javascript_1.6_all.deb
+Size: 986762
+MD5sum: 81d710aa46769330629712c461be044b
+SHA1: bf069473397830294a8dee035a23ac32a590c328
+SHA256: d160554e8d9f9599e43324713f75e79201079805a23e907c29ff0b592e5fb648
+SHA512: 7e6e5d1c7bc9c3a3b333c25f53a7e10cde46fe2b3f61e2b1036d35e9d249db1aa1c4768efd428316a3183a6633f3220b05bb40abb59b5bc9de0b964758d6962e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for javascript.
+
+Package: devdocs-data-jekyll
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 487
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jekyll_1.6_all.deb
+Size: 95232
+MD5sum: 575ec66d7ae8dbf3a3d834242ac329d0
+SHA1: e247bdbf70eb9de04fc5eb3100689554585a3e11
+SHA256: 5bfd5f852dd2c66bee7209f6f7dfe97b019b8742fde73fd7020d822595a155d3
+SHA512: 0fbb193d0fdf80657acb4dbda3ac2a30e7067307569e3d9fce55fe51ae454a2121d8f069d654c043c0e0432bb3d17fc2e93104ca95a3360a3b1b7db7e3310ca9
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jekyll.
+
+Package: devdocs-data-jest
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 882
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jest_1.6_all.deb
+Size: 195856
+MD5sum: be4ea26476399e5a4a51dfff7231e199
+SHA1: 7d832b4cbe726c0c8f8e99451a9403c47fd4b9b1
+SHA256: efb03c257d51d52fd5ac8c5fb35a157c478e21d8a0eeec56c495ec4203f99168
+SHA512: 26e98b38dced259d50121909d68ca0d5b1a1c082c593098c25c2af642bef3feedafe79000abc9e9b8eb28038cc8c7efe5213f0f9c35dce67c931838b3ae9fbb1
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jest.
+
+Package: devdocs-data-jinja
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 620
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jinja_1.6_all.deb
+Size: 93658
+MD5sum: a5d7d276d9fea0d3dd52f09028d22705
+SHA1: b843956c97a6d2fce7acf258ed75393643235af0
+SHA256: 6de3ca180bf463b3da2486b4d47983cbffba0054ca380863f8c087ec962c4a67
+SHA512: cab75951ebb5001c1a4749b07ab034199fe6597f4b80df479a341abd10f60320ebb03ed94d1fcc3933cb4ccbd8c2f308e8756014b4520eb27a8005ccfa752e56
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jinja.
+
+Package: devdocs-data-joi
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 494
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-joi_1.6_all.deb
+Size: 46286
+MD5sum: a503f0a0574e9b5152dc9d435c130185
+SHA1: 11c1113150bfe50b6449e5b026a123078fc57bb3
+SHA256: 5bd7d45510f0cb0242b463e6e3759996dec9a65b2b1e03e06915bd1294715cb8
+SHA512: 9de9d84c6a0f4f0c302c8d8a95db053a60872e7343b4c761dde53f73e67beb33d4e772f042cf9c5de3d5935cdba114acade2c16e2b2df9c939b6c0f347439719
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for joi.
+
+Package: devdocs-data-jq
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 318
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jq_1.6_all.deb
+Size: 49558
+MD5sum: 1203f3a474391703e40f4a375b08dddf
+SHA1: f67d3ef9d13907e67e535f7b3b11472c13bfeb6f
+SHA256: 6e0e7ea4aeb9d5464cb45c0e0a504d26507d36e037b2bacfce1f44e8b26b4f1b
+SHA512: 8965375ff298f4e2734c6f571da63715d1e2d78d200e0a52b3815c934c846ab63859728dbe4d1ca34cc306c608611cc1ae4223184a4ffca39b27aca5359b9a75
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jq.
+
+Package: devdocs-data-jquery
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3032
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jquery_1.6_all.deb
+Size: 552286
+MD5sum: b998db3515e169ac3a55ee48534f950c
+SHA1: fb0e6a6953590d2bdd9d3c8787b3896b6ad6f886
+SHA256: 584af91a5afc6cb8f031036e52666b04d5ab2f4ccede369c727a4635ca9ec0ad
+SHA512: de7b235000cbb4ef503c911e5d807081cb00eb36c2197dabfda6a852bb0d329e4a13f656a6a93caaf1ff0592786c9e7ae63337846d00105bacb555c27795c929
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jquery.
+
+Package: devdocs-data-jquerymobile
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1141
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jquerymobile_1.6_all.deb
+Size: 121594
+MD5sum: f9fe0d0a218961f4ac2e66e90e19bdf7
+SHA1: 475fb338352fd9d2699f20bfb6b65a6fc10f9e95
+SHA256: 8793246f06349e2167927f06ccf938afad72d6f0825edabb16ab2d148273bd4f
+SHA512: 0391cb74522671ecec57854ea2264c64aba75b6ea980524b444a31991fb425098df7bef275f1cd85f66ee5074df7180a69c1176bc9ebe2bc006e4998a7d19a09
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jquerymobile.
+
+Package: devdocs-data-jqueryui
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1111
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jqueryui_1.6_all.deb
+Size: 92450
+MD5sum: d52a6dd8bfb64a2eff231e64c0234ccd
+SHA1: aac89798399bd369ef78a95ccb275a48b47d231f
+SHA256: 231519663ab1e48f106427e60278c0bef4592a79a5fd986ffea7f70836168bc1
+SHA512: b182367d7aa6e3a61378e76c66064f2849914e1c5b63afc283ed13487b8c8e6332499eb252a413634ccf36ed01d66dc6ebfe8b97b8dd6f807fb8fb3e36da5164
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jqueryui.
+
+Package: devdocs-data-jsdoc
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 335
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-jsdoc_1.6_all.deb
+Size: 54962
+MD5sum: 4b58760e5d920d4126b7933e79183d28
+SHA1: 490fe132042497434cf5b8a53101cb94b19b11d8
+SHA256: 82acebc583a9aededa6bff97a53c78a328a78571cfdc9ebb18b0d46e2b29683d
+SHA512: 3c85b0f80492ad27e7a62602a20884b899878c8f3ac76909d2e78bf8ba0a4cce3f903bb183196e7004a2210e59993ffc8c801088840f86c26f92ad4974205ee3
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for jsdoc.
+
+Package: devdocs-data-julia
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5599
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-julia_1.6_all.deb
+Size: 827176
+MD5sum: 5e615f4571853de66b26a632c39dc520
+SHA1: 952c4a584553c0d184f6ecee8bad7af6aae0b204
+SHA256: daee276461c5498dfbbd964a0facc566d7ffcf209c7693b5818fb3ab124b8c6b
+SHA512: 64591686b0f7e9acb40451f2e814fe3a81a131d9b465d9b0bf152903095bb442a5c24136e54d9359122657b1fbdb50a43f7d04f98307922a3f07224e701ceca6
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for julia.
+
+Package: devdocs-data-knockout
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 484
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-knockout_1.6_all.deb
+Size: 100952
+MD5sum: 53b373398bd637ef731dc3c44e8f5c6e
+SHA1: cd15eea75f6af94bd1ebe1a223245f38d93b7d6d
+SHA256: 037f1de6f66ab2096b87bee1a8cfd1f3ef2dd959b0b84513e710f4ecf7349042
+SHA512: 7b40e596afe04dcefeba01a180b01e07175ac7e404addcca562a474f45ec17db91436e0b17654f88365bc8e5388b0cc7eddd7a00f85eb4a135f3a60235db5a29
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for knockout.
+
+Package: devdocs-data-koa
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 210
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-koa_1.6_all.deb
+Size: 93758
+MD5sum: efbcb8bdd41fad9c8075946e9e72e526
+SHA1: c9818ec52a9a60ff06f0eea2d8c85cc1f29efbff
+SHA256: 0a50e6ea29862ccecb6f4495d3a4d27b84982351d3073047bb74064489051715
+SHA512: f8dc2c48af60d6ee3ce3f3f845b76680909a9687525714855294478aad53fdff2e0e9ee68a4e081ceb4d43778a2109fa4c91b8577b8e44a629b2c06b23705072
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for koa.
+
+Package: devdocs-data-kotlin
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 81700
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-kotlin_1.6_all.deb
+Size: 8960104
+MD5sum: 2405aeeab373c057eb1be853bfa8af5e
+SHA1: 0798f48e5fd1e2386eb32869434949d2c1d75acb
+SHA256: f46e0bb110d4a07a926e4bce32ed9a662f4bd4b8bb6464f7001105bea878fd93
+SHA512: a9df61974ed76994952d7172b045c96b6e99a19ba2c9087523820a3f36f1abe5e240aed972f810429ab744676204b5f372d5ed846f05f2225f15e1d4c20c43d7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for kotlin.
+
+Package: devdocs-data-kubectl
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 346
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-kubectl_1.6_all.deb
+Size: 40306
+MD5sum: 9bad4f6d13498808a98a221811cb14c6
+SHA1: 6b490dfbf4adc209d9df51e2ae10b7da8a79b612
+SHA256: b7a1b355e7810d56c3ff019eff53160669fe4488dae0a885b3dd0fe333c9e0f0
+SHA512: 581e46f9bea09b90e4366cc39a78e0ac8d650bb23fd8e40e8cdf46b40653c5884ac7a1d9834a1654308fed5dcc864dd2e69de6b6be61f692a6da93222e654ba7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for kubectl.
+
+Package: devdocs-data-kubernetes
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1489
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-kubernetes_1.6_all.deb
+Size: 161250
+MD5sum: b737f285a00f724b28b5fe9b0b13118b
+SHA1: e5756fcc1547c571b83e81f028de8abf6777c82d
+SHA256: 5f948e550e574afe970a11f8146b36c97490b5ae75a972d130788cfd299d5bdd
+SHA512: e0e2cd49c21b71bd0b32cc536ba80d93a1251d92bab82d686a9e01d6c37920d0f7a55e2c50d9096fe11357d23bcdc7bd37ef03347215f4d880358e20e7ca92c2
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for kubernetes.
+
+Package: devdocs-data-laravel
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 41405
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-laravel_1.6_all.deb
+Size: 1392438
+MD5sum: 194c1a847c3be59b8c98fbb3c3c6b027
+SHA1: 20f594a5a6f07f02002d17942d52096f7c2bbd5f
+SHA256: b52b69ae7108e64d520565228ebe0943a23f9afd25f544a4bcd7b9941c2acb6a
+SHA512: e823bdc383fb958f1fde937fc25f874ee8df3af0071dbf6042c90f5b239304e966a65f7423051917dd02bde10b2bb864373435917aacf26e3aae21e8eb92b32e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for laravel.
+
+Package: devdocs-data-latex
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1652
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-latex_1.6_all.deb
+Size: 243154
+MD5sum: bd646750394f7cbcd2cf765f62363805
+SHA1: 263ca4b9ee432a0a13195e10b3e6460559a6fb49
+SHA256: d68525b913050f68b0b07c4651ed6d64fc781bc0fb84d0c0afb3172ca076697a
+SHA512: 39d23828155829a6f10d292da67dfe4b459eb84855340fb0c329f73cf5489761724dd2eb3d700f9c8f8bdf9a23acade1c19582665b3273e111cdf473f3cdd652
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for latex.
+
+Package: devdocs-data-leaflet
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 875
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-leaflet_1.6_all.deb
+Size: 73266
+MD5sum: 2f6fe9e1dc4f592f152180e6b54432c5
+SHA1: 008ded8e2f0deda0c1280f6bf5397d895cff4dc3
+SHA256: e9dfc84343e6904b5624081de6e14d1bde9be4cfd81c3153f7fd956221561572
+SHA512: 79cf63666b948bd78473b22b966b0b3560a56fb8dcd99808620bdb9f2d916b2436c7caeaa29f1f22321c15c166ec36be03ef99f590d0dc039da014950f5d7ce5
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for leaflet.
+
+Package: devdocs-data-less
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 177
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-less_1.6_all.deb
+Size: 37186
+MD5sum: e36d2e862d47b0e1a71678d5f66c9cee
+SHA1: c0b13461b9646190159b13a1f834f6371afae68d
+SHA256: f2ba8935f6f1855ea03d7d60dd395c570b9c179fd39b97892266ba31f8037a6f
+SHA512: f171464bb81f065d1a0955ba2453121fdca92b5277958d99fd5a18e572cd82177773a7228d5acebecca3fd35b7b03e8bdfcaf816aa436e9374779b214440e223
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for less.
+
+Package: devdocs-data-liquid
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 204
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-liquid_1.6_all.deb
+Size: 21846
+MD5sum: dac530b152bc1dfb2df6c9051d1b34f7
+SHA1: 9803d64721240ee4819329a1f19763d91196af6b
+SHA256: 0d8fe01df0f90b52590ecd12ffb09f61aab2046bf9f56989d2deb50a3cc8fcfd
+SHA512: 01d86d207ff78ed5229309c56bc158d1a108de4e8d8cd21a148c34d22ddcc98ef5ddb663d7600cade3b25641982a25336b0edfd34ef23944de8ecefcbd956e6f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for liquid.
+
+Package: devdocs-data-lit
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1338
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-lit_1.6_all.deb
+Size: 352446
+MD5sum: cda5789d82694fba945df6fd27a4d089
+SHA1: 364faa725d0a91d5be3fd1d10448a18b91abce87
+SHA256: fcb0e28b7200ac179fe26200d8e19651eeecea6fc15c5bffabb26ddc55eac8fc
+SHA512: 3531b011bb5149da23abe5a9cba9bc0de0596f42d34d31a0219db9636f1f3050127846d29b58c9bad07e443597806d2232e9c6fd423d590edbe440dce98bc51c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for lit.
+
+Package: devdocs-data-lodash
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 348
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-lodash_1.6_all.deb
+Size: 42584
+MD5sum: a162094cf20722bb9411428eee42cf19
+SHA1: a90d0d0aa9936bf2875c8dee52dc88ebf8034631
+SHA256: 9610b17ccdd77bcffd200b7380945c4a2653d9a5b24df98f6d63a70ddb9a48ab
+SHA512: e90c17b21e9c8999f04a5255a6b7980324d821ef9f0a57af895e1d7e071df11d2fa52f793f782a89479f21d66cd56ce204ac528b877938db2743add31c70984c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for lodash.
+
+Package: devdocs-data-love
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4435
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-love_1.6_all.deb
+Size: 488416
+MD5sum: 9d00d165672fd90883660cf7407040dd
+SHA1: 220ecca9cc122f22f7cb60a6c0f417050fc3b74c
+SHA256: da8214d6473f561bf9426e5b0c66f0d740350a2a195836c6a46759e5b0d058e9
+SHA512: 2c5090b517f518230dccc9fa5a8ac7bc8199cdb3380f500390720c4bb78ee745382165f3a11685f0a508270c8556c7d2292e539efe6d860a435c88e7006a8cca
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for love.
+
+Package: devdocs-data-lua
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 396
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-lua_1.6_all.deb
+Size: 83406
+MD5sum: 95032722a7beb0dfa28aa55c9f1c4769
+SHA1: 6e938d5d56545d3d02517f0a6912ec7a772658e7
+SHA256: d7ef0ccd5d57e3d68392fa39e8691f51f806e510b2250c0f1a516a18ba32ce7e
+SHA512: 4bee49367690779f230c22a43349b8dbcc7109990d82b8ec61b3998a7296cadbc7a2da6f3599144dff4bc0ad7ce027bb7a276ca7365a2f3f3e07fe54c52795cc
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for lua.
+
+Package: devdocs-data-make
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 847
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-make_1.6_all.deb
+Size: 146464
+MD5sum: 4c483f33bf73e4ef0f9cc21704f7d338
+SHA1: 04a38ca6a4e7c3c6f755743ff5c49f207293475a
+SHA256: 2b7a69840e99f5c59d1e8b0fbdcc35530aa94ae095f0ae8163d93659d108fda8
+SHA512: d73a27193fc6d4655b8482522b0c75842af191fb7e96f0902c13c162b92424562173ed4179316dd34795472c161b1485c4745f61acc391763ecf7de1204a50f3
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for make.
+
+Package: devdocs-data-man
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 144229
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-man_1.6_all.deb
+Size: 12643406
+MD5sum: cdd06632812159a5f839a3bb18512078
+SHA1: 99deadaeb17d5946ab3c4df095b9325dbb592f5d
+SHA256: e5ca43f90e92eff99393ba8e2db3c540b64033702237f79c8a366777ce90269a
+SHA512: a4969b45c9f29e4b696afd2f926e71dcc7b62e7fd8bbab3a7f30399aa5e1a8a1d1e133dc8f3456c77fca36282ceb6a22a12e4fbb5aa6c4617c750184393c7700
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for man.
+
+Package: devdocs-data-maplibre-gl
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1163
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-maplibre-gl_1.6_all.deb
+Size: 107158
+MD5sum: d598ec85b7c265323935d451549e3205
+SHA1: acf80516e0cee255e6672901a3a5edf46ef6dd23
+SHA256: 0d2651fd2f0e5830a17b91fa20719f8fabdd90fd22b2f60eace494dbf2a05984
+SHA512: 69b532b6ba7f10427b1ddaa06a45d1239eaca5e26deedddf71b7a75f1f837ff7b15ae2ae15cf0a27c1c41f0007d7a5dffa2cd1ddb68b6f47845c56504cd5228d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for maplibre-gl.
+
+Package: devdocs-data-mariadb
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 28033
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-mariadb_1.6_all.deb
+Size: 6237516
+MD5sum: b446935bfa71fffd802f0361363db7f0
+SHA1: 7fb2c4a6994bb4d2161ca93437a9d0eebae9861d
+SHA256: 17e87e334f58f55ac92ffd5f90b1ee16907c6f7b99b71e59e1ee5c88349ad86b
+SHA512: 5e09b834405886afb0bf7c3bc2b9ca3cf9703d162507ad1eb14b314e4bf8b28ae748233e6e09965a751921cd196114bd825130141671b0532dce52d54063a24c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for mariadb.
+
+Package: devdocs-data-marionette
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 409
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-marionette_1.6_all.deb
+Size: 61528
+MD5sum: 84eb54e0429b9044fc5114a245917475
+SHA1: 3985fd27838433ea6f2f454d245d7b711f00f7de
+SHA256: 7d01340bbe4cd706611661030be78c9680e7d98f0c4f6d867019b6c351c8d8c9
+SHA512: 6fb22ee2e7b00e7e01ee8ba737860ce8a2f2bc2cf26cf5acd4a6847a9e24869c5c97f518eec2d77d72781129d8543573d87e93be2c481b7c71c8b3e0a12d6c26
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for marionette.
+
+Package: devdocs-data-markdown
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 50
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-markdown_1.6_all.deb
+Size: 14232
+MD5sum: 498db12cbe28b8df81a35483e81e2960
+SHA1: 7f1573588eb830388b9b81f722ad033cae30b9cb
+SHA256: 9f35c8401a4c42258df9ec988bd38f602f687623bad2f7f30c161d65f178b4e6
+SHA512: 2ae0b624d652a2b6abb84ae785ee353fe399565dad1e4c81d20690d81dd5221b0e9275130f36b7189793103c4da867bb766028972cc61a4825f6e7df4db4f120
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for markdown.
+
+Package: devdocs-data-matplotlib
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 65713
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-matplotlib_1.6_all.deb
+Size: 13928002
+MD5sum: 053ac5808b56657fdde10f32862a8c64
+SHA1: 911aeca90fadfb850c2ae2a367740849e11f9627
+SHA256: 683a3eb4edb76a3e7036402be06268af0368ae16cc560461fc9ee3d8ef9641a2
+SHA512: 30c6c5bef135646a3579b18a17b5444a69bb2d2e035eac20d85c274516a54e800f0b14e2a42e6375b49374659957bc720032c64bf958a464fbddec5711b22c75
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for matplotlib.
+
+Package: devdocs-data-meteor
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2122
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-meteor_1.6_all.deb
+Size: 950574
+MD5sum: 5ff7916218ad25deed752cdbb78b8f90
+SHA1: ced0333c7c8e8ab7b3afa52448b91cd41daed2a1
+SHA256: 35108f00e453328378f82bfd822b90d4d223da39343712d2521ac95e3b60e92b
+SHA512: 3783b4eaab163cdb412f19d3c595c2c233cdb4179ca575d89997eea7cd38d05c51b71c157c8c6ff7ea9de1732c4a9fd7952e57799a0a50b3b040234396546d87
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for meteor.
+
+Package: devdocs-data-minitest
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 300
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-minitest_1.6_all.deb
+Size: 39788
+MD5sum: ef3134f3b72c6c49699af6805f924700
+SHA1: 830c70a3e7b412bb3ef777d2926f513a2384c248
+SHA256: f493adcee8038cf6498a2be1aa6b63a6c5928e1f32672d1aa79b0112767f0831
+SHA512: 8a9b7b51bdc16a2a7e99fc3874f3405809d067d252d931b5e07772c181410199955a09f10091c59488d2dd273e2fc82fad097016e5256f2d5ebc660644610102
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for minitest.
+
+Package: devdocs-data-mocha
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 529
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-mocha_1.6_all.deb
+Size: 334664
+MD5sum: 3afc69191fa17815ae5dacb6dcc5a9ed
+SHA1: d6cafa7b4d1e61764c7fb8dbd7df06f83495c476
+SHA256: b54d51fcdf5904bd0dc3ba0378dda362bc2986fc3e60a19c1e1dba3be7fde936
+SHA512: e1e354766b473df46aff937772b22c181e7e52891879f53354cebd18008dc9e350837904e5a17cc7090a539cf3cc92902a4da1398aa96663f303f47e8f0ae14b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for mocha.
+
+Package: devdocs-data-modernizr
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 103
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-modernizr_1.6_all.deb
+Size: 24938
+MD5sum: a46106e9462bf3d64927be17267c951e
+SHA1: 11a630038f83ed3e6ae893f073c4d78d13f6b267
+SHA256: a26d5809bb2c6b9a17abdb37f7548e454ed71ce06fbf37cb7a6de5f14d24db45
+SHA512: b8c63c2526222be1d7fefa737d77601c00601d3b47af9bd3d6170f2658b50f4d2080a5fe7716580d5dca98b34f7f936772b552f97c5cc01836e0212981a58912
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for modernizr.
+
+Package: devdocs-data-moment-timezone
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 64
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-moment-timezone_1.6_all.deb
+Size: 16822
+MD5sum: 4cbe61da278672fa104c73eda5961028
+SHA1: 9795ffb9097f5a5db09fd5b96578728068ef2f18
+SHA256: cd7bfc348f61eb5ecaa1fb6e352ec4c44a0631c377de11ac1cb5156b127d5442
+SHA512: 1179e8c6771b05ff807eb05619742e0b301d19bc2e375866a270c61205af8a8cbb19211d4c985c04516d4d05c1651331c1487d847e0edbc999657ba786ec5ecd
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for moment-timezone.
+
+Package: devdocs-data-moment
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 277
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-moment_1.6_all.deb
+Size: 60020
+MD5sum: 58409d70abb34aaf8964efb7c9e75a21
+SHA1: 297ef3b902ef124db03da9d6fbbf5dc9be7f8a33
+SHA256: 89cfa955124c94b6e6ec5daad71274f849e9f1043ec2a5b9a3d8b6dd50c40129
+SHA512: b0226517b0de80bc9df3aa0494a6cdbb2d01606d2b1cd2b06b6f6c107771116e0e47063917dfe7ae76dd3a669e7efce8f6db19273ccacbea9bb6a9c1714a1ad8
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for moment.
+
+Package: devdocs-data-mongoose
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1843
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-mongoose_1.6_all.deb
+Size: 204792
+MD5sum: f7a26aadfd7f0e9b4ed7aa84c96effb5
+SHA1: 5a40ac655476a748a1b673e77e2e97022ea98623
+SHA256: 5b09c400c1a1f7753df04718008e9680a402ec2a3d299dfab6da55d02edf1c00
+SHA512: a19c3c81a4684ff9904ece3cb2dbcf962380be61cfc7af8ae422e4c4f2f011ca05d54d83f5c1e4dc7ef21b3cd8b8d8f4152c1ef5f816067a43a1197a0f37421a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for mongoose.
+
+Package: devdocs-data-nextjs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3028
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-nextjs_1.6_all.deb
+Size: 331002
+MD5sum: a24c49dfc87d881cd63dd3bcbfd4aa06
+SHA1: 1823f8f0efc88f4a2aa566b00d35a1030ae09de3
+SHA256: d049e240369157cdf81f034660c9668c59c9edd8f2757247866d547a4d84326e
+SHA512: 24d0001ce07ee24cf3db686f00ea715aa7cc8a294b70813ba85c22748ab1074ff5aa461f25d7c8650975499d4e62a7145a03d3ccd9459d795cc35fbb2aff3ea0
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for nextjs.
+
+Package: devdocs-data-nginx-lua-module
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 788
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-nginx-lua-module_1.6_all.deb
+Size: 244364
+MD5sum: 0b9c7db918e1873cbf18d2157dc809cc
+SHA1: b6743e862787b3e21a7aa632dad6090f46d071c1
+SHA256: 0cd1a60da7e575563d0bdf1a67b25846465c5f3fcef997bcc7d5789e2de2c60d
+SHA512: 0c6f569db95431cb188112c8784a0fdb376ea0227cb91f7aafa3f3658b03d409e3dd42fd4ec4d92a9454f953e59313ce9c13b3480aa39fb7d0af98fe2a3d27c2
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for nginx-lua-module.
+
+Package: devdocs-data-nginx
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2324
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-nginx_1.6_all.deb
+Size: 281184
+MD5sum: 1d58bc6f841b9acca44390a5523608dc
+SHA1: 4a1ba684a4e8a92d50655e513314c4144ead5ed3
+SHA256: f666e6b61499b8b19253f04977aab9eeec11ff946fcc1f9b3c24c5cf6c45ed83
+SHA512: eff010e7a31323627598af337f55470222c8accf5e8e973f3ea4adb1717c3d6d8233378907e583a2c7ad33ed0bb3ccdc1a8ac45bd7b9c580fa054c5f2c10befe
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for nginx.
+
+Package: devdocs-data-nim
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9761
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-nim_1.6_all.deb
+Size: 1012510
+MD5sum: bf6823ede079a557c0e5edc735c9b3ba
+SHA1: daad8884c5068764f0305de036a59f6485fa16bf
+SHA256: 919ed8f2206c85f103740bf15b3f77eb3ed705671c7ad75f24a8eb62a3988893
+SHA512: a15f7f4682d7b6bc0a8babd3334e04db6df4b38d274c3668f5120d29c42404c35c10b7d54617571061aaaf5e056c68a19aaefcf6b41abe7d8eed5257617ba631
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for nim.
+
+Package: devdocs-data-nix
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 382
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-nix_1.6_all.deb
+Size: 54778
+MD5sum: 7ebfdc8e2bb6ef54a8869068b75fbd27
+SHA1: 24b0af324ee5fdc45a26fda84fa398c7f562ec77
+SHA256: 7eb17cf3e4c97f661587e751383ab4dc48398d0a3d79a0516b29db42902016fc
+SHA512: bb97e08e810aab31df983319bbdcac7c71d8ca3d5e0aae8a8b619aa2291d85ae375e683d19ab09a7462f45f555ef8712d0096b8830394e8fd6599e877fc84889
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for nix.
+
+Package: devdocs-data-node
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6846
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-node_1.6_all.deb
+Size: 740286
+MD5sum: 86f83a2b0f45ff6080662efe31226067
+SHA1: 6b219e5755e356e2dcb7e7eaf9529858f6bab4fa
+SHA256: 687f0fce6c814d2f0afd8527c4cd86bdf60cbec69c9997ac97104cbd0664049d
+SHA512: 804c326e8b00930d540ba803cf9731e7175bad8575ce613e3812af135a5a5f19d271b52ad1de4ab981bd59dd55044b388c2f898a2fec44baac1287ae63dd0d51
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for node.
+
+Package: devdocs-data-nokogiri
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 885
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-nokogiri_1.6_all.deb
+Size: 94202
+MD5sum: 18e9b911156fac2bca481730699712d0
+SHA1: e9605814ebb95149e8bf48d3eda6838fb935f3a1
+SHA256: 87270bad52ffbbf85be2be6e31897360940349ea83b524d4c9c5c2652fe62b07
+SHA512: e3beff5434169c3ec5ee493ff7e51c77c4137dfdb9a439cd213a6a7d7466aebf7bb11dda9fa096a1f6a158bdba0f34febe54dd061c83ae095ee5fa3c0b8dd599
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for nokogiri.
+
+Package: devdocs-data-npm
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2177
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-npm_1.6_all.deb
+Size: 179998
+MD5sum: 4831084ae4e960bd40023862254868a6
+SHA1: 4e342cc22ba32d659c9682a6de60ea04c5f23a50
+SHA256: 3a293546dd7131276c84bc2ba14c0f539eb1def2a3a61ef9365e8fae0c3e8d17
+SHA512: e29e95ca511d38204d2c1ae3435de98c6a61242e87725b4a36de8241665b1f55088056302d79e9aebb2dc0c547cacd2177ad7be4231bd7cfe4544831ba26a7b7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for npm.
+
+Package: devdocs-data-numpy
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15059
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-numpy_1.6_all.deb
+Size: 2413050
+MD5sum: f3ec8757a6baf8f6aa88a5fb114eebbe
+SHA1: b1502aa31f71c15f6966015250e8eae78f6a92cb
+SHA256: 0a36566d5d046b4faa61cba023765db53f50c25e2f22cd0a1b127260ea928446
+SHA512: d7d974e8ebffb49b44390fffa977bc86b6c086c9542a51ccae5512a76c976b6a1e9229539f17dcaf2fde888dddc2b3a52aa4c19736b821209b0f2479abbbc091
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for numpy.
+
+Package: devdocs-data-nushell
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2795
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-nushell_1.6_all.deb
+Size: 201940
+MD5sum: 71263715d42e2eb8ba9230754d2a337b
+SHA1: ff4a428ffd3d984bd0640fb570ab0422900d76d5
+SHA256: c1a621c740138da213aebcf7930991c4be302ba6416692f98147a4283cb2c9ac
+SHA512: 64e3e7b06fae75608ff1f507126c37bb6977049f002789c2b2df04847b229684e019ff476027ce164bcf1a5f3f628ac7ea19a502d30dce95c53870d1b6274f1d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for nushell.
+
+Package: devdocs-data-ocaml
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 10423
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-ocaml_1.6_all.deb
+Size: 776698
+MD5sum: f5c4284cc175cba8f2b1c8ec63e955b9
+SHA1: 076083a5fb9a40852819e1f125a3b9f78128bfff
+SHA256: aa55836e86b870cf3199cecb277642f5b1f2a15685e5c97aa7e4204c5a157d0d
+SHA512: 590c70067f96164586b2452807de5e0cbee9b8af0144a12c24af4adfb31bd35fc2b296333950d2a40ec63bd4895132dd88efaf1853d659d97cb3df92b1db7024
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for ocaml.
+
+Package: devdocs-data-octave
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 7607
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-octave_1.6_all.deb
+Size: 1069800
+MD5sum: 07679c8d80d65ee528177fc2538a96c5
+SHA1: 47dd702aa88a9dfdf819be89b09019cd16ca2ff4
+SHA256: 94d8dc3749e870910de4e1d3c17c2c45dced42ddc1b400ffa43cd751edf56012
+SHA512: e4ec6765913780135f1c88117b8fd088230592511ac4e283f5b3a3cd960508474f8001d4cce9587448b4d2f02312215f1343e9ad9aea9a91a6612535cb3a5b87
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for octave.
+
+Package: devdocs-data-odin
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 42621
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-odin_1.6_all.deb
+Size: 2699760
+MD5sum: 03f362bc2767c80854767cbc9880adba
+SHA1: 54c22a9b96510ad4090f33388a75a4b22e2ba33a
+SHA256: 8e1e64c48cf6a1e4da87e6a8faf2f7f20d2cf7aea185bc0b9a1f015ec335870a
+SHA512: 2532f0b51f7a35b8b9e2d97e5beaa67dbd804d4f330932d0cd4096506c5741dcf7eeb58ca1ddced22f0fd8ac3078efbc400a0ef047d8a367606dc9e55e394811
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for odin.
+
+Package: devdocs-data-opengl
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6670
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-opengl_1.6_all.deb
+Size: 240284
+MD5sum: 3e2578293a75362a7187267aa3630bb5
+SHA1: c6959eb6041cffd54ceef0ea6d36c75823a64497
+SHA256: 72c760e6555879fe612385c84927eba1c60a272596cacd85c4ca731ffec2e755
+SHA512: ec91162a286abe8c0800fe805aaf6961eee54be35f374b87233b27a7bfad86d1341bfcfb3973b94fd56bf2e3bffe1a18959b7c764b2c1a4b538cc7e666704804
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for opengl.
+
+Package: devdocs-data-openjdk-gui
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 30796
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-openjdk-gui_1.6_all.deb
+Size: 1856622
+MD5sum: 48160c06005501f3320e303487d2bf80
+SHA1: 86cec96138f815ce353367751e8797371d9eac27
+SHA256: 5f133a4e075f438dc432d9d7b1e498deed5b1fb0ace3615146b2fc6039ec85c2
+SHA512: 8308398deef1d270b4ddd6b2e2f684c3090ace4a1053675945cea6e8e090ab1463d06e283039517180ae8ec8a4c3a320307710d9bec22bff7225113850979129
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for openjdk-gui.
+
+Package: devdocs-data-openjdk-web
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16193
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-openjdk-web_1.6_all.deb
+Size: 1027526
+MD5sum: d726380c79b0999bc3e68195c2e02139
+SHA1: 36d9e4d3d0d22cf90d1329ee79a6ac5d3d3b6c2d
+SHA256: 1ee2b310029bd9652532e71dafd9aaf533d460dbd0fc908a180449eb2fc24671
+SHA512: 8ec602448ef1cb80935ab6f75558621760243dbda48bde31b968ceff08fb2feb5bcf52ffcc74fe6962d86d5e18ea6a6295e454873207b48d19be722230f2433b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for openjdk-web.
+
+Package: devdocs-data-openjdk
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 122273
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-openjdk_1.6_all.deb
+Size: 6760120
+MD5sum: 08694cde7b44f05911c3872b4feefe40
+SHA1: f2918d436d75137d4bc5caa5a8ab6fea6d4a6cf3
+SHA256: 6aea35feafb8f6df3fb8ab4dc5d4151aba2a25a7fc4fb067ecdbb2ea8740e4b9
+SHA512: 763245ba2d4aa766c197b45caf9bd6056568659c729fc92d26c7f5e518fb2e54c82e37ab0ffde244600a78a8d773c6a7a8b5545356c583c2372e157c515981ac
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for openjdk.
+
+Package: devdocs-data-openlayers
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5486
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-openlayers_1.6_all.deb
+Size: 186514
+MD5sum: d3c3b2e316ccd57c9460c9c51bec55ec
+SHA1: 8bc2b700a248c8f47d79c7852cb47e026a4370ea
+SHA256: 676f3c6e5cd88b51839e5d03a46f45d513dcfc6fd5075ee187a2c7120388b949
+SHA512: 1fbd4d3a8dde0c69a5c8b2d96bbbbded9a71dd70b4532c04b7e8b0f9b20445dc516d17c6bfdf648c1aa5c166116782ebc7479881199bdd2933e8f72719d38409
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for openlayers.
+
+Package: devdocs-data-opentofu
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2940
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-opentofu_1.6_all.deb
+Size: 380708
+MD5sum: ac42dfb42e8622e8c7844bf28d2214af
+SHA1: 163db5e6ccf8c759b23d8b503950a869176b4132
+SHA256: 3f6443ae7e60282e64aec816854c51246324c628817474c0daa26f736dbf9c6d
+SHA512: 2cacb01e8da2d7ab281462fbed2fed852cacfda3f8364d07e572b35ca76d8a520d719f38b620a66359f7ba17311cb42bcae50ebc5204aebc5413ca6d95ce9636
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for opentofu.
+
+Package: devdocs-data-opentsdb
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 926
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-opentsdb_1.6_all.deb
+Size: 160168
+MD5sum: 3e0a986fea4e39720750e32586af88da
+SHA1: 1ffec97c8363ab65a1dce1c89572d9a74937e137
+SHA256: 9d38fa6e056ff5d64736953d9607e2b36b2f762324518dbbdfc62d19d950807a
+SHA512: 1fd12df7e05410bb34834728406be291cd88ca50fa8e11bb562501e62d53a6ca4af289f708ddc934034c36cd54e56d034b04fc5faaa8e2e875633235c1d01092
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for opentsdb.
+
+Package: devdocs-data-padrino
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1040
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-padrino_1.6_all.deb
+Size: 90000
+MD5sum: f77dbad545e162a1a4f74c79806c21b1
+SHA1: ed126fa1f1f755e5099bd1daa52561c970de837c
+SHA256: ac2b076f5140e57853847b9a443d327f5dcdc4f0f055fee03862f1b09320b50b
+SHA512: c4a0f796efb18d7abdcc2f260b4fa797766f8f7899a7f1e1d39d49a1b4ddbf1445e77b3cf19f6c9d8cc744c3a6182b18673c944e4b81494405a8b0c3f578c66b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for padrino.
+
+Package: devdocs-data-pandas
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15148
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-pandas_1.6_all.deb
+Size: 993850
+MD5sum: 699a2a2939250fa8e5cfb1ce27e49c86
+SHA1: 649af6c8ec6daea7cc8438d9a0331e473fd3fb61
+SHA256: 8f071a5f799488688029452a581184b5b13a337ea0489400063825db0d7573da
+SHA512: 092e548ff99a0f39268e327c3f9d32be7864ca02ec8bb0fe094a8f1dae5b400a5c42f1eddd7a0170c4049e3263085867443b46a7549301865d236a2688fb4f1c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for pandas.
+
+Package: devdocs-data-perl
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 17577
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-perl_1.6_all.deb
+Size: 3081456
+MD5sum: 069aded7612ca338b240b7776d20120a
+SHA1: 6745953d8748e882200ab2fb919f8361727d130d
+SHA256: 2bba399db898adc600821a485dcf1d9c490240e39b2a4b235048a7d5c6ed079e
+SHA512: 0a482cdd38b74d6a8f0b7c17bda4c0a7b5bf9d24830aa06398731f8c3ea7b3b6926c500d2613e665af3f6210536ea7e9018b3b3fe15ce2fb5f3cf38409fdbca1
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for perl.
+
+Package: devdocs-data-phalcon
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3670
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-phalcon_1.6_all.deb
+Size: 321396
+MD5sum: ea1562d57a608047bd588f4171a5b847
+SHA1: 23f70da5b8482cdc2b840c11ffb8677d16e4f8e4
+SHA256: 7108140a270dc0053e68a6300294c99c568ec79da803c78382ed3a51585de7de
+SHA512: 226f08b26cfa0c3b9c083d22d371bb156208c92fd0befd768723b11220dcc2b5cafd168be3ba1e52e0e741f09a856def02f2ebe9de6392a421566afa884ea425
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for phalcon.
+
+Package: devdocs-data-phaser
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6804
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-phaser_1.6_all.deb
+Size: 303496
+MD5sum: 80b441f656a09ea9d1bacc63ddac6ea2
+SHA1: f45a0f83ec8642c52bc9213bfe9a3dc78f4444f1
+SHA256: 283408953059247982917b3ea6dc3736a632e1a40195f9393f681c10eaa82e34
+SHA512: 715ae001bab73f57f9dc246b436b2bdae272b204b753eccf8f5608281dce9c910a77d0f6fa02d467c7fc82eed9e132081ca080c3b52496ec7158e731dae1fc88
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for phaser.
+
+Package: devdocs-data-phoenix
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3822
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-phoenix_1.6_all.deb
+Size: 558076
+MD5sum: 187f57281f37a7474690236a46d1e0a9
+SHA1: 7e41f7793c1a433f9cbbec247563449d828e6337
+SHA256: a59a71a5d16363faeac89cb79d9ec0e11fa981bb5dfd7636b5e6f4e910b6b5f8
+SHA512: 03c64df0d1c24503feafcdf3a1e85adfa9d8fec50ac4f28daff129d987a8a3ce83c59c3caeda77b532ef120d92ff6265e407d80f583eff0f1aa8b3ae87e29805
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for phoenix.
+
+Package: devdocs-data-php
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 34622
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-php_1.6_all.deb
+Size: 2626692
+MD5sum: a115b66505c66ad03865503daa3595ed
+SHA1: b1d7be6d17ace9a380e5c3436565a61cbfc4d7b3
+SHA256: 6ab57a4af702a2425301407f106ee7396b789fc8cdc88fafa70d4aca55102a6d
+SHA512: 7c6c3fe3338f39ff5ec79011ac0b8c783c940fa365ec45a6650d4f5690ddbe96173dbb078ed3b80aa7a4c8302b0a22deca58547901ea03871be2474dd7d8f49c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for php.
+
+Package: devdocs-data-phpunit
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1376
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-phpunit_1.6_all.deb
+Size: 111782
+MD5sum: 711f28417a32490715d1b477090103dd
+SHA1: 65a6a2a0248c3e9e4c06b8a52c6b2728600156dd
+SHA256: 7bacc29fc223ca4dbdf24028284c1099a230a44e98ee5a78c41a3edd60d880c1
+SHA512: a6701b2fe17b8be4c8fef57d94962abc0788fd65f35aa8366528147ab368c715278a93de6049bc1c3d2931d5b67c252d953ba9b3cdd516197ef2a4bc3b641628
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for phpunit.
+
+Package: devdocs-data-playwright
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3793
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-playwright_1.6_all.deb
+Size: 343490
+MD5sum: 1733613a48b7c21cf693fff1a3a89dae
+SHA1: df7372ab933a6b52b925f2a0e04f5619f723ed2b
+SHA256: 35682d1e51c39eaf8a60ffc7b69c3d39010f921e419354573d559e91df46510e
+SHA512: ee91c29d0f9b4622ce77101ee918dc2c09ba05c8dccb6d077c8a70ac4dfe1a56cc21a45bd43dc6499adf776d250aeac12cf2e08474e97e0e4f3797cde3969f19
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for playwright.
+
+Package: devdocs-data-point-cloud-library
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 58703
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-point-cloud-library_1.6_all.deb
+Size: 7632952
+MD5sum: ef7bbdb41fa9ce721d8078dfb3611bd6
+SHA1: 3394219f5d4c92fb5f2c5668a703bf0caef87fe6
+SHA256: 64f7b6013f1a5ccce0bec6b4b22dfa30f6d8f0d0f79dfc56c71c61460a68d2aa
+SHA512: c7e1f316f6609e8e9d2f1b4a671a8e8c0b04ff98294380fd7fceafb230267080ac17aaa307aae438077811f7b219178bde8ee828f02deccd0c64de01d12f3fde
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for point-cloud-library.
+
+Package: devdocs-data-polars
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5503
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-polars_1.6_all.deb
+Size: 319844
+MD5sum: 1ef6dc0a753ebab865c9716e97313583
+SHA1: a46666d8e4d45a53f079d009c03002fec82f686a
+SHA256: c4abe88572247ed7dc2219a71e66f7e3cba642d4cae96c313c7908e5a25dc9cd
+SHA512: 3260e6084a15933c9f180b584eb96779f7d0895c61928edbc7863d544c050c3539ab98f376e19d0e4b5ac3f89bcc8067f3791b485798c532e5c4c994fb4c3c52
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for polars.
+
+Package: devdocs-data-pony
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2821
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-pony_1.6_all.deb
+Size: 209660
+MD5sum: b2678ea533507cad7c2260ba09b1693a
+SHA1: b595ea7b8fbeb15600f22b1fe74a0df7c7957d79
+SHA256: f5b86873287e9118a893d104af988521225a4567219e10dad49a26a172032b02
+SHA512: 639901783465011f278081468f55971a5a3d76afa1dea91b9f4648a1f5110c658f6458edd1e204a134199572e5094cc114234404ff5acd428601d55ed68917b6
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for pony.
+
+Package: devdocs-data-postgresql
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 8659
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-postgresql_1.6_all.deb
+Size: 1249990
+MD5sum: ae0ebbaca3f71caa9567e06fe6668c46
+SHA1: 0b7dc405ffdf07dbdcefaefb44f617cc77af193f
+SHA256: 82ba02fe0e30699c4d530e24319872e7264a7f4325c02387aebb4b13e20bd946
+SHA512: 75a6bedb178edadb8f340ba7f3926e88250bff4c23911c8ce853ff938a753a80e221a2238a2f0780ec2a18aa60a27984b87faab329006834b20ae8957adc0343
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for postgresql.
+
+Package: devdocs-data-powershell-scripting
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5544
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-powershell-scripting_1.6_all.deb
+Size: 729428
+MD5sum: 3e6269b404e8e5422030e8a43e5f7fa2
+SHA1: 65ab635b73e66151981e1707eaa9c9f650543d97
+SHA256: 90a8b4b38234e2d16417c79f28e9b1e317e477510405087ccf5ce5e00d6467f2
+SHA512: ca20db5d85d28aa7067b68f366c168ea785b5c7c91a1b4a639202bb16527f785741ec01ae48a3e216d51aa999772ee2767a8cac6447cf32489d4907cec92488f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for powershell-scripting.
+
+Package: devdocs-data-powershell
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 7055
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-powershell_1.6_all.deb
+Size: 878684
+MD5sum: 9e0609508b43f8c361155fa2cea09303
+SHA1: 1d67efe1708974d4e09a89070b271ca0d73804b4
+SHA256: 902cd2ba8b7c5d841418cdd6ed43236b7e3877b80f74f51f44ac2fe4386b23bb
+SHA512: cb33ddce0684fd1de9d222148e10c8f01fe20c17fcab89d2fbdc2443cc417a589984525b2048147f5d1d9d0ad9890c98c242f28b12cd9d6f0e50cb954efef33a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for powershell.
+
+Package: devdocs-data-prettier
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 315
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-prettier_1.6_all.deb
+Size: 95316
+MD5sum: f7d6771a7ffc8f57903a983742b20dd5
+SHA1: c88c710f3175605c58318ed777ac4041f011aedc
+SHA256: 135f1dd3b3b571ee6c5aa91c465dec5e3dd6bac339c2cf9be4ad21ff224a7464
+SHA512: f9d01226f6595c6303249199f106dca24e1a00411502233d316c6b61d453acbb2b064df3def312bfb9b02c63a19b68a861723b384f355b5a795d40b779a509f5
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for prettier.
+
+Package: devdocs-data-pug
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 108
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-pug_1.6_all.deb
+Size: 25924
+MD5sum: 23b378842eb46562e820c9f5d5872434
+SHA1: 3949fa31708eb1e542ec9e993ade5d063ac1623b
+SHA256: 846fed2626564493d4e77e33b319a669b9c654cc5d90847c6e305ba97a4051d8
+SHA512: a1f80ee67a1e065ed89b96b2f278a475291e433d7f82353d0d99fcba6efb047c83280a2fcd45943a620cefa288225258e21057edc45941f14fcf4c927baf6c5d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for pug.
+
+Package: devdocs-data-puppeteer
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 425
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-puppeteer_1.6_all.deb
+Size: 58470
+MD5sum: f2baed4ee538ce75cc1059bfaaac3881
+SHA1: cb56efc1f853e6c55609cc1087064321b3f6c16a
+SHA256: 7f1dfbafc2f8c364030e562c69b26c367a8026e964a2dd94eb022d483068ad88
+SHA512: 8727d719eb40a84a86ae50ca9f5a09e3d795c82aee92a19f585a382777dd1c3e30ed366e6d025fa5fd033e1773d182e82600909fd578b03532a185de5a003100
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for puppeteer.
+
+Package: devdocs-data-pygame
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1181
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-pygame_1.6_all.deb
+Size: 158432
+MD5sum: d17652537af9d0b37ee9f74ece215216
+SHA1: 422d71a589621327fb1d5cf400bce918da67ab6b
+SHA256: 84db7a068921bc6c8773f8a33e8fbe091602642262e4007e7fe184b8f9b317e3
+SHA512: 89d415fe1e4a7e8c26f003aa382bb4ce5297373eb6fb126fdae3f265c4209dab1b017804e367361343aed71b9b0fb70f342c7a605929c8c290d93871188b67da
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for pygame.
+
+Package: devdocs-data-pytest
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1859
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-pytest_1.6_all.deb
+Size: 259222
+MD5sum: afc36ef3e530a9b80d2593c48fb8fc83
+SHA1: a3e2d70b1e565c5f296d96d3629602462118b66d
+SHA256: a7a67deaa588040cd6be2ca9670a6dc02d93e58fb5f83b3351ecb9a880ec4371
+SHA512: d5b3a3ca29864b156e869b896630fd143022e978c55497e173e9ba2049184bf00ab9c417cfd3504ba0a9b97d9fc3bde30bb9367c13debc26e793ca7738813724
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for pytest.
+
+Package: devdocs-data-python
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 22580
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-python_1.6_all.deb
+Size: 3142088
+MD5sum: a975894a36ea0cb41078a74c3db974d5
+SHA1: a2b906c449929a477c150886d229acac3e6d2f4b
+SHA256: 7e8db9d3593c966d2d89d9e3d04eead66900f8437aa3ad54f8b213115e19a808
+SHA512: 68b33c86a032601b634e506214acb9ce482aea9a12d198e016ffa2a574dab215cc1d8694ff696d68adaa234e325a59fcc61694f8c1e96d41a945240e2214f330
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for python.
+
+Package: devdocs-data-pytorch
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 28326
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-pytorch_1.6_all.deb
+Size: 5716546
+MD5sum: 821f9c3152b37d75d64abbb527034266
+SHA1: fc29fc586c213f555d6ab4cb3724f68ebb883b06
+SHA256: f907a1ed40e5624fdaf4a9ca58f4d7453572b50f3964d6224e8a69567dd896f6
+SHA512: d3066083d8c69043240ff18c3dac6e863e951b76def37d8b6274ac983d930b839548a9df8a5b41dcd70387d1eb7bf445caa9dfac3e873f0aea2a306ba728a545
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for pytorch.
+
+Package: devdocs-data-q
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 76
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-q_1.6_all.deb
+Size: 14786
+MD5sum: ed1023a784461515905a4693ae25bde4
+SHA1: 7d5e364a698f6af6a2c92505d7cbf0bbfaae42b7
+SHA256: be849fed662be029cd4065706da7499e2652a2ceb053400fd3b952f22794338c
+SHA512: 2314c6f9e7072ead7bb4a440e19ef54f1deb8c47aa7f720c9f90c92feeb914a80f3e4b7d63b1f93452322ba83184bd666a8535bfb907b97991dbc6ca8cc7b802
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for q.
+
+Package: devdocs-data-qt
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 127411
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-qt_1.6_all.deb
+Size: 42220792
+MD5sum: 83026747a0d270c76828cdbe345e9dda
+SHA1: e892b2d21380b13668d2a2f0d1e60401de1f3487
+SHA256: c925f50f39f4c8c4935989b3293a0471dd6218c71f418a8dbbf30e49c56399a9
+SHA512: 7b09dce03efce3905f6a098096dce2af3be196537c0317ebd3f493f977b5678ccee5f029f1af73ef75a2dd9c2631ad694bb0d8cf952fd3ad5925717e95f1a635
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for qt.
+
+Package: devdocs-data-qunit
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 481
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-qunit_1.6_all.deb
+Size: 94466
+MD5sum: 80c38584d76dcb676c4fa7332e7538b2
+SHA1: 47d88bc9bf11bb983c62ed22a15123e9fb0fde2f
+SHA256: 605a9773cc2e8405b2042a8eb16f4cb9be4c276a66fd97de75f917dabfa8cccc
+SHA512: 094401766b974e3b2b100eba79839c97c2f72becbee467ab5d395ef1409ba0e4fb9c7c7a8ffbdce55dc4ca3d94bd113c064a4ea5a81919922ec3f45f8ab9ec4f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for qunit.
+
+Package: devdocs-data-r
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 13565
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-r_1.6_all.deb
+Size: 2101422
+MD5sum: b6b7b8c7ffa28c65853a1902d9e685bf
+SHA1: 76adb5e3ad82d5725371e41f930005f7b2968c00
+SHA256: 5db85ac2c45dac1f792a4c8b0a8882c8a6fc5a0acdb43c909b786ca3467b5913
+SHA512: ef7a0b39641df5d8a8ee45254061a0033306595415f6101cf2b2674b4c98c818b479ecef6c39ad24373153b2e16015024f9f0a7bf536f5429b174e6d3355f510
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for r.
+
+Package: devdocs-data-rabbitmq
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6688
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rabbitmq_1.6_all.deb
+Size: 1592362
+MD5sum: ee8a89d054fa517ff56504398df0e7dd
+SHA1: 78186a85062588ad24c833dde2a63cb2d1f79f79
+SHA256: 1b9393e954102a453bc52d0f3c3bdcdbb9ee6f5371a98fe994f68f4213f83886
+SHA512: 9c3aeb9e43030bacccbd455d048e704a193a3d141b1fd9b55e845df59527f3e4427ecaf163676f0bda5f730f5228ff4c04e697c88f238477d1b4e60a827d2989
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rabbitmq.
+
+Package: devdocs-data-rack
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 548
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rack_1.6_all.deb
+Size: 66500
+MD5sum: 35ba9ae2d453e97bd600788619d2f399
+SHA1: 86bfba987dc2f4ec50f9fa65c445cde43803ebe0
+SHA256: 003ff191c8866ff0c8fe381edc60b3fb1c4eb2591f90036caeb54bc12bbea7f3
+SHA512: 4ce30c3206fabbbb3fe4b1bce2f3960b4dab02bac738aeb3246069e3dbc8ee3d5b5085bb0f5428a6e60cb90fb82ef975bc8a538c1a1aba74751860ceb6a586f1
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rack.
+
+Package: devdocs-data-rails
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 12168
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rails_1.6_all.deb
+Size: 1434086
+MD5sum: ff91a19abf4010b3aca788c70d6b513b
+SHA1: b0e49eafa95f1f060837b4a42a964c70bea7f7b6
+SHA256: c75dc70649b480cef727330db39eb35afb3bcb2e8e16e150a5d373ef013789ac
+SHA512: 1bbd463e945b05d187019dd1f057d4ea7d8d87d8bfc9b43ab0d425a9a25cd9cb77910f5964a2f5b63514e6e0b9257eca27e23a98155cb204185317febd8928fb
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rails.
+
+Package: devdocs-data-ramda
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 331
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-ramda_1.6_all.deb
+Size: 48254
+MD5sum: 6269e704d641133f3c61138d8f0180a5
+SHA1: 314696dc19dfaf110bfde23c7a55b3c7e147c587
+SHA256: 5a58f53e8cd48951b54bd08afe4b6ebe9b80d4dead275931bf0ce85e370aad73
+SHA512: 0260a2ea8d7690a237799e44c9b8688090d33d856642ccd2492191098e1c45d6823a749eac6acda71bb03ae51a80f6550dda670b6f6a0b0d3b5e950128c389d5
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for ramda.
+
+Package: devdocs-data-react-bootstrap
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 644
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-react-bootstrap_1.6_all.deb
+Size: 69884
+MD5sum: 1590ca7feb186ee6a22f0cad37b09b28
+SHA1: 5bb2e0e5f7ca35eaab947e900a7a9b451c4c515b
+SHA256: 93a38a8c0412c32c109aff677cc75e312255e47625c7e7e4a851eea1a8ed200d
+SHA512: 305dffb5f4b2613be0148dfba8d7c3b98fb28106b777a24e7179876fc23dce9cc01d3728ac652991afffd2bdd022dbd5969ca502df8db2c45e9524aeff42cf9e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for react-bootstrap.
+
+Package: devdocs-data-react-native
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3743
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-react-native_1.6_all.deb
+Size: 1521554
+MD5sum: aa5009658bb1a13f61e5878351e29810
+SHA1: a9f510ce0b521c7d33e9661b59170dbff3b79d30
+SHA256: b41a28b43f551ffee98899e2c980b6c2df11f1ca5ea646d62f2707e13c3c9b8b
+SHA512: 419d31cc8b4affdfe29c7737005e79d6db188617fd792dafc9c17df0c94b53c22045a039a65f81bbccbc783e98708005fe820583b87a15b119ce2375abf9a414
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for react-native.
+
+Package: devdocs-data-react-router
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 639
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-react-router_1.6_all.deb
+Size: 109690
+MD5sum: 76f199285d6b5de75959a213907a77f9
+SHA1: a457fe368ebe49e5b61b4bb7f5838068975ffcf6
+SHA256: 278ee50a6dd182fde5871bc8b520555edc1f20866b5de7f503168ba3541d03e2
+SHA512: b19aa671354ed6f1036fef563ed29316a18daef2dad6adbc5f76601dba78c2eb4ed60405cf95f29add280f515fcf23608979f4e405b76826caf27b2ff184e91c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for react-router.
+
+Package: devdocs-data-react
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 8722
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-react_1.6_all.deb
+Size: 2018160
+MD5sum: 9eaf92076c038430f52f9de5e72618ca
+SHA1: 68bec4a1d89043cd0c45323473f71200ea7c7406
+SHA256: 0db6f490857f4d6011125bc94686a14ff4608dc14bbbd0bffc1d13b5ea5bc9ae
+SHA512: e578b1d3e157e36a92e798ef76505ade2f579e46c5d368998c3bd3e9d7dbb3c6b884c597f08803d3c063af618ba081b1e86a2ca99340f80da6f2716dac74eb75
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for react.
+
+Package: devdocs-data-reactivex
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1183
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-reactivex_1.6_all.deb
+Size: 108654
+MD5sum: 4715bba376a3f8fafef9c7b7bc9a0e36
+SHA1: af6e98bb692825fe500f112d2394b24c811e40c8
+SHA256: f78b5391487094e6b1ae173fa7f9872b4d19723830acb9983afe85c045e700cc
+SHA512: a4a1c1b42458467ee70881b15df88f006e8bb858c83dae42791edd4d38bcf0760656b53039bcfe0d240023d6cccea04a572a3743fe96e9c8e81c7ac83c5bcdf7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for reactivex.
+
+Package: devdocs-data-redis
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2547
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-redis_1.6_all.deb
+Size: 248434
+MD5sum: f9bc3f630f01e6b36eea8a96cfe796bf
+SHA1: 657cc1b4540080ec75d3f522609bfe590b0b15b7
+SHA256: 4f0bc20a5b0acceb7bae9c376df6db6e492cc6b9c75340b93de65d52bbe787dc
+SHA512: 009d70c4113efae3a389c89ee9579c2a0e039425861da95bb3a59101518abcaed8773fd9cc5bddf95db293fe6f25a7c80eea2c389183102e44ebd4319cead872
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for redis.
+
+Package: devdocs-data-redux
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 65
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-redux_1.6_all.deb
+Size: 16478
+MD5sum: 6a7b175983ea6ecd33ee5ce48e89ce53
+SHA1: cc366a42e981278a1f38dc5f46d65b0a6ad72344
+SHA256: 47625484fe692e69e065129912a22421ef1b61708d5b39586eadfc9ecdd889c6
+SHA512: 65a8749a173dfedb11a35c694b77bee7516c3a90e04ad372b905dab5f8ce5e707975dbf9de3384a1f35ea87fe09516a10e240096e493ad1667ceb1362041152d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for redux.
+
+Package: devdocs-data-relay
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 240
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-relay_1.6_all.deb
+Size: 45928
+MD5sum: 2d24557fc43fea4e55f94f77ad00e2f2
+SHA1: 25381c4054a355e8f722a8d3b1b84d50e8003b78
+SHA256: 59620c5f05b30cde09abc7128874b19b7c2991310f368e1ef5aee286a1e9ede1
+SHA512: fae7409cf7adb4483519cf6af967940134622d9970986a588e4c69f17ce0152776919c347abd72d294fe9855c881f705e92c733c9f625ac5c7a2b6790ae5cf4e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for relay.
+
+Package: devdocs-data-requests
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 253
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-requests_1.6_all.deb
+Size: 23674
+MD5sum: 5caa6f70ffa996d568960482f5ab5b38
+SHA1: 01d51a2c4938e90396223343dbb1bd5c86232438
+SHA256: 31134f288e42c883b5641e75bbeeb3f53afceb69b5d78c79b97cf2bd2bf86510
+SHA512: b7ee8e44a7bf0296b9fd340b6f9d1ce49b3dfae8880547146b89b01a81357894173d84b2cf0caaaee9d7bf35a3ee4ff69d9e30b78d1a121166e5e30826aaeed8
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for requests.
+
+Package: devdocs-data-requirejs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 206
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-requirejs_1.6_all.deb
+Size: 52042
+MD5sum: 0c289dc66f082eddc6caf87acc8e04cd
+SHA1: 6c4de4fba9fd8a9059aebbb292d014ef3523bfce
+SHA256: 5d5005c899b7c6fd597b98a361bc78958261ef41f2c45f7ecca2331f53ea69e5
+SHA512: 4b062436df83c07f47b845618d2b3897a1949badb79b21885da22e4933240cc04fe9da65d1bc3d1cd652716728c3024fbebe140681bf3a1356fa4567e6eb3807
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for requirejs.
+
+Package: devdocs-data-rethinkdb-java
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2937
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rethinkdb-java_1.6_all.deb
+Size: 1128854
+MD5sum: 97fbac5c4e153b7185842722d157d2e2
+SHA1: 7583e702946460d066969c17a8c945380265f72f
+SHA256: c09e93a71b7a3fb5d0f3c509cd5b6a1d6ab624fb20038f21bb6296b9f8b65e89
+SHA512: 49fece206a7916024e7dbdb60bc9db26c47cf77e92cf7b664f732a1ba2289fe169e57a781848be47677521b33f101140513ac1bc8052487168ab4bf47272dbb0
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rethinkdb-java.
+
+Package: devdocs-data-rethinkdb-javascript
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2931
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rethinkdb-javascript_1.6_all.deb
+Size: 1094600
+MD5sum: a65916446b86ce83009164b73b44b1fb
+SHA1: 0e0dc64b2a02f9ce91a16102b5014000ae595b6d
+SHA256: 7afe88f27752f8c9479430266e061bc05faa7e007750e8b63efff8d5493f4a63
+SHA512: 3a694244f3437b9dc903f0265f62cb37f61357a18bea38bda723399a0671a26313a5c843fac3b373271b3226a1671660dfbd4b032fd36db69dec64c70d0c8272
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rethinkdb-javascript.
+
+Package: devdocs-data-rethinkdb-python
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2887
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rethinkdb-python_1.6_all.deb
+Size: 1094032
+MD5sum: 6a3072af871f18fcad334e39771f3cfb
+SHA1: 51c89636f08c1cb83c06b063824f31b7bdc0843a
+SHA256: 3783d997812e7a2507d422f650d3acc76089aae2faafb1a556ea0f3699d7989f
+SHA512: 634410a6a2937339a47126ad8491995f8709b6be1f378896bf541c31b199c22ce2c01aef0e1381d5022f3ddcab07444c04787bebe8ba3996ec487ea12dc590ba
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rethinkdb-python.
+
+Package: devdocs-data-rethinkdb-ruby
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2882
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rethinkdb-ruby_1.6_all.deb
+Size: 1091892
+MD5sum: 93105486bb94e42cd9149062f001be3b
+SHA1: 2360b2cda88d16bfde4d94704319f61eb48752bf
+SHA256: 20602ebec8503a419438b4ddc2d0a75c214af77aad00a020f93dd8ce20060d60
+SHA512: 02daacd2be79ba08d9a1abcf469c358af35b674b5cea60ce8e43823e7ccca2373d6c73610a5ed57949de5fda9f109d1d77325af71934e4d9fbfb7c9c76c56224
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rethinkdb-ruby.
+
+Package: devdocs-data-ruby
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 8645
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-ruby_1.6_all.deb
+Size: 971528
+MD5sum: 8406f7944dff63b8a55b5c53f0eba9dc
+SHA1: 989d9c40a45eea4bcd26e1394aba358a86a41ea0
+SHA256: 2b8f2991d9c256759d5b68a9070845aa9999006f2bd7eaf35df9d7e60e7d0110
+SHA512: c79170d74f42a7f41135a11747e40847015405411d31a4cb8627a8af6d92438a3ef623adf7d53161714fddcf624424cc6a16c0f1b15409f40d0775bfa6e88f00
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for ruby.
+
+Package: devdocs-data-rust
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 70781
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rust_1.6_all.deb
+Size: 2905988
+MD5sum: 3f8ac3b0a409d2dab8055e5b9bddeb9b
+SHA1: a29b2f3136db5a25e80998e98ca3c2e7f9b16d15
+SHA256: 23a5297b0299a6fd1318e2481eb9e29d91a9d39f158f40b2eec986256d4f36de
+SHA512: 44cfc18d1c6fbd7b6d786d9aa2dd6abbe483c03027c2b47927be0042c62810658463872c75d2d4c30603de9c619fed1deb60cfd5a4f869d1b5bf98ffd1d664cd
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rust.
+
+Package: devdocs-data-rxjs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2071
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-rxjs_1.6_all.deb
+Size: 930528
+MD5sum: 65552728b588f7c0bcd9847a633a24fd
+SHA1: 792f1d31d3289d9bf438a00f1af53cf18c98d467
+SHA256: 8da385e4ff8535c398e760c7404f48bf5dd580c504c3d40937fbe950e92691c2
+SHA512: e3a3237ef465957b190a970f822efda97b4bd0728fcca56f36871c9f248b75d019faa5ac8f82ef27e6d0d3a07b201e8e47ba1c6a7497a387b7830a6291b9e657
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for rxjs.
+
+Package: devdocs-data-saltstack
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 13203
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-saltstack_1.6_all.deb
+Size: 1227400
+MD5sum: 8aa3e9b75422c448b73b8959fe944cb9
+SHA1: cd5a6807e7533b9d20531a256c2834aa93658e4b
+SHA256: de5e749031d21cdd83a4a07872afd3003e3e84442fb01866ad14868165ef701c
+SHA512: c3bf0566bd129bab935084607a6725702802ac8613cf7b2ef3107889b8ed965b85d253972b9a0f14acea3f9e3c3903c8c3c1b30bd27b815d4573abbd13829295
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for saltstack.
+
+Package: devdocs-data-sanctuary-def
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 75
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-sanctuary-def_1.6_all.deb
+Size: 14252
+MD5sum: d22a15cd1df93447cd7346a44642ec89
+SHA1: 8cae92ff53db800dd902c688361df156f044d367
+SHA256: 773117930cf443d78714c762623bc3276ad89b002713eefad3ba3c188cda7b59
+SHA512: b301b9fb63e6e8e430f1dcd1e57e0b35a48600c0c7c05be5a008d124a19b941ce23f339ad2aa88ec3c195f623c5703df910e90665f7bcb8260bd226ba84f0848
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for sanctuary-def.
+
+Package: devdocs-data-sanctuary-type-classes
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 75
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-sanctuary-type-classes_1.6_all.deb
+Size: 13454
+MD5sum: 268b6af1b8c66edda0eafb4955619b88
+SHA1: 8ff219de777b9be994e56ec76736df2aae60357b
+SHA256: 45078b644a9a00fd8f2d3ad033189af83a8ddbb0e96df556e987a35b8cf292b5
+SHA512: 6bf4070aed635278964168feece59436e9d76f099d46c6e3fe4269ca3dde7e45aec1f1fe4bb6fdc603909dbeb1c4df09ae00411885c646d7ec4c9c4f12230bf8
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for sanctuary-type-classes.
+
+Package: devdocs-data-sanctuary
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 167
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-sanctuary_1.6_all.deb
+Size: 28138
+MD5sum: 75b15212ad03011489fc4c87b9c55f2f
+SHA1: dedc0ef463bf178f37057b6b4df5b1514b5d5658
+SHA256: 2d27a0300c12fc5b7618c47979afb130b5ea6eaa9e373c05e916a4ef798269d5
+SHA512: eda2dc968062e0148d4b1b45d0b8a49bc4d57ba20122c9b3a3d3eb2958ae3a8297c27848f52d6d2dc419514e6be55e95f155012e793d5edeaaf0fdf51fcd0be4
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for sanctuary.
+
+Package: devdocs-data-sass
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4063
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-sass_1.6_all.deb
+Size: 174262
+MD5sum: 33297b1b10d1063d1bc1c7a9ec838e69
+SHA1: 420abd8233d77b247c8a8df14903f66479448b6a
+SHA256: 393981512cd5f2b2a6742cc77322f82a352899070a158696ba822f3e7db1eb47
+SHA512: c35a9f22e9d96f9f410d57737ac32e8434f08193c53a81ad96e5df3675cda035b6f6e0610bbdd3d8296d6a3d517d09a27cfc7b8d495ab089e1ba7f6a2744a8c5
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for sass.
+
+Package: devdocs-data-scala-library
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 122420
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-scala-library_1.6_all.deb
+Size: 1278746
+MD5sum: 108060dd6657c424cb7e57052514e8ec
+SHA1: 10c9edeefcc818d686f73abe0690dad52432c1dd
+SHA256: 66a657cb23fa0f4ddbe0a3795db7f0d17ceb46dd417ccb84068450bb5cdde197
+SHA512: 4270d41d2412324dbcfda9322a03bf4ab98fdc0309750472f43f01685b276a73e0b4170245606458d39651de05bb38c7e07c612be5adc9279a7d44d38042c876
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for scala-library.
+
+Package: devdocs-data-scala-reflection
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18130
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-scala-reflection_1.6_all.deb
+Size: 313354
+MD5sum: b8d48749153fa0bd471e898c45ed58ab
+SHA1: ba2e15d44a944fa35cf40812a400f2b292c3726c
+SHA256: 7e0f533560d827e91cb7080b8882ff5a78f11ece0dddde8684e3020d1aad6aa1
+SHA512: c780df42d971cd54007fe3d341ef661aea8807b67c80bc7aa85c142383a9456eed4a2291fc27c3a13825eb0fd7b21b51fd797095147bd5ca1ea9f0532a4861e5
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for scala-reflection.
+
+Package: devdocs-data-scala
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 8599
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-scala_1.6_all.deb
+Size: 549682
+MD5sum: 2badc5b3669419f29e690be2730fa976
+SHA1: d5898daf95449c306be02c1057c9c65fac735dcd
+SHA256: fe7d72dc501da4459b409e9bb546cff601bf016674db16935625afc81d3f1b81
+SHA512: b2027062b0af2a6cb9096f41343abcf2a30bc24723b06b245960d9fe227b374e3f2c983d55bbbd954ff25f90c52d03f8711484c7cfbaa541f746bbdfb588b308
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for scala.
+
+Package: devdocs-data-scikit-image
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 23041
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-scikit-image_1.6_all.deb
+Size: 5451910
+MD5sum: 1c4c5a0aef5b6a743cae7d3ea7eae238
+SHA1: 4e5c993987d86d97cf89e9fae714ced28d83d6fa
+SHA256: 09f53f904cb657b42c1eede7f601fb27f8ff3bc99bba2cab307935584b05ca06
+SHA512: 5484f23b637b35739ba07dd5379fd4d10d2c0836fe7fcb040ff18d8f7bff2836b81caaf24f10bc17fecc1862718c97e45a69957d3cfb94660fd062c11a0f3c65
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for scikit-image.
+
+Package: devdocs-data-scikit-learn
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 107663
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-scikit-learn_1.6_all.deb
+Size: 37316434
+MD5sum: 75d2d4d9d5a43ed844b4379921b2b8d7
+SHA1: 4fdece267607522bbd039dd03447b0fce03efe1b
+SHA256: a959e991f52a712379620b10e67d632690be569a87d9ed8e59c6adfadef4fea3
+SHA512: a929e921eb64372ee83c7013a2f492dfcbbfedfcd094ae2028d95f4d2a2ddd6da50ddece59096a51e6ee378523f4ab8e9a68fbb4905feccb724bdfb9ad6b8eaa
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for scikit-learn.
+
+Package: devdocs-data-sequelize
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 910
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-sequelize_1.6_all.deb
+Size: 124628
+MD5sum: 5b7b6c92df2e476765400d5382e8aeef
+SHA1: ac190579d643760d91f71b4cf5d077090ddba98e
+SHA256: 30839839e2325d1e68b4b498a152cfababbb8759481086836be23a035366dbed
+SHA512: bd78c2b62363584c76f59ed5800f2d166437b7f7ea282c9a88ba32d21fcc18dddac6f2f321654e3e08101aa98aa4e043988d4f26faf699b30da939b0f3abf5d4
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for sequelize.
+
+Package: devdocs-data-sinon
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 154
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-sinon_1.6_all.deb
+Size: 31878
+MD5sum: 8f051d09360b558b9c48b88c62020b85
+SHA1: da537b630c369871ad50831f755fc2c1680d5161
+SHA256: cce676f9d138f642be75044be2e20bc2c059b217a5aa26432b11aa228b20bf87
+SHA512: c288f900bd332a0502c8215fb93a9a706d17fee0d93441d9fc40ede06550baf54ac08f035ca09968c04ac00737ec1fe72a9625f659e86c3f13e37e0e9d4ce99d
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for sinon.
+
+Package: devdocs-data-socketio
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1443
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-socketio_1.6_all.deb
+Size: 743232
+MD5sum: 73ff8bb475e4fe90344c8265407ddd06
+SHA1: c1d7c069fb68990c954385a1109c02319ea09433
+SHA256: 93387e1b57ee8db4d4a67e79adaafb381c27de998bb10dadb2880e1fee1a49fd
+SHA512: 0bf5f0015050108e221e5675b6b1c9ec0a481a67ded77a40feb9dfc6732024236141fb7bd7c53f3af8ea062d1d394b2379be5b48aa26e5ceff5a7e521f14a2d7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for socketio.
+
+Package: devdocs-data-spring-boot
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3609
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-spring-boot_1.6_all.deb
+Size: 347336
+MD5sum: fc94db6f428c03eb55e7b6640b8b80c3
+SHA1: 8f04e5070e1de8fa08b6624f4b7bc8b952e78329
+SHA256: a5b2ddb2336a87f4dbaa15f119b33a91ba2836ab030fe65d0a4e23af73a0b7a7
+SHA512: 7c901866b4f537d988ed6ab85df68a6805b0843a67cefe3f47b2e06014160a614e2a338a6274f3325be9e248329bcbeb84c0fb3f50a4bef92a7f7a420e91c577
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for spring-boot.
+
+Package: devdocs-data-sqlite
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15603
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-sqlite_1.6_all.deb
+Size: 1667766
+MD5sum: 9009900d0970666c71934f532dbb7aed
+SHA1: 1c17006645a262e41b81bf22c4941bdf68dcf747
+SHA256: af0714cea96dc71380fe1acf0868bc0fe7d25445491c088be53c35b050a3cb91
+SHA512: 798a6dbd3c544f806296dca8eba4a50656ce9777a3219b4c92322281d3b2a5aece17b8a162e0129e7381f988cb0d3ca7cb96c98ac9d0cc621af23a62768a7ba8
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for sqlite.
+
+Package: devdocs-data-statsmodels
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16834
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-statsmodels_1.6_all.deb
+Size: 5331226
+MD5sum: 4d921d1cccfc13574d2fd44d6eebd104
+SHA1: dfacc0a6ee68140d2f5ca71d65261e2e295d7d6b
+SHA256: 378f0838e186cea9c0f403b7782c3783cc4e9d895257d66abaf4b15662380157
+SHA512: 094f8f2d009f057a377333564e0a4bd226528d01de233aac9c654f8c865754deba201de3159c72ba30afd575a568d49eb0f3a8f51843fb8ca4a98357bbb38b6b
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for statsmodels.
+
+Package: devdocs-data-svelte
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1015
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-svelte_1.6_all.deb
+Size: 148370
+MD5sum: 0eeb070baa21660a828ae35c31fc096b
+SHA1: 8a1f17578909d71fa7952b7138d82184a4714a49
+SHA256: d1bdd082522bda02bad6290d1b710dbbe31f6241182b6dd026bd38e4405f80f0
+SHA512: a98475dbe969194c2469c37046cfe595915c7ffe0d672cac6c6697b7d2a16badd44077e8a81b9dd0aa1eb8d5d661ab8ea777deaf53ccaa2fc666fba695c0bc89
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for svelte.
+
+Package: devdocs-data-svg
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2809
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-svg_1.6_all.deb
+Size: 285724
+MD5sum: a41e41bda2bd9b238ca2033ed1573f3f
+SHA1: 25b99488c7afc5fd7d0ec5df8bb7c7ec1f2e2ba5
+SHA256: 040eade1c1e20e36b9026d59f120aff7df2a7502cc4871dc32031163d3c21f85
+SHA512: c3c1d015a963885d0a495dc253a508f8e49ab70c444704f9478806dd66eb5ce2ec1b3985a99f76fcfeb3729502d568f097146727e30f058607fa9ee925193337
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for svg.
+
+Package: devdocs-data-symfony
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 17715
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-symfony_1.6_all.deb
+Size: 719024
+MD5sum: 279a3ccfc90bcfa1445d7a23bab5e003
+SHA1: 39c8b0a3cfcbdece8a82a8f851860c3fb811fde7
+SHA256: 1f23a2484d432962824b796aefc8e8bcca9aa1215565e9a98ec7c9068a13e85a
+SHA512: de14337a28c12568eb6c30164990da726622ae57b7e42f277f8c4502178161d7f5cc69ceb206a011ef367acecba96d0b28c4e3fb64854199d3c9f830600b8a35
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for symfony.
+
+Package: devdocs-data-tailwindcss
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2170
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tailwindcss_1.6_all.deb
+Size: 144790
+MD5sum: 8a6c1678d52d6e8ba09fcdac143c5505
+SHA1: 374fe5b024afd17ae0786ee5fdb755748886aa8a
+SHA256: 03b3782f2e26a77c13e50e7301bedbb40333b0046e57567156500ae396632ab7
+SHA512: 0237153362b17c8a81e12bd102163c74fa520cf89448d991957da080477d76e036f269623bded41e5e63be697080a0e8bc9d1b31dc54a2a2129e1c075014bce3
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tailwindcss.
+
+Package: devdocs-data-tanstack-query
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1774
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tanstack-query_1.6_all.deb
+Size: 188902
+MD5sum: 061514e6e7923452ef4c5cef241aa344
+SHA1: 3cbd28ff29ff9a3f31a29a0d9775de67fdaf381e
+SHA256: 107a8718c7d2778dd7cdc858579a64e7f224f18420e2c5f70282c8198bdccb39
+SHA512: 45323317a9b057414c8833eaaf10913b808dea3ed0e7d0008d908e54a3623d621776c7a18e2f995f66d25f77aff612a6e680bf851dba589731d1bb98aa7ece5f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tanstack-query.
+
+Package: devdocs-data-tanstack-router
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1005
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tanstack-router_1.6_all.deb
+Size: 191336
+MD5sum: f68277ce1d8de5565f52f1d4493155b3
+SHA1: a3943174ac63f8b6b22b08ba93d981589442c823
+SHA256: 3ca18ec7797629a501b0a4c00d1d6ab21d0e2c51e4a63b52757b8756006b9e74
+SHA512: f651f36802ee609c44dd556b44698332b94a9a9fc1c0f6e9ca291be3388639eb84b6baa31e93f1625b6822025561f1efcb3a6d46b9ced738335b9cc41203c45e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tanstack-router.
+
+Package: devdocs-data-tcl-tk
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3776
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tcl-tk_1.6_all.deb
+Size: 585958
+MD5sum: 0ac129fd87bac26694d95ed7fd7b9a85
+SHA1: b37a77ea3854c9b634f20840461641a4afcea1bf
+SHA256: 530c2f506360c43694b9a0aae71f87ac845c4669c3beb9d9778e72f6740f8c1a
+SHA512: c5d2ed299601b1cfedb0c5ad00f816174be121055181442668db8b45d8466d18360c23ae81378f9139f41e119e835fd7074c099544fe6a68bff3e7d203b61c26
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tcl-tk.
+
+Package: devdocs-data-tcllib
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6024
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tcllib_1.6_all.deb
+Size: 709032
+MD5sum: 5603b4d1db40fb0d3569e3023d7c0cf9
+SHA1: 1cb4bcd67128de74e3b05100f20983b3e5064697
+SHA256: 3e3d8984d44aa95d7fe0a657a7f414a322f99fec3a771154e9e872d466a809b4
+SHA512: 73940dc6ae1cb1d65806777ca934f24ad122d50955c5b2cfc649df321bd0a686bdb812f0f214545aa0a6fd184692abf40635e06a8a8891ecaa50aaa9b56e8ffd
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tcllib.
+
+Package: devdocs-data-tensorflow-c++
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 8401
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tensorflow-c++_1.6_all.deb
+Size: 454238
+MD5sum: e62cc75e15e7b8da2ab28970e79cf088
+SHA1: 9a9e71ddea88bddefa95d627974f68dde8577837
+SHA256: 10f5bc5178f27928369c49f95a8a40f90bf63e8cbef73ab4336cb31cf3a9150c
+SHA512: bf6c74423c4a9b09d33d590a9812fd81e7e3eecf7884591cb4b05f7359857e5e7a89b6c9ddf2fb0a10b13665969086e5d4055e957cdd516de54d52fa31a04516
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tensorflow-c++.
+
+Package: devdocs-data-tensorflow
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 36586
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tensorflow_1.6_all.deb
+Size: 2108260
+MD5sum: e230f8b084ddb4202725a345879d5ed4
+SHA1: b5b571e677f02b5b0eacdbf6906deefc7f18ff30
+SHA256: 51707aeb93133ef43158fe6c9cd55d97be82e0df4fbe749ef4e22d7aa45d8eee
+SHA512: afe3d5ca19a166350a2fd6f9d185d05c1c043261c7425e3a53698709c45a277ddef581aed71a82467bde97131b6324c43737accb51652a9c85f826b3ac8bbea9
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tensorflow.
+
+Package: devdocs-data-terraform
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 80591
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-terraform_1.6_all.deb
+Size: 32105130
+MD5sum: 478e67edc91cb06657f0cacdab8e942f
+SHA1: a81dfecc9447a3572959cd35f881d1f4ed6d7f68
+SHA256: 8b41b42885ce52642b7fde5127f8ba676b3a6761fc4491382f928729a1f997ee
+SHA512: 2fee33f349c1f22e18a565ae9db143f6402235b5b04dd0cd48c9040f45f6261685413857abeddefb90e3ec0767c74f27a67ec556cd887efdf25274d29d7aae8e
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for terraform.
+
+Package: devdocs-data-threejs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 3052
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-threejs_1.6_all.deb
+Size: 262638
+MD5sum: 22b6dbfb9db6c3e4241153990e27fa02
+SHA1: 8b3d1a58e31873d68ef1688214b1586b3b82e725
+SHA256: d459ff896dcf931a22b4f04b2d4c49106be30fcbebaccebff899c0b70c1ca27f
+SHA512: 429b9a2ffe1e121dc2cf2c6d1a185c6a514cef69aba8bcbc91d81408e573563a81407452f4a588af3602781a752faf910e0d96acd4c289d3e951b635156e06e7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for threejs.
+
+Package: devdocs-data-tokio
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9365
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-tokio_1.6_all.deb
+Size: 290122
+MD5sum: 1ed94c3294704f45e06420024d9cde57
+SHA1: 68b75ac692ce6ad5673d4872f2970efd05ab1461
+SHA256: 15eaa77a23ec8f8fa9bc2563beddbbc7bf3c7475e262e2296e4e69a0b4ecafb7
+SHA512: a8cd293781535a773d2cb631efc5bd0d99ba193474c6411caa49493fdd0016e50437bb84394a66000e4ac10d71aa01d8ccb334211fa7a1e23aa3baec739947c3
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for tokio.
+
+Package: devdocs-data-trio
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 915
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-trio_1.6_all.deb
+Size: 118610
+MD5sum: 1958ff3d3cb1bae0dabaf9567bcd24ba
+SHA1: 735ad343fbf0cecf3dbc921239a8ecaaac979bdd
+SHA256: 96bda880de4ce4732b146cdb46b16f79644f38e264dc12a3350f78b11766f5f2
+SHA512: bccc314b10005ec5c277cf1dd6de492580ba103a9e4985f176eba2605c5c3a82602c5e380d23627994f6cc6aa2b1bf6952b73a443f68b642f0c0b329182104fe
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for trio.
+
+Package: devdocs-data-twig
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 750
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-twig_1.6_all.deb
+Size: 72670
+MD5sum: c918ce907588cc65a98e34216060a09b
+SHA1: e41ec801695b6721ff6a0d82509318c0f86b31b2
+SHA256: 8eb09976276a741a4dc4be148cfe3720ddec74db74fe0601f03e43d0d04fd9f5
+SHA512: 8a8c74a1df5bf23efac9868f27d0dee69dd7c5c7ada58015ab7fb75c82bb9df30375d486cb5ee1e01cca72b80eb3867481246a192cd8c0d2da0267b2d664d000
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for twig.
+
+Package: devdocs-data-typescript
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1951
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-typescript_1.6_all.deb
+Size: 476656
+MD5sum: 551d121c9ac88fd5c9103ee30a926a2a
+SHA1: 6d5cea70655659f40b761d8fe4b8065fedee1d69
+SHA256: 281f04ac695c74cd3d0211f411e9cef7a6a7f06f164c3beaf832b1136ea78512
+SHA512: 43899a8587c0ae2d8066a64e6c3a5e6c150b1d4fa5945aacbefcbafd7e16c3dc9439ff75c47055f8337c657f06837209ed054763e145b6d04ec6aaa13f218390
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for typescript.
+
+Package: devdocs-data-typst
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5725
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-typst_1.6_all.deb
+Size: 2943860
+MD5sum: 5159afa10c4b3ff20aec26f5e235b747
+SHA1: 23793f0b326fbec7106f259f28bf24a9dceb0522
+SHA256: 9874ebe4c9df600bdb11f4fd30c29900eaf916a634a2c03fc21b34c92055f7db
+SHA512: 9085289be458dc173574e49df8f8345e02ee0acb5826a16e6475edb128253df90bd269bd2449a4bf71feb51951346fefb7dfcb2708e1b67e8e155d8870bca1ad
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for typst.
+
+Package: devdocs-data-underscore
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 84
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-underscore_1.6_all.deb
+Size: 21816
+MD5sum: 95695c3e180dd1a928a1ac70b9dc3fc6
+SHA1: 3ddafc9839c4403a2c66ca60df4938d39b32cf2a
+SHA256: bf2b4c5e3f871978a15d0e7a1f65e2acfc7188c8ace29b2b054cd91eba84391b
+SHA512: f8cd6f486b3a5d85374c4573dadd032f77ee44de5b09b93d2d5e9d0ea33289ec9a45c5747f7b3951e6adf9bda6e7d2613346f4254e881319fc857f83e702f1c2
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for underscore.
+
+Package: devdocs-data-vagrant
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 700
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vagrant_1.6_all.deb
+Size: 129362
+MD5sum: c09de78fd772ba8bb32a98d6336350c1
+SHA1: 5f009dc21581912f8a778a5dcb287b53953b7c78
+SHA256: edad0d77bf8689e024cee51d3ede60c04c97352b630343defec85acc962faf0e
+SHA512: 0cc688d101ec29fb935f66b3874019541aaebd56c206cb48aefdc85cc3865ebd0df53256bf5203952ead461107d2af2f8b034eae22b45286807a82e066133570
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vagrant.
+
+Package: devdocs-data-valibot
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2261
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-valibot_1.6_all.deb
+Size: 153982
+MD5sum: 338742ed6b364ada9b7c3370044591ae
+SHA1: 8d6c48b20bd8436cc8c917e90fdf67d65a446a36
+SHA256: 04214ee9538a71aa6590cc860279750a7d7c723f4db0fc80389f1398ebc0413a
+SHA512: 645efc4a4fd0b59517bdfb5bb9fbb5fd62b388fe086d1cdf876ef15eb6155971a77a29cd0606675c5919576549bff25b279692d632186018aa375cabfde3d685
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for valibot.
+
+Package: devdocs-data-varnish
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 991
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-varnish_1.6_all.deb
+Size: 196884
+MD5sum: 2b1061b470e47cf012beb378a08f786e
+SHA1: 3ca6d2710b4679ad7a0129b3fb448e2e3f668e1e
+SHA256: 06e6757538b2b720452688f6a7453cd0105d69ea058efa740e94ee747bdf98ae
+SHA512: b5833d194cd51d3d555685c049059a5b7213c4d4197fa034f76dd14e2e3a60db5a9db3051292e7feb00e151137db6059267f7f3fbea177217783d1b094335c5f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for varnish.
+
+Package: devdocs-data-vertx
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5197
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vertx_1.6_all.deb
+Size: 901342
+MD5sum: 6394e527ee74b336abf5ed640ff33a29
+SHA1: 53d206765b27fd27ff5dae0a8ffeb79803824413
+SHA256: 17f297182ed9de94270453f68939950235f7e557a08e5d6b6c979ce9915fa6d3
+SHA512: 4b0f8b6a6450cb297e0c47e1553da27ba9b3bfb6d69c586156a700e06100c5a27987d0a1e751ce873ef5ce295fad17181a9f355b37bb65bd4489b530edabbf84
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vertx.
+
+Package: devdocs-data-vite
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 775
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vite_1.6_all.deb
+Size: 136276
+MD5sum: 5b25531772e05d96e95ad0f46958e3a8
+SHA1: 56ee98628e1e8124a73f1e5306847c69661f28e0
+SHA256: c1293132963f3e50394d2fdd95536a35c1aa63ca6f10c15755b28f7335e43131
+SHA512: 7d82ffa1fc7647667f3991f1541b4cac0ac18f3af575e2fec214a08d125a76ba17119201029fac5bf73adef7b0279d3c46db287d7257f07d21f1c9451b788c79
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vite.
+
+Package: devdocs-data-vitest
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2583
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vitest_1.6_all.deb
+Size: 355964
+MD5sum: 4d4388b9832ad4c8289a997fc3d810f0
+SHA1: f5be8dcc92a34ea261fc53291f0648f79e1b236f
+SHA256: a66846db6991067a0ab815055e3f14d04c6d7c25a21b121ac5e974f5443ec082
+SHA512: 15d5ca41df423fe8e09729bc2c35998adf22f57877deb58b4d88a943d9fc752b7b0a7bd2400bb3ddead793e6b0045b47f60e0f2d7b50b5471c4812f680c2ff92
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vitest.
+
+Package: devdocs-data-vue-router
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 823
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vue-router_1.6_all.deb
+Size: 97528
+MD5sum: 8afb3df6af9cf300a3db2dd1ad160204
+SHA1: 652dfddf5a5abe511fa84554bbcb7874d89883a3
+SHA256: 6280ee086b4e45f6fce2821c30211076f91619ac625472b94fb473b3834d07da
+SHA512: 3441504c668c01abd6083dc7447d3a19023ed19c98053945c6070d39cb2e28c9d15ba1363142e4f8098bd5b1650f3b5481ab39102a5acdf1e803bf6347c7c981
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vue-router.
+
+Package: devdocs-data-vue
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1549
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vue_1.6_all.deb
+Size: 536948
+MD5sum: c5dedb75cb197692994661d5659b3d32
+SHA1: 9ea1db3848e4258c737b701f14a0489ade8e4790
+SHA256: 0c4fb9f246e4c041bd80ea69b016b87f5d73a95aa6d9a2f2242268520e413205
+SHA512: 8ebe12f0b54eb8f6d269f7f408dcf411ad6f7a90bcc956b96a74c77cd45478b76c6b5718bc8b86a4ada60ca7a272517f6b15c9b4e2d22789446be01931a5ad8c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vue.
+
+Package: devdocs-data-vueuse
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2079
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vueuse_1.6_all.deb
+Size: 189526
+MD5sum: 5cd56f41295eb88c733d72e50aa9e502
+SHA1: 1b45a9a113450ba1f2d9656b703e0562497fc5bb
+SHA256: ae0df8b34e95fb8fa344a4b40e803ce50190438b31daacc658d7123c74b03617
+SHA512: 76798edddc73a14b5d0fd90fad3d17492f18d5960cb60c193702af66205933af34283f296628e0951b30afd8573a2ceba5ee21e890acf534376240373c03640f
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vueuse.
+
+Package: devdocs-data-vuex
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 298
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vuex_1.6_all.deb
+Size: 52522
+MD5sum: 820f34745c85ec46aeb6f0d70b96eba6
+SHA1: 29395e9d16e0b4aefbad16eb00703485d391bb39
+SHA256: 507a0e1dd07d16af5146dae717d3775db645cc7a231c621146b9f78da27a9f52
+SHA512: 5955ca511069022df397bbdb7827e72a8ad8e1806e67a3ae5c1b2b77f243c86456e21209612aa36bad575ee249331026d36d6e55e1b0c7ef143ce82072a2d795
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vuex.
+
+Package: devdocs-data-vulkan
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1775
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-vulkan_1.6_all.deb
+Size: 161352
+MD5sum: b45f1997647b73a7c96e49a78debf3f2
+SHA1: aca035a851b08c33677e8274c618d137beed1ce1
+SHA256: 45ca58f4b4e2acca6982557e522f18195883c285cdd6d7070771d77e85b1d23f
+SHA512: 24630921dc8037bcce42ff94a2dcc3ffa43430c8938c1cf9097fbb1767f6f04da0395230e8c106431ddde89bed8b396ca605ef6ca6c130faf4f48579070bda64
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for vulkan.
+
+Package: devdocs-data-wagtail
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 2076
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-wagtail_1.6_all.deb
+Size: 832830
+MD5sum: db493bac007a0bd78a4469a00eaef3f0
+SHA1: 88ffd3c8b60b3b233776b5aed14eeabced0c6132
+SHA256: 6a448180096d703db00e7620e12d3e5c3789881eccbb8ced0bad051fe365831f
+SHA512: 4f311778f11e26f8c3f85cdaa3c6d931cce39ca836994a240110dfeb8a4326f2995ee9f53447e9b460b7e1c7bde764c935242612566027156937406d5f82742a
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for wagtail.
+
+Package: devdocs-data-web-extensions
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 10362
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-web-extensions_1.6_all.deb
+Size: 3099112
+MD5sum: 78a44bbfc265ec08f350109d97fb2442
+SHA1: 2658a137960dab468fe389c0551e5caed7dcfe4f
+SHA256: e88d8cb339eeba84fd4743ddf5e9cdfad756570cfae74662707ef09564843c26
+SHA512: 3c4468e6149fff79b47482e16ac700cdb0b24c41c56778560ec003224a8e40ab2f33d822f483f126e074d4a54f04e55bb767c97a22fa10e5b329052e052efd56
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for web-extensions.
+
+Package: devdocs-data-webpack
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1857
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-webpack_1.6_all.deb
+Size: 297218
+MD5sum: 86390fbeb95a6aebdc611165cfb48d54
+SHA1: 95ca0b8a8fd55cd5bc21d6278edb787063858467
+SHA256: caabf667b5856833fd1a5401eb32b5bebb3bb0c640eaddd0e5ce1c7ced637189
+SHA512: de73d585cef794ce5b0ce17a520123bc3adfec3a291f9bc2de384d414ee7ef6564fc2e9a383fc2a991d2ccae77e31b55b3bb7e9095d97f83d1caa8d5a9150059
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for webpack.
+
+Package: devdocs-data-werkzeug
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 919
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-werkzeug_1.6_all.deb
+Size: 132442
+MD5sum: cee868275a0fa715521d54283ba36e85
+SHA1: 5ad567eeca224ac6fd4cf6cc09b7d979527d3495
+SHA256: 4827b2e78517ca069df2249468ff87c795c67a36d2f559763c52ce9b0c748a54
+SHA512: 46dff955361a364733c79b26fed05323dd0cab23f03c8e0a345f169523b859bf0db41ee47314f0985ac946cfc8acd58f7836d1e41f556c1b52ce2546e67b8a44
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for werkzeug.
+
+Package: devdocs-data-wordpress
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 50507
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-wordpress_1.6_all.deb
+Size: 3933340
+MD5sum: c100a6607bf0053f6ce585498a53a68d
+SHA1: b32fe5bc5fcadc0e611633d7ce6fc6517e540e0d
+SHA256: 9c5727c4e01d6761738cc33a1653adbf54c0a48e6f0008219d6423935a3a8aff
+SHA512: f70de8669d064f4a2426f872d1bd513e9e7825fc585608461b81b60b321fdc51dbd12b06bf13d5dfd1690ecfceca350f8c471314a006cb51b34b968a2b674136
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for wordpress.
+
+Package: devdocs-data-xslt-xpath
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 514
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-xslt-xpath_1.6_all.deb
+Size: 55312
+MD5sum: 57ff88add857dd58037e514b66494460
+SHA1: a7636bc851c7b258c916c5af217dcf3357dabea6
+SHA256: 86bc818026bf94692cc8afc1f920f4406d94d55edb4aac0d2a43a58ab298f7a8
+SHA512: 71172cc23c8af653db9463616fb37a1051fc1d7f038096c9c7c8f8f045799d0c6fdaa6bf2f0ff7f114cc36072988e14adad025893d7dfaf66c373b9718c9adc5
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for xslt-xpath.
+
+Package: devdocs-data-yarn-classic
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 284
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-yarn-classic_1.6_all.deb
+Size: 55442
+MD5sum: 522266a294cbd8b9a117db771ae26c4a
+SHA1: 069a8b068ddf9a8920e9000c79c07a56daedb37a
+SHA256: 354d9b33ccf3e7112611bf11b00ec497039213025d6e2baa2bff04bb169d2975
+SHA512: c115ba73e901b86d1b69e89de539c65da9e43baed298cd1f32898e9f36c86a4db3fb56b1fb93fa483e9ef14ceccffe1fba314ef16c11a901132c4686cf49b805
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for yarn-classic.
+
+Package: devdocs-data-yarn
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1145
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-yarn_1.6_all.deb
+Size: 195242
+MD5sum: 47c6a45f1f4bb225c791164773e621e4
+SHA1: 5a5030b7e4975c39da7e385675a0f77b0508eb2e
+SHA256: dccef569b092973183dc42cfdba373186b766be9ea617051bc80ec38377c22d3
+SHA512: f2ec35f4a4259b8cda41115d128a109f544e3ad951e6cc2c9cd2687039c07ff74b69fd666cd99e1b80c5b548c67894f75f88727ad825fea0b4a8236736d6dbf4
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for yarn.
+
+Package: devdocs-data-yii
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15936
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-yii_1.6_all.deb
+Size: 873872
+MD5sum: 311ecee3e236e040ed0250439a63b54f
+SHA1: 50ded77e83c79a106c3562d468bd43064929be7d
+SHA256: bc63237386ee21844d666e277fb96d4d5e07200f05e77fbe3c9e64b4d0ac3982
+SHA512: 358f9ea83602a6a18aab300169241ca5b431b228409416151f7b32f1e60be6f2f24dcbd89d753e6aa62acb0999a70287b67a5aa6a3932e016de5805ef5c717a7
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for yii.
+
+Package: devdocs-data-zig
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 628
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-zig_1.6_all.deb
+Size: 114150
+MD5sum: 6d56bc5c103121624c2d786662a8ed2e
+SHA1: e430a6372df530664c619949c2b1f7b936cfe7c4
+SHA256: 423fe64f8d4e9aa0a000d1d9a771fdf54a269aa8033181863c542cf6ff8bc3e8
+SHA512: 39305a145b9fa5505827a538d3e0bb697c2d22c0889fd5bf772f03a0b7d3534bc693a4277952d50b790003350df8bb74eb04a7ecd039e0f881ed4e56020d903c
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for zig.
+
+Package: devdocs-data-zsh
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Source: devdocs
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 1791
+Depends: devdocs (= 1.6)
+Filename: pool/dev/devdocs/resolute/devdocs-data-zsh_1.6_all.deb
+Size: 362740
+MD5sum: 23c3ced6a88fc6f01fdd481a572a32a2
+SHA1: dd3baea7dc6f75f48f551a62e3f18af8f4ec8873
+SHA256: c89fdd1492afc3883527f87050ccbb04fdc3c238786c34c1afd9f46d94e464d5
+SHA512: da49b4d6a47b9cf9b087067775003c651e1073f24dee4e6938f4ccdf469129f0e951b2f684d3e55d5d556974cd123832ce174dff7b8acef231fb4c5835d625ea
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+ This package contains offline data for zsh.
+
+Package: devdocs
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: doc
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 33
+Depends: elinks (>= 0.17.1), fzf, python3, python3-pygments, python3-lxml
+Filename: pool/dev/devdocs/resolute/devdocs_1.6_all.deb
+Size: 9356
+MD5sum: a221d08b0075899269905794ec1ee45f
+SHA1: b689e632b64a520bb4c820f4f16b4ef06ca89f95
+SHA256: ca5b76973ae7b2d0d489e4bffafd7f8f9d435d357bd3fc4ba061cf607444c301
+SHA512: a4e178ed7ea3d0a56713cbaa9bec11633c0da188da6f6659b420836713e61819fba184cde19c2d4995ec727e771bd9971286ce3fa1c10f5987f2cb4f92a08364
+Homepage: https://devdocs.io
+Description: View devdocs offline in a terminal
+
 Package: libosc++-dev
 Architecture: amd64
 Version: 2.1
