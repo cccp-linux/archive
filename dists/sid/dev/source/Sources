@@ -102,11 +102,39 @@ Checksums-Sha512:
  a2e46d59c8f76dd3270532c6675565ec8e9b61357015db5905c831b367b60c6d701ff6534029b815e8e7ecbbdeb489fbbaad0494a7be9f3e7796c5d8a5ea1224 954 devdocs-meta_1.6.dsc
  f660ecb2beb3c5eebf813ed094a9416c1e0dcee7341219970e686692bb2a921161c37ea86fb1592c471d3b6ef8a43a53bff41b7d74fcc093023244d580537e90 13444 devdocs-meta_1.6.tar.xz
 
+Package: osc++
+Format: 3.0 (native)
+Binary: libosc++, libosc++-dev
+Architecture: any
+Version: 2.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/osc
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/osc.git
+Directory: pool/dev/osc++
+Package-List:
+ libosc++ deb libs optional arch=any
+ libosc++-dev deb libdevel optional arch=any
+Files:
+ c492b6509275fe0bc8f33330fa191f73 1056 osc++_2.1.dsc
+ 2dc76e570506166c3969c9e85881daba 2864144 osc++_2.1.tar.xz
+Checksums-Sha1:
+ 402cfe431fda63dd62f06ad3d10417d162099277 1056 osc++_2.1.dsc
+ 39b3a6a1b051a531c8fd4b8ca469284419708f97 2864144 osc++_2.1.tar.xz
+Checksums-Sha256:
+ 7bf8e0f24ec450b26735c3314683759458c1fc6aa51330ede86768ad245473db 1056 osc++_2.1.dsc
+ 3de72d8593dbbd0a4cac0d2bd4143ef6a4dfa73644c45413e59e2ab4c1bffb04 2864144 osc++_2.1.tar.xz
+Checksums-Sha512:
+ 0d56c39d095186863bc9d314a6876d2ced61925212c63d950aa078b76307537dcf3a431a073d9252db07ad4b7953a3b276a8002f589eba0c8a6e35c7e06d236d 1056 osc++_2.1.dsc
+ 1d38d9aa0edcd23525adfc6828c99fcd5a8c3c1bc2b9b006ecd37a3cee74787fad85e98b6ddf8a207666479e5c03b8ca8a26d92a57e2d04f2ec53a694be78d95 2864144 osc++_2.1.tar.xz
+
 Package: pgm-args
 Format: 3.0 (native)
 Binary: libpgm-args-dev
 Architecture: all
-Version: 2.0.1
+Version: 2.0.2
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
@@ -117,17 +145,17 @@ Directory: pool/dev/pgm-args
 Package-List:
  libpgm-args-dev deb libdevel optional arch=all
 Files:
- e413549f1d312d7efc2689db72d58458 1044 pgm-args_2.0.1.dsc
- 142e0fcfb0ae397adc981bb2577b9d25 27200 pgm-args_2.0.1.tar.xz
+ 9bb6870d9b56242eb5a610d6b254f013 1044 pgm-args_2.0.2.dsc
+ c973574d5d716201eb0047d0dd546064 27384 pgm-args_2.0.2.tar.xz
 Checksums-Sha1:
- e9ca70146a119ec0f50216fb2fa07f38f4d741a4 1044 pgm-args_2.0.1.dsc
- a1543634003e752fead71e344891dba76688452a 27200 pgm-args_2.0.1.tar.xz
+ 67036260323f37424e577c27b429115c1ab1294f 1044 pgm-args_2.0.2.dsc
+ 8047fd1692328a9a7777fa3d9b6281ef6305102d 27384 pgm-args_2.0.2.tar.xz
 Checksums-Sha256:
- 7b1b5d1c1343aa1f92ff087392625d8d6d4b0c32c7c84fc780308a9297a0649a 1044 pgm-args_2.0.1.dsc
- 09ffef7992322806a76a464142afb31dc2b748def872e2b3b9c1e9be93ddd375 27200 pgm-args_2.0.1.tar.xz
+ 4946fac51e8b1269f6a52e48c6b3cb55e82ad2d456aa7974701235915a5eb62d 1044 pgm-args_2.0.2.dsc
+ 18f813d8c063d7d9c63aa550a63db187c57a41d4b86400624a9134ab5468ccdc 27384 pgm-args_2.0.2.tar.xz
 Checksums-Sha512:
- eb0eabd6410de61ef8a6d95240c107a365992d93c46257375322a74cdb3dd79708c26b75860da3ddf01fa0ce2d71d0bf02bd0b21ac6e9180294489fbfda443a4 1044 pgm-args_2.0.1.dsc
- 090c85bd120cfd057ea825b82bd29f826f137b01dbda54969dbb7b53efe49707de0494413d001cfbd242c4a2caf6f7bd79e418cb923c588890da733e0770504b 27200 pgm-args_2.0.1.tar.xz
+ fcec5abeee6c39d722a2025d6e4fef8537310cda26c18fb63dc4efbe15b334364719a002c1cd7439b2ffb044cdafaf965c791096bc3a8b74ccb31c28612a99c7 1044 pgm-args_2.0.2.dsc
+ 44b181d9233cec6d399bc6a3d6157382a616548deb26355c0e8a2f5d6d8c5b78b5a57bcee95fc2e9e79efaf00d9f49040bd3c20937e90c1bddbe3bcc493f7ab4 27384 pgm-args_2.0.2.tar.xz
 
 Package: uscan
 Format: 3.0 (native)
