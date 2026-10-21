@@ -121,6 +121,25 @@ Description: osc++ – an OSC Library for C++
  .
  This package contains the shared library.
 
+Package: libpgm-args-dev
+Architecture: all
+Version: 2.0.2
+Priority: optional
+Section: libdevel
+Source: pgm-args
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 61
+Filename: pool/dev/pgm-args/noble/libpgm-args-dev_2.0.2_all.deb
+Size: 19384
+MD5sum: 177e6860c28c7b34f2fa2e9eda706504
+SHA1: 809293de5724ed8885a0d401a921a6a563e236b9
+SHA256: 677850b7afef3f5c6ee68e3ab23613607540c0f6c85a4461a262daceec0a6be6
+SHA512: ed2a04eed7390aeb758a015a0a5456936a9a4f13df7b0273185dec8389097f6ddee4c16e46fd3b068b54c3f62eb52fb9e459ecd4c813d5956b3095898d521626
+Homepage: https://github.com/dimitry-ishenko-cpp/pgm-args
+Description: pgm::args – Define & Process Program Arguments in C++
+ This simple header-only library allows you to easily define, parse and examine
+ program options and positional parameters in a C++ program.
+
 Package: uscan
 Architecture: all
 Version: 2.26.9.3
