@@ -408,19 +408,19 @@ Description: New and improved, now asbestos-free copy utility
 
 Package: neovim-meta
 Architecture: all
-Version: 0.32
+Version: 0.33
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 33
+Installed-Size: 39
 Depends: neovim (>= 0.2.2-1~)
 Recommends: neovim-blink-cmp, neovim-gruvbox, neovim-lualine, neovim-oil, neovim-statuscol, neovim-telescope-fzf-native | neovim-telescope, neovim-tokyonight, neovim-web-devicons
-Filename: pool/main/neovim-meta/trixie/neovim-meta_0.32_all.deb
-Size: 6772
-MD5sum: 5b7cde24b21221a11b5d448646ef8ca5
-SHA1: 5b8ecee119f9345b17cb281f474fa4dfd8215d72
-SHA256: 8f8c44f1e0dd72eb8c2513f175ce97017705834f6421729be4f4767d3734a4db
-SHA512: b270b5fbf7db389d5ec2410a4bb00d1a3b9f4d47e8c3f417bf72d4d4e49ffedecb6824ed9ff576d1dc34ba684594a29bf4e5fc36d767050d5c51a4290d50ad10
+Filename: pool/main/neovim-meta/trixie/neovim-meta_0.33_all.deb
+Size: 6956
+MD5sum: 5ab8149e447127754f01f20ad3df99d7
+SHA1: b028da4a67908c329ff9ca0537a7f83c1176ff4b
+SHA256: c05df49ea8fbe80bb6c52f167eab4123e6d692f5fd8a3e80dfec415d209702e5
+SHA512: 6331ab59fd10ce1bc1bf576ada2c7abc1277933f75faadc2cf56f015e2664f413ccd97dc33b8095c4fef42ff4a86eae2c489bf0eb38cbbe7ed414c7478c69422
 Description: Neovim meta-package
  Add the following to your .config/nvim/init.lua:
  * require("neovim")
