@@ -99,23 +99,23 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-scanner
 Architecture: all
-Version: 0.5
+Version: 0.5.1
 Priority: optional
 Section: python
 Source: scanner
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 57
 Depends: init-system-helpers (>= 1.52), python3-flask, python3-lxml, python3-waitress, python3-watchdog, python3:any, ffmpeg
-Filename: pool/casparcg/scanner/trixie/casparcg-scanner_0.5_all.deb
-Size: 12840
-MD5sum: cd095fcf4c8d352d62826d8301bc52ce
-SHA1: 7be61dac16b9996e92133b3324e5dfbe244a96f5
-SHA256: 7628af1cc4e306b06401ebfe435c83e32f813ad7a4e9936aa79ca051c7a778b3
-SHA512: 4062bee9b28ed6e5a91c695e8b70deae954a6bdfa8012d0fc295f00458b5f1cf82a9cdfc120bccc32940cbbf3d1f7a18b1228d6e429b2812b58e312b61b20a62
+Filename: pool/casparcg/scanner/trixie/casparcg-scanner_0.5.1_all.deb
+Size: 12868
+MD5sum: 0cfd708f585955ec3c7de3bf134273fb
+SHA1: f33362e2287e927294c63604b0958907167be02c
+SHA256: 75fc2e48d5eef671cf3019c3a30fc597ab3fd60423a113fad5dce8bcfa564c93
+SHA512: a236620566f28060651e20a0587a9d49e212368e51bc77af1d0778cdf075bc6d75b1821e621afec5c8e4c591b07368e6e355c18ed8bcbae988721a0155b57d70
 Description: CasparCG Media Scanner
- This is an alternate implementation of the written in Python. It can be used
- as a drop-in replacement for the original, or as a standalone background
- service on both Linux and Windows.
+ This is an alternate implementation of the CasparCG Media Scanner written in
+ Python. It can be used as a drop-in replacement for the original, or as a
+ standalone background service on both Linux and Windows.
 
 Package: casparcg-server-2.5
 Architecture: armhf
