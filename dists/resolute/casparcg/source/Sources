@@ -1,3 +1,29 @@
+Package: control
+Format: 3.0 (native)
+Binary: casparcg-control
+Architecture: all
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools
+Vcs-Browser: https://github.com/dimitry-ishenko-casparcg/control
+Vcs-Git: https://github.com/dimitry-ishenko-casparcg/control.git
+Directory: pool/casparcg/control
+Package-List:
+ casparcg-control deb python optional arch=all
+Files:
+ 52fd34d88d9e8f02702e29aa242ac705 1023 control_0.1.dsc
+ 92f2686fb5fdf6fc92f3e9afc96c54ef 153400 control_0.1.tar.xz
+Checksums-Sha1:
+ 0f2f418f9254192097c66a7d364983f81a478329 1023 control_0.1.dsc
+ d7f52e73ead5560e1784580255a29f72ce7928b5 153400 control_0.1.tar.xz
+Checksums-Sha256:
+ 562c27ca6d044add8f948a109dd43e90f2d31aede9bb03e140ecf0b5a6b61403 1023 control_0.1.dsc
+ e33ebdb1936db00aabf81bea1eb5a10872e555a170dfbd695c597d2abab05b04 153400 control_0.1.tar.xz
+Checksums-Sha512:
+ b1229560d1836f207d520680d36a5ff2c97a2e6a90f6a18912f280c6fdfdb17018a17143687c11a88318a32af4d428b5570d23723df6503dd64509b5cfa32bd8 1023 control_0.1.dsc
+ 0d815b44a3dc60d0154652fec69c3dc0ad421356b7cb4f87ff20c55943793ec5971cd9954e0947c1c8a1b188a8cef8845f604b4cf4f586e29e779bb2752f3ce0 153400 control_0.1.tar.xz
+
 Package: scanner
 Format: 3.0 (native)
 Binary: casparcg-scanner
