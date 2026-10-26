@@ -1,0 +1,792 @@
+sbuild (Debian sbuild) 0.91.10 (27 June 2026) on laptop
+
++==============================================================================+
+| server-default 2.5-2 (amd64)                 Mon, 26 Oct 2026 19:43:09 +0000 |
++==============================================================================+
+
+Package: server-default
+Version: 2.5-2
+Source Version: 2.5-2
+Distribution: sid
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+I: Unpacking /home/dimitry/.cache/sbuild/sid-amd64.tar to /tmp/tmp.sbuild.AoZy7GiYaE...
+I: Setting up the chroot...
+I: Creating chroot session...
+I: Setting up log color...
+I: Setting up apt archive...
+
++------------------------------------------------------------------------------+
+| Update chroot                                Mon, 26 Oct 2026 19:43:13 +0000 |
++------------------------------------------------------------------------------+
+
+Get:1 http://deb.debian.org/debian sid InRelease [193 kB]
+Get:2 http://cccp-linux.github.io/archive sid InRelease [18.9 kB]
+Ign:2 http://cccp-linux.github.io/archive sid InRelease
+Get:3 http://deb.debian.org/debian sid/main amd64 Packages [10.8 MB]
+Get:4 http://cccp-linux.github.io/archive sid/casparcg amd64 Packages [3106 B]
+Fetched 11.0 MB in 5s (2091 kB/s)
+Reading package lists...
+W: Signature verification failed: http://cccp-linux.github.io/archive sid InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Missing key 142568813D3E13FD0FBFA3A23A56BF584F5AEB27, which is needed to verify signature.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  cpp-16 cpp-16-x86-64-linux-gnu g++-16 g++-16-x86-64-linux-gnu gcc-16
+  gcc-16-base gcc-16-x86-64-linux-gnu libasan8 libatomic1
+  libboost-iostreams1.92.0 libcap-ng0 libcc1-0 libgcc-16-dev libgcc-s1
+  libgomp1 libhwasan0 libitm1 liblsan0 libquadmath0 libseccomp2 libselinux1
+  libstdc++-16-dev libstdc++6 libtsan2 libubsan1 linux-libc-dev patch tar
+  zlib1g
+29 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 75.7 MB of archives.
+After this operation, 87.0 kB disk space will be freed.
+Get:1 http://deb.debian.org/debian sid/main amd64 tar amd64 1.35+dfsg-7 [825 kB]
+Get:2 http://deb.debian.org/debian sid/main amd64 libubsan1 amd64 16.2.0-4 [1136 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 libgomp1 amd64 16.2.0-4 [151 kB]
+Get:4 http://deb.debian.org/debian sid/main amd64 libitm1 amd64 16.2.0-4 [26.9 kB]
+Get:5 http://deb.debian.org/debian sid/main amd64 libatomic1 amd64 16.2.0-4 [10.4 kB]
+Get:6 http://deb.debian.org/debian sid/main amd64 libasan8 amd64 16.2.0-4 [2889 kB]
+Get:7 http://deb.debian.org/debian sid/main amd64 liblsan0 amd64 16.2.0-4 [1281 kB]
+Get:8 http://deb.debian.org/debian sid/main amd64 libhwasan0 amd64 16.2.0-4 [1580 kB]
+Get:9 http://deb.debian.org/debian sid/main amd64 libquadmath0 amd64 16.2.0-4 [147 kB]
+Get:10 http://deb.debian.org/debian sid/main amd64 gcc-16-base amd64 16.2.0-4 [39.3 kB]
+Get:11 http://deb.debian.org/debian sid/main amd64 libstdc++6 amd64 16.2.0-4 [822 kB]
+Get:12 http://deb.debian.org/debian sid/main amd64 g++-16 amd64 16.2.0-4 [36.4 kB]
+Get:13 http://deb.debian.org/debian sid/main amd64 gcc-16 amd64 16.2.0-4 [541 kB]
+Get:14 http://deb.debian.org/debian sid/main amd64 cpp-16 amd64 16.2.0-4 [1276 B]
+Get:15 http://deb.debian.org/debian sid/main amd64 cpp-16-x86-64-linux-gnu amd64 16.2.0-4 [13.7 MB]
+Get:16 http://deb.debian.org/debian sid/main amd64 libcc1-0 amd64 16.2.0-4 [46.1 kB]
+Get:17 http://deb.debian.org/debian sid/main amd64 gcc-16-x86-64-linux-gnu amd64 16.2.0-4 [26.6 MB]
+Get:18 http://deb.debian.org/debian sid/main amd64 g++-16-x86-64-linux-gnu amd64 16.2.0-4 [15.1 MB]
+Get:19 http://deb.debian.org/debian sid/main amd64 libstdc++-16-dev amd64 16.2.0-4 [2756 kB]
+Get:20 http://deb.debian.org/debian sid/main amd64 libgcc-16-dev amd64 16.2.0-4 [2780 kB]
+Get:21 http://deb.debian.org/debian sid/main amd64 libtsan2 amd64 16.2.0-4 [2574 kB]
+Get:22 http://deb.debian.org/debian sid/main amd64 libgcc-s1 amd64 16.2.0-4 [74.1 kB]
+Get:23 http://deb.debian.org/debian sid/main amd64 zlib1g amd64 1:1.3.dfsg+really1.3.2-4 [92.4 kB]
+Get:24 http://deb.debian.org/debian sid/main amd64 libcap-ng0 amd64 0.9.6-1+b1 [19.2 kB]
+Get:25 http://deb.debian.org/debian sid/main amd64 libseccomp2 amd64 2.6.1-1+b2 [51.6 kB]
+Get:26 http://deb.debian.org/debian sid/main amd64 libselinux1 amd64 3.11-2.1+b1 [92.6 kB]
+Get:27 http://deb.debian.org/debian sid/main amd64 libboost-iostreams1.92.0 amd64 1.92.0-4+b1 [248 kB]
+Get:28 http://deb.debian.org/debian sid/main amd64 linux-libc-dev all 7.2.12-1 [2029 kB]
+Get:29 http://deb.debian.org/debian sid/main amd64 patch amd64 2.8.1-1 [137 kB]
+Fetched 75.7 MB in 0s (338 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12731 files and directories currently installed.)
+Preparing to unpack .../tar_1.35+dfsg-7_amd64.deb ...
+Unpacking tar (1.35+dfsg-7) over (1.35+dfsg-6) ...
+Setting up tar (1.35+dfsg-7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12731 files and directories currently installed.)
+Preparing to unpack .../0-libubsan1_16.2.0-4_amd64.deb ...
+Unpacking libubsan1:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../1-libgomp1_16.2.0-4_amd64.deb ...
+Unpacking libgomp1:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../2-libitm1_16.2.0-4_amd64.deb ...
+Unpacking libitm1:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../3-libatomic1_16.2.0-4_amd64.deb ...
+Unpacking libatomic1:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../4-libasan8_16.2.0-4_amd64.deb ...
+Unpacking libasan8:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../5-liblsan0_16.2.0-4_amd64.deb ...
+Unpacking liblsan0:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../6-libhwasan0_16.2.0-4_amd64.deb ...
+Unpacking libhwasan0:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../7-libquadmath0_16.2.0-4_amd64.deb ...
+Unpacking libquadmath0:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../8-gcc-16-base_16.2.0-4_amd64.deb ...
+Unpacking gcc-16-base:amd64 (16.2.0-4) over (16.2.0-3) ...
+Setting up gcc-16-base:amd64 (16.2.0-4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12731 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_16.2.0-4_amd64.deb ...
+Unpacking libstdc++6:amd64 (16.2.0-4) over (16.2.0-3) ...
+Setting up libstdc++6:amd64 (16.2.0-4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12731 files and directories currently installed.)
+Preparing to unpack .../00-g++-16_16.2.0-4_amd64.deb ...
+Unpacking g++-16 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../01-gcc-16_16.2.0-4_amd64.deb ...
+Unpacking gcc-16 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../02-cpp-16_16.2.0-4_amd64.deb ...
+Unpacking cpp-16 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../03-cpp-16-x86-64-linux-gnu_16.2.0-4_amd64.deb ...
+Unpacking cpp-16-x86-64-linux-gnu (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../04-libcc1-0_16.2.0-4_amd64.deb ...
+Unpacking libcc1-0:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../05-gcc-16-x86-64-linux-gnu_16.2.0-4_amd64.deb ...
+Unpacking gcc-16-x86-64-linux-gnu (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../06-g++-16-x86-64-linux-gnu_16.2.0-4_amd64.deb ...
+Unpacking g++-16-x86-64-linux-gnu (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../07-libstdc++-16-dev_16.2.0-4_amd64.deb ...
+Unpacking libstdc++-16-dev:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../08-libgcc-16-dev_16.2.0-4_amd64.deb ...
+Unpacking libgcc-16-dev:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../09-libtsan2_16.2.0-4_amd64.deb ...
+Unpacking libtsan2:amd64 (16.2.0-4) over (16.2.0-3) ...
+Preparing to unpack .../10-libgcc-s1_16.2.0-4_amd64.deb ...
+Unpacking libgcc-s1:amd64 (16.2.0-4) over (16.2.0-3) ...
+Setting up libgcc-s1:amd64 (16.2.0-4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12731 files and directories currently installed.)
+Preparing to unpack .../zlib1g_1%3a1.3.dfsg+really1.3.2-4_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.3.dfsg+really1.3.2-4) over (1:1.3.dfsg+really1.3.2-3) ...
+Setting up zlib1g:amd64 (1:1.3.dfsg+really1.3.2-4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12731 files and directories currently installed.)
+Preparing to unpack .../libcap-ng0_0.9.6-1+b1_amd64.deb ...
+Unpacking libcap-ng0:amd64 (0.9.6-1+b1) over (0.9.6-1) ...
+Setting up libcap-ng0:amd64 (0.9.6-1+b1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12732 files and directories currently installed.)
+Preparing to unpack .../libseccomp2_2.6.1-1+b2_amd64.deb ...
+Unpacking libseccomp2:amd64 (2.6.1-1+b2) over (2.6.1-1+b1) ...
+Setting up libseccomp2:amd64 (2.6.1-1+b2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12732 files and directories currently installed.)
+Preparing to unpack .../libselinux1_3.11-2.1+b1_amd64.deb ...
+Unpacking libselinux1:amd64 (3.11-2.1+b1) over (3.11-2.1) ...
+Setting up libselinux1:amd64 (3.11-2.1+b1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12733 files and directories currently installed.)
+Preparing to unpack .../libboost-iostreams1.92.0_1.92.0-4+b1_amd64.deb ...
+Unpacking libboost-iostreams1.92.0:amd64 (1.92.0-4+b1) over (1.92.0-4) ...
+Preparing to unpack .../linux-libc-dev_7.2.12-1_all.deb ...
+Unpacking linux-libc-dev (7.2.12-1) over (7.2.11-1) ...
+Preparing to unpack .../patch_2.8.1-1_amd64.deb ...
+Unpacking patch (2.8.1-1) over (2.8-2) ...
+Setting up libboost-iostreams1.92.0:amd64 (1.92.0-4+b1) ...
+Setting up linux-libc-dev (7.2.12-1) ...
+Setting up libgomp1:amd64 (16.2.0-4) ...
+Setting up libquadmath0:amd64 (16.2.0-4) ...
+Setting up libatomic1:amd64 (16.2.0-4) ...
+Setting up patch (2.8.1-1) ...
+Setting up libubsan1:amd64 (16.2.0-4) ...
+Setting up libhwasan0:amd64 (16.2.0-4) ...
+Setting up libasan8:amd64 (16.2.0-4) ...
+Setting up cpp-16-x86-64-linux-gnu (16.2.0-4) ...
+Setting up libtsan2:amd64 (16.2.0-4) ...
+Setting up libcc1-0:amd64 (16.2.0-4) ...
+Setting up liblsan0:amd64 (16.2.0-4) ...
+Setting up libitm1:amd64 (16.2.0-4) ...
+Setting up libgcc-16-dev:amd64 (16.2.0-4) ...
+Setting up gcc-16-x86-64-linux-gnu (16.2.0-4) ...
+Setting up libstdc++-16-dev:amd64 (16.2.0-4) ...
+Setting up g++-16-x86-64-linux-gnu (16.2.0-4) ...
+Setting up cpp-16 (16.2.0-4) ...
+Setting up gcc-16 (16.2.0-4) ...
+Setting up g++-16 (16.2.0-4) ...
+Processing triggers for ccache (4.14.2-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Processing triggers for libc-bin (2.43-7) ...
+
++------------------------------------------------------------------------------+
+| Fetch source files                           Mon, 26 Oct 2026 19:43:22 +0000 |
++------------------------------------------------------------------------------+
+
+
+Local sources
+-------------
+
+/home/dimitry/arch/casparcg/server-default_2.5-2.dsc exists in /home/dimitry/arch/casparcg; copying to chroot
+
++------------------------------------------------------------------------------+
+| Install package build dependencies           Mon, 26 Oct 2026 19:43:23 +0000 |
++------------------------------------------------------------------------------+
+
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: debhelper-compat (= 12), build-essential
+Filtered Build-Depends: debhelper-compat (= 12), build-essential
+dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/build/reproducible-path/resolver-boQTK0/apt_archive/sbuild-build-depends-main-dummy.deb'.
+Ign:1 copy:/build/reproducible-path/resolver-boQTK0/apt_archive ./ InRelease
+Get:2 copy:/build/reproducible-path/resolver-boQTK0/apt_archive ./ Release [609 B]
+Ign:3 copy:/build/reproducible-path/resolver-boQTK0/apt_archive ./ Release.gpg
+Get:4 copy:/build/reproducible-path/resolver-boQTK0/apt_archive ./ Sources [600 B]
+Get:5 copy:/build/reproducible-path/resolver-boQTK0/apt_archive ./ Packages [639 B]
+Fetched 1848 B in 0s (0 B/s)
+Reading package lists...
+Get:1 http://cccp-linux.github.io/archive sid InRelease [18.9 kB]
+Ign:1 http://cccp-linux.github.io/archive sid InRelease
+Fetched 18.9 kB in 0s (120 kB/s)
+Reading package lists...
+W: Signature verification failed: http://cccp-linux.github.io/archive sid InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Missing key 142568813D3E13FD0FBFA3A23A56BF584F5AEB27, which is needed to verify signature.
+Reading package lists...
+
+Install main build dependencies (apt-based resolver)
+----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+The following additional packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils debhelper
+  dh-autoreconf dh-strip-nondeterminism dwz file gettext gettext-base
+  groff-base intltool-debian libarchive-zip-perl libdebhelper-perl libelf1t64
+  libfile-stripnondeterminism-perl libmagic-mgc libmagic1t64 libpipeline1
+  libtool libuchardet0 libunistring5 libxml2-16 m4 man-db po-debconf
+  sensible-utils
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc dh-make gettext-doc
+  libasprintf-dev libgettextpo-dev gnulib-l10n groff libtool-doc gfortran
+  | fortran95-compiler m4-doc apparmor less www-browser libmail-box-perl
+Recommended packages:
+  curl | wget | lynx python3:any python3-requests libarchive-cpio-perl
+  libltdl-dev libmail-sendmail-perl
+The following NEW packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils debhelper
+  dh-autoreconf dh-strip-nondeterminism dwz file gettext gettext-base
+  groff-base intltool-debian libarchive-zip-perl libdebhelper-perl libelf1t64
+  libfile-stripnondeterminism-perl libmagic-mgc libmagic1t64 libpipeline1
+  libtool libuchardet0 libunistring5 libxml2-16 m4 man-db po-debconf
+  sbuild-build-depends-main-dummy sensible-utils
+0 upgraded, 30 newly installed, 0 to remove and 0 not upgraded.
+Need to get 12.5 MB of archives.
+After this operation, 56.8 MB of additional disk space will be used.
+Get:1 copy:/build/reproducible-path/resolver-boQTK0/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [856 B]
+Get:2 http://deb.debian.org/debian sid/main amd64 sensible-utils all 0.0.26 [27.0 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 libmagic-mgc amd64 1:5.47-4 [345 kB]
+Get:4 http://deb.debian.org/debian sid/main amd64 libmagic1t64 amd64 1:5.47-4 [111 kB]
+Get:5 http://deb.debian.org/debian sid/main amd64 file amd64 1:5.47-4 [43.0 kB]
+Get:6 http://deb.debian.org/debian sid/main amd64 gettext-base amd64 1.0-5 [334 kB]
+Get:7 http://deb.debian.org/debian sid/main amd64 libuchardet0 amd64 0.0.8-2+b2 [69.0 kB]
+Get:8 http://deb.debian.org/debian sid/main amd64 groff-base amd64 1.24.2-2 [1365 kB]
+Get:9 http://deb.debian.org/debian sid/main amd64 bsdextrautils amd64 2.42.4-1 [103 kB]
+Get:10 http://deb.debian.org/debian sid/main amd64 libpipeline1 amd64 1.5.8-3 [49.2 kB]
+Get:11 http://deb.debian.org/debian sid/main amd64 man-db amd64 2.13.1-1 [1469 kB]
+Get:12 http://deb.debian.org/debian sid/main amd64 m4 amd64 1.4.21-1 [332 kB]
+Get:13 http://deb.debian.org/debian sid/main amd64 autoconf all 2.73-2 [516 kB]
+Get:14 http://deb.debian.org/debian sid/main amd64 autotools-dev all 20240727.1+nmu1 [60.0 kB]
+Get:15 http://deb.debian.org/debian sid/main amd64 automake all 1:1.19-3 [892 kB]
+Get:16 http://deb.debian.org/debian sid/main amd64 autopoint all 1.0-5 [820 kB]
+Get:17 http://deb.debian.org/debian sid/main amd64 libdebhelper-perl all 14.5 [77.7 kB]
+Get:18 http://deb.debian.org/debian sid/main amd64 libtool all 2.6.2-3 [552 kB]
+Get:19 http://deb.debian.org/debian sid/main amd64 dh-autoreconf all 23 [12.7 kB]
+Get:20 http://deb.debian.org/debian sid/main amd64 libarchive-zip-perl all 1.68-1 [104 kB]
+Get:21 http://deb.debian.org/debian sid/main amd64 libfile-stripnondeterminism-perl all 1.15.1-1 [17.1 kB]
+Get:22 http://deb.debian.org/debian sid/main amd64 dh-strip-nondeterminism all 1.15.1-1 [6020 B]
+Get:23 http://deb.debian.org/debian sid/main amd64 libelf1t64 amd64 0.196-1 [61.2 kB]
+Get:24 http://deb.debian.org/debian sid/main amd64 dwz amd64 0.17-1 [109 kB]
+Get:25 http://deb.debian.org/debian sid/main amd64 libunistring5 amd64 1.4.2-1 [480 kB]
+Get:26 http://deb.debian.org/debian sid/main amd64 libxml2-16 amd64 2.15.4+dfsg-1+b1 [684 kB]
+Get:27 http://deb.debian.org/debian sid/main amd64 gettext amd64 1.0-5 [2704 kB]
+Get:28 http://deb.debian.org/debian sid/main amd64 intltool-debian all 0.35.0+20060710.6 [22.9 kB]
+Get:29 http://deb.debian.org/debian sid/main amd64 po-debconf all 1.0.22 [216 kB]
+Get:30 http://deb.debian.org/debian sid/main amd64 debhelper all 14.5 [944 kB]
+Preconfiguring packages ...
+Fetched 12.5 MB in 0s (235 MB/s)
+Selecting previously unselected package sensible-utils.
+(Reading database ... 12734 files and directories currently installed.)
+Preparing to unpack .../00-sensible-utils_0.0.26_all.deb ...
+Unpacking sensible-utils (0.0.26) ...
+Selecting previously unselected package libmagic-mgc.
+Preparing to unpack .../01-libmagic-mgc_1%3a5.47-4_amd64.deb ...
+Unpacking libmagic-mgc (1:5.47-4) ...
+Selecting previously unselected package libmagic1t64:amd64.
+Preparing to unpack .../02-libmagic1t64_1%3a5.47-4_amd64.deb ...
+Unpacking libmagic1t64:amd64 (1:5.47-4) ...
+Selecting previously unselected package file.
+Preparing to unpack .../03-file_1%3a5.47-4_amd64.deb ...
+Unpacking file (1:5.47-4) ...
+Selecting previously unselected package gettext-base.
+Preparing to unpack .../04-gettext-base_1.0-5_amd64.deb ...
+Unpacking gettext-base (1.0-5) ...
+Selecting previously unselected package libuchardet0:amd64.
+Preparing to unpack .../05-libuchardet0_0.0.8-2+b2_amd64.deb ...
+Unpacking libuchardet0:amd64 (0.0.8-2+b2) ...
+Selecting previously unselected package groff-base.
+Preparing to unpack .../06-groff-base_1.24.2-2_amd64.deb ...
+Unpacking groff-base (1.24.2-2) ...
+Selecting previously unselected package bsdextrautils.
+Preparing to unpack .../07-bsdextrautils_2.42.4-1_amd64.deb ...
+Unpacking bsdextrautils (2.42.4-1) ...
+Selecting previously unselected package libpipeline1:amd64.
+Preparing to unpack .../08-libpipeline1_1.5.8-3_amd64.deb ...
+Unpacking libpipeline1:amd64 (1.5.8-3) ...
+Selecting previously unselected package man-db.
+Preparing to unpack .../09-man-db_2.13.1-1_amd64.deb ...
+Unpacking man-db (2.13.1-1) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../10-m4_1.4.21-1_amd64.deb ...
+Unpacking m4 (1.4.21-1) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../11-autoconf_2.73-2_all.deb ...
+Unpacking autoconf (2.73-2) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../12-autotools-dev_20240727.1+nmu1_all.deb ...
+Unpacking autotools-dev (20240727.1+nmu1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../13-automake_1%3a1.19-3_all.deb ...
+Unpacking automake (1:1.19-3) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../14-autopoint_1.0-5_all.deb ...
+Unpacking autopoint (1.0-5) ...
+Selecting previously unselected package libdebhelper-perl.
+Preparing to unpack .../15-libdebhelper-perl_14.5_all.deb ...
+Unpacking libdebhelper-perl (14.5) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../16-libtool_2.6.2-3_all.deb ...
+Unpacking libtool (2.6.2-3) ...
+Selecting previously unselected package dh-autoreconf.
+Preparing to unpack .../17-dh-autoreconf_23_all.deb ...
+Unpacking dh-autoreconf (23) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../18-libarchive-zip-perl_1.68-1_all.deb ...
+Unpacking libarchive-zip-perl (1.68-1) ...
+Selecting previously unselected package libfile-stripnondeterminism-perl.
+Preparing to unpack .../19-libfile-stripnondeterminism-perl_1.15.1-1_all.deb ...
+Unpacking libfile-stripnondeterminism-perl (1.15.1-1) ...
+Selecting previously unselected package dh-strip-nondeterminism.
+Preparing to unpack .../20-dh-strip-nondeterminism_1.15.1-1_all.deb ...
+Unpacking dh-strip-nondeterminism (1.15.1-1) ...
+Selecting previously unselected package libelf1t64:amd64.
+Preparing to unpack .../21-libelf1t64_0.196-1_amd64.deb ...
+Unpacking libelf1t64:amd64 (0.196-1) ...
+Selecting previously unselected package dwz.
+Preparing to unpack .../22-dwz_0.17-1_amd64.deb ...
+Unpacking dwz (0.17-1) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../23-libunistring5_1.4.2-1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.4.2-1) ...
+Selecting previously unselected package libxml2-16:amd64.
+Preparing to unpack .../24-libxml2-16_2.15.4+dfsg-1+b1_amd64.deb ...
+Unpacking libxml2-16:amd64 (2.15.4+dfsg-1+b1) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../25-gettext_1.0-5_amd64.deb ...
+Unpacking gettext (1.0-5) ...
+Selecting previously unselected package intltool-debian.
+Preparing to unpack .../26-intltool-debian_0.35.0+20060710.6_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.6) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../27-po-debconf_1.0.22_all.deb ...
+Unpacking po-debconf (1.0.22) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../28-debhelper_14.5_all.deb ...
+Unpacking debhelper (14.5) ...
+Selecting previously unselected package sbuild-build-depends-main-dummy.
+Preparing to unpack .../29-sbuild-build-depends-main-dummy_0.invalid.0_amd64.deb ...
+Unpacking sbuild-build-depends-main-dummy (0.invalid.0) ...
+Setting up libpipeline1:amd64 (1.5.8-3) ...
+Setting up bsdextrautils (2.42.4-1) ...
+Setting up libmagic-mgc (1:5.47-4) ...
+Setting up libarchive-zip-perl (1.68-1) ...
+Setting up libxml2-16:amd64 (2.15.4+dfsg-1+b1) ...
+Setting up libdebhelper-perl (14.5) ...
+Setting up libmagic1t64:amd64 (1:5.47-4) ...
+Setting up gettext-base (1.0-5) ...
+Setting up m4 (1.4.21-1) ...
+Setting up file (1:5.47-4) ...
+Setting up libelf1t64:amd64 (0.196-1) ...
+Setting up autotools-dev (20240727.1+nmu1) ...
+Setting up libunistring5:amd64 (1.4.2-1) ...
+Setting up autopoint (1.0-5) ...
+Setting up autoconf (2.73-2) ...
+Setting up dwz (0.17-1) ...
+Setting up sensible-utils (0.0.26) ...
+Setting up libuchardet0:amd64 (0.0.8-2+b2) ...
+Setting up automake (1:1.19-3) ...
+update-alternatives: using /usr/bin/automake-1.19 to provide /usr/bin/automake (automake) in auto mode
+Setting up libfile-stripnondeterminism-perl (1.15.1-1) ...
+Setting up gettext (1.0-5) ...
+Setting up libtool (2.6.2-3) ...
+Setting up intltool-debian (0.35.0+20060710.6) ...
+Setting up dh-autoreconf (23) ...
+Setting up dh-strip-nondeterminism (1.15.1-1) ...
+Setting up groff-base (1.24.2-2) ...
+Setting up po-debconf (1.0.22) ...
+Setting up man-db (2.13.1-1) ...
+Not building database; man-db/auto-update is not 'true'.
+Setting up debhelper (14.5) ...
+Setting up sbuild-build-depends-main-dummy (0.invalid.0) ...
+Processing triggers for libc-bin (2.43-7) ...
+
++------------------------------------------------------------------------------+
+| Check architectures                          Mon, 26 Oct 2026 19:43:28 +0000 |
++------------------------------------------------------------------------------+
+
+Arch check ok (amd64 included in all)
+
++------------------------------------------------------------------------------+
+| Build environment                            Mon, 26 Oct 2026 19:43:29 +0000 |
++------------------------------------------------------------------------------+
+
+Kernel: Linux 7.2.12+deb14-amd64 #1 SMP PREEMPT_DYNAMIC Debian 7.2.12-1 (2026-10-22) amd64 (x86_64)
+Toolchain package versions: binutils_2.47.50.20261021-1 dpkg-dev_1.23.11 g++-16_16.2.0-4 gcc-16_16.2.0-4 libc6-dev_2.43-7 libstdc++-16-dev_16.2.0-4 libstdc++6_16.2.0-4 linux-libc-dev_7.2.12-1
+Package versions: apt_3.3.4 aptitude_0.8.13-8.1+b1 aptitude-common_0.8.13-8.1 autoconf_2.73-2 automake_1:1.19-3 autopoint_1.0-5 autotools-dev_20240727.1+nmu1 base-files_14.2 base-passwd_3.6.8 bash_5.3-4 binutils_2.47.50.20261021-1 binutils-common_2.47.50.20261021-1 binutils-x86-64-linux-gnu_2.47.50.20261021-1 bsdextrautils_2.42.4-1 build-essential_12.12 bzip2_1.0.8-6+b2 ca-certificates_20260816+nmu1 ccache_4.14.2-1 coreutils_9.10-1 cpp_4:16.1.0-3 cpp-16_16.2.0-4 cpp-16-x86-64-linux-gnu_16.2.0-4 cpp-x86-64-linux-gnu_4:16.1.0-3 dash_0.5.12-12 debconf_1.5.92 debhelper_14.5 debian-archive-keyring_2025.1 debianutils_5.24 dh-autoreconf_23 dh-strip-nondeterminism_1.15.1-1 diffutils_1:3.12-1 dpkg_1.23.11 dpkg-dev_1.23.11 dwz_0.17-1 eatmydata_131-2 file_1:5.47-4 findutils_4.11.0-3 g++_4:16.1.0-3 g++-16_16.2.0-4 g++-16-x86-64-linux-gnu_16.2.0-4 g++-x86-64-linux-gnu_4:16.1.0-3 gcc_4:16.1.0-3 gcc-16_16.2.0-4 gcc-16-base_16.2.0-4 gcc-16-x86-64-linux-gnu_16.2.0-4 gcc-x86-64-linux-gnu_4:16.1.0-3 gettext_1.0-5 gettext-base_1.0-5 grep_3.12-1 groff-base_1.24.2-2 gzip_1.14-1 hostname_3.25 init-system-helpers_1.69+nmu3 intltool-debian_0.35.0+20060710.6 libacl1_2.4.0-1 libapt-pkg7.0_3.3.4 libarchive-zip-perl_1.68-1 libasan8_16.2.0-4 libatomic1_16.2.0-4 libattr1_1:2.6.0-1 libaudit-common_1:4.2.1-1 libaudit1_1:4.2.1-1 libbinutils_2.47.50.20261021-1 libblake3-0_1.8.2-1 libblkid1_2.42.4-1 libboost-iostreams1.92.0_1.92.0-4+b1 libbz2-1.0_1.0.8-6+b2 libc-bin_2.43-7 libc-dev-bin_2.43-7 libc-gconv-modules-extra_2.43-7 libc6_2.43-7 libc6-dev_2.43-7 libcap-ng0_0.9.6-1+b1 libcc1-0_16.2.0-4 libcrypt1_1:4.5.2+20251210-1 libctf-nobfd0_2.47.50.20261021-1 libctf0_2.47.50.20261021-1 libcwidget4_0.5.18-6+b3 libdb5.3t64_5.3.28+dfsg2-11+b1 libdebconfclient0_0.283 libdebhelper-perl_14.5 libdpkg-perl_1.23.11 libeatmydata1_131-2+b2 libelf1t64_0.196-1 libfile-stripnondeterminism-perl_1.15.1-1 libfmt11_11.1.1+ds1-2 libgcc-16-dev_16.2.0-4 libgcc-s1_16.2.0-4 libgdbm-compat4t64_1.26-1+b2 libgdbm6t64_1.26-1+b2 libgmp10_2:6.3.0+dfsg-5+b2 libgomp1_16.2.0-4 libgprofng0_2.47.50.20261021-1 libhiredis1.1.0_1.2.0-6+b4 libhogweed6t64_3.10.2-1+b1 libhwasan0_16.2.0-4 libisl23_0.28-1 libitm1_16.2.0-4 libjansson4_2.15.1-1 liblsan0_16.2.0-4 liblz4-1_1.10.0-10 liblzma5_5.8.4-1 libmagic-mgc_1:5.47-4 libmagic1t64_1:5.47-4 libmd0_1.3.0-1 libmount1_2.42.4-1 libmpc3_1.3.1-3 libmpfr6_4.2.2-3 libncursesw6_6.6+20260608-2 libnettle8t64_3.10.2-1+b1 libpam-modules_1.7.0-8 libpam-modules-bin_1.7.0-8 libpam-runtime_1.7.0-8 libpam0g_1.7.0-8 libpcre2-8-0_10.48-3.1 libperl5.42_5.42.3-1 libpipeline1_1.5.8-3 libquadmath0_16.2.0-4 libseccomp2_2.6.1-1+b2 libselinux1_3.11-2.1+b1 libsframe3_2.47.50.20261021-1 libsigc++-2.0-0v5_2.12.1-4+b1 libsmartcols1_2.42.4-1 libsqlite3-0_3.53.4-2 libssl3t64_3.6.5-1 libstdc++-16-dev_16.2.0-4 libstdc++6_16.2.0-4 libsystemd0_262.1-1 libtinfo6_6.6+20260608-2 libtool_2.6.2-3 libtsan2_16.2.0-4 libubsan1_16.2.0-4 libuchardet0_0.0.8-2+b2 libudev1_262.1-1 libunistring5_1.4.2-1 libuuid1_2.42.4-1 libxapian30_1.4.32-1 libxml2-16_2.15.4+dfsg-1+b1 libxxhash0_0.8.3-2+b2 libzstd1_1.5.7+dfsg-4 linux-libc-dev_7.2.12-1 m4_1.4.21-1 make_4.4.1-3 man-db_2.13.1-1 mawk_1.3.4.20260302-2 ncurses-base_6.6+20260608-2 ncurses-bin_6.6+20260608-2 openssl_3.6.5-1 openssl-provider-legacy_3.6.5-1 patch_2.8.1-1 perl_5.42.3-1 perl-base_5.42.3-1 perl-modules-5.42_5.42.3-1 po-debconf_1.0.22 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-3 sensible-utils_0.0.26 sqv_1.5.0-1 sysvinit-utils_3.18-1 tar_1.35+dfsg-7 util-linux_2.42.4-1 xz-utils_5.8.4-1 zlib1g_1:1.3.dfsg+really1.3.2-4
+
++------------------------------------------------------------------------------+
+| Build                                        Mon, 26 Oct 2026 19:43:29 +0000 |
++------------------------------------------------------------------------------+
+
+
+Unpack source
+-------------
+
+Format: 3.0 (native)
+Source: server-default
+Binary: casparcg-server
+Architecture: all
+Version: 2.5-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Vcs-Browser: https://github.com/dimitry-ishenko-casparcg/server-default
+Vcs-Git: https://github.com/dimitry-ishenko-casparcg/server-default.git
+Build-Depends: debhelper-compat (= 12)
+Package-List:
+ casparcg-server deb video optional arch=all
+Checksums-Sha1:
+ 9e09c7b0d18072879dd7d6d1f8cc453d7c2b3723 12784 server-default_2.5-2.tar.xz
+Checksums-Sha256:
+ 1a6951300bdf27e2f7b0b0326e91d52513ab0519b7cd083888c1af12bcac3cba 12784 server-default_2.5-2.tar.xz
+Files:
+ eed146f3aae4b6ce7965258db4aa6cd2 12784 server-default_2.5-2.tar.xz
+
+dpkg-source: warning: extracting unsigned source package (server-default_2.5-2.dsc)
+dpkg-source: warning: native package version may not have a revision
+dpkg-source: info: extracting server-default in /build/reproducible-path/server-default-2.5
+dpkg-source: info: unpacking server-default_2.5-2.tar.xz
+
+clean up apt cache
+------------------
+
+
+Check disk space
+----------------
+
+Sufficient free space for build
+
+User Environment
+----------------
+
+APT_CONFIG=/var/lib/sbuild/apt.conf
+CCACHE_DIR=/build/ccache
+HOME=/sbuild-nonexistent
+LANG=en_US.UTF-8
+LC_ALL=C.UTF-8
+LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libeatmydata.so.1
+LOGNAME=sbuild
+PATH=/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+SHELL=/bin/sh
+USER=sbuild
+
+dpkg-buildpackage
+-----------------
+
+Command: dpkg-buildpackage --sanitize-env -us -uc -b
+dpkg-buildpackage: info: source package server-default
+dpkg-buildpackage: info: source version 2.5-2
+dpkg-buildpackage: info: source distribution UNRELEASED
+dpkg-buildpackage: info: source changed by Dimitry Ishenko <dimitry.ishenko@gmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean
+   dh_clean
+ debian/rules binary
+dh binary
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+   dh_prep
+   dh_auto_install --destdir=debian/casparcg-server/
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'casparcg-server' in '../casparcg-server_2.5-2_all.deb'.
+ dpkg-genbuildinfo --build=binary -O../server-default_2.5-2_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../server-default_2.5-2_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary-only upload (no source included)
+--------------------------------------------------------------------------------
+Build finished at 2026-10-26T19:43:32Z
+
+Finished
+--------
+
+I: Built successfully
+
++------------------------------------------------------------------------------+
+| Changes                                      Mon, 26 Oct 2026 19:43:32 +0000 |
++------------------------------------------------------------------------------+
+
+
+server-default_2.5-2_amd64.changes:
+-----------------------------------
+
+Format: 1.8
+Date: Mon, 26 Oct 2026 15:41:57 -0400
+Source: server-default
+Binary: casparcg-server
+Architecture: all
+Version: 2.5-2
+Distribution: sid
+Urgency: medium
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Changed-By: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Description:
+ casparcg-server - CasparCG Server
+Changes:
+ server-default (2.5-2) UNRELEASED; urgency=medium
+ .
+   *
+Checksums-Sha1:
+ 8702a8866199ea3daa27d7b164267058fb63d5c0 2296 casparcg-server_2.5-2_all.deb
+ 411307482ca1c831febf1ff5cdf7267b0a33027f 4531 server-default_2.5-2_amd64.buildinfo
+Checksums-Sha256:
+ 98f398490db1031de243cff11ea91e8b4591b34af168579d88b0ccc8569fa962 2296 casparcg-server_2.5-2_all.deb
+ e8976ca4f0b91d586134e0a3c3f393ad32f89b30a19ff26c7dcd093a2f3bcb0c 4531 server-default_2.5-2_amd64.buildinfo
+Files:
+ 376a440ecaf4c9ca24e185a80ff3550d 2296 video optional casparcg-server_2.5-2_all.deb
+ 5ac987249f4da80580797d09c59f0482 4531 video optional server-default_2.5-2_amd64.buildinfo
+
++------------------------------------------------------------------------------+
+| Buildinfo                                    Mon, 26 Oct 2026 19:43:32 +0000 |
++------------------------------------------------------------------------------+
+
+Format: 1.0
+Source: server-default
+Binary: casparcg-server
+Architecture: all
+Version: 2.5-2
+Checksums-Md5:
+ 376a440ecaf4c9ca24e185a80ff3550d 2296 casparcg-server_2.5-2_all.deb
+Checksums-Sha1:
+ 8702a8866199ea3daa27d7b164267058fb63d5c0 2296 casparcg-server_2.5-2_all.deb
+Checksums-Sha256:
+ 98f398490db1031de243cff11ea91e8b4591b34af168579d88b0ccc8569fa962 2296 casparcg-server_2.5-2_all.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Mon, 26 Oct 2026 19:43:31 +0000
+Build-Path: /build/reproducible-path/server-default-2.5
+Installed-Build-Depends:
+ autoconf (= 2.73-2),
+ automake (= 1:1.19-3),
+ autopoint (= 1.0-5),
+ autotools-dev (= 20240727.1+nmu1),
+ base-files (= 14.2),
+ base-passwd (= 3.6.8),
+ bash (= 5.3-4),
+ binutils (= 2.47.50.20261021-1),
+ binutils-common (= 2.47.50.20261021-1),
+ binutils-x86-64-linux-gnu (= 2.47.50.20261021-1),
+ bsdextrautils (= 2.42.4-1),
+ build-essential (= 12.12),
+ bzip2 (= 1.0.8-6+b2),
+ coreutils (= 9.10-1),
+ cpp (= 4:16.1.0-3),
+ cpp-16 (= 16.2.0-4),
+ cpp-16-x86-64-linux-gnu (= 16.2.0-4),
+ cpp-x86-64-linux-gnu (= 4:16.1.0-3),
+ dash (= 0.5.12-12),
+ debconf (= 1.5.92),
+ debhelper (= 14.5),
+ debianutils (= 5.24),
+ dh-autoreconf (= 23),
+ dh-strip-nondeterminism (= 1.15.1-1),
+ diffutils (= 1:3.12-1),
+ dpkg (= 1.23.11),
+ dpkg-dev (= 1.23.11),
+ dwz (= 0.17-1),
+ file (= 1:5.47-4),
+ findutils (= 4.11.0-3),
+ g++ (= 4:16.1.0-3),
+ g++-16 (= 16.2.0-4),
+ g++-16-x86-64-linux-gnu (= 16.2.0-4),
+ g++-x86-64-linux-gnu (= 4:16.1.0-3),
+ gcc (= 4:16.1.0-3),
+ gcc-16 (= 16.2.0-4),
+ gcc-16-base (= 16.2.0-4),
+ gcc-16-x86-64-linux-gnu (= 16.2.0-4),
+ gcc-x86-64-linux-gnu (= 4:16.1.0-3),
+ gettext (= 1.0-5),
+ gettext-base (= 1.0-5),
+ grep (= 3.12-1),
+ groff-base (= 1.24.2-2),
+ gzip (= 1.14-1),
+ hostname (= 3.25),
+ init-system-helpers (= 1.69+nmu3),
+ intltool-debian (= 0.35.0+20060710.6),
+ libacl1 (= 2.4.0-1),
+ libarchive-zip-perl (= 1.68-1),
+ libasan8 (= 16.2.0-4),
+ libatomic1 (= 16.2.0-4),
+ libattr1 (= 1:2.6.0-1),
+ libaudit-common (= 1:4.2.1-1),
+ libaudit1 (= 1:4.2.1-1),
+ libbinutils (= 2.47.50.20261021-1),
+ libblkid1 (= 2.42.4-1),
+ libbz2-1.0 (= 1.0.8-6+b2),
+ libc-bin (= 2.43-7),
+ libc-dev-bin (= 2.43-7),
+ libc-gconv-modules-extra (= 2.43-7),
+ libc6 (= 2.43-7),
+ libc6-dev (= 2.43-7),
+ libcap-ng0 (= 0.9.6-1+b1),
+ libcc1-0 (= 16.2.0-4),
+ libcrypt1 (= 1:4.5.2+20251210-1),
+ libctf-nobfd0 (= 2.47.50.20261021-1),
+ libctf0 (= 2.47.50.20261021-1),
+ libdb5.3t64 (= 5.3.28+dfsg2-11+b1),
+ libdebconfclient0 (= 0.283),
+ libdebhelper-perl (= 14.5),
+ libdpkg-perl (= 1.23.11),
+ libelf1t64 (= 0.196-1),
+ libfile-stripnondeterminism-perl (= 1.15.1-1),
+ libgcc-16-dev (= 16.2.0-4),
+ libgcc-s1 (= 16.2.0-4),
+ libgdbm-compat4t64 (= 1.26-1+b2),
+ libgdbm6t64 (= 1.26-1+b2),
+ libgmp10 (= 2:6.3.0+dfsg-5+b2),
+ libgomp1 (= 16.2.0-4),
+ libgprofng0 (= 2.47.50.20261021-1),
+ libhwasan0 (= 16.2.0-4),
+ libisl23 (= 0.28-1),
+ libitm1 (= 16.2.0-4),
+ libjansson4 (= 2.15.1-1),
+ liblsan0 (= 16.2.0-4),
+ liblzma5 (= 5.8.4-1),
+ libmagic-mgc (= 1:5.47-4),
+ libmagic1t64 (= 1:5.47-4),
+ libmd0 (= 1.3.0-1),
+ libmount1 (= 2.42.4-1),
+ libmpc3 (= 1.3.1-3),
+ libmpfr6 (= 4.2.2-3),
+ libpam-modules (= 1.7.0-8),
+ libpam-modules-bin (= 1.7.0-8),
+ libpam-runtime (= 1.7.0-8),
+ libpam0g (= 1.7.0-8),
+ libpcre2-8-0 (= 10.48-3.1),
+ libperl5.42 (= 5.42.3-1),
+ libpipeline1 (= 1.5.8-3),
+ libquadmath0 (= 16.2.0-4),
+ libseccomp2 (= 2.6.1-1+b2),
+ libselinux1 (= 3.11-2.1+b1),
+ libsframe3 (= 2.47.50.20261021-1),
+ libsmartcols1 (= 2.42.4-1),
+ libssl3t64 (= 3.6.5-1),
+ libstdc++-16-dev (= 16.2.0-4),
+ libstdc++6 (= 16.2.0-4),
+ libsystemd0 (= 262.1-1),
+ libtinfo6 (= 6.6+20260608-2),
+ libtool (= 2.6.2-3),
+ libtsan2 (= 16.2.0-4),
+ libubsan1 (= 16.2.0-4),
+ libuchardet0 (= 0.0.8-2+b2),
+ libudev1 (= 262.1-1),
+ libunistring5 (= 1.4.2-1),
+ libuuid1 (= 2.42.4-1),
+ libxml2-16 (= 2.15.4+dfsg-1+b1),
+ libzstd1 (= 1.5.7+dfsg-4),
+ linux-libc-dev (= 7.2.12-1),
+ m4 (= 1.4.21-1),
+ make (= 4.4.1-3),
+ man-db (= 2.13.1-1),
+ mawk (= 1.3.4.20260302-2),
+ ncurses-base (= 6.6+20260608-2),
+ ncurses-bin (= 6.6+20260608-2),
+ openssl-provider-legacy (= 3.6.5-1),
+ patch (= 2.8.1-1),
+ perl (= 5.42.3-1),
+ perl-base (= 5.42.3-1),
+ perl-modules-5.42 (= 5.42.3-1),
+ po-debconf (= 1.0.22),
+ sed (= 4.9-3),
+ sensible-utils (= 0.0.26),
+ sysvinit-utils (= 3.18-1),
+ tar (= 1.35+dfsg-7),
+ util-linux (= 2.42.4-1),
+ xz-utils (= 5.8.4-1),
+ zlib1g (= 1:1.3.dfsg+really1.3.2-4)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=8"
+ LANG="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ LC_CTYPE="C.UTF-8"
+ LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libeatmydata.so.1"
+ SOURCE_DATE_EPOCH="1793043717"
+
+
++------------------------------------------------------------------------------+
+| Package contents                             Mon, 26 Oct 2026 19:43:33 +0000 |
++------------------------------------------------------------------------------+
+
+
+casparcg-server_2.5-2_all.deb
+-----------------------------
+
+ new Debian package, version 2.0.
+ size 2296 bytes: control archive=688 bytes.
+     513 bytes,    16 lines      control
+     216 bytes,     3 lines      md5sums
+ Package: casparcg-server
+ Source: server-default
+ Version: 2.5-2
+ Architecture: all
+ Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+ Installed-Size: 11
+ Depends: casparcg-server-2.5
+ Section: video
+ Priority: optional
+ Multi-Arch: foreign
+ Description: CasparCG Server
+  CasparCG Server is a Windows and Linux software used to play out professional
+  graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+  production since 2006.
+  .
+  This is a dependency package providing the default version.
+
+drwxr-xr-x root/root         0 2026-10-26 19:41 ./
+drwxr-xr-x root/root         0 2026-10-26 19:41 ./usr/
+drwxr-xr-x root/root         0 2026-10-26 19:41 ./usr/bin/
+-rwxr-xr-x root/root       378 2026-10-26 19:39 ./usr/bin/casparcg-server
+drwxr-xr-x root/root         0 2026-10-26 19:41 ./usr/share/
+drwxr-xr-x root/root         0 2026-10-26 19:41 ./usr/share/doc/
+drwxr-xr-x root/root         0 2026-10-26 19:41 ./usr/share/doc/casparcg-server/
+-rw-r--r-- root/root       337 2026-10-26 19:41 ./usr/share/doc/casparcg-server/changelog.Debian.gz
+-rw-r--r-- root/root      1113 2026-02-28 21:57 ./usr/share/doc/casparcg-server/copyright
+
+
++------------------------------------------------------------------------------+
+| Post Build                                   Mon, 26 Oct 2026 19:43:33 +0000 |
++------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------+
+| Cleanup                                      Mon, 26 Oct 2026 19:43:33 +0000 |
++------------------------------------------------------------------------------+
+
+Purging /build/reproducible-path
+Not cleaning session: cloned chroot in use
+
++------------------------------------------------------------------------------+
+| Summary                                      Mon, 26 Oct 2026 19:43:34 +0000 |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: 120
+Build-Time: 2
+Distribution: sid
+Host Architecture: amd64
+Install-Time: 5
+Job: /home/dimitry/arch/casparcg/server-default_2.5-2.dsc
+Machine Architecture: amd64
+Package: server-default
+Package-Time: 23
+Source-Version: 2.5-2
+Space: 120
+Status: successful
+Version: 2.5-2
+--------------------------------------------------------------------------------
+Finished at 2026-10-26T19:43:32Z
+Build needed 00:00:23, 120k disk space
