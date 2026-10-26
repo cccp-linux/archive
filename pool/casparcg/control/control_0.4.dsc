@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: control
 Binary: casparcg-control
 Architecture: all
-Version: 0.3
+Version: 0.4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Vcs-Browser: https://github.com/dimitry-ishenko-casparcg/control
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pypr
 Package-List:
  casparcg-control deb python optional arch=all
 Checksums-Sha1:
- 6b7731496dca03edd26065c0d8ad7ce19973ade8 173392 control_0.3.tar.xz
+ c190610cad0a2ae5320847e75f430c52db910469 175564 control_0.4.tar.xz
 Checksums-Sha256:
- f71f1a82cc1160e99cab8182eaeadc942dcac74706ed36a58706b1f0dcaaf080 173392 control_0.3.tar.xz
+ 0766cdf114d622a93f095740965a86a4f6a7c055963291a5b2da04e9af3b7a6a 175564 control_0.4.tar.xz
 Files:
- d1cc337f99f004849b71e009144a9f18 173392 control_0.3.tar.xz
+ db7788eff4734ede54dff77a34c159ab 175564 control_0.4.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCat7N0gAKCRA6Vr9YT1rr
-J641AP0RuTZVF4DEAR1tzAx9/pTW/jIb+H9keJZPEr5k1NY4zgD+IK6YIedJQ5Lr
-ElaK6omKXfePAh2HOmwZKKv0tDceZAo=
-=Jg4x
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCat+JJgAKCRA6Vr9YT1rr
+JzHKAP9jzGKrFHmPluTc8WrLq/IGnsKk7uWIxZvjQUiFa6OUcwEA5Cye5jK+RADm
+FUa53QfE1FfByMVkBGbHSf1xKOWOQAE=
+=PsfI
 -----END PGP SIGNATURE-----
