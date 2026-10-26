@@ -99,19 +99,19 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-control
 Architecture: all
-Version: 0.1
+Version: 0.2
 Priority: optional
 Section: python
 Source: control
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 160
-Depends: python3:any
-Filename: pool/casparcg/control/sid/casparcg-control_0.1_all.deb
-Size: 99316
-MD5sum: 90d039827d4c9eda9f431273ebda06a5
-SHA1: 068e2fe985ab186907d27f9702d01abce4e340a4
-SHA256: 384158a88099e45bb541d46b7b32acb8e513f4a99f6e7f03244086fd4ec9e70f
-SHA512: 7e3735f7da9b294958eae4962c118d48d792ff8daa231fd5557d04422f54948ac0ba64e11e76a58c1f50247f60eaa46d3838a95c3c86b825b059a1a9a0aebc27
+Depends: python3-dbus, python3-gi, python3:any
+Filename: pool/casparcg/control/sid/casparcg-control_0.2_all.deb
+Size: 99384
+MD5sum: 91aa0e25fa753200655f96da4b7e33d4
+SHA1: 8fff44675782ca0989e0a22667bae2240c2f256a
+SHA256: cd6002454f6e042803aae1781d8960914db5a97a19c97548a2dd1597d099808a
+SHA512: 2aea18c56dcb249e70ed4c839a5a9e8a7c4fa3a33b5ae99542a23abe19e12566217419830663b4221732c46066a441ad27a19b69b8f4d6e1053aba01ac9e281a
 Description: CasparCG Control
 
 Package: casparcg-scanner
