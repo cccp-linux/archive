@@ -97,6 +97,22 @@ Description: The Chromium Embedded Framework
  .
  This package contains the CEF library.
 
+Package: casparcg-control
+Architecture: all
+Version: 0.5
+Section: python
+Source: control
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 174
+Depends: python3-dbus, python3-gi, python3:any, casparcg-server (>= 2.5)
+Filename: pool/casparcg/control/noble/casparcg-control_0.5_all.deb
+Size: 110956
+MD5sum: 3dd2d0054a8a18cfd2e0d8e534aa5674
+SHA1: c26f13fe4f72c8bc8d52ef2d09a8fecc012b14c2
+SHA256: 01d197f2e6f9561d89574626ee4c8573d1eeba03c1f723db9eab10dc2bb27e96
+SHA512: d21fdd28bcf4f4dece2467d5af4039e308ab5b917dcc69116858a8cbe67370beb3ec6a4c737c823cdff6febd37dd0b8fca6532ec2f12ceb58837263038ebbf2f
+Description: CasparCG Control
+
 Package: casparcg-scanner
 Architecture: all
 Version: 0.5.1
