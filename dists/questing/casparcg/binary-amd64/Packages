@@ -97,23 +97,6 @@ Description: The Chromium Embedded Framework
  .
  This package contains the CEF library.
 
-Package: casparcg-control
-Architecture: all
-Version: 0.4
-Priority: optional
-Section: python
-Source: control
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 174
-Depends: python3-dbus, python3-gi, python3:any
-Filename: pool/casparcg/control/questing/casparcg-control_0.4_all.deb
-Size: 110940
-MD5sum: 058988c6bea619afca7e5a86e19350a0
-SHA1: 25da80049ce58d6efaae0bad90901bd365a7726e
-SHA256: e32734b282871d2ec2ec3f9be8a4888b1670a6616c77ac39071aaf031c926cca
-SHA512: d77890ae1f22ed34308a0f452ddbbbc4a42d175cda40d4e0d1fec7df50c23bcf5623ef3214f34f1fbca529429fe2c35b4005ec56835dc53812158b15d97a2aaa
-Description: CasparCG Control
-
 Package: casparcg-scanner
 Architecture: all
 Version: 0.5.1
@@ -158,7 +141,7 @@ Description: CasparCG Server
 
 Package: casparcg-server
 Architecture: all
-Version: 2.5-1
+Version: 2.5-2
 Multi-Arch: foreign
 Priority: optional
 Section: video
@@ -166,12 +149,12 @@ Source: server-default
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 11
 Depends: casparcg-server-2.5
-Filename: pool/casparcg/server-default/questing/casparcg-server_2.5-1_all.deb
-Size: 1984
-MD5sum: cfb620daf900e8843d8bfbbf9c1006df
-SHA1: b18ee3147d446d0dcab0fc741842e4b9010b1ff3
-SHA256: ab07b886499a951dfa32f39d9e373d410318037679e1e802a48194120562e0f6
-SHA512: 264a044825ee54f97f43bc64534c53d127735d10b72b5b45c17450bdc2451e23657dac8669edaddda40760d65c1f71cb8cb7bb7f6e830f46adc5a251aecfeb19
+Filename: pool/casparcg/server-default/questing/casparcg-server_2.5-2_all.deb
+Size: 2174
+MD5sum: 859954fc224445878774dfb75240b86b
+SHA1: 2a26e35e86ba27f6be6243a28ff1aabdef926ab6
+SHA256: 7576d49a7347ca858b7afb94e97ffc541fa28e1340e84b728c21779d2a6cda3d
+SHA512: a705420b75acdc28de5fec05749586e110d933ff15724e9b2ac63c4fc26b2469b0dc8cea21559f93dc746ec0c1fb918da9c14392baff409d50846af87af5fe8c
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
  graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
