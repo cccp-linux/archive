@@ -2,7 +2,7 @@ Package: control
 Format: 3.0 (native)
 Binary: casparcg-control
 Architecture: all
-Version: 0.2
+Version: 0.3
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools
@@ -12,17 +12,17 @@ Directory: pool/casparcg/control
 Package-List:
  casparcg-control deb python optional arch=all
 Files:
- 7705739a2d8e6858e82a4e5c79077d0b 1023 control_0.2.dsc
- a67145f99e2f93dd13b9a01e7069fee0 153384 control_0.2.tar.xz
+ 4eac7f99e58b05d8f22c6f79fbe34b49 1023 control_0.3.dsc
+ d1cc337f99f004849b71e009144a9f18 173392 control_0.3.tar.xz
 Checksums-Sha1:
- a74cce585a7f00756b79ff0c25758e3bf3ba28ed 1023 control_0.2.dsc
- 47b2e67ff1f727676824f3ef88b5196c7f99efcd 153384 control_0.2.tar.xz
+ 08035a0e4cbd7c1b82295f32db692296610cfdce 1023 control_0.3.dsc
+ 6b7731496dca03edd26065c0d8ad7ce19973ade8 173392 control_0.3.tar.xz
 Checksums-Sha256:
- 6971e5b3c355af100f2b38f6f95825b41985396077369b052a1905dd24043513 1023 control_0.2.dsc
- 13ab6259a26d1f9c0c8e3434cbe2e58a4aee628f5e9c1f634aa6b17f4de4685c 153384 control_0.2.tar.xz
+ d856c37f4c35b73144d0bd73e194bb479ce34b4783d0649f628b7bf83aff16b1 1023 control_0.3.dsc
+ f71f1a82cc1160e99cab8182eaeadc942dcac74706ed36a58706b1f0dcaaf080 173392 control_0.3.tar.xz
 Checksums-Sha512:
- 6a646aec43da99642bdde85024ffabfd1b5c147804924e22bb879edea7c75a7c03c4744e6817c5fd1ea562f3548373fd57abc6422bec77834b5e28f6ddf0b714 1023 control_0.2.dsc
- fe8ea771281a6962a3db2194013f845aa2f5cefc1fa18b77ad37987b23dca97f48b795541f08e056da66da99aa50695507cb3914229716893b9c939864c58c7f 153384 control_0.2.tar.xz
+ 0bcec443970a3b17164e4fcabf13ecafd505c9aa856eea381e07b83f320583b3831005e70bcaa6ca0a6aa55fb7ce86e86ffeeeb4436a39623f8d463726b5cb0e 1023 control_0.3.dsc
+ 9b0f219fd6dd9c5edfab923f7dee725ed8b931bd2756aa02ceec9bbe14122006a6fbd056419efb728834ec90dd21d6a614d700a6e843e6f8d03b3aeb77c0ed9b 173392 control_0.3.tar.xz
 
 Package: scanner
 Format: 3.0 (native)
