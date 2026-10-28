@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: pgm-args
 Binary: libpgm-args-dev
 Architecture: all
-Version: 2.0.2
+Version: 3.0
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://github.com/dimitry-ishenko-cpp/pgm-args
 Standards-Version: 4.6.2
@@ -15,16 +15,16 @@ Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
 Package-List:
  libpgm-args-dev deb libdevel optional arch=all
 Checksums-Sha1:
- 8047fd1692328a9a7777fa3d9b6281ef6305102d 27384 pgm-args_2.0.2.tar.xz
+ da0d14cf9f074c2cdf957f7adf8b7745b8fba22b 2094028 pgm-args_3.0.tar.xz
 Checksums-Sha256:
- 18f813d8c063d7d9c63aa550a63db187c57a41d4b86400624a9134ab5468ccdc 27384 pgm-args_2.0.2.tar.xz
+ 99dcc96505c55477fb926daff140e14a47c0b4aa51ae7dd92b2537e5c95622a8 2094028 pgm-args_3.0.tar.xz
 Files:
- c973574d5d716201eb0047d0dd546064 27384 pgm-args_2.0.2.tar.xz
+ d512cde75bf08613ab848bd6952000c1 2094028 pgm-args_3.0.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCatkYSQAKCRA6Vr9YT1rr
-J7jOAP46A9c2XE0NeXuq1S3N56aQ9kpqDAVpWJRCSLB6c4r5YgEA/jWAMQ866LiS
-rbVgwBPO7Lw6ZZZiYR2iCWIZQGElVQA=
-=tFxn
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCauGEIQAKCRA6Vr9YT1rr
+J9sAAQDsxsUBTR9PrBqUBXYPjA+NCYWrpeIeOKbnVDmWrIRcgAD+J6pHMLIYSJQl
+1PNulcZpR9fBPYHvBP3/9h/0rpfsPwA=
+=Bemk
 -----END PGP SIGNATURE-----
