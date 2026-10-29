@@ -54,7 +54,7 @@ Package: server-2.5
 Format: 3.0 (quilt)
 Binary: casparcg-server-2.5
 Architecture: any
-Version: 2.5.1-3
+Version: 2.5.1-4
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), cmake, fontconfig, fonts-liberation, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libboost-coroutine-dev (>= 1.74.0), libboost-date-time-dev (>= 1.74.0), libboost-filesystem-dev (>= 1.74.0), libboost-locale-dev (>= 1.74.0), libboost-log-dev (>= 1.74.0), libboost-regex-dev (>= 1.74.0), libboost-thread-dev (>= 1.74.0), libcef142-dev, libegl-dev, libglew-dev, libicu-dev, libopenal-dev, libopengl-dev, libsfml-dev, libsimde-dev, libswresample-dev, libswscale-dev, libtbb-dev, pkgconf, zlib1g-dev
@@ -65,21 +65,21 @@ Directory: pool/casparcg/server-2.5
 Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Files:
- ae65f6be58c0bfa83f9dbb1af1acfb77 1776 server-2.5_2.5.1-3.dsc
+ b459417786fec7a2c24703ca2d4d0da2 1776 server-2.5_2.5.1-4.dsc
  94c4f3ddb0ce35dce2a173434e5200d1 1026395 server-2.5_2.5.1.orig.tar.gz
- bea8f3114b3743e4444aaab92e7d0ea9 90420 server-2.5_2.5.1-3.debian.tar.xz
+ ddc3ef3c1ed805aa8e952f8525cde02a 90608 server-2.5_2.5.1-4.debian.tar.xz
 Checksums-Sha1:
- 93239c27e591b91ec26c3ae5881be5d21bd5e1e7 1776 server-2.5_2.5.1-3.dsc
+ a57625446078700a8e0b44afda0c85921e74e9d7 1776 server-2.5_2.5.1-4.dsc
  abb6878831d880c8d22d87bd3fb213012c268567 1026395 server-2.5_2.5.1.orig.tar.gz
- 94a52730b9cc33e2918565e683674347cd08c9c7 90420 server-2.5_2.5.1-3.debian.tar.xz
+ d242b8529b9a6be1db6a16333090c491395d56d6 90608 server-2.5_2.5.1-4.debian.tar.xz
 Checksums-Sha256:
- 2e93bc2abbc1f55b3716c458365f4150f6ad6b6c2abe92655aa9047d3008c6fb 1776 server-2.5_2.5.1-3.dsc
+ 249dfbc22a87bfcaebe4d1ddb9bc7669eaaf17c47edfac72bfdff7a389430ac8 1776 server-2.5_2.5.1-4.dsc
  543098e109e1f8f06f88c8d464e390e2c8bd5b3413b5775f3933d34faf0faeb6 1026395 server-2.5_2.5.1.orig.tar.gz
- 0b139c2a18be234e2ed41f0d17ddf861bd0ff806aa51de7d3e7940dc70dea1b0 90420 server-2.5_2.5.1-3.debian.tar.xz
+ 8f113dc5861471e50f2db8521e0af5265a119625abc9f1fbc2d5d37ccba73806 90608 server-2.5_2.5.1-4.debian.tar.xz
 Checksums-Sha512:
- 5367997e9ff79ca41eb383558e9434fb3aafc7d2a73c5521b06a69921b2d876bf1c9edfaf5b9cb2475f2a614215cdbaaa1482ecbeec481d929aa56821d11369f 1776 server-2.5_2.5.1-3.dsc
+ 8ab60bf5c25e15a1430ab1b271cb2908a43686835d1b5ae5657052669c8ebd7656a19487ab51a918bb0bf60baf6d0669532e8bca89acd2b77ce19b3203f83a76 1776 server-2.5_2.5.1-4.dsc
  145e3b4544a980befbee9cbfba4142971ef25a33b3a7f1d256176fafd19409e44c288e85620f6f7e87bff2b47c3c163c48fe331a6237afb8d212a468fb5e40f0 1026395 server-2.5_2.5.1.orig.tar.gz
- 57878a3c6fe16ffac6d8b67a47548c82af26700012de7d2443ac97e5d3d84c5498500478c1c471ca4f21590fa97b3c78726624684ccac7feaa5ea5b1e1d33f81 90420 server-2.5_2.5.1-3.debian.tar.xz
+ 3bdb815484a0d5307bb66482684c11d1c82332d8336aa2a136b7f33ab2218890103afbb21f97bb32d4248ca76f79dfb41e154e94b1e46b91b0720fd832a26cfa 90608 server-2.5_2.5.1-4.debian.tar.xz
 
 Package: server-default
 Format: 3.0 (native)
