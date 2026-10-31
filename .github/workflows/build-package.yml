@@ -73,7 +73,7 @@ jobs:
           esac
 
           fetch=${path%.dsc}.fetch
-          [ -x $fetch ] && $fetch || true
+          if [ -x $fetch ]; then $fetch; fi
 
           mkdir /tmp/build
           sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dep-resolver=aptitude \
