@@ -22,9 +22,11 @@ jobs:
           ref: master
 
       - name: Install tools
+        env:
+          KEY: ${{ secrets.PGP_PRIVATE_KEY }}
         run: |
           sudo apt-get -y install --no-install-recommends apt-utils gpg
-          echo "${{ secrets.PGP_PRIVATE_KEY }}" | gpg --batch --import
+          echo "$KEY" | gpg --batch --import
 
       - name: Update source indices
         id: update
