@@ -64,11 +64,21 @@ jobs:
           arch=${{ matrix.arch }}
           path=${{ inputs.path }}
 
+          case $suite in
+            trixie)   suffix="~deb13" ;;
+            noble)    suffix="~ubu24.04" ;;
+            questing) suffix="~ubu25.10" ;;
+            resolute) suffix="~ubu26.04" ;;
+            *)        suffix="" ;;
+          esac
+
           fetch=${path%.dsc}.fetch
           [ -x $fetch ] && $fetch || true
 
           mkdir /tmp/build
-          sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dep-resolver=aptitude --build-dir=/tmp/build $path
+          sbuild -v --chroot-mode=unshare --arch=$arch -d $suite --build-dep-resolver=aptitude \
+            --maintainer="CCCP Linux <cccp-linux@users.noreply.github.com>" ${suffix:+--append-to-version="$suffix"} \
+            --build-dir=/tmp/build $path
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v6

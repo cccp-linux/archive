@@ -30,6 +30,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git rm -rf $pool/*/*_${vers}_*
+          git rm -rf --ignore-unmatch -- $pool/*/*_${vers}{,~deb*,~ubu*}_*
           git commit -m "Remove $name build artifacts"
           git push origin master
