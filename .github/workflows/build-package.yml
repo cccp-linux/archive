@@ -72,12 +72,13 @@ jobs:
             *)        append="" ;;
           esac
           [ -z "$append" ] || append=--append-to-version="$append" 
+          [ "$arch" = "amd64" ] && arch_all=--arch-all || arch_all=--no-arch-all
 
           fetch=${path%.dsc}.fetch
           if [ -x $fetch ]; then $fetch; fi
 
           mkdir /tmp/build
-          sbuild -v --chroot-mode=unshare --arch=$arch -d $suite $append --build-dep-resolver=aptitude \
+          sbuild -v --chroot-mode=unshare --arch=$arch -d $suite $arch_all $append --build-dep-resolver=aptitude \
             --maintainer="CCCP Linux <cccp-linux@users.noreply.github.com>" \
             --build-dir=/tmp/build $path
 
