@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        suite: ["sid", "trixie", "questing", "resolute", "noble"]
+        suite: ["sid", "trixie", "stonking", "resolute", "noble"]
         arch: ["amd64", "arm64", "armhf"]
     continue-on-error: true
     runs-on: ${{ startsWith(matrix.arch, 'arm') && 'ubuntu-24.04-arm' || 'ubuntu-24.04' }}
@@ -67,8 +67,8 @@ jobs:
           case $suite in
             trixie)   append="~deb13" ;;
             noble)    append="~ubu24.04" ;;
-            questing) append="~ubu25.10" ;;
             resolute) append="~ubu26.04" ;;
+            stonking) append="~ubu26.10" ;;
             *)        append="" ;;
           esac
           [ -z "$append" ] || append=--append-to-version="$append" 

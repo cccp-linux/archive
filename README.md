@@ -8,7 +8,7 @@
 
 2. Select your distro and component(s):
    ```shell
-   suite="sid" # or one of "trixie" "questing" "resolute" "noble"
+   suite="sid" # or one of "trixie" "stonking" "resolute" "noble"
    comps="main" # add any of "casparcg" "dev" "embedded"
    ```
 
