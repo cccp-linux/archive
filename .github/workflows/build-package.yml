@@ -66,9 +66,9 @@ jobs:
 
           case $suite in
             trixie)   append="~deb13" ;;
-            noble)    append="~ubu24.04" ;;
-            resolute) append="~ubu26.04" ;;
-            stonking) append="~ubu26.10" ;;
+            noble)    append="~ubuntu24.04" ;;
+            resolute) append="~ubuntu26.04" ;;
+            stonking) append="~ubuntu26.10" ;;
             *)        append="" ;;
           esac
           [ -z "$append" ] || append=--append-to-version="$append" 
