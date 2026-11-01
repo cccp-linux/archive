@@ -1,0 +1,39 @@
+name: Rebuild all binary packages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  find:
+    runs-on: ubuntu-24.04
+    outputs:
+      paths: ${{ steps.find.outputs.paths }}
+
+    steps:
+      - name: Check out master
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          ref: master
+
+      - name: Find source packages
+        id: find
+        run: |
+          paths=$(git ls-files 'pool/*.dsc')
+          echo "paths=$(echo "$paths" | jq -R | jq -sc)" >> $GITHUB_OUTPUT
+
+  build:
+    needs: find
+    strategy:
+      fail-fast: false
+      matrix:
+        path: ${{ fromJson(needs.find.outputs.paths) }}
+      max-parallel: 1
+    uses: ./.github/workflows/build-package.yml
+    with:
+      path: ${{ matrix.path }}
+
+  publish:
+    needs: build
+    uses: ./.github/workflows/publish.yml
+    secrets: inherit
