@@ -1,0 +1,159 @@
+Package: libcef142-data
+Architecture: amd64
+Version: 142.0.17+g60aac24-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: chromium-embedded-142
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 61785
+Filename: pool/casparcg/chromium-embedded-142/sid/libcef142-data_142.0.17+g60aac24-2_amd64.deb
+Size: 19792488
+MD5sum: f5b8161f5fb4d714fed47d7a8f1c1b53
+SHA1: 63898e6721f52f8cde69bc054020aa3d493647bb
+SHA256: abc01a8b1e796da20424928237e0e1a5f61786485708993e178b3fa5d9e256e7
+SHA512: b4fcf16f9018e80424fbb0b44cb3b1373deda8996133633f9ec735bbd46c49f4950a7fcae7c6ab772a6e1add9b61564d4dba5376cd2caa1604b9213f67c12cd8
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: The Chromium Embedded Framework
+ The Chromium Embedded Framework (CEF) is a simple framework for embedding
+ Chromium-based browsers in other applications.
+ .
+ CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
+ 2008 and based on the Google Chromium project. Unlike the Chromium project
+ itself, which focuses mainly on Google Chrome application development, CEF
+ focuses on facilitating embedded browser use cases in third-party
+ applications. CEF insulates the user from the underlying Chromium and Blink
+ code complexity by offering production-quality stable APIs, release branches
+ tracking specific Chromium releases, and binary distributions. Most features
+ in CEF have default implementations that provide rich functionality while
+ requiring little or no integration work from the user.
+ .
+ This package contains resources required by the library.
+
+Package: libcef142-dev
+Architecture: amd64
+Version: 142.0.17+g60aac24-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: chromium-embedded-142
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 10151
+Depends: libc6 (>= 2.14), libcef142 (= 142.0.17+g60aac24-2)
+Filename: pool/casparcg/chromium-embedded-142/sid/libcef142-dev_142.0.17+g60aac24-2_amd64.deb
+Size: 840336
+MD5sum: 74d8e2fa180a4076ab390bba79343584
+SHA1: 7ae0f7d48fac01f665f641c606947ad20559e614
+SHA256: 1591a9602759c28334f9ec5526b75db60aa025aa208040ba5736e3e59ab9cb7a
+SHA512: f9c38afd6d2c237395e790830b1b8bfcc3bd8feedadf6fac9f572a2dc70d36022b664f112634ba5548c924b2b840f07a2aed761770d23635693a01c956aed94d
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: The Chromium Embedded Framework
+ The Chromium Embedded Framework (CEF) is a simple framework for embedding
+ Chromium-based browsers in other applications.
+ .
+ CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
+ 2008 and based on the Google Chromium project. Unlike the Chromium project
+ itself, which focuses mainly on Google Chrome application development, CEF
+ focuses on facilitating embedded browser use cases in third-party
+ applications. CEF insulates the user from the underlying Chromium and Blink
+ code complexity by offering production-quality stable APIs, release branches
+ tracking specific Chromium releases, and binary distributions. Most features
+ in CEF have default implementations that provide rich functionality while
+ requiring little or no integration work from the user.
+ .
+ This package contains development files.
+
+Package: libcef142
+Architecture: amd64
+Version: 142.0.17+g60aac24-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: chromium-embedded-142
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 257372
+Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdbus-1-3 (>= 1.10), libexpat1 (>= 2.1~beta3), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.40.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2
+Recommends: libcef142-data (= 142.0.17+g60aac24-2)
+Filename: pool/casparcg/chromium-embedded-142/sid/libcef142_142.0.17+g60aac24-2_amd64.deb
+Size: 77254980
+MD5sum: 17e341213a1e7a1ebfba6f2335548b08
+SHA1: 4218a60eb339c29177cb6c7092f326a0c88378fb
+SHA256: 895c25c7060a2c6d846f301fd0d6598c1c76b3ee9eb935e81a4a960448316002
+SHA512: 7784a8c8b359aac39ea784ea396978d6c21c9bbd0d3d18cf373d7757cc7d90992e41c31846c1956b72be9ff2239725ffaf44248c846d9bec37f38442141276ac
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: The Chromium Embedded Framework
+ The Chromium Embedded Framework (CEF) is a simple framework for embedding
+ Chromium-based browsers in other applications.
+ .
+ CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
+ 2008 and based on the Google Chromium project. Unlike the Chromium project
+ itself, which focuses mainly on Google Chrome application development, CEF
+ focuses on facilitating embedded browser use cases in third-party
+ applications. CEF insulates the user from the underlying Chromium and Blink
+ code complexity by offering production-quality stable APIs, release branches
+ tracking specific Chromium releases, and binary distributions. Most features
+ in CEF have default implementations that provide rich functionality while
+ requiring little or no integration work from the user.
+ .
+ This package contains the CEF library.
+
+Package: casparcg-control
+Architecture: all
+Version: 0.5
+Priority: optional
+Section: python
+Source: control
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 173
+Depends: python3-dbus, python3-gi, python3:any, casparcg-server (>= 2.5)
+Filename: pool/casparcg/control/sid/casparcg-control_0.5_all.deb
+Size: 111228
+MD5sum: 324b504a18368a718ca98e0bd4d6c59b
+SHA1: aad53f548a9e9c8826deb35be03ad87bce116a9b
+SHA256: 83aee39967750e36fd01b4120fe5cdf8fbb2dbb57017324ff53043d7dbef48e0
+SHA512: ffa9edbe18f2ea1ec031d7f1bc4d2ab27781008d982bf8be8266f7911c8a8bd56e6c6dae13b106e13218ca4699ddfe2fbceee63b6ca5f9615a7ddf0bcbb8a4aa
+Description: CasparCG Control
+
+Package: casparcg-scanner
+Architecture: all
+Version: 0.5.1
+Priority: optional
+Section: python
+Source: scanner
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 56
+Depends: python3-flask, python3-lxml, python3-waitress, python3-watchdog, python3:any, ffmpeg
+Filename: pool/casparcg/scanner/sid/casparcg-scanner_0.5.1_all.deb
+Size: 12720
+MD5sum: fd6ede9d789978878a13951c1a3a6ed1
+SHA1: 3c4bcac9433c8adc73357c905537d2ee81698c4a
+SHA256: 73abfafc72b2928bb9a583306379899b2201f5b664a5dca1cbe48269c7b92465
+SHA512: 86e5da6cd2669e62d7282f85d3ca4ec8f4a5c6b589d79c75c32c81cd3e41d6978ab2e738c53f44564d58215d4432899722e945eb27f43ff164dc46f5d3882aca
+Description: CasparCG Media Scanner
+ This is an alternate implementation of the CasparCG Media Scanner written in
+ Python. It can be used as a drop-in replacement for the original, or as a
+ standalone background service on both Linux and Windows.
+
+Package: casparcg-server
+Architecture: all
+Version: 2.5-2
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Source: server-default
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 11
+Depends: casparcg-server-2.5
+Filename: pool/casparcg/server-default/sid/casparcg-server_2.5-2_all.deb
+Size: 2304
+MD5sum: 54e47fd8f55d3235de5cc24fbf11bc78
+SHA1: 2baa12dc5050142413baec1896786dc108638e6b
+SHA256: 39fef54427a314a4828f9b2c4ae162a55cb7c6d031b178692192545d5a61e5bd
+SHA512: 23a26fe61726261cba6e449ff1383c58be8cfb3e9c95ae0856a029fd33ac746580ad6a4aa2d9af951b2e3a88125d7b0a35e1f9972610f2be84579b0a090a0229
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional
+ graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+ production since 2006.
+ .
+ This is a dependency package providing the default version.
+

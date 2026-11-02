@@ -1,0 +1,74 @@
+Package: aprox
+Architecture: all
+Version: 0.3
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 27
+Depends: python3:any
+Filename: pool/dev/aprox/sid/aprox_0.3_all.deb
+Size: 4716
+MD5sum: 5eba00deb93582b8402369417ab82915
+SHA1: de023411ed7c80accc88011d76d49db47bb6404e
+SHA256: dab7174f42987ad020b931bff7fc62c6f53ca7f744e028299c7f08497537285b
+SHA512: fa5a9ee15b06438be1cb4858c1fbdfc084396a5f32ef336d456cfcdb553a69473aef1a5c88c949cfce19c9329a49bdea5a487a4a5a85ccbd1d42d4b250442cb6
+Description: Simple caching apt proxy
+
+Package: debchange
+Architecture: all
+Version: 2.26.9
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Installed-Size: 118
+Depends: perl:any, dpkg-dev (>= 1.18.19)
+Recommends: libdistro-info-perl
+Breaks: devscripts
+Replaces: devscripts
+Filename: pool/dev/debchange/sid/debchange_2.26.9_all.deb
+Size: 30860
+MD5sum: 679c300db62a9cb8583ae43d3a2a689c
+SHA1: 48027e1708742c589023a9b2ecf5066a6b4c8c13
+SHA256: 3abd86a63091190460c95889f819070a58189a4c7fd4fe2214ef9b94537ffa7d
+SHA512: fafcd2b3f5ffe0957c45d5c02fb48be0424580b9a637a06cc766f4e8c4e98386f8be776d3c6faa168171ccfcf17f63cd13c6f56d523bcfd6f90f0fa076b06721
+Description: debchange (aka dch) script extracted from devscripts
+
+Package: dev-meta
+Architecture: all
+Version: 0.32
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 46
+Depends: neovim (>= 0.2.2-1~), arch-test, build-essential, cmake, debchange, decopy, dh-make, dpkg-dev, gdb, git, mmdebstrap, pristine-tar, sbuild
+Recommends: aprox, bison, clang, clangd, designer-qt6, eatmydata, flex, git-credential-oauth, libelf-dev, libncurses-dev, manpages-dev, manpages-posix, neovim-gitsigns, neovim-lspconfig, pkgconf, python3-pip, python3-pylsp, python3-pylsp-rope, qemu-user-binfmt, reportbug, uscan, vim-fugitive
+Filename: pool/dev/dev-meta/sid/dev-meta_0.32_all.deb
+Size: 8452
+MD5sum: 467edca5f82b3ee7b8a38e7e368ada56
+SHA1: acb45e6b4807d0e2b4dd2da4965bc2c547d76245
+SHA256: d85b071bc9bdca129eaf2b668f17d0ed74cb90359c42ed792871c3ce8b296b93
+SHA512: 13649c40478d41a661c232d32b61f57f7c0fd5dc1e0e102f338064f7e301619eca7518e12b66ea25085d221ad4a46579c8afccb6cf3358ecb78c17ad2af7f1f4
+Description: Development meta-package
+ Add the following to your .config/nvim/init.lua:
+ * require("dev")
+
+Package: devdocs-meta
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18
+Depends: neovim (>= 0.2.2-1~), devdocs
+Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
+Filename: pool/dev/devdocs-meta/sid/devdocs-meta_1.6_all.deb
+Size: 2628
+MD5sum: 71129c5ceec9ec7835803ecc0c80be14
+SHA1: 0b81fa0c411354b7064c51a8341c5c0317328944
+SHA256: ab9ee92d9aa370cc92e006cb93ab20db00acd647654c0e31ba02d1e971d78b48
+SHA512: 4c2265fa1c4b5fcf2e24068f89caea88823faa4212c03dc59257231f03c91cce757927817a89155fa078088d352c399c6a38c79e85990e11cc03b8518079bbac
+Description: Devdocs meta-package
+ Add the following to your .config/nvim/init.lua:
+ * require("devdocs")
+
