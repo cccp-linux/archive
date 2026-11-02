@@ -1,0 +1,29 @@
+Package: pickle
+Format: 3.0 (quilt)
+Binary: pickle
+Architecture: any
+Version: 5.02-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), libftdi1-dev
+Homepage: https://wiki.kewl.org/dokuwiki/projects:pickle
+Directory: pool/embedded/pickle
+Package-List:
+ pickle deb devel optional arch=any
+Files:
+ 1add3b0c810abddb6d1fe4e6fae5624d 1120 pickle_5.02-1.dsc
+ 450dca34b2acd91d6c726d5aa33de702 178158 pickle_5.02.orig.tar.gz
+ d621e4f1d435e3e16ffed4948021265e 2492 pickle_5.02-1.debian.tar.xz
+Checksums-Sha1:
+ 72d9acfe15395478580d643a4ef1b7ec8dd58cb8 1120 pickle_5.02-1.dsc
+ df1f09079c67041b0ad80d7bc0ee11796f44155f 178158 pickle_5.02.orig.tar.gz
+ 1e3ab4204ed01795f41335bc454956386cca573f 2492 pickle_5.02-1.debian.tar.xz
+Checksums-Sha256:
+ 6f688c74234e114f29f2606d6c3f00aee73d1d86123a460bf847c27279f855c8 1120 pickle_5.02-1.dsc
+ dff4407b6e143b94ffd286c6ba9afbbd608185b834f20b6345b91ec1b7a0e86a 178158 pickle_5.02.orig.tar.gz
+ 04274f2e6a834b372e086eb1992c6732c571c2b07de0c539225f6219f9a8fe5d 2492 pickle_5.02-1.debian.tar.xz
+Checksums-Sha512:
+ bfb12ada845ba5b879bcf45a8578a753d91b6a0b2d2940cc9744717e11c1e9a701f6f727aa3d63c47580864af42e48d5e2238edc79522d5a0cfd76450ace552b 1120 pickle_5.02-1.dsc
+ f548adb9981a0644c2ed1c57fbee07dee6237f505abae9b0812708c78b4429faa1f146737732cb5dc1ce5a67d6aa95b97dfe9ef2e080f46949d7393e3231a582 178158 pickle_5.02.orig.tar.gz
+ 29069b03b4e96b07991e8ab84d7fe75d7fdc026bc2e07f4295cdba66cbbe54399eb3758c235bcd22f1a1da293007e41e430202d69bc8e42f3fd35b777affe4be 2492 pickle_5.02-1.debian.tar.xz
+

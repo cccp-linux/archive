@@ -1,0 +1,675 @@
+Package: android-file-transfer
+Format: 3.0 (quilt)
+Binary: android-file-transfer-tools, android-file-transfer
+Architecture: any
+Version: 4.5-2.1
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13), cmake, qt6-base-dev, libfuse3-dev, libmagic-dev, libreadline-dev, libssl-dev, libtag-dev, pkgconf, qt6-tools-dev
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Vcs-Browser: https://salsa.debian.org/debian/android-file-transfer
+Vcs-Git: https://salsa.debian.org/debian/android-file-transfer.git
+Directory: pool/main/android-file-transfer
+Package-List:
+ android-file-transfer deb misc optional arch=any
+ android-file-transfer-tools deb misc optional arch=any
+Files:
+ b089c9b827229bd7dba330d19500f21d 1574 android-file-transfer_4.5-2.1.dsc
+ 54b81adf2eabf4881e733d2e0a9fb202 1074267 android-file-transfer_4.5.orig.tar.gz
+ 18eed00136af3472094a983828ca2c5a 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+Checksums-Sha1:
+ 83ffe9ab30db198f5c83f48ae4eb0a8be87e376b 1574 android-file-transfer_4.5-2.1.dsc
+ 340671b13efdeb0420293563be95096f48e66d37 1074267 android-file-transfer_4.5.orig.tar.gz
+ 007590d6ba2893c8d22f769c00148ae0f12744df 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+Checksums-Sha256:
+ 3c5647f7a9b5d1f857e3d961dc242a10338a5a23b6ccac0331ef67b8742111c8 1574 android-file-transfer_4.5-2.1.dsc
+ 0f366a8d659926d3859a8628d4f7592692389b060f67da9a936d19b252b42d96 1074267 android-file-transfer_4.5.orig.tar.gz
+ a9af4318f2c550951787fdd683d421c05c8b4715a1e98b8e37be3836f6343af8 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+Checksums-Sha512:
+ cf98ba00881d7f9aa0e71e8ebfb5842f0bd2af4df328a129b870eaef732e9bbe28de78fa616e3f3d8fe69a175b0bacf88f564e99cf4a429c6619113a00c9822a 1574 android-file-transfer_4.5-2.1.dsc
+ 7aff608f83055a92fb35ccec768e531c60984d3fc8293c04443bb52a2eeef208c50f6baeccabd951ebc630711b07f043f6ed118bf4e308836c5c796281d68ffd 1074267 android-file-transfer_4.5.orig.tar.gz
+ 5f7d458fc809f9a12ffe5a13af0171a18c0c0813870dd14653e4ab3cc897913f68ea193883edb2b599395b1c0721cf392bff8cfe504b7511d34ef7aae7cbe821 3440 android-file-transfer_4.5-2.1.debian.tar.xz
+
+Package: blink.cmp
+Format: 3.0 (quilt)
+Binary: neovim-blink-cmp
+Architecture: all
+Version: 1.10.2-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://cmp.saghen.dev
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/blink.cmp
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/blink.cmp.git
+Directory: pool/main/blink.cmp
+Package-List:
+ neovim-blink-cmp deb editors optional arch=all
+Files:
+ 414c34e766a2a74175945608e0ddb3ba 1283 blink.cmp_1.10.2-3.dsc
+ be6074e320b09497feaff9696bedffd2 412456 blink.cmp_1.10.2.orig.tar.gz
+ fedec2ae5d529a11b154b829e92c918f 6500 blink.cmp_1.10.2-3.debian.tar.xz
+Checksums-Sha1:
+ 2d3a9b21d708c3691cc9c4d1daf540512f7bc053 1283 blink.cmp_1.10.2-3.dsc
+ 4f8bf979e7bf38909adb412bf80855224e116211 412456 blink.cmp_1.10.2.orig.tar.gz
+ 699915fd15282e63899711206918ee565329a1f6 6500 blink.cmp_1.10.2-3.debian.tar.xz
+Checksums-Sha256:
+ 4f9462d8ea9ea5cbadbcf35ca3af227322a98f030c9cc82838e0cbf70a3a56a5 1283 blink.cmp_1.10.2-3.dsc
+ bf76b6f82e91c2fd7920dc71e09d000a3ff79e1bd1262340f9e5287419aa4524 412456 blink.cmp_1.10.2.orig.tar.gz
+ b6e7ecf04e5c621da9608c33e0b4585d5680971ab716c421f6c2276a9cee4dd9 6500 blink.cmp_1.10.2-3.debian.tar.xz
+Checksums-Sha512:
+ 4afdd4630b1507060660c15166f827afdfba59526340267e40555da45eba2b54ef52f68a7eee88d9723c2f72bd9847251dc073fe4dce4f8cf68059dfdb33fdd0 1283 blink.cmp_1.10.2-3.dsc
+ 89de04a855d6134c07464dac8b2d7046cebacc09379fd3c1df5812cc7b6594ad1f7b193687fc53d858e424ff6c5372936d55931379e9238aaa2d556840640d4d 412456 blink.cmp_1.10.2.orig.tar.gz
+ 8987322c24a77dbacf30bef5e0944db91cb2f70c7e6c3b3014c967794eed279c929fc42c85688889acd24ec4ab1b3754e988bd7672b417d2e0e4486585a15710 6500 blink.cmp_1.10.2-3.debian.tar.xz
+
+Package: cccp-meta
+Format: 3.0 (native)
+Binary: cccp-standard-meta, cccp-boot-meta
+Architecture: any all
+Version: 1.5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/cccp-meta
+Vcs-Git: https://github.com/cccp-linux/cccp-meta.git
+Directory: pool/main/cccp-meta
+Package-List:
+ cccp-boot-meta deb metapackages optional arch=any
+ cccp-standard-meta deb metapackages optional arch=all
+Files:
+ 063a9b0ca3410c5309f47b9e20718ee1 1005 cccp-meta_1.5.dsc
+ f596a1bd0d7102b0787ea36f26dc6afe 25408 cccp-meta_1.5.tar.xz
+Checksums-Sha1:
+ 8df6653eea88851ff9af81de8a942551b76f8c3b 1005 cccp-meta_1.5.dsc
+ 5823dd3ade51bec3a3f0d8211b9f577120d88eff 25408 cccp-meta_1.5.tar.xz
+Checksums-Sha256:
+ eb28be239a1b7e1b8998e84492c13a75d4c6d956ca74bb3c7ac72a991da3431e 1005 cccp-meta_1.5.dsc
+ ffabf85bfc7144d36b81c424c8f9f4a8a750f086af44ff7618a99f40f69a2828 25408 cccp-meta_1.5.tar.xz
+Checksums-Sha512:
+ 9075113e3729169b5437335619f8457ea8ee4254a3d7883cc0a88a7a9fa5e8e807b727020590e830c4807766b34a50ad5b48663cd6a0f708d9d99a8571fde585 1005 cccp-meta_1.5.dsc
+ a9027fa4c525c7073a0e0fe74120ab7e1a4096701cafc80ec7be344ed80eaf2594028e65b482c2241cfc7812c440f7c6ca9796020f50c1158a70ac30c2b5bc18 25408 cccp-meta_1.5.tar.xz
+
+Package: crossover-meta
+Format: 3.0 (native)
+Binary: crossover-meta
+Architecture: amd64
+Version: 0.8
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/crossover-meta
+Vcs-Git: https://github.com/cccp-linux/crossover-meta.git
+Directory: pool/main/crossover-meta
+Package-List:
+ crossover-meta deb metapackages optional arch=amd64
+Files:
+ 014ed7ea076578c50b74a0372f067b61 960 crossover-meta_0.8.dsc
+ 0a5e43478082b6a6b1d0fab25aaf583b 13144 crossover-meta_0.8.tar.xz
+Checksums-Sha1:
+ fc0a6abde44f09b52dc0e8ab39287d5323f73915 960 crossover-meta_0.8.dsc
+ b0a2e7f56ea6baaaa97e9a74072391696820516a 13144 crossover-meta_0.8.tar.xz
+Checksums-Sha256:
+ cec0f47e6f9f8669e085d7ce01bdd90613c55db80175c30632a35a7ed76a75ed 960 crossover-meta_0.8.dsc
+ 395ffe056c2756240ee20ae2937fb541590fac6ffe17402b5bf021f1bb652dd4 13144 crossover-meta_0.8.tar.xz
+Checksums-Sha512:
+ 4f08f547de14b02bf69fbb48ab86c9db9f233434b4267ad2299f5f5572518cf9c5f2585f4a15b8fa0870460f404f528e7ef0d817eb822b2c685b22e776d09660 960 crossover-meta_0.8.dsc
+ c84325e36b2dcaecca952c1971c1a0679449bc8743d4c0bf64adf99170e7dc1545d5a6e1e360702954c2cb1b702f449bc61e3e24689a49d2475edfaa0ace397b 13144 crossover-meta_0.8.tar.xz
+
+Package: font-bitstream-type1
+Format: 3.0 (quilt)
+Binary: fonts-courier-10pitch, fonts-courier-nerd, fonts-bitstream-charter
+Architecture: all
+Version: 1.0.4+~3.5.1-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), fontforge-nox
+Vcs-Browser: https://github.com/cccp-linux/font-bitstream-type1
+Vcs-Git: https://github.com/cccp-linux/font-bitstream-type1.git
+Directory: pool/main/font-bitstream-type1
+Package-List:
+ fonts-bitstream-charter deb fonts optional arch=all
+ fonts-courier-10pitch deb fonts optional arch=all
+ fonts-courier-nerd deb fonts optional arch=all
+Files:
+ 443b3f71ff476c23cc49c9f242196000 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ 38fbd0aff00b0cf7b89b062b344ab306 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ 5f778f9855dc27417283202fefdcc97f 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ 86a5be9ce297aa6f0030d2f0f71280df 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+Checksums-Sha1:
+ 45ddfe214b5982cbc43e329596505017a4fcece6 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ 657f84ba005a639f0b2b0fc823fe6925dee087f5 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ 152322cf77219dc7891f79ff251cd48d0bcfff21 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ f170edbbd910915eab883ee6339e6e6a2f3b1e73 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+Checksums-Sha256:
+ a3517b0a0606cf6e747fa50a3165b96343dd297597fdc6406299594e291e2a70 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ 2693d9c70960291598bf250f1a6b7b98f71f5176e6fb53b47a05d6f43f12ad87 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ d5db1d2421a90aef06371138d07556b5e9f5fa847dc029c4656a84e5ca8a11b4 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ c0e10ecd705ab28b135b85cdb50b47cf4da802197b2a34b29a7650c5932e69ae 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+Checksums-Sha512:
+ 623a4a2ec4025800f3b98db995eac46ec0819513a815b0ddaf5775b812a5f66b53724532ad98b890312f1841a61c67c47c4a0c97e2816bf7779a15825b3f5c1c 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ ff7cc4b9f503120019ea9897bf97db15df723c360cf6f5885161c041a7f1e68bd41a0901b221a2a59077f063464fbc1defd716932e2f0c8375153469fc897934 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ d3f693adfe6a9b6ec464b725cfcf283e120b6a8a3fd93dec5363dd8cac10ff688cfede967d91dbbe699f74c89af9ddd238e10eab4620032395d404111a8d112f 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ 32ddc8745a77481392ed9579ce0101b2b3a4bede4b97bd4a9ad371eae8ceed16fb4a4809b1de41854515c2578bd367c98794f78cb6ddb3ba69e20c8416d7b6bd 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+
+Package: fonts-roboto-mono
+Format: 3.0 (quilt)
+Binary: fonts-roboto-mono
+Architecture: all
+Version: 3.001-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/googlefonts/RobotoMono
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono.git
+Directory: pool/main/fonts-roboto-mono
+Package-List:
+ fonts-roboto-mono deb fonts optional arch=all
+Files:
+ e34fdaee1b19f97d87edd2de77abec9f 1352 fonts-roboto-mono_3.001-3.dsc
+ 7ef2b7b0ecf93d49c67c5f4c2aa9369f 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 47439f9298a0af16d0ea0bc2b3fcd8cb 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha1:
+ 0ad3ce43f0609e2bb80db996ac5cb5e4d675d5bb 1352 fonts-roboto-mono_3.001-3.dsc
+ 440b59c0a717a54ac6d8d55f2b1737a03c9d0ab1 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 77a334a7f7754a23fbb31c0a821e4bb306cac54f 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha256:
+ a56c5f451d116a145afbfbb332d034b972bd5e0c6c6249b22d6ea944a733cea9 1352 fonts-roboto-mono_3.001-3.dsc
+ 52dfbcfd8fa063b5233245921995178345b3bc276e463a5b60b40bcf26ff9bca 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ f5bec69b2514eeaaaa45333b3ab0faeaf0f2514332fbac760f66660f6bde3b1a 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha512:
+ d10c890667dfcc0841a58e7813efb25abafca2e96754bb94b467f9d3a53a80001ef65f9f6b7be31fd3c1279e34f06b6dbcf359f1d20702c440e11e85c1efeb51 1352 fonts-roboto-mono_3.001-3.dsc
+ 98f1b292943aee7cee748c917e33f39bd4a76d5a733e3c4d8e398fdb7642ffc0810642fd2546dbf479b73471b4b96ad3d681343e922efc6905a3a629236cf59f 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 9a107aa041f9690b80e30c31b58a2ed3da07dc62154f6d18d111ca797762f32778cfd7a8e9eb41f4c2cabc1b4dda960a676fd1af7db34a386c4ba85d64076150 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+
+Package: fonts-symbols-nerd
+Format: 3.0 (quilt)
+Binary: fonts-symbols-nerd
+Architecture: all
+Version: 3.5.1-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://www.nerdfonts.com
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-symbols-nerd
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-symbols-nerd.git
+Directory: pool/main/fonts-symbols-nerd
+Package-List:
+ fonts-symbols-nerd deb fonts optional arch=all
+Files:
+ 8bc7f1917fcc0f34fbb8afb4c1134bdb 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ dba0eb44655774e667d17cb3f7a265e7 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ e59e26ba736fcfe38cd643781e659dca 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+Checksums-Sha1:
+ e913920f81cdf3ce03c150e072d112d73836b3ed 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ da7b253d92cb5bb753823e667e99d150d3e39975 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ 949377be6a57a010cf834e59a8a53f21d47b9e4b 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+Checksums-Sha256:
+ ba1408433161622772d1fb40d1618afd8a2e56ca01f3d7377621669c027e9a11 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ 01172f37db8543edb102e5cb5c64101c9f4686630804d49b419aa07b23a69996 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ e703286685f025018c30be3607b0412f9b4722d5f20ca73c0e6cbe01eef16a81 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+Checksums-Sha512:
+ b56b67d53939dc1daed4e4af586b60eb4b7584200ce84498ea68e354779b9c8e8dbcbf03598aee69a04442fdbe8e94ff907a5c1db8a92477744d1fd4ce54efe5 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ 983fa63bc543a6b63d1d76186b7f1152b3c8f2b01cafa7db92adadc8aacc04147d36fcd03fd4ac8f95296f072c74c3c1f55a4c939ede6906e3e9e1840c657b53 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ 4878eb9c837c3614edc335ede04854682ca90b87b743f2b90fac486ac320b896c814ac1a5136d4b6261fa3d4a9864ccf5c6e63be534401276f9fbc79f419eda2 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+
+Package: foot
+Format: 3.0 (quilt)
+Binary: foot, foot-terminfo, foot-themes, foot-extra-terminfo
+Architecture: any all
+Version: 1.28.0-1.1
+Maintainer: Birger Schacht <birger@debian.org>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), meson (>= 0.59), ninja-build, wayland-protocols (>= 1.41), libxkbcommon-dev, pkgconf, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libwayland-dev, libtllist-dev (>= 1.0.4), libfcft-dev (>= 3.3.1), libffi-dev, libharfbuzz-dev, libutf8proc-dev, systemd-dev, scdoc
+Homepage: https://codeberg.org/dnkl/foot
+Vcs-Browser: https://salsa.debian.org/birger/foot
+Vcs-Git: https://salsa.debian.org/birger/foot.git
+Directory: pool/main/foot
+Package-List:
+ foot deb x11 optional arch=any
+ foot-extra-terminfo deb x11 optional arch=all
+ foot-terminfo deb oldlibs optional arch=all
+ foot-themes deb x11 optional arch=all
+Files:
+ 174cddbd798663c86bea200e0131543e 1644 foot_1.28.0-1.1.dsc
+ cf718d6b2713777ee4ca323f807434dc 1201047 foot_1.28.0.orig.tar.gz
+ fbefd724224f86537252286b27f2c6b5 12760 foot_1.28.0-1.1.debian.tar.xz
+Checksums-Sha1:
+ fbc51785d1bfad929a0c8f976c3ebbbe4df94760 1644 foot_1.28.0-1.1.dsc
+ 68ff560b1f7e4828564db199f966b4b6a1130c79 1201047 foot_1.28.0.orig.tar.gz
+ 67ab5325e77504c331cc64506ed064a6cb4869e5 12760 foot_1.28.0-1.1.debian.tar.xz
+Checksums-Sha256:
+ 84eb5e21470e20897a0a1671f5e9707e67e887b8d6bbc70963864cef1d17b822 1644 foot_1.28.0-1.1.dsc
+ 4296be402b5684d049534598e69db92b918f92beac9dab76b585207045f0b037 1201047 foot_1.28.0.orig.tar.gz
+ f6bf0ddaa6ab232a19ffc82437176d1172c7134543b9ba6b14ec21a8e3b6e36a 12760 foot_1.28.0-1.1.debian.tar.xz
+Checksums-Sha512:
+ f50c9c4cadaa5257cc3e7494b99b698acc14f882fadf850c2ffe8f61e18300c643d4cc1a3edbe672fe0ef6ced41102630e49db72548554bd863b0b411a6b451d 1644 foot_1.28.0-1.1.dsc
+ 4286464e84b298a08b0ce1a7fc703670b4acec9af401cedc06b9e6c2e2aefde88829ad99aae4ee0cd4c7696b0ba46e1345f8a7090c46791e847daadf6da34867 1201047 foot_1.28.0.orig.tar.gz
+ d84a58cb5aff25ba840af3813a5c12a509c958a3f009a6dea2417a1a89cd1ffec17e879c929ab7b568d4e9fe03798de1e0f363c43aee04fd8a87a455d085c89c 12760 foot_1.28.0-1.1.debian.tar.xz
+
+Package: gtklock
+Format: 3.0 (quilt)
+Binary: gtklock
+Architecture: any
+Version: 4.0.0.1-1
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Standards-Version: 4.7.1
+Build-Depends: debhelper-compat (= 13), meson, scdoc, libaudit-dev, libpam0g-dev, libwayland-dev, libgtk-3-dev, libgtk-session-lock-dev
+Homepage: https://github.com/jovanlanik/gtklock
+Vcs-Browser: https://salsa.debian.org/debian/gtklock
+Vcs-Git: https://salsa.debian.org/debian/gtklock.git
+Directory: pool/main/gtklock
+Package-List:
+ gtklock deb x11 optional arch=any
+Files:
+ a703dfba185cc91bccb84d4298049fa5 1324 gtklock_4.0.0.1-1.dsc
+ 96c15243cd5a0d38eb296b93f09992fe 57076 gtklock_4.0.0.1.orig.tar.gz
+ 9e4210de5a64b80b215f0fcae4f50769 2328 gtklock_4.0.0.1-1.debian.tar.xz
+Checksums-Sha1:
+ a04dab070f5951cdf56c9a92d7f14a7f35799c79 1324 gtklock_4.0.0.1-1.dsc
+ 0e4326e8692f8070e1a085552ef6d526fe202ac8 57076 gtklock_4.0.0.1.orig.tar.gz
+ 724b2e7485568b60d70c0bea75543e4c473d4a47 2328 gtklock_4.0.0.1-1.debian.tar.xz
+Checksums-Sha256:
+ 087810953d746cde9ae094e29a222624c23c5c6543bdbc16c855db2a96aa02de 1324 gtklock_4.0.0.1-1.dsc
+ 69ee46d9e535afcd9380a21bd576f3798b3073134a7eba8c824bab60bb7c8471 57076 gtklock_4.0.0.1.orig.tar.gz
+ 2826a49006b81455aa582cfa51d50719a763a8f596d89d8e6d6c6d49e927f79f 2328 gtklock_4.0.0.1-1.debian.tar.xz
+Checksums-Sha512:
+ 8c19571e01dd452941a3b3e55f5f728ed2354ddc3cebacd28f1c8d035416fa17df20eb5bf6c2c61b15082eadc204ee97d08b90d3f23978838b515c294a92560b 1324 gtklock_4.0.0.1-1.dsc
+ 8280047a50c173970fab594c15808cab19f4a79e8914dd03dc393eef801a9f4fe2a987441b1374fcbbc16426cfbff9f3172f2d596a84f6ea123fdfd26456fe1a 57076 gtklock_4.0.0.1.orig.tar.gz
+ 056d5655aad002c871054ad8b01de8fcf76eb5733b9ec5a0567a5435da64a30b3f2af26e7e9e3b5e807f186778c5dd9695afe9d0010a9cd7cb47e6cdcfa202b5 2328 gtklock_4.0.0.1-1.debian.tar.xz
+
+Package: libreoffice-meta
+Format: 3.0 (native)
+Binary: libreoffice-meta
+Architecture: all
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/libreoffice-meta
+Vcs-Git: https://github.com/cccp-linux/libreoffice-meta.git
+Directory: pool/main/libreoffice-meta
+Package-List:
+ libreoffice-meta deb metapackages optional arch=all
+Files:
+ 4f370c543d42ab70f25eca7ffb66bb32 969 libreoffice-meta_0.1.dsc
+ 92782289282697cb6e3126c9a193c8d3 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha1:
+ 5d3ad824a96913e8682b7afbf1160bc5e231ddab 969 libreoffice-meta_0.1.dsc
+ aac8afc2e3994bc3f0c67c727c5e2e0c732943e3 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha256:
+ 6b8edf9a92d19b11fb0984ccfd310d13f1b5dd19415816065d8eb2cb0ddcebca 969 libreoffice-meta_0.1.dsc
+ 7dc4fa6463fb0b33c202996a34c02e334a0757381096c865a3dc768dcfdc7f4c 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha512:
+ eb22474a4c985cfca788710f526912266473e078aed82f1540111d27a222ed22ca0f2098e912870c5a4942467671bbf676d4057a0e23a9de41562ecb2b9d5d25 969 libreoffice-meta_0.1.dsc
+ 7bb1a3d781420fc40ca707ac2be27b06451c9ee316bfe357e792602e0466cbdec664aa1a0a65ee136764ff6fb5e7b35de40bd6f94f2b72c2a459d9d883393d8a 1300 libreoffice-meta_0.1.tar.xz
+
+Package: llm-meta
+Format: 3.0 (native)
+Binary: llm-meta
+Architecture: any
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/llm-meta
+Vcs-Git: https://github.com/cccp-linux/llm-meta.git
+Directory: pool/main/llm-meta
+Package-List:
+ llm-meta deb metapackages optional arch=any
+Files:
+ 3a9b4a8d2b1c07b3cd8d253273d6f1d0 908 llm-meta_0.1.dsc
+ 97989a8392b2db887ea560c045b58dd1 15088 llm-meta_0.1.tar.xz
+Checksums-Sha1:
+ ddadaf79232a069a730b99e1a8858f42a1e32126 908 llm-meta_0.1.dsc
+ 1f7d817e14c4a56eb6dd8824e6b398c0dd2fce73 15088 llm-meta_0.1.tar.xz
+Checksums-Sha256:
+ 8b5564ecdf8c3da611e65108fb1bb6c0353c32dc825093b96989ea5f928c4972 908 llm-meta_0.1.dsc
+ e724db6ea111d5cc3ec96353a0497d2c5013e4a7b995fec06487bc9080c7d3ee 15088 llm-meta_0.1.tar.xz
+Checksums-Sha512:
+ 82c7ec0bb546c3992aea2837d2efe0fd8b5fb59a6781a26f81cb08af207fb84543e3c38a040e5b4d23eae28217bfe6c32620f07bf6a73b5988c65c8f89652a5e 908 llm-meta_0.1.dsc
+ 03aed6bf52d533f9ab24384455c0a780fc1e904fd819c6ec23a903d8ccde10a3e01d019f0ef0d3db14b720035858ff0b85b106d1e14452f105647be78102eb43 15088 llm-meta_0.1.tar.xz
+
+Package: ncp
+Format: 3.0 (native)
+Binary: ncp
+Architecture: any
+Version: 0.10
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cmake, libacl1-dev, libasio-dev, libcap-dev, pkgconf, python3, python3-pytest
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/ncp
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/ncp.git
+Directory: pool/main/ncp
+Package-List:
+ ncp deb utils optional arch=any
+Files:
+ ecd61ded88b54e5523a54cb6728f8815 962 ncp_0.10.dsc
+ 3578e0107f6e2b142b7929d3ea63d7da 38804 ncp_0.10.tar.xz
+Checksums-Sha1:
+ 46cbb7726760760357b9d2051413a60ced21350b 962 ncp_0.10.dsc
+ 580ab8a4edf95cf6e80cb2300c40c88e6b6f6c21 38804 ncp_0.10.tar.xz
+Checksums-Sha256:
+ ed4d23c712bd13fea898e1e61d1e2fb93c2b98b6652ed6b1017943d4742eb412 962 ncp_0.10.dsc
+ da68f97c28096c84774591154421874095ce3f2eefc65c29d5e4d789c410ba4b 38804 ncp_0.10.tar.xz
+Checksums-Sha512:
+ 6e867f36b0660e1698d60844761eaa82c44061112c640f21768a661ea07339938add010d8a9a6da4f44634df0ef70c913d9c814184e49525f9a7fa59204b76b7 962 ncp_0.10.dsc
+ fe8acf6d79766b118079ef9c642143f230a2cfa703deabe9910ed4fa9faeef673be4e1fd9d3021baaa0c0587ef06aa0ddab002fe7fd9b73922b833d4b938877c 38804 ncp_0.10.tar.xz
+
+Package: neovim-meta
+Format: 3.0 (native)
+Binary: neovim-meta
+Architecture: all
+Version: 0.34
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Vcs-Browser: https://github.com/cccp-linux/neovim-meta
+Vcs-Git: https://github.com/cccp-linux/neovim-meta.git
+Directory: pool/main/neovim-meta
+Package-List:
+ neovim-meta deb metapackages optional arch=all
+Files:
+ c347c47b98a5ac15ce3a8aef89ba1d93 950 neovim-meta_0.34.dsc
+ 2126f6f78d8585e5829170852a0a1843 17252 neovim-meta_0.34.tar.xz
+Checksums-Sha1:
+ 74f01f2ab45f9db6939ae13d1b643a0db259be85 950 neovim-meta_0.34.dsc
+ 830707cf09747dd119a655dc9ad6a15607e0a245 17252 neovim-meta_0.34.tar.xz
+Checksums-Sha256:
+ 4389c69172f7e185beac61401e6af76a289c61b65ce9aa75d92a60cbb9f2b121 950 neovim-meta_0.34.dsc
+ c3b67d27be4c89f385dc68757e0014a1d8e4c9d6d0a2db08cf7255a5e716510c 17252 neovim-meta_0.34.tar.xz
+Checksums-Sha512:
+ 8d3b6461889e5d7194f988f09f4c0dd9dc1dcd172cb2e242b2b0ff0d3cd0493a62c514ccdd2f1d4dd6c18f9db49789c4f8a19c3babdce80024c23d539f103973 950 neovim-meta_0.34.dsc
+ 6cdf78d7260c6329af8ae7ad8d7eceb5008fda3de060fa55a0b03bf13313081928be97cf7b6f2bd5781aa7f664f4e04d76884c6685e88568c82eb57f23095fa8 17252 neovim-meta_0.34.tar.xz
+
+Package: niri-meta
+Format: 3.0 (native)
+Binary: niri-meta
+Architecture: any
+Version: 0.53
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/niri-meta
+Vcs-Git: https://github.com/cccp-linux/niri-meta.git
+Directory: pool/main/niri-meta
+Package-List:
+ niri-meta deb metapackages optional arch=any
+Files:
+ 40078e12c2aab82d2ea69041afdce708 926 niri-meta_0.53.dsc
+ 5727076ff3dde6bafd643446ba3fe989 6546536 niri-meta_0.53.tar.xz
+Checksums-Sha1:
+ 11b339b0b1fc131072e767085f8d9dab49dc80e4 926 niri-meta_0.53.dsc
+ 429498b6ae1b7a0c752fce44445dfdbf95bbccb2 6546536 niri-meta_0.53.tar.xz
+Checksums-Sha256:
+ 71e2bf221943007346d2b9fac6ae9cc5fb1f95fbeb98e6325050e4a78371f5b2 926 niri-meta_0.53.dsc
+ 7871bd92991dd15c504147a716fa728a6cd030b0100ab62857416f36a6b2daca 6546536 niri-meta_0.53.tar.xz
+Checksums-Sha512:
+ c11269d1609a1126bca5f0f0b4c1a3225519aee61f48d97be6028d32e9a42968ce4ab14478db591e4bb25d4c67cd284f3a1330b1be1be92779fb30fcb4a1a1db 926 niri-meta_0.53.dsc
+ cbc5a0658a9875a685a9f4b51f5c25f52579363bce3a32bdffcf3e366f2b3832490d15e448060080d0524b647a4d578616d6476415e086defcd9c63cf2a37c99 6546536 niri-meta_0.53.tar.xz
+
+Package: niri
+Format: 3.0 (quilt)
+Binary: niri
+Architecture: any
+Version: 26.04-4
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.85) | cargo-1.85:native, libclang-dev, libdbus-1-dev, libdisplay-info-dev, libegl1-mesa-dev, libgbm-dev, libinput-dev, libpango1.0-dev, libpipewire-0.3-dev, libseat-dev, libsystemd-dev, libudev-dev, libwayland-dev, libxkbcommon-dev, rustc:native (>= 1.85) | rustc-1.85:native, rustfmt:native (>= 1.85) | rustfmt-1.85:native
+Homepage: https://yalter.github.io/niri
+Vcs-Browser: https://github.com/YaLTeR/niri
+Vcs-Git: https://github.com/YaLTeR/niri.git
+Directory: pool/main/niri
+Package-List:
+ niri deb x11 optional arch=any
+Files:
+ ba6973bfb45cab35fbe49bab7b896c74 1767 niri_26.04-4.dsc
+ 9f151890d91f9a5780dca869fbeb5679 40263284 niri_26.04.orig-vendor.tar.xz
+ cea62fd43268e1ea4cc96b5a788b5bc4 967630 niri_26.04.orig.tar.gz
+ 80cfa54ac02cbfa39407485cd8f6e053 7164 niri_26.04-4.debian.tar.xz
+Checksums-Sha1:
+ cb1b6e5738591edc418e80339d56e0c59924a592 1767 niri_26.04-4.dsc
+ 494b18e4b8372293110afc64017b08db001a3535 40263284 niri_26.04.orig-vendor.tar.xz
+ 1ccc5acfa05a9d34b708e1d60de6baf37d7161f0 967630 niri_26.04.orig.tar.gz
+ 7d242a6487955d3c1220eea47e6394e7cb17d694 7164 niri_26.04-4.debian.tar.xz
+Checksums-Sha256:
+ e1900ab371df516d11890896a2bc8c6ec98ac10433bc925175f8d0412cfe1209 1767 niri_26.04-4.dsc
+ 407c525cd78710e72455c48741756857ca47dc32910a42f82cd40992a34beed6 40263284 niri_26.04.orig-vendor.tar.xz
+ 134c602d8e0d53413a52d6cd58f9ce7e79a07d03288ee0a51ba1abd5db1b1ad9 967630 niri_26.04.orig.tar.gz
+ 4bde8002e3f9cc0e54250b9214186605fcb8c1f9a35e0c05ddfddf33ebd3a56b 7164 niri_26.04-4.debian.tar.xz
+Checksums-Sha512:
+ 086d65941be73f62f6868f2f1af5bef24892bf5162dd60ffe6810ca4ec3ca2c3c96cee0bc36574302e9c3692afca813b28dbd638925802522773beeabc86307f 1767 niri_26.04-4.dsc
+ 73bdef95320b416b8f51b4dd0dc50c4e48a8724481312ffaf2f8248ef52e66b6d6699cc6b07b849f330c3954c5d3f41248917d31624c15b9d30fe274dad38d35 40263284 niri_26.04.orig-vendor.tar.xz
+ ae30446fbf529155907726cf2cba7402bcfc5be2032370d66f9f980efb257f29353b47d495f1218b81ac32c643f15bbb74834dc35882849a4479021b4b9fa97f 967630 niri_26.04.orig.tar.gz
+ 9b299ea0644d26fd9e5da8da25f37a0a1beb795e0d67df459cedf88da63045485e080579f2b5cc488553fe7222b15765558809881ec318611723c21695e802c2 7164 niri_26.04-4.debian.tar.xz
+
+Package: nvim-web-devicons
+Format: 3.0 (quilt)
+Binary: neovim-web-devicons
+Architecture: all
+Version: 1:0.100-100-gd746-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://github.com/nvim-tree/nvim-web-devicons
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/neovim-web-devicons
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/neovim-web-devicons.git
+Directory: pool/main/nvim-web-devicons
+Package-List:
+ neovim-web-devicons deb editors optional arch=all
+Files:
+ 93139aa48873b0ed9c252603b6596cc4 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 34fbd1589679945ecf8870dfab518e00 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ 38c3f1f5375f547641a8391728f3449a 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+Checksums-Sha1:
+ 4f3ebcb1fdf16165d8665a4eae9d36cbae7aee5f 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 49976ba1e9add41ee7620643f1872ba71b153495 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ fbee4dc39835f6fc3d3aca99d57470a1380cc74a 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+Checksums-Sha256:
+ 659c42d809bd34ec4b1ba85481de2b3f57b9e20018844b3bdfe1523ed8599e7e 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 92cdd53514f3cbcd9073f016520cf5869b761860784ccf0a2cf603dfaee75a91 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ 919aca9c78a272d981fcfe162d1e4eadaaa298bba614bfa3562fcff777af3a82 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+Checksums-Sha512:
+ 189eb3b34df9b743573d875f5d8cc153647d76890fba34d15a43c7dee1b80c2dbdfab68e076d9da1e00b219d033e641aca2552669034326fff422286ff604147 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 1e9d2db756700dad7b8cc1efa7065ef70d74a16ca43a4ceb63f2a4cea749daabecfb514505759b5e4eefdc62b5811bf117bc25f93b03af166743cac2efea8204 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ 3f5f2270ff96ffcf275945585dd0da3b388496156438bfc9a362075b5bb213c817236bd8482551cc0f444e549d90b0c5e5eeb0ac649efa91f9215fa888a5cee6 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+
+Package: oil.nvim
+Format: 3.0 (quilt)
+Binary: neovim-oil
+Architecture: all
+Version: 2.16.0-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://github.com/stevearc/oil.nvim
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/oil.nvim
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/oil.nvim.git
+Directory: pool/main/oil.nvim
+Package-List:
+ neovim-oil deb editors optional arch=all
+Files:
+ 455651d1da33bb3313d0f9ff4fe28754 1276 oil.nvim_2.16.0-2.dsc
+ 50d80d53547d6c71500cac7676ebf89e 136992 oil.nvim_2.16.0.orig.tar.gz
+ aa8bbd1854893e0aeaf5242f269e3091 5156 oil.nvim_2.16.0-2.debian.tar.xz
+Checksums-Sha1:
+ 789fc80defbdcea009c2e9eee5f8f80f84011924 1276 oil.nvim_2.16.0-2.dsc
+ a375b557c581aa0693ee7b48e4258d6cbf31d813 136992 oil.nvim_2.16.0.orig.tar.gz
+ 862e164e5f2675020c34ce05a27b689e5727ebf7 5156 oil.nvim_2.16.0-2.debian.tar.xz
+Checksums-Sha256:
+ 9cb4aaabdac406690eb9d9cc569042eb2d37ad0383a9dd692d82fbdbb9634cf1 1276 oil.nvim_2.16.0-2.dsc
+ 459762f40b4bb208d5eeb8cd511153a2b9cf2c097d7d3954bcf808411d611ee8 136992 oil.nvim_2.16.0.orig.tar.gz
+ c292619abaf8219cea96fa795dfc592309870bc82e806da8297fc147185db506 5156 oil.nvim_2.16.0-2.debian.tar.xz
+Checksums-Sha512:
+ 611940b0ce11d472e4acbac7145ed8e726f55210d346bc2015e725eae4a98f594ab3818739cf9e6fc7b743dcaee56afa0b206f5a2ae2baa02df550e848a766e7 1276 oil.nvim_2.16.0-2.dsc
+ 30fe68143e1c4b3fdfc68c0bd65d67ef21171b39fb0ae4c79fce782019533284df6473b842fd1b153dfcb94a327a867e6a7efb44f7737aea66ab18e815d2698b 136992 oil.nvim_2.16.0.orig.tar.gz
+ 8dbbd3dc33c5be6fec20ff76c7aa2a6c2723cc779f4d90f0c1b5be1a24046951cdc05bcdca46c9e07ae23644d9647b770a97de88750b81e2f0db86db69957655 5156 oil.nvim_2.16.0-2.debian.tar.xz
+
+Package: pycal
+Format: 3.0 (native)
+Binary: pycal
+Architecture: any
+Version: 0.1.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/pycal
+Vcs-Git: https://github.com/cccp-linux/pycal.git
+Directory: pool/main/pycal
+Package-List:
+ pycal deb utils optional arch=any
+Files:
+ 70909625eef480d89f7ab0d104601558 888 pycal_0.1.1.dsc
+ b5dc35ece62e855317d9878f8c0b3b9b 311260 pycal_0.1.1.tar.xz
+Checksums-Sha1:
+ 801cef73e0b0b34cc608c0edae1a276d0565dc8c 888 pycal_0.1.1.dsc
+ e82a6ec407547d2d923584ab37c1c7e487ef15ae 311260 pycal_0.1.1.tar.xz
+Checksums-Sha256:
+ a88aa4a36d655a3a11911a6a17a0d8e4142746290b44b8bedc57de9623b42db5 888 pycal_0.1.1.dsc
+ b1adb06996183d42a82fbff6afb6f9433747e3ddceb0878bb1b923ac5ac2925f 311260 pycal_0.1.1.tar.xz
+Checksums-Sha512:
+ 13fdd9a655bc284c1a129df33c189f4d2b15107be7fe6852e089db3252d7e8a96c96d8818517642fa051f8d994651d4d9e780595b2aad18968eff3a9108fa2fd 888 pycal_0.1.1.dsc
+ 12ae886db5dce61174556498990be31fbc052c7262c8f07871463729adb1d0734d76c3598b12822af6a41ce370900e9ef8a1288ea577691e6e25bd4370470f83 311260 pycal_0.1.1.tar.xz
+
+Package: sessionctl
+Format: 3.0 (native)
+Binary: sessionctl
+Architecture: any
+Version: 0.5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/sessionctl
+Vcs-Git: https://github.com/cccp-linux/sessionctl.git
+Directory: pool/main/sessionctl
+Package-List:
+ sessionctl deb admin optional arch=any
+Files:
+ da01bc0b4a36e46687316174052e3ee3 917 sessionctl_0.5.dsc
+ 25fcce0f760288bbc9853c6de4740736 13580 sessionctl_0.5.tar.xz
+Checksums-Sha1:
+ 5e2f57a429103925d6f2ac855190cb543c7209b6 917 sessionctl_0.5.dsc
+ d114e807acb3e7ee522d6f10564a40e9d1888c71 13580 sessionctl_0.5.tar.xz
+Checksums-Sha256:
+ ff32f5eca34dda1872f2afc0f9b5ffce29136ac649c92a65c97e450886e0d65d 917 sessionctl_0.5.dsc
+ 00001ceb686fe5814fefd3b503ac4e22e9e24a9dbd1553aefcb2c8df7612a14c 13580 sessionctl_0.5.tar.xz
+Checksums-Sha512:
+ b6ba22820c078bfe2b72f4d0bfe1a0ba3e2c3adccfa6bacce283113557b0af5c6277851835310e4211735371b56396b241baf913e108a0a0a014cd9af9294137 917 sessionctl_0.5.dsc
+ 0acf4cadf2a5f5703538ea749e54eb38e4e2de9513685182dfdf9270e3134bc6cbb93f840a9d58f8ffa86cd801077e6f2bcd622a56f97c3e9002c112ce8dd97b 13580 sessionctl_0.5.tar.xz
+
+Package: statuscol.nvim
+Format: 3.0 (quilt)
+Binary: neovim-statuscol
+Architecture: all
+Version: 1:0.0.1-40-gc461-6
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://github.com/luukvbaal/statuscol.nvim
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/statuscol.nvim
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/statuscol.nvim.git
+Directory: pool/main/statuscol.nvim
+Package-List:
+ neovim-statuscol deb editors optional arch=all
+Files:
+ 3fff4b5b12247b20ea7f514f137b212f 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ 51336a0724b37f417bc672e6c2264f21 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 2c3fb7298d649a18d182d912637de850 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+Checksums-Sha1:
+ 14dac20a05ce824d870ac550ec88c0ca028b1470 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ ea9151144855434ead4c90190cab01eebb1aadef 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 474e6477c778d429abbae4a386275e2dc4fc88cf 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+Checksums-Sha256:
+ 32634dc7b8032a8d229ce9b96ab1863a9ffcfd8cda3cefd6ee788073a6de5ce2 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ e71a13de01057f7a34b6d4f9bc118254684f3a704e894b22d84737fe64b3e798 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 0b201f4a4dfc7aa28613e9b990a3c148504a523e14e111d1f2e6bdab187c6b2d 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+Checksums-Sha512:
+ 98bdd534b614a8f607324c728663ca4998c745d6d543000ffb1e1a6d3aa0eec317df95058474f9d34b3a5c6d5c8b9fa7ff3d0ac0ac2925017fd394baf0d9e6e2 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ 63fa60b5a986a25c156e2030e0415225c29da8bb838ca1335b77228a386cfb536a82cb5f9fea4325380b9564c678a99336b55392d529c7140997633c094b98bf 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 4c7e0ccd12f4137e59719dc68b7dc104c132f7d48aa181d8be6887d8272399a00a0caa05d22b3dd7bcfdf8ca40b10b2a102b226ffff3abff73a81d810a29bddc 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+
+Package: term-meta
+Format: 3.0 (native)
+Binary: term-meta
+Architecture: all
+Version: 0.33
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/term-meta
+Vcs-Git: https://github.com/cccp-linux/term-meta.git
+Directory: pool/main/term-meta
+Package-List:
+ term-meta deb metapackages optional arch=all
+Files:
+ e9f5eeb4734fff315dfe6f8dc3533bdb 920 term-meta_0.33.dsc
+ f5b77fa66398721e1b9112e5f2f18493 15984 term-meta_0.33.tar.xz
+Checksums-Sha1:
+ 317663fbdfafff7df8917e35430cd386012ff51b 920 term-meta_0.33.dsc
+ 0ef1facfb0f4a17fc18ae86c2d9ca23b3e407bec 15984 term-meta_0.33.tar.xz
+Checksums-Sha256:
+ c87501d8e79ba1a5fcf19e193686f930f54e5dbf1db1d3509b7b60d631c965ed 920 term-meta_0.33.dsc
+ 8f3cb874488657d8cfd149398607eee778fe39feb11214f19577f911c8c8ce16 15984 term-meta_0.33.tar.xz
+Checksums-Sha512:
+ fa06d17c4089f27f88ae02d661b07fccbe2d3c733ed936316f31a85a25e552304c2b19a93c4fa269003d4924c1176cf5b541eacfc977fa8a74c223d83c814be8 920 term-meta_0.33.dsc
+ 640a5ad9521404f7ef00ac7e83c8deb791f38ff227374b428e7a6992105bfc5d8d65417185e51606e35c261a18327fdfc2b2a82636ea2ba482ff0cffcdae8aa3 15984 term-meta_0.33.tar.xz
+
+Package: virt-meta
+Format: 3.0 (native)
+Binary: virt-meta
+Architecture: all
+Version: 0.7
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/virt-meta
+Vcs-Git: https://github.com/cccp-linux/virt-meta.git
+Directory: pool/main/virt-meta
+Package-List:
+ virt-meta deb metapackages optional arch=all
+Files:
+ 026cf2be0121f82f4e3fd493a8cf45e1 916 virt-meta_0.7.dsc
+ 400608fdef454fc3ff2745acdb5e40c2 13608 virt-meta_0.7.tar.xz
+Checksums-Sha1:
+ d362adf10252efc29aeff38c77c21a4bb0cdf063 916 virt-meta_0.7.dsc
+ a113dd33ae85c7c889aa96540dca6206424ac480 13608 virt-meta_0.7.tar.xz
+Checksums-Sha256:
+ 1ed0561de1f1dc1c58d69ad80ce13a2a0d550897cec7e64fde5efcdbf3c60627 916 virt-meta_0.7.dsc
+ e0467dca79429139a77bc5d04cf2e01ea48c02465673c1a630a80f8a901cb972 13608 virt-meta_0.7.tar.xz
+Checksums-Sha512:
+ 9583b342c10da12fe06b4dcd0acc926498c4049847c14183e837f68fd7d37da941fcd2d37267019894be09aef6ac2c2a338d6b321c51a9b052dbd5efb33bee89 916 virt-meta_0.7.dsc
+ 2fd5ccf291cadcb5ba352df106c89a1a063cbd08cff00c13519fcab112825145e62e268a4a6dffed0e6801be4cbcfe7c879849f2f53bc07181c8b7a1ba65c9b7 13608 virt-meta_0.7.tar.xz
+
+Package: xwayland-satellite
+Format: 3.0 (quilt)
+Binary: xwayland-satellite
+Architecture: any
+Version: 0.8.3-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.85) | cargo-1.85:native, rustc:native (>= 1.85) | rustc-1.85:native, libclang-dev, libxcb-cursor-dev, libxcb1-dev, pkgconf, xwayland (>= 23.1)
+Vcs-Browser: https://github.com/Supreeeme/xwayland-satellite
+Vcs-Git: https://github.com/Supreeeme/xwayland-satellite.git
+Directory: pool/main/xwayland-satellite
+Package-List:
+ xwayland-satellite deb x11 optional arch=any
+Files:
+ adf6339c08044a9f0699e6a988a357f2 1745 xwayland-satellite_0.8.3-1.dsc
+ 1844341f5677ec522b26fe6486c9c916 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ d7c83be1bd53e9ee9f49b7804c480031 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ 2fcf120970691a98f8f7c6c7f959587b 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
+Checksums-Sha1:
+ d37d5b003c952ecac0a56c2022bfa9eba78650fa 1745 xwayland-satellite_0.8.3-1.dsc
+ c0a87896e0ec666b191f8c41b21714a17e0d0b31 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ 8aa01e5ef2efa3547b302047e21c39c1838ed2d7 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ eb8eaf40d046872584b4e83b5726da6eaadada59 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
+Checksums-Sha256:
+ dd0021cb1a1e91972df21614fa953a8badff2164408e56c2db374cfec97d0545 1745 xwayland-satellite_0.8.3-1.dsc
+ 2bd52b10fcc613b06c1fd1bd598b374343f623d2a7bba9893aefd59246a267c0 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ 52d9991979c58b20abfae435e6059f1df265b30174b5f5026be95d4d1e45323a 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ 0e246b9859d668dd6576c185cc1c2ec501c87bc84103f636cf0cf728cbe6a178 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
+Checksums-Sha512:
+ a0ca5f8e9031f3b98bc3fbad1a8051274bcc2636bd3f8bb520c2728b878e15a375e336a2a58f766cbda0dbf231a132d75a0cdf5e92b842e65d492f0304065f80 1745 xwayland-satellite_0.8.3-1.dsc
+ 6ad480b9b97f009f97ed22a679b864e534197a1834ec23e21e23efd31e6b098469bac38400fdf23141d11448bf65ef17eacf17303c716dbb43f2871f84a7521b 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ 24a856737f6fd9d2d6245927d7fc1c34285d824311fc50c76b958e7dbc0a3ca924fddb59785e84a2cc72c33a2e7d84dfc07969b053325f6fe9880b7683e94303 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ 4c92d39f50d2a1dc463238cd636ae0a51462a202d469b60c2439af361dd6adabfd84f65601612d92004dc60284fbc249c70b326931d3de4181722716979f7d3e 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
+

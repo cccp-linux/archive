@@ -1,0 +1,185 @@
+Package: aprox
+Format: 3.0 (native)
+Binary: aprox
+Architecture: all
+Version: 0.3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/aprox
+Vcs-Git: https://github.com/cccp-linux/aprox.git
+Directory: pool/dev/aprox
+Package-List:
+ aprox deb admin optional arch=all
+Files:
+ a6661005dfa27592f3adce07d2e96553 877 aprox_0.3.dsc
+ be14931f685bf9b446716173a316d283 15144 aprox_0.3.tar.xz
+Checksums-Sha1:
+ 3745dc03a1de9166e499b0544d08f1f6259d8d85 877 aprox_0.3.dsc
+ 6677f004c7adf16ff17167e1abf29a902e735676 15144 aprox_0.3.tar.xz
+Checksums-Sha256:
+ 2a610f4f97f489a30225eaac2316d2401bff9223bddfc4a595a8c790e848bf74 877 aprox_0.3.dsc
+ d545ad27613da752e13b674ad0bb64ca4f8747890c251c7e75f07731f4997da0 15144 aprox_0.3.tar.xz
+Checksums-Sha512:
+ 5a8a4c906bbb4ce9d9e2f4653e451e744ee85e253df47e99e8d461ddf06a91fdc712eef944feb0e867a89575ad307aac808c59037ffccad39b1a7f7b928033a4 877 aprox_0.3.dsc
+ 8fa4cc63ca7ec073ef83f667f1be0d3ec856d54db6cdbf70c3d15324bcc6cb22ee7baadb710e0c806fd1208106337566c17dd9054da997b7e1978db8195af40d 15144 aprox_0.3.tar.xz
+
+Package: debchange
+Format: 3.0 (native)
+Binary: debchange
+Architecture: all
+Version: 2.26.9
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 12), bash-completion, dh-exec, perl:any
+Vcs-Browser: https://salsa.debian.org/debian/devscripts
+Vcs-Git: https://salsa.debian.org/debian/devscripts.git
+Directory: pool/dev/debchange
+Package-List:
+ debchange deb devel optional arch=all
+Files:
+ 36e01c77c97a1189286bf0afd1091861 975 debchange_2.26.9.dsc
+ a46a9a5341e4df30835539c2beaca500 28316 debchange_2.26.9.tar.xz
+Checksums-Sha1:
+ f998311fb45beccd12ff7525ae8c58889dcac8e4 975 debchange_2.26.9.dsc
+ a6765b3260b6c1c01d888f26f513f2a8358c0af7 28316 debchange_2.26.9.tar.xz
+Checksums-Sha256:
+ f0b4abc0bb263ae7b0b0e00c11dee304b3f6058007ea6f5eb6782acce595f87f 975 debchange_2.26.9.dsc
+ 99bd3ba13fb7c1f083a6beb7216dfbc43298cdf9386ddf66ac1898d0c965bb5f 28316 debchange_2.26.9.tar.xz
+Checksums-Sha512:
+ c1112041018fa25d12c3834eecbcf85253f7acce2ed3ea83fc8495ff80707222bc4e7dd21e67d93170e9eb7d632d210d80f6f7e8cb276c4c85ce185f2ac9e776 975 debchange_2.26.9.dsc
+ d958514c57fdebc4c85af573d82957c56ff68b09036b8755937ae479f07ea5d89ee14cf3e04d3bfab62c63caf9e93a5afdd9a93693bac8fbf24a3d036f51d8e4 28316 debchange_2.26.9.tar.xz
+
+Package: dev-meta
+Format: 3.0 (native)
+Binary: dev-meta
+Architecture: all
+Version: 0.32
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Vcs-Browser: https://github.com/cccp-linux/dev-meta
+Vcs-Git: https://github.com/cccp-linux/dev-meta.git
+Directory: pool/dev/dev-meta
+Package-List:
+ dev-meta deb metapackages optional arch=all
+Files:
+ 57c58a2159a69b2867bc2da2a549c628 926 dev-meta_0.32.dsc
+ 742cb4c67de3170e0faf13c1c1480bbe 18472 dev-meta_0.32.tar.xz
+Checksums-Sha1:
+ 1518a8919d0797191e3b9a1cbcafcef50ce775d4 926 dev-meta_0.32.dsc
+ 10a9dca6ade0304281be08dc933b06abc870952d 18472 dev-meta_0.32.tar.xz
+Checksums-Sha256:
+ c697aa116953017ca068977eb8ec59666b6f8bd8ff405a2ec437c210819f499f 926 dev-meta_0.32.dsc
+ 173d9d10bb6206307a63f8d1070977ce39d8cbbf22e93636d24ff78fb80249e4 18472 dev-meta_0.32.tar.xz
+Checksums-Sha512:
+ 0c457d9a2ee9c2ec7eb5359a96a167d28177ff3dc35ee33e21a9c4013aacb70f57dd37820e87481261cca46f4c287592f859403451873bfb61a543911bcd5161 926 dev-meta_0.32.dsc
+ 16df5ef82006706344848050a84780122cf53dbfe75fb80b0fe768bdbf5a1489b1f188682fd0cd986462c39b2648ad1e90a302a472dc9196c373942ceee3692f 18472 dev-meta_0.32.tar.xz
+
+Package: devdocs-meta
+Format: 3.0 (native)
+Binary: devdocs-meta
+Architecture: all
+Version: 1.6
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Vcs-Browser: https://github.com/cccp-linux/devdocs-meta
+Vcs-Git: https://github.com/cccp-linux/devdocs-meta.git
+Directory: pool/dev/devdocs-meta
+Package-List:
+ devdocs-meta deb metapackages optional arch=all
+Files:
+ 8ebeb2614fde2abb09c3d8f56b120d44 954 devdocs-meta_1.6.dsc
+ c6e64055d2ad5df40c3479461c29513f 13444 devdocs-meta_1.6.tar.xz
+Checksums-Sha1:
+ 207e6f046234e3f682c9507acfb5b5386ad89e19 954 devdocs-meta_1.6.dsc
+ 1eae80545603883ec537a4da3001ea9c0989b506 13444 devdocs-meta_1.6.tar.xz
+Checksums-Sha256:
+ 04918b6081dc19cfbe57299d3ea872d86cb921ccd6cad9491dc784b7efbaa8a5 954 devdocs-meta_1.6.dsc
+ 0d86a548f520467c4ed6925da19c220e736598e4d6093ca82e4b857fbff8d2cf 13444 devdocs-meta_1.6.tar.xz
+Checksums-Sha512:
+ a2e46d59c8f76dd3270532c6675565ec8e9b61357015db5905c831b367b60c6d701ff6534029b815e8e7ecbbdeb489fbbaad0494a7be9f3e7796c5d8a5ea1224 954 devdocs-meta_1.6.dsc
+ f660ecb2beb3c5eebf813ed094a9416c1e0dcee7341219970e686692bb2a921161c37ea86fb1592c471d3b6ef8a43a53bff41b7d74fcc093023244d580537e90 13444 devdocs-meta_1.6.tar.xz
+
+Package: osc++
+Format: 3.0 (native)
+Binary: libosc++, libosc++-dev
+Architecture: any
+Version: 2.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/osc
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/osc.git
+Directory: pool/dev/osc++
+Package-List:
+ libosc++ deb libs optional arch=any
+ libosc++-dev deb libdevel optional arch=any
+Files:
+ c492b6509275fe0bc8f33330fa191f73 1056 osc++_2.1.dsc
+ 2dc76e570506166c3969c9e85881daba 2864144 osc++_2.1.tar.xz
+Checksums-Sha1:
+ 402cfe431fda63dd62f06ad3d10417d162099277 1056 osc++_2.1.dsc
+ 39b3a6a1b051a531c8fd4b8ca469284419708f97 2864144 osc++_2.1.tar.xz
+Checksums-Sha256:
+ 7bf8e0f24ec450b26735c3314683759458c1fc6aa51330ede86768ad245473db 1056 osc++_2.1.dsc
+ 3de72d8593dbbd0a4cac0d2bd4143ef6a4dfa73644c45413e59e2ab4c1bffb04 2864144 osc++_2.1.tar.xz
+Checksums-Sha512:
+ 0d56c39d095186863bc9d314a6876d2ced61925212c63d950aa078b76307537dcf3a431a073d9252db07ad4b7953a3b276a8002f589eba0c8a6e35c7e06d236d 1056 osc++_2.1.dsc
+ 1d38d9aa0edcd23525adfc6828c99fcd5a8c3c1bc2b9b006ecd37a3cee74787fad85e98b6ddf8a207666479e5c03b8ca8a26d92a57e2d04f2ec53a694be78d95 2864144 osc++_2.1.tar.xz
+
+Package: pgm-args
+Format: 3.0 (native)
+Binary: libpgm-args-dev
+Architecture: all
+Version: 3.0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
+Homepage: https://github.com/dimitry-ishenko-cpp/pgm-args
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/pgm-args
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/pgm-args.git
+Directory: pool/dev/pgm-args
+Package-List:
+ libpgm-args-dev deb libdevel optional arch=all
+Files:
+ 6af19b6b9db9e0b6d8dfc0d02f1b07ba 1044 pgm-args_3.0.1.dsc
+ 14fadd96c2715e032b5cd724567171f0 28920 pgm-args_3.0.1.tar.xz
+Checksums-Sha1:
+ a3d63349833f4420b1500add2abe6887829c4ca5 1044 pgm-args_3.0.1.dsc
+ 4a1611353939b15679059a5186c65c992dc135a5 28920 pgm-args_3.0.1.tar.xz
+Checksums-Sha256:
+ 33b5566cb6941c8c72435e7a7660bc14efcaf6fdf56567cf4cce4ee1035f2676 1044 pgm-args_3.0.1.dsc
+ dc970578c643db3edbca22e7a64c9c58009a0248f3a98b81f131350149711ea9 28920 pgm-args_3.0.1.tar.xz
+Checksums-Sha512:
+ 307b1cf58952d5c1e65fa23540b685c7384bf5f11ed804a6be596436ae4a9c57e359b43571041f21a72ef01aa55d14301a76084d2d114e767d9b739c86b3cbd9 1044 pgm-args_3.0.1.dsc
+ 25eb7c5e3720320f1e0a00df550d31eb14495134e5c3a63b322fda90083bb56f922177a8cb3da440d1c7f8229dacd6dec0ab606d7468c494151d83ef952f6e85 28920 pgm-args_3.0.1.tar.xz
+
+Package: uscan
+Format: 3.0 (native)
+Binary: uscan
+Architecture: all
+Version: 2.26.9.3
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), bash-completion, dh-exec, perl:any
+Vcs-Browser: https://salsa.debian.org/debian/devscripts
+Vcs-Git: https://salsa.debian.org/debian/devscripts.git
+Directory: pool/dev/uscan
+Package-List:
+ uscan deb devel optional arch=all
+Files:
+ f825c3e64abeb29d1668ed7a7058ab3a 959 uscan_2.26.9.3.dsc
+ cc7cc32dac36bd3dbb9385f8aba6f35b 65056 uscan_2.26.9.3.tar.xz
+Checksums-Sha1:
+ 1d1b70ee5af1b8d157c285cdd36d4cb45adb1db9 959 uscan_2.26.9.3.dsc
+ 918bae6656288a13499fe175351ade91b13fe1ae 65056 uscan_2.26.9.3.tar.xz
+Checksums-Sha256:
+ 5b340358927b70e42ab096177c4202c6176a92a20c0dc426b51ab5fc9a52f63b 959 uscan_2.26.9.3.dsc
+ ac06a3cb694abb47976a8367526dbd8f0f630d1d22fb5f242929c3ad5a41ddab 65056 uscan_2.26.9.3.tar.xz
+Checksums-Sha512:
+ 9d0d099098298fd13edd197587770d2dda30d7e653811addef5b7dce46ac376d09b350c9a1675cad8c4429feb757c10fbaa8ec154bc24ed2dcd660e4432381f8 959 uscan_2.26.9.3.dsc
+ b4b2cd232dc669e8e38e2c62fa8f0a0cef8621e9961c82d4f94797fbd20a42401eb09c3afa9db8fd4c57bb5512b2d45b626b5a92e6de9a43e8c35a00a44f2290 65056 uscan_2.26.9.3.tar.xz
+
