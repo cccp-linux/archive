@@ -59,6 +59,7 @@ jobs:
             " $suite $chroot
 
       - name: Build package
+        id: build
         run: |
           suite=${{ matrix.suite }}
           arch=${{ matrix.arch }}
@@ -82,10 +83,12 @@ jobs:
             --maintainer="CCCP Linux <cccp-linux@users.noreply.github.com>" \
             --build-dir=/tmp/build $path
 
+          echo "name=$(basename $path .dsc)" >> $GITHUB_OUTPUT
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: build-${{ matrix.suite }}-${{ matrix.arch }}
+          name: ${{ steps.build.outputs.name }}-${{ matrix.suite }}-${{ matrix.arch }}
           overwrite: 'true'
           path: |
             /tmp/build/*.deb
@@ -101,21 +104,27 @@ jobs:
           fetch-depth: 1
           ref: master
 
+      - name: Obtain package details
+        id: pkg
+        run: |
+          echo "name=$(basename ${{ inputs.path }} .dsc)" >> $GITHUB_OUTPUT
+          echo "pool=$(dirname ${{ inputs.path }})" >> $GITHUB_OUTPUT
+
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
           path: /tmp/build
-          pattern: build-*
+          pattern: ${{ steps.pkg.outputs.name }}-*
 
       - name: Collect artifacts
         run: |
-          name=$(basename ${{ inputs.path }} .dsc)
-          pool=$(dirname ${{ inputs.path }})
+          name=${{ steps.pkg.outputs.name }}
+          pool=${{ steps.pkg.outputs.pool }}
 
-          suites=$(ls /tmp/build/ | cut -d- -f2 | sort | uniq)
-          for suite in $suites; do
+          for dir in /tmp/build/$name-*; do
+            suite=${dir%-*} suite=${suite##*-}
             mkdir -p $pool/$suite
-            cp -u /tmp/build/build-$suite-*/* $pool/$suite/ || true
+            cp -u $dir/* $pool/$suite/
           done
 
           git config user.name "github-actions[bot]"
