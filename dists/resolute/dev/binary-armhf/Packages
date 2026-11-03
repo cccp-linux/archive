@@ -1,0 +1,50 @@
+Package: libosc++-dev
+Architecture: armhf
+Version: 2.1~ubuntu26.04
+Priority: optional
+Section: libdevel
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 446
+Depends: libosc++ (= 2.1~ubuntu26.04)
+Filename: pool/dev/osc++/resolute/libosc++-dev_2.1~ubuntu26.04_armhf.deb
+Size: 104948
+MD5sum: 261859319c1f80dce409d2174df6ebc9
+SHA1: 7d108dd96301bcbf46d14d4760ee82f34ada9581
+SHA256: 4df6f3b764b22df8cea3b37a3a48843953d2359b3651b7edf1b11385eddda792
+SHA512: 17d3fa9be674e8a05bc2abca04065d4da2e45d65bc2aed2ddf0d30877d586359e6ad2614c5d88aaf99560b751f39545e3194c2aefaee8409cdf48fa1940ed108
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains development files.
+
+Package: libosc++
+Architecture: armhf
+Version: 2.1~ubuntu26.04
+Priority: optional
+Section: libs
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 210
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.5), libstdc++6 (>= 12)
+Filename: pool/dev/osc++/resolute/libosc++_2.1~ubuntu26.04_armhf.deb
+Size: 74914
+MD5sum: 6cee8845b2f756da2e319bc1fa34263e
+SHA1: 3e4d1e99b2abc6d42490931091543d5e9aa961f4
+SHA256: d9bef3c3b88478fed868cc41983ab7f7212d0a2964107b422c276a4ae06f04ba
+SHA512: bf000fac75f97aa93356d4b4011c3fb8dc45720fdb29aebe13a5afcdb90a87004cbcbcb00fd230d42542e04a85b44af112b055816f24aad87a3b7224f998c2bb
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains the shared library.
+

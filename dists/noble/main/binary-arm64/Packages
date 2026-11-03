@@ -1,0 +1,144 @@
+Package: cccp-boot-meta
+Architecture: arm64
+Version: 1.5~ubuntu24.04
+Priority: optional
+Section: metapackages
+Source: cccp-meta (1.5)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16
+Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
+Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-arm64-signed, wireless-regdb
+Filename: pool/main/cccp-meta/noble/cccp-boot-meta_1.5~ubuntu24.04_arm64.deb
+Size: 4234
+MD5sum: c84a96b8c9414fdec5f370831b4a8440
+SHA1: 2e96f2838b9cb47165573648780be91424f28c5d
+SHA256: 8f92099c638d3db14d3302dfec637fa1a968993164e1b4e41039df32993b285a
+SHA512: 1493e6829cdf4503baf0610fbdb5cf918d1c6a9002ac5b9f5572d667ab0412785fd1dfa4b3be0a16db58ed2193209865bc5de2c6527516ed3026aeaa88623f86
+Description: Kernel and boot packages
+
+Package: llm-meta
+Architecture: arm64
+Version: 0.1~ubuntu24.04
+Section: metapackages
+Source: llm-meta (0.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18
+Depends: llm, python3-prompt-toolkit, python3-rich
+Filename: pool/main/llm-meta/noble/llm-meta_0.1~ubuntu24.04_arm64.deb
+Size: 4514
+MD5sum: 176489daffc7bba02ee5e7e8fddadf19
+SHA1: 44604ec33c042b597640538bb32e70873d3c6069
+SHA256: 95a0c2d21596ce47252c864064a8315d96ac6cbdeb6c86d431815b5777fd1d9f
+SHA512: c46a962ed39fd9de0c3d464a7753852237a1abbc37f662d216bbdada5d79a312d292e29f7a8bfaa4c54943a2c609a6daa0806d1ba7edf9162171dead573ae0a2
+Description: LLM meta-package
+
+Package: niri-meta
+Architecture: arm64
+Version: 0.53~ubuntu24.04
+Priority: optional
+Section: metapackages
+Source: niri-meta (0.53)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6709
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
+Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
+Filename: pool/main/niri-meta/noble/niri-meta_0.53~ubuntu24.04_arm64.deb
+Size: 6522850
+MD5sum: 29d2aafb2d35129ca779dab803d27b0c
+SHA1: 6d6d0bd64d18a6a14a117e90fcf89995766837b8
+SHA256: 843c90e34684974ab42b390a60a1689b914d198105d6f7e5d2867d0a9c7bccad
+SHA512: eaa0e4febe66347fcbe264eddb64d4d8e548fa06c7d9de455243727d3c1de1bbb172292044577e682815703d966e4aef1f021895472e4d0961f05b9c0ebcf558
+Description: Shell meta-package
+ Copy the following into your home dir:
+ * /etc/skel/.config/
+ * /etc/skel/.profile.d/
+ .
+ Add the following to your .config/niri/config.kdl:
+ * include "/etc/niri/config.kdl"
+
+Package: niri
+Architecture: arm64
+Version: 26.04-4~ubuntu24.04
+Priority: optional
+Section: x11
+Source: niri (26.04-4)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 24883
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info1 (>= 0.1.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.75), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
+Filename: pool/main/niri/noble/niri_26.04-4~ubuntu24.04_arm64.deb
+Size: 6787936
+MD5sum: 158c46eef779280bbe60644c79b34843
+SHA1: 239da712d1cd634dd61343279cd4513a8a9ee5cd
+SHA256: 5b5f1d7c335ccb16103009f34483f9cf008e8e8b88796ac66939638821153756
+SHA512: 8f6d8420218dca285e08518646d829335c2e056da2defd924e1f892599fa6b01272dc74349730a333cbaa6c1207ef6ec39cd3feec8880d3960c639a33e2d56a0
+Homepage: https://yalter.github.io/niri
+Description: A scrollable-tiling Wayland compositor
+ Windows are arranged in columns on an infinite strip going to the right.
+ Opening a new window never causes existing windows to resize.
+ .
+ Every monitor has its own separate window strip. Windows can never "overflow"
+ onto an adjacent monitor.
+ .
+ Workspaces are dynamic and arranged vertically. Every monitor has an
+ independent set of workspaces, and there's always one empty workspace present
+ all the way down.
+ .
+ The workspace arrangement is preserved across disconnecting and connecting
+ monitors where it makes sense. When a monitor disconnects, its workspaces will
+ move to another monitor, but upon reconnection they will move back to the
+ original monitor.
+
+Package: pycal
+Architecture: arm64
+Version: 0.1.1~ubuntu24.04
+Section: utils
+Source: pycal (0.1.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 17
+Depends: python3
+Filename: pool/main/pycal/noble/pycal_0.1.1~ubuntu24.04_arm64.deb
+Size: 3810
+MD5sum: 6bd4591d3b74e2608bd64c53111d44e1
+SHA1: bbd15e88b6d77a60ce6dcc6a40559025d1e13fa3
+SHA256: 805e38a334f45614a4bb1e3dffccc1bfb731d7db9a3fa9ad9d78b168c973ade9
+SHA512: 658969a7c673841b2907471741075a38b6bf1295d3f6c836f4e8a23f3bf151f47ddd935827b0f84813a271445429f9d499ac1a7e3df81f6c7b25195ebca8b248
+Description: Calendar display utility
+
+Package: sessionctl
+Architecture: arm64
+Version: 0.5~ubuntu24.04
+Section: admin
+Source: sessionctl (0.5)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 13
+Depends: systemd
+Filename: pool/main/sessionctl/noble/sessionctl_0.5~ubuntu24.04_arm64.deb
+Size: 2840
+MD5sum: 813b46212b5a439eb0dd96d7c4bb8cb2
+SHA1: 47face8cc04b662528141d15864d73cf8168db35
+SHA256: a6f96db99e33e91487ff263b3329a2a4c45adf78280d1a2e01dfb4e9bf5ce8a0
+SHA512: 83a6d5fddb726cb0533925a22677554377622d65d8acd5bf34333271d2f7648c58ef4cc51cbddf0348d565c77b47f2f8d07fbcfb3f8612eb4770ac6f2f64b2e6
+Description: Session control wrapper script
+
+Package: xwayland-satellite
+Architecture: arm64
+Version: 0.8.3-1~ubuntu24.04
+Section: x11
+Source: xwayland-satellite (0.8.3-1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5404
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), init-system-helpers (>= 1.52), xwayland (>= 23.1)
+Filename: pool/main/xwayland-satellite/noble/xwayland-satellite_0.8.3-1~ubuntu24.04_arm64.deb
+Size: 1600502
+MD5sum: 1a8851b81af6a7cb3532a4701aabb153
+SHA1: 93070ba95086f3b51e0be7857c939b3c81133b11
+SHA256: 5294b3c7d890a0614a13d4eecb0e202d11f4e55326ab3ddef8d5dec3cc90e38d
+SHA512: 40b1044fa1a8fa9ab56db384bdceda544e4a9e1de1db8a9ad4e1ff289d13c49ed78803762a94f5de9ef6bedef66d0d064bb54416c84cb9c2eb2143c7a90039c1
+Description: Xwayland outside your Wayland
+ xwayland-satellite grants rootless Xwayland integration to any Wayland
+ compositor implementing xdg_wm_base and viewporter. This is
+ particularly useful for compositors that (understandably) do not want
+ to go through implementing support for rootless Xwayland themselves.
+

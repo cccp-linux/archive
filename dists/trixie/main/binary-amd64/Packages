@@ -1,0 +1,303 @@
+Package: android-file-transfer-tools
+Architecture: amd64
+Version: 4.5-2.1~deb13
+Priority: optional
+Section: misc
+Source: android-file-transfer (4.5-2.1)
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Installed-Size: 1068
+Depends: libc6 (>= 2.38), libfuse3-4 (>= 3.17.2), libgcc-s1 (>= 3.0), libmagic1t64 (>= 5.12), libreadline8t64 (>= 6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0)
+Filename: pool/main/android-file-transfer/trixie/android-file-transfer-tools_4.5-2.1~deb13_amd64.deb
+Size: 277072
+MD5sum: abb78b39fa6c1006e887aa04750fe30b
+SHA1: 9629184e66fb08c411a321ed46b4e721858db5d2
+SHA256: 03c063309d08335484171ab7da189123bafa1cced4f9cf138cd0884db20e59ce
+SHA512: 73f151779849ab681e00bb259d75b19005e5d2f4c71de9c8afbeb75e89242eb2f74b0c2874d6bda2e88ec9345121ec3b933e5b532180599ea7f61d98147a89ba
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Description: reliable MTP client with minimalistic UI
+ Android-File-Transfer is a reliable MTP client with minimalistic UI.
+ Its features are:
+ 1. Simple Qt UI with progress dialogs.
+ 2. FUSE wrapper, supporting partial read/writes, allowing instant access
+      to your files.
+ 3. No file size limits.
+ 4. Automatically renames album cover to make it visible from media player.
+ 5. USB ‘Zerocopy’ support found in recent Linux kernel (no user/kernel
+      data copying).
+ 6. No extra dependencies (e.g. libptp/libmtp).
+ 7. Available as static/shared library.
+ 8. Command line tool (aft-mtp-cli).
+ .
+ This package provides command line tools (aft-mtp-cli and aft-mtp-mount).
+
+Package: android-file-transfer
+Architecture: amd64
+Version: 4.5-2.1~deb13
+Priority: optional
+Section: misc
+Source: android-file-transfer (4.5-2.1)
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Installed-Size: 929
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libmagic1t64 (>= 5.12), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0), android-file-transfer-tools (= 4.5-2.1~deb13)
+Filename: pool/main/android-file-transfer/trixie/android-file-transfer_4.5-2.1~deb13_amd64.deb
+Size: 303256
+MD5sum: 030c4813d12ad9b926f86c3e82d99602
+SHA1: 1faf089fc0d0322e6817ac617456d5e3f52d1ad3
+SHA256: 666d28243a05fa6dfea105b462c399e9fd0666143ceff0e51ca4f29a252baaff
+SHA512: d183d93c7a6017f09985e230cf45703e1472c5046808ffd83665d06a2f8f994ca0d005a0e649a2bd2ffc6f7fd63aafeae0d863b40e7bebd8947a1001290e7405
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Description: reliable MTP client with minimalistic UI
+ Android-File-Transfer is a reliable MTP client with minimalistic UI.
+ Its features are:
+ 1. Simple Qt UI with progress dialogs.
+ 2. FUSE wrapper, supporting partial read/writes, allowing instant access
+      to your files.
+ 3. No file size limits.
+ 4. Automatically renames album cover to make it visible from media player.
+ 5. USB ‘Zerocopy’ support found in recent Linux kernel (no user/kernel
+      data copying).
+ 6. No extra dependencies (e.g. libptp/libmtp).
+ 7. Available as static/shared library.
+ 8. Command line tool (aft-mtp-cli).
+ .
+ This package provides the Qt UI.
+
+Package: cccp-boot-meta
+Architecture: amd64
+Version: 1.5~deb13
+Priority: optional
+Section: metapackages
+Source: cccp-meta (1.5)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16
+Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
+Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-amd64-signed, wireless-regdb
+Filename: pool/main/cccp-meta/trixie/cccp-boot-meta_1.5~deb13_amd64.deb
+Size: 4328
+MD5sum: 3b35d26ef1e83bc3adf1bd39398a632f
+SHA1: deb3ffbca8a6ce2731621debc17e3fc84158a640
+SHA256: f81c7419fbb92639164a1740ca6cf3fc427b8c2389954c64d1e5f693deb7e872
+SHA512: ad0e2e636325358d081a7c738c1a707689ecf8974043d10fc7a36013dec4317d00d26d30c4580a10f6ff1b25fe60ce8c661c05c65c5669fe2518f03b0f5b1667
+Description: Kernel and boot packages
+
+Package: crossover-meta
+Architecture: amd64
+Version: 0.8~deb13
+Priority: optional
+Section: metapackages
+Source: crossover-meta (0.8)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 11
+Depends: crossover
+Recommends: libc6:i386, libdbus-1-3:i386, libfontconfig1:i386, libfreetype6:i386, libgl1-mesa-dri:i386, libgl1:i386, libgnutls30:i386, libudev1:i386, libvulkan1:i386, libx11-6:i386, libxcomposite1:i386, libxcursor1:i386, libxext6:i386, libxfixes3:i386, libxi6:i386, libxinerama1:i386, libxrandr2:i386, libxrender1:i386, libxxf86vm1:i386
+Filename: pool/main/crossover-meta/trixie/crossover-meta_0.8~deb13_amd64.deb
+Size: 2416
+MD5sum: c785015ba8e14458a980801648fea4fe
+SHA1: 19200cd3330541b0f916e3ede0d5c3b6e6a78b50
+SHA256: d4d028ebc20c20fe9be69557202785641d8546d0bcde3c9d0964061ea99e42c2
+SHA512: 2732dda08be49084eb4e1464dc7c84c23e336737e1216a5cc1b5dd875577c359ab28cf1d1451123404aedcb79aa475b627066865f67268c44456188dfcdda1ef
+Description: CrossOver meta-package
+
+Package: foot
+Architecture: amd64
+Version: 1.28.0-1.1~deb13
+Priority: optional
+Section: x11
+Source: foot (1.28.0-1.1)
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 701
+Provides: x-terminal-emulator
+Depends: init-system-helpers (>= 1.52), libc6 (>= 2.38), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
+Suggests: foot-themes
+Filename: pool/main/foot/trixie/foot_1.28.0-1.1~deb13_amd64.deb
+Size: 308720
+MD5sum: efdac4fec78f2a5bb17c6837500342a5
+SHA1: 35064166b1cce990e5c9987a24c1c563dad3801e
+SHA256: 3417fc4c645f5f58e4faf05421012ac242e7719d1352499f5b64bc9f72064198
+SHA512: d56818fed9d05f69ecbdd80d8ddb2400694317cd0e9692aa14831195b75879d9bbe491d3ea1f2d819352965d7021068170e42b702db1d21387d78909f228f8af
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ Features
+ .
+  * Fast
+  * Lightweight, in dependencies, on-disk and in-memory
+  * Wayland native
+  * DE agnostic
+  * User configurable font fallback
+  * On-the-fly DPI font size adjustment
+  * Scrollback search
+  * Color emoji support
+  * Server/daemon mode
+  * Multi-seat
+  * Synchronized Updates support
+  * Sixel image support
+
+Package: gtklock
+Architecture: amd64
+Version: 4.0.0.1-1~deb13
+Priority: optional
+Section: x11
+Source: gtklock (4.0.0.1-1)
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Installed-Size: 88
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.4), libgtk-session-lock0, libpam0g (>= 0.99.7.1)
+Filename: pool/main/gtklock/trixie/gtklock_4.0.0.1-1~deb13_amd64.deb
+Size: 19940
+MD5sum: 672ab1c0cd5318e7e8159370ee77ea1a
+SHA1: 455208eef1750d7e684d7e0a9595817f7a408449
+SHA256: 07a452cad1499cc6443c767149d74d01dc814134e34d5285a1465632670224b4
+SHA512: 1a31bd038c931079c3e38e8f95d3bfc12d922eca382905511f13fed73400ee9c6ea03e2b8dfdf4a5b24e6c8a6d7a661d452ff05dc3eec9b36465a1769b0fb92a
+Homepage: https://github.com/jovanlanik/gtklock
+Description: GTK-based lockscreen for wayland
+ gtklock is a simple but effective lockscreen for wlroots-based applications,
+ an alternative to swaylock. It features extensive configuration options and
+ can be themed using GTK themes.
+
+Package: llm-meta
+Architecture: amd64
+Version: 0.1~deb13
+Priority: optional
+Section: metapackages
+Source: llm-meta (0.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18
+Depends: llm, python3-prompt-toolkit, python3-rich
+Filename: pool/main/llm-meta/trixie/llm-meta_0.1~deb13_amd64.deb
+Size: 4580
+MD5sum: fca558a8ae4d561e7fd3f4a35078e8b9
+SHA1: 0718bc39f4d1b48d2944747f4be1dd77269d7f4d
+SHA256: 2c6f03ff9389c201df55a0f576f28c04875a56a7aeb79f1f5c0990b909385ac5
+SHA512: be6c86f8b8f56473277cb1d7e3ee9df951cdf81fb6f2f68053eb0c48fc37e75eecb2b583feb02ebb215aae346f7e0c3c01d1a6c313f99bf3baaada5dac0be27f
+Description: LLM meta-package
+
+Package: ncp
+Architecture: amd64
+Version: 0.10~deb13
+Priority: optional
+Section: utils
+Source: ncp (0.10)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 377
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.3), libstdc++6 (>= 14)
+Filename: pool/main/ncp/trixie/ncp_0.10~deb13_amd64.deb
+Size: 136688
+MD5sum: 56c6e8bcec1613a3681e791b9423b4e7
+SHA1: 55b60a2d8233377dc6530fd845b996669e55c65f
+SHA256: 9716361707d372ef439ea4201e2ffb5e5ac0a594c7c2f9b7abc7da1d74d08538
+SHA512: 82786865fedbb2366bf56c8e643986b6dfea2b069c7648ddb95ad59b869abaebafbad3c77677fc0d41b253221b200af7fb86b42db2ffdc363d81a617320e4ca5
+Description: New and improved, now asbestos-free copy utility
+
+Package: niri-meta
+Architecture: amd64
+Version: 0.53~deb13
+Priority: optional
+Section: metapackages
+Source: niri-meta (0.53)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6709
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
+Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
+Filename: pool/main/niri-meta/trixie/niri-meta_0.53~deb13_amd64.deb
+Size: 6537680
+MD5sum: 4d797b9fbb3b0c19d37b9c3bd7323e88
+SHA1: 6575a678273d5807b9404981145ba62a5a1ad70d
+SHA256: 0a2d903ebe0ba54ba60a909a475c1d7356db06cd461bf36d4ffd4192e3143c1c
+SHA512: 1feb9a00c3584277c0439315d95add59431fa6799cb9f08b631745e14f30764af63c76d959bfccb14491d42255e0be122e7048b4cbcb4465e734f36242703ea0
+Description: Shell meta-package
+ Copy the following into your home dir:
+ * /etc/skel/.config/
+ * /etc/skel/.profile.d/
+ .
+ Add the following to your .config/niri/config.kdl:
+ * include "/etc/niri/config.kdl"
+
+Package: niri
+Architecture: amd64
+Version: 26.04-4~deb13
+Priority: optional
+Section: x11
+Source: niri (26.04-4)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 27135
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.4.10), libdisplay-info2 (>= 0.2.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.21.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.75), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
+Filename: pool/main/niri/trixie/niri_26.04-4~deb13_amd64.deb
+Size: 6556080
+MD5sum: d1bde8e3ad902257f718e27cfef1bae3
+SHA1: a87fba84b10bdaa30d97bb68b792c534c5e7892a
+SHA256: 53dee222df3468685fb170fdaa9ad827ffb2bb9d946afd2f2cebac2992a17bf1
+SHA512: 17f75c5c97c523e41956a933d0affd3856ae82f954ccb52a988f74b77d79501c181f8d1c824da6cf5ed18f07d1a1c13bbc1612e36a09c4083ddb25936df87d62
+Homepage: https://yalter.github.io/niri
+Description: A scrollable-tiling Wayland compositor
+ Windows are arranged in columns on an infinite strip going to the right.
+ Opening a new window never causes existing windows to resize.
+ .
+ Every monitor has its own separate window strip. Windows can never "overflow"
+ onto an adjacent monitor.
+ .
+ Workspaces are dynamic and arranged vertically. Every monitor has an
+ independent set of workspaces, and there's always one empty workspace present
+ all the way down.
+ .
+ The workspace arrangement is preserved across disconnecting and connecting
+ monitors where it makes sense. When a monitor disconnects, its workspaces will
+ move to another monitor, but upon reconnection they will move back to the
+ original monitor.
+
+Package: pycal
+Architecture: amd64
+Version: 0.1.1~deb13
+Priority: optional
+Section: utils
+Source: pycal (0.1.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 17
+Depends: python3
+Filename: pool/main/pycal/trixie/pycal_0.1.1~deb13_amd64.deb
+Size: 3900
+MD5sum: a466a14f62060f0989506b608982648b
+SHA1: 698a54cc417fffd955b9f1c2b0e015628a65d8cb
+SHA256: 5a485ca1cb6d5f97ddd686b466c978f87e517f041409e065c4ca65427a14165d
+SHA512: d508a263b36dbea487ff45d2be4243316c7ecedba29f637dff1d545077ea977c1dacee483f01f4c3fb90b9f62fce94140dd7544388c4b497a735cc0ffff4f6d9
+Description: Calendar display utility
+
+Package: sessionctl
+Architecture: amd64
+Version: 0.5~deb13
+Priority: optional
+Section: admin
+Source: sessionctl (0.5)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 13
+Depends: systemd
+Filename: pool/main/sessionctl/trixie/sessionctl_0.5~deb13_amd64.deb
+Size: 2932
+MD5sum: b0690c90253504a8ccb46e9161035a5f
+SHA1: b98314165d9f572d69e4355b8303b40f6c9a6aac
+SHA256: 0571c36528d185cfc71d089154fbe150cc7c8d88c2d8de09d132d12763cbd731
+SHA512: e625561cd994c39f131d9640ffb382a67d43aeee239ba7cec2c2f142c0a66959bee20ed70112726b8db6fddecacf6f65413be757eb1473072a08208556f87f05
+Description: Session control wrapper script
+
+Package: xwayland-satellite
+Architecture: amd64
+Version: 0.8.3-1~deb13
+Priority: optional
+Section: x11
+Source: xwayland-satellite (0.8.3-1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5836
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), init-system-helpers (>= 1.52), xwayland (>= 23.1)
+Filename: pool/main/xwayland-satellite/trixie/xwayland-satellite_0.8.3-1~deb13_amd64.deb
+Size: 1552488
+MD5sum: 52c96d811ea2fd7600386d11646d317f
+SHA1: 496d712e2b01b5b5ca03acbb7f38c09a94e673aa
+SHA256: 041d38a508abd4f18ed902687ec67d3744c7ab2d406781525bf71a49ffe46e8c
+SHA512: b33a616b6bddef436eac60ebaf4061bcf4272ff91f3e0cf890c4465f1eb50351b95473a2c82de242fc640b49e461650d5da498114b897d864b57552d04156bc0
+Description: Xwayland outside your Wayland
+ xwayland-satellite grants rootless Xwayland integration to any Wayland
+ compositor implementing xdg_wm_base and viewporter. This is
+ particularly useful for compositors that (understandably) do not want
+ to go through implementing support for rootless Xwayland themselves.
+

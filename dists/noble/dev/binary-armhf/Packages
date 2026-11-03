@@ -1,0 +1,50 @@
+Package: libosc++-dev
+Architecture: armhf
+Version: 2.1~ubuntu24.04
+Priority: optional
+Section: libdevel
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 476
+Depends: libosc++ (= 2.1~ubuntu24.04)
+Filename: pool/dev/osc++/noble/libosc++-dev_2.1~ubuntu24.04_armhf.deb
+Size: 108220
+MD5sum: d6cf040195ec717460618dab50e57791
+SHA1: b141998336941738ef56ce6b41e6700a9fe13f8a
+SHA256: 3af6ab2abde2f8aff7b0939eb873bf1ec7b6aabfa1eb947e9e0db805fa3dd488
+SHA512: 640552c6c1ac284f656054eec0cdc2271ba46597411749c9e1c8b993e5467d840159043629a4b83c0486c265cfb336061aff26fd76bc893cef010a687522a74e
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains development files.
+
+Package: libosc++
+Architecture: armhf
+Version: 2.1~ubuntu24.04
+Priority: optional
+Section: libs
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 170
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.5), libstdc++6 (>= 12)
+Filename: pool/dev/osc++/noble/libosc++_2.1~ubuntu24.04_armhf.deb
+Size: 76414
+MD5sum: 59868e483ec44d79dd4f716289ffddfd
+SHA1: c785ba5b8317828896d5fc1aaf0f1de117ba7abe
+SHA256: dc3c1570b2cb39924b1d6441ec872316158f039721ad67854ff72e8a2eb5fa2e
+SHA512: a3ab17700b26070da2cb6c1f528c07f5de8eaedbbb8846c1ba3fc5a7eb80f620ea9390b3a58a7144df1280fe3a947226c1299baf3ca547832d4541ce39212edf
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains the shared library.
+

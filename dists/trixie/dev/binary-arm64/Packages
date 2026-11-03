@@ -1,0 +1,50 @@
+Package: libosc++-dev
+Architecture: arm64
+Version: 2.1~deb13
+Priority: optional
+Section: libdevel
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 563
+Depends: libosc++ (= 2.1~deb13)
+Filename: pool/dev/osc++/trixie/libosc++-dev_2.1~deb13_arm64.deb
+Size: 96560
+MD5sum: 26ffa82209b4c1c3e0b96d1a7ac9ad19
+SHA1: c30331229af18dfa3c9c457c7264eff22cf6ff5d
+SHA256: e782588ac45eb37b7749195fe8473a181f5ccd28238113615d26d55431df1bf4
+SHA512: 1e6b6272a758bfbae0cf9ce0807eccd0675255c75ca718ec0c3246f706471777096d7128444bf7c9bc9fa437ee00833355fbb505f50abaf616f18b44353207b1
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains development files.
+
+Package: libosc++
+Architecture: arm64
+Version: 2.1~deb13
+Priority: optional
+Section: libs
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 276
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: pool/dev/osc++/trixie/libosc++_2.1~deb13_arm64.deb
+Size: 74500
+MD5sum: 40ca82d12d62da2bb5a9b433b737e815
+SHA1: bcd3ddcd2098f7c52b2dd7d56317c0c679a37cab
+SHA256: 68018d5c4ff3e0dc61c2ec3b590be5d1eb0a32c8904c7f942d635b76b232bb12
+SHA512: 9c9ed730124904df675ced1d38d223dbec8bba0a4070a4fd6a89918438cd54329408b6e076d9480495e73f608905dbd2450a2f21ce70cb6b65d3e279ec9d9781
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains the shared library.
+

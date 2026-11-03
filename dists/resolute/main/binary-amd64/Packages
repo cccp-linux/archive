@@ -1,0 +1,303 @@
+Package: android-file-transfer-tools
+Architecture: amd64
+Version: 4.5-2.1~ubuntu26.04
+Priority: optional
+Section: misc
+Source: android-file-transfer (4.5-2.1)
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Installed-Size: 784
+Depends: libc6 (>= 2.38), libfuse3-4 (>= 3.17.2), libgcc-s1 (>= 3.3.1), libmagic1t64 (>= 5.12), libreadline8t64 (>= 6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0)
+Filename: pool/main/android-file-transfer/resolute/android-file-transfer-tools_4.5-2.1~ubuntu26.04_amd64.deb
+Size: 268752
+MD5sum: c94a955395102a6be47f29533fdb6be8
+SHA1: 53a62ef0d3dbb4fe868e94c46c8d1bf617e2e93f
+SHA256: 97a4e0e219812a1c50b64b9b4c963eb4e57c80e89caf39d9d4bd338913660a2a
+SHA512: 135b8589f9c545aa3301e7b3159d52445ddc36d0f7b17599278e7c8b60f7d503be9a7530a3f7594f8188687b8a1316a57fef7acc46cdcad117bd918f783c9b1a
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Description: reliable MTP client with minimalistic UI
+ Android-File-Transfer is a reliable MTP client with minimalistic UI.
+ Its features are:
+ 1. Simple Qt UI with progress dialogs.
+ 2. FUSE wrapper, supporting partial read/writes, allowing instant access
+      to your files.
+ 3. No file size limits.
+ 4. Automatically renames album cover to make it visible from media player.
+ 5. USB ‘Zerocopy’ support found in recent Linux kernel (no user/kernel
+      data copying).
+ 6. No extra dependencies (e.g. libptp/libmtp).
+ 7. Available as static/shared library.
+ 8. Command line tool (aft-mtp-cli).
+ .
+ This package provides command line tools (aft-mtp-cli and aft-mtp-mount).
+
+Package: android-file-transfer
+Architecture: amd64
+Version: 4.5-2.1~ubuntu26.04
+Priority: optional
+Section: misc
+Source: android-file-transfer (4.5-2.1)
+Maintainer: Dylan Aïssi <daissi@debian.org>
+Installed-Size: 741
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libmagic1t64 (>= 5.12), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0), android-file-transfer-tools (= 4.5-2.1~ubuntu26.04)
+Filename: pool/main/android-file-transfer/resolute/android-file-transfer_4.5-2.1~ubuntu26.04_amd64.deb
+Size: 270892
+MD5sum: 85a830e5b80770c451407ab0bd7eca9d
+SHA1: e876d2bc08b2ae45dd5612495db99be6b1b81ae4
+SHA256: bb19a9aa717ecddda0857530578995edab5230b5aa617e81b4e156c1b53cb377
+SHA512: f6298f30bea0fab00594ed73a5ab3904ef8f899c7e0a6625569e8abd0dd43871b0d83c3f8eeb7485fbaea6213cbc23171fd4e68d2e04361ce6c0732f0afb0e69
+Homepage: https://whoozle.github.io/android-file-transfer-linux/
+Description: reliable MTP client with minimalistic UI
+ Android-File-Transfer is a reliable MTP client with minimalistic UI.
+ Its features are:
+ 1. Simple Qt UI with progress dialogs.
+ 2. FUSE wrapper, supporting partial read/writes, allowing instant access
+      to your files.
+ 3. No file size limits.
+ 4. Automatically renames album cover to make it visible from media player.
+ 5. USB ‘Zerocopy’ support found in recent Linux kernel (no user/kernel
+      data copying).
+ 6. No extra dependencies (e.g. libptp/libmtp).
+ 7. Available as static/shared library.
+ 8. Command line tool (aft-mtp-cli).
+ .
+ This package provides the Qt UI.
+
+Package: cccp-boot-meta
+Architecture: amd64
+Version: 1.5~ubuntu26.04
+Priority: optional
+Section: metapackages
+Source: cccp-meta (1.5)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16
+Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
+Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-amd64-signed, wireless-regdb
+Filename: pool/main/cccp-meta/resolute/cccp-boot-meta_1.5~ubuntu26.04_amd64.deb
+Size: 4236
+MD5sum: d285d5688a033ab93ce7eb2e79899f0b
+SHA1: c99a2588a348c94fe9f9e58bb42ca849e96c734e
+SHA256: a17c90e7773c49a8a6d4b8942bb3c6d5109bc7a4364f51bb0256a5d73fc8e4dc
+SHA512: 75a31f3aeecaaa4b45d19c3c0b0088ba1f779a03a5f6f2efd904621431e13eb4b6a1ae754269613f57684ff280073d720501cca93e52b5c1dcc88ff735e361ae
+Description: Kernel and boot packages
+
+Package: crossover-meta
+Architecture: amd64
+Version: 0.8~ubuntu26.04
+Priority: optional
+Section: metapackages
+Source: crossover-meta (0.8)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 11
+Depends: crossover
+Recommends: libc6:i386, libdbus-1-3:i386, libfontconfig1:i386, libfreetype6:i386, libgl1-mesa-dri:i386, libgl1:i386, libgnutls30:i386, libudev1:i386, libvulkan1:i386, libx11-6:i386, libxcomposite1:i386, libxcursor1:i386, libxext6:i386, libxfixes3:i386, libxi6:i386, libxinerama1:i386, libxrandr2:i386, libxrender1:i386, libxxf86vm1:i386
+Filename: pool/main/crossover-meta/resolute/crossover-meta_0.8~ubuntu26.04_amd64.deb
+Size: 2306
+MD5sum: fffd057c551975cec9906b5c9be3272d
+SHA1: 6bd4190d23994c7b0d1c73596f319345c3162219
+SHA256: 9bbbe92ef16c086647a026355003ded373910874bbe81230bcfec17a2824c30e
+SHA512: 29a2bc755a54c2b157ff735f37538ad8ba961d6ce96e109b809917d08f2e47f23376c9b6e58e898c8b0def299a5335563dd3e3189b60cf6c29e99eb0781ce5be
+Description: CrossOver meta-package
+
+Package: foot
+Architecture: amd64
+Version: 1.28.0-1.1~ubuntu26.04
+Priority: optional
+Section: x11
+Source: foot (1.28.0-1.1)
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 716
+Provides: x-terminal-emulator
+Depends: libc6 (>= 2.43), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.24.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
+Suggests: foot-themes
+Filename: pool/main/foot/resolute/foot_1.28.0-1.1~ubuntu26.04_amd64.deb
+Size: 321436
+MD5sum: a6955d9dbabcb03ec260c6083776d616
+SHA1: 67a5f5b64b4f73afc1b0b9f5f95371a5f4c31ee8
+SHA256: d3e3405de1fc21d0941aa4851b464f9910e86cc6d8bbf24fcda30ff8a3e19162
+SHA512: 7dc2c4aa0f7264f292ac5a1dc5eec2ca99ce5210bebb7b66f497386dbec4fca32da9afd9f6c1ac5c7d7bd8a2c7e46cb0bfe31f302692089a26ddadbf12ba3fd5
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ Features
+ .
+  * Fast
+  * Lightweight, in dependencies, on-disk and in-memory
+  * Wayland native
+  * DE agnostic
+  * User configurable font fallback
+  * On-the-fly DPI font size adjustment
+  * Scrollback search
+  * Color emoji support
+  * Server/daemon mode
+  * Multi-seat
+  * Synchronized Updates support
+  * Sixel image support
+
+Package: gtklock
+Architecture: amd64
+Version: 4.0.0.1-1~ubuntu26.04
+Priority: optional
+Section: x11
+Source: gtklock (4.0.0.1-1)
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Installed-Size: 92
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.4), libgtk-session-lock0, libpam0g (>= 0.99.7.1)
+Filename: pool/main/gtklock/resolute/gtklock_4.0.0.1-1~ubuntu26.04_amd64.deb
+Size: 21652
+MD5sum: 2f2ccd70fb86a49d6cb9e44f2ea78bf6
+SHA1: 440d6da2ae27037e8509c40439adca603b0bc8db
+SHA256: c7a1e23d97d0b89d5672ec4f73f685ff79a1c20453af566c75c3160e6be5ff33
+SHA512: 490a3598030155666e035aea0a618af76a3c9520960335da136343a75d59b333241f521adf3727cdd41d69a501b0a095a1ec4c1a4ee0e24f7d624bb3e7c75d27
+Homepage: https://github.com/jovanlanik/gtklock
+Description: GTK-based lockscreen for wayland
+ gtklock is a simple but effective lockscreen for wlroots-based applications,
+ an alternative to swaylock. It features extensive configuration options and
+ can be themed using GTK themes.
+
+Package: llm-meta
+Architecture: amd64
+Version: 0.1~ubuntu26.04
+Priority: optional
+Section: metapackages
+Source: llm-meta (0.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18
+Depends: llm, python3-prompt-toolkit, python3-rich
+Filename: pool/main/llm-meta/resolute/llm-meta_0.1~ubuntu26.04_amd64.deb
+Size: 4534
+MD5sum: e82bc1b66126fb6409829efd73484a11
+SHA1: 77b035cea5a408326d9296cd2b60211c2266c1da
+SHA256: b23bac68e4e15d65bc97d980ddb4561a861f9be7b93e9921c8d81c4cef776566
+SHA512: 9cab2b39d3bbe309b3bd6c50f0eb329170b20e5bf7de77b6b98ac5018803ffd7ddcaa3055e98345ce386df70515884206bcefa0c90d50b6c5aacc3348c400816
+Description: LLM meta-package
+
+Package: ncp
+Architecture: amd64
+Version: 0.10~ubuntu26.04
+Priority: optional
+Section: utils
+Source: ncp (0.10)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 343
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.3), libstdc++6 (>= 15)
+Filename: pool/main/ncp/resolute/ncp_0.10~ubuntu26.04_amd64.deb
+Size: 137828
+MD5sum: b722546eca311f4c83ee7fceebf6c980
+SHA1: ae3b3f1ac701f8d1ddfef516d73fc950553d7c4c
+SHA256: 38df8eba7b0e162312e972aaceb5c666c1a9ef61e9605ed587d2aa1a04985eb5
+SHA512: 071f9ad9879d92edeb11b29a6175a0c3b094c9e18eba301d1f357427b2f12bce48ff6b026c15c14d6ad8a28459e8d6e9afee4c6aab5d42d1a1cb7b3623524071
+Description: New and improved, now asbestos-free copy utility
+
+Package: niri-meta
+Architecture: amd64
+Version: 0.53~ubuntu26.04
+Priority: optional
+Section: metapackages
+Source: niri-meta (0.53)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6709
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
+Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
+Filename: pool/main/niri-meta/resolute/niri-meta_0.53~ubuntu26.04_amd64.deb
+Size: 6522852
+MD5sum: 45beefb31a29db424ae3c441b0a9c633
+SHA1: fe735c3290be2550143cd73899afda1ff2e2ce0d
+SHA256: 27662e7d1d89a086f84a9970d4c30131637e83fe03ca6b2559fcc8f92951c1c0
+SHA512: 0d979802a6974f1ffd04bb60fa219b3d740fd04fdcd0ec2cfe09e6ae2f668dc1344a218b6f23874138d63d9eb9afad003014150bab23bc147c7bbe0c39752aa2
+Description: Shell meta-package
+ Copy the following into your home dir:
+ * /etc/skel/.config/
+ * /etc/skel/.profile.d/
+ .
+ Add the following to your .config/niri/config.kdl:
+ * include "/etc/niri/config.kdl"
+
+Package: niri
+Architecture: amd64
+Version: 26.04-4~ubuntu26.04
+Priority: optional
+Section: x11
+Source: niri (26.04-4)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 25468
+Depends: libc6 (>= 2.43), libcairo2 (>= 1.4.10), libdisplay-info3 (>= 0.3.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.30.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpipewire-0.3-0t64 (>= 0.3.75), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libxkbcommon0 (>= 0.5.0), libwayland-server0
+Recommends: gnome-keyring, xdg-desktop-portal-gnome, xdg-desktop-portal-gtk, xwayland-satellite
+Suggests: alacritty, brightness-udev, brightnessctl, fuzzel, mako-notifier, playerctl, waybar, wireplumber
+Filename: pool/main/niri/resolute/niri_26.04-4~ubuntu26.04_amd64.deb
+Size: 6933128
+MD5sum: 2e1f8dd84b77837416927672f9026870
+SHA1: d24429a01a610adb95df2fd6c294af0adc0ac443
+SHA256: 3843f4619aaa2fe73548459de12a57bfb98f1d81472139cfafefbd69b1c88959
+SHA512: e84e748d518afae09b165eeb29afb455777caace1829d5fa7d8020609e8bce9704d8b77ab540af84d1878c262142fcf4f2938da370fd50a24ddbbedf31a40954
+Homepage: https://yalter.github.io/niri
+Description: A scrollable-tiling Wayland compositor
+ Windows are arranged in columns on an infinite strip going to the right.
+ Opening a new window never causes existing windows to resize.
+ .
+ Every monitor has its own separate window strip. Windows can never "overflow"
+ onto an adjacent monitor.
+ .
+ Workspaces are dynamic and arranged vertically. Every monitor has an
+ independent set of workspaces, and there's always one empty workspace present
+ all the way down.
+ .
+ The workspace arrangement is preserved across disconnecting and connecting
+ monitors where it makes sense. When a monitor disconnects, its workspaces will
+ move to another monitor, but upon reconnection they will move back to the
+ original monitor.
+
+Package: pycal
+Architecture: amd64
+Version: 0.1.1~ubuntu26.04
+Priority: optional
+Section: utils
+Source: pycal (0.1.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 17
+Depends: python3
+Filename: pool/main/pycal/resolute/pycal_0.1.1~ubuntu26.04_amd64.deb
+Size: 3832
+MD5sum: 3b9ab6867f8a15a0ae527f843ffe3768
+SHA1: 29f089b863f7970d795cbce04edae364a7ea66fa
+SHA256: 36fbee6b27bce65f42f72fd13bc86be5992ddca767180dbbcb7d969cce105967
+SHA512: 4a6b2e357da44fdd419265479ac1aaccbffca1f8bdac8766b07a1f27cc3e08321f47f4f2e6e739742c22f6744da6c322c5d644285aec5c188f33c8096f1bc364
+Description: Calendar display utility
+
+Package: sessionctl
+Architecture: amd64
+Version: 0.5~ubuntu26.04
+Priority: optional
+Section: admin
+Source: sessionctl (0.5)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 13
+Depends: systemd
+Filename: pool/main/sessionctl/resolute/sessionctl_0.5~ubuntu26.04_amd64.deb
+Size: 2860
+MD5sum: edacb513047733e491a86c5ce4944259
+SHA1: 7254bbef0eb7b3cee7cfb2d203450a5213df2db1
+SHA256: 3350b089dd80e29dc324bcd0a824717ce6bce2bef0f8bf99d6a2da01484eb8ff
+SHA512: 5b310fb1eaebafea860b9f425d9d66408abd62637432d0138da6803527a34e6eb9d00fc8b55cc5683525e80f7248e1f204499da0e97d666982c961510008e8f1
+Description: Session control wrapper script
+
+Package: xwayland-satellite
+Architecture: amd64
+Version: 0.8.3-1~ubuntu26.04
+Priority: optional
+Section: x11
+Source: xwayland-satellite (0.8.3-1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5423
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), xwayland (>= 23.1)
+Filename: pool/main/xwayland-satellite/resolute/xwayland-satellite_0.8.3-1~ubuntu26.04_amd64.deb
+Size: 1631908
+MD5sum: f61d060160220dc45e02f2995298dd7e
+SHA1: 4ee13f190fa3a775429e960488e2aac429b0ba6d
+SHA256: 38f254caf3af32c15e9d5345dd19875adadc3422a258a171876a8f7f0ea87275
+SHA512: 4aca6e34b6840848082ada9b00fd84d15aa15a5ef5f023e2643975a0ece073c88dd410cc4d3a4206ccc34966a70af38564a82b72d4a5fe9b965f40ba63c47b45
+Description: Xwayland outside your Wayland
+ xwayland-satellite grants rootless Xwayland integration to any Wayland
+ compositor implementing xdg_wm_base and viewporter. This is
+ particularly useful for compositors that (understandably) do not want
+ to go through implementing support for rootless Xwayland themselves.
+

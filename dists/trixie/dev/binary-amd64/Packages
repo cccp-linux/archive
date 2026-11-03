@@ -1,0 +1,50 @@
+Package: libosc++-dev
+Architecture: amd64
+Version: 2.1~deb13
+Priority: optional
+Section: libdevel
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 555
+Depends: libosc++ (= 2.1~deb13)
+Filename: pool/dev/osc++/trixie/libosc++-dev_2.1~deb13_amd64.deb
+Size: 103476
+MD5sum: 9bcb2dcc3fa73582c6b1959670ba05c4
+SHA1: 751eebf5f12aca0a411715dd77f4504d9e8e2314
+SHA256: acb2a9861c7c8c66510c8fc981295a3ec798e06e191d4ee86b7cf71d2ec1dac3
+SHA512: 204fd2461d5339b6d926be13fa7b0b0fb74023813ea62432d3783b99b7bfb4c35bf9882af4017c573adcccaf1283a0183d25dce9a66cab665a23986061e8827f
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains development files.
+
+Package: libosc++
+Architecture: amd64
+Version: 2.1~deb13
+Priority: optional
+Section: libs
+Source: osc++ (2.1)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 272
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: pool/dev/osc++/trixie/libosc++_2.1~deb13_amd64.deb
+Size: 84620
+MD5sum: 1f7119eb153794ed1361d93c4b44cd5b
+SHA1: 3ac0546762868634b7d087fa86f07fbd9cb68075
+SHA256: 935019a3bedf663092fea4d05b20ce65209ece1f8ab374ef81242325819e59ed
+SHA512: bc54c0fed7913b836326c107ec16b3b9c6a4cfb6579f3868e5ea7ff18dfb4684fbe9f86106100c7d386558249259b8b936153f69e45a6bd355815f71db5e0b0e
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains the shared library.
+
