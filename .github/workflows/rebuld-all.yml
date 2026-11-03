@@ -32,8 +32,3 @@ jobs:
     uses: ./.github/workflows/build-package.yml
     with:
       path: ${{ matrix.path }}
-
-  publish:
-    needs: build
-    uses: ./.github/workflows/publish.yml
-    secrets: inherit
