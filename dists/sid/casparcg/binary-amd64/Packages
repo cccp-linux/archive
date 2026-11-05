@@ -136,20 +136,20 @@ Description: CasparCG Media Scanner
 
 Package: casparcg-server-2.5
 Architecture: amd64
-Version: 2.5.1-5
+Version: 2.5.2~pre1-1
 Multi-Arch: foreign
 Priority: optional
 Section: video
 Source: server-2.5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 6258
+Installed-Size: 6266
 Depends: libavcodec63 (>= 7:9.0.2), libavdevice63 (>= 7:9.0.2), libavfilter12 (>= 7:9.0.2), libavformat63 (>= 7:9.0.2), libavutil61 (>= 7:9.0.2), libboost-chrono1.92.0 (>= 1.92.0), libboost-context1.92.0 (>= 1.92.0), libboost-filesystem1.92.0 (>= 1.92.0), libboost-locale1.92.0 (>= 1.92.0), libboost-log1.92.0 (>= 1.92.0), libboost-thread1.92.0 (>= 1.92.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3), libglew2.3 (>= 2.3.1+dfsg2), libopenal1 (>= 1.14), libopengl0, libsfml-system3.1 (>= 3.1.0+dfsg), libsfml-window3.1 (>= 3.1.0+dfsg), libstdc++6 (>= 14), libswresample7 (>= 7:9.0.2), libswscale10 (>= 7:9.0.2), libtbb12 (>= 2021.4.0), libx11-6, libcef142, libcef142-data, python3:any
-Filename: pool/casparcg/server-2.5/sid/casparcg-server-2.5_2.5.1-5_amd64.deb
-Size: 1729972
-MD5sum: ddaa884c58cefd40b5029616ba5b25ff
-SHA1: 43d50aaf099c2cd884843988618b95fae3ab9c08
-SHA256: 75c63ed70a48cef25281c2a9d254b43a86e746be31954fa068bd9021c7b42f60
-SHA512: 25e09cc9fb9ed1ea39897c760216a397522648cbf66e25e1ad36ebf67f7c3b6d9f02dbced5bca6e3fa24b9aa98fdf203b758134e3cfe5536f8286eb90d97a9e6
+Filename: pool/casparcg/server-2.5/sid/casparcg-server-2.5_2.5.2~pre1-1_amd64.deb
+Size: 1734544
+MD5sum: b0b11624571af30578f3bdbf31d6f928
+SHA1: 698b3401c493d96190b98ed3ee8a086b8cce1ef2
+SHA256: ac2e598a6e4161a144cf95996ca893306aa66ae30ea4a1ecb6ae17d33f296f0f
+SHA512: ab30b107355f8be25803ec1b3cd973187c43441e26ac66e36a833fa0093a610f5c3f7cd71588c07aacc315ca23f1537da7150b775b095542a8345a7e5777f190
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional

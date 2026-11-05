@@ -99,20 +99,20 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-server-2.5
 Architecture: arm64
-Version: 2.5.1-5~deb13
+Version: 2.5.2~pre1-1~deb13
 Multi-Arch: foreign
 Priority: optional
 Section: video
-Source: server-2.5 (2.5.1-5)
+Source: server-2.5 (2.5.2~pre1-1)
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 6623
 Depends: libavcodec61 (>= 7:7.1.5), libavdevice61 (>= 7:7.1.5), libavfilter10 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libboost-chrono1.83.0t64 (>= 1.83.0), libboost-context1.83.0 (>= 1.83.0), libboost-filesystem1.83.0 (>= 1.83.0), libboost-locale1.83.0 (>= 1.83.0), libboost-log1.83.0 (>= 1.83.0), libboost-thread1.83.0 (>= 1.83.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3), libglew2.2 (>= 2.2.0-4+b2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.1.5), libswscale8 (>= 7:7.1.5), libtbb12 (>= 2022.1.0), libx11-6, libcef142, libcef142-data, python3:any
-Filename: pool/casparcg/server-2.5/trixie/casparcg-server-2.5_2.5.1-5~deb13_arm64.deb
-Size: 1528196
-MD5sum: 6621baa55346f04958db2690666b6510
-SHA1: 525043226a2076e7a33efd6e6198b28d244d1b92
-SHA256: e65fbf2bba52328b2685eae39ae81d8d60c2097c91681a46957d968d0f2c3992
-SHA512: bb989009eff39daa2f515affbe9e1f6545d82a47566e1995f48263ca8cd0acb53cf91b60149e9cd0421ccf08bf63f44955cbe0c50def0c320a110fc032c5f302
+Filename: pool/casparcg/server-2.5/trixie/casparcg-server-2.5_2.5.2~pre1-1~deb13_arm64.deb
+Size: 1529340
+MD5sum: bb2ee921704d913e41869e00ba5013aa
+SHA1: 70d2774bc2743adb8ebc385fafc72bb467bcd0fe
+SHA256: 2d5af7e1cc3ee6e72258a9b95021e6c3d8e4df08f860a958ea5fb91bea7afc62
+SHA512: 813603316173dc2d28eb0b9f67f8457ce10595ca630b544f0138f2953120c4f99e2662d7125641df916effc7a122ee15a17b7fafeb5fccbcf69cdd1d8a729861
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
