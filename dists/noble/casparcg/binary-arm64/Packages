@@ -99,20 +99,20 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-server-2.5
 Architecture: arm64
-Version: 2.5.2~pre1-1~ubuntu24.04
+Version: 2.5.2~pre2-1~ubuntu24.04
 Multi-Arch: foreign
 Priority: optional
 Section: video
-Source: server-2.5 (2.5.2~pre1-1)
+Source: server-2.5 (2.5.2~pre2-1)
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 4927
 Depends: libavcodec60 (>= 7:6.0), libavdevice60 (>= 7:6.0), libavfilter9 (>= 7:6.0), libavformat60 (>= 7:6.0), libavutil58 (>= 7:6.0), libboost-chrono1.83.0t64 (>= 1.83.0), libboost-context1.83.0 (>= 1.83.0), libboost-coroutine1.83.0 (>= 1.83.0), libboost-filesystem1.83.0 (>= 1.83.0), libboost-locale1.83.0 (>= 1.83.0), libboost-log1.83.0 (>= 1.83.0), libboost-thread1.83.0 (>= 1.83.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4build1), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.1+dfsg), libsfml-system2.6 (>= 2.6.1+dfsg), libsfml-window2.6 (>= 2.6.1+dfsg), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libtbb12 (>= 2021.11.0), libx11-6, libcef142, libcef142-data, python3:any
-Filename: pool/casparcg/server-2.5/noble/casparcg-server-2.5_2.5.2~pre1-1~ubuntu24.04_arm64.deb
-Size: 1387508
-MD5sum: 0c0c8c6e2ef6acaaae329f36fd8079d9
-SHA1: 79967165a35c73f4216dc67efff4948df443f072
-SHA256: d02bbaa8b60eb42f48aa27791c00ec3921e871674597abe8246f8095cfa43910
-SHA512: 7482f6bef3b7ed2745a590dcb45de8cd1100e0299af29d2e3e5a8e7549b4989a21f8d6b35d121521b204a9602f4b19e51577d6f788f2c347ebc1840214f21084
+Filename: pool/casparcg/server-2.5/noble/casparcg-server-2.5_2.5.2~pre2-1~ubuntu24.04_arm64.deb
+Size: 1387062
+MD5sum: e7001e41efc780247bf7117032a0b9d7
+SHA1: 86018bdd15b4cf634c5dd380b86f800e4fab6548
+SHA256: 31ed1ed50c917245d0343a190eaa0aa94cde6294f8fd71ee652d006c59ed97ae
+SHA512: 2698f566f0c55eb251bcb1ded09d1b94be8a5c0b48ba60c2bde8aa1a6aee25444d9691c17b84d9405bd887fe89dcaa6f5ebe7891f4427404edf608e0f7fa3213
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional

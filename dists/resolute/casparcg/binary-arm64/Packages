@@ -99,20 +99,20 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-server-2.5
 Architecture: arm64
-Version: 2.5.2~pre1-1~ubuntu26.04
+Version: 2.5.2~pre2-1~ubuntu26.04
 Multi-Arch: foreign
 Priority: optional
 Section: video
-Source: server-2.5 (2.5.2~pre1-1)
+Source: server-2.5 (2.5.2~pre2-1)
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 5057
 Depends: libavcodec62 (>= 7:8.0.1), libavdevice62 (>= 7:8.0.1), libavfilter11 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libboost-chrono1.90.0 (>= 1.90.0), libboost-context1.90.0 (>= 1.90.0), libboost-filesystem1.90.0 (>= 1.90.0), libboost-locale1.90.0 (>= 1.90.0), libboost-log1.90.0 (>= 1.90.0), libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.2 (>= 2.2.0-4build2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-system3.0 (>= 3.0.2+dfsg), libsfml-window3.0 (>= 3.0.2+dfsg), libstdc++6 (>= 14), libswresample6 (>= 7:8.0.1), libswscale9 (>= 7:8.0.1), libtbb12 (>= 2022.3.0), libx11-6, libcef142, libcef142-data, python3:any
-Filename: pool/casparcg/server-2.5/resolute/casparcg-server-2.5_2.5.2~pre1-1~ubuntu26.04_arm64.deb
-Size: 1435380
-MD5sum: f784aea09e2b9e75045a80e9007cc6df
-SHA1: 7ed4a553f0b03156d765c8b0291539b2523273f8
-SHA256: 531a28710a58e1bdbec8560e9ada3e9ba3ae257476afabff5096d6652542790c
-SHA512: b8b31acd10ecd5b0acc0dcdcbc6e012fb5f54392e5e4b9325aac4536a9b0e5f13b22f65bcc48e1d05fa9552b726a6d1d4fa4868b3c545d32ac7cd21d114d4d67
+Filename: pool/casparcg/server-2.5/resolute/casparcg-server-2.5_2.5.2~pre2-1~ubuntu26.04_arm64.deb
+Size: 1435408
+MD5sum: 56f0e4796a3c688350413f3d5dc8aa73
+SHA1: 9027c14b0d53699eef7630610a475236a48b7bf0
+SHA256: 18438272ac92bbc8e987ef5990462ca66473a8bd1eb15c10e26bb9ace9c094af
+SHA512: d2408329ea1f99d868f4bae14ff94a0bb5299a64bb24b55cc6e93e3a9e95c55c9c4579916491ab45683e92575f894c45c9d68126cf3149364f1d8a11bb38c8ca
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional

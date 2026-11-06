@@ -99,20 +99,20 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-server-2.5
 Architecture: armhf
-Version: 2.5.2~pre1-1~ubuntu24.04
+Version: 2.5.2~pre2-1~ubuntu24.04
 Multi-Arch: foreign
 Priority: optional
 Section: video
-Source: server-2.5 (2.5.2~pre1-1)
+Source: server-2.5 (2.5.2~pre2-1)
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 3847
 Depends: libavcodec60 (>= 7:6.0), libavdevice60 (>= 7:6.0), libavfilter9 (>= 7:6.0), libavformat60 (>= 7:6.0), libavutil58 (>= 7:6.0), libboost-chrono1.83.0t64 (>= 1.83.0), libboost-context1.83.0 (>= 1.83.0), libboost-filesystem1.83.0 (>= 1.83.0), libboost-locale1.83.0 (>= 1.83.0), libboost-log1.83.0 (>= 1.83.0), libboost-thread1.83.0 (>= 1.83.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 4.3), libglew2.2 (>= 2.2.0-4build1), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.1+dfsg), libsfml-system2.6 (>= 2.6.1+dfsg), libsfml-window2.6 (>= 2.6.1+dfsg), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libtbb12 (>= 2021.11.0), libx11-6, libcef142, libcef142-data, python3:any
-Filename: pool/casparcg/server-2.5/noble/casparcg-server-2.5_2.5.2~pre1-1~ubuntu24.04_armhf.deb
-Size: 1610520
-MD5sum: 69e5a70f88bc4d6c39c106d3e2f14c29
-SHA1: dd954f2ac60227d6811d810492e933a4348dedd5
-SHA256: 1fe6bf1500643f8beb103a44c96ceba78e58f18b602be6589025852b95878e5f
-SHA512: d9b5472188fded4d213be551f271be817611d0e082a5a741888b9ce5f6e15b5467a7a41a6291c82b7a15b6c2d1017ba93a139c1b8f1c9e4eddab4ac707f2f4a4
+Filename: pool/casparcg/server-2.5/noble/casparcg-server-2.5_2.5.2~pre2-1~ubuntu24.04_armhf.deb
+Size: 1610708
+MD5sum: 5c41c414a3d33b0e9ddfe799dbca3214
+SHA1: 9d1416542f87edd250e24071d2281abfa7167773
+SHA256: 9019eec0476334a23b9aea9042c4246a8cf632fb7cd0e2e6fa87e66017c907b5
+SHA512: f41d0c7e4e4621cf09adfcc65b35b5726d6babbcbe8c0cfa3e47af0be7fb3ccdcf44431b7146bf72336676735a36c4a7204ceb82c5661cfc141a445ef8157dc9
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional

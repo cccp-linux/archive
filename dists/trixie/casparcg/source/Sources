@@ -54,7 +54,7 @@ Package: server-2.5
 Format: 3.0 (quilt)
 Binary: casparcg-server-2.5
 Architecture: any
-Version: 2.5.2~pre1-1
+Version: 2.5.2~pre2-1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), cmake, fontconfig, fonts-liberation, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libboost-coroutine-dev (>= 1.74.0), libboost-date-time-dev (>= 1.74.0), libboost-filesystem-dev (>= 1.74.0), libboost-locale-dev (>= 1.74.0), libboost-log-dev (>= 1.74.0), libboost-regex-dev (>= 1.74.0), libboost-thread-dev (>= 1.74.0), libcef142-dev, libegl-dev, libglew-dev, libicu-dev, libopenal-dev, libopengl-dev, libsfml-dev, libsimde-dev, libswresample-dev, libswscale-dev, libtbb-dev, pkgconf, zlib1g-dev
@@ -65,21 +65,21 @@ Directory: pool/casparcg/server-2.5
 Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Files:
- 9b97d28f6564d9c97d80e563e24ecc84 1811 server-2.5_2.5.2~pre1-1.dsc
- 9ca7c8a3b12270f88779f3a7f7dead81 1025404 server-2.5_2.5.2~pre1.orig.tar.gz
- dd6a10a65a3ddaabd49122e0f6c94442 91080 server-2.5_2.5.2~pre1-1.debian.tar.xz
+ ee4cfd4c3b337049198c0b5dace3aa29 1811 server-2.5_2.5.2~pre2-1.dsc
+ 55ccfad312c528adc428dedbe815d890 1025435 server-2.5_2.5.2~pre2.orig.tar.gz
+ 481a0f21c8094a895a46075c15437cd7 91128 server-2.5_2.5.2~pre2-1.debian.tar.xz
 Checksums-Sha1:
- 21bbef688c14780c9c074b5c92e209cd6ce2d965 1811 server-2.5_2.5.2~pre1-1.dsc
- 24a6c43839cfb677a1bbf46fb3b36229aee16374 1025404 server-2.5_2.5.2~pre1.orig.tar.gz
- 3cd9dd4ed79acc3293ab12e1f2fc85571b5b587e 91080 server-2.5_2.5.2~pre1-1.debian.tar.xz
+ 85a5266b151fbd56a787095e41bc696c742efbe8 1811 server-2.5_2.5.2~pre2-1.dsc
+ 0301b250e3082b5c62cdbdb3bf73fa87305b8a21 1025435 server-2.5_2.5.2~pre2.orig.tar.gz
+ 4335467d641f326dd6e33c42ff5856c9cd8ca07a 91128 server-2.5_2.5.2~pre2-1.debian.tar.xz
 Checksums-Sha256:
- 26af2925ce00650955d4a88d3ab2f4f8a88a2166fed182e171e932cc1c4546d7 1811 server-2.5_2.5.2~pre1-1.dsc
- f78cd4d5718b0cf81ff86acce9e81063902fe327d62f74a4445722adc3db9d7e 1025404 server-2.5_2.5.2~pre1.orig.tar.gz
- be8b246f59198048d41d754bf9e385e9e49873535fe380ba5f0cda6aa9a17c88 91080 server-2.5_2.5.2~pre1-1.debian.tar.xz
+ 3e146372650f15e83c7ba1e87a75ae70354b958813a09d520fca2640e6916331 1811 server-2.5_2.5.2~pre2-1.dsc
+ c9ffbee04a1a27194952db427aa4378bc6bcb7b71280b90bfb6df578d8b9b40f 1025435 server-2.5_2.5.2~pre2.orig.tar.gz
+ a91b176fc0e8cf8c999f3fc92522b206f20092a05da819a4416771694698ec9e 91128 server-2.5_2.5.2~pre2-1.debian.tar.xz
 Checksums-Sha512:
- fe21eb978f17393dfda81e6d2b0ce8da4a24648fc68392dbcf03e8f32d568b60e6519ad013871ac7c4270cfe14a790e6ebbc293446e3dec6beb9a73e1931c89f 1811 server-2.5_2.5.2~pre1-1.dsc
- 5a8e6d1cd165b4844f84203c3c32eee3e9ccac56c85165eb4f01865e9247e767648953aec31395567ef6fc6beae49198595bd3efed9a75bef8d4e08ae44bfb71 1025404 server-2.5_2.5.2~pre1.orig.tar.gz
- 02ec113ed91963a04b028b0fa80ec06830f05a27a1037dad4f0be534ed8280653345db7c71c1304ae3b0c2db9d5e89ca192faa8743962188381f018eea020756 91080 server-2.5_2.5.2~pre1-1.debian.tar.xz
+ a90d9f7fa10551f18fe28b636ebb224e7294bd2d65ca780c22cb9d68ffe211e5fb3bb36f230aeb32437d5e65dc7d6b38c7fe111c97c39d4c53bc581b0ddbeed2 1811 server-2.5_2.5.2~pre2-1.dsc
+ 915ee5311cced37e0490dbe1daceae6a3bd324a260a692c513150d726b9b54e4b8aa515dd92aaf7b1b7c54bec5a45337cf561920babf39ee61b47f2f91b7ec11 1025435 server-2.5_2.5.2~pre2.orig.tar.gz
+ 6e1883fcaa762d23c714b8cf172be40b245cd39fb3966c978620caeba9bcecfb1c8f9f179c8a56b598c6b275c7abca0224452438b8de4031c89956c8047eb6df 91128 server-2.5_2.5.2~pre2-1.debian.tar.xz
 
 Package: server-default
 Format: 3.0 (native)

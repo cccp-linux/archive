@@ -99,20 +99,20 @@ Description: The Chromium Embedded Framework
 
 Package: casparcg-server-2.5
 Architecture: armhf
-Version: 2.5.2~pre1-1~deb13
+Version: 2.5.2~pre2-1~deb13
 Multi-Arch: foreign
 Priority: optional
 Section: video
-Source: server-2.5 (2.5.2~pre1-1)
+Source: server-2.5 (2.5.2~pre2-1)
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 4387
 Depends: libavcodec61 (>= 7:7.1.5), libavdevice61 (>= 7:7.1.5), libavfilter10 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libboost-chrono1.83.0t64 (>= 1.83.0), libboost-context1.83.0 (>= 1.83.0), libboost-filesystem1.83.0 (>= 1.83.0), libboost-locale1.83.0 (>= 1.83.0), libboost-log1.83.0 (>= 1.83.0), libboost-thread1.83.0 (>= 1.83.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 4.3), libglew2.2 (>= 2.2.0-4+b2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.1.5), libswscale8 (>= 7:7.1.5), libtbb12 (>= 2022.1.0), libx11-6, libcef142, libcef142-data, python3:any
-Filename: pool/casparcg/server-2.5/trixie/casparcg-server-2.5_2.5.2~pre1-1~deb13_armhf.deb
-Size: 1560008
-MD5sum: eac58cf409685910a7f3b5d2f42cbe2a
-SHA1: 74f4926d2612d43304cf28a60b77c006f949566b
-SHA256: a3a77f2e9b844c39667547df7e96ced7d0df563819139fdce0c22c5c16da9b8b
-SHA512: 3544b0dce4c49c02b38da5377c7bdf5cb834aebca44eae96e4547f8dcc9ebf527a24f67a03a60b7f89bd2fa91173970b014ca767435b02e63892ef034c5e0cae
+Filename: pool/casparcg/server-2.5/trixie/casparcg-server-2.5_2.5.2~pre2-1~deb13_armhf.deb
+Size: 1560088
+MD5sum: 3a1fe36ab8009b3484785fb6cd9e0f1d
+SHA1: e3ea7f8b5bf3a1ef1db86a61fc2fb29b73d0de33
+SHA256: 260aecaad787cbacb3c926654eb7275d7e1508ac5fa3cc8ec59750a8988a5cde
+SHA512: cb64d37485035df1c941961d33e3c7abaf5cf026fa5801a415442729327af1de523af4bf3dc39f4dc5f08db1d1d2d31271f586260844aec3670f176a5787106b
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
