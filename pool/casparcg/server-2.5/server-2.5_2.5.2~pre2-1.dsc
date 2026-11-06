@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: server-2.5
 Binary: casparcg-server-2.5
 Architecture: any
-Version: 2.5.2~pre1-1
+Version: 2.5.2~pre2-1
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://casparcg.com
 Standards-Version: 4.6.2
@@ -15,19 +15,19 @@ Build-Depends: debhelper-compat (= 13), cmake, fontconfig, fonts-liberation, lib
 Package-List:
  casparcg-server-2.5 deb video optional arch=any
 Checksums-Sha1:
- 24a6c43839cfb677a1bbf46fb3b36229aee16374 1025404 server-2.5_2.5.2~pre1.orig.tar.gz
- 3cd9dd4ed79acc3293ab12e1f2fc85571b5b587e 91080 server-2.5_2.5.2~pre1-1.debian.tar.xz
+ 0301b250e3082b5c62cdbdb3bf73fa87305b8a21 1025435 server-2.5_2.5.2~pre2.orig.tar.gz
+ 4335467d641f326dd6e33c42ff5856c9cd8ca07a 91128 server-2.5_2.5.2~pre2-1.debian.tar.xz
 Checksums-Sha256:
- f78cd4d5718b0cf81ff86acce9e81063902fe327d62f74a4445722adc3db9d7e 1025404 server-2.5_2.5.2~pre1.orig.tar.gz
- be8b246f59198048d41d754bf9e385e9e49873535fe380ba5f0cda6aa9a17c88 91080 server-2.5_2.5.2~pre1-1.debian.tar.xz
+ c9ffbee04a1a27194952db427aa4378bc6bcb7b71280b90bfb6df578d8b9b40f 1025435 server-2.5_2.5.2~pre2.orig.tar.gz
+ a91b176fc0e8cf8c999f3fc92522b206f20092a05da819a4416771694698ec9e 91128 server-2.5_2.5.2~pre2-1.debian.tar.xz
 Files:
- 9ca7c8a3b12270f88779f3a7f7dead81 1025404 server-2.5_2.5.2~pre1.orig.tar.gz
- dd6a10a65a3ddaabd49122e0f6c94442 91080 server-2.5_2.5.2~pre1-1.debian.tar.xz
+ 55ccfad312c528adc428dedbe815d890 1025435 server-2.5_2.5.2~pre2.orig.tar.gz
+ 481a0f21c8094a895a46075c15437cd7 91128 server-2.5_2.5.2~pre2-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCauy89QAKCRA6Vr9YT1rr
-JyWjAQDAMqOMyF235UO+JS45gHm95tVjgdf/GxKy2EDnjBZxwQEA0lG/N7/MCfWo
-9pJOFjB9ZzhRw5cKs4GVxQG2mS3KVQw=
-=7iL1
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCau1qcAAKCRA6Vr9YT1rr
+J3vxAP0XdR9/gzy2WN5YISpka79tslHPZIHpGBQqGnr65RkrrwEAxEGkLQCPw/oY
+mT/E8G6wj1jasmDXy1YYKbxBdXfKPwI=
+=yCc4
 -----END PGP SIGNATURE-----
