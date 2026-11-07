@@ -16,23 +16,6 @@ SHA256: 28ab13c48b4f62d102d647d5465598720e2c147806894055a3b1d4c09774761c
 SHA512: fb832fb2ec452131208a2107e86000df97d1d724dc93ea73edf75403b9a458945ef5158d0ce7f4b4da85616712e51d34ca0df54fb791d8a1e1cc9564455719c2
 Description: Kernel and boot packages
 
-Package: crossover-meta
-Architecture: amd64
-Version: 0.8~ubuntu24.04
-Section: metapackages
-Source: crossover-meta (0.8)
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 11
-Depends: crossover
-Recommends: libc6:i386, libdbus-1-3:i386, libfontconfig1:i386, libfreetype6:i386, libgl1-mesa-dri:i386, libgl1:i386, libgnutls30:i386, libudev1:i386, libvulkan1:i386, libx11-6:i386, libxcomposite1:i386, libxcursor1:i386, libxext6:i386, libxfixes3:i386, libxi6:i386, libxinerama1:i386, libxrandr2:i386, libxrender1:i386, libxxf86vm1:i386
-Filename: pool/main/crossover-meta/noble/crossover-meta_0.8~ubuntu24.04_amd64.deb
-Size: 2298
-MD5sum: 6d9ba7eb14ac167daa75d62e26df7e5f
-SHA1: 368497ae9f5434d555011ff5bc7e2c78698e71a2
-SHA256: 0e4c716c17273b6568c0cc1bf1199a65827868105e46540a681ae98a702b1ded
-SHA512: 25f320602051507205d24c1cdbfd0b0a437808601e9e714982f53ec5e2425da47947dce93db3365a48d9bfb4199b97d5c099880a404a9891acd6c312c14bc20b
-Description: CrossOver meta-package
-
 Package: llm-meta
 Architecture: amd64
 Version: 0.1~ubuntu24.04

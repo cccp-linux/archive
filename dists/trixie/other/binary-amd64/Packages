@@ -1,0 +1,18 @@
+Package: crossover-meta
+Architecture: amd64
+Version: 0.8~deb13
+Priority: optional
+Section: metapackages
+Source: crossover-meta (0.8)
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 11
+Depends: crossover
+Recommends: libc6:i386, libdbus-1-3:i386, libfontconfig1:i386, libfreetype6:i386, libgl1-mesa-dri:i386, libgl1:i386, libgnutls30:i386, libudev1:i386, libvulkan1:i386, libx11-6:i386, libxcomposite1:i386, libxcursor1:i386, libxext6:i386, libxfixes3:i386, libxi6:i386, libxinerama1:i386, libxrandr2:i386, libxrender1:i386, libxxf86vm1:i386
+Filename: pool/other/crossover-meta/trixie/crossover-meta_0.8~deb13_amd64.deb
+Size: 2420
+MD5sum: d9a636031d98aa3f290bbd7792357729
+SHA1: df94e321e8ae9c8d5129435558be6b99b5dd851a
+SHA256: b9c607d44f16cfa6f73dd330e7d76b7a7e96ab8fcf3c6ca26110d45fb409e920
+SHA512: d1e7340f4699b0fbb734ec70897887d56a4a4c93619a6f29827a0e0949c4398801867ac1be7346f6bebcc36c2d2f9b4e46687059fa57062c94117b30df94906a
+Description: CrossOver meta-package
+

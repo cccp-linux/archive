@@ -80,24 +80,6 @@ SHA256: f81c7419fbb92639164a1740ca6cf3fc427b8c2389954c64d1e5f693deb7e872
 SHA512: ad0e2e636325358d081a7c738c1a707689ecf8974043d10fc7a36013dec4317d00d26d30c4580a10f6ff1b25fe60ce8c661c05c65c5669fe2518f03b0f5b1667
 Description: Kernel and boot packages
 
-Package: crossover-meta
-Architecture: amd64
-Version: 0.8~deb13
-Priority: optional
-Section: metapackages
-Source: crossover-meta (0.8)
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 11
-Depends: crossover
-Recommends: libc6:i386, libdbus-1-3:i386, libfontconfig1:i386, libfreetype6:i386, libgl1-mesa-dri:i386, libgl1:i386, libgnutls30:i386, libudev1:i386, libvulkan1:i386, libx11-6:i386, libxcomposite1:i386, libxcursor1:i386, libxext6:i386, libxfixes3:i386, libxi6:i386, libxinerama1:i386, libxrandr2:i386, libxrender1:i386, libxxf86vm1:i386
-Filename: pool/main/crossover-meta/trixie/crossover-meta_0.8~deb13_amd64.deb
-Size: 2416
-MD5sum: c785015ba8e14458a980801648fea4fe
-SHA1: 19200cd3330541b0f916e3ede0d5c3b6e6a78b50
-SHA256: d4d028ebc20c20fe9be69557202785641d8546d0bcde3c9d0964061ea99e42c2
-SHA512: 2732dda08be49084eb4e1464dc7c84c23e336737e1216a5cc1b5dd875577c359ab28cf1d1451123404aedcb79aa475b627066865f67268c44456188dfcdda1ef
-Description: CrossOver meta-package
-
 Package: foot
 Architecture: amd64
 Version: 1.28.0-1.1~deb13

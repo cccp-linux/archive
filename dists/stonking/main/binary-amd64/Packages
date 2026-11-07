@@ -80,24 +80,6 @@ SHA256: 37638f1e8cf3a7a9d393444294e58fee802ff19ad13f5d942f24f25cf107a84d
 SHA512: 7d982236557a9a000c717950e252392039d9da678340c98f90fa26b8a2d6750f07e9248ffbd7d3ab9f3c050f6a3143915337f8bdd8e4dbf509e7463e8ad4a409
 Description: Kernel and boot packages
 
-Package: crossover-meta
-Architecture: amd64
-Version: 0.8~ubuntu26.10
-Priority: optional
-Section: metapackages
-Source: crossover-meta (0.8)
-Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 11
-Depends: crossover
-Recommends: libc6:i386, libdbus-1-3:i386, libfontconfig1:i386, libfreetype6:i386, libgl1-mesa-dri:i386, libgl1:i386, libgnutls30:i386, libudev1:i386, libvulkan1:i386, libx11-6:i386, libxcomposite1:i386, libxcursor1:i386, libxext6:i386, libxfixes3:i386, libxi6:i386, libxinerama1:i386, libxrandr2:i386, libxrender1:i386, libxxf86vm1:i386
-Filename: pool/main/crossover-meta/stonking/crossover-meta_0.8~ubuntu26.10_amd64.deb
-Size: 2314
-MD5sum: 093361eff5a9916d9c2f3a04e9eefa28
-SHA1: 4e2eb67f9d91f75dec46e5d684aec5b83830d93f
-SHA256: 06312487795993e6776c65edfb9f0ccfafad197e576306e9b0172399785cb5c0
-SHA512: 8d87814c818240710b45fd5a82efdb823d972ae5af5836a1c32a75494b111b1855956488ae33a782a23288db97fc475153543741c02f75b79d9226e4b3017032
-Description: CrossOver meta-package
-
 Package: foot
 Architecture: amd64
 Version: 1.28.0-1.1~ubuntu26.10
