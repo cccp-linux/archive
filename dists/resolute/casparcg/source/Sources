@@ -24,6 +24,32 @@ Checksums-Sha512:
  c65997d4f132a94113eed7c035ad85e1bc715560f6dd26a1b01ec0381b7039a4dca579c3c68860972a386298c3ffc3226cbfe6e885dd8332ebb7f4c12b98d39f 1023 control_0.5.dsc
  f500cf024239889d6f22527aa7bc1a3680e8f1bd4e60587c3fc434d49941b841e64cadccfa75754d79be115df572a360dfbd68238151e47c0dae68ce2fd0daa0 175608 control_0.5.tar.xz
 
+Package: player
+Format: 3.0 (native)
+Binary: casparcg-player
+Architecture: any
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cmake, libosc++-dev, libpgm-args-dev, libuv1-dev, pkgconf
+Vcs-Browser: https://github.com/dimitry-ishenko-casparcg/player
+Vcs-Git: https://github.com/dimitry-ishenko-casparcg/player.git
+Directory: pool/casparcg/player
+Package-List:
+ casparcg-player deb video optional arch=any
+Files:
+ 945253d1842e21f4d7e9e87ba9b16169 990 player_0.1.dsc
+ 6a159bd7c28b16dc32642f9b7261b7e6 25064 player_0.1.tar.xz
+Checksums-Sha1:
+ a322ceb8102dac5070d97fd678d894c1047b2bbf 990 player_0.1.dsc
+ 1dc5aef478665d4d07effbbf2d028166de7fd9c1 25064 player_0.1.tar.xz
+Checksums-Sha256:
+ 27322155a5b9247c45ac5d31d430735a939a7ae29bdbc4198aa490c66dac9f06 990 player_0.1.dsc
+ 3f195a7968d2aef9e77e3c4c8ca90c26e59cb6bf7b7bef91b01e99fe8ed71499 25064 player_0.1.tar.xz
+Checksums-Sha512:
+ 967f80ed43bfc00c12bffa27a27ed0f5728bd362857165444f9db882110b76818e0fe81d29984de6ffc178e9f7f930d1be3703a890188424ddbd215b773c989d 990 player_0.1.dsc
+ 59f7b7832738a93365e2b201eb329cc28d1479c60c8337ebf9b1c18ec8723a285cef802d136418e19f78382574cd33c67871bdd5400e02666ae4c7499608a4ed 25064 player_0.1.tar.xz
+
 Package: scanner
 Format: 3.0 (native)
 Binary: casparcg-scanner
