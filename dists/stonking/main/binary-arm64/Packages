@@ -194,3 +194,19 @@ SHA256: cbb0e5aecacbc920689a9fb4ab0dee8df6feb74f4791ac0f36f2dc0667e51cba
 SHA512: c107f4e7ff873528bc372be9cded93d3b0de7c00abb76d3553fe07e4bbe6069c9710a41cce6a1e7f60e3a2d55d77dccaaef37fcacfdd5a0324dd51be58dd85e5
 Description: LLM meta-package
 
+Package: ncp
+Architecture: arm64
+Version: 0.11
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 338
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.38), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.5), libstdc++6 (>= 15)
+Filename: pool/main/ncp/stonking/ncp_0.11_arm64.deb
+Size: 127048
+MD5sum: 9d84db6770d57e09a5e31af706f7ae4d
+SHA1: c4f3189fb9433cb65daff91beab1fb3d933e13aa
+SHA256: d862e4db61b44559c842383f90a7f2d03baa25135718c36928ad3c100cf15021
+SHA512: 1e7234cebc6ee6868283af05dba28065048b849b5460944cc956de5f0a29e9397bff8470cbf88b7f74fb99b7a784a68fb3589de1712290ce036bb3696dbe738f
+Description: New and improved, now asbestos-free copy utility
+

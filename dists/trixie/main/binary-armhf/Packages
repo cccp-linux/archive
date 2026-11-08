@@ -194,3 +194,19 @@ SHA256: 8b10e7704afb29409f5d917816c99fde986c49b73e7301f22411c7de36c6118c
 SHA512: 0c3be3c7d1895ce6ec68a533968d3fdd05e75c53dc394b9d398f4113ce86787800dfcf7d7d238c3fd593ccb9000de1a869700a093de29dc1020165b250c48c84
 Description: LLM meta-package
 
+Package: ncp
+Architecture: armhf
+Version: 0.11
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 274
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 14)
+Filename: pool/main/ncp/trixie/ncp_0.11_armhf.deb
+Size: 112348
+MD5sum: 0430e747ad34b73f52e64ddf2d121e04
+SHA1: 0e96762c770c6bbe8fa0d1c525fd6ffd3e632b7f
+SHA256: d7fa3b1d3d3337508c79e892a200f12d70c242902e5293dbe33e7cecf9163238
+SHA512: e681fc7b18f58aef249853bca1e3886244a14422ae6d82bbb3ae70019cf8a28c67ef2968a8e3e7606a24866f14cdab4ed0384da5c7e9623760b89c5b27764ee6
+Description: New and improved, now asbestos-free copy utility
+

@@ -194,3 +194,19 @@ SHA256: 8b10e7704afb29409f5d917816c99fde986c49b73e7301f22411c7de36c6118c
 SHA512: 0c3be3c7d1895ce6ec68a533968d3fdd05e75c53dc394b9d398f4113ce86787800dfcf7d7d238c3fd593ccb9000de1a869700a093de29dc1020165b250c48c84
 Description: LLM meta-package
 
+Package: ncp
+Architecture: amd64
+Version: 0.11
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 376
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.3), libstdc++6 (>= 14)
+Filename: pool/main/ncp/trixie/ncp_0.11_amd64.deb
+Size: 136576
+MD5sum: d383d1ccc5fe784405215a9b2fefd3f8
+SHA1: 09b8e8ed947aa35cedb36a6524c3971df21cfd19
+SHA256: dc1a77db4891459daab06d67ccc0ee7f62ae105d854392aa8f0f3378bdfaee8c
+SHA512: 87068d67d4407ce3a4330c7d626a72ce5a93efce6fc7e59d57a010688e2dd1e74e7e301587880c165d799751a7991979605eb99965a20931cdbb0a2c0361509b
+Description: New and improved, now asbestos-free copy utility
+

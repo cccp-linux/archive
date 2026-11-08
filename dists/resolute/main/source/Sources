@@ -206,3 +206,29 @@ Checksums-Sha512:
  b375b014a2ebaf61007aa6b42b975d7375021fa627a292409bc17d126a408e74f0b311ac60d2a3ab3d7093e95b455ebf04ad63ab356f042c9852027e0b14de15 908 llm-meta_0.2.dsc
  2b035c96ad6399b16b37809b2faae0b92efc247737854358a9d896cffbec4604e9c020a3dab1c382bdc6b6db761c9999f634dd6e7c0a7a9118c5f5c478290dfe 15128 llm-meta_0.2.tar.xz
 
+Package: ncp
+Format: 3.0 (native)
+Binary: ncp
+Architecture: any
+Version: 0.11
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cmake, libacl1-dev, libasio-dev, libcap-dev, pkgconf, python3-pytest <!nocheck>
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/ncp
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/ncp.git
+Directory: pool/main/ncp
+Package-List:
+ ncp deb utils optional arch=any
+Files:
+ 1c02308ecd6da7e5181845fc93642451 964 ncp_0.11.dsc
+ 6289df1fe7830642ee7c4ccb75e21dcc 38876 ncp_0.11.tar.xz
+Checksums-Sha1:
+ 2fbe12f0df7cff3fb7d9e6a670162c3b6a559054 964 ncp_0.11.dsc
+ 5eb142dca50d71a2e17d6de75e0540146b3c102b 38876 ncp_0.11.tar.xz
+Checksums-Sha256:
+ 74b27e2b8807ec4bfc6cb614097dc6f6efc86b08de0bfe7b7b3c3ed9b1b012bd 964 ncp_0.11.dsc
+ 5ee2dcaec5eae9b8fd15065236e3655b3fe1522bc59516a45e40a9ac02717b14 38876 ncp_0.11.tar.xz
+Checksums-Sha512:
+ 47f77585292a3d72ed922e23696422d5cedfba9e2ae18d8060ebe350bf3efa94b244c87f1daecb58a0a0b55738e68d77e2aff58cd9583bac4a7cab59ca9323b6 964 ncp_0.11.dsc
+ cb4ebfc06c0949f5c0e6058250d0586c2c59fd6a2e490ccd337a655ff65b1c78b79c4bcf9f386509e5abca65c355443119561d8ab12275aba6b563c611d6e3c3 38876 ncp_0.11.tar.xz
+

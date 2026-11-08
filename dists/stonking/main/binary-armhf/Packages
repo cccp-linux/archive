@@ -194,3 +194,19 @@ SHA256: cbb0e5aecacbc920689a9fb4ab0dee8df6feb74f4791ac0f36f2dc0667e51cba
 SHA512: c107f4e7ff873528bc372be9cded93d3b0de7c00abb76d3553fe07e4bbe6069c9710a41cce6a1e7f60e3a2d55d77dccaaef37fcacfdd5a0324dd51be58dd85e5
 Description: LLM meta-package
 
+Package: ncp
+Architecture: armhf
+Version: 0.11
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 273
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.38), libcap2 (>= 1:2.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 15)
+Filename: pool/main/ncp/stonking/ncp_0.11_armhf.deb
+Size: 136190
+MD5sum: b3d83fb86fad29f54e7371377ff8c9b1
+SHA1: ccf322c8ad5afe564d987706a7501796eb8c5c96
+SHA256: c7a558399aa34e4d9f07bf292aff45c2fedb677235fa7702d0fa74e654dbf47f
+SHA512: a934e58551061c74504d1648ac2efbb431984f4123dad04d4695e2e56e84cf8ad47ab28950f4a826921d206096866b199e5c4cf604ca9f88b5443ed42c5599aa
+Description: New and improved, now asbestos-free copy utility
+

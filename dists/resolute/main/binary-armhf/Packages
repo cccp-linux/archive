@@ -194,3 +194,19 @@ SHA256: cbb0e5aecacbc920689a9fb4ab0dee8df6feb74f4791ac0f36f2dc0667e51cba
 SHA512: c107f4e7ff873528bc372be9cded93d3b0de7c00abb76d3553fe07e4bbe6069c9710a41cce6a1e7f60e3a2d55d77dccaaef37fcacfdd5a0324dd51be58dd85e5
 Description: LLM meta-package
 
+Package: ncp
+Architecture: armhf
+Version: 0.11
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 273
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 15)
+Filename: pool/main/ncp/resolute/ncp_0.11_armhf.deb
+Size: 132328
+MD5sum: da2a66fb07ef8027ccee64449a2dfc93
+SHA1: ab9bfb79eeabb1f890b8efc36c432ec840972464
+SHA256: a707e0c725faa415508e684c737f3c4fae85e2ed149bbd1f261bd2750f7ea56d
+SHA512: d79d594e890800169918491f6034c813ce793719c24ec7d13f51a3fd506cde2509feb051018053bb648313b8911abdfbecd4f25a2b25129ecc2377f3b87969b7
+Description: New and improved, now asbestos-free copy utility
+

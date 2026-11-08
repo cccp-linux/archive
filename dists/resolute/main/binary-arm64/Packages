@@ -194,3 +194,19 @@ SHA256: cbb0e5aecacbc920689a9fb4ab0dee8df6feb74f4791ac0f36f2dc0667e51cba
 SHA512: c107f4e7ff873528bc372be9cded93d3b0de7c00abb76d3553fe07e4bbe6069c9710a41cce6a1e7f60e3a2d55d77dccaaef37fcacfdd5a0324dd51be58dd85e5
 Description: LLM meta-package
 
+Package: ncp
+Architecture: arm64
+Version: 0.11
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 338
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.5), libstdc++6 (>= 15)
+Filename: pool/main/ncp/resolute/ncp_0.11_arm64.deb
+Size: 124002
+MD5sum: 54a04edcea5a342ebfdbc6f3c9ba9934
+SHA1: ef4aba351fe2df1f13de6f1051ec4811621bad2b
+SHA256: 4db156db21192e58c02ba3dcfab3eaa19ea79bf0e699c9e9782b5d53411eb77a
+SHA512: 912050f6e7002ba04491c4d13b888777973811bfe032688c54449e55c56099b46fd137c67cd2131fe82e179e1a34ec5778d849c5af4b65f6e46cd70f133e6d59
+Description: New and improved, now asbestos-free copy utility
+
