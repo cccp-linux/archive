@@ -207,6 +207,24 @@ Description: Neovim meta-package
  Add the following to your .config/nvim/init.lua:
  * require("neovim")
 
+Package: neovim-web-devicons
+Architecture: all
+Version: 1:0.100-100-gd746-2
+Priority: optional
+Section: editors
+Source: nvim-web-devicons
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 241
+Depends: neovim (>= 0.7)
+Filename: pool/main/nvim-web-devicons/noble/neovim-web-devicons_0.100-100-gd746-2_all.deb
+Size: 29510
+MD5sum: 43377f449cff3f93d5278d2233187b1a
+SHA1: 1451a11e5f8031b8834dc243987eab54c1093f4a
+SHA256: a7cb3c9e4293544499c3030a1c1a31dcb8231ec12f386d7660b80b8f4eeba4b4
+SHA512: 5b34e36d1fe606fe72dc32f128af719dc235b9a5be01efd11c8dccbec109756597152c6a8a0b2f7acdecc0a942e69c11df46dbf14a153162baae7640550e26c8
+Homepage: https://github.com/nvim-tree/nvim-web-devicons
+Description: Nerd Fonts icons for use by neovim plugins
+
 Package: neovim-oil
 Architecture: all
 Version: 2.16.0-2

@@ -354,6 +354,32 @@ Checksums-Sha512:
  30fe68143e1c4b3fdfc68c0bd65d67ef21171b39fb0ae4c79fce782019533284df6473b842fd1b153dfcb94a327a867e6a7efb44f7737aea66ab18e815d2698b 136992 oil.nvim_2.16.0.orig.tar.gz
  8dbbd3dc33c5be6fec20ff76c7aa2a6c2723cc779f4d90f0c1b5be1a24046951cdc05bcdca46c9e07ae23644d9647b770a97de88750b81e2f0db86db69957655 5156 oil.nvim_2.16.0-2.debian.tar.xz
 
+Package: pycal
+Format: 3.0 (native)
+Binary: pycal
+Architecture: all
+Version: 0.2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/pycal
+Vcs-Git: https://github.com/cccp-linux/pycal.git
+Directory: pool/main/pycal
+Package-List:
+ pycal deb utils optional arch=all
+Files:
+ bfb2ad91adc686812636f7e166222175 880 pycal_0.2.dsc
+ c77b23137be3508e2a8a12e03e8013d4 311188 pycal_0.2.tar.xz
+Checksums-Sha1:
+ e264c28b5c3edd44dbbd1c1a56af05931b9270ab 880 pycal_0.2.dsc
+ fd4df67c386f1874ef4651a67119cc5440186f2a 311188 pycal_0.2.tar.xz
+Checksums-Sha256:
+ aaa1b201916513e2c2ba2ee618e2b582432b93f3370ce472b4f92b620fed2d81 880 pycal_0.2.dsc
+ 8a1eb3e6b76b26c46100fcaa0db69fc300859b57d63b40c19fdf0fbe735301d4 311188 pycal_0.2.tar.xz
+Checksums-Sha512:
+ 0dde7c5633986c8eb9ae1f7ea978ed23ea09412192d1dc73bb7eda518c718d5a5d9ef27415241930998b900778ea2a5d08fa6004c2f96aa56f45218cad7b136d 880 pycal_0.2.dsc
+ 55bd54c43e8beef483aec334bb59b644bbbf1939b3f68471ae91914ebd2e93b960357de4ca37767f062a798e9391221cef7d97e357890e1bd660b635b9eb2b65 311188 pycal_0.2.tar.xz
+
 Package: statuscol.nvim
 Format: 3.0 (quilt)
 Binary: neovim-statuscol
@@ -436,4 +462,38 @@ Checksums-Sha256:
 Checksums-Sha512:
  9583b342c10da12fe06b4dcd0acc926498c4049847c14183e837f68fd7d37da941fcd2d37267019894be09aef6ac2c2a338d6b321c51a9b052dbd5efb33bee89 916 virt-meta_0.7.dsc
  2fd5ccf291cadcb5ba352df106c89a1a063cbd08cff00c13519fcab112825145e62e268a4a6dffed0e6801be4cbcfe7c879849f2f53bc07181c8b7a1ba65c9b7 13608 virt-meta_0.7.tar.xz
+
+Package: xwayland-satellite
+Format: 3.0 (quilt)
+Binary: xwayland-satellite
+Architecture: any
+Version: 0.8.3-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.85) | cargo-1.85:native, rustc:native (>= 1.85) | rustc-1.85:native, libclang-dev, libxcb-cursor-dev, libxcb1-dev, pkgconf, xwayland (>= 23.1)
+Vcs-Browser: https://github.com/Supreeeme/xwayland-satellite
+Vcs-Git: https://github.com/Supreeeme/xwayland-satellite.git
+Directory: pool/main/xwayland-satellite
+Package-List:
+ xwayland-satellite deb x11 optional arch=any
+Files:
+ adf6339c08044a9f0699e6a988a357f2 1745 xwayland-satellite_0.8.3-1.dsc
+ 1844341f5677ec522b26fe6486c9c916 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ d7c83be1bd53e9ee9f49b7804c480031 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ 2fcf120970691a98f8f7c6c7f959587b 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
+Checksums-Sha1:
+ d37d5b003c952ecac0a56c2022bfa9eba78650fa 1745 xwayland-satellite_0.8.3-1.dsc
+ c0a87896e0ec666b191f8c41b21714a17e0d0b31 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ 8aa01e5ef2efa3547b302047e21c39c1838ed2d7 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ eb8eaf40d046872584b4e83b5726da6eaadada59 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
+Checksums-Sha256:
+ dd0021cb1a1e91972df21614fa953a8badff2164408e56c2db374cfec97d0545 1745 xwayland-satellite_0.8.3-1.dsc
+ 2bd52b10fcc613b06c1fd1bd598b374343f623d2a7bba9893aefd59246a267c0 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ 52d9991979c58b20abfae435e6059f1df265b30174b5f5026be95d4d1e45323a 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ 0e246b9859d668dd6576c185cc1c2ec501c87bc84103f636cf0cf728cbe6a178 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
+Checksums-Sha512:
+ a0ca5f8e9031f3b98bc3fbad1a8051274bcc2636bd3f8bb520c2728b878e15a375e336a2a58f766cbda0dbf231a132d75a0cdf5e92b842e65d492f0304065f80 1745 xwayland-satellite_0.8.3-1.dsc
+ 6ad480b9b97f009f97ed22a679b864e534197a1834ec23e21e23efd31e6b098469bac38400fdf23141d11448bf65ef17eacf17303c716dbb43f2871f84a7521b 8063076 xwayland-satellite_0.8.3.orig-vendor.tar.xz
+ 24a856737f6fd9d2d6245927d7fc1c34285d824311fc50c76b958e7dbc0a3ca924fddb59785e84a2cc72c33a2e7d84dfc07969b053325f6fe9880b7683e94303 223142 xwayland-satellite_0.8.3.orig.tar.gz
+ 4c92d39f50d2a1dc463238cd636ae0a51462a202d469b60c2439af361dd6adabfd84f65601612d92004dc60284fbc249c70b326931d3de4181722716979f7d3e 3792 xwayland-satellite_0.8.3-1.debian.tar.xz
 
