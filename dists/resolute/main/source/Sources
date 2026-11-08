@@ -1,0 +1,31 @@
+Package: blink.cmp
+Format: 3.0 (quilt)
+Binary: neovim-blink-cmp
+Architecture: all
+Version: 1.10.2-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://cmp.saghen.dev
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/blink.cmp
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/blink.cmp.git
+Directory: pool/main/blink.cmp
+Package-List:
+ neovim-blink-cmp deb editors optional arch=all
+Files:
+ 414c34e766a2a74175945608e0ddb3ba 1283 blink.cmp_1.10.2-3.dsc
+ be6074e320b09497feaff9696bedffd2 412456 blink.cmp_1.10.2.orig.tar.gz
+ fedec2ae5d529a11b154b829e92c918f 6500 blink.cmp_1.10.2-3.debian.tar.xz
+Checksums-Sha1:
+ 2d3a9b21d708c3691cc9c4d1daf540512f7bc053 1283 blink.cmp_1.10.2-3.dsc
+ 4f8bf979e7bf38909adb412bf80855224e116211 412456 blink.cmp_1.10.2.orig.tar.gz
+ 699915fd15282e63899711206918ee565329a1f6 6500 blink.cmp_1.10.2-3.debian.tar.xz
+Checksums-Sha256:
+ 4f9462d8ea9ea5cbadbcf35ca3af227322a98f030c9cc82838e0cbf70a3a56a5 1283 blink.cmp_1.10.2-3.dsc
+ bf76b6f82e91c2fd7920dc71e09d000a3ff79e1bd1262340f9e5287419aa4524 412456 blink.cmp_1.10.2.orig.tar.gz
+ b6e7ecf04e5c621da9608c33e0b4585d5680971ab716c421f6c2276a9cee4dd9 6500 blink.cmp_1.10.2-3.debian.tar.xz
+Checksums-Sha512:
+ 4afdd4630b1507060660c15166f827afdfba59526340267e40555da45eba2b54ef52f68a7eee88d9723c2f72bd9847251dc073fe4dce4f8cf68059dfdb33fdd0 1283 blink.cmp_1.10.2-3.dsc
+ 89de04a855d6134c07464dac8b2d7046cebacc09379fd3c1df5812cc7b6594ad1f7b193687fc53d858e424ff6c5372936d55931379e9238aaa2d556840640d4d 412456 blink.cmp_1.10.2.orig.tar.gz
+ 8987322c24a77dbacf30bef5e0944db91cb2f70c7e6c3b3014c967794eed279c929fc42c85688889acd24ec4ab1b3754e988bd7672b417d2e0e4486585a15710 6500 blink.cmp_1.10.2-3.debian.tar.xz
+
