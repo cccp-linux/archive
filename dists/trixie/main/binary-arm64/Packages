@@ -379,6 +379,22 @@ SHA256: ca9892441ff131d49cf667b0e173b9fb70791e2f630682df0d432391619a23cf
 SHA512: 11f364b30a423d033840e06ed98f86f81daab89b9d5f88e99c17c7fd6bb9f26a0867fbc8b34c445d8344bb4f456cac9afe290c1b4c707156084344ab883e032e
 Description: Calendar display utility
 
+Package: sessionctl
+Architecture: all
+Version: 0.6
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 12
+Depends: systemd
+Filename: pool/main/sessionctl/trixie/sessionctl_0.6_all.deb
+Size: 2720
+MD5sum: 95ca47b5312e0d7a0ebf04e8303a0bef
+SHA1: e6a99f7bc8cba7e014b8d173fac1601ecfdc4df7
+SHA256: 4f4f289048943cfebb1422b7602bce2f65f2d59104afe9d7fbc4528f6356b929
+SHA512: 07bcea9e2519b8a23b9966a9b13f5303d3dad05f5facf4a175ac1bee8092e7e1edf5926affb8092e31775601d7f8b2b10486ba2e9e8bdd782ffe18f332f4360e
+Description: Session control wrapper script
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-6

@@ -379,6 +379,22 @@ SHA256: 48cfea3656eb19f09c2829486154ec761819888fa6ce562e51d70508f55982a4
 SHA512: ff3bb1821020072e6865c0acae028d0a5d6660a40edd189968621f9c635d105ff774ce445ec747bb6af85dba52935a8e565daba210f7f2662af540d731aa5d30
 Description: Calendar display utility
 
+Package: sessionctl
+Architecture: all
+Version: 0.6
+Priority: optional
+Section: admin
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 12
+Depends: systemd
+Filename: pool/main/sessionctl/stonking/sessionctl_0.6_all.deb
+Size: 2618
+MD5sum: 9d4da5b58bbbc1542459c4ec27b85421
+SHA1: d21f9432d50c64d29e36743d6dbb09c25b5e7e5b
+SHA256: d99f824fd537a11a03a8d3830751b4f5b6e9ab7636f8fc2dda975642124e29cc
+SHA512: 9c4f1a62c4eeb9562810434d0c159c5b4e4c46db4a85e7873e2fbf769a3c18ffc5bb3da432e4a49ee09045c3a7fc1d9973b42b6039bad05fcdd27ed2a10fd763
+Description: Session control wrapper script
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-6
