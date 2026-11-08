@@ -13,3 +13,23 @@ SHA256: 58e49d2e2f8813ce2dd193615604c3e9bd86ac503ef442d0cc4286972450eff5
 SHA512: 6e80f275058fe845686db699de9f6e2f71643cbd7e5868caabf199be07e7c68e2f053f5b42127d69da04e84d0309eeff4d9682327cd6a970fc08ed679008f8a2
 Description: Simple caching apt proxy
 
+Package: debchange
+Architecture: all
+Version: 2.26.9
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Installed-Size: 118
+Depends: perl:any, dpkg-dev (>= 1.18.19)
+Recommends: libdistro-info-perl
+Breaks: devscripts
+Replaces: devscripts
+Filename: pool/dev/debchange/noble/debchange_2.26.9_all.deb
+Size: 31158
+MD5sum: a262985cda39f829a92e17f432451b28
+SHA1: f63ac728cbf1a5848d8168f875f068f6a5426af2
+SHA256: 84d257569cfadd12d3d92fae038e84d4ecd5b19a3c895a635c935d0b5a108454
+SHA512: e3590b45a2b14a2d2623c81156c9285c5a732ed2904b3652eecfe8ace3284762e6d4ceab10fd89f4590e8920edbcb8a14b4588588597ba054ea9fa169f602963
+Description: debchange (aka dch) script extracted from devscripts
+
