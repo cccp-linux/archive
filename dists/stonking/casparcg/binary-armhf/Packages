@@ -1,0 +1,17 @@
+Package: casparcg-control
+Architecture: all
+Version: 0.5
+Priority: optional
+Section: python
+Source: control
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 173
+Depends: python3-dbus, python3-gi, python3:any, casparcg-server (>= 2.5)
+Filename: pool/casparcg/control/stonking/casparcg-control_0.5_all.deb
+Size: 110874
+MD5sum: 28f3717f257f8916569039927c03cb83
+SHA1: a30b867f05b37ca9591635ddffdcd4a8f37cc8de
+SHA256: d2a1c348b1823e84cd16a406579af81a33977cce7f5e7b32b0852a15df5f2171
+SHA512: f372c1f447dd744c8ddab08f5f5f560ca2b9c6a4c8a980c42233db02ecf905667780c08e342ebec37607a9872627f00b2fccbef7cb71624a1e1bcba23754e762
+Description: CasparCG Control
+
