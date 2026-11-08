@@ -142,6 +142,37 @@ Description: Monospaced addition to the Roboto type family
  The scale and weight of symbols commonly used as operators have also been
  optimized.
 
+Package: fonts-symbols-nerd
+Architecture: all
+Version: 3.5.1-1
+Section: fonts
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5099
+Filename: pool/main/fonts-symbols-nerd/noble/fonts-symbols-nerd_3.5.1-1_all.deb
+Size: 2495766
+MD5sum: beb80e5c1b057503e41c9e372486b2c7
+SHA1: 38d463ce0bdbd635fc08d4bffa82c3eb59048f65
+SHA256: 80d58b12963c7f98b0599ab6464b0dafd3998abd6c33ba6c2f9f77d952bc29e5
+SHA512: e2cafaa7c57876a02dbc28fd35bd0533ac17fae4dfe2e734a647222a9985510ad54a6b963e38a7b99b8248f9182d9362fd0281b8baf5f48fea1a5e156a573817
+Homepage: https://www.nerdfonts.com
+Description: Just the Nerd Font Icons
+
+Package: libreoffice-meta
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9
+Depends: libreoffice-calc, libreoffice-draw, libreoffice-gtk3, libreoffice-writer
+Filename: pool/main/libreoffice-meta/noble/libreoffice-meta_0.1_all.deb
+Size: 1612
+MD5sum: d4520ae78a79d365523f7df6e54d3bd0
+SHA1: 6ab45a4d816787b61f14e2d0b85b9a0d1e6bc915
+SHA256: 195f3cdc04e3e926e1d4206c83065b0284fb04e8d266e25b10543259b98616b3
+SHA512: 27d70b706497ddeeed2d57a99fc1aa72133a454bf7f1aa977227750241625f58aff899265934215305d2a5b0ccf8332e14609620bce7392ad32bbb1df50198ee
+Description: LibreOffice meta-package
+
 Package: llm-meta
 Architecture: all
 Version: 0.2
