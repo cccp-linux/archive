@@ -5200,6 +5200,56 @@ SHA512: 02878623a4d01cdcc122827bf4c960a51b480b05ea1ae9f685288ab660c84bc62c70266c
 Homepage: https://devdocs.io
 Description: View devdocs offline in a terminal
 
+Package: libosc++-dev
+Architecture: amd64
+Version: 2.1
+Priority: optional
+Section: libdevel
+Source: osc++
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 546
+Depends: libosc++ (= 2.1)
+Filename: pool/dev/osc++/sid/libosc++-dev_2.1_amd64.deb
+Size: 104980
+MD5sum: e7409f397dabad725337e328ff12e2a3
+SHA1: 59c91e0798c9905c8669678f4e5b3ceb824e20be
+SHA256: b4bbe0e9c6be4627094376f602c009635ae519aeb612eaacad2f218d2d80a3c3
+SHA512: 04ad2e0238b24e15226ecc8de4a6494615c49b6519ac397514b92c4997d2b892d7be13d5546c5b02e241156f1f6f1a0134bcafb3b8567fa37254d911205f3eb7
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains development files.
+
+Package: libosc++
+Architecture: amd64
+Version: 2.1
+Priority: optional
+Section: libs
+Source: osc++
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 270
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: pool/dev/osc++/sid/libosc++_2.1_amd64.deb
+Size: 85708
+MD5sum: e8b44749c498bfec9be76875a5699c0e
+SHA1: 5e69fe913360143b21115803f5cf1a5b4e6add6a
+SHA256: f5993a4fed2809ea062294de41bfeb2c6b55609034297f9baabbc0a68b51ee69
+SHA512: 6fcb3dad301198ca82f7e72ae9c8e6eeb8384197d38f0af87cb6c1852bdfb234c8c4d6a9f3ed703a32f6c6d4cdc7ca36115a28ece8e38ee35d5306a788e9b8f5
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains the shared library.
+
 Package: libpgm-args-dev
 Architecture: all
 Version: 4.2.1

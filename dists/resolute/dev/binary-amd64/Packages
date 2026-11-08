@@ -5200,6 +5200,56 @@ SHA512: a4e178ed7ea3d0a56713cbaa9bec11633c0da188da6f6659b420836713e61819fba184cd
 Homepage: https://devdocs.io
 Description: View devdocs offline in a terminal
 
+Package: libosc++-dev
+Architecture: amd64
+Version: 2.1
+Priority: optional
+Section: libdevel
+Source: osc++
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 538
+Depends: libosc++ (= 2.1)
+Filename: pool/dev/osc++/resolute/libosc++-dev_2.1_amd64.deb
+Size: 107400
+MD5sum: 0cc1db9a9ed7ad689082ab2b48e6c266
+SHA1: f9007993c251dcd179d828e85dc8dd504646af4e
+SHA256: 40f8264bfaeb7a766ecd7e4c0aa2df183e1a06466bb45fd2e4214f647bd012ca
+SHA512: 228f0316a5b54ad680c65079b631b7dbc7d49dbbbd82cd51dfe308704a51a7367417dd2c9aab121cd41a68b2c68c9c93e41a60db84adc711067a8c66c9857afb
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains development files.
+
+Package: libosc++
+Architecture: amd64
+Version: 2.1
+Priority: optional
+Section: libs
+Source: osc++
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 210
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Filename: pool/dev/osc++/resolute/libosc++_2.1_amd64.deb
+Size: 73620
+MD5sum: dfece49d8c2b6cd46f46af7c3828fb5f
+SHA1: 8e1bde199b7e9f49fb0bad2100bb5bca819c19a1
+SHA256: 49adc2900c2bf9441abe5bd341b03eca03af162d421fbd61ef06959905e36b27
+SHA512: 46f4c3bd3e9d0c218642f2edab8e65041617f7507ff1afad95766503442c3bd3182105967124088db1ef34747033c7a6655085e3416e2329d34aefc31eeb2b48
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains the shared library.
+
 Package: libpgm-args-dev
 Architecture: all
 Version: 4.2.1

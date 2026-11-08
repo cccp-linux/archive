@@ -5200,6 +5200,56 @@ SHA512: 02878623a4d01cdcc122827bf4c960a51b480b05ea1ae9f685288ab660c84bc62c70266c
 Homepage: https://devdocs.io
 Description: View devdocs offline in a terminal
 
+Package: libosc++-dev
+Architecture: arm64
+Version: 2.1
+Priority: optional
+Section: libdevel
+Source: osc++
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 541
+Depends: libosc++ (= 2.1)
+Filename: pool/dev/osc++/sid/libosc++-dev_2.1_arm64.deb
+Size: 93640
+MD5sum: da5b2552496dc190330b9bdcddb57cbb
+SHA1: 2a8130849a8adea1d1acd39aa853caa77bb1252b
+SHA256: 660e3245f6a48d7c12d9cb982d5b1978b274f18bca8389f2939a3c8970728f50
+SHA512: 07cdb408fc1c999e8ce9792b0e5d7adcd43f39c77fc77c322f582eee2b75cba9b69e5e37b64e28390edacef414642602ce64812dceadb7d7e965433b75c2f815
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains development files.
+
+Package: libosc++
+Architecture: arm64
+Version: 2.1
+Priority: optional
+Section: libs
+Source: osc++
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 274
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: pool/dev/osc++/sid/libosc++_2.1_arm64.deb
+Size: 71704
+MD5sum: b19fe75dc515179c381f4617c77f7ed4
+SHA1: 7a27c10f634b3587bad7155244ce69bacbda6966
+SHA256: 2b136a70078b2de360ff9943bea9203f152f5138a49b9d568e4f51e4f83829fe
+SHA512: 10f5e09634070b47a922d4fc6eab6618dbb47c258cca2d5cc679f1fade50facd7f5618f960e85e87ca9547e1f48b9d8e001d8552f2304415d064081ee2dd132c
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Description: osc++ – an OSC Library for C++
+ The osc++ library allows one to easily create and parse OSC (Open Sound
+ Control) packets. Ref: http://opensoundcontrol.org/
+ .
+ OSC is an open, transport-independent, message-based protocol developed for
+ communication between computers and other multimedia devices.
+ .
+ This package contains the shared library.
+
 Package: libpgm-args-dev
 Architecture: all
 Version: 4.2.1
