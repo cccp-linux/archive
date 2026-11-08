@@ -1,0 +1,26 @@
+Package: aprox
+Format: 3.0 (native)
+Binary: aprox
+Architecture: all
+Version: 0.4
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/aprox
+Vcs-Git: https://github.com/cccp-linux/aprox.git
+Directory: pool/dev/aprox
+Package-List:
+ aprox deb admin optional arch=all
+Files:
+ e551dd1fe9950d47167482c59d691024 877 aprox_0.4.dsc
+ 578e9f1add2f8077ab2474149f9cbb00 15196 aprox_0.4.tar.xz
+Checksums-Sha1:
+ 7f2f8d592d4f676000d9b70140145a4f1df35340 877 aprox_0.4.dsc
+ 686899badca32df0609e95ef26ab62d61dddb4a8 15196 aprox_0.4.tar.xz
+Checksums-Sha256:
+ 115c276f5a52a9be6431d0ced63f5b02e3670d9faad1bea2ebdfcc37a25eb7c2 877 aprox_0.4.dsc
+ 51a0d057688393a056b1624c4063e228a0bd09f1752d2f33be10ee144b38aada 15196 aprox_0.4.tar.xz
+Checksums-Sha512:
+ 11deb84471670426e286f8468553e07d997f6893d3c42e4a9b69f3fca074d82524047447ac8ce09887f71a6e549fbacebdd0da585255195b30466d18e7918733 877 aprox_0.4.dsc
+ a4466633ca7d0ee4c77ff44df822d476379b3918af3e959e13ed6690c52c16ecc521e0e2244403d7b4378df43d04edba131f54f54e414ae1e4ff5a266f716cae 15196 aprox_0.4.tar.xz
+
