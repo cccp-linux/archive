@@ -52,3 +52,22 @@ Description: Development meta-package
  Add the following to your .config/nvim/init.lua:
  * require("dev")
 
+Package: devdocs-meta
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 18
+Depends: vim (>= 2:8.1.0693-2~) | neovim (>= 0.2.2-1~), devdocs
+Recommends: devdocs-data-bash, devdocs-data-c, devdocs-data-c++, devdocs-data-cmake, devdocs-data-g++, devdocs-data-gcc, devdocs-data-git, devdocs-data-make, devdocs-data-man, devdocs-data-opengl, devdocs-data-python, devdocs-data-qt
+Filename: pool/dev/devdocs-meta/noble/devdocs-meta_1.6_all.deb
+Size: 2522
+MD5sum: edb6c63f71d7c212f513526d24e7f20e
+SHA1: 4a8d1c058f2dcad68d518d60b21e8cda4fb15651
+SHA256: 39b8a8dd26e77518a583771e1c312bb053a02810bae54be0c2075967bb076328
+SHA512: a606133a3846d9fa8f3627d658470f757e4567a7e6cfe1d032ea325b6294cfb8ace759bcb60885673c59fdbfe6ffce8d25fb5453d293310313aa6a43ec086309
+Description: Devdocs meta-package
+ Add the following to your .config/nvim/init.lua:
+ * require("devdocs")
+

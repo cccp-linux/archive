@@ -76,3 +76,29 @@ Checksums-Sha512:
  0c457d9a2ee9c2ec7eb5359a96a167d28177ff3dc35ee33e21a9c4013aacb70f57dd37820e87481261cca46f4c287592f859403451873bfb61a543911bcd5161 926 dev-meta_0.32.dsc
  16df5ef82006706344848050a84780122cf53dbfe75fb80b0fe768bdbf5a1489b1f188682fd0cd986462c39b2648ad1e90a302a472dc9196c373942ceee3692f 18472 dev-meta_0.32.tar.xz
 
+Package: devdocs-meta
+Format: 3.0 (native)
+Binary: devdocs-meta
+Architecture: all
+Version: 1.6
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Vcs-Browser: https://github.com/cccp-linux/devdocs-meta
+Vcs-Git: https://github.com/cccp-linux/devdocs-meta.git
+Directory: pool/dev/devdocs-meta
+Package-List:
+ devdocs-meta deb metapackages optional arch=all
+Files:
+ 8ebeb2614fde2abb09c3d8f56b120d44 954 devdocs-meta_1.6.dsc
+ c6e64055d2ad5df40c3479461c29513f 13444 devdocs-meta_1.6.tar.xz
+Checksums-Sha1:
+ 207e6f046234e3f682c9507acfb5b5386ad89e19 954 devdocs-meta_1.6.dsc
+ 1eae80545603883ec537a4da3001ea9c0989b506 13444 devdocs-meta_1.6.tar.xz
+Checksums-Sha256:
+ 04918b6081dc19cfbe57299d3ea872d86cb921ccd6cad9491dc784b7efbaa8a5 954 devdocs-meta_1.6.dsc
+ 0d86a548f520467c4ed6925da19c220e736598e4d6093ca82e4b857fbff8d2cf 13444 devdocs-meta_1.6.tar.xz
+Checksums-Sha512:
+ a2e46d59c8f76dd3270532c6675565ec8e9b61357015db5905c831b367b60c6d701ff6534029b815e8e7ecbbdeb489fbbaad0494a7be9f3e7796c5d8a5ea1224 954 devdocs-meta_1.6.dsc
+ f660ecb2beb3c5eebf813ed094a9416c1e0dcee7341219970e686692bb2a921161c37ea86fb1592c471d3b6ef8a43a53bff41b7d74fcc093023244d580537e90 13444 devdocs-meta_1.6.tar.xz
+
