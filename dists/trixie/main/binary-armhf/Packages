@@ -363,6 +363,22 @@ Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
 
+Package: pycal
+Architecture: all
+Version: 0.2
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16
+Depends: python3:any
+Filename: pool/main/pycal/trixie/pycal_0.2_all.deb
+Size: 3692
+MD5sum: 58cafecb219a320ddf007d9b87e76e81
+SHA1: 59d7e44fb36b918e34639a50e2b45e575d6b671c
+SHA256: ca9892441ff131d49cf667b0e173b9fb70791e2f630682df0d432391619a23cf
+SHA512: 11f364b30a423d033840e06ed98f86f81daab89b9d5f88e99c17c7fd6bb9f26a0867fbc8b34c445d8344bb4f456cac9afe290c1b4c707156084344ab883e032e
+Description: Calendar display utility
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-6

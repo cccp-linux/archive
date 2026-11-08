@@ -363,6 +363,22 @@ Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
 
+Package: pycal
+Architecture: all
+Version: 0.2
+Priority: optional
+Section: utils
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 16
+Depends: python3:any
+Filename: pool/main/pycal/stonking/pycal_0.2_all.deb
+Size: 3570
+MD5sum: a4e93a5f12b94380eff2210b35faebe2
+SHA1: 8ed6f8f87599bd097f6067b5302529fe8f2a5ee4
+SHA256: 48cfea3656eb19f09c2829486154ec761819888fa6ce562e51d70508f55982a4
+SHA512: ff3bb1821020072e6865c0acae028d0a5d6660a40edd189968621f9c635d105ff774ce445ec747bb6af85dba52935a8e565daba210f7f2662af540d731aa5d30
+Description: Calendar display utility
+
 Package: neovim-statuscol
 Architecture: all
 Version: 1:0.0.1-40-gc461-6
