@@ -448,3 +448,23 @@ SHA256: d852e53340feabafa1104d8ac5054828f1c37273f52ad4d65efb26c6169c9e11
 SHA512: 80d07e1437efe1a8b990e2101b7eaa4fe73f17931021fa43de23018413665f10b6a501d7b1494dbf98d38dee427d3923fb8a0711ff453ccaf4f7dc67af514db6
 Description: Virtual machine meta-package
 
+Package: xwayland-satellite
+Architecture: arm64
+Version: 0.8.3-1
+Priority: optional
+Section: x11
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 5085
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libxcb-cursor0 (>= 0.0.99), libxcb1 (>= 1.11.1), xwayland (>= 23.1)
+Filename: pool/main/xwayland-satellite/stonking/xwayland-satellite_0.8.3-1_arm64.deb
+Size: 1526152
+MD5sum: 6093e10db6eb4fd888484e25f7b5a95d
+SHA1: f8158677b0f4dded458895c16f94f48a08ce900f
+SHA256: 29dbcd3cdd15295d5f91ff69fe503bfb930011d10c3be05c292052ea942a6818
+SHA512: b969dcbda0fa0e0674bb8ff5f76e12c2f5ef5324fea5deafe0eb26b383fdf196f793dcc2a3653f14dd65afbbbd5e1121684af29e31f08d204510fb2c25ad4b03
+Description: Xwayland outside your Wayland
+ xwayland-satellite grants rootless Xwayland integration to any Wayland
+ compositor implementing xdg_wm_base and viewporter. This is
+ particularly useful for compositors that (understandably) do not want
+ to go through implementing support for rootless Xwayland themselves.
+
