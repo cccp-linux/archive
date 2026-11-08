@@ -188,6 +188,37 @@ Checksums-Sha512:
  e61abc7f4b2c488cfa70022c922228c878e77e5168a1f489a562fde0aef35e2450b1f58bf6600e86b0621c79fc60d52bd34751598524471b1d48e41e2831f545 1076120 foot_1.28.0.orig.tar.xz
  317b608c8adf1f89e667d8886018469a6f1f88dea3dcd1369cb08839ecf5514feba524bd3de888e1fda2d2c3c8772d49321395a7bdd3fb733525f75a24acadc3 11580 foot_1.28.0-1+cccp1.debian.tar.xz
 
+Package: gtklock
+Format: 3.0 (quilt)
+Binary: gtklock
+Architecture: any
+Version: 5.0.0-1~pre1
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Standards-Version: 4.7.1
+Build-Depends: debhelper-compat (= 13), meson, scdoc, libaudit-dev, libpam0g-dev, libwayland-dev, libgtk-3-dev, libgtk-session-lock-dev
+Homepage: https://github.com/jovanlanik/gtklock
+Vcs-Browser: https://salsa.debian.org/debian/gtklock
+Vcs-Git: https://salsa.debian.org/debian/gtklock.git
+Directory: pool/main/gtklock
+Package-List:
+ gtklock deb x11 optional arch=any
+Files:
+ 2e2d7fcc7b6ecda5b45c881160b54cc2 1330 gtklock_5.0.0-1~pre1.dsc
+ f1c008e34aa3f5d3a76b1342417b3c35 59254 gtklock_5.0.0.orig.tar.gz
+ eb74615fc647d55ed023d2393635c6d0 2872 gtklock_5.0.0-1~pre1.debian.tar.xz
+Checksums-Sha1:
+ e08bb8943917bb3766b61f65fa94a2aace372a1a 1330 gtklock_5.0.0-1~pre1.dsc
+ 27b681d429c3ae2adfc3e9a0635459515e1c5ad2 59254 gtklock_5.0.0.orig.tar.gz
+ 73527781e71c56ca6a4314f532b03713a8da3456 2872 gtklock_5.0.0-1~pre1.debian.tar.xz
+Checksums-Sha256:
+ c63e11d78f479c05aeefc7847f2b27022e51b63e13f247eb10d654727b7e7499 1330 gtklock_5.0.0-1~pre1.dsc
+ 018c50cf1d7b626f823e797750e5b304511b3b359e7277e8abb3383c11e7aed9 59254 gtklock_5.0.0.orig.tar.gz
+ 11817a3c8d122e0c3cba6bf638fa68f7a781f1382a38edf44105e8b13eb631c2 2872 gtklock_5.0.0-1~pre1.debian.tar.xz
+Checksums-Sha512:
+ 132b211a1d8341984f1836a99bf8cca7b1463a861a0569d97ac33a5aee27de93bc211bc6516044528de4d1d9e5644ead8811376c7e86e1a3850d504067d2fe45 1330 gtklock_5.0.0-1~pre1.dsc
+ 0ee34cdad87254991ee75650245d6c9f63741781817a7cc9e0bc2a03df0aca001ee8c1b75f53e08270017c748b49faff643ab09e9a9d6de297f5a412aa415f99 59254 gtklock_5.0.0.orig.tar.gz
+ 32073789ea55d642960cbc5bfef157644e9778b35a6bae24c81c259767cff7425d53e313bddbeec009abb7117e8256ea2cc29627ce85a6d73f1bb416e29676e8 2872 gtklock_5.0.0-1~pre1.debian.tar.xz
+
 Package: libreoffice-meta
 Format: 3.0 (native)
 Binary: libreoffice-meta

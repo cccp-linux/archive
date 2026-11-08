@@ -258,6 +258,26 @@ Description: Fast, lightweight and minimalistic Wayland terminal emulator
   * Synchronized Updates support
   * Sixel image support
 
+Package: gtklock
+Architecture: arm64
+Version: 5.0.0-1~pre1
+Priority: optional
+Section: x11
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Installed-Size: 118
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.21.4), libgtk-session-lock0, libpam0g (>= 0.99.7.1)
+Filename: pool/main/gtklock/sid/gtklock_5.0.0-1~pre1_arm64.deb
+Size: 20748
+MD5sum: 35bbe3afd71bf37958b66a3dead50a58
+SHA1: 7976667573c43a5171a732a9bec2cb9e94734645
+SHA256: 1f607079bf183041947dd62213cd2217cbe2345a544cd3b0e0f853d485f9a68c
+SHA512: 53e523409d2735222e5e259db5d6af49681a8c053c8f4da48e038ccea569b2e27ff315e6cfaa68f6c42c67659ab993d5f8a6f5496e03ba19f5d3b8d3ec3c89eb
+Homepage: https://github.com/jovanlanik/gtklock
+Description: GTK-based lockscreen for wayland
+ gtklock is a simple but effective lockscreen for wlroots-based applications,
+ an alternative to swaylock. It features extensive configuration options and
+ can be themed using GTK themes.
+
 Package: libreoffice-meta
 Architecture: all
 Version: 0.1
