@@ -29,3 +29,180 @@ Checksums-Sha512:
  89de04a855d6134c07464dac8b2d7046cebacc09379fd3c1df5812cc7b6594ad1f7b193687fc53d858e424ff6c5372936d55931379e9238aaa2d556840640d4d 412456 blink.cmp_1.10.2.orig.tar.gz
  8987322c24a77dbacf30bef5e0944db91cb2f70c7e6c3b3014c967794eed279c929fc42c85688889acd24ec4ab1b3754e988bd7672b417d2e0e4486585a15710 6500 blink.cmp_1.10.2-3.debian.tar.xz
 
+Package: cccp-meta
+Format: 3.0 (native)
+Binary: cccp-standard-meta, cccp-boot-meta
+Architecture: any all
+Version: 1.5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/cccp-meta
+Vcs-Git: https://github.com/cccp-linux/cccp-meta.git
+Directory: pool/main/cccp-meta
+Package-List:
+ cccp-boot-meta deb metapackages optional arch=any
+ cccp-standard-meta deb metapackages optional arch=all
+Files:
+ 063a9b0ca3410c5309f47b9e20718ee1 1005 cccp-meta_1.5.dsc
+ f596a1bd0d7102b0787ea36f26dc6afe 25408 cccp-meta_1.5.tar.xz
+Checksums-Sha1:
+ 8df6653eea88851ff9af81de8a942551b76f8c3b 1005 cccp-meta_1.5.dsc
+ 5823dd3ade51bec3a3f0d8211b9f577120d88eff 25408 cccp-meta_1.5.tar.xz
+Checksums-Sha256:
+ eb28be239a1b7e1b8998e84492c13a75d4c6d956ca74bb3c7ac72a991da3431e 1005 cccp-meta_1.5.dsc
+ ffabf85bfc7144d36b81c424c8f9f4a8a750f086af44ff7618a99f40f69a2828 25408 cccp-meta_1.5.tar.xz
+Checksums-Sha512:
+ 9075113e3729169b5437335619f8457ea8ee4254a3d7883cc0a88a7a9fa5e8e807b727020590e830c4807766b34a50ad5b48663cd6a0f708d9d99a8571fde585 1005 cccp-meta_1.5.dsc
+ a9027fa4c525c7073a0e0fe74120ab7e1a4096701cafc80ec7be344ed80eaf2594028e65b482c2241cfc7812c440f7c6ca9796020f50c1158a70ac30c2b5bc18 25408 cccp-meta_1.5.tar.xz
+
+Package: font-bitstream-type1
+Format: 3.0 (quilt)
+Binary: fonts-courier-10pitch, fonts-courier-nerd, fonts-bitstream-charter
+Architecture: all
+Version: 1.0.4+~3.5.1-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), fontforge-nox
+Vcs-Browser: https://github.com/cccp-linux/font-bitstream-type1
+Vcs-Git: https://github.com/cccp-linux/font-bitstream-type1.git
+Directory: pool/main/font-bitstream-type1
+Package-List:
+ fonts-bitstream-charter deb fonts optional arch=all
+ fonts-courier-10pitch deb fonts optional arch=all
+ fonts-courier-nerd deb fonts optional arch=all
+Files:
+ 443b3f71ff476c23cc49c9f242196000 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ 38fbd0aff00b0cf7b89b062b344ab306 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ 5f778f9855dc27417283202fefdcc97f 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ 86a5be9ce297aa6f0030d2f0f71280df 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+Checksums-Sha1:
+ 45ddfe214b5982cbc43e329596505017a4fcece6 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ 657f84ba005a639f0b2b0fc823fe6925dee087f5 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ 152322cf77219dc7891f79ff251cd48d0bcfff21 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ f170edbbd910915eab883ee6339e6e6a2f3b1e73 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+Checksums-Sha256:
+ a3517b0a0606cf6e747fa50a3165b96343dd297597fdc6406299594e291e2a70 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ 2693d9c70960291598bf250f1a6b7b98f71f5176e6fb53b47a05d6f43f12ad87 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ d5db1d2421a90aef06371138d07556b5e9f5fa847dc029c4656a84e5ca8a11b4 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ c0e10ecd705ab28b135b85cdb50b47cf4da802197b2a34b29a7650c5932e69ae 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+Checksums-Sha512:
+ 623a4a2ec4025800f3b98db995eac46ec0819513a815b0ddaf5775b812a5f66b53724532ad98b890312f1841a61c67c47c4a0c97e2816bf7779a15825b3f5c1c 1850 font-bitstream-type1_1.0.4+~3.5.1-2.dsc
+ ff7cc4b9f503120019ea9897bf97db15df723c360cf6f5885161c041a7f1e68bd41a0901b221a2a59077f063464fbc1defd716932e2f0c8375153469fc897934 3272938 font-bitstream-type1_1.0.4+~3.5.1.orig-patcher.tar.gz
+ d3f693adfe6a9b6ec464b725cfcf283e120b6a8a3fd93dec5363dd8cac10ff688cfede967d91dbbe699f74c89af9ddd238e10eab4620032395d404111a8d112f 336615 font-bitstream-type1_1.0.4+~3.5.1.orig.tar.gz
+ 32ddc8745a77481392ed9579ce0101b2b3a4bede4b97bd4a9ad371eae8ceed16fb4a4809b1de41854515c2578bd367c98794f78cb6ddb3ba69e20c8416d7b6bd 8672 font-bitstream-type1_1.0.4+~3.5.1-2.debian.tar.xz
+
+Package: fonts-roboto-mono
+Format: 3.0 (quilt)
+Binary: fonts-roboto-mono
+Architecture: all
+Version: 3.001-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/googlefonts/RobotoMono
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-roboto-mono.git
+Directory: pool/main/fonts-roboto-mono
+Package-List:
+ fonts-roboto-mono deb fonts optional arch=all
+Files:
+ e34fdaee1b19f97d87edd2de77abec9f 1352 fonts-roboto-mono_3.001-3.dsc
+ 7ef2b7b0ecf93d49c67c5f4c2aa9369f 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 47439f9298a0af16d0ea0bc2b3fcd8cb 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha1:
+ 0ad3ce43f0609e2bb80db996ac5cb5e4d675d5bb 1352 fonts-roboto-mono_3.001-3.dsc
+ 440b59c0a717a54ac6d8d55f2b1737a03c9d0ab1 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 77a334a7f7754a23fbb31c0a821e4bb306cac54f 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha256:
+ a56c5f451d116a145afbfbb332d034b972bd5e0c6c6249b22d6ea944a733cea9 1352 fonts-roboto-mono_3.001-3.dsc
+ 52dfbcfd8fa063b5233245921995178345b3bc276e463a5b60b40bcf26ff9bca 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ f5bec69b2514eeaaaa45333b3ab0faeaf0f2514332fbac760f66660f6bde3b1a 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+Checksums-Sha512:
+ d10c890667dfcc0841a58e7813efb25abafca2e96754bb94b467f9d3a53a80001ef65f9f6b7be31fd3c1279e34f06b6dbcf359f1d20702c440e11e85c1efeb51 1352 fonts-roboto-mono_3.001-3.dsc
+ 98f1b292943aee7cee748c917e33f39bd4a76d5a733e3c4d8e398fdb7642ffc0810642fd2546dbf479b73471b4b96ad3d681343e922efc6905a3a629236cf59f 4518039 fonts-roboto-mono_3.001.orig.tar.gz
+ 9a107aa041f9690b80e30c31b58a2ed3da07dc62154f6d18d111ca797762f32778cfd7a8e9eb41f4c2cabc1b4dda960a676fd1af7db34a386c4ba85d64076150 3064 fonts-roboto-mono_3.001-3.debian.tar.xz
+
+Package: fonts-symbols-nerd
+Format: 3.0 (quilt)
+Binary: fonts-symbols-nerd
+Architecture: all
+Version: 3.5.1-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://www.nerdfonts.com
+Vcs-Browser: https://github.com/dimitry-ishenko-niri/fonts-symbols-nerd
+Vcs-Git: https://github.com/dimitry-ishenko-niri/fonts-symbols-nerd.git
+Directory: pool/main/fonts-symbols-nerd
+Package-List:
+ fonts-symbols-nerd deb fonts optional arch=all
+Files:
+ 8bc7f1917fcc0f34fbb8afb4c1134bdb 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ dba0eb44655774e667d17cb3f7a265e7 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ e59e26ba736fcfe38cd643781e659dca 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+Checksums-Sha1:
+ e913920f81cdf3ce03c150e072d112d73836b3ed 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ da7b253d92cb5bb753823e667e99d150d3e39975 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ 949377be6a57a010cf834e59a8a53f21d47b9e4b 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+Checksums-Sha256:
+ ba1408433161622772d1fb40d1618afd8a2e56ca01f3d7377621669c027e9a11 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ 01172f37db8543edb102e5cb5c64101c9f4686630804d49b419aa07b23a69996 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ e703286685f025018c30be3607b0412f9b4722d5f20ca73c0e6cbe01eef16a81 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+Checksums-Sha512:
+ b56b67d53939dc1daed4e4af586b60eb4b7584200ce84498ea68e354779b9c8e8dbcbf03598aee69a04442fdbe8e94ff907a5c1db8a92477744d1fd4ce54efe5 1347 fonts-symbols-nerd_3.5.1-1.dsc
+ 983fa63bc543a6b63d1d76186b7f1152b3c8f2b01cafa7db92adadc8aacc04147d36fcd03fd4ac8f95296f072c74c3c1f55a4c939ede6906e3e9e1840c657b53 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
+ 4878eb9c837c3614edc335ede04854682ca90b87b743f2b90fac486ac320b896c814ac1a5136d4b6261fa3d4a9864ccf5c6e63be534401276f9fbc79f419eda2 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
+
+Package: libreoffice-meta
+Format: 3.0 (native)
+Binary: libreoffice-meta
+Architecture: all
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/libreoffice-meta
+Vcs-Git: https://github.com/cccp-linux/libreoffice-meta.git
+Directory: pool/main/libreoffice-meta
+Package-List:
+ libreoffice-meta deb metapackages optional arch=all
+Files:
+ 4f370c543d42ab70f25eca7ffb66bb32 969 libreoffice-meta_0.1.dsc
+ 92782289282697cb6e3126c9a193c8d3 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha1:
+ 5d3ad824a96913e8682b7afbf1160bc5e231ddab 969 libreoffice-meta_0.1.dsc
+ aac8afc2e3994bc3f0c67c727c5e2e0c732943e3 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha256:
+ 6b8edf9a92d19b11fb0984ccfd310d13f1b5dd19415816065d8eb2cb0ddcebca 969 libreoffice-meta_0.1.dsc
+ 7dc4fa6463fb0b33c202996a34c02e334a0757381096c865a3dc768dcfdc7f4c 1300 libreoffice-meta_0.1.tar.xz
+Checksums-Sha512:
+ eb22474a4c985cfca788710f526912266473e078aed82f1540111d27a222ed22ca0f2098e912870c5a4942467671bbf676d4057a0e23a9de41562ecb2b9d5d25 969 libreoffice-meta_0.1.dsc
+ 7bb1a3d781420fc40ca707ac2be27b06451c9ee316bfe357e792602e0466cbdec664aa1a0a65ee136764ff6fb5e7b35de40bd6f94f2b72c2a459d9d883393d8a 1300 libreoffice-meta_0.1.tar.xz
+
+Package: llm-meta
+Format: 3.0 (native)
+Binary: llm-meta
+Architecture: all
+Version: 0.2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/llm-meta
+Vcs-Git: https://github.com/cccp-linux/llm-meta.git
+Directory: pool/main/llm-meta
+Package-List:
+ llm-meta deb metapackages optional arch=all
+Files:
+ 8a451f0f3c89e691806c87adcb78fa94 908 llm-meta_0.2.dsc
+ e0e92b1ed5db9bc81f420dd996d06bca 15128 llm-meta_0.2.tar.xz
+Checksums-Sha1:
+ c6ffa6d0f92b60fea988743a226d740027c0c802 908 llm-meta_0.2.dsc
+ a3857f29d359c483bd81ea62f200545f67c0feec 15128 llm-meta_0.2.tar.xz
+Checksums-Sha256:
+ 49a33d73cf8172a05f1be4b58571227c4554f5cc32e743b2892fa8ab5230fee2 908 llm-meta_0.2.dsc
+ 8c15b107eb613803b8726a416e13b8da7888d6c54083af20cfeaf4d87e78165f 15128 llm-meta_0.2.tar.xz
+Checksums-Sha512:
+ b375b014a2ebaf61007aa6b42b975d7375021fa627a292409bc17d126a408e74f0b311ac60d2a3ab3d7093e95b455ebf04ad63ab356f042c9852027e0b14de15 908 llm-meta_0.2.dsc
+ 2b035c96ad6399b16b37809b2faae0b92efc247737854358a9d896cffbec4604e9c020a3dab1c382bdc6b6db761c9999f634dd6e7c0a7a9118c5f5c478290dfe 15128 llm-meta_0.2.tar.xz
+

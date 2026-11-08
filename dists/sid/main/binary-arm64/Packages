@@ -20,3 +20,145 @@ Description: Performant, batteries-included completion plugin for neovim
  resistance. It provides extensibility via pluggable sources (LSP, buffer,
  snippets, etc), component based rendering and dynamic configuration.
 
+Package: cccp-boot-meta
+Architecture: arm64
+Version: 1.5
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 15
+Depends: initramfs-tools, linux-headers-generic, linux-image-generic, systemd-boot, zstd
+Recommends: amd64-microcode, firmware-intel-graphics, firmware-intel-misc, firmware-iwlwifi, firmware-linux, firmware-mediatek, firmware-nvidia-graphics, firmware-realtek, intel-microcode, shim-signed, systemd-boot-efi-arm64-signed, wireless-regdb
+Filename: pool/main/cccp-meta/sid/cccp-boot-meta_1.5_arm64.deb
+Size: 4088
+MD5sum: 420d667c0d4e51229198dd80f932ea9d
+SHA1: edbffd7f1423faeb11361d4ddb0c2887b4672408
+SHA256: f39bae2dfb3f8096bd21254af7f3835abe64e1b2afef11997706714c4d1c447a
+SHA512: 7d9bfecbff00ce6dba2e8b475b2d1923e1af6ba04aa24947840e129f28f5f0b349b356fba8a116d9d487927a6ac41e1b2814fccd6fd4b81c78f1c9cbbda840da
+Description: Kernel and boot packages
+
+Package: cccp-standard-meta
+Architecture: all
+Version: 1.5
+Priority: optional
+Section: metapackages
+Source: cccp-meta
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 77
+Depends: adduser, apt, awk, btrfs-progs, console-setup, debconf, debian-archive-keyring, distro-info, dmidecode, dosfstools, e2fsprogs, eject, ethtool, file, gdisk, hdparm, info, iproute2, iputils-ping, kbd, kmod, kpartx, less, libpam-systemd, locales, login, logrotate, lsof, mount, parted, passwd, pciutils, procps, sensible-utils, sudo, systemd, systemd-sysv, time, tzdata, ubuntu-keyring, udev, usbutils, vim-tiny
+Recommends: 7zip, acl, archivemount, attr, bash-completion, bind9-dnsutils, btop, busybox-static, bzip2, command-not-found, cpio, exfatprogs, fscrypt, fzf, genisoimage, highlight, htop, hxtools, iputils-tracepath, lf, libfile-mimeinfo-perl, libpam-mount, libpam-mount-bin, lshw, man-db, manpages, mtr-tiny, net-tools, netbase, netcat-openbsd, netplan.io, nftables, nmap, ntfs-3g, numactl, openssh-client, openssh-server, psmisc, pycal, python3, qalc, rename, ripgrep, rsync, sdparm, socat, strace, sysstat, systemd-resolved, systemd-timesyncd, telnet, trace-cmd, udftools, ufw, unzip, uuid-runtime, wget, whiptail, xz-utils, zip
+Filename: pool/main/cccp-meta/sid/cccp-standard-meta_1.5_all.deb
+Size: 15132
+MD5sum: 74e837e91b3c556bfbe464a6465440ec
+SHA1: fb24fee775e8a73d5e76421caf75bbded6f7abca
+SHA256: 67cf3672ae31f2098793971928b58cbf3b10ea47ecd7fef42e8b55a70e993fb8
+SHA512: 50fd0d04034702cfae8a9c588a27dd6478d3057a7737de255a2c6ba5499e8a01cce29e6d7c22498410c0a527db425691cb7f2cc89a562ff76cdc105c0b59c775
+Description: Standard set of CCCP Linux packages
+ Copy the following into your home dir:
+ * /etc/skel/.bashrc
+ * /etc/skel/.bashrc.d/
+ * /etc/skel/.profile
+ * /etc/skel/.profile.d/
+
+Package: fonts-bitstream-charter
+Architecture: all
+Version: 1.0.4+~3.5.1-2
+Priority: optional
+Section: fonts
+Source: font-bitstream-type1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 107
+Filename: pool/main/font-bitstream-type1/sid/fonts-bitstream-charter_1.0.4+~3.5.1-2_all.deb
+Size: 59812
+MD5sum: 55723ac4ef9686a2b1152d0d9dd400e9
+SHA1: 84e168404356fb1ea50822c44dab9fcf7f50b89c
+SHA256: e2d90ecdc2c79e7d0befe7cb3c45e0e3dd501ad04f2df5a51ac40a1d2ef0fd18
+SHA512: 9e0c062bec4030e658b19f6a3ee3c26dae3fd49f3449b4d843cd66dbb967f3357ba06466b23be36764ba6bfe41067ea0130a559af1ce7882bc7d41fcf786bb7c
+Description: Bitstream Charter font from xfonts-scalable
+
+Package: fonts-courier-10pitch
+Architecture: all
+Version: 1.0.4+~3.5.1-2
+Priority: optional
+Section: fonts
+Source: font-bitstream-type1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 123
+Provides: fonts-courier
+Filename: pool/main/font-bitstream-type1/sid/fonts-courier-10pitch_1.0.4+~3.5.1-2_all.deb
+Size: 62192
+MD5sum: 6cfbc2fad550f835eeec1a1f7158b36c
+SHA1: 8d5b0b1d3a802bad4fc7f155a5a0438f65a80238
+SHA256: 4d4a6ca9250f626f2a1de53ecd1b8b4e213bcb5ad2e404b211fed9027b67bf68
+SHA512: 5b6884cae03f51b518f35bf64db09455b26e921464dca848940f98a69920fe0d7c81d2a72bcdb6f61cdbc8f763ad6ef93aeff502f3c957daa8b79e1d2c36b621
+Description: Courier 10 Pitch font from xfonts-scalable
+
+Package: fonts-courier-nerd
+Architecture: all
+Version: 1.0.4+~3.5.1-2
+Priority: optional
+Section: fonts
+Source: font-bitstream-type1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 8743
+Provides: fonts-courier
+Filename: pool/main/font-bitstream-type1/sid/fonts-courier-nerd_1.0.4+~3.5.1-2_all.deb
+Size: 1394556
+MD5sum: ee5527086e8d2640e2c0aae71eaa1ff0
+SHA1: f0d4c6b6349dc71127ffb15de2932ed8b45504fe
+SHA256: a44fe41d7ceec1ee6e96ddbe3e51aeb91de55ff3c51c345db7c8c30cc53156a7
+SHA512: 61e57bf65d57e230fdec4523855bd2d57463e917aa85f8ff5ff5458a7a28d70953824a159de8f439a5528a44935e0d111b270fa08f72c8437d4c417a7a649f25
+Description: Courier 10 Pitch font with Nerd Font glyphs
+
+Package: fonts-roboto-mono
+Architecture: all
+Version: 3.001-3
+Priority: optional
+Section: fonts
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 979
+Filename: pool/main/fonts-roboto-mono/sid/fonts-roboto-mono_3.001-3_all.deb
+Size: 587600
+MD5sum: 2e5ebba6b1a66fdf24e3c609c8770883
+SHA1: d5b6fae80aeb48a40313bc2bb49f90dda0e53c21
+SHA256: 537db206643e216287a1973ea78f73066daa0cf58023e988441304cf4725e5e1
+SHA512: c8ef7c9d5c0562ce5131114a9b744a842fdb950c6923cbf4e8e5c41e7266fbe168e7ce64799346c237b0996ddf36a38df34d7d03360bb3a4e3c1441fc274158d
+Homepage: https://github.com/googlefonts/RobotoMono
+Description: Monospaced addition to the Roboto type family
+ Like the other members of the Roboto family, the fonts are optimized for
+ readability on screens across a wide variety of devices and reading
+ environments.
+ .
+ While the monospaced version is related to its variable width cousin, it
+ doesn’t hesitate to change forms to better fit the constraints of a monospaced
+ environment. For example, narrow glyphs like ‘I’, ‘l’ and ‘i’ have added
+ serifs for more even texture while wider glyphs are adjusted for weight.
+ Curved caps like ‘C’ and ‘O’ take on the straighter sides from Roboto
+ Condensed. Special consideration is given to glyphs important for reading and
+ writing software source code. Letters with similar shapes are easy to tell
+ apart. Digit ‘1’, lowercase ‘l’ and capital ‘I’ are easily differentiated as
+ are zero and the letter ‘O’. Punctuation important for code has also been
+ considered. For example, the curly braces ‘{ }’ have exaggerated points to
+ clearly differentiate them from parenthesis ‘( )’ and braces ‘[ ]’. Periods
+ and commas are also exaggerated to identify them more quickly.
+ .
+ The scale and weight of symbols commonly used as operators have also been
+ optimized.
+
+Package: llm-meta
+Architecture: all
+Version: 0.2
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 17
+Depends: llm, python3-prompt-toolkit, python3-rich
+Filename: pool/main/llm-meta/sid/llm-meta_0.2_all.deb
+Size: 4376
+MD5sum: 6d8a3bf59cd77a07545a1b3c8356bda5
+SHA1: 6030beeaae15160b1c4810e6c717e8e6e31706a8
+SHA256: 8b10e7704afb29409f5d917816c99fde986c49b73e7301f22411c7de36c6118c
+SHA512: 0c3be3c7d1895ce6ec68a533968d3fdd05e75c53dc394b9d398f4113ce86787800dfcf7d7d238c3fd593ccb9000de1a869700a093de29dc1020165b250c48c84
+Description: LLM meta-package
+
