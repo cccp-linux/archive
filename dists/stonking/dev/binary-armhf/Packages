@@ -72,3 +72,22 @@ Description: Devdocs meta-package
  Add the following to your .config/nvim/init.lua:
  * require("devdocs")
 
+Package: uscan
+Architecture: all
+Version: 2.26.9.3
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Installed-Size: 350
+Depends: perl:any, dpkg-dev (>= 1.18.19), libfile-dirlist-perl, libfile-homedir-perl, libfile-touch-perl, libio-string-perl, libjson-perl, libmoo-perl, libwww-perl, libyaml-libyaml-perl, sopv | gpgv
+Breaks: devscripts
+Replaces: devscripts
+Filename: pool/dev/uscan/stonking/uscan_2.26.9.3_all.deb
+Size: 79082
+MD5sum: 03b8ed1b80e00cdc6c873790a0873acc
+SHA1: e29f0f41c1c1479a3ad718038d2a53ef0fb769d7
+SHA256: e919b10a4e6bd27a5a120fdf628efdab578cecc7274504acabea9d9ef938d184
+SHA512: de96f326cb717bd3886500bc7cb06ebad110c381a0b58201454ae8ef87435989a2eecdbac67b696bc450162d05078616883dbce7e4ad474b388496cbb3ef0a51
+Description: scan/watch upstream sources for new releases of software
+
