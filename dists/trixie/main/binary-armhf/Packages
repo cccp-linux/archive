@@ -365,6 +365,22 @@ Description: Status column plugin
  Status column plugin that provides a configurable 'statuscolumn' and click
  handlers.
 
+Package: term-meta
+Architecture: all
+Version: 0.33
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 32
+Depends: cage, fonts-courier-nerd | fonts-courier, fonts-courier-nerd | fonts-symbols-nerd, fonts-ibm-plex, foot (>= 1.27.0.1), foot-themes, tmux, wl-clipboard, wlr-randr
+Filename: pool/main/term-meta/trixie/term-meta_0.33_all.deb
+Size: 5552
+MD5sum: 22956b7e344159b936cc1d2f95ac1e17
+SHA1: e19284e42cc85811dd8076cce1756f273d5110b1
+SHA256: 5399b54af5851e50731de6455b4eeb64dcb075823a17a747138bdec87f1012b8
+SHA512: 8b1d528df4c6e3994b1c04b8a32882f1ea89a956793c262dc42111bd9f08f56f2773c4aa4f061917f4e1d421cd4e49de6962adea3ffa12b4d118f319fd23916d
+Description: Terminal meta-package
+
 Package: virt-meta
 Architecture: all
 Version: 0.7

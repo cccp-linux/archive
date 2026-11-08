@@ -365,6 +365,22 @@ Description: Status column plugin
  Status column plugin that provides a configurable 'statuscolumn' and click
  handlers.
 
+Package: term-meta
+Architecture: all
+Version: 0.33
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 32
+Depends: cage, fonts-courier-nerd | fonts-courier, fonts-courier-nerd | fonts-symbols-nerd, fonts-ibm-plex, foot (>= 1.27.0.1), foot-themes, tmux, wl-clipboard, wlr-randr
+Filename: pool/main/term-meta/stonking/term-meta_0.33_all.deb
+Size: 5588
+MD5sum: b49f5c152fe1c93e2ec198bef561542b
+SHA1: 214311de694569f7e73fe9cb5a5a7e763427a830
+SHA256: afc20a1d662088f1b03270035fa059923d2a3df66f98cc8a949bb2f6ad8d24fc
+SHA512: 76b0c75871363b0c63888c743ea103f21fbdafb645ceb59161cc71332076ffb1d2f12d8b97c3a425afeb83d7bbfec868d447b4de9a42af9835f81eef5968c901
+Description: Terminal meta-package
+
 Package: virt-meta
 Architecture: all
 Version: 0.7
