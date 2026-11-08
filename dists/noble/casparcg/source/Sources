@@ -24,3 +24,29 @@ Checksums-Sha512:
  c65997d4f132a94113eed7c035ad85e1bc715560f6dd26a1b01ec0381b7039a4dca579c3c68860972a386298c3ffc3226cbfe6e885dd8332ebb7f4c12b98d39f 1023 control_0.5.dsc
  f500cf024239889d6f22527aa7bc1a3680e8f1bd4e60587c3fc434d49941b841e64cadccfa75754d79be115df572a360dfbd68238151e47c0dae68ce2fd0daa0 175608 control_0.5.tar.xz
 
+Package: scanner
+Format: 3.0 (native)
+Binary: casparcg-scanner
+Architecture: all
+Version: 0.5.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools
+Vcs-Browser: https://github.com/dimitry-ishenko-casparcg/scanner
+Vcs-Git: https://github.com/dimitry-ishenko-casparcg/scanner.git
+Directory: pool/casparcg/scanner
+Package-List:
+ casparcg-scanner deb python optional arch=all
+Files:
+ 660ce6cbdb60167745093df7ee7c261e 1028 scanner_0.5.1.dsc
+ 5cedc0026830587e117d1bf54ae2ffc4 21828 scanner_0.5.1.tar.xz
+Checksums-Sha1:
+ 3c96fe0816bce9cb98e2229f21d464d9efee6b31 1028 scanner_0.5.1.dsc
+ a861c7ee45497b6cb2507d02c14389dc750a7494 21828 scanner_0.5.1.tar.xz
+Checksums-Sha256:
+ 8c21521285583d2d90a3bf3fef2f0c7314fc25950ae48677a160fd04c1ffef91 1028 scanner_0.5.1.dsc
+ a5d9b87aac29da0a175c203fe6195de1b3bab946941299f7c6daf77bc55e654a 21828 scanner_0.5.1.tar.xz
+Checksums-Sha512:
+ 58cc216a4a99a26571c4d432d1e6d615b4dcc01ae1393675eb3ac7a0971dd2fd77fcd42955f3646a5a2e840a6ef8951a72cf15cf7d3788a425fb5f6a6b72b709 1028 scanner_0.5.1.dsc
+ 88a91500e3bc0673994e96b1ba069ef03b3820db4902007b10620dd8a2ee0abc86423cd9b36f37a4ff1f1172c67c4e69308887296b78430b56fda630cf8b8556 21828 scanner_0.5.1.tar.xz
+

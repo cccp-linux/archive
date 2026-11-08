@@ -14,3 +14,22 @@ SHA256: 01d197f2e6f9561d89574626ee4c8573d1eeba03c1f723db9eab10dc2bb27e96
 SHA512: d21fdd28bcf4f4dece2467d5af4039e308ab5b917dcc69116858a8cbe67370beb3ec6a4c737c823cdff6febd37dd0b8fca6532ec2f12ceb58837263038ebbf2f
 Description: CasparCG Control
 
+Package: casparcg-scanner
+Architecture: all
+Version: 0.5.1
+Section: python
+Source: scanner
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 57
+Depends: init-system-helpers (>= 1.52), python3-flask, python3-lxml, python3-waitress, python3-watchdog, python3:any, ffmpeg
+Filename: pool/casparcg/scanner/noble/casparcg-scanner_0.5.1_all.deb
+Size: 13108
+MD5sum: bc084563b09554e806ac9d2a1222fad6
+SHA1: 5e8157bf56806ff0bff33a64323b97ad5561d15e
+SHA256: 9c38c1f403a633cd178a59df762c66decda04ed85ab54d9cabe8fbe1358705c7
+SHA512: 5dc585b2209ad06ba3bac3da9244a575a5c20e3d5e7f8bb8b3c693a6e7f5efeb8cdf4d2970ce7613fb9db447051e48522a3fedab1c529313aa1dce540a17b6f2
+Description: CasparCG Media Scanner
+ This is an alternate implementation of the CasparCG Media Scanner written in
+ Python. It can be used as a drop-in replacement for the original, or as a
+ standalone background service on both Linux and Windows.
+
