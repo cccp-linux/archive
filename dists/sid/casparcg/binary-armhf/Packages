@@ -35,3 +35,25 @@ Description: CasparCG Media Scanner
  Python. It can be used as a drop-in replacement for the original, or as a
  standalone background service on both Linux and Windows.
 
+Package: casparcg-server
+Architecture: all
+Version: 2.5-3
+Priority: optional
+Section: video
+Source: server-default
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 11
+Depends: casparcg-server-2.5
+Filename: pool/casparcg/server-default/sid/casparcg-server_2.5-3_all.deb
+Size: 2332
+MD5sum: 8aa7c9c3efb6c435f006c44b2ce7c218
+SHA1: 5639fbfdd0dcf490f6179e8be7f129f051ef9115
+SHA256: 69d70b6e96cea55a8ab01391a8711585f64f1eee8a01590cee6b1d193d652433
+SHA512: 3e67bc3a3af902c2ec48e8f29f2d9e6513491624119df72d22ef4db7d79a6fb8576f33667f6711bd6e7ad003d30d29735d8b77e4cf2040780601a7360d2ca848
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional
+ graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+ production since 2006.
+ .
+ This is a dependency package providing the default version.
+
