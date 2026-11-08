@@ -325,3 +325,23 @@ Description: Neovim meta-package
  Add the following to your .config/nvim/init.lua:
  * require("neovim")
 
+Package: neovim-oil
+Architecture: all
+Version: 2.16.0-2
+Priority: optional
+Section: editors
+Source: oil.nvim
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 511
+Depends: neovim (>= 0.8)
+Recommends: neovim-web-devicons
+Filename: pool/main/oil.nvim/trixie/neovim-oil_2.16.0-2_all.deb
+Size: 105836
+MD5sum: 035dae24593d17368feb52d6280ad190
+SHA1: 04bf79aff31c750de39708fce0f116cb18e3d1b8
+SHA256: cf2d7847ac069e67ecca68ba44dbf79f759690ae0e2b9352377c14235d95ebd7
+SHA512: cc93347b5da6efa36ea6b4b9fb111ea1b1f3c89f0038d6f1e201d97c48c7f1c8c21e0db0b1669942284a6a68154c95a0b66ecbdf10d1a7efa7e6ca4364e8f83e
+Homepage: https://github.com/stevearc/oil.nvim
+Description: Neovim file explorer
+ Edit your filesystem like a buffer.
+
