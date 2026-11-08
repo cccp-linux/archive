@@ -102,6 +102,61 @@ Checksums-Sha512:
  a2e46d59c8f76dd3270532c6675565ec8e9b61357015db5905c831b367b60c6d701ff6534029b815e8e7ecbbdeb489fbbaad0494a7be9f3e7796c5d8a5ea1224 954 devdocs-meta_1.6.dsc
  f660ecb2beb3c5eebf813ed094a9416c1e0dcee7341219970e686692bb2a921161c37ea86fb1592c471d3b6ef8a43a53bff41b7d74fcc093023244d580537e90 13444 devdocs-meta_1.6.tar.xz
 
+Package: osc++
+Format: 3.0 (native)
+Binary: libosc++, libosc++-dev
+Architecture: any
+Version: 2.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
+Homepage: https://github.com/dimitry-ishenko-cpp/osc
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/osc
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/osc.git
+Directory: pool/dev/osc++
+Package-List:
+ libosc++ deb libs optional arch=any
+ libosc++-dev deb libdevel optional arch=any
+Files:
+ 600a67d041d3d4ad8ef690a39c8ca59a 1050 osc++_2.1.dsc
+ ed0d64a0ff5dc75782dcd7e7757368a9 26568 osc++_2.1.tar.xz
+Checksums-Sha1:
+ 7c3631b4ddae70a2919e48c276223fceae383645 1050 osc++_2.1.dsc
+ 4386adb509dc334b22be54d415d2d472d8d88baf 26568 osc++_2.1.tar.xz
+Checksums-Sha256:
+ 788ba1f3c06abafe220730431a77655f39bb891e930c6ddefd4a63d362a2cefd 1050 osc++_2.1.dsc
+ ca551f618eeaa2676e43a1ecaa19f90aa11cff6a3b5cd3cf93105cd8bcd7e7e5 26568 osc++_2.1.tar.xz
+Checksums-Sha512:
+ cf0d44600bf2220aaa62352fe8c8d03596600edfa6dea2a2662e2046d6feff9943e746bedf258f6cdf853c2d69386ae49ce3f149a459278b5e21d4f1c41abef3 1050 osc++_2.1.dsc
+ 7a37995b6fdac3bf61f4c865b5fbc014f79283572690837c36b313ef4633db56d9c2ff120e43ee0ede68305444245695d41aa2722ca5436d8eddb968c7207c48 26568 osc++_2.1.tar.xz
+
+Package: pgm-args
+Format: 3.0 (native)
+Binary: libpgm-args-dev
+Architecture: all
+Version: 4.2.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.16), libgtest-dev <!nocheck>
+Homepage: https://github.com/dimitry-ishenko-cpp/pgm-args
+Vcs-Browser: https://github.com/dimitry-ishenko-cpp/pgm-args
+Vcs-Git: https://github.com/dimitry-ishenko-cpp/pgm-args.git
+Directory: pool/dev/pgm-args
+Package-List:
+ libpgm-args-dev deb libdevel optional arch=all
+Files:
+ 5245f4e60458f8e1ef1629648ebe9d0d 1044 pgm-args_4.2.1.dsc
+ afa793ca07e1547bc2cd5a0de4acd443 29336 pgm-args_4.2.1.tar.xz
+Checksums-Sha1:
+ e588294f0606f23b00f4679c70c7786da36ab598 1044 pgm-args_4.2.1.dsc
+ f3650d188b8e4580a972edd1d90b56e1df1e44e0 29336 pgm-args_4.2.1.tar.xz
+Checksums-Sha256:
+ 4c56a7f456a7b411b86c9c2150f3e4801bc3b8104341d1d9f20ca8056da8d1a8 1044 pgm-args_4.2.1.dsc
+ c443ca505e9125c6dbc94caf3f795b6e96b88426a85a239de8dada0561eaa514 29336 pgm-args_4.2.1.tar.xz
+Checksums-Sha512:
+ 58a04031ee0a6dd01eaadc341a9614f96de7609e5c26d73df1d1c675d9cf73d02316dec92a2a6550f591326a8ee33856c8101d0198a67f5e60f0c73862fd5244 1044 pgm-args_4.2.1.dsc
+ e4307f8d2bf4284e0fa5d16e03409b83d7c1cd7fe1b4f83b05f0f26cea1d1eaa2be33959f803c47db1993322986777167831202dda4e9e43d5c750e57705da8b 29336 pgm-args_4.2.1.tar.xz
+
 Package: uscan
 Format: 3.0 (native)
 Binary: uscan
