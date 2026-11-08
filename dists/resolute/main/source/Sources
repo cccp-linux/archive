@@ -154,6 +154,40 @@ Checksums-Sha512:
  983fa63bc543a6b63d1d76186b7f1152b3c8f2b01cafa7db92adadc8aacc04147d36fcd03fd4ac8f95296f072c74c3c1f55a4c939ede6906e3e9e1840c657b53 2362384 fonts-symbols-nerd_3.5.1.orig.tar.xz
  4878eb9c837c3614edc335ede04854682ca90b87b743f2b90fac486ac320b896c814ac1a5136d4b6261fa3d4a9864ccf5c6e63be534401276f9fbc79f419eda2 1820 fonts-symbols-nerd_3.5.1-1.debian.tar.xz
 
+Package: foot
+Format: 3.0 (quilt)
+Binary: foot, foot-terminfo, foot-themes, foot-extra-terminfo
+Architecture: any all
+Version: 1.28.0-1+cccp1
+Maintainer: Birger Schacht <birger@debian.org>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), meson (>= 0.59), ninja-build, wayland-protocols (>= 1.41), libxkbcommon-dev, pkgconf, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libwayland-dev, libtllist-dev (>= 1.0.4), libfcft-dev (>= 3.3.1), libffi-dev, libharfbuzz-dev, libutf8proc-dev, systemd-dev, scdoc
+Homepage: https://codeberg.org/dnkl/foot
+Vcs-Browser: https://salsa.debian.org/birger/foot
+Vcs-Git: https://salsa.debian.org/birger/foot.git
+Directory: pool/main/foot
+Package-List:
+ foot deb x11 optional arch=any
+ foot-extra-terminfo deb x11 optional arch=all
+ foot-terminfo deb oldlibs optional arch=all
+ foot-themes deb x11 optional arch=all
+Files:
+ f8011b7d88a45c0c1a098ced745e29e5 1660 foot_1.28.0-1+cccp1.dsc
+ 1f6dd3436496136e4c941c894b29eace 1076120 foot_1.28.0.orig.tar.xz
+ 20d693c902fbf3c1eda39d7dc0434e29 11580 foot_1.28.0-1+cccp1.debian.tar.xz
+Checksums-Sha1:
+ 3e5b1aa90755c0e9d3ba742502eaccc76505864f 1660 foot_1.28.0-1+cccp1.dsc
+ b2b764dc7a1d9b8c360aa19976f1972b6ffdc5e5 1076120 foot_1.28.0.orig.tar.xz
+ ac3475e0e39c93be524ba9473b2c093295a7877c 11580 foot_1.28.0-1+cccp1.debian.tar.xz
+Checksums-Sha256:
+ b66ac4cbcfb8ad8ea96d9161e1f2c47bda676ab50b60021a559927b200646e3f 1660 foot_1.28.0-1+cccp1.dsc
+ 17621ad2e38a83688202117599857212a65434ae0562752a38167537a6c35cbd 1076120 foot_1.28.0.orig.tar.xz
+ d3382d95f1fdd86859e59dea7bd80f0d8ec4516dd4b452710b86cfa069ffa859 11580 foot_1.28.0-1+cccp1.debian.tar.xz
+Checksums-Sha512:
+ e1d7e95fb3da417dcdeeeab0c2623d1425d481297e08e7d8fd6b9f908a0b9513a57ce3bb8072e3037a7da1a2bb9a95e21b6faccc11ca284725d6519fd5e485cb 1660 foot_1.28.0-1+cccp1.dsc
+ e61abc7f4b2c488cfa70022c922228c878e77e5168a1f489a562fde0aef35e2450b1f58bf6600e86b0621c79fc60d52bd34751598524471b1d48e41e2831f545 1076120 foot_1.28.0.orig.tar.xz
+ 317b608c8adf1f89e667d8886018469a6f1f88dea3dcd1369cb08839ecf5514feba524bd3de888e1fda2d2c3c8772d49321395a7bdd3fb733525f75a24acadc3 11580 foot_1.28.0-1+cccp1.debian.tar.xz
+
 Package: libreoffice-meta
 Format: 3.0 (native)
 Binary: libreoffice-meta
@@ -231,4 +265,30 @@ Checksums-Sha256:
 Checksums-Sha512:
  47f77585292a3d72ed922e23696422d5cedfba9e2ae18d8060ebe350bf3efa94b244c87f1daecb58a0a0b55738e68d77e2aff58cd9583bac4a7cab59ca9323b6 964 ncp_0.11.dsc
  cb4ebfc06c0949f5c0e6058250d0586c2c59fd6a2e490ccd337a655ff65b1c78b79c4bcf9f386509e5abca65c355443119561d8ab12275aba6b563c611d6e3c3 38876 ncp_0.11.tar.xz
+
+Package: neovim-meta
+Format: 3.0 (native)
+Binary: neovim-meta
+Architecture: all
+Version: 0.34
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Vcs-Browser: https://github.com/cccp-linux/neovim-meta
+Vcs-Git: https://github.com/cccp-linux/neovim-meta.git
+Directory: pool/main/neovim-meta
+Package-List:
+ neovim-meta deb metapackages optional arch=all
+Files:
+ c347c47b98a5ac15ce3a8aef89ba1d93 950 neovim-meta_0.34.dsc
+ 2126f6f78d8585e5829170852a0a1843 17252 neovim-meta_0.34.tar.xz
+Checksums-Sha1:
+ 74f01f2ab45f9db6939ae13d1b643a0db259be85 950 neovim-meta_0.34.dsc
+ 830707cf09747dd119a655dc9ad6a15607e0a245 17252 neovim-meta_0.34.tar.xz
+Checksums-Sha256:
+ 4389c69172f7e185beac61401e6af76a289c61b65ce9aa75d92a60cbb9f2b121 950 neovim-meta_0.34.dsc
+ c3b67d27be4c89f385dc68757e0014a1d8e4c9d6d0a2db08cf7255a5e716510c 17252 neovim-meta_0.34.tar.xz
+Checksums-Sha512:
+ 8d3b6461889e5d7194f988f09f4c0dd9dc1dcd172cb2e242b2b0ff0d3cd0493a62c514ccdd2f1d4dd6c18f9db49789c4f8a19c3babdce80024c23d539f103973 950 neovim-meta_0.34.dsc
+ 6cdf78d7260c6329af8ae7ad8d7eceb5008fda3de060fa55a0b03bf13313081928be97cf7b6f2bd5781aa7f664f4e04d76884c6685e88568c82eb57f23095fa8 17252 neovim-meta_0.34.tar.xz
 

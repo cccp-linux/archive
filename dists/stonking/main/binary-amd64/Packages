@@ -162,6 +162,102 @@ SHA512: 8ea91e500f9ebf459e1ee62407230f254ff27635d6e2025e6a44fca36a5ab1b102a6da6d
 Homepage: https://www.nerdfonts.com
 Description: Just the Nerd Font Icons
 
+Package: foot-extra-terminfo
+Architecture: all
+Version: 1.28.0-1+cccp1
+Priority: optional
+Section: x11
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 36
+Filename: pool/main/foot/stonking/foot-extra-terminfo_1.28.0-1+cccp1_all.deb
+Size: 10736
+MD5sum: 91002ea81db593061e2a31238db2fdb5
+SHA1: 612386c00b18aa77d87e2a465b5f734759b28e71
+SHA256: 41e4f7bb3adac02aa64b3ecea6270dff7c3494e6db7b3b4c998d135ea545cf3f
+SHA512: d77fb1921d60299a7f724edad88ee4654024aee23b63aa0bbb4e209c87c5ab96b9d70501d467f76516b4532e18c8eb7416f1d7b360f6a440c218ed6cf920d543
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (extra terminfo files)
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ .
+ This package contains extra terminfo files for foot.
+
+Package: foot-terminfo
+Architecture: all
+Version: 1.28.0-1+cccp1
+Priority: optional
+Section: oldlibs
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 25
+Depends: ncurses-term (>= 6.4+20230625-2)
+Breaks: foot (<< 1.5.3-2)
+Replaces: foot (<< 1.5.3-2)
+Filename: pool/main/foot/stonking/foot-terminfo_1.28.0-1+cccp1_all.deb
+Size: 8412
+MD5sum: 27761c1c6335849094289a2b1c16b726
+SHA1: be8a6fa178fa54e147397a1d829b10bf7a693516
+SHA256: cb186c4a4cb0af1c739b27de1b938ac8d6632790e606033dcfbb44524e7b9514
+SHA512: b9bc5d928bdb90bab31c1e5a9800cc2ab367743fe038a1a6a75f8a001db2c1829930d2925818b376ef57abd89e1a349d9880718eb0ab1494d59399858e0c16cd
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (terminfo files)
+ This is a transitional package. It can safely be removed.
+ The foot terminfo files are now shipped by ncurses-term.
+
+Package: foot-themes
+Architecture: all
+Version: 1.28.0-1+cccp1
+Priority: optional
+Section: x11
+Source: foot
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 120
+Filename: pool/main/foot/stonking/foot-themes_1.28.0-1+cccp1_all.deb
+Size: 23554
+MD5sum: 4cb333903f897435c29bd7149a86eaba
+SHA1: 4fd3c919baab0cb52e762f9cb53ad5726caecefa
+SHA256: 9a5d6d47e469ac8ceb8926b3494a3afa8f664d298c018744d2eca529f7381027
+SHA512: 45f9aed84b236a5c634f5a9eddf06874dc64bd8a2f20b1f9d7ed68345c83bce2599544dd92e89639b95f1787462c6d58e4232ae78bb632e4945ae045605a33cf
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator (theme files)
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ .
+ This package contains theme files for foot.
+
+Package: foot
+Architecture: amd64
+Version: 1.28.0-1+cccp1
+Priority: optional
+Section: x11
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 714
+Provides: x-terminal-emulator
+Depends: libc6 (>= 2.43), libfcft4t64 (>= 3.3.1), libfontconfig1 (>= 2.12.6), libpixman-1-0 (>= 0.30.0), libutf8proc3 (>= 2.9.0), libwayland-client0 (>= 1.24.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 1.0.0), ncurses-term (>= 6.4+20230625-2)
+Suggests: foot-themes
+Filename: pool/main/foot/stonking/foot_1.28.0-1+cccp1_amd64.deb
+Size: 320358
+MD5sum: f36c1789f4aa60041d97ec176380b411
+SHA1: 6fb7edd84a6339ffe3c580151026ec085ccce6ee
+SHA256: bc36435737d54cea81e07fbf6b86bd6641a7cfcc2e6adf314f63b6de99328b0a
+SHA512: b6324ea9a34ac54af28f3940c1ea3bcb5c5b01142181ce9d820e11c85a699352615101f69b181ec54e6fc785f2de971adb11775502a2b6f5a52d4524e227d945
+Homepage: https://codeberg.org/dnkl/foot
+Description: Fast, lightweight and minimalistic Wayland terminal emulator
+ The fast, lightweight and minimalistic Wayland terminal emulator.
+ Features
+ .
+  * Fast
+  * Lightweight, in dependencies, on-disk and in-memory
+  * Wayland native
+  * DE agnostic
+  * User configurable font fallback
+  * On-the-fly DPI font size adjustment
+  * Scrollback search
+  * Color emoji support
+  * Server/daemon mode
+  * Multi-seat
+  * Synchronized Updates support
+  * Sixel image support
+
 Package: libreoffice-meta
 Architecture: all
 Version: 0.1
