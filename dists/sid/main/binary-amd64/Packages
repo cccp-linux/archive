@@ -345,3 +345,40 @@ Homepage: https://github.com/stevearc/oil.nvim
 Description: Neovim file explorer
  Edit your filesystem like a buffer.
 
+Package: neovim-statuscol
+Architecture: all
+Version: 1:0.0.1-40-gc461-6
+Priority: optional
+Section: editors
+Source: statuscol.nvim
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 60
+Depends: neovim (>= 0.10)
+Filename: pool/main/statuscol.nvim/sid/neovim-statuscol_0.0.1-40-gc461-6_all.deb
+Size: 17728
+MD5sum: ab2ff5cfcea9792e384332164b8b8b94
+SHA1: 859ad7964826e1a7fceeb7cafbb47eb43b5f1210
+SHA256: be32815cd26ccd8a578067334eed181b02be0e3de9107277f921c9162defc6c7
+SHA512: 871fd0e5b1e907ac419d992ab711ff12ca9ed4ce3cabf248acc046fbf8f33a32127868d71ef8c3a971dc24dc95b1dadd7ebb7b194a1397ba1ebf024eaedc884e
+Homepage: https://github.com/luukvbaal/statuscol.nvim
+Description: Status column plugin
+ Status column plugin that provides a configurable 'statuscolumn' and click
+ handlers.
+
+Package: virt-meta
+Architecture: all
+Version: 0.7
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 9
+Depends: libvirt-daemon-system, qemu-utils
+Recommends: freerdp-sdl, fuse3, gvncviewer, ovmf, virtiofsd
+Filename: pool/main/virt-meta/sid/virt-meta_0.7_all.deb
+Size: 2088
+MD5sum: af4fba351466fb27adc8dce4af85048c
+SHA1: c21471cc0946c39dddf6d7db6f16abb345493a3f
+SHA256: d95e4b028df483e147b91c6a167950eeb9d6839384b6aaab7b7cec7540e5cfd3
+SHA512: 15bb96b49792362e338b16ecaaf8cc633e7bcb1380fc9b80e40d5255ecfb48561e501b57b593a6205b835ae8a54ee4c6ad9dfc51335de36905c69fd0eb47b721
+Description: Virtual machine meta-package
+

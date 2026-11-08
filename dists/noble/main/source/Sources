@@ -292,6 +292,37 @@ Checksums-Sha512:
  8d3b6461889e5d7194f988f09f4c0dd9dc1dcd172cb2e242b2b0ff0d3cd0493a62c514ccdd2f1d4dd6c18f9db49789c4f8a19c3babdce80024c23d539f103973 950 neovim-meta_0.34.dsc
  6cdf78d7260c6329af8ae7ad8d7eceb5008fda3de060fa55a0b03bf13313081928be97cf7b6f2bd5781aa7f664f4e04d76884c6685e88568c82eb57f23095fa8 17252 neovim-meta_0.34.tar.xz
 
+Package: nvim-web-devicons
+Format: 3.0 (quilt)
+Binary: neovim-web-devicons
+Architecture: all
+Version: 1:0.100-100-gd746-2
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://github.com/nvim-tree/nvim-web-devicons
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/neovim-web-devicons
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/neovim-web-devicons.git
+Directory: pool/main/nvim-web-devicons
+Package-List:
+ neovim-web-devicons deb editors optional arch=all
+Files:
+ 93139aa48873b0ed9c252603b6596cc4 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 34fbd1589679945ecf8870dfab518e00 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ 38c3f1f5375f547641a8391728f3449a 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+Checksums-Sha1:
+ 4f3ebcb1fdf16165d8665a4eae9d36cbae7aee5f 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 49976ba1e9add41ee7620643f1872ba71b153495 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ fbee4dc39835f6fc3d3aca99d57470a1380cc74a 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+Checksums-Sha256:
+ 659c42d809bd34ec4b1ba85481de2b3f57b9e20018844b3bdfe1523ed8599e7e 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 92cdd53514f3cbcd9073f016520cf5869b761860784ccf0a2cf603dfaee75a91 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ 919aca9c78a272d981fcfe162d1e4eadaaa298bba614bfa3562fcff777af3a82 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+Checksums-Sha512:
+ 189eb3b34df9b743573d875f5d8cc153647d76890fba34d15a43c7dee1b80c2dbdfab68e076d9da1e00b219d033e641aca2552669034326fff422286ff604147 1451 nvim-web-devicons_0.100-100-gd746-2.dsc
+ 1e9d2db756700dad7b8cc1efa7065ef70d74a16ca43a4ceb63f2a4cea749daabecfb514505759b5e4eefdc62b5811bf117bc25f93b03af166743cac2efea8204 45656 nvim-web-devicons_0.100-100-gd746.orig.tar.gz
+ 3f5f2270ff96ffcf275945585dd0da3b388496156438bfc9a362075b5bb213c817236bd8482551cc0f444e549d90b0c5e5eeb0ac649efa91f9215fa888a5cee6 3736 nvim-web-devicons_0.100-100-gd746-2.debian.tar.xz
+
 Package: oil.nvim
 Format: 3.0 (quilt)
 Binary: neovim-oil
@@ -322,4 +353,87 @@ Checksums-Sha512:
  611940b0ce11d472e4acbac7145ed8e726f55210d346bc2015e725eae4a98f594ab3818739cf9e6fc7b743dcaee56afa0b206f5a2ae2baa02df550e848a766e7 1276 oil.nvim_2.16.0-2.dsc
  30fe68143e1c4b3fdfc68c0bd65d67ef21171b39fb0ae4c79fce782019533284df6473b842fd1b153dfcb94a327a867e6a7efb44f7737aea66ab18e815d2698b 136992 oil.nvim_2.16.0.orig.tar.gz
  8dbbd3dc33c5be6fec20ff76c7aa2a6c2723cc779f4d90f0c1b5be1a24046951cdc05bcdca46c9e07ae23644d9647b770a97de88750b81e2f0db86db69957655 5156 oil.nvim_2.16.0-2.debian.tar.xz
+
+Package: statuscol.nvim
+Format: 3.0 (quilt)
+Binary: neovim-statuscol
+Architecture: all
+Version: 1:0.0.1-40-gc461-6
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-vim-addon
+Homepage: https://github.com/luukvbaal/statuscol.nvim
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/statuscol.nvim
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/statuscol.nvim.git
+Directory: pool/main/statuscol.nvim
+Package-List:
+ neovim-statuscol deb editors optional arch=all
+Files:
+ 3fff4b5b12247b20ea7f514f137b212f 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ 51336a0724b37f417bc672e6c2264f21 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 2c3fb7298d649a18d182d912637de850 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+Checksums-Sha1:
+ 14dac20a05ce824d870ac550ec88c0ca028b1470 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ ea9151144855434ead4c90190cab01eebb1aadef 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 474e6477c778d429abbae4a386275e2dc4fc88cf 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+Checksums-Sha256:
+ 32634dc7b8032a8d229ce9b96ab1863a9ffcfd8cda3cefd6ee788073a6de5ce2 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ e71a13de01057f7a34b6d4f9bc118254684f3a704e894b22d84737fe64b3e798 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 0b201f4a4dfc7aa28613e9b990a3c148504a523e14e111d1f2e6bdab187c6b2d 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+Checksums-Sha512:
+ 98bdd534b614a8f607324c728663ca4998c745d6d543000ffb1e1a6d3aa0eec317df95058474f9d34b3a5c6d5c8b9fa7ff3d0ac0ac2925017fd394baf0d9e6e2 1404 statuscol.nvim_0.0.1-40-gc461-6.dsc
+ 63fa60b5a986a25c156e2030e0415225c29da8bb838ca1335b77228a386cfb536a82cb5f9fea4325380b9564c678a99336b55392d529c7140997633c094b98bf 12035 statuscol.nvim_0.0.1-40-gc461.orig.tar.gz
+ 4c7e0ccd12f4137e59719dc68b7dc104c132f7d48aa181d8be6887d8272399a00a0caa05d22b3dd7bcfdf8ca40b10b2a102b226ffff3abff73a81d810a29bddc 3848 statuscol.nvim_0.0.1-40-gc461-6.debian.tar.xz
+
+Package: term-meta
+Format: 3.0 (native)
+Binary: term-meta
+Architecture: all
+Version: 0.33
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/term-meta
+Vcs-Git: https://github.com/cccp-linux/term-meta.git
+Directory: pool/main/term-meta
+Package-List:
+ term-meta deb metapackages optional arch=all
+Files:
+ e9f5eeb4734fff315dfe6f8dc3533bdb 920 term-meta_0.33.dsc
+ f5b77fa66398721e1b9112e5f2f18493 15984 term-meta_0.33.tar.xz
+Checksums-Sha1:
+ 317663fbdfafff7df8917e35430cd386012ff51b 920 term-meta_0.33.dsc
+ 0ef1facfb0f4a17fc18ae86c2d9ca23b3e407bec 15984 term-meta_0.33.tar.xz
+Checksums-Sha256:
+ c87501d8e79ba1a5fcf19e193686f930f54e5dbf1db1d3509b7b60d631c965ed 920 term-meta_0.33.dsc
+ 8f3cb874488657d8cfd149398607eee778fe39feb11214f19577f911c8c8ce16 15984 term-meta_0.33.tar.xz
+Checksums-Sha512:
+ fa06d17c4089f27f88ae02d661b07fccbe2d3c733ed936316f31a85a25e552304c2b19a93c4fa269003d4924c1176cf5b541eacfc977fa8a74c223d83c814be8 920 term-meta_0.33.dsc
+ 640a5ad9521404f7ef00ac7e83c8deb791f38ff227374b428e7a6992105bfc5d8d65417185e51606e35c261a18327fdfc2b2a82636ea2ba482ff0cffcdae8aa3 15984 term-meta_0.33.tar.xz
+
+Package: virt-meta
+Format: 3.0 (native)
+Binary: virt-meta
+Architecture: all
+Version: 0.7
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/virt-meta
+Vcs-Git: https://github.com/cccp-linux/virt-meta.git
+Directory: pool/main/virt-meta
+Package-List:
+ virt-meta deb metapackages optional arch=all
+Files:
+ 026cf2be0121f82f4e3fd493a8cf45e1 916 virt-meta_0.7.dsc
+ 400608fdef454fc3ff2745acdb5e40c2 13608 virt-meta_0.7.tar.xz
+Checksums-Sha1:
+ d362adf10252efc29aeff38c77c21a4bb0cdf063 916 virt-meta_0.7.dsc
+ a113dd33ae85c7c889aa96540dca6206424ac480 13608 virt-meta_0.7.tar.xz
+Checksums-Sha256:
+ 1ed0561de1f1dc1c58d69ad80ce13a2a0d550897cec7e64fde5efcdbf3c60627 916 virt-meta_0.7.dsc
+ e0467dca79429139a77bc5d04cf2e01ea48c02465673c1a630a80f8a901cb972 13608 virt-meta_0.7.tar.xz
+Checksums-Sha512:
+ 9583b342c10da12fe06b4dcd0acc926498c4049847c14183e837f68fd7d37da941fcd2d37267019894be09aef6ac2c2a338d6b321c51a9b052dbd5efb33bee89 916 virt-meta_0.7.dsc
+ 2fd5ccf291cadcb5ba352df106c89a1a063cbd08cff00c13519fcab112825145e62e268a4a6dffed0e6801be4cbcfe7c879849f2f53bc07181c8b7a1ba65c9b7 13608 virt-meta_0.7.tar.xz
 
