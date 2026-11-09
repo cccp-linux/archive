@@ -323,6 +323,67 @@ Checksums-Sha512:
  8d3b6461889e5d7194f988f09f4c0dd9dc1dcd172cb2e242b2b0ff0d3cd0493a62c514ccdd2f1d4dd6c18f9db49789c4f8a19c3babdce80024c23d539f103973 950 neovim-meta_0.34.dsc
  6cdf78d7260c6329af8ae7ad8d7eceb5008fda3de060fa55a0b03bf13313081928be97cf7b6f2bd5781aa7f664f4e04d76884c6685e88568c82eb57f23095fa8 17252 neovim-meta_0.34.tar.xz
 
+Package: niri-meta
+Format: 3.0 (native)
+Binary: niri-meta
+Architecture: all
+Version: 0.54
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Vcs-Browser: https://github.com/cccp-linux/niri-meta
+Vcs-Git: https://github.com/cccp-linux/niri-meta.git
+Directory: pool/main/niri-meta
+Package-List:
+ niri-meta deb metapackages optional arch=all
+Files:
+ 96f20a1553764388557dc4c200a4a098 926 niri-meta_0.54.dsc
+ 4018a0242454a6b7fc33cdcdb7069dd6 6541848 niri-meta_0.54.tar.xz
+Checksums-Sha1:
+ cbe46c36ca7f01488fa5f0e9f059a3a142c25480 926 niri-meta_0.54.dsc
+ 1bc742db8ab556f31e557e6a38c61d7f7bdad5b8 6541848 niri-meta_0.54.tar.xz
+Checksums-Sha256:
+ 0aaac3e776b205e27ea5ebb7e2705f0423094bbb7bf3fcefa8e4fd6ab42bc080 926 niri-meta_0.54.dsc
+ df9f26d5c414d7a4e78ca43a64f0ef146459f99011945887caa1ae455e3ca3fb 6541848 niri-meta_0.54.tar.xz
+Checksums-Sha512:
+ c883633a0789db25dd8518f46a583989a02434ae6a461978ed7e2002bb8646d27926e5001986a9dd2b893ba97f8853ab552f97234501c4e550f7ff04d64a01ea 926 niri-meta_0.54.dsc
+ caa3c237ed1eceaf5086a6e12cb8694ed03d8cc23a2a488dfb67be71a6e5e295bf04aadacf9124f6cb12cc4159d7ee99a298abdc22ed1cdb7265c57d8e3acb76 6541848 niri-meta_0.54.tar.xz
+
+Package: niri
+Format: 3.0 (quilt)
+Binary: niri
+Architecture: any
+Version: 26.04-5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.85) | cargo-1.85:native, libclang-dev, libdbus-1-dev, libdisplay-info-dev, libegl1-mesa-dev, libgbm-dev, libinput-dev, libpango1.0-dev, libpipewire-0.3-dev, libseat-dev, libsystemd-dev, libudev-dev, libwayland-dev, libxkbcommon-dev, rustc:native (>= 1.85) | rustc-1.85:native, rustfmt:native (>= 1.85) | rustfmt-1.85:native
+Homepage: https://niri-wm.github.io/niri
+Vcs-Browser: https://github.com/niri-wm/niri
+Vcs-Git: https://github.com/niri-wm/niri.git
+Directory: pool/main/niri
+Package-List:
+ niri deb x11 optional arch=any
+Files:
+ 47324a46dad78c437eba6a6dc47413bf 1770 niri_26.04-5.dsc
+ 9f151890d91f9a5780dca869fbeb5679 40263284 niri_26.04.orig-vendor.tar.xz
+ 311023f375195e4cf314e5f13e4896a2 966584 niri_26.04.orig.tar.gz
+ b53e7be50d945670d0a092583e1493ef 7340 niri_26.04-5.debian.tar.xz
+Checksums-Sha1:
+ 85f607faa057ec0fe453059b67cb637d038fdb91 1770 niri_26.04-5.dsc
+ 494b18e4b8372293110afc64017b08db001a3535 40263284 niri_26.04.orig-vendor.tar.xz
+ c1578bb34306d3d12a1e2deeeb9a02ae61980b1e 966584 niri_26.04.orig.tar.gz
+ e61b96bb64a959e55f4a873545f49bb192881083 7340 niri_26.04-5.debian.tar.xz
+Checksums-Sha256:
+ 073f029d2c15a20c4fe7437ecf28851d1783178fa3cb3084695b1455c7ba38fd 1770 niri_26.04-5.dsc
+ 407c525cd78710e72455c48741756857ca47dc32910a42f82cd40992a34beed6 40263284 niri_26.04.orig-vendor.tar.xz
+ 613fa8da2449b7f2bfdf1c82ecf20ec3d5a9d1ddad96720d76e0a7f7dc458faa 966584 niri_26.04.orig.tar.gz
+ b58f9e08a98899c013e7e9fc0e020326e9c5a11ace8b776186754f64f028833c 7340 niri_26.04-5.debian.tar.xz
+Checksums-Sha512:
+ 1a60e6a0bcb9c7e375b7939aa3cea29836199b9685cf36866c69bcf829daff78e9ef62c02531cfb6c9dcda649016428d13d05bab6352db4ab55f2a0ef0b1149c 1770 niri_26.04-5.dsc
+ 73bdef95320b416b8f51b4dd0dc50c4e48a8724481312ffaf2f8248ef52e66b6d6699cc6b07b849f330c3954c5d3f41248917d31624c15b9d30fe274dad38d35 40263284 niri_26.04.orig-vendor.tar.xz
+ 382a37869162bfe3925b0da05c48a928b198f6bd323a692af66ec58ac23dd637d8ec3d384455776dffc88555049d76665109c9e938072813b7ddc78a95b72e6b 966584 niri_26.04.orig.tar.gz
+ de47b70edcae89d4cacf84ad59ee9e15f718c1ec8fc1b883be9f580c6d84dd8c3b41d56d6bafadfbaff4905e8bf463e1c091fa93111e0309d75a67507f21ac45 7340 niri_26.04-5.debian.tar.xz
+
 Package: nvim-web-devicons
 Format: 3.0 (quilt)
 Binary: neovim-web-devicons

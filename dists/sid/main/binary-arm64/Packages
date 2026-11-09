@@ -345,6 +345,29 @@ Description: Neovim meta-package
  Add the following to your .config/nvim/init.lua:
  * require("neovim")
 
+Package: niri-meta
+Architecture: all
+Version: 0.54
+Priority: optional
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 6684
+Depends: dconf-gsettings-backend | gsettings-backend, bluez, brightness-udev, brightnessctl, curl, desktop-file-utils, ffmpeg, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gtklock, jq, mpv, network-manager, network-manager-tui, niri, pipewire, pipewire-audio, playerctl, power-profiles-daemon, procps, pycal, sessionctl (>= 0.5), swaybg, swayidle, term-meta (>= 0.26), udisks2, waybar, wireplumber, wlsunset, wpasupplicant
+Recommends: fonts-font-awesome, fonts-freefont-otf, fonts-jetbrains-mono, fonts-liberation, fonts-linuxlibertine, fonts-lmodern, fonts-open-sans, libgtk-3-0, libgtk-4-1, mvi, qt5-gtk-platformtheme, qt6-gtk-platformtheme, qt6-wayland, qtwayland5, quickjs, rtkit, xwayland-satellite, yaru-theme-gtk, yaru-theme-icon, yt-dlp
+Filename: pool/main/niri-meta/sid/niri-meta_0.54_all.deb
+Size: 6532384
+MD5sum: 9a6f3a31e858167de7fca078d1d71f39
+SHA1: 9b12e3c29bef526fb02d95b583d192e340b0fb9a
+SHA256: 95d27a9beef8bf9042da03f10106a197e2c947f3061a6c9366f5e4d27b0d7036
+SHA512: b895c5a973a8356072cd8e37d02e8d7e040827b7e05bd413ce5ba94c4227da84a0a2dbc512ee0fa1f0311618fd996777f4217a00a3bd8815218042f9b645f310
+Description: Shell meta-package
+ Copy the following into your home dir:
+ * /etc/skel/.config/
+ * /etc/skel/.profile.d/
+ .
+ Add the following to your .config/niri/config.kdl:
+ * include "/etc/niri/config.kdl"
+
 Package: neovim-web-devicons
 Architecture: all
 Version: 1:0.100-100-gd746-2
