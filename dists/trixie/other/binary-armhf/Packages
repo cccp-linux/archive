@@ -15,3 +15,49 @@ SHA256: 7f792b1501b18cbe9dae9acf1acdd84986e5e3587d2e34c6d7bcef26e8bb835c
 SHA512: 6cd0f3ca5dc3bcb5a52678259327ea23cb6e96152618cd59e959b58dc38e16c4521dbdc7b0702e2cd83f65f71f2a288fe0e73f36457bf5520b9a809095e612de
 Description: KDE meta-package
 
+Package: neovim-telescope-fzf-native
+Architecture: armhf
+Version: 0~git20260506.b25b749-1~0cccp1
+Priority: optional
+Section: editors
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Installed-Size: 106
+Depends: neovim (>= 0.2.2-1~), libc6 (>= 2.4), neovim-telescope
+Filename: pool/other/neovim-telescope-fzf-native/trixie/neovim-telescope-fzf-native_0~git20260506.b25b749-1~0cccp1_armhf.deb
+Size: 14260
+MD5sum: 2207298cef5005aa47f18f68bab521d5
+SHA1: 1a92a1e7db32b43a62186e4a9753e106c842802f
+SHA256: 0879feece0678f9edcb4094b8f62772a2e9782bf5e01924dd2bca99bb3ea901b
+SHA512: fc5f89277f7cc405d55a090412ec510a73159770937fcca22b5b66ce8d66dadb31b10d0c3ffd927bae03a02ae82c95d95201ad84b70118029aeda3007b9974f5
+Homepage: https://github.com/nvim-telescope/telescope-fzf-native.nvim
+Description: fzf fuzzy finder backend for Telescope
+ Neovim plugin that provides a fast fuzzy finding backend for the
+ Telescope plugin. It reimplements the fzf algorithm in C and exposes it
+ as a Telescope extension, resulting in significant performance
+ improvements over the default Lua implementation.
+ .
+ This is a neovim-only plugin.
+
+Package: neovim-telescope
+Architecture: all
+Version: 0.2.2-1~0cccp1
+Priority: optional
+Section: editors
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Installed-Size: 1466
+Depends: neovim (>= 0.2.2-1~), neovim-plenary
+Recommends: ripgrep, fd-find
+Filename: pool/other/neovim-telescope/trixie/neovim-telescope_0.2.2-1~0cccp1_all.deb
+Size: 168212
+MD5sum: 756a4d336de08238037638cb7ab909dd
+SHA1: b82a69eb4d19b71277559202ff537d9b913c476e
+SHA256: 7c9be4b77609d0489f54dcdc3e61e597372b629fa30af187cbbfbb3819bdb975
+SHA512: a16f4d0d55029451ad56795a29c13db4a20cd4621cfa884240d57d0e0fe8a70fb1163db396a3b50e1576e118dd343ff82d2c13a5b2397724632bc79f298f3393
+Homepage: https://github.com/nvim-telescope/telescope.nvim
+Description: Highly extendable fuzzy finder for Neovim
+ telescope.nvim is a fast, extensible fuzzy finder for Neovim.
+ It lets you search files, buffers, help tags, git history, etc.
+ Provides optional integration with external tools.
+ .
+ This is a neovim-only plugin.
+
