@@ -81,6 +81,23 @@ SHA256: 5b929bce78bf9b5ede70ffec88d7b99b33e1bc662a4fcd713a1b8e58e721c8c5
 SHA512: dfa87bbb88f1179c64c67403c2fff7d26ea862cb24fdcd97d150cba8173b724088cd57c7e94ae8ba73f7fb6bbf07f64baabe9984b8b7fc6baccd33b1592f038d
 Description: CasparCG Control
 
+Package: casparcg-player
+Architecture: amd64
+Version: 0.1
+Priority: optional
+Section: video
+Source: player
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 517
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.3), libstdc++6 (>= 13), libuv1t64 (>= 1.30.1), casparcg-server (>= 2.5)
+Filename: pool/casparcg/player/trixie/casparcg-player_0.1_amd64.deb
+Size: 181920
+MD5sum: 38e560776c22368beb470498270ff703
+SHA1: 894989b55fd18f796a13e41464c1f4c27bb4dedb
+SHA256: bbb708b86dfaa84fbacefa3ec8fa8886c2afa0d99d4bc80c3c1e18ee3678044c
+SHA512: 9a9d72b94aade9579b9750c9a3c63770413cf6d0151dfb0c05b6146aba617ac49babcc18788561a4bfd683282df7047a61f476bc4aec173a2d9849c27dd76c64
+Description: CasparCG Player
+
 Package: casparcg-scanner
 Architecture: all
 Version: 0.5.1
