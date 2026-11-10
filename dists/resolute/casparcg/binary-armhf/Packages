@@ -81,6 +81,23 @@ SHA256: 68e8a4157f95b8f469bc9fe023e894108c3282d315bd503c95b12d02fd50aef4
 SHA512: 8bf0b9876e5b2d0e8ba3a172758942b48d56bfbdfb2b461282b1ed160f471507bfc12bb6908058c80ee9917704b6b791e5760184448713c76d1c394dac083425
 Description: CasparCG Control
 
+Package: casparcg-player
+Architecture: armhf
+Version: 0.1
+Priority: optional
+Section: video
+Source: player
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 347
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 13), libuv1t64 (>= 1.30.1), casparcg-server (>= 2.5)
+Filename: pool/casparcg/player/resolute/casparcg-player_0.1_armhf.deb
+Size: 166402
+MD5sum: 4c6d927c1ae7d8cead6e93f72e1abe38
+SHA1: 56f496227b310f7cb5173e5ab5d192ec9a1aa20a
+SHA256: a74dd874fbe68612063f581f4db6975f1e5a42a13841421a9b2a61ad32a02734
+SHA512: 0c648670c8ea8dcde7d5ef5791931f771984e535498a9a7d208cb5c0c875c6d4396696fcb263d821d7bd03c249ffe3390a3fd62a67855a94f0db12ad545918c9
+Description: CasparCG Player
+
 Package: casparcg-scanner
 Architecture: all
 Version: 0.5.1
