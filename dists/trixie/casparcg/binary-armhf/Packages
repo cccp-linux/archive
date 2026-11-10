@@ -101,6 +101,28 @@ Description: CasparCG Media Scanner
  Python. It can be used as a drop-in replacement for the original, or as a
  standalone background service on both Linux and Windows.
 
+Package: casparcg-server-2.5
+Architecture: armhf
+Version: 2.5.2~pre2-2
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Source: server-2.5
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 4387
+Depends: libavcodec61 (>= 7:7.1.5), libavdevice61 (>= 7:7.1.5), libavfilter10 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libboost-chrono1.83.0t64 (>= 1.83.0), libboost-context1.83.0 (>= 1.83.0), libboost-filesystem1.83.0 (>= 1.83.0), libboost-locale1.83.0 (>= 1.83.0), libboost-log1.83.0 (>= 1.83.0), libboost-thread1.83.0 (>= 1.83.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 4.3), libglew2.2 (>= 2.2.0-4+b2), libglx0, libopenal1 (>= 1.14), libopengl0, libsfml-graphics2.6 (>= 2.6.2+dfsg), libsfml-system2.6 (>= 2.6.2+dfsg), libsfml-window2.6 (>= 2.6.2+dfsg), libstdc++6 (>= 14), libswresample5 (>= 7:7.1.5), libswscale8 (>= 7:7.1.5), libtbb12 (>= 2022.1.0), libx11-6, libcef142, python3:any
+Filename: pool/casparcg/server-2.5/trixie/casparcg-server-2.5_2.5.2~pre2-2_armhf.deb
+Size: 1559704
+MD5sum: e3353d54a3a2781a51e0584956364ada
+SHA1: 89df7b86df4d121c8f1064896a416eef195a7de7
+SHA256: f500bd99af2dcf37a91d398d1adb214520b6d6c7c85966b234a591fbb3dc1385
+SHA512: c308e84f1fd74b2fec4cb18996859eef7efbda381c117a4783e0dc8f3269022a7e62eff74d5dfb35a78b6b123df2579bd8993a4918af5c5545a68f5d24e2ffeb
+Homepage: https://casparcg.com
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional
+ graphics, audio and video to multiple outputs. It has been in 24/7 broadcast
+ production since 2006.
+
 Package: casparcg-server
 Architecture: all
 Version: 2.5-3
