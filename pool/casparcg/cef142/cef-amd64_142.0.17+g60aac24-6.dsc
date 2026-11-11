@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: cef-amd64
 Binary: libcef142-amd64, libcef142-amd64-dev
 Architecture: amd64
-Version: 142.0.17+g60aac24-5
+Version: 142.0.17+g60aac24-6
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://bitbucket.org/chromiumembedded/cef
 Standards-Version: 4.6.2
@@ -15,18 +15,18 @@ Package-List:
  libcef142-amd64-dev deb libs optional arch=amd64
 Checksums-Sha1:
  552fb07f6529deaa7b6fac6d8f53c5af94b543d2 390566179 cef-amd64_142.0.17+g60aac24.orig.tar.bz2
- 230b5a131ca7e7a8f35f9233057489ab9b3e63a9 4556 cef-amd64_142.0.17+g60aac24-5.debian.tar.xz
+ 21f04eef58a0ea3e55a8967b82ea566c5a39398d 4420 cef-amd64_142.0.17+g60aac24-6.debian.tar.xz
 Checksums-Sha256:
  1d89e19b2f446105f9a1fe6fdc96bced86249b5884241dcc4013b7c94dabf424 390566179 cef-amd64_142.0.17+g60aac24.orig.tar.bz2
- 80bf9ad271eeef0eebf5ca08cf69908dd767c05b1b57930022bd345749b33855 4556 cef-amd64_142.0.17+g60aac24-5.debian.tar.xz
+ 21512df676719356eba65fcb50a58ead56bc583ba18fd9a589c5e10ecd7b615a 4420 cef-amd64_142.0.17+g60aac24-6.debian.tar.xz
 Files:
  9f1d4fe662a148be347ca07206cccbf9 390566179 cef-amd64_142.0.17+g60aac24.orig.tar.bz2
- 933a5cdc3820023b17bc7c71a6af3a6e 4556 cef-amd64_142.0.17+g60aac24-5.debian.tar.xz
+ 49b6be1fb3c576df3965c17fb789dd2e 4420 cef-amd64_142.0.17+g60aac24-6.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCavKa9wAKCRA6Vr9YT1rr
-J/0OAPwKuv9O2q+kIfplKbUZAhRXmxhzBhOIyo6bWmerwkeF8AD/c6+ugs/EAOYb
-dCB7cE5ZlZOI4tb8IbTyd+RYuBPykA0=
-=EcW+
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCavTscQAKCRA6Vr9YT1rr
+J7q6AP4mf3s0LCGqCLhHsnmBtuj9eb07/SB9VxuYXy/cqFV84wEA7LaS/yMK6S0R
+hSNEy0zit9AxhSZmGVg6xk69JjxtGgM=
+=ZJml
 -----END PGP SIGNATURE-----
