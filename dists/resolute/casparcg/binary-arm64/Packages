@@ -1,19 +1,19 @@
 Package: libcef142-arm64-dev
 Architecture: arm64
-Version: 142.0.17+g60aac24-5
+Version: 142.0.17+g60aac24-6
 Priority: optional
 Section: libs
 Source: cef-arm64
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 10231
-Provides: libcef142-dev (= 142.0.17+g60aac24-5)
-Depends: libc6 (>= 2.17), libcef142-arm64 (= 142.0.17+g60aac24-5)
-Filename: pool/casparcg/cef142/resolute/libcef142-arm64-dev_142.0.17+g60aac24-5_arm64.deb
-Size: 871486
-MD5sum: 4b8c64ba2498497f72f81e77077779c6
-SHA1: d0ecc9725f20067e9065bb1286f714f970fb2fab
-SHA256: f4ef5cadfb34a3696028a5ec854168d9a61d95294fc5cffabdb53d0fa7d19670
-SHA512: 0b8340e9650ba221e0c172e975e314b694002db1a40bbd393d6cd2cad7aa212d557d49bd8632e424af347b87d491731647e481524cc6e10f362e96b282730af0
+Installed-Size: 10207
+Provides: libcef142-dev (= 142.0.17+g60aac24-6)
+Depends: libcef142-arm64 (= 142.0.17+g60aac24-6)
+Filename: pool/casparcg/cef142/resolute/libcef142-arm64-dev_142.0.17+g60aac24-6_arm64.deb
+Size: 863554
+MD5sum: 02d63a8853aebe65d2111e87a4d9652d
+SHA1: cd421f76b6ad772edf41239c9d92d47c5745ef9e
+SHA256: ff28d709d7e1e4f444247d5574f1e24d2399bb1487e10b711d55b9fa28e2184c
+SHA512: 425d8c07a66a54a75a1b198b65bfd33fc0baa404791e0829dc82d204f9c2f9e1a09a1047e3a71852ef83e0b54e6c3e2e0cdf162076c3a66e642f6e5e3e3433bb
 Homepage: https://bitbucket.org/chromiumembedded/cef
 Description: The Chromium Embedded Framework
  The Chromium Embedded Framework (CEF) is a simple framework for embedding
@@ -33,20 +33,20 @@ Description: The Chromium Embedded Framework
 
 Package: libcef142-arm64
 Architecture: arm64
-Version: 142.0.17+g60aac24-5
+Version: 142.0.17+g60aac24-6
 Priority: optional
 Section: libs
 Source: cef-arm64
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 331287
-Provides: libcef142 (= 142.0.17+g60aac24-5)
+Installed-Size: 331304
+Provides: libcef142 (= 142.0.17+g60aac24-6)
 Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdbus-1-3 (>= 1.10), libexpat1 (>= 2.1~beta3), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2
-Filename: pool/casparcg/cef142/resolute/libcef142-arm64_142.0.17+g60aac24-5_arm64.deb
-Size: 101423888
-MD5sum: c4f9c7ef3510647f4347d9cff4c6acc3
-SHA1: 1a428377c80cef0fad91d96f3763fdda8d930c92
-SHA256: 6bd8fa7f9797c16acec646b876ca6cdcce2a00adabcbdc1ad7562581ff4d3c82
-SHA512: b9ab3c328abee321ab88a921d65a95ae9dc889ea2c74d11914f006ab19e329152363f65d831ed2f21d5ad73815d510c3da3e44acddf8b02f1f9f827feca88f27
+Filename: pool/casparcg/cef142/resolute/libcef142-arm64_142.0.17+g60aac24-6_arm64.deb
+Size: 101496224
+MD5sum: d4bfc1bf0daa603bd3c47bfca2824afa
+SHA1: 7677b31f87f2d42ba9af7df20f7873a09f0c707d
+SHA256: d2b1fcd444eb99c63ffd423c9ceaf88a044ab560de053e1a89d548c97db90c9b
+SHA512: 514e01177be60755ab0d3abfe07ced15400208055ac011d68ef93df444384bd1b2f71296df18b288f2aeb162b8e322a9d8c6f7782e5a650f3b4a29419820f433
 Homepage: https://bitbucket.org/chromiumembedded/cef
 Description: The Chromium Embedded Framework
  The Chromium Embedded Framework (CEF) is a simple framework for embedding
