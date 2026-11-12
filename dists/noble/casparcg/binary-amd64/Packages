@@ -1,19 +1,19 @@
 Package: libcef142-amd64-dev
 Architecture: amd64
-Version: 142.0.17+g60aac24-6
+Version: 142.0.17+g60aac24-7
 Priority: optional
-Section: libs
+Section: libdevel
 Source: cef-amd64
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 9641
-Provides: libcef142-dev (= 142.0.17+g60aac24-6)
-Depends: libcef142-amd64 (= 142.0.17+g60aac24-6)
-Filename: pool/casparcg/cef142/noble/libcef142-amd64-dev_142.0.17+g60aac24-6_amd64.deb
-Size: 846446
-MD5sum: 568e1ccbc7df5ca6056a33281b0f9a8f
-SHA1: cb46c297d4e0ccbc6cb4ed581a99b4d1034babde
-SHA256: bbf5b1b240938f07a6e79b8a7c2c1a271d0114639cc6a09eb9a8033241c6b4f1
-SHA512: 18a1f296f8889ebc9f48fac962fd2b576a113672e19a55549608f53374ff5ee5de103082a034f605a3a92d7cbf71c603eae08a246a445ba87f3e5109461196cf
+Installed-Size: 107841
+Provides: libcef-api13300-dev, libcef-api13301-dev, libcef-api13302-dev, libcef-api13303-dev, libcef-api13304-dev, libcef-api13400-dev, libcef-api13401-dev, libcef-api13500-dev, libcef-api13600-dev, libcef-api13601-dev, libcef-api13700-dev, libcef-api13800-dev, libcef-api13900-dev, libcef-api14000-dev, libcef-api14100-dev, libcef-api14200-dev, libcef142-dev (= 142.0.17+g60aac24-7)
+Depends: libcef142-amd64 (= 142.0.17+g60aac24-7)
+Filename: pool/casparcg/cef142/noble/libcef142-amd64-dev_142.0.17+g60aac24-7_amd64.deb
+Size: 1358136
+MD5sum: 3b9f95017175ea8e2fefccba63f8889c
+SHA1: 8e9a37a589683d7b42aee374ebe8ba387aeb8424
+SHA256: 53e6924dc083ca56165157d72cd698115ea4fa43ef254a39462d72e195cf773e
+SHA512: 8f87758a201bcfe40000639b8f8d5ae1ecb538f417ab08191de72d60e4b7189239a2b5d7b58aff0f3efc73addd3494d94cc0cac6ce676c78392d8240d595b653
 Homepage: https://bitbucket.org/chromiumembedded/cef
 Description: The Chromium Embedded Framework
  The Chromium Embedded Framework (CEF) is a simple framework for embedding
@@ -33,20 +33,20 @@ Description: The Chromium Embedded Framework
 
 Package: libcef142-amd64
 Architecture: amd64
-Version: 142.0.17+g60aac24-6
+Version: 142.0.17+g60aac24-7
 Priority: optional
 Section: libs
 Source: cef-amd64
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 319156
-Provides: libcef142 (= 142.0.17+g60aac24-6)
+Installed-Size: 319160
+Provides: libcef-api13300, libcef-api13301, libcef-api13302, libcef-api13303, libcef-api13304, libcef-api13400, libcef-api13401, libcef-api13500, libcef-api13600, libcef-api13601, libcef-api13700, libcef-api13800, libcef-api13900, libcef-api14000, libcef-api14100, libcef-api14200, libcef142 (= 142.0.17+g60aac24-7)
 Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.0), libglib2.0-0t64 (>= 2.40.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2
-Filename: pool/casparcg/cef142/noble/libcef142-amd64_142.0.17+g60aac24-6_amd64.deb
-Size: 102435894
-MD5sum: 9d193c9b8b2436e752938dec776895f8
-SHA1: 24d75d078e7ccde941876dbb296f690653bd28c3
-SHA256: f1a80ec46453a4b6baf93ac62810b3b6fac3aee0866596775bae3b268f007f99
-SHA512: b5859ea17967162e426f8a5dffe7c0a3dde69dd4198621290772b40e68a3abad4832f3d922425c8a328e867db6788e46ca11e16fc3b3439e5befedce6f3d7d5d
+Filename: pool/casparcg/cef142/noble/libcef142-amd64_142.0.17+g60aac24-7_amd64.deb
+Size: 102436666
+MD5sum: 5dc0e764d2c8a4e9dd387a6964f8a3c9
+SHA1: ac0ac010aa829cfc54fe40067bf4860f39c94f2b
+SHA256: 4ace6ad832c961750eede5516c1a72adf56fbbd01a58fdb98346e0c057751a45
+SHA512: c11be89fa809c8397a82c55cf849669c0a9dd2652a695a012c78fdaa0be6f3c325d6a18982ba7149e779b8e4c7cd106fc304431f3720f76f76d6395bae1f9d22
 Homepage: https://bitbucket.org/chromiumembedded/cef
 Description: The Chromium Embedded Framework
  The Chromium Embedded Framework (CEF) is a simple framework for embedding
