@@ -64,6 +64,104 @@ Description: The Chromium Embedded Framework
  .
  This package contains the CEF library and resources.
 
+Package: libcef150-arm64-dev
+Architecture: arm64
+Version: 150.0.23+g4ccc4ca-2
+Priority: optional
+Section: libdevel
+Source: cef-arm64
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 174907
+Provides: libcef-api13300-dev, libcef-api13301-dev, libcef-api13302-dev, libcef-api13303-dev, libcef-api13304-dev, libcef-api13400-dev, libcef-api13401-dev, libcef-api13500-dev, libcef-api13600-dev, libcef-api13601-dev, libcef-api13700-dev, libcef-api13800-dev, libcef-api13900-dev, libcef-api14000-dev, libcef-api14100-dev, libcef-api14200-dev, libcef-api14300-dev, libcef-api14400-dev, libcef-api14500-dev, libcef-api14600-dev, libcef-api14700-dev, libcef-api14800-dev, libcef-api14900-dev, libcef-api15000-dev, libcef150-dev (= 150.0.23+g4ccc4ca-2)
+Depends: libcef150-arm64 (= 150.0.23+g4ccc4ca-2)
+Filename: pool/casparcg/cef150/resolute/libcef150-arm64-dev_150.0.23+g4ccc4ca-2_arm64.deb
+Size: 1565040
+MD5sum: 34528b32eed940b2230f286f717edc22
+SHA1: 3e5a3be83cab776b1838374e571308a25b7cbb84
+SHA256: 4eb1defe2bc8f83ec3a6e9766ddf8f0498b838fb943e7287798888c2ab464a4a
+SHA512: 39da4f11e1c4399595065b69063bcc5726c756b3fdc08232efcbf096637ccb19d75b8a12808b3821fb2630c1da4c0ba47b0de8ef7535670540fc64a430b2e4f4
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: The Chromium Embedded Framework
+ The Chromium Embedded Framework (CEF) is a simple framework for embedding
+ Chromium-based browsers in other applications.
+ .
+ CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
+ 2008 and based on the Google Chromium project. Unlike the Chromium project
+ itself, which focuses mainly on Google Chrome application development, CEF
+ focuses on facilitating embedded browser use cases in third-party
+ applications. CEF insulates the user from the underlying Chromium and Blink
+ code complexity by offering production-quality stable APIs, release branches
+ tracking specific Chromium releases, and binary distributions. Most features
+ in CEF have default implementations that provide rich functionality while
+ requiring little or no integration work from the user.
+ .
+ This package contains development files.
+
+Package: libcef150-arm64
+Architecture: arm64
+Version: 150.0.23+g4ccc4ca-2
+Priority: optional
+Section: libs
+Source: cef-arm64
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 281130
+Provides: libcef-api13300, libcef-api13301, libcef-api13302, libcef-api13303, libcef-api13304, libcef-api13400, libcef-api13401, libcef-api13500, libcef-api13600, libcef-api13601, libcef-api13700, libcef-api13800, libcef-api13900, libcef-api14000, libcef-api14100, libcef-api14200, libcef-api14300, libcef-api14400, libcef-api14500, libcef-api14600, libcef-api14700, libcef-api14800, libcef-api14900, libcef-api15000, libcef150 (= 150.0.23+g4ccc4ca-2)
+Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.32.0), libatspi2.0-0t64 (>= 2.9.90), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libcups2t64 (>= 1.7.0), libdbus-1-3 (>= 1.10), libexpat1 (>= 2.1~beta3), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, libcef150-data-arm64 (= 150.0.23+g4ccc4ca-2)
+Filename: pool/casparcg/cef150/resolute/libcef150-arm64_150.0.23+g4ccc4ca-2_arm64.deb
+Size: 83029286
+MD5sum: 6992093a63df43e8543d109715641bef
+SHA1: c71cd39dc938839c12973f93921b85040ceda5d5
+SHA256: a468f32ac1465ae4706edd2d5da31f1c315d0359488892e20e44c1a83d3cbb44
+SHA512: 04937cd293c1d63c095f61715ef6d73839b551e619721f2206748b1d22c2be0d10f0488f8e0477489adacb466562149dece4e72474669f7acd83e0ede6cb4d32
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: The Chromium Embedded Framework
+ The Chromium Embedded Framework (CEF) is a simple framework for embedding
+ Chromium-based browsers in other applications.
+ .
+ CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
+ 2008 and based on the Google Chromium project. Unlike the Chromium project
+ itself, which focuses mainly on Google Chrome application development, CEF
+ focuses on facilitating embedded browser use cases in third-party
+ applications. CEF insulates the user from the underlying Chromium and Blink
+ code complexity by offering production-quality stable APIs, release branches
+ tracking specific Chromium releases, and binary distributions. Most features
+ in CEF have default implementations that provide rich functionality while
+ requiring little or no integration work from the user.
+ .
+ This package contains the CEF library.
+
+Package: libcef150-data-arm64
+Architecture: arm64
+Version: 150.0.23+g4ccc4ca-2
+Priority: optional
+Section: libs
+Source: cef-arm64
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 74548
+Provides: libcef150-data (= 150.0.23+g4ccc4ca-2)
+Filename: pool/casparcg/cef150/resolute/libcef150-data-arm64_150.0.23+g4ccc4ca-2_arm64.deb
+Size: 27407944
+MD5sum: a3039a0792ef2784494e58ddd47cf96c
+SHA1: 775323106b28fdd47d55019aa71b85fa88a822ee
+SHA256: 14394349f7c3a15f85dcac5616fa6e648026a10bb8f0c4bbbd0005c1d4d12c68
+SHA512: e27434e2df2be03cb4c35d542180eb5d12847b26c03c6aee547ce24df182fc5c0407353a7d1f74bae1bae0ab1e8a56ceed89f4e2ef463099e8d6246d6d9e5c25
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: The Chromium Embedded Framework
+ The Chromium Embedded Framework (CEF) is a simple framework for embedding
+ Chromium-based browsers in other applications.
+ .
+ CEF is a BSD-licensed open source project founded by Marshall Greenblatt in
+ 2008 and based on the Google Chromium project. Unlike the Chromium project
+ itself, which focuses mainly on Google Chrome application development, CEF
+ focuses on facilitating embedded browser use cases in third-party
+ applications. CEF insulates the user from the underlying Chromium and Blink
+ code complexity by offering production-quality stable APIs, release branches
+ tracking specific Chromium releases, and binary distributions. Most features
+ in CEF have default implementations that provide rich functionality while
+ requiring little or no integration work from the user.
+ .
+ This package contains resources required by the CEF library.
+
 Package: casparcg-control
 Architecture: all
 Version: 0.5
