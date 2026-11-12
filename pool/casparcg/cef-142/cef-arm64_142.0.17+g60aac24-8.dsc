@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: cef-arm64
 Binary: libcef142-arm64, libcef142-arm64-dev
 Architecture: arm64
-Version: 142.0.17+g60aac24-7
+Version: 142.0.17+g60aac24-8
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Homepage: https://bitbucket.org/chromiumembedded/cef
 Standards-Version: 4.6.2
@@ -15,18 +15,18 @@ Package-List:
  libcef142-arm64-dev deb libdevel optional arch=arm64
 Checksums-Sha1:
  02bd256b8487d9eec8e37b6a00f80385fe719092 511374006 cef-arm64_142.0.17+g60aac24.orig.tar.bz2
- 445b8a72e7f322189cd06f94414a484b4ec57245 5628 cef-arm64_142.0.17+g60aac24-7.debian.tar.xz
+ ea4cdc63c6eb88c3f518816739457f958738266f 5676 cef-arm64_142.0.17+g60aac24-8.debian.tar.xz
 Checksums-Sha256:
  1406257b280cdf91a039ae9c4d903b8b8f9ab5da57bef904e042343e90997865 511374006 cef-arm64_142.0.17+g60aac24.orig.tar.bz2
- b19a1e90810751ffa6ca728b5e8d381c527d1e159e26eef583dc9cdff6cbe9aa 5628 cef-arm64_142.0.17+g60aac24-7.debian.tar.xz
+ 8773261a4b54739ee5aec434b908c0e7324cd92b4d9503cd6eb9a3e9469940b8 5676 cef-arm64_142.0.17+g60aac24-8.debian.tar.xz
 Files:
  871100d7fa5a579625866b6b9bccdef9 511374006 cef-arm64_142.0.17+g60aac24.orig.tar.bz2
- 408228e944d475b747c2a283fcedc32c 5628 cef-arm64_142.0.17+g60aac24-7.debian.tar.xz
+ 9d92988dc440d425b39cfc9a6302580d 5676 cef-arm64_142.0.17+g60aac24-8.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCavXmQwAKCRA6Vr9YT1rr
-J6qiAPoCMyjdKBFuzF6WN3yaj3oEg/bl0Ft42gm7jF3OC+rvtgEAsNeP/XwhV8yC
-KdI9ejGfuOxUp5PwR+FnmwKUUxpK5wc=
-=fI9d
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCavY2lwAKCRA6Vr9YT1rr
+J+wiAQDmgTIEYaCtBusXbgPPlPBO7FM5TrCNJxPkY00KJ7jgBAEAvWGfBUfeO678
+2XuQnjsT98gymBIAE439BN3O4/3bGA0=
+=6ZyJ
 -----END PGP SIGNATURE-----
