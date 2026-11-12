@@ -1,7 +1,0 @@
-#!/bin/sh
-
-d=$(dirname "$0")
-v=142.0.17+g60aac24-7
-o=cef-arm64_${v%-*}.orig.tar.bz2
-
-wget -cO $d/$o https://github.com/dimitry-ishenko-casparcg/cef/releases/download/debian/$v/$o
