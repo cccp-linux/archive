@@ -1,18 +1,18 @@
 Package: kde-meta
 Architecture: all
-Version: 0.7
+Version: 0.8
 Priority: optional
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 19
+Installed-Size: 14
 Depends: plasma-desktop, plasma-workspace
 Recommends: bluedevil, cifs-utils, desktop-file-utils, dolphin, ffmpeg, ffmpegthumbs, fonts-courier-nerd, fonts-freefont-otf, fonts-hack, fonts-liberation, fonts-open-sans, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gwenview, kate, kimageformat6-plugins, kio-extras, kio-fuse, konsole, kscreen, mpv, okular, pipewire-audio, plasma-nm, plasma-pa, plasma-systemmonitor, rtkit, systemsettings, xdg-utils
-Filename: pool/other/kde-meta/trixie/kde-meta_0.7_all.deb
-Size: 2752
-MD5sum: 86a4a35fa33494b7aedf0e4dfb4825e9
-SHA1: b80fa743e068b2f1218faa80e5a69cd8966e6fc8
-SHA256: 7f792b1501b18cbe9dae9acf1acdd84986e5e3587d2e34c6d7bcef26e8bb835c
-SHA512: 6cd0f3ca5dc3bcb5a52678259327ea23cb6e96152618cd59e959b58dc38e16c4521dbdc7b0702e2cd83f65f71f2a288fe0e73f36457bf5520b9a809095e612de
+Filename: pool/other/kde-meta/trixie/kde-meta_0.8_all.deb
+Size: 2436
+MD5sum: 87ef90f65e6c870cf90e61ed84f3c1af
+SHA1: cff31aba8ec969ab0b0c87999483852df098fd95
+SHA256: c004fa93561ef15b2ba8b0605d7b2f683cb54562f78a60dec0e28f49c92e975b
+SHA512: 821411fb0fbae5056f7806df2014cff2a8ca5adc49a90955380ab9b7eb50d97f77e7a8a9d213516da7990200a596bb6dde6c0fc9b13069f9372e3a7b3ed6ab74
 Description: KDE meta-package
 
 Package: neovim-telescope-fzf-native

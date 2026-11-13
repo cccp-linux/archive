@@ -1,17 +1,17 @@
 Package: kde-meta
 Architecture: all
-Version: 0.7
+Version: 0.8
 Section: metapackages
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 19
+Installed-Size: 14
 Depends: plasma-desktop, plasma-workspace
 Recommends: bluedevil, cifs-utils, desktop-file-utils, dolphin, ffmpeg, ffmpegthumbs, fonts-courier-nerd, fonts-freefont-otf, fonts-hack, fonts-liberation, fonts-open-sans, fonts-roboto, fonts-roboto-mono, fonts-roboto-slab, fonts-symbols-nerd, gwenview, kate, kimageformat6-plugins, kio-extras, kio-fuse, konsole, kscreen, mpv, okular, pipewire-audio, plasma-nm, plasma-pa, plasma-systemmonitor, rtkit, systemsettings, xdg-utils
-Filename: pool/other/kde-meta/noble/kde-meta_0.7_all.deb
-Size: 2610
-MD5sum: 8fd970a113553184fd0476b8face12b9
-SHA1: ba7d050c067b32b7470d25a8a00d76beaf9d6e0f
-SHA256: 2120b6e9939c7d1b69566c6b93854644ba68616667a3cb5cd46cee1c2eee7150
-SHA512: e554b756d09502f0b49cbf61084ec129d2edfddb7026fe77c60fabb74f9b748315255343f3441187b0a54444ce2ad0d0562d338506ee0380456109a97e9e249c
+Filename: pool/other/kde-meta/noble/kde-meta_0.8_all.deb
+Size: 2300
+MD5sum: 5304aeba892b3698f3b6da7061dcc002
+SHA1: 5954b63f35dcb3a1db02557a59421a3e50aa47ea
+SHA256: 0d276749b7a1e59761b55a4ad78e2336fcb8e97009f33320fbca6e10faea281b
+SHA512: 1f9e3437352f0c07ec887d946008c68879df6ed44ce11ae9148f9fbfcaa7f06b5955b9b78d0f548fceea939d7ad366eeeec7a147a78ea28db268148327f45c97
 Description: KDE meta-package
 
 Package: neovim-telescope-fzf-native

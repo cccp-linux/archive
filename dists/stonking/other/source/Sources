@@ -2,7 +2,7 @@ Package: kde-meta
 Format: 3.0 (native)
 Binary: kde-meta
 Architecture: all
-Version: 0.7
+Version: 0.8
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13)
@@ -10,17 +10,17 @@ Directory: pool/other/kde-meta
 Package-List:
  kde-meta deb metapackages optional arch=all
 Files:
- b77cc5c794b10d2ace3ef2843fa13588 804 kde-meta_0.7.dsc
- 07cb756127899d782719f8f2acc70f8a 13240 kde-meta_0.7.tar.xz
+ 0eb130e8779b37ea1652c4e035186526 804 kde-meta_0.8.dsc
+ 820cd7ee4ee8a0cfaccc636257859f0b 12964 kde-meta_0.8.tar.xz
 Checksums-Sha1:
- f033c3750146bbb9a519e6f52c1a5df1d243f01e 804 kde-meta_0.7.dsc
- b1c37ee73eeab96b8a34e81fc158dd2a3bb59e07 13240 kde-meta_0.7.tar.xz
+ af49f6aa9f6c35c45fb5e2e6714d134d87265558 804 kde-meta_0.8.dsc
+ 186546041e40c669333185f703bc09ad6e5856e1 12964 kde-meta_0.8.tar.xz
 Checksums-Sha256:
- 3b907f3ac2a9023c8a8261bba68757beed7ff123474d16aee2faf5dd562e9bff 804 kde-meta_0.7.dsc
- 38a916d3f0aa1b5017da529767062d2c16d72e2495776945a0940e37c8eefd13 13240 kde-meta_0.7.tar.xz
+ 10ce41825d10d93f686c9a657e9079dbe8107998c669f4bae3fa327e3082a66e 804 kde-meta_0.8.dsc
+ 83e8afb4a7b994b292ce308de0ed210a30aaf331bd453c6063446e824e945ae3 12964 kde-meta_0.8.tar.xz
 Checksums-Sha512:
- 0b422752037d15057099b5a0c012b2c57253a26e4120a19b1b529f8454548b623a116c1adb6944c13ecd17b1b283268fcebc190adf9174432865c07a103ebcf7 804 kde-meta_0.7.dsc
- 76ba3c5c07023dede7c8663095121cf71588ed725ec6139292efcc8ed64fdd734711f418ac9797f1560aa99cee380a34cdd576461411ca9cfb89dafd8fb74cc9 13240 kde-meta_0.7.tar.xz
+ 3cccd220276f266a12735ede75b9051bf13f89e3d8c4511102b1e9f1e8d9bd809de33d9d6d7d357648559aff0dfc558cf774150bd9c68b994e139c9972cac564 804 kde-meta_0.8.dsc
+ fcb54f57c0e884975358adbf5663b420044cf20200b352ab904d27bb0016e1913d22bbb20b0724ed466e53f393e4ed870ed6311f535b489e4cd038903d72be6d 12964 kde-meta_0.8.tar.xz
 
 Package: neovim-telescope-fzf-native
 Format: 3.0 (quilt)
