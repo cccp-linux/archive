@@ -218,20 +218,20 @@ Description: CasparCG Media Scanner
 
 Package: casparcg-server-2.5
 Architecture: arm64
-Version: 2.5.2~pre2-2
+Version: 2.5.2~pre2-3+cccp1
 Multi-Arch: foreign
 Priority: optional
 Section: video
 Source: server-2.5
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
 Installed-Size: 5057
-Depends: libavcodec62 (>= 7:8.1.2), libavdevice62 (>= 7:8.1.2), libavfilter11 (>= 7:8.1.2), libavformat62 (>= 7:8.1.2), libavutil60 (>= 7:8.1.2), libboost-chrono1.90.0 (>= 1.90.0), libboost-context1.90.0 (>= 1.90.0), libboost-filesystem1.90.0 (>= 1.90.0), libboost-locale1.90.0 (>= 1.90.0), libboost-log1.90.0 (>= 1.90.0), libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.3 (>= 2.3.1+dfsg2), libopenal1 (>= 1.14), libopengl0, libsfml-system3.1 (>= 3.1.0+dfsg), libsfml-window3.1 (>= 3.1.0+dfsg), libstdc++6 (>= 14), libswresample6 (>= 7:8.1.2), libswscale9 (>= 7:8.1.2), libtbb12 (>= 2023.1.0), libx11-6, libcef142, python3:any
-Filename: pool/casparcg/server-2.5/stonking/casparcg-server-2.5_2.5.2~pre2-2_arm64.deb
-Size: 1435908
-MD5sum: fc21587e0f056bdce73e19c23d022367
-SHA1: c933481e20190d3da61e0c34c64b2a5951a47e16
-SHA256: 863bf2f92a501f978e385b69b33689b7c8aaf00fae20342d28ade3f60117c15d
-SHA512: dbd7fb726a4bfdee85031eb4d4798957a0f077a69c9e1eda085c57c7cc96502d2f3aca8b9c6fa3a76008630275641e37bd15984f4e6a748bb0c72be7083d3eb6
+Depends: libavcodec62 (>= 7:8.1.2), libavdevice62 (>= 7:8.1.2), libavfilter11 (>= 7:8.1.2), libavformat62 (>= 7:8.1.2), libavutil60 (>= 7:8.1.2), libboost-chrono1.90.0 (>= 1.90.0), libboost-context1.90.0 (>= 1.90.0), libboost-filesystem1.90.0 (>= 1.90.0), libboost-locale1.90.0 (>= 1.90.0), libboost-log1.90.0 (>= 1.90.0), libboost-thread1.90.0 (>= 1.90.0), libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libglew2.3 (>= 2.3.1+dfsg2), libopenal1 (>= 1.14), libopengl0, libsfml-system3.1 (>= 3.1.0+dfsg), libsfml-window3.1 (>= 3.1.0+dfsg), libstdc++6 (>= 14), libswresample6 (>= 7:8.1.2), libswscale9 (>= 7:8.1.2), libtbb12 (>= 2023.1.0), libx11-6, libcef-api14200, python3:any
+Filename: pool/casparcg/server-2.5/stonking/casparcg-server-2.5_2.5.2~pre2-3+cccp1_arm64.deb
+Size: 1438246
+MD5sum: 04151e0b512713341344c08df5a7aba3
+SHA1: f20e78019f19bc089bdf30ecd0662d16b73b9fc8
+SHA256: 47cf73043991872a7fa6826b4e585625f7b055ab1abdc975c2411f6ff25d144b
+SHA512: 1f92a71594d6f759835b688096df3d271c7fce3fa237197d4fdd94c326614b6e5c690e1807ec9a75b45a44f1eed4820c541eace1b7cc9a4aa3b4a39c84812e5d
 Homepage: https://casparcg.com
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional
