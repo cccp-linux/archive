@@ -1,0 +1,1093 @@
+sbuild (Debian sbuild) 0.91.11 (30 October 2026) on laptop
+
++==============================================================================+
+| photocraft 0.23.1+dfsg-1 (amd64)             Tue, 17 Nov 2026 17:29:44 +0000 |
++==============================================================================+
+
+Package: photocraft
+Version: 0.23.1+dfsg-1
+Source Version: 0.23.1+dfsg-1
+Distribution: sid
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+I: Unpacking /home/dimitry/.cache/sbuild/sid-amd64.tar to /home/dimitry/arch/storytold/build/tmp.sbuild.trfbMcjtgt...
+I: Setting up the chroot...
+I: Creating chroot session...
+I: Setting up log color...
+I: Setting up apt archive...
+
++------------------------------------------------------------------------------+
+| Update chroot                                Tue, 17 Nov 2026 17:29:46 +0000 |
++------------------------------------------------------------------------------+
+
+Get:1 http://deb.debian.org/debian sid InRelease [193 kB]
+Get:2 http://deb.debian.org/debian sid/main amd64 Packages [10.9 MB]
+Fetched 11.1 MB in 6s (1709 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  apt libapt-pkg7.0
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2883 kB of archives.
+After this operation, 17.4 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian sid/main amd64 libapt-pkg7.0 amd64 3.3.8 [1295 kB]
+Get:2 http://deb.debian.org/debian sid/main amd64 apt amd64 3.3.8 [1589 kB]
+Fetched 2883 kB in 0s (191 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12844 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg7.0_3.3.8_amd64.deb ...
+Unpacking libapt-pkg7.0:amd64 (3.3.8) over (3.3.7) ...
+Setting up libapt-pkg7.0:amd64 (3.3.8) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12844 files and directories currently installed.)
+Preparing to unpack .../archives/apt_3.3.8_amd64.deb ...
+Unpacking apt (3.3.8) over (3.3.7) ...
+Setting up apt (3.3.8) ...
+Processing triggers for libc-bin (2.43-7) ...
+
++------------------------------------------------------------------------------+
+| Fetch source files                           Tue, 17 Nov 2026 17:29:55 +0000 |
++------------------------------------------------------------------------------+
+
+
+Local sources
+-------------
+
+/home/dimitry/arch/storytold/photocraft_0.23.1+dfsg-1.dsc exists in /home/dimitry/arch/storytold; copying to chroot
+
++------------------------------------------------------------------------------+
+| Install package build dependencies           Tue, 17 Nov 2026 17:29:56 +0000 |
++------------------------------------------------------------------------------+
+
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: debhelper-compat (= 13), cargo (>= 1.95) | cargo-1.95, rustc (>= 1.95) | rustc-1.95, build-essential
+Filtered Build-Depends: debhelper-compat (= 13), cargo (>= 1.95), rustc (>= 1.95), build-essential
+dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/build/reproducible-path/resolver-AzSiD3/apt_archive/sbuild-build-depends-main-dummy.deb'.
+Ign:1 copy:/build/reproducible-path/resolver-AzSiD3/apt_archive ./ InRelease
+Get:2 copy:/build/reproducible-path/resolver-AzSiD3/apt_archive ./ Release [609 B]
+Ign:3 copy:/build/reproducible-path/resolver-AzSiD3/apt_archive ./ Release.gpg
+Get:4 copy:/build/reproducible-path/resolver-AzSiD3/apt_archive ./ Sources [688 B]
+Get:5 copy:/build/reproducible-path/resolver-AzSiD3/apt_archive ./ Packages [673 B]
+Fetched 1970 B in 0s (0 B/s)
+Reading package lists...
+Reading package lists...
+
+Install main build dependencies (apt-based resolver)
+----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+The following additional packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils cargo debhelper
+  dh-autoreconf dh-strip-nondeterminism dwz file gettext gettext-base
+  groff-base intltool-debian libarchive-zip-perl libbrotli1 libbsd0
+  libcom-err2 libcurl4t64 libdebhelper-perl libedit2 libelf1t64 libffi8
+  libfile-stripnondeterminism-perl libgit2-1.9 libgssapi-krb5-2 libidn2-0
+  libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap2 libllhttp9.4
+  libllvm22 libmagic-mgc libmagic1t64 libnghttp2-14 libnghttp3-9 libngtcp2-16
+  libngtcp2-crypto-ossl0 libpipeline1 libpsl5t64 libsasl2-2
+  libsasl2-modules-db libssh2-1t64 libstd-rust-1.98 libstd-rust-dev libtool
+  libuchardet0 libunistring5 libxml2-16 libz3-4 m4 man-db po-debconf rustc
+  sensible-utils
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc cargo-doc python3 dh-make
+  gettext-doc libasprintf-dev libgettextpo-dev gnulib-l10n groff krb5-doc
+  krb5-user libtool-doc gfortran | fortran95-compiler m4-doc apparmor less
+  www-browser libmail-box-perl
+Recommended packages:
+  curl | wget | lynx python3:any python3-requests libarchive-cpio-perl
+  krb5-locales libldap-common publicsuffix libsasl2-modules libltdl-dev
+  libmail-sendmail-perl rust-llvm
+The following NEW packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils cargo debhelper
+  dh-autoreconf dh-strip-nondeterminism dwz file gettext gettext-base
+  groff-base intltool-debian libarchive-zip-perl libbrotli1 libbsd0
+  libcom-err2 libcurl4t64 libdebhelper-perl libedit2 libelf1t64 libffi8
+  libfile-stripnondeterminism-perl libgit2-1.9 libgssapi-krb5-2 libidn2-0
+  libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap2 libllhttp9.4
+  libllvm22 libmagic-mgc libmagic1t64 libnghttp2-14 libnghttp3-9 libngtcp2-16
+  libngtcp2-crypto-ossl0 libpipeline1 libpsl5t64 libsasl2-2
+  libsasl2-modules-db libssh2-1t64 libstd-rust-1.98 libstd-rust-dev libtool
+  libuchardet0 libunistring5 libxml2-16 libz3-4 m4 man-db po-debconf rustc
+  sbuild-build-depends-main-dummy sensible-utils
+0 upgraded, 59 newly installed, 0 to remove and 0 not upgraded.
+Need to get 124 MB of archives.
+After this operation, 555 MB of additional disk space will be used.
+Get:1 copy:/build/reproducible-path/resolver-AzSiD3/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [872 B]
+Get:2 http://deb.debian.org/debian sid/main amd64 sensible-utils all 0.0.26 [27.0 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 libmagic-mgc amd64 1:5.47-4 [345 kB]
+Get:4 http://deb.debian.org/debian sid/main amd64 libmagic1t64 amd64 1:5.47-4 [111 kB]
+Get:5 http://deb.debian.org/debian sid/main amd64 file amd64 1:5.47-4 [43.0 kB]
+Get:6 http://deb.debian.org/debian sid/main amd64 gettext-base amd64 1.0-5 [334 kB]
+Get:7 http://deb.debian.org/debian sid/main amd64 libuchardet0 amd64 0.0.8-2+b2 [69.0 kB]
+Get:8 http://deb.debian.org/debian sid/main amd64 groff-base amd64 1.25.0-2 [1200 kB]
+Get:9 http://deb.debian.org/debian sid/main amd64 bsdextrautils amd64 2.42.4-1 [103 kB]
+Get:10 http://deb.debian.org/debian sid/main amd64 libpipeline1 amd64 1.5.8-3 [49.2 kB]
+Get:11 http://deb.debian.org/debian sid/main amd64 man-db amd64 2.13.3-1 [1593 kB]
+Get:12 http://deb.debian.org/debian sid/main amd64 m4 amd64 1.4.21-1 [332 kB]
+Get:13 http://deb.debian.org/debian sid/main amd64 autoconf all 2.73-2 [516 kB]
+Get:14 http://deb.debian.org/debian sid/main amd64 autotools-dev all 20240727.1+nmu1 [60.0 kB]
+Get:15 http://deb.debian.org/debian sid/main amd64 automake all 1:1.19-3 [892 kB]
+Get:16 http://deb.debian.org/debian sid/main amd64 autopoint all 1.0-5 [820 kB]
+Get:17 http://deb.debian.org/debian sid/main amd64 libnghttp3-9 amd64 1.17.0-1 [68.1 kB]
+Get:18 http://deb.debian.org/debian sid/main amd64 libngtcp2-16 amd64 1.24.0-1 [145 kB]
+Get:19 http://deb.debian.org/debian sid/main amd64 libbrotli1 amd64 1.2.0-4.1 [325 kB]
+Get:20 http://deb.debian.org/debian sid/main amd64 libkrb5support0 amd64 1.22.1-3 [31.1 kB]
+Get:21 http://deb.debian.org/debian sid/main amd64 libcom-err2 amd64 1.47.4-1+b3 [19.6 kB]
+Get:22 http://deb.debian.org/debian sid/main amd64 libk5crypto3 amd64 1.22.1-3 [79.0 kB]
+Get:23 http://deb.debian.org/debian sid/main amd64 libkeyutils1 amd64 1.6.3-6+b2 [9348 B]
+Get:24 http://deb.debian.org/debian sid/main amd64 libkrb5-3 amd64 1.22.1-3 [335 kB]
+Get:25 http://deb.debian.org/debian sid/main amd64 libgssapi-krb5-2 amd64 1.22.1-3 [137 kB]
+Get:26 http://deb.debian.org/debian sid/main amd64 libunistring5 amd64 1.4.2-1 [480 kB]
+Get:27 http://deb.debian.org/debian sid/main amd64 libidn2-0 amd64 2.3.8-5 [109 kB]
+Get:28 http://deb.debian.org/debian sid/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-12 [18.4 kB]
+Get:29 http://deb.debian.org/debian sid/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-12 [59.4 kB]
+Get:30 http://deb.debian.org/debian sid/main amd64 libldap2 amd64 2.6.14+dfsg-2+b1 [201 kB]
+Get:31 http://deb.debian.org/debian sid/main amd64 libnghttp2-14 amd64 1.71.0-1 [83.7 kB]
+Get:32 http://deb.debian.org/debian sid/main amd64 libngtcp2-crypto-ossl0 amd64 1.24.0-1 [26.5 kB]
+Get:33 http://deb.debian.org/debian sid/main amd64 libpsl5t64 amd64 0.23.3-1 [61.7 kB]
+Get:34 http://deb.debian.org/debian sid/main amd64 libssh2-1t64 amd64 1.11.1-6 [253 kB]
+Get:35 http://deb.debian.org/debian sid/main amd64 libcurl4t64 amd64 8.24.0~rc1-1 [476 kB]
+Get:36 http://deb.debian.org/debian sid/main amd64 libllhttp9.4 amd64 9.4.4+~cs12.11.9-2 [30.5 kB]
+Get:37 http://deb.debian.org/debian sid/main amd64 libgit2-1.9 amd64 1.9.7+ds-1 [607 kB]
+Get:38 http://deb.debian.org/debian sid/main amd64 libbsd0 amd64 0.12.2-3 [132 kB]
+Get:39 http://deb.debian.org/debian sid/main amd64 libedit2 amd64 3.1-20260512-1 [93.6 kB]
+Get:40 http://deb.debian.org/debian sid/main amd64 libffi8 amd64 3.8.0-2 [32.5 kB]
+Get:41 http://deb.debian.org/debian sid/main amd64 libxml2-16 amd64 2.15.4+dfsg-1+b1 [684 kB]
+Get:42 http://deb.debian.org/debian sid/main amd64 libz3-4 amd64 4.13.3-1.1 [8644 kB]
+Get:43 http://deb.debian.org/debian sid/main amd64 libllvm22 amd64 1:22.1.8-4 [29.4 MB]
+Get:44 http://deb.debian.org/debian sid/main amd64 libstd-rust-1.98 amd64 1.98.1+dfsg1-1 [21.6 MB]
+Get:45 http://deb.debian.org/debian sid/main amd64 libstd-rust-dev amd64 1.98.1+dfsg1-1 [37.0 MB]
+Get:46 http://deb.debian.org/debian sid/main amd64 rustc amd64 1.98.1+dfsg1-1 [4313 kB]
+Get:47 http://deb.debian.org/debian sid/main amd64 cargo amd64 1.98.1+dfsg1-1 [7583 kB]
+Get:48 http://deb.debian.org/debian sid/main amd64 libdebhelper-perl all 14.5 [77.7 kB]
+Get:49 http://deb.debian.org/debian sid/main amd64 libtool all 2.6.2-3 [552 kB]
+Get:50 http://deb.debian.org/debian sid/main amd64 dh-autoreconf all 23 [12.7 kB]
+Get:51 http://deb.debian.org/debian sid/main amd64 libarchive-zip-perl all 1.68-1 [104 kB]
+Get:52 http://deb.debian.org/debian sid/main amd64 libfile-stripnondeterminism-perl all 1.15.1-1 [17.1 kB]
+Get:53 http://deb.debian.org/debian sid/main amd64 dh-strip-nondeterminism all 1.15.1-1 [6020 B]
+Get:54 http://deb.debian.org/debian sid/main amd64 libelf1t64 amd64 0.196-1 [61.2 kB]
+Get:55 http://deb.debian.org/debian sid/main amd64 dwz amd64 0.17-1 [109 kB]
+Get:56 http://deb.debian.org/debian sid/main amd64 gettext amd64 1.0-5 [2704 kB]
+Get:57 http://deb.debian.org/debian sid/main amd64 intltool-debian all 0.35.0+20060710.6 [22.9 kB]
+Get:58 http://deb.debian.org/debian sid/main amd64 po-debconf all 1.0.22 [216 kB]
+Get:59 http://deb.debian.org/debian sid/main amd64 debhelper all 14.5 [944 kB]
+Preconfiguring packages ...
+Fetched 124 MB in 0s (478 MB/s)
+Selecting previously unselected package sensible-utils.
+(Reading database ... 12844 files and directories currently installed.)
+Preparing to unpack .../00-sensible-utils_0.0.26_all.deb ...
+Unpacking sensible-utils (0.0.26) ...
+Selecting previously unselected package libmagic-mgc.
+Preparing to unpack .../01-libmagic-mgc_1%3a5.47-4_amd64.deb ...
+Unpacking libmagic-mgc (1:5.47-4) ...
+Selecting previously unselected package libmagic1t64:amd64.
+Preparing to unpack .../02-libmagic1t64_1%3a5.47-4_amd64.deb ...
+Unpacking libmagic1t64:amd64 (1:5.47-4) ...
+Selecting previously unselected package file.
+Preparing to unpack .../03-file_1%3a5.47-4_amd64.deb ...
+Unpacking file (1:5.47-4) ...
+Selecting previously unselected package gettext-base.
+Preparing to unpack .../04-gettext-base_1.0-5_amd64.deb ...
+Unpacking gettext-base (1.0-5) ...
+Selecting previously unselected package libuchardet0:amd64.
+Preparing to unpack .../05-libuchardet0_0.0.8-2+b2_amd64.deb ...
+Unpacking libuchardet0:amd64 (0.0.8-2+b2) ...
+Selecting previously unselected package groff-base.
+Preparing to unpack .../06-groff-base_1.25.0-2_amd64.deb ...
+Unpacking groff-base (1.25.0-2) ...
+Selecting previously unselected package bsdextrautils.
+Preparing to unpack .../07-bsdextrautils_2.42.4-1_amd64.deb ...
+Unpacking bsdextrautils (2.42.4-1) ...
+Selecting previously unselected package libpipeline1:amd64.
+Preparing to unpack .../08-libpipeline1_1.5.8-3_amd64.deb ...
+Unpacking libpipeline1:amd64 (1.5.8-3) ...
+Selecting previously unselected package man-db.
+Preparing to unpack .../09-man-db_2.13.3-1_amd64.deb ...
+Unpacking man-db (2.13.3-1) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../10-m4_1.4.21-1_amd64.deb ...
+Unpacking m4 (1.4.21-1) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../11-autoconf_2.73-2_all.deb ...
+Unpacking autoconf (2.73-2) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../12-autotools-dev_20240727.1+nmu1_all.deb ...
+Unpacking autotools-dev (20240727.1+nmu1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../13-automake_1%3a1.19-3_all.deb ...
+Unpacking automake (1:1.19-3) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../14-autopoint_1.0-5_all.deb ...
+Unpacking autopoint (1.0-5) ...
+Selecting previously unselected package libnghttp3-9:amd64.
+Preparing to unpack .../15-libnghttp3-9_1.17.0-1_amd64.deb ...
+Unpacking libnghttp3-9:amd64 (1.17.0-1) ...
+Selecting previously unselected package libngtcp2-16:amd64.
+Preparing to unpack .../16-libngtcp2-16_1.24.0-1_amd64.deb ...
+Unpacking libngtcp2-16:amd64 (1.24.0-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../17-libbrotli1_1.2.0-4.1_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.2.0-4.1) ...
+Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../18-libkrb5support0_1.22.1-3_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.22.1-3) ...
+Selecting previously unselected package libcom-err2:amd64.
+Preparing to unpack .../19-libcom-err2_1.47.4-1+b3_amd64.deb ...
+Unpacking libcom-err2:amd64 (1.47.4-1+b3) ...
+Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../20-libk5crypto3_1.22.1-3_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.22.1-3) ...
+Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../21-libkeyutils1_1.6.3-6+b2_amd64.deb ...
+Unpacking libkeyutils1:amd64 (1.6.3-6+b2) ...
+Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../22-libkrb5-3_1.22.1-3_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.22.1-3) ...
+Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../23-libgssapi-krb5-2_1.22.1-3_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.22.1-3) ...
+Selecting previously unselected package libunistring5:amd64.
+Preparing to unpack .../24-libunistring5_1.4.2-1_amd64.deb ...
+Unpacking libunistring5:amd64 (1.4.2-1) ...
+Selecting previously unselected package libidn2-0:amd64.
+Preparing to unpack .../25-libidn2-0_2.3.8-5_amd64.deb ...
+Unpacking libidn2-0:amd64 (2.3.8-5) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../26-libsasl2-modules-db_2.1.28+dfsg1-12_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg1-12) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../27-libsasl2-2_2.1.28+dfsg1-12_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.28+dfsg1-12) ...
+Selecting previously unselected package libldap2:amd64.
+Preparing to unpack .../28-libldap2_2.6.14+dfsg-2+b1_amd64.deb ...
+Unpacking libldap2:amd64 (2.6.14+dfsg-2+b1) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../29-libnghttp2-14_1.71.0-1_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.71.0-1) ...
+Selecting previously unselected package libngtcp2-crypto-ossl0:amd64.
+Preparing to unpack .../30-libngtcp2-crypto-ossl0_1.24.0-1_amd64.deb ...
+Unpacking libngtcp2-crypto-ossl0:amd64 (1.24.0-1) ...
+Selecting previously unselected package libpsl5t64:amd64.
+Preparing to unpack .../31-libpsl5t64_0.23.3-1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.23.3-1) ...
+Selecting previously unselected package libssh2-1t64:amd64.
+Preparing to unpack .../32-libssh2-1t64_1.11.1-6_amd64.deb ...
+Unpacking libssh2-1t64:amd64 (1.11.1-6) ...
+Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../33-libcurl4t64_8.24.0~rc1-1_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.24.0~rc1-1) ...
+Selecting previously unselected package libllhttp9.4:amd64.
+Preparing to unpack .../34-libllhttp9.4_9.4.4+~cs12.11.9-2_amd64.deb ...
+Unpacking libllhttp9.4:amd64 (9.4.4+~cs12.11.9-2) ...
+Selecting previously unselected package libgit2-1.9:amd64.
+Preparing to unpack .../35-libgit2-1.9_1.9.7+ds-1_amd64.deb ...
+Unpacking libgit2-1.9:amd64 (1.9.7+ds-1) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../36-libbsd0_0.12.2-3_amd64.deb ...
+Unpacking libbsd0:amd64 (0.12.2-3) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../37-libedit2_3.1-20260512-1_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20260512-1) ...
+Selecting previously unselected package libffi8:amd64.
+Preparing to unpack .../38-libffi8_3.8.0-2_amd64.deb ...
+Unpacking libffi8:amd64 (3.8.0-2) ...
+Selecting previously unselected package libxml2-16:amd64.
+Preparing to unpack .../39-libxml2-16_2.15.4+dfsg-1+b1_amd64.deb ...
+Unpacking libxml2-16:amd64 (2.15.4+dfsg-1+b1) ...
+Selecting previously unselected package libz3-4:amd64.
+Preparing to unpack .../40-libz3-4_4.13.3-1.1_amd64.deb ...
+Unpacking libz3-4:amd64 (4.13.3-1.1) ...
+Selecting previously unselected package libllvm22:amd64.
+Preparing to unpack .../41-libllvm22_1%3a22.1.8-4_amd64.deb ...
+Unpacking libllvm22:amd64 (1:22.1.8-4) ...
+Selecting previously unselected package libstd-rust-1.98:amd64.
+Preparing to unpack .../42-libstd-rust-1.98_1.98.1+dfsg1-1_amd64.deb ...
+Unpacking libstd-rust-1.98:amd64 (1.98.1+dfsg1-1) ...
+Selecting previously unselected package libstd-rust-dev:amd64.
+Preparing to unpack .../43-libstd-rust-dev_1.98.1+dfsg1-1_amd64.deb ...
+Unpacking libstd-rust-dev:amd64 (1.98.1+dfsg1-1) ...
+Selecting previously unselected package rustc.
+Preparing to unpack .../44-rustc_1.98.1+dfsg1-1_amd64.deb ...
+Unpacking rustc (1.98.1+dfsg1-1) ...
+Selecting previously unselected package cargo.
+Preparing to unpack .../45-cargo_1.98.1+dfsg1-1_amd64.deb ...
+Unpacking cargo (1.98.1+dfsg1-1) ...
+Selecting previously unselected package libdebhelper-perl.
+Preparing to unpack .../46-libdebhelper-perl_14.5_all.deb ...
+Unpacking libdebhelper-perl (14.5) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../47-libtool_2.6.2-3_all.deb ...
+Unpacking libtool (2.6.2-3) ...
+Selecting previously unselected package dh-autoreconf.
+Preparing to unpack .../48-dh-autoreconf_23_all.deb ...
+Unpacking dh-autoreconf (23) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../49-libarchive-zip-perl_1.68-1_all.deb ...
+Unpacking libarchive-zip-perl (1.68-1) ...
+Selecting previously unselected package libfile-stripnondeterminism-perl.
+Preparing to unpack .../50-libfile-stripnondeterminism-perl_1.15.1-1_all.deb ...
+Unpacking libfile-stripnondeterminism-perl (1.15.1-1) ...
+Selecting previously unselected package dh-strip-nondeterminism.
+Preparing to unpack .../51-dh-strip-nondeterminism_1.15.1-1_all.deb ...
+Unpacking dh-strip-nondeterminism (1.15.1-1) ...
+Selecting previously unselected package libelf1t64:amd64.
+Preparing to unpack .../52-libelf1t64_0.196-1_amd64.deb ...
+Unpacking libelf1t64:amd64 (0.196-1) ...
+Selecting previously unselected package dwz.
+Preparing to unpack .../53-dwz_0.17-1_amd64.deb ...
+Unpacking dwz (0.17-1) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../54-gettext_1.0-5_amd64.deb ...
+Unpacking gettext (1.0-5) ...
+Selecting previously unselected package intltool-debian.
+Preparing to unpack .../55-intltool-debian_0.35.0+20060710.6_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.6) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../56-po-debconf_1.0.22_all.deb ...
+Unpacking po-debconf (1.0.22) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../57-debhelper_14.5_all.deb ...
+Unpacking debhelper (14.5) ...
+Selecting previously unselected package sbuild-build-depends-main-dummy.
+Preparing to unpack .../58-sbuild-build-depends-main-dummy_0.invalid.0_amd64.deb ...
+Unpacking sbuild-build-depends-main-dummy (0.invalid.0) ...
+Setting up libpipeline1:amd64 (1.5.8-3) ...
+Setting up libkeyutils1:amd64 (1.6.3-6+b2) ...
+Setting up libllhttp9.4:amd64 (9.4.4+~cs12.11.9-2) ...
+Setting up bsdextrautils (2.42.4-1) ...
+Setting up libmagic-mgc (1:5.47-4) ...
+Setting up libarchive-zip-perl (1.68-1) ...
+Setting up libxml2-16:amd64 (2.15.4+dfsg-1+b1) ...
+Setting up libdebhelper-perl (14.5) ...
+Setting up libbrotli1:amd64 (1.2.0-4.1) ...
+Setting up libmagic1t64:amd64 (1:5.47-4) ...
+Setting up libnghttp2-14:amd64 (1.71.0-1) ...
+Setting up gettext-base (1.0-5) ...
+Setting up m4 (1.4.21-1) ...
+Setting up libcom-err2:amd64 (1.47.4-1+b3) ...
+Setting up file (1:5.47-4) ...
+Setting up libelf1t64:amd64 (0.196-1) ...
+Setting up libkrb5support0:amd64 (1.22.1-3) ...
+Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-12) ...
+Setting up autotools-dev (20240727.1+nmu1) ...
+Setting up libz3-4:amd64 (4.13.3-1.1) ...
+Setting up libunistring5:amd64 (1.4.2-1) ...
+Setting up autopoint (1.0-5) ...
+Setting up libk5crypto3:amd64 (1.22.1-3) ...
+Setting up libsasl2-2:amd64 (2.1.28+dfsg1-12) ...
+Setting up autoconf (2.73-2) ...
+Setting up libnghttp3-9:amd64 (1.17.0-1) ...
+Setting up libffi8:amd64 (3.8.0-2) ...
+Setting up dwz (0.17-1) ...
+Setting up sensible-utils (0.0.26) ...
+Setting up libuchardet0:amd64 (0.0.8-2+b2) ...
+Setting up libngtcp2-16:amd64 (1.24.0-1) ...
+Setting up libkrb5-3:amd64 (1.22.1-3) ...
+Setting up libssh2-1t64:amd64 (1.11.1-6) ...
+Setting up libbsd0:amd64 (0.12.2-3) ...
+Setting up libldap2:amd64 (2.6.14+dfsg-2+b1) ...
+Setting up automake (1:1.19-3) ...
+update-alternatives: using /usr/bin/automake-1.19 to provide /usr/bin/automake (automake) in auto mode
+Setting up libfile-stripnondeterminism-perl (1.15.1-1) ...
+Setting up gettext (1.0-5) ...
+Setting up libtool (2.6.2-3) ...
+Setting up libedit2:amd64 (3.1-20260512-1) ...
+Setting up libidn2-0:amd64 (2.3.8-5) ...
+Setting up intltool-debian (0.35.0+20060710.6) ...
+Setting up dh-autoreconf (23) ...
+Setting up libgssapi-krb5-2:amd64 (1.22.1-3) ...
+Setting up libgit2-1.9:amd64 (1.9.7+ds-1) ...
+Setting up libngtcp2-crypto-ossl0:amd64 (1.24.0-1) ...
+Setting up dh-strip-nondeterminism (1.15.1-1) ...
+Setting up groff-base (1.25.0-2) ...
+Setting up libllvm22:amd64 (1:22.1.8-4) ...
+Setting up po-debconf (1.0.22) ...
+Setting up libpsl5t64:amd64 (0.23.3-1) ...
+Setting up libstd-rust-1.98:amd64 (1.98.1+dfsg1-1) ...
+Setting up man-db (2.13.3-1) ...
+Not building database; man-db/auto-update is not 'true'.
+Setting up libstd-rust-dev:amd64 (1.98.1+dfsg1-1) ...
+Setting up rustc (1.98.1+dfsg1-1) ...
+Setting up libcurl4t64:amd64 (8.24.0~rc1-1) ...
+Setting up debhelper (14.5) ...
+Setting up cargo (1.98.1+dfsg1-1) ...
+Setting up sbuild-build-depends-main-dummy (0.invalid.0) ...
+Processing triggers for libc-bin (2.43-7) ...
+
++------------------------------------------------------------------------------+
+| Check architectures                          Tue, 17 Nov 2026 17:30:04 +0000 |
++------------------------------------------------------------------------------+
+
+Arch check ok (amd64 included in any)
+
++------------------------------------------------------------------------------+
+| Build environment                            Tue, 17 Nov 2026 17:30:04 +0000 |
++------------------------------------------------------------------------------+
+
+Kernel: Linux 7.3.4+deb14-amd64 #1 SMP PREEMPT_DYNAMIC Debian 7.3.4-1 (2026-11-11) amd64 (x86_64)
+Toolchain package versions: binutils_2.47.50.20261021-1 dpkg-dev_1.23.12 g++-16_16.2.0-4 gcc-16_16.2.0-4 libc6-dev_2.43-7 libstdc++-16-dev_16.2.0-4 libstdc++6_16.2.0-4 linux-libc-dev_7.3.4-1
+Package versions: apt_3.3.8 aptitude_0.8.13-8.1+b1 aptitude-common_0.8.13-8.1 autoconf_2.73-2 automake_1:1.19-3 autopoint_1.0-5 autotools-dev_20240727.1+nmu1 base-files_14.2 base-passwd_3.6.8 bash_5.3-4+b1 binutils_2.47.50.20261021-1 binutils-common_2.47.50.20261021-1 binutils-x86-64-linux-gnu_2.47.50.20261021-1 bsdextrautils_2.42.4-1 build-essential_12.12 bzip2_1.0.8-6+b2 ca-certificates_20260816+nmu1 cargo_1.98.1+dfsg1-1 ccache_4.14.3-1 coreutils_9.12-0.3 cpp_4:16.2.0-1 cpp-16_16.2.0-4 cpp-16-x86-64-linux-gnu_16.2.0-4 cpp-x86-64-linux-gnu_4:16.2.0-1 dash_0.5.12-13 debconf_1.5.92 debhelper_14.5 debian-archive-keyring_2025.1 debianutils_5.24 dh-autoreconf_23 dh-strip-nondeterminism_1.15.1-1 diffutils_1:3.12-1 dpkg_1.23.12 dpkg-dev_1.23.12 dwz_0.17-1 eatmydata_131-2 file_1:5.47-4 findutils_4.11.0-3 g++_4:16.2.0-1 g++-16_16.2.0-4 g++-16-x86-64-linux-gnu_16.2.0-4 g++-x86-64-linux-gnu_4:16.2.0-1 gcc_4:16.2.0-1 gcc-16_16.2.0-4 gcc-16-base_16.2.0-4 gcc-16-x86-64-linux-gnu_16.2.0-4 gcc-x86-64-linux-gnu_4:16.2.0-1 gettext_1.0-5 gettext-base_1.0-5 grep_3.12-1 groff-base_1.25.0-2 gzip_1.14-1 hostname_3.25 init-system-helpers_1.69+nmu3 intltool-debian_0.35.0+20060710.6 libacl1_2.4.0-1 libapt-pkg7.0_3.3.8 libarchive-zip-perl_1.68-1 libasan8_16.2.0-4 libatomic1_16.2.0-4 libattr1_1:2.6.0-1 libaudit-common_1:4.2.1-1 libaudit1_1:4.2.1-1+b1 libbinutils_2.47.50.20261021-1 libblake3-0_1.8.2-1 libblkid1_2.42.4-1 libboost-iostreams1.92.0_1.92.0-4+b1 libbrotli1_1.2.0-4.1 libbsd0_0.12.2-3 libbz2-1.0_1.0.8-6+b2 libc-bin_2.43-7 libc-dev-bin_2.43-7 libc-gconv-modules-extra_2.43-7 libc6_2.43-7 libc6-dev_2.43-7 libcap-ng0_0.9.6-1+b1 libcap2_1:2.78-1+b2 libcc1-0_16.2.0-4 libcom-err2_1.47.4-1+b3 libcrypt1_1:4.5.2+20251210-1 libctf-nobfd0_2.47.50.20261021-1 libctf0_2.47.50.20261021-1 libcurl4t64_8.24.0~rc1-1 libcwidget4_0.5.18-6+b3 libdb5.3t64_5.3.28+dfsg2-12 libdebconfclient0_0.283 libdebhelper-perl_14.5 libdpkg-perl_1.23.12 libeatmydata1_131-2+b2 libedit2_3.1-20260512-1 libelf1t64_0.196-1 libffi8_3.8.0-2 libfile-stripnondeterminism-perl_1.15.1-1 libfmt11_11.1.1+ds1-2 libgcc-16-dev_16.2.0-4 libgcc-s1_16.2.0-4 libgdbm-compat4t64_1.26-1+b2 libgdbm6t64_1.26-1+b2 libgit2-1.9_1.9.7+ds-1 libgmp10_2:6.3.0+dfsg-5+b2 libgomp1_16.2.0-4 libgprofng0_2.47.50.20261021-1 libgssapi-krb5-2_1.22.1-3 libhiredis1.1.0_1.2.0-6+b4 libhogweed6t64_3.10.2-1+b1 libhwasan0_16.2.0-4 libidn2-0_2.3.8-5 libisl23_0.28-1 libitm1_16.2.0-4 libjansson4_2.15.1-1 libk5crypto3_1.22.1-3 libkeyutils1_1.6.3-6+b2 libkrb5-3_1.22.1-3 libkrb5support0_1.22.1-3 libldap2_2.6.14+dfsg-2+b1 libllhttp9.4_9.4.4+~cs12.11.9-2 libllvm22_1:22.1.8-4 liblsan0_16.2.0-4 liblz4-1_1.10.0-10 liblzma5_5.8.4-1 libmagic-mgc_1:5.47-4 libmagic1t64_1:5.47-4 libmd0_1.3.0-1 libmount1_2.42.4-1 libmpc3_1.3.1-3 libmpfr6_4.2.2-3 libncursesw6_6.6+20260608-2 libnettle8t64_3.10.2-1+b1 libnghttp2-14_1.71.0-1 libnghttp3-9_1.17.0-1 libngtcp2-16_1.24.0-1 libngtcp2-crypto-ossl0_1.24.0-1 libpam-modules_1.7.0-8 libpam-modules-bin_1.7.0-8 libpam-runtime_1.7.0-8 libpam0g_1.7.0-8 libpcre2-8-0_10.49-1 libperl5.44_5.44.0-3 libpipeline1_1.5.8-3 libpsl5t64_0.23.3-1 libquadmath0_16.2.0-4 libsasl2-2_2.1.28+dfsg1-12 libsasl2-modules-db_2.1.28+dfsg1-12 libseccomp2_2.6.1-1+b2 libselinux1_3.11-2.1+b1 libsframe3_2.47.50.20261021-1 libsigc++-2.0-0v5_2.12.1-4+b1 libsmartcols1_2.42.4-1 libsqlite3-0_3.54.1-2 libssh2-1t64_1.11.1-6 libssl3t64_3.6.5-1 libstd-rust-1.98_1.98.1+dfsg1-1 libstd-rust-dev_1.98.1+dfsg1-1 libstdc++-16-dev_16.2.0-4 libstdc++6_16.2.0-4 libsystemd0_262.2-1 libtinfo6_6.6+20260608-2 libtool_2.6.2-3 libtsan2_16.2.0-4 libubsan1_16.2.0-4 libuchardet0_0.0.8-2+b2 libudev1_262.2-1 libunistring5_1.4.2-1 libuuid1_2.42.4-1 libxapian30_1.4.32-1 libxml2-16_2.15.4+dfsg-1+b1 libxxhash0_0.8.3-2+b2 libz3-4_4.13.3-1.1 libzstd1_1.5.7+dfsg-4 linux-libc-dev_7.3.4-1 m4_1.4.21-1 make_4.4.1-3 man-db_2.13.3-1 mawk_1.3.4.20260302-2 ncurses-base_6.6+20260608-2 ncurses-bin_6.6+20260608-2 openssl_3.6.5-1 openssl-provider-legacy_3.6.5-1 patch_2.8.1-1 perl_5.44.0-3 perl-base_5.44.0-3 perl-modules-5.44_5.44.0-3 po-debconf_1.0.22 rustc_1.98.1+dfsg1-1 sbuild-build-depends-main-dummy_0.invalid.0 sccache_0.17.0+ds-4 sed_4.9-3 sensible-utils_0.0.26 sqv_1.5.0-1 sysvinit-utils_3.18-2 tar_1.35+dfsg-7 util-linux_2.42.4-1 xz-utils_5.8.4-1 zlib1g_1:1.3.dfsg+really1.3.2-4
+
++------------------------------------------------------------------------------+
+| Build                                        Tue, 17 Nov 2026 17:30:04 +0000 |
++------------------------------------------------------------------------------+
+
+
+Unpack source
+-------------
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 3.0 (quilt)
+Source: photocraft
+Binary: photocraft
+Architecture: any
+Version: 0.23.1+dfsg-1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Homepage: https://getartcraft.com/apps/photocraft
+Standards-Version: 4.7.4
+Vcs-Browser: https://github.com/storytold/photocraft
+Vcs-Git: https://github.com/storytold/photocraft.git
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.95) | cargo-1.95:native, rustc:native (>= 1.95) | rustc-1.95:native
+Package-List:
+ photocraft deb graphics optional arch=any
+Checksums-Sha1:
+ cc6bbadc3bd2ce27fa536fa22d0aa8337ce921b5 79519452 photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+ 4bbc83ec94023877ce8d192206a77395cd0d569b 25923136 photocraft_0.23.1+dfsg.orig.tar.xz
+ 7030d29d48b741c59ac960405ed010d6bf63f302 16488 photocraft_0.23.1+dfsg-1.debian.tar.xz
+Checksums-Sha256:
+ bcc6ea6b530cba7123e27eed619d5d15afa0ac3dbb34bf9be3030d5a5b48c2c6 79519452 photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+ 60675903271e4ebba082f03a2e3aca31169f8d7fac9a4a2a277694f723c061be 25923136 photocraft_0.23.1+dfsg.orig.tar.xz
+ 87ed55e77cfcd86b7a582d3e71c71f8677d0930d52e274ad00821cfaa2a4a84a 16488 photocraft_0.23.1+dfsg-1.debian.tar.xz
+Files:
+ 41e6cecdfad648d4441fadb2f19e1ff9 79519452 photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+ e103c26d538b4e2ffe86ad8f5173fd8e 25923136 photocraft_0.23.1+dfsg.orig.tar.xz
+ 59848baf4820da1379d499225c148809 16488 photocraft_0.23.1+dfsg-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQUJWiBPT4T/Q+/o6I6Vr9YT1rrJwUCavyO5gAKCRA6Vr9YT1rr
+J8/xAQCwqvfxcSPKR9BL6fhTqsw0Sa9XB73FiWjyDhW4r9HFDQEApveilGCV9qfA
+IgS0HpyodcnptOAuK4K2XL3Qak38nww=
+=gV1U
+-----END PGP SIGNATURE-----
+
+dpkg-source: warning: cannot verify inline signature for ./photocraft_0.23.1+dfsg-1.dsc: missing OpenPGP keyrings
+dpkg-source: info: verifying ./photocraft_0.23.1+dfsg-1.dsc
+dpkg-source: info: skipping absent keyring /usr/share/keyrings/debian-keyring.pgp
+dpkg-source: info: skipping absent keyring /usr/share/keyrings/debian-tag2upload.pgp
+dpkg-source: info: skipping absent keyring /usr/share/keyrings/debian-nonupload.pgp
+dpkg-source: info: skipping absent keyring /usr/share/keyrings/debian-maintainers.pgp
+dpkg-source: info: extracting photocraft in /build/reproducible-path/photocraft-0.23.1+dfsg
+dpkg-source: info: unpacking photocraft_0.23.1+dfsg.orig.tar.xz
+dpkg-source: info: unpacking photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+dpkg-source: info: unpacking photocraft_0.23.1+dfsg-1.debian.tar.xz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: applying 0001-Remove-unused-patch-entries.patch
+
+clean up apt cache
+------------------
+
+
+Check disk space
+----------------
+
+Sufficient free space for build
+
+User Environment
+----------------
+
+APT_CONFIG=/var/lib/sbuild/apt.conf
+CCACHE_DIR=/build/ccache
+HOME=/sbuild-nonexistent
+LANG=en_US.UTF-8
+LC_ALL=C.UTF-8
+LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libeatmydata.so.1
+LOGNAME=sbuild
+PATH=/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+RUSTC_WRAPPER=/usr/bin/sccache
+SCCACHE_BASEDIRS=/build
+SCCACHE_DIR=/build/sccache
+SCCACHE_IDLE_TIMEOUT=0
+SHELL=/bin/sh
+USER=sbuild
+
+dpkg-buildpackage
+-----------------
+
+Command: dpkg-buildpackage --sanitize-env -us -uc -b
+dpkg-buildpackage: info: source package photocraft
+dpkg-buildpackage: info: source version 0.23.1+dfsg-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Dimitry Ishenko <dimitry.ishenko@gmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean
+   debian/rules override_dh_clean
+make[1]: Entering directory '/build/reproducible-path/photocraft-0.23.1+dfsg'
+rm -rf target /build/reproducible-path/photocraft-0.23.1+dfsg/debian/cargo_home
+dh_clean --exclude=vendor
+	rm -f debian/debhelper-build-stamp
+	rm -rf debian/.debhelper/
+	rm -f -- debian/photocraft.substvars debian/files
+	rm -fr -- debian/photocraft/ debian/tmp/
+	find . ! \( -regex .\*vendor.\* \) -a \( \( \
+		\( -path .\*/.git -o -path .\*/.svn -o -path .\*/.bzr -o -path .\*/.hg -o -path .\*/CVS -o -path .\*/.pc -o -path .\*/_darcs \) -prune -o -type f -a \
+	        \( -name '#*#' -o -name '.*~' -o -name '*~' -o -name DEADJOE \
+		 -o -name '*.orig' -o -name '*.rej' -o -name '*.bak' \
+		 -o -name '.*.orig' -o -name .*.rej -o -name '.SUMS' \
+		 -o -name TAGS -o \( -path '*/.deps/*' -a -name '*.P' \) \
+		\) -exec rm -f {} + \) -o \
+		\( -type d -a \( -name autom4te.cache -o -name __pycache__ \) -prune -exec rm -rf {} + \) \)
+make[1]: Leaving directory '/build/reproducible-path/photocraft-0.23.1+dfsg'
+ debian/rules binary
+dh binary
+   dh_update_autotools_config
+   dh_autoreconf
+   debian/rules override_dh_auto_configure
+make[1]: Entering directory '/build/reproducible-path/photocraft-0.23.1+dfsg'
+install -Dt /build/reproducible-path/photocraft-0.23.1+dfsg/debian/cargo_home debian/config.toml
+dh_auto_configure
+make[1]: Leaving directory '/build/reproducible-path/photocraft-0.23.1+dfsg'
+	rm -f debian/photocraft.debhelper.log
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/build/reproducible-path/photocraft-0.23.1+dfsg'
+/usr/bin/cargo build --frozen --release --package photocraft --package photocraft-cli --features heif --bins
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.26
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling cfg-if v1.0.5
+   Compiling once_cell v1.21.4
+   Compiling log v0.4.34
+   Compiling libc v0.2.191
+   Compiling autocfg v1.5.1
+   Compiling libm v0.2.16
+   Compiling rustix v1.1.5
+   Compiling linux-raw-sys v0.12.1
+   Compiling thiserror v2.0.21
+   Compiling pin-project-lite v0.2.17
+   Compiling crossbeam-utils v0.8.23
+   Compiling num-traits v0.2.19
+   Compiling crc32fast v1.5.3
+   Compiling find-msvc-tools v0.1.14
+   Compiling foldhash v0.2.0
+   Compiling shlex v2.0.1
+   Compiling cc v1.5.1
+   Compiling version_check v0.9.5
+   Compiling syn v3.0.6
+   Compiling syn v2.0.119
+   Compiling hashbrown v0.17.1
+   Compiling memchr v2.8.3
+   Compiling arrayvec v0.7.8
+   Compiling simd-adler32 v0.3.10
+   Compiling libloading v0.8.9
+   Compiling either v1.18.0
+   Compiling adler2 v2.0.1
+   Compiling pkg-config v0.3.34
+   Compiling tracing-core v0.1.36
+   Compiling crossbeam-epoch v0.9.21
+   Compiling miniz_oxide v0.9.1
+   Compiling crossbeam-deque v0.8.8
+   Compiling zlib-rs v0.6.8
+   Compiling bitflags v2.13.2
+   Compiling winnow v1.0.4
+   Compiling rayon-core v1.13.0
+   Compiling wayland-sys v0.31.11
+   Compiling dlib v0.5.3
+   Compiling toml_parser v1.1.3+spec-1.1.0
+   Compiling toml_datetime v1.1.1+spec-1.1.0
+   Compiling stable_deref_trait v1.2.1
+   Compiling zerocopy v0.8.59
+   Compiling slab v0.4.12
+   Compiling zmij v1.0.23
+   Compiling futures-core v0.3.34
+   Compiling miniz_oxide v0.8.9
+   Compiling fdeflate v0.3.7
+   Compiling cfg_aliases v0.2.2
+   Compiling getrandom v0.4.3
+   Compiling rayon v1.12.0
+   Compiling wayland-backend v0.3.17
+   Compiling scopeguard v1.2.0
+   Compiling equivalent v1.0.2
+   Compiling writeable v0.6.4
+   Compiling futures-io v0.3.34
+   Compiling tracing-attributes v0.1.31
+   Compiling zerocopy-derive v0.8.59
+   Compiling serde_derive v1.0.229
+   Compiling bytemuck_derive v1.12.1
+   Compiling thiserror-impl v2.0.21
+   Compiling tracing v0.1.44
+   Compiling bytemuck v1.25.2
+   Compiling synstructure v0.14.0
+   Compiling flate2 v1.1.10
+   Compiling zerovec-derive v0.11.6
+   Compiling displaydoc v0.2.7
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.3
+   Compiling scoped-tls v1.0.1
+   Compiling linebender_resource_handle v0.1.1
+   Compiling fearless_simd v0.4.1
+   Compiling downcast-rs v1.2.1
+   Compiling indexmap v2.14.2
+   Compiling quick-xml v0.41.0
+   Compiling zerofrom v0.1.8
+   Compiling litemap v0.8.3
+   Compiling polycool v0.4.0
+   Compiling yoke v0.8.3
+   Compiling itoa v1.0.18
+   Compiling fastrand v2.5.0
+   Compiling wayland-client v0.31.15
+   Compiling wayland-scanner v0.31.11
+   Compiling toml_edit v0.25.15+spec-1.1.0
+   Compiling cobs v0.3.0
+   Compiling smallvec v1.16.2
+   Compiling zerovec v0.11.8
+   Compiling font-types v0.12.5
+   Compiling kurbo v0.13.1
+   Compiling enumflags2_derive v0.7.12
+   Compiling siphasher v1.0.4
+   Compiling unicode-properties v0.1.4
+   Compiling unicode-bidi v0.3.18
+   Compiling proc-macro-crate v3.5.0
+   Compiling tinystr v0.8.4
+   Compiling polling v3.11.0
+   Compiling zerotrie v0.2.5
+   Compiling icu_locale_core v2.3.0
+   Compiling postcard v1.1.3
+   Compiling zvariant_utils v4.2.0
+   Compiling color v0.3.3
+   Compiling uuid v1.26.1
+   Compiling euclid v0.22.14
+   Compiling parking_lot_core v0.9.12
+   Compiling parking v2.2.1
+   Compiling serde_json v1.0.154
+   Compiling zvariant_derive v5.15.0
+   Compiling peniko v0.6.1
+   Compiling weezl v0.1.12
+   Compiling static_assertions v1.1.0
+   Compiling half v2.7.1
+   Compiling read-fonts v0.41.0
+   Compiling guillotiere v0.7.0
+   Compiling lock_api v0.4.14
+   Compiling color_quant v1.1.0
+   Compiling parking_lot v0.12.5
+   Compiling potential_utf v0.1.6
+   Compiling photocraft-cms v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/cms)
+   Compiling memmap2 v0.9.11
+   Compiling byteorder-lite v0.1.0
+   Compiling float-cmp v0.9.0
+   Compiling pxfm v0.1.30
+   Compiling strict-num v0.1.1
+   Compiling photocraft-geom v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/geom)
+   Compiling icu_provider v2.3.1
+   Compiling png v0.18.1
+   Compiling jxl-bitstream v1.1.0
+   Compiling sysinfo v0.40.1
+   Compiling arrayref v0.3.9
+   Compiling getrandom v0.3.4
+   Compiling lz4_flex v0.11.6
+   Compiling profiling v1.0.18
+   Compiling raw-window-handle v0.6.2
+   Compiling tiny-skia-path v0.11.4
+   Compiling wayland-protocols v0.32.13
+   Compiling event-listener v5.4.2
+   Compiling enumflags2 v0.7.12
+   Compiling zcheapstr v1.1.0
+   Compiling concurrent-queue v2.5.0
+   Compiling bitflags v1.3.2
+   Compiling utf8_iter v1.0.4
+   Compiling alloc-no-stdlib v2.0.4
+   Compiling tinyvec v1.13.3
+   Compiling zune-core v0.5.3
+   Compiling endi v1.1.1
+   Compiling zvariant v5.15.0
+   Compiling alloc-stdlib v0.2.4
+   Compiling icu_collections v2.3.0
+   Compiling png v0.17.16
+   Compiling photocraft-color v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/color)
+   Compiling event-listener-strategy v0.5.4
+   Compiling jxl-oxide-common v1.0.0
+   Compiling gif v0.14.2
+   Compiling moxcms v0.8.1
+   Compiling photocraft-raster v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/raster)
+   Compiling futures-lite v2.6.1
+   Compiling qoi v0.4.1
+   Compiling jxl-grid v0.6.2
+   Compiling icu_locale_fallback_data v2.3.0
+   Compiling icu_properties_data v2.3.0
+   Compiling rustc-hash v1.1.0
+   Compiling naga-types v30.0.1
+   Compiling zbus_names v4.3.4
+   Compiling tiny-skia v0.11.4
+   Compiling brotli-decompressor v5.0.3
+   Compiling zune-jpeg v0.5.15
+   Compiling jxl-coding v1.0.1
+   Compiling jxl-threadpool v1.0.0
+   Compiling naga v30.0.1
+   Compiling async-io v2.6.0
+   Compiling ash v0.38.0+1.3.281
+   Compiling futures-sink v0.3.34
+   Compiling unicode-width v0.2.2
+   Compiling rustc-hash v2.1.3
+   Compiling bit-vec v0.9.1
+   Compiling codespan-reporting v0.13.1
+   Compiling bit-set v0.10.0
+   Compiling num-complex v0.4.6
+   Compiling enumn v0.1.14
+   Compiling spirv v0.4.0+sdk-1.4.341.0
+   Compiling errno v0.3.14
+   Compiling ahash v0.8.12
+   Compiling async-task v4.7.1
+   Compiling khronos-egl v6.0.0
+   Compiling icu_normalizer_data v2.3.0
+   Compiling rustversion v1.0.23
+   Compiling allocator-api2 v0.2.21
+   Compiling signal-hook-registry v1.4.8
+   Compiling photocraft-doc v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/doc)
+   Compiling accesskit v0.25.1
+   Compiling hashbrown v0.16.1
+   Compiling icu_properties v2.3.0
+   Compiling icu_locale_fallback v2.3.0
+   Compiling futures-channel v0.3.34
+   Compiling jxl-modular v0.11.3
+   Compiling harfrust v0.12.0
+   Compiling skrifa v0.44.0
+   Compiling wayland-protocols-wlr v0.3.12
+   Compiling image v0.25.10
+   Compiling wgpu-types v30.0.1
+   Compiling jxl-image v0.13.0
+   Compiling async-channel v2.5.0
+   Compiling phf_shared v0.13.1
+   Compiling futures-macro v0.3.34
+   Compiling wgpu-hal v30.0.1
+   Compiling core_maths v0.1.1
+   Compiling slotmap v1.1.1
+   Compiling generic-array v0.14.7
+   Compiling thiserror v1.0.69
+   Compiling paste v1.0.15
+   Compiling atomic-waker v1.1.2
+   Compiling presser v0.3.1
+   Compiling futures-task v0.3.34
+   Compiling quick-error v2.0.1
+   Compiling rustix v0.38.44
+   Compiling futures-util v0.3.34
+   Compiling piper v0.2.5
+   Compiling ttf-parser v0.25.1
+   Compiling phf_generator v0.13.1
+   Compiling jxl-vardct v0.11.1
+   Compiling async-signal v0.2.14
+   Compiling zbus_xml v5.2.1
+   Compiling async-lock v3.4.2
+   Compiling unicode-normalization v0.1.26
+   Compiling read-fonts v0.44.0
+   Compiling thiserror-impl v1.0.69
+   Compiling serde_spanned v1.1.1
+   Compiling num-integer v0.1.47
+   Compiling ordered-float v5.5.0
+   Compiling pulp v0.22.3
+   Compiling cursor-icon v1.2.0
+   Compiling typenum v1.20.1
+   Compiling bytes v1.12.1
+   Compiling icu_segmenter_data v2.3.0
+   Compiling toml_writer v1.1.2+spec-1.1.0
+   Compiling write16 v1.0.0
+   Compiling gpu-allocator v0.28.0
+   Compiling utf16_iter v1.0.5
+   Compiling hayro-ccitt v0.3.0
+   Compiling xcursor v0.3.11
+   Compiling glow v0.17.0
+   Compiling typeid v1.0.3
+   Compiling roxmltree v0.20.0
+   Compiling linux-raw-sys v0.4.15
+   Compiling subtle v2.6.1
+   Compiling xkeysym v0.2.1
+   Compiling unicode-general-category v1.1.0
+   Compiling renderdoc-sys v1.1.0
+   Compiling wayland-cursor v0.31.14
+   Compiling fontconfig-parser v0.5.8
+   Compiling hayro-jbig2 v0.3.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling icu_normalizer v2.3.0
+   Compiling toml v1.1.6+spec-1.1.0
+   Compiling wayland-csd-frame v0.3.0
+   Compiling jxl-frame v0.13.3
+   Compiling stringprep v0.1.5
+   Compiling zbus-lockstep v0.5.2
+   Compiling async-process v2.5.0
+   Compiling encoding_rs v0.8.42
+   Compiling phf_macros v0.13.1
+   Compiling blocking v1.7.0
+   Compiling image-webp v0.2.4
+   Compiling async-executor v1.14.0
+   Compiling brotli v8.0.4
+   Compiling zbus_macros v5.19.0
+   Compiling async-broadcast v0.7.2
+   Compiling vello_common v0.2.0
+   Compiling hayro-jpeg2000 v0.3.5
+   Compiling kurbo v0.11.3
+   Compiling emath v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+   Compiling async-trait v0.1.92
+   Compiling serde_repr v0.1.21
+   Compiling fax_derive v0.2.0
+   Compiling async-recursion v1.1.1
+   Compiling wgpu-core v30.0.1
+   Compiling ordered-stream v0.2.0
+   Compiling raw-cpuid v11.6.0
+   Compiling litrs v1.0.0
+   Compiling unicode-script v0.5.8
+   Compiling hayro-postscript v0.2.0
+   Compiling percent-encoding v2.3.2
+   Compiling unicode-ccc v0.4.0
+   Compiling hex v0.4.3
+   Compiling unicode-bidi-mirroring v0.4.0
+   Compiling strength_reduce v0.2.4
+   Compiling pulp-wasm-simd-flag v0.1.1
+   Compiling reborrow v0.5.5
+   Compiling zbus v5.19.0
+   Compiling transpose v0.2.3
+   Compiling rustybuzz v0.20.1
+   Compiling vello_cpu v0.2.0
+   Compiling hayro-cmap v0.1.1
+   Compiling svgtypes v0.15.3
+   Compiling hayro-syntax v0.7.2 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling wgpu-naga-bridge v30.0.1
+   Compiling document-features v0.2.12
+   Compiling fax v0.2.6
+   Compiling ecolor v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+   Compiling phf v0.13.1
+   Compiling calloop v0.13.0
+   Compiling skrifa v0.47.0
+   Compiling fontdb v0.23.0
+   Compiling zbus-lockstep-macros v0.5.2
+   Compiling primal-check v0.3.4
+   Compiling jxl-color v0.11.0
+   Compiling vello_common v0.0.8
+   Compiling gethostname v1.1.0
+   Compiling phf_shared v0.14.0
+   Compiling heic-rs v0.1.4
+   Compiling wgpu v30.0.1
+   Compiling zune-inflate v0.2.54
+   Compiling ring v0.17.14
+   Compiling blake3 v1.8.7
+   Compiling simplecss v0.2.2
+   Compiling unicode-segmentation v1.13.3
+   Compiling smithay-client-toolkit v0.19.2
+   Compiling wasmparser v0.228.0
+   Compiling twox-hash v2.1.4
+   Compiling pico-args v0.5.0
+   Compiling x11rb-protocol v0.13.2
+   Compiling nohash-hasher v0.2.0
+   Compiling lebe v0.5.3
+   Compiling base64 v0.22.1
+   Compiling parlance v0.1.0
+   Compiling iana-time-zone v0.1.65
+   Compiling as-raw-xcb-connection v1.0.1
+   Compiling self_cell v1.3.0
+   Compiling zune-core v0.4.12
+   Compiling data-url v0.3.2
+   Compiling imagesize v0.13.0
+   Compiling wasmi_ir v2.0.0
+   Compiling bit_field v0.10.3
+   Compiling unicode-vo v0.1.0
+   Compiling multiversion_no_op v1.0.0
+   Compiling xmlwriter v0.1.0
+   Compiling core_detect v1.0.0
+   Compiling simdutf8 v0.1.5
+   Compiling usvg v0.45.1
+   Compiling exr v1.74.2
+   Compiling wgpu-core-deps-windows-linux-android v30.0.1
+   Compiling hayro-interpret v0.7.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling craft-heif v0.1.0 (https://github.com/storytold/craft-libs?rev=081078bb1b44aeedfa5bef3d4f13d978dc77510a#081078bb)
+   Compiling zune-jpeg v0.4.21
+   Compiling chrono v0.4.45
+   Compiling fontique v0.11.1
+   Compiling ruzstd v0.9.1
+   Compiling vello_cpu v0.0.8
+   Compiling jxl-render v0.12.4
+   Compiling phf_generator v0.14.0
+   Compiling icu_segmenter v2.3.0
+   Compiling rustfft v6.4.1
+   Compiling ron v0.12.2
+   Compiling calloop-wayland-source v0.3.0
+   Compiling tiff v0.11.3
+   Compiling atspi-common v0.13.0
+   Compiling jxl-jbr v0.2.1
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.7
+   Compiling photocraft-text v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/text)
+   Compiling photocraft-vector v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/vector)
+   Compiling parley_data v0.11.1
+   Compiling x11rb v0.13.2
+   Compiling pic-scale v0.7.12
+   Compiling zune-jpegxl v0.5.2
+   Compiling gif v0.13.3
+   Compiling craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling epaint v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+   Compiling rgb v0.8.53
+   Compiling itertools v0.15.0
+   Compiling x11-dl v2.21.0
+   Compiling wasmi_core v2.0.0
+   Compiling io-lifetimes v3.0.1
+   Compiling cpufeatures v0.3.1
+   Compiling wasmi v2.0.0
+   Compiling ident_case v1.0.1
+   Compiling io-lifetimes v2.0.4
+   Compiling constant_time_eq v0.4.2
+   Compiling web-time v1.1.0
+   Compiling foldhash v0.1.5
+   Compiling jpeg-encoder v0.6.1
+   Compiling base64 v0.23.1
+   Compiling zeroize v1.9.1
+   Compiling strsim v0.11.1
+   Compiling darling_core v0.24.1
+   Compiling photocraft-codecs v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/codecs)
+   Compiling rustls-pki-types v1.15.1
+   Compiling hashbrown v0.15.5
+   Compiling jxl-oxide v0.12.6
+   Compiling resvg v0.45.1
+   Compiling photocraft-compose v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/compose)
+   Compiling parley v0.11.1
+   Compiling digest v0.10.7
+   Compiling photocraft-algo v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/algo)
+   Compiling hayro v0.7.1 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling phf_macros v0.14.0
+   Compiling photocraft-psd v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/psd)
+   Compiling egui v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+   Compiling craft-pcraft-format v0.1.0 (https://github.com/storytold/craft-libs?rev=b8f7d93b00dfb8f172938f3d2d796ae62dcfe123#b8f7d93b)
+   Compiling winit v0.30.13 (https://github.com/storytold/winit.git?rev=a517b3846ee8457d84ee4975110bfda6797c44dc#a517b384)
+   Compiling getrandom v0.2.17
+   Compiling utf8parse v0.2.2
+   Compiling fixedbitset v0.5.7
+   Compiling io-extras v0.19.0
+   Compiling spin v0.9.9
+   Compiling untrusted v0.9.0
+   Compiling ref-cast v1.0.27
+   Compiling wasmi_collections v2.0.0
+   Compiling petgraph v0.8.3
+   Compiling anstyle-parse v1.0.0
+   Compiling phf v0.14.0
+   Compiling craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling sctk-adwaita v0.10.1
+   Compiling atspi-proxies v0.13.0
+   Compiling photocraft-raw v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/raw)
+   Compiling darling_macro v0.24.1
+   Compiling photocraft-affinity v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/affinity)
+   Compiling winresource v0.1.34
+   Compiling xkbcommon-dl v0.4.2
+   Compiling wayland-protocols-plasma v0.3.12
+   Compiling accesskit_consumer v0.39.1
+   Compiling photocraft-paint v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/paint)
+   Compiling calloop v0.14.4
+   Compiling tempfile v3.27.0
+   Compiling ref-cast-impl v1.0.27
+   Compiling tokio-macros v2.7.2
+   Compiling serde_derive_internals v0.30.0
+   Compiling semver v1.0.28
+   Compiling nom v8.0.0
+   Compiling roxmltree v0.21.1
+   Compiling mio v1.2.3
+   Compiling socket2 v0.6.5
+   Compiling colorchoice v1.0.5
+   Compiling anstyle v1.0.14
+   Compiling smol_str v0.2.2
+   Compiling cap-primitives v4.0.3
+   Compiling httparse v1.10.1
+   Compiling anstyle-query v1.1.5
+   Compiling craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling cpufeatures v0.2.17
+   Compiling dpi v0.1.2
+   Compiling rustls v0.23.46
+   Compiling pollster v1.0.1
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling smithay-client-toolkit v0.20.0
+   Compiling craft-winprint-gdi v0.1.0 (https://github.com/storytold/winprint.rs?rev=64e7afd4d1483512385012c340ecaaaf0f3beb7f#64e7afd4)
+   Compiling anstream v1.0.0
+   Compiling tree_magic_mini v3.2.2
+   Compiling sha2 v0.10.9
+   Compiling craft-print v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling tokio v1.54.1
+   Compiling schemars_derive v1.2.3
+   Compiling photocraft-plugins v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/plugins)
+   Compiling calloop-wayland-source v0.4.1
+   Compiling accesskit_atspi_common v0.21.0
+   Compiling fs-set-times v0.20.3
+   Compiling darling v0.24.1
+   Compiling rustls-webpki v0.103.15
+   Compiling atspi v0.29.0
+   Compiling futures-executor v0.3.34
+   Compiling photocraft-ops v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/ops)
+   Compiling wayland-protocols-experimental v20250721.0.1
+   Compiling wayland-protocols-misc v0.3.12
+   Compiling rustix-linux-procfs v0.1.1
+   Compiling fixed_decimal v0.7.3
+   Compiling os_pipe v1.2.3
+   Compiling openssl-probe v0.2.1
+   Compiling ipnet v2.12.2
+   Compiling maybe-owned v0.3.4
+   Compiling cap-std v4.0.3
+   Compiling heck v0.5.0
+   Compiling photocraft-ipp v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/ipp)
+   Compiling rmcp v3.6.0
+   Compiling ambient-authority v0.0.2
+   Compiling dyn-clone v1.0.20
+   Compiling clap_lex v1.1.1
+   Compiling schemars v1.2.3
+   Compiling clap_builder v4.6.7
+   Compiling clap_derive v4.6.7
+   Compiling rustls-native-certs v0.8.4
+   Compiling tokio-util v0.7.19
+   Compiling wl-clipboard-rs v0.9.4
+   Compiling accesskit_unix v0.24.0
+   Compiling futures v0.3.34
+   Compiling rmcp-macros v3.7.0
+   Compiling http v1.5.0
+   Compiling pastey v0.2.3
+   Compiling icu_casemap_data v2.3.0
+   Compiling ureq-proto v0.6.5
+   Compiling clap v4.6.7
+   Compiling arboard v3.7.0
+   Compiling smithay-clipboard v0.7.3
+   Compiling icu_plurals v2.3.0
+   Compiling icu_decimal v2.3.0
+   Compiling hmac v0.12.1
+   Compiling icu_provider_adapters v2.3.0
+   Compiling type-map v0.5.1
+   Compiling icu_provider_blob v2.3.0
+   Compiling enum-map-derive v1.0.1
+   Compiling filetime v0.2.29
+   Compiling utf8-zero v0.8.1
+   Compiling epaint_default_fonts v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+   Compiling sys-locale v0.3.2
+   Compiling enum-map v3.1.0
+   Compiling photocraft-ui-egui v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/crates/ui-egui)
+   Compiling craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling tar v0.4.46
+   Compiling egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+   Compiling photocraft-cli v0.23.1 (/build/reproducible-path/photocraft-0.23.1+dfsg/apps/photocraft-cli)
+   Compiling rustls-platform-verifier v0.7.1
+   Compiling is-docker v0.2.0
+   Compiling deranged v0.5.9
+   Compiling craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+   Compiling ureq v3.5.0
+   Compiling rfd v0.17.2
+   Compiling powerfmt v0.2.1
+   Compiling time-core v0.1.9
+   Compiling num-conv v0.2.2
+   Compiling is-wsl v0.4.0
+   Compiling time v0.3.55
+   Compiling icu_casemap v2.3.0
+   Compiling craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
