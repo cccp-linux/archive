@@ -90,3 +90,38 @@ Checksums-Sha512:
  ca7879130e2b56d9c02f382effb9a3491c4f5228f6fc1d90988597f6022425a0472e4ef20ebb53fea44575a8e3c4c2853f548902fffa8b5fc46942985c1befae 247087 neovim-telescope_0.2.2.orig.tar.gz
  35cb9084b2e1fa41e18c3516cf76d9dd7ad199836c7d253b36ca7e0ab3d104f939aba5c7149001dfb8c512701e0702f8894913a899508ef018a90e728f344ee5 3284 neovim-telescope_0.2.2-1~0cccp1.debian.tar.xz
 
+Package: photocraft
+Format: 3.0 (quilt)
+Binary: photocraft
+Architecture: any
+Version: 0.23.1+dfsg-3
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cargo:native (>= 1.95) | cargo-1.97:native, rustc:native (>= 1.95) | rustc-1.97:native
+Homepage: https://getartcraft.com/apps/photocraft
+Vcs-Browser: https://github.com/storytold/photocraft
+Vcs-Git: https://github.com/storytold/photocraft.git
+Directory: pool/other/photocraft
+Package-List:
+ photocraft deb graphics optional arch=any
+Files:
+ c281aba89e473ba1fbc00639aafdc45d 1685 photocraft_0.23.1+dfsg-3.dsc
+ 41e6cecdfad648d4441fadb2f19e1ff9 79519452 photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+ e103c26d538b4e2ffe86ad8f5173fd8e 25923136 photocraft_0.23.1+dfsg.orig.tar.xz
+ 50172cf2ca3fb90c1d134f5b9b0b6f51 16592 photocraft_0.23.1+dfsg-3.debian.tar.xz
+Checksums-Sha1:
+ 4655fe0bfea5106ea6632c421a816832403e6ee6 1685 photocraft_0.23.1+dfsg-3.dsc
+ cc6bbadc3bd2ce27fa536fa22d0aa8337ce921b5 79519452 photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+ 4bbc83ec94023877ce8d192206a77395cd0d569b 25923136 photocraft_0.23.1+dfsg.orig.tar.xz
+ b6d3c2d5740358bf511aa717bd400a2ee3ec2c9e 16592 photocraft_0.23.1+dfsg-3.debian.tar.xz
+Checksums-Sha256:
+ eb1b8681316874fc392748f67a1f09684e3e6e05a6906b146b815ce3924dce0e 1685 photocraft_0.23.1+dfsg-3.dsc
+ bcc6ea6b530cba7123e27eed619d5d15afa0ac3dbb34bf9be3030d5a5b48c2c6 79519452 photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+ 60675903271e4ebba082f03a2e3aca31169f8d7fac9a4a2a277694f723c061be 25923136 photocraft_0.23.1+dfsg.orig.tar.xz
+ 665631b1238b13fba96749817b9b669eb4feaec5b056d1219e812a31d9e9de4a 16592 photocraft_0.23.1+dfsg-3.debian.tar.xz
+Checksums-Sha512:
+ 82c23f672892044d1c76d62dd250bc4281c2b82a2a2889a09885be9624dd1bd71ccb78ea81cc8f51048aaeae5c66a9c11994ac0bb1fb30a5d625a0753a0cc81a 1685 photocraft_0.23.1+dfsg-3.dsc
+ a4c7b422fa46368cfdb392839314a73b3f592f2569b7a1e4c166bc4348c73f8ae1ba4d11a0fdd2a669dee9548e3dde3a1a9269ac8b2919e2e7e077a1d6e5f83e 79519452 photocraft_0.23.1+dfsg.orig-vendor.tar.xz
+ 1a2d52a7d85c43139596159f7bcfd88017b1d321525ad703da331b774236fdc617a9d17e3939060c6743434183cb52c3dc4c680d5d063554cecebfe9885bbd5c 25923136 photocraft_0.23.1+dfsg.orig.tar.xz
+ d3520c8989872fa63f676c69c390bc09c5263116c870e4a76728289331f553453755bf3f6bdac115da96465dcbef0bcbe9dc0bc397aaaaa2d4dbc3498cfa84a3 16592 photocraft_0.23.1+dfsg-3.debian.tar.xz
+

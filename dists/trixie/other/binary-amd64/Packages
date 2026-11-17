@@ -61,3 +61,55 @@ Description: Highly extendable fuzzy finder for Neovim
  .
  This is a neovim-only plugin.
 
+Package: photocraft
+Architecture: amd64
+Version: 0.23.1+dfsg-1
+Priority: optional
+Section: graphics
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 170249
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libvulkan1 | libegl1, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libxkbcommon-x11-0, libxkbcommon0
+Recommends: dbus-bin, libegl-mesa0, mesa-vulkan-drivers, xdg-desktop-portal
+Suggests: xdg-desktop-portal-gtk
+Filename: pool/other/photocraft/trixie/photocraft_0.23.1+dfsg-1_amd64.deb
+Size: 56598344
+MD5sum: 8bcc4447cd8631c4dc1d22f9c56d2215
+SHA1: 943eb159cf4e71292ad9628067dad34a6db42f98
+SHA256: 060f32a983483cab93bad57377cd4a0f4e977d1e51eeebe231c89abb2f7392c7
+SHA512: 36bd7fc2b59587bfcdca338e1c9272ef7e6484a38de75e5bbe40c60dc0b7922e47a10ebbdfd295819b5f693b284592149fcd90d5e75b797781e4ff66ded1ec4a
+Homepage: https://getartcraft.com/apps/photocraft
+Description: Open-source photo editor
+ Image editing; an open-source, clean-room reimplementation of Adobe Photoshop,
+ rebuilt in pure Rust.
+ .
+ Layers, masks, adjustment layers, layer styles, type, vectors, brushes and
+ real PSD files, in a native app written entirely in Rust.
+ .
+ Open source, offline, and yours.
+
+Package: photocraft
+Architecture: amd64
+Version: 0.23.1+dfsg-3
+Priority: optional
+Section: graphics
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 170249
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libvulkan1 | libegl1, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libxkbcommon-x11-0, libxkbcommon0
+Recommends: dbus-bin, libegl-mesa0, mesa-vulkan-drivers, xdg-desktop-portal
+Suggests: xdg-desktop-portal-gtk
+Filename: pool/other/photocraft/trixie/photocraft_0.23.1+dfsg-3_amd64.deb
+Size: 56598552
+MD5sum: e4aa80dbfe67e13d6c1edd70cf0bea09
+SHA1: 6708f7cde1add0ad1f6d7168d1ce9ae6bcc09f81
+SHA256: a36258ccac734c563cec1a8b47f969ac172bf1dfae7199c4e69062b5c04c547b
+SHA512: 65edf6ac11a3d05699e3f605ae59fbaaa291414926ff15aca3e3c2da143f1503649848c99b4853c12e8855f3dea3c91a30b51dfc8f3340eb8c28d40e86810392
+Homepage: https://getartcraft.com/apps/photocraft
+Description: Open-source photo editor
+ Image editing; an open-source, clean-room reimplementation of Adobe Photoshop,
+ rebuilt in pure Rust.
+ .
+ Layers, masks, adjustment layers, layer styles, type, vectors, brushes and
+ real PSD files, in a native app written entirely in Rust.
+ .
+ Open source, offline, and yours.
+
