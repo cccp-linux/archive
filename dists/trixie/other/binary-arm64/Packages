@@ -89,7 +89,7 @@ Description: Open-source photo editor
 
 Package: photocraft
 Architecture: arm64
-Version: 0.23.1+dfsg-3
+Version: 0.23.1+dfsg-4
 Priority: optional
 Section: graphics
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
@@ -97,12 +97,12 @@ Installed-Size: 143455
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), libvulkan1 | libegl1, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libxkbcommon-x11-0, libxkbcommon0
 Recommends: dbus-bin, libegl-mesa0, mesa-vulkan-drivers, xdg-desktop-portal
 Suggests: xdg-desktop-portal-gtk
-Filename: pool/other/photocraft/trixie/photocraft_0.23.1+dfsg-3_arm64.deb
-Size: 49113128
-MD5sum: e2066944440b72de0fca1b7a04455a46
-SHA1: f27900f6b1cca045b489d51339fc373eb472b70b
-SHA256: 9816c6794201a8767b24745b4d202a760674e1915c43f48ccbccbfa9e5287cee
-SHA512: b5fd21b5b43e306fb7eadf5e6dcf4680ddf7e232352f38a6988528fd8968f22a1129d58ae1ce8e30a26cb00740d555752de743a50685d7828a0225d0d576cc3f
+Filename: pool/other/photocraft/trixie/photocraft_0.23.1+dfsg-4_arm64.deb
+Size: 49096396
+MD5sum: 0fd731bd7c71a8832a97780f6cb23fce
+SHA1: eb64fd8c3d82ac43af6e93adecbfd0d9adcea72f
+SHA256: 568f307368d7d77e5cbd34e3e8957000a4207e3eeb32d3e97d8da995ad2aa85b
+SHA512: b6ff54629ea4fc0885ed08352e42792a7ee26f49ffec672508b4b20e21930602ee7aa8109b6133cfc23ae7e90f1deb5efa591dcc5d0ae7eb369afd181676ec5b
 Homepage: https://getartcraft.com/apps/photocraft
 Description: Open-source photo editor
  Image editing; an open-source, clean-room reimplementation of Adobe Photoshop,

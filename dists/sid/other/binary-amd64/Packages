@@ -89,20 +89,20 @@ Description: Open-source photo editor
 
 Package: photocraft
 Architecture: amd64
-Version: 0.23.1+dfsg-3
+Version: 0.23.1+dfsg-4
 Priority: optional
 Section: graphics
 Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
-Installed-Size: 168117
+Installed-Size: 168125
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libvulkan1 | libegl1, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libxkbcommon-x11-0, libxkbcommon0
 Recommends: dbus-bin, libegl-mesa0, mesa-vulkan-drivers, xdg-desktop-portal
 Suggests: xdg-desktop-portal-gtk
-Filename: pool/other/photocraft/sid/photocraft_0.23.1+dfsg-3_amd64.deb
-Size: 55907388
-MD5sum: 5ddf4b48e38a398808ec20b7f3028bf8
-SHA1: f67bdbf36ad8d815a71610fccd6f391dd9b43603
-SHA256: a961e5901c2229dbdc05742f82ccea5bd43899207227f96ee53c7ccdd5488ba0
-SHA512: a9799c7a6e680eada130fb40dbe1482e62f5025ef0666c56f1e529f94c7bb4dffab689e2a5067a52d14ae49da8b69a7ad6be54b5af28f6a19b209a77faccbe46
+Filename: pool/other/photocraft/sid/photocraft_0.23.1+dfsg-4_amd64.deb
+Size: 55910084
+MD5sum: 5fd69e07f50746ce310ffcb6480b4aef
+SHA1: 380ff3be4ccfa4d87b808bf629148a6dff419327
+SHA256: 4636fb88baad3771036241c72b42f1b3584d169c79ce258d8648d4468c0bd20f
+SHA512: a87d77a58456b4e722775d0f81b028637a675c538524bf4f851be4ff1137678fb9286eb17b1dd9e9179ea173312f21bdfb63b01067fbc73ebb82c7bec38ada5e
 Homepage: https://getartcraft.com/apps/photocraft
 Description: Open-source photo editor
  Image editing; an open-source, clean-room reimplementation of Adobe Photoshop,

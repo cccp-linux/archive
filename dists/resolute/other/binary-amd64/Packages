@@ -61,3 +61,29 @@ Description: Highly extendable fuzzy finder for Neovim
  .
  This is a neovim-only plugin.
 
+Package: photocraft
+Architecture: amd64
+Version: 0.23.1+dfsg-4
+Priority: optional
+Section: graphics
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 164685
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libvulkan1 | libegl1, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libxkbcommon-x11-0, libxkbcommon0
+Recommends: dbus-bin, libegl-mesa0, mesa-vulkan-drivers, xdg-desktop-portal
+Suggests: xdg-desktop-portal-gtk
+Filename: pool/other/photocraft/resolute/photocraft_0.23.1+dfsg-4_amd64.deb
+Size: 59689134
+MD5sum: bce051c9ed974175d1d0a85de260bd1c
+SHA1: 6a5a5de81db2114e8227e11239dbdd5f429d4b68
+SHA256: 40f93019bd9c6c392d7fc5150f40ca4b47217831136f97545c5047923f0ca1ea
+SHA512: ef324ea589e9aabd6dfcef2099a78177fbbef279144ddfdd2fea0ebc2dd01a1e34b083911b4cc83c72c04db493090eaad374a0331626c68ed800683347b53e99
+Homepage: https://getartcraft.com/apps/photocraft
+Description: Open-source photo editor
+ Image editing; an open-source, clean-room reimplementation of Adobe Photoshop,
+ rebuilt in pure Rust.
+ .
+ Layers, masks, adjustment layers, layer styles, type, vectors, brushes and
+ real PSD files, in a native app written entirely in Rust.
+ .
+ Open source, offline, and yours.
+
