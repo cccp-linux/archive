@@ -102,6 +102,32 @@ Checksums-Sha512:
  a2e46d59c8f76dd3270532c6675565ec8e9b61357015db5905c831b367b60c6d701ff6534029b815e8e7ecbbdeb489fbbaad0494a7be9f3e7796c5d8a5ea1224 954 devdocs-meta_1.6.dsc
  f660ecb2beb3c5eebf813ed094a9416c1e0dcee7341219970e686692bb2a921161c37ea86fb1592c471d3b6ef8a43a53bff41b7d74fcc093023244d580537e90 13444 devdocs-meta_1.6.tar.xz
 
+Package: micro-buildd
+Format: 3.0 (native)
+Binary: micro-buildd
+Architecture: all
+Version: 0.1
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-debian, python3-setuptools
+Vcs-Browser: https://github.com/cccp-linux/micro-buildd
+Vcs-Git: https://github.com/cccp-linux/micro-buildd.git
+Directory: pool/dev/micro-buildd
+Package-List:
+ micro-buildd deb devel optional arch=all
+Files:
+ ae66f0e298d32e611976cd0d94e08a94 1029 micro-buildd_0.1.dsc
+ 7d31b5fb31c87c0900c2bb62c9b4e7d2 18092 micro-buildd_0.1.tar.xz
+Checksums-Sha1:
+ e1ba6a5b579dde29796d3065c46168543cfdc2d5 1029 micro-buildd_0.1.dsc
+ bdc29481b0e90c83d15fd05baa8ffb99cd78b05d 18092 micro-buildd_0.1.tar.xz
+Checksums-Sha256:
+ b4f2eb531844d50421e9f5d74e614a51763743ae90a9be9c12adc20d6a4fe91f 1029 micro-buildd_0.1.dsc
+ 6a8b05c72744999bc5e18f636b35b7bdad869400737ba84d5f5b7f59d183f629 18092 micro-buildd_0.1.tar.xz
+Checksums-Sha512:
+ 84cd87f053d3a3011a1e72f649caef1c5edd25c18e035e557210cfe104c4a90dd205513363ce5fda539ac729db28066e417a3d2b7f976bbf10b3fa0e6c32f5d8 1029 micro-buildd_0.1.dsc
+ 9c2cf898a8f622b984969d40bf9a2942195781c95d4c0daf32ea5dbbc0eb1e28d53c3e5b07ae17e3b266793da7c6116d298811c246aecebfc7e12f7df6ad536d 18092 micro-buildd_0.1.tar.xz
+
 Package: osc++
 Format: 3.0 (native)
 Binary: libosc++, libosc++-dev

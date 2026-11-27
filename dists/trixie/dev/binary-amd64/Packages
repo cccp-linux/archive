@@ -5200,6 +5200,23 @@ SHA512: 02878623a4d01cdcc122827bf4c960a51b480b05ea1ae9f685288ab660c84bc62c70266c
 Homepage: https://devdocs.io
 Description: View devdocs offline in a terminal
 
+Package: micro-buildd
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: devel
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Installed-Size: 41
+Depends: python3-debian, python3:any, distro-info, dpkg-dev, gpg, lsb-release, mmdebstrap, reprepro, sbuild, uidmap
+Filename: pool/dev/micro-buildd/trixie/micro-buildd_0.1_all.deb
+Size: 8508
+MD5sum: e9aef4ba2f707e08e71306a63a4ed043
+SHA1: 1a6dbb91f98804eaea24b3b9cce1679a5dbf7ce3
+SHA256: 6533805094fc771ec80d8d68f44a9f61d9f677b67e2371991ba63609de5f0e6f
+SHA512: 43a579b0a7ba65d4cb9e24be03d95a028596bc0d4f8fffe7b1c0c9d4f4540ea92bfaf5ac79dc39bc44a7c78fe603ac56b19b2300e692f483ecc591900baf10c9
+Description: Micro-build Daemon
+ Very basic auto-builder for Debian packages.
+
 Package: libosc++-dev
 Architecture: amd64
 Version: 2.1
